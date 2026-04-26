@@ -1,0 +1,30 @@
+﻿{
+  "Blocks": [],
+  "Caption": "$CardTypes_TypesNames_WfResolutionProject",
+  "CardTypeSections": [],
+  "CompletionOptions": [
+    {
+      "Flags::int": 1,
+      "FormName": null,
+      "Order::int": 0,
+      "TypeID::uid": "2582b66f-375a-0d59-ae86-a149309c5785",
+      "Validators": []
+    }
+  ],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 544,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "Interval::int": 10
+  },
+  "Group": "Wf",
+  "ID::uid": "c989d91f-7ddd-455c-ae16-3bb380132ba8",
+  "InstanceType::int": 2,
+  "Name": "WfResolutionProject",
+  "SchemeItems": [],
+  "TabCaption": null,
+  "TabOrder::int": 0,
+  "Validators": []
+}

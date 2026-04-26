@@ -1,0 +1,289 @@
+﻿{
+  "Blocks": [
+    {
+      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+      "BlockSettings": {
+        "AlwaysMultipleColumn": false,
+        "CollapsedByDefault": false,
+        "ColumnsCount::int": 1,
+        "DoNotCollapseWithTopBlock": false,
+        "HorizontalInterval::int": 5,
+        "IsHidden": false,
+        "VerticalInterval::int": 5
+      },
+      "Caption": "Block1",
+      "Controls": [
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "$CardTypes_Controls_ProcessManagementMode",
+          "ComplexColumnID::uid": "5ae8fab2-b309-4c55-bf9a-6fd42f00229f",
+          "ControlSettings": {
+            "ComboBoxMode": true,
+            "ExtendendLocalization": false,
+            "HideSelectorButton": true,
+            "IsAllowOpenRefs": false,
+            "ManualInput": false,
+            "ManualInputColumnID": null,
+            "MaxResultsCount::int": 15,
+            "ParameterAlias": "Name",
+            "RefSection": null,
+            "SearchDelay": null,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "ViewAlias": "KrForkManagementStageTypeModes",
+            "ViewAliasComboBox": "KrForkManagementStageTypeModes",
+            "ViewMap": null,
+            "ViewReferencePrefix": "Ref"
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": "[RuntimeReadonly]",
+          "Order::int": 0,
+          "PhysicalColumnIDList": [],
+          "RequiredText": null,
+          "SectionID::uid": "c6397b27-d2a4-4b67-9450-7bb19a69fbbf",
+          "ToolTip": null,
+          "Type::uid": "208e364e-94fe-0d64-bc27-6b4dc12d039c"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": true,
+            "HideCaption": false
+          },
+          "Caption": "$CardTypes_Controls_SecondaryProcesses",
+          "Columns": [
+            {
+              "AggregationFormat": null,
+              "Alignment::int": 0,
+              "Caption": "Reference",
+              "ComplexColumnID::uid": "b7898dcf-9bc9-46c7-a8f4-b79f5e0f046d",
+              "DisplayFormat": null,
+              "Flags::int": 0,
+              "HeaderAlignment::int": 2,
+              "MaxLength": null,
+              "Order::int": 0,
+              "OwnedComplexColumnID": null,
+              "OwnedOrderColumnID": null,
+              "OwnedPhysicalColumnIDList": [],
+              "OwnedSectionID": null,
+              "PhysicalColumnIDList": [],
+              "SelectableControlName": null,
+              "Separator": null,
+              "ToolTipLineLength::int": 100
+            }
+          ],
+          "ControlSettings": {
+            "ExtendendLocalization": false,
+            "HideSelectorButton": false,
+            "IsAllowOpenRefs": true,
+            "LineBreakSetting": false,
+            "ManualInput": false,
+            "ManualInputColumnID": null,
+            "MaxResultsCount::int": 15,
+            "OrderColumnID": null,
+            "ParameterAlias": "SecondaryProcessNameParam",
+            "RefSection": "KrSecondaryProcess",
+            "SearchDelay": null,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "ViewAlias": "KrSecondaryProcesses",
+            "ViewMap": null,
+            "ViewReferencePrefix": null
+          },
+          "ControlType::int": 1,
+          "Flags::int": 0,
+          "Form": null,
+          "Name": "[RuntimeReadonly]",
+          "Order::int": 1,
+          "RequiredText": null,
+          "SectionID::uid": "08119dad-4504-49f5-8273-a1851cc4a0d0",
+          "ToolTip": null,
+          "Type::uid": "5d95340a-0f22-0d14-b9d2-a5471f607261"
+        },
+        {
+          "BlockSettings": {
+            "CaptionStyle": {
+              "TextColor": "#FF505050",
+              "TextStyle": {
+                "SelectedFontFamily": "Segoe UI",
+                "SelectedFontSize::dbl": 12.0,
+                "SelectedFontStretch": "Normal",
+                "SelectedFontStyle": "Normal",
+                "SelectedFontWeight": "Normal",
+                "SelectedTextBaseline": false,
+                "SelectedTextOverLine": false,
+                "SelectedTextStrikethrough": false,
+                "SelectedTextUnderline": false
+              }
+            },
+            "ColumnSpan::int": 1,
+            "ControlSpan": true,
+            "EmptyColumnsToTheLeft::int": 0,
+            "HideCaption": true,
+            "HorizontalAlignment::int": 3,
+            "Margin": "0,0,0,0",
+            "MaxWidth::dbl": 0.0,
+            "MinWidth::dbl": 0.0,
+            "StartAtNewLine": false,
+            "VerticalAlignment::int": 3
+          },
+          "Caption": "$CardTypes_Controls_SecondaryProcesses",
+          "ControlSettings": {
+            "Bakground": "#FFF7F7F7",
+            "BorderColor": "#FFABADB3",
+            "BorderThiknes::dbl": 1.0,
+            "CornerRadius::dbl": 0.0,
+            "Hyperlink": false,
+            "LinkCommand": "",
+            "Padding": "5,3,5,3",
+            "Text": "$CardTypes_Controls_ForkSecondaryProcessesWarning",
+            "TextColor": "#FF383838",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI, ./Fonts/#Open Sans",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            }
+          },
+          "ControlType::int": 3,
+          "Flags::int": 0,
+          "Name": "[DesignTime]",
+          "Order::int": 2,
+          "RequiredText": null,
+          "ToolTip": null,
+          "Type::uid": "057d966f-52de-01e3-8a11-1b6e91221e9b"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": true
+          },
+          "Caption": "$CardTypes_Controls_ManagePrimaryProcess",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            }
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": "[RuntimeReadonly]",
+          "Order::int": 3,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "ef67f11a-2d8b-43a5-b5f0-fee67a95296f"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "c6397b27-d2a4-4b67-9450-7bb19a69fbbf",
+          "ToolTip": null,
+          "Type::uid": "79633881-a684-010a-b1ea-027d714bda5d"
+        }
+      ],
+      "FormSettings": {
+        "HideCaption": true
+      },
+      "Name": "Block1",
+      "Order::int": 0
+    }
+  ],
+  "Caption": "$KrStages_ForkManagement",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 144,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "Interval::int": 10
+  },
+  "Group": "KrProcess",
+  "ID::uid": "9393407b-d4ff-408b-abbc-de7ce148ea54",
+  "InstanceType::int": 0,
+  "Name": "KrForkManagementStageTypeSettings",
+  "SchemeItems": [
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "b7898dcf-9bc9-46c7-a8f4-b79f5e0f046d"
+      ],
+      "SectionID::uid": "08119dad-4504-49f5-8273-a1851cc4a0d0"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid",
+            "uid",
+            "uid"
+          ]
+        },
+        "5ae8fab2-b309-4c55-bf9a-6fd42f00229f",
+        "ef67f11a-2d8b-43a5-b5f0-fee67a95296f",
+        "b8ce95ec-2baa-4336-8ec6-01ec44519248"
+      ],
+      "SectionID::uid": "c6397b27-d2a4-4b67-9450-7bb19a69fbbf"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "65ed31aa-bcf4-48d3-8a8c-d35e07c77c15"
+      ],
+      "SectionID::uid": "e8f3015f-4085-4df8-bafb-4c5b466965c0"
+    }
+  ],
+  "TabCaption": "$CardTypes_Tabs_Card",
+  "TabOrder::int": 0,
+  "Validators": []
+}

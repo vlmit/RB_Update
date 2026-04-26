@@ -1,0 +1,190 @@
+﻿{
+  "Blocks": [
+    {
+      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+      "BlockSettings": {
+        "AlwaysMultipleColumn": false,
+        "CollapsedByDefault": false,
+        "ColumnsCount::int": 1,
+        "DoNotCollapseWithTopBlock": false,
+        "HorizontalInterval::int": 5,
+        "IsHidden": false,
+        "VerticalInterval::int": 5
+      },
+      "Caption": "PerformersBlock",
+      "Controls": [
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "$UI_KrPerformersSettings_Performer",
+          "ComplexColumnID::uid": "696d6497-fce8-494e-9262-0e74d9712d93",
+          "ControlSettings": {
+            "ComboBoxMode": false,
+            "ExtendendLocalization": true,
+            "HideSelectorButton": false,
+            "IsAllowOpenRefs": true,
+            "ManualInput": false,
+            "ManualInputColumnID": null,
+            "MaxResultsCount::int": 15,
+            "ParameterAlias": "Name",
+            "RefSection": null,
+            "SearchDelay": null,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "ViewAlias": "Roles",
+            "ViewAliasComboBox": "",
+            "ViewMap": null,
+            "ViewReferencePrefix": null
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": "SinglePerformerEntryAC",
+          "Order::int": 0,
+          "PhysicalColumnIDList": [],
+          "RequiredText": null,
+          "SectionID::uid": "52b86f8c-bc19-4dee-8e53-54236bf951a6",
+          "ToolTip": null,
+          "Type::uid": "208e364e-94fe-0d64-bc27-6b4dc12d039c"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": true,
+            "HideCaption": false
+          },
+          "Caption": "$UI_KrPerformersSettings_Performers",
+          "Columns": [
+            {
+              "AggregationFormat": null,
+              "Alignment::int": 0,
+              "Caption": "Reference",
+              "ComplexColumnID::uid": "31932138-ddd4-465f-aca0-d27afb395516",
+              "DisplayFormat": null,
+              "Flags::int": 0,
+              "HeaderAlignment::int": 2,
+              "MaxLength": null,
+              "Order::int": 0,
+              "OwnedComplexColumnID": null,
+              "OwnedOrderColumnID": null,
+              "OwnedPhysicalColumnIDList": [],
+              "OwnedSectionID": null,
+              "PhysicalColumnIDList": [],
+              "SelectableControlName": null,
+              "Separator": null,
+              "ToolTipLineLength::int": 100
+            }
+          ],
+          "ControlSettings": {
+            "ExtendendLocalization": true,
+            "HideSelectorButton": false,
+            "IsAllowOpenRefs": true,
+            "LineBreakSetting": false,
+            "ManualInput": false,
+            "ManualInputColumnID": null,
+            "MaxResultsCount::int": 15,
+            "OrderColumnID::uid": "3563cacf-718a-43ed-ad1d-837a4d59f0b2",
+            "ParameterAlias": "Name",
+            "PopupColumnLengths": "1, 1",
+            "PopupColumnsIndexes": "1, 3",
+            "PopupScreenLengthPercent::int": 50,
+            "RefSection": null,
+            "SearchDelay": null,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI, ./Fonts/#Open Sans",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "ViewAlias": "Roles",
+            "ViewMap": null,
+            "ViewReferencePrefix": null
+          },
+          "ControlType::int": 1,
+          "Flags::int": 0,
+          "Form": {
+            "Blocks": [],
+            "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+            "FormSettings": null
+          },
+          "Name": "MultiplePerformersTableAC",
+          "Order::int": 1,
+          "RequiredText": null,
+          "SectionID::uid": "b47d668e-7bf0-4165-a10c-6fe22ee10882",
+          "ToolTip": null,
+          "Type::uid": "5d95340a-0f22-0d14-b9d2-a5471f607261"
+        }
+      ],
+      "FormSettings": {
+        "HideCaption": true
+      },
+      "Name": "PerformersBlock",
+      "Order::int": 0
+    }
+  ],
+  "Caption": "KrPerformersSettings",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 144,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "Interval::int": 10
+  },
+  "Group": "KrProcess",
+  "ID::uid": "5ac67186-b62b-4dc4-b9b9-e74d18f53600",
+  "InstanceType::int": 0,
+  "Name": "KrPerformersSettings",
+  "SchemeItems": [
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "696d6497-fce8-494e-9262-0e74d9712d93"
+      ],
+      "SectionID::uid": "52b86f8c-bc19-4dee-8e53-54236bf951a6"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid",
+            "uid",
+            "uid",
+            "uid"
+          ]
+        },
+        "31932138-ddd4-465f-aca0-d27afb395516",
+        "9f79210b-104e-4a99-898f-0df27a23d8f5",
+        "3563cacf-718a-43ed-ad1d-837a4d59f0b2",
+        "3b9c9ce2-6130-47e3-a1b3-128d70d9959f"
+      ],
+      "SectionID::uid": "b47d668e-7bf0-4165-a10c-6fe22ee10882"
+    }
+  ],
+  "TabCaption": "$CardTypes_Tabs_Card",
+  "TabOrder::int": 0,
+  "Validators": []
+}

@@ -1,0 +1,148 @@
+{
+  "Alias": "KrActionTypes",
+  "Caption": "KrActionTypes",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Kr Wf",
+  "ID::uid": "73ad84ae-84b6-4292-b496-5bf63cf9033e",
+  "JsonMetadataSource::txt": "KrActionTypes JSONMETA",
+  "MsQuerySource::txt": "KrActionTypes MSSQL",
+  "PgQuerySource::txt": "KrActionTypes PGSQL",
+  "Roles": null
+}
+
+[TEXTPART KrActionTypes JSONMETA]
+{
+  "Alias": "KrActionTypes",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "KrActionTypes",
+  "Columns": [
+    {
+      "Alias": "RefID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int32"
+    },
+    {
+      "Alias": "RefName",
+      "Appearance": null,
+      "Caption": "RefName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "text"
+    },
+    {
+      "Alias": "RefEventType",
+      "Appearance": null,
+      "Caption": "RefEventType",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "text"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Name",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Ref",
+      "Condition": null,
+      "DisplayValueColumn": "RefName",
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "KrActionTypes"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART KrActionTypes MSSQL]
+SELECT
+	[a].[ID]		AS [RefID],
+	[a].[Name]		AS [RefName],
+	[a].[EventType]	AS [RefEventType]
+FROM [KrActionTypes] AS [a] WITH (NOLOCK)
+#if(Name) {
+CROSS APPLY [Localization]([a].[Name], #param(locale)) AS [l]
+}
+WHERE 1 = 1
+	#param(Name, [l].[Value])
+ORDER BY [a].[ID]
+
+[TEXTPART KrActionTypes PGSQL]
+SELECT
+	"a"."ID"		AS "RefID",
+	"a"."Name"		AS "RefName",
+	"a"."EventType"	AS "RefEventType"
+FROM "KrActionTypes" AS "a"
+#if(Name) {
+CROSS JOIN "Localization"("a"."Name", #param(locale)) AS "l"
+}
+WHERE true
+	#param(Name, "l"."Value")
+ORDER BY "a"."ID"

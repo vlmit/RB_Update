@@ -1,0 +1,113 @@
+{
+  "Alias": "WorkflowEngineCompiledBaseTypes",
+  "Caption": "Базовые классы для процесса",
+  "Description": "Данное представление обрабатывается серверным расширением WorkflowEngineTileManagerExtendersViewInterceptor",
+  "FormatVersion::int": 1,
+  "GroupName": "WorkflowEngine",
+  "ID::uid": "d3ba4765-6a54-465e-8803-323050fd951e",
+  "JsonMetadataSource::txt": "WorkflowEngineCompiledBaseTypes JSONMETA",
+  "MsQuerySource::txt": "WorkflowEngineCompiledBaseTypes MSSQL",
+  "PgQuerySource::txt": "WorkflowEngineCompiledBaseTypes PGSQL",
+  "Roles": null
+}
+
+[TEXTPART WorkflowEngineCompiledBaseTypes JSONMETA]
+{
+  "Alias": "WorkflowEngineCompiledBaseTypes",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Базовые классы для процесса",
+  "Columns": [
+    {
+      "Alias": "TypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "TypeName",
+      "Appearance": null,
+      "Caption": "$Views_WorkflowEngineCompiledBaseTypes_Name",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": true,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_WorkflowEngineCompiledBaseTypes_Name_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Type",
+      "Condition": null,
+      "DisplayValueColumn": "TypeName",
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "WorkflowEngineCompiledBaseTypes"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART WorkflowEngineCompiledBaseTypes MSSQL]
+
+
+[TEXTPART WorkflowEngineCompiledBaseTypes PGSQL]

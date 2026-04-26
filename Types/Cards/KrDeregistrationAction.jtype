@@ -1,0 +1,24 @@
+﻿{
+  "Blocks": [],
+  "Caption": "$KrActions_Deregistration",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 16,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "FilePreviewIsDisabled": false,
+    "HorizontalInterval::int": 10,
+    "Interval::int": 10
+  },
+  "Group": "WorkflowActions",
+  "ID::uid": "94e91c8c-1336-4c04-87c5-11ceb9839de3",
+  "InstanceType::int": 0,
+  "Name": "KrDeregistrationAction",
+  "SchemeItems": [],
+  "TabCaption": "$CardTypes_Tabs_Card",
+  "TabOrder::int": 0,
+  "Validators": []
+}

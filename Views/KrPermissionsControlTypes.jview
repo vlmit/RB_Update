@@ -1,0 +1,137 @@
+{
+  "Alias": "KrPermissionsControlTypes",
+  "Caption": "Типы контрола",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Kr Wf",
+  "ID::uid": "8053d28d-666a-4997-b0ef-aff1298c4aaf",
+  "JsonMetadataSource::txt": "KrPermissionsControlTypes JSONMETA",
+  "MsQuerySource::txt": "KrPermissionsControlTypes MSSQL",
+  "PgQuerySource::txt": "KrPermissionsControlTypes PGSQL",
+  "Roles": null
+}
+
+[TEXTPART KrPermissionsControlTypes JSONMETA]
+{
+  "Alias": "KrPermissionsControlTypes",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Типы контрола",
+  "Columns": [
+    {
+      "Alias": "ControlTypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionsControlTypes.ID"
+    },
+    {
+      "Alias": "ControlTypeName",
+      "Appearance": null,
+      "Caption": "$Views_KrPermissionsControlTypes_Name",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "lName.Value",
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionsControlTypes.Name"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "ControlTypeName",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_KrPermissionsControlTypes_Name_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionsControlTypes.Name"
+    }
+  ],
+  "QuickSearchParam": "Name",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "ControlType",
+      "Condition": null,
+      "DisplayValueColumn": "ControlTypeName",
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "KrPermissionsControlTypes"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART KrPermissionsControlTypes MSSQL]
+SELECT
+	[s].[ID]		AS [ControlTypeID],
+	[s].[Name]		AS [ControlTypeName]
+FROM [KrPermissionsControlTypes] AS [s] WITH (NOLOCK)
+#if(Name || request.SortedBy("ControlTypeName")) {
+CROSS APPLY [Localization]([s].[Name], #param(locale)) AS [lName]
+}
+WHERE 1 = 1
+	#param(Name, [lName].[Value])
+ORDER BY #order_by
+
+[TEXTPART KrPermissionsControlTypes PGSQL]
+SELECT
+	"s"."ID"		AS "ControlTypeID",
+	"s"."Name"		AS "ControlTypeName"
+FROM "KrPermissionsControlTypes" AS "s"
+#if(Name || request.SortedBy("ControlTypeName")) {
+CROSS JOIN "Localization"("s"."Name", #param(locale)) AS "lName"
+}
+WHERE true
+	#param(Name, "lName"."Value")
+ORDER BY #order_by

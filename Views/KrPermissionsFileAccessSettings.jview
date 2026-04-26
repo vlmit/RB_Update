@@ -1,0 +1,139 @@
+{
+  "Alias": "KrPermissionsFileAccessSettings",
+  "Caption": "Настройки доступа к файлам",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Kr Wf",
+  "ID::uid": "e8b1f86f-b19e-426f-8703-d87359d75c32",
+  "JsonMetadataSource::txt": "KrPermissionsFileAccessSettings JSONMETA",
+  "MsQuerySource::txt": "KrPermissionsFileAccessSettings MSSQL",
+  "PgQuerySource::txt": "KrPermissionsFileAccessSettings PGSQL",
+  "Roles": null
+}
+
+[TEXTPART KrPermissionsFileAccessSettings JSONMETA]
+{
+  "Alias": "KrPermissionsFileAccessSettings",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Настройки доступа к файлам",
+  "Columns": [
+    {
+      "Alias": "AccessSettingID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionsFileAccessSettings.ID"
+    },
+    {
+      "Alias": "AccessSettingName",
+      "Appearance": null,
+      "Caption": "$Views_KrPermissionsFileAccessSettings_Name",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "lName.Value",
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionsFileAccessSettings.Name"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "AccessSettingName",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_KrPermissionsFileAccessSettings_Name_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionsFileAccessSettings.Name"
+    }
+  ],
+  "QuickSearchParam": "Name",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "AccessSetting",
+      "Condition": null,
+      "DisplayValueColumn": "AccessSettingName",
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "KrPermissionsFileAccessSettings"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART KrPermissionsFileAccessSettings MSSQL]
+SELECT
+	[s].[ID]		AS [AccessSettingID],
+	[s].[Name]		AS [AccessSettingName]
+FROM [KrPermissionsFileAccessSettings] AS [s] WITH (NOLOCK)
+#if(Name || request.SortedBy("AccessSettingName")) {
+CROSS APPLY [Localization]([s].[Name], #param(locale)) AS [lName]
+}
+WHERE 1 = 1
+	#param(Name, [lName].[Value])
+	
+ORDER BY #order_by
+
+[TEXTPART KrPermissionsFileAccessSettings PGSQL]
+SELECT
+	"s"."ID"		AS "AccessSettingID",
+	"s"."Name"		AS "AccessSettingName"
+FROM "KrPermissionsFileAccessSettings" AS "s"
+#if(Name || request.SortedBy("AccessSettingName")) {
+CROSS JOIN "Localization"("s"."Name", #param(locale)) AS "lName"
+}
+WHERE true
+	#param(Name, "lName"."Value")
+	
+ORDER BY #order_by

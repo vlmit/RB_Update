@@ -1,0 +1,651 @@
+﻿{
+  "ID": "b87fbe9c-2a94-4aae-8364-dde0cd1001b4",
+  "Name": "ApprovalHistory",
+  "Priority": 0,
+  "Entries": [
+    {
+      "Name": "ApprovalHistory_ActiveTasks",
+      "Comment": "Наименование таблицы текущих заданий",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Active tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Текущие задания"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_AdditionalApproval",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Additional approval"
+        },
+        {
+          "Culture": 25,
+          "Value": "Доп. согласование"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_Approval",
+      "Comment": "Наименование группы строк",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approval"
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласование"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_ApprovalCycle",
+      "Comment": "Наименование группы строк по циклу согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approval cycle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласование - цикл"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_ApprovalProcessCancelled",
+      "Comment": "Запись в истории - процесс согласования был отменен",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process is cancelled"
+        },
+        {
+          "Culture": 25,
+          "Value": "Процесс отменён"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_ApprovalProcessRebuilded",
+      "Comment": "Запись в истории - документ был возвращен на доработку",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Document is returned for revision"
+        },
+        {
+          "Culture": 25,
+          "Value": "Документ возвращен на доработку"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_ApprovalProcessRebuildedNotApproved",
+      "Comment": "Запись в истории - документ возвращен на доработку (не согласован)",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Document is returned for revision (not approved)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Документ возвращен на доработку (не согласован)"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_ApprovalProcessRevoked",
+      "Comment": "Запись в истории - согласование было отозвано",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process is revoked"
+        },
+        {
+          "Culture": 25,
+          "Value": "Процесс отозван"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_Comment",
+      "Comment": "Колонка таблицы завершенных заданий - комментарий",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Comment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Комментарий"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_CompletedAt",
+      "Comment": "Колонка таблицы завершенных заданий - время завершения заданий",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Completed at"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исполнено"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_ConditionType_Description",
+      "Comment": "Описание типа условия для проверки доступа к листу согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Defines the visibility of the approval history"
+        },
+        {
+          "Culture": 25,
+          "Value": "Определяет видимость листа согласования"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_ConditionType_Name",
+      "Comment": "Имя типа условия для проверки доступа к листу согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Visibility of the approval history"
+        },
+        {
+          "Culture": 25,
+          "Value": "Видимость листа согласования"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_CreatedAt",
+      "Comment": "Колонка таблицы текущих заданий - дата и время создания задания",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Created at"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создано"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_CurrentPerformer",
+      "Comment": "Колонка таблицы текущих заданий - сотрудник, взявший задание в работу",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Current performer"
+        },
+        {
+          "Culture": 25,
+          "Value": "В работе у"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_Decision",
+      "Comment": "Колонка таблицы завершенных заданий - решение (опция завершения задания)",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Decision"
+        },
+        {
+          "Culture": 25,
+          "Value": "Решение"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_DocumentDeregistered",
+      "Comment": "Запись в истории - регистрация документа отменена",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Document registration is cancelled"
+        },
+        {
+          "Culture": 25,
+          "Value": "Регистрация документа отменена"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_DocumentRegistered",
+      "Comment": "Запись в истории - документ был зарегистрирован",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Document is registered"
+        },
+        {
+          "Culture": 25,
+          "Value": "Документ зарегистрирован"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_DocumentTitleNoDate",
+      "Comment": "Заголовок документа в листе согласования, когда у документа отсутствует дата создания.\n{0} - имя типа карточки или типа документа.\n{1} - текстовый номер документа.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} {1}"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_DocumentTitleWithDate",
+      "Comment": "Заголовок документа в листе согласования, когда у документа указана дата создания.\n{0} - имя типа карточки или типа документа.\n{1} - текстовый номер документа.\n{2} - дата создания документа.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} {1} of {2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} {1} от {2}"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_Employee",
+      "Comment": "Колонка таблицы завершенных заданий - сотрудник (исполнитель)",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Employee"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сотрудник"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_FileChanged",
+      "Comment": "Информация в строке таблицы завершенных заданий об изменении файла",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Modified file:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменён файл:"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_FileName_Default",
+      "Comment": "Название файла с полной версией листа согласования.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approval history.html"
+        },
+        {
+          "Culture": 25,
+          "Value": "Лист согласования.html"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_FileName_Printable",
+      "Comment": "Название файла с печатной версией листа согласования.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Printable approval history.html"
+        },
+        {
+          "Culture": 25,
+          "Value": "Печатный лист согласования.html"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_FilesChanged",
+      "Comment": "Информация в строке таблицы завершенных заданий об изменении файлов",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Modified files:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменены файлы:"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_From",
+      "Comment": "\"От\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "From"
+        },
+        {
+          "Culture": 25,
+          "Value": "С"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_Header",
+      "Comment": "Заголовок листа согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approval history"
+        },
+        {
+          "Culture": 25,
+          "Value": "Лист согласования"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_InProgressFrom",
+      "Comment": "Колонка таблицы текущих заданий - время взятия задания в работу",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "In progress from"
+        },
+        {
+          "Culture": 25,
+          "Value": "В работе с"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_Name_Default",
+      "Comment": "Название шаблона файла с полной версией листа согласования.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approval history"
+        },
+        {
+          "Culture": 25,
+          "Value": "Лист согласования"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_Name_Printable",
+      "Comment": "Название шаблона файла с печатной версией листа согласования.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Printable approval history"
+        },
+        {
+          "Culture": 25,
+          "Value": "Печатный лист согласования"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_OpenCard",
+      "Comment": "Ссылка в листе согласования, открывающая карточку, для которой лист был сформирован",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть карточку"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_ParentTaskIsCompleted",
+      "Comment": "Запись в истории - родительское задание было завершено.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Parent task is completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Родительское задание было завершено"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_ParentTaskReturnedToRole",
+      "Comment": "Запись в истории - родительское задание было возвращено на роль",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Parent task is returned to role"
+        },
+        {
+          "Culture": 25,
+          "Value": "Родительское задание было возвращено на роль"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_PrintableVersion",
+      "Comment": "Ссылка в листе согласования, открывающая версию для печати листа согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Printable version"
+        },
+        {
+          "Culture": 25,
+          "Value": "Версия для печати"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_ProcessContinuation",
+      "Comment": "Запись в истории - продолжение процесса согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Continuation of the process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Продолжение процесса"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_Received",
+      "Comment": "Колонка таблицы завершенных заданий - время получения задания",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Received"
+        },
+        {
+          "Culture": 25,
+          "Value": "Получено"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_Registration",
+      "Comment": "Наименование группы строк Регистрация",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Registration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Регистрация"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_Role",
+      "Comment": "Колонка таблиц завершенных и текущих заданий - роль, на которую назначено задание",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Role"
+        },
+        {
+          "Culture": 25,
+          "Value": "Роль"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_TaskCancelled",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task is cancelled"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание отменено"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_TaskCancelledBacauseCancelling",
+      "Comment": "Устарело! Нужно только для локализации старых записей в истории согласования\nЗапись в истории об отзыве задания в связи с отменой процесса согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task is cancelled because process was cancelled"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание отменено в связи с отменой процесса"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_TaskCancelledBacauseRevoking",
+      "Comment": "Устарело! Нужно только для локализации старых записей в истории согласования\nЗапись в истории о завершении задания в связи с отзывом процесса согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task is cancelled because process was revoked"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание отменено в связи с отзывом процесса"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_TaskCancelledBecauseRebuilding",
+      "Comment": "Устарело! Нужно только для локализации старых записей в истории согласования\nЗапись в истории об отзыве задания в связи с возвратом документа на доработку",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task is cancelled because document is returned for revision"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание отменено в связи с возвратом документа на доработку"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_TaskCancelledBecauseRegistration",
+      "Comment": "Устарело! Нужно только для локализации старых записей в истории согласования\nЗапись в истории об отмене задания в связи с регистрацией документа",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task is cancelled because document was registered"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание отменено в связи с регистрацией документа"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_TaskIsDelegated",
+      "Comment": "Запись в истории - задание делегировано на",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task is delegated to"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание делегировано на"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_TimeLeft",
+      "Comment": "Колонка таблицы текущих заданий - время, оставшееся до планируемых даты и времени завершения задания",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Time left"
+        },
+        {
+          "Culture": 25,
+          "Value": "До завершения"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_To",
+      "Comment": "\"По\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "To"
+        },
+        {
+          "Culture": 25,
+          "Value": "По"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovalHistory_WithoutApprovalCycle",
+      "Comment": "Наименование группы строк без цикла согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Without process cycle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Нет цикла процесса"
+        }
+      ]
+    }
+  ]
+}

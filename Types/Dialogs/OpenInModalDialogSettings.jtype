@@ -1,0 +1,168 @@
+﻿{
+  "Blocks": [],
+  "Caption": "$Cards_DefaultCaption",
+  "CardTypeSections": [
+    {
+      "Columns": [
+        {
+          "ColumnType::int": 0,
+          "DefaultValue": "False",
+          "Description": "Открывать на весь экран",
+          "ID::uid": "a5c4c13d-764e-41ba-b877-2e9fc927a70f",
+          "IsReference": false,
+          "IsReferencedToOwner": false,
+          "Name": "OpenInFullscreen",
+          "SchemeType": "Boolean Not Null"
+        },
+        {
+          "ColumnType::int": 0,
+          "DefaultValue": "False",
+          "Description": "Открывать только первую вкладку без заголовка.",
+          "ID::uid": "f0bee730-1f07-44d9-8159-67c2da1056f9",
+          "IsReference": false,
+          "IsReferencedToOwner": false,
+          "Name": "OpenOnlyFirstTab",
+          "SchemeType": "Boolean Not Null"
+        }
+      ],
+      "Description": null,
+      "ID::uid": "ad8203db-107a-4680-8ebe-d0ed840e47aa",
+      "Name": "OpenInDialogSettings",
+      "TableType::int": 1
+    }
+  ],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 16,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [
+    {
+      "Blocks": [
+        {
+          "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+          "BlockSettings": {
+            "AlwaysMultipleColumn": false,
+            "CollapsedByDefault": false,
+            "ColumnsCount::int": 1,
+            "DoNotCollapseWithTopBlock": false,
+            "HorizontalInterval::int": 5,
+            "IsHidden": false,
+            "LeftCaptions": false,
+            "StretchVertically": false,
+            "VerticalInterval::int": 5
+          },
+          "Caption": "MainBlock",
+          "Controls": [
+            {
+              "BlockSettings": {
+                "ControlSpan": false,
+                "HideCaption": true
+              },
+              "Caption": "$OpenInModalDialogSettings_OpenInFullscreen",
+              "ComplexColumnID": null,
+              "ControlSettings": {
+                "HelpMode::int": 0,
+                "HelpValue": null,
+                "TextColor": "#FF000000",
+                "TextStyle": {
+                  "SelectedFontFamily": "Segoe UI",
+                  "SelectedFontSize::dbl": 12.0,
+                  "SelectedFontStretch": "Normal",
+                  "SelectedFontStyle": "Normal",
+                  "SelectedFontWeight": "Normal",
+                  "SelectedTextBaseline": false,
+                  "SelectedTextOverLine": false,
+                  "SelectedTextStrikethrough": false,
+                  "SelectedTextUnderline": false
+                }
+              },
+              "ControlType::int": 0,
+              "DisplayFormat": null,
+              "Flags::int": 0,
+              "Name": "OpenInFullscreen",
+              "Order::int": 0,
+              "PhysicalColumnIDList": [
+                {
+                  "::types": [
+                    "uid"
+                  ]
+                },
+                "a5c4c13d-764e-41ba-b877-2e9fc927a70f"
+              ],
+              "RequiredText": null,
+              "SectionID::uid": "ad8203db-107a-4680-8ebe-d0ed840e47aa",
+              "ToolTip": null,
+              "Type::uid": "79633881-a684-010a-b1ea-027d714bda5d"
+            },
+            {
+              "BlockSettings": {
+                "ControlSpan": false,
+                "HideCaption": true
+              },
+              "Caption": "$OpenInModalDialogSettings_OpenFirstTab",
+              "ComplexColumnID": null,
+              "ControlSettings": {
+                "HelpMode::int": 0,
+                "HelpValue": null,
+                "TextColor": "#FF000000",
+                "TextStyle": {
+                  "SelectedFontFamily": "Segoe UI",
+                  "SelectedFontSize::dbl": 12.0,
+                  "SelectedFontStretch": "Normal",
+                  "SelectedFontStyle": "Normal",
+                  "SelectedFontWeight": "Normal",
+                  "SelectedTextBaseline": false,
+                  "SelectedTextOverLine": false,
+                  "SelectedTextStrikethrough": false,
+                  "SelectedTextUnderline": false
+                }
+              },
+              "ControlType::int": 0,
+              "DisplayFormat": null,
+              "Flags::int": 0,
+              "Name": "OpenOnlyFirstTab",
+              "Order::int": 1,
+              "PhysicalColumnIDList": [
+                {
+                  "::types": [
+                    "uid"
+                  ]
+                },
+                "f0bee730-1f07-44d9-8159-67c2da1056f9"
+              ],
+              "RequiredText": null,
+              "SectionID::uid": "ad8203db-107a-4680-8ebe-d0ed840e47aa",
+              "ToolTip": null,
+              "Type::uid": "79633881-a684-010a-b1ea-027d714bda5d"
+            }
+          ],
+          "FormSettings": {
+            "HideCaption": true
+          },
+          "Name": "MainBlock",
+          "Order::int": 0
+        }
+      ],
+      "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+      "FormSettings": {
+        "HelpMode::int": 0,
+        "HelpValue": null,
+        "HorizontalInterval::int": 10,
+        "Interval::int": 10
+      },
+      "Name": "MainForm",
+      "TabCaption": "$CardTypes_OpenInModalDialogSettings",
+      "TabOrder::int": 0
+    }
+  ],
+  "FormSettings": null,
+  "Group": "System",
+  "ID::uid": "57493ed6-316b-4fb9-b85e-2b931e022640",
+  "InstanceType::int": 3,
+  "Name": "OpenInModalDialogSettings",
+  "SchemeItems": [],
+  "TabCaption": null,
+  "TabOrder::int": 0,
+  "Validators": []
+}

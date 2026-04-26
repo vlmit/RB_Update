@@ -1,0 +1,167 @@
+{
+  "Alias": "BarcodeTypes",
+  "Caption": "Типы штрих-кодов",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "System",
+  "ID::uid": "f92af4c2-e862-4469-9e44-5c96e650e349",
+  "JsonMetadataSource::txt": "BarcodeTypes JSONMETA",
+  "MsQuerySource::txt": "BarcodeTypes MSSQL",
+  "PgQuerySource::txt": "BarcodeTypes PGSQL",
+  "Roles": null
+}
+
+[TEXTPART BarcodeTypes JSONMETA]
+{
+  "Alias": "BarcodeTypes",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Типы штрих-кодов",
+  "Columns": [
+    {
+      "Alias": "BarcodeTypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$BarcodeTypes.ID"
+    },
+    {
+      "Alias": "BarcodeTypeName",
+      "Appearance": null,
+      "Caption": "$Views_BarcodeTypes_Name",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "l.Name",
+      "TreatValueAsUtc": false,
+      "Type": "$BarcodeTypes.Name"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "BarcodeTypeName",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "NameParam",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_BarcodeTypes_Name_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "CanScanParam",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "CanScan",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$BarcodeTypes.CanScan"
+    },
+    {
+      "Alias": "CanPrintParam",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "CanPrint",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$BarcodeTypes.CanPrint"
+    }
+  ],
+  "QuickSearchParam": "NameParam",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "BarcodeType",
+      "Condition": null,
+      "DisplayValueColumn": "BarcodeTypeName",
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "BarcodeTypes"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART BarcodeTypes MSSQL]
+SELECT
+	[l].[ID]		AS [BarcodeTypeID],
+	[l].[Name]		AS [BarcodeTypeName]
+FROM [BarcodeTypes] AS [l] WITH (NOLOCK)
+WHERE 1 = 1
+	#param(NameParam, [l].[Name])
+	#param(CanScanParam, [l].[CanScan])
+	#param(CanPrintParam, [l].[CanPrint])
+ORDER BY #order_by
+
+[TEXTPART BarcodeTypes PGSQL]
+SELECT
+	"l"."ID"		AS "BarcodeTypeID",
+	"l"."Name"		AS "BarcodeTypeName"
+FROM "BarcodeTypes" AS "l"
+WHERE true
+	#param(NameParam, "l"."Name")
+	#param(CanScanParam, "l"."CanScan")
+	#param(CanPrintParam, "l"."CanPrint")
+ORDER BY #order_by

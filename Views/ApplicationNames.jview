@@ -1,0 +1,133 @@
+{
+  "Alias": "ApplicationNames",
+  "Caption": "Названия приложений",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "System",
+  "ID::uid": "1e314e13-904d-491d-93fb-d9f2f912498e",
+  "JsonMetadataSource::txt": "ApplicationNames JSONMETA",
+  "MsQuerySource::txt": "ApplicationNames MSSQL",
+  "PgQuerySource::txt": "ApplicationNames PGSQL",
+  "Roles": null
+}
+
+[TEXTPART ApplicationNames JSONMETA]
+{
+  "Alias": "ApplicationNames",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Названия приложений",
+  "Columns": [
+    {
+      "Alias": "RefID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$ApplicationNames.ID"
+    },
+    {
+      "Alias": "RefName",
+      "Appearance": null,
+      "Caption": "$Views_ApplicationNames_Name",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "l.Value",
+      "TreatValueAsUtc": false,
+      "Type": "$ApplicationNames.Name"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "RefName",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_ApplicationNames_Name_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Ref",
+      "Condition": null,
+      "DisplayValueColumn": "RefName",
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "ApplicationNames"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART ApplicationNames MSSQL]
+SELECT
+	[t].[ID]		AS [RefID],
+	[t].[Name]		AS [RefName]
+FROM [ApplicationNames] AS [t] WITH (NOLOCK)
+CROSS APPLY [Localization]([t].[Name], #param(locale)) AS [l]
+WHERE 1 = 1
+	#param(Name, [l].[Value])
+ORDER BY #order_by
+
+[TEXTPART ApplicationNames PGSQL]
+SELECT
+	"t"."ID"		AS "RefID",
+	"t"."Name"		AS "RefName"
+FROM "ApplicationNames" AS "t"
+CROSS JOIN "Localization"("t"."Name", #param(locale)) AS "l"
+WHERE true
+	#param(Name, "l"."Value")
+ORDER BY #order_by

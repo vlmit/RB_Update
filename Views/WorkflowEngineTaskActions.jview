@@ -1,0 +1,130 @@
+{
+  "Alias": "WorkflowEngineTaskActions",
+  "Caption": "Действия над заданием",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "WorkflowEngine",
+  "ID::uid": "c39c3de3-6448-4c35-8978-4b385ca6a647",
+  "JsonMetadataSource::txt": "WorkflowEngineTaskActions JSONMETA",
+  "MsQuerySource::txt": "WorkflowEngineTaskActions MSSQL",
+  "PgQuerySource::txt": "WorkflowEngineTaskActions PGSQL",
+  "Roles": null
+}
+
+[TEXTPART WorkflowEngineTaskActions JSONMETA]
+{
+  "Alias": "WorkflowEngineTaskActions",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Действия над заданием",
+  "Columns": [
+    {
+      "Alias": "TaskActionID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$WorkflowEngineTaskActions.ID"
+    },
+    {
+      "Alias": "TaskActionName",
+      "Appearance": null,
+      "Caption": "$Views_WorkflowEngineTaskActions_Name",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$WorkflowEngineTaskActions.Name"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_WorkflowEngineTaskActions_Name_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$WorkflowEngineTaskActions.Name"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "TaskAction",
+      "Condition": null,
+      "DisplayValueColumn": "TaskActionName",
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "WorkflowEngineTaskActions"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART WorkflowEngineTaskActions MSSQL]
+SELECT
+	[ta].[ID] as [TaskActionID]
+	,[ta].[Name] as [TaskActionName]
+FROM [WorkflowEngineTaskActions] [ta] WITH(NOLOCK)
+#if(Name || request.SortedBy("TaskActionName")) {
+CROSS APPLY [Localization]([ta].[Name], #param(locale)) AS [lName]
+}
+WHERE 1 = 1
+	#param(Name, [lName].[Value])
+
+[TEXTPART WorkflowEngineTaskActions PGSQL]
+SELECT
+	"ta"."ID" as "TaskActionID"
+	,"ta"."Name" as "TaskActionName"
+FROM "WorkflowEngineTaskActions" "ta"
+#if(Name || request.SortedBy("TaskActionName")) {
+CROSS JOIN "Localization"("ta"."Name", #param(locale)) AS "lName"
+}
+WHERE true
+	#param(Name, "lName"."Value")

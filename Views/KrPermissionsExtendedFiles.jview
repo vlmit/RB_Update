@@ -1,0 +1,399 @@
+{
+  "Alias": "KrPermissionsExtendedFiles",
+  "Caption": "Расширенные настройки доступа к файлам",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Kr Wf",
+  "ID::uid": "76a033f1-404b-4dee-9305-9cc8bf8c22f0",
+  "JsonMetadataSource::txt": "KrPermissionsExtendedFiles JSONMETA",
+  "MsQuerySource::txt": "KrPermissionsExtendedFiles MSSQL",
+  "PgQuerySource::txt": "KrPermissionsExtendedFiles PGSQL",
+  "Roles": null
+}
+
+[TEXTPART KrPermissionsExtendedFiles JSONMETA]
+{
+  "Alias": "KrPermissionsExtendedFiles",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Расширенные настройки доступа к файлам",
+  "Columns": [
+    {
+      "Alias": "KrPermissionsID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissions.ID"
+    },
+    {
+      "Alias": "KrPermissionsCaption",
+      "Appearance": null,
+      "Caption": "$Views_KrPermissionsExtendedFiles_AccessRule",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Caption",
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissions.Caption"
+    },
+    {
+      "Alias": "KrPermissionsExtensions",
+      "Appearance": null,
+      "Caption": "$Views_KrPermissionsExtendedFiles_Extensions",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "pe.Extensions",
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionExtendedFileRules.Extensions"
+    },
+    {
+      "Alias": "KrPermissionsCategories",
+      "Appearance": null,
+      "Caption": "$Views_KrPermissionsExtendedFiles_FileCategories",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionExtendedFileRuleCategories.CategoryName"
+    },
+    {
+      "Alias": "KrPermissionsAccessSetting",
+      "Appearance": null,
+      "Caption": "$Views_KrPermissionsExtendedFiles_AccessSetting",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "pe.AccessSettingID",
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionExtendedFileRules.AccessSettingName"
+    },
+    {
+      "Alias": "KrPermissionsCheckOwnFiles",
+      "Appearance": null,
+      "Caption": "$Views_KrPermissionsExtendedFiles_CheckOwnFiles",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "pe.CheckOwnFiles",
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionExtendedFileRules.CheckOwnFiles"
+    },
+    {
+      "Alias": "rn",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int64"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "KrPermissionsCaption",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": true,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "Always",
+  "Parameters": [
+    {
+      "Alias": "Caption",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_KrPermissionsExtendedFiles_Name_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissions.Caption"
+    },
+    {
+      "Alias": "AccessRule",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Caption",
+        "PopupColumns": null,
+        "RefPrefix": null,
+        "ViewAlias": "KrPermissions"
+      },
+      "Caption": "$Views_KrPermissionsExtendedFiles_AccessRule_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "KrPermissions",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissions.ID"
+    },
+    {
+      "Alias": "Extensions",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_KrPermissionsExtendedFiles_Extensions_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionExtendedFileRules.Extensions"
+    },
+    {
+      "Alias": "Category",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": null,
+        "RefPrefix": null,
+        "ViewAlias": "FileCategoriesAll"
+      },
+      "Caption": "$Views_KrPermissionsExtendedFiles_FileCategory_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "FileCategory",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionExtendedFileRuleCategories.CategoryID"
+    },
+    {
+      "Alias": "AccessSetting",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": null,
+        "RefPrefix": null,
+        "ViewAlias": "KrPermissionsFileAccessSettings"
+      },
+      "Caption": "$Views_KrPermissionsExtendedFiles_AccessSetting_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": null,
+        "RefPrefix": null,
+        "ViewAlias": "KrPermissionsFileAccessSettings"
+      },
+      "Hidden": false,
+      "HideAutoCompleteButton": true,
+      "Multiple": true,
+      "RefSection": "KrPermissionsFileAccessSettings",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionExtendedFileRules.AccessSettingID"
+    },
+    {
+      "Alias": "CheckOwnFiles",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_KrPermissionsExtendedFiles_CheckOwnFiles_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionExtendedFileRules.CheckOwnFiles"
+    }
+  ],
+  "QuickSearchParam": "Caption",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "KrPermissions",
+      "Condition": null,
+      "DisplayValueColumn": "KrPermissionsCaption",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "KrPermissions"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": "Count",
+  "SelectionMode": "Row",
+  "Subsets": [
+    {
+      "Alias": "Count",
+      "Caption": null,
+      "CaptionColumn": null,
+      "Condition": null,
+      "CountColumn": null,
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": null,
+      "RefParam": null,
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    }
+  ],
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART KrPermissionsExtendedFiles MSSQL]
+SELECT
+	[t].*
+FROM (
+	SELECT
+		#if(Normal) {
+		
+		[t].[ID]					AS [KrPermissionsID],
+		[t].[Caption]				AS [KrPermissionsCaption],
+		[pe].[Extensions]			AS [KrPermissionsExtensions],
+		STUFF((
+			SELECT CHAR(10) + [pef].[CategoryName]
+			FROM [KrPermissionExtendedFileRuleCategories] AS [pef] WITH (NOLOCK)
+			WHERE [pef].[RuleRowID] = [pe].[RowID]
+			FOR XML PATH('')
+		), 1, 1, N'') AS [KrPermissionsCategories],
+		[pe].[AccessSettingName]	AS [KrPermissionsAccessSetting],
+		[pe].[CheckOwnFiles]		AS [KrPermissionsCheckOwnFiles],
+		row_number() OVER (ORDER BY #order_by) AS [rn]
+		}
+		#if(Count) {
+		count(1)					AS [cnt]
+		}
+	FROM [KrPermissions] AS [t] WITH (NOLOCK)
+	
+	INNER JOIN [KrPermissionExtendedFileRules] AS [pe] WITH(NOLOCK)
+		ON [t].[ID] = [pe].[ID]
+		
+	#if(Category){
+	CROSS APPLY (
+		SELECT TOP 1 1 AS TMP FROM [KrPermissionExtendedFileRuleCategories] AS [pef] WITH(NOLOCK)
+		WHERE [pef].[RuleRowID] = [pe].[RowID]			
+			#param(Category, [pef].[CategoryID])) AS tf
+	}		
+		
+	WHERE [t].[IsExtended] = 1
+		#param(Caption, [t].[Caption])
+		#param(AccessRule, [t].[ID])
+		#param(Extensions, [pe].[Extensions])
+		#param(AccessSetting, [pe].[AccessSettingID])
+		#param(CheckOwnFiles, [pe].[CheckOwnFiles])
+		
+	) AS [t]
+#if(PageOffset) {
+WHERE [t].[rn] >= #param(PageOffset) AND [t].[rn] < (#param(PageOffset) + #param(PageLimit))
+}
+#if(Normal) {
+ORDER BY [t].[rn];
+}
+
+[TEXTPART KrPermissionsExtendedFiles PGSQL]
+SELECT
+	"t".*
+FROM (
+	SELECT
+		#if(Normal) {
+		
+		"t"."ID"					AS "KrPermissionsID",
+		"t"."Caption"				AS "KrPermissionsCaption",
+		"pe"."Extensions"			AS "KrPermissionsExtensions",
+		(
+			SELECT string_agg("CategoryName", chr(10))
+			FROM (
+				SELECT "pef"."CategoryName" AS "CategoryName"
+				FROM "KrPermissionExtendedFileRuleCategories" AS "pef"
+				WHERE "pef"."RuleRowID" = "pe"."RowID"
+			) AS "groupFields"
+		) 							AS "KrPermissionsCategories",
+		"pe"."AccessSettingName"	AS "KrPermissionsAccessSetting",
+		"pe"."CheckOwnFiles"		AS "KrPermissionsCheckOwnFiles",
+		row_number() OVER (ORDER BY #order_by) AS "rn"
+		}
+		#if(Count) {
+		count(1)					AS "cnt"
+		}
+	FROM "KrPermissions" AS "t"
+	
+	INNER JOIN "KrPermissionExtendedFileRules" AS "pe"
+		ON "t"."ID" = "pe"."ID"
+	
+	#if(Category){
+	INNER JOIN LATERAL (
+		SELECT null AS TMP FROM "KrPermissionExtendedFileRuleCategories" AS "pef"
+		WHERE "pef"."RuleRowID" = "pe"."RowID"			
+			#param(Category, "pef"."CategoryID")
+		LIMIT 1) AS tf ON true
+	}
+	
+	WHERE "t"."IsExtended"
+		#param(Caption, "t"."Caption")
+		#param(AccessRule, "t"."ID")
+		#param(Extensions, "pe"."Extensions")
+		#param(AccessSetting, "pe"."AccessSettingID")
+		#param(CheckOwnFiles, "pe"."CheckOwnFiles")
+		
+	) AS "t"
+#if(Normal) {
+ORDER BY "t"."rn"
+}
+#if(PageOffset) {
+OFFSET #param(PageOffset) - 1 LIMIT #param(PageLimit);
+}

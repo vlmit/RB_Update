@@ -1,0 +1,50 @@
+﻿{
+  "Blocks": [],
+  "Caption": "$CardTypes_TypesNames_ShowDialog",
+  "CardTypeSections": [],
+  "CompletionOptions": [
+    {
+      "Flags::int": 2,
+      "FormName": null,
+      "Order::int": 0,
+      "TypeID::uid": "a9067834-1a01-468c-976b-0ec7a9939331",
+      "Validators": []
+    },
+    {
+      "Flags::int": 8,
+      "FormName": null,
+      "Order::int": 0,
+      "TypeID::uid": "5b108223-92db-49b9-8085-336758ccabaa",
+      "Validators": []
+    }
+  ],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 32,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "HorizontalInterval::int": 10,
+    "Interval::int": 10
+  },
+  "Group": "KrProcess",
+  "ID::uid": "5309ce42-c4d2-4e99-a733-697c589311e7",
+  "InstanceType::int": 2,
+  "Name": "KrShowDialog",
+  "SchemeItems": [
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "3e920b6a-94aa-4691-9014-207d7ed01b27"
+      ],
+      "SectionID::uid": "005962e7-65f1-4763-a0ef-b76751d26de3"
+    }
+  ],
+  "TabCaption": null,
+  "TabOrder::int": 0,
+  "Validators": []
+}

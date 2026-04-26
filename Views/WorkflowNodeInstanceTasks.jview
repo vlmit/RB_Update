@@ -1,0 +1,379 @@
+{
+  "Alias": "WorkflowNodeInstanceTasks",
+  "Caption": "Задания экземпляра узла",
+  "Description": "Данное представление используется только для получения данных",
+  "FormatVersion::int": 1,
+  "GroupName": "WorkflowEngine",
+  "ID::uid": "31853f54-cb3d-4004-a79c-a020cc0014c3",
+  "JsonMetadataSource::txt": "WorkflowNodeInstanceTasks JSONMETA",
+  "MsQuerySource::txt": "WorkflowNodeInstanceTasks MSSQL",
+  "PgQuerySource::txt": "WorkflowNodeInstanceTasks PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "31853f54-cb3d-4004-a79c-a020cc0014c3",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART WorkflowNodeInstanceTasks JSONMETA]
+{
+  "Alias": "WorkflowNodeInstanceTasks",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Задания экземпляра узла",
+  "Columns": [
+    {
+      "Alias": "TaskID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.RowID"
+    },
+    {
+      "Alias": "TaskTypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.TypeID"
+    },
+    {
+      "Alias": "TaskTypeCaption",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.TypeCaption"
+    },
+    {
+      "Alias": "TaskRoleID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.RoleID"
+    },
+    {
+      "Alias": "TaskRoleName",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.RoleName"
+    },
+    {
+      "Alias": "TaskUserID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.UserID"
+    },
+    {
+      "Alias": "TaskUserName",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.UserName"
+    },
+    {
+      "Alias": "TaskAuthorID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.AuthorID"
+    },
+    {
+      "Alias": "TaskAuthorName",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.AuthorName"
+    },
+    {
+      "Alias": "TaskStateID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.StateID"
+    },
+    {
+      "Alias": "TaskStateName",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskStates.Name"
+    },
+    {
+      "Alias": "TaskDigest",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.Digest"
+    },
+    {
+      "Alias": "TaskCreated",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.Created"
+    },
+    {
+      "Alias": "TaskPlanned",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.Planned"
+    },
+    {
+      "Alias": "TaskInProgress",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.InProgress"
+    },
+    {
+      "Alias": "TaskPostponed",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.Postponed"
+    },
+    {
+      "Alias": "TaskPostponedTo",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.PostponedTo"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "NodeInstanceID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Node instance ID",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$WorkflowEngineTaskSubscriptions.NodeRowID"
+    },
+    {
+      "Alias": "ProcessInstance",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Process instance",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$WorkflowEngineNodes.ProcessRowID"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART WorkflowNodeInstanceTasks MSSQL]
+SELECT
+	[t].[RowID] as [TaskID],
+	[t].[TypeID] as [TaskTypeID],
+	[t].[TypeCaption] as [TaskTypeCaption],
+	[t].[RoleID] as [TaskRoleID],
+	[t].[RoleName] as [TaskRoleName],
+	[t].[UserID] as [TaskUserID],
+	[t].[UserName] as [TaskUserName],
+	[t].[AuthorID] as [TaskAuthorID],
+	[t].[AuthorName] as [TaskAuthorName],
+	[t].[StateID] as [TaskStateID],
+	[ts].[Name] as [TaskStateName],
+	[t].[Digest] as [TaskDigest],
+	[t].[Created] as [TaskCreated],
+	[t].[Planned] as [TaskPlanned],
+	[t].[InProgress] as [TaskInProgress],
+	[t].[Postponed] as [TaskPostponed],
+	[t].[PostponedTo] as [TaskPostponedTo]
+FROM [WorkflowEngineTaskSubscriptions] [wts] WITH(NOLOCK)
+INNER JOIN [Tasks] [t] WITH(NOLOCK) on [wts].[TaskID] = [t].[RowID]
+INNER JOIN [TaskStates] [ts] WITH(NOLOCK) on [t].[StateID] = [ts].[ID]
+INNER JOIN [WorkflowEngineNodes] [wen] WITH(NOLOCK) on [wts].[NodeRowID] = [wen].[RowID]
+WHERE 1 = 1
+	#param(NodeInstanceID, [wts].[NodeRowID])
+	#param(ProcessInstance, [wen].[ProcessRowID])
+
+[TEXTPART WorkflowNodeInstanceTasks PGSQL]
+SELECT
+	"t"."RowID" as "TaskID",
+	"t"."TypeID" as "TaskTypeID",
+	"t"."TypeCaption" as "TaskTypeCaption",
+	"t"."RoleID" as "TaskRoleID",
+	"t"."RoleName" as "TaskRoleName",
+	"t"."UserID" as "TaskUserID",
+	"t"."UserName" as "TaskUserName",
+	"t"."AuthorID" as "TaskAuthorID",
+	"t"."AuthorName" as "TaskAuthorName",
+	"t"."StateID" as "TaskStateID",
+	"ts"."Name" as "TaskStateName",
+	"t"."Digest" as "TaskDigest",
+	"t"."Created" as "TaskCreated",
+	"t"."Planned" as "TaskPlanned",
+	"t"."InProgress" as "TaskInProgress",
+	"t"."Postponed" as "TaskPostponed",
+	"t"."PostponedTo" as "TaskPostponedTo"
+FROM "WorkflowEngineTaskSubscriptions" "wts"
+INNER JOIN "Tasks" "t" on "wts"."TaskID" = "t"."RowID"
+INNER JOIN "TaskStates" "ts" on "t"."StateID" = "ts"."ID"
+INNER JOIN "WorkflowEngineNodes" "wen" on "wts"."NodeRowID" = "wen"."RowID"
+WHERE true
+	#param(NodeInstanceID, "wts"."NodeRowID")
+	#param(ProcessInstance, "wen"."ProcessRowID")

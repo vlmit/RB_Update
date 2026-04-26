@@ -1,0 +1,4571 @@
+﻿{
+  "ID": "6fbfe292-7b49-46aa-a5ee-b7eaaf9cae0f",
+  "Name": "KrProcess",
+  "Priority": 0,
+  "Entries": [
+    {
+      "Name": "KrAction_ActionCompletionOption_Approved",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approved"
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласовано"
+        }
+      ]
+    },
+    {
+      "Name": "KrAction_ActionCompletionOption_Declined",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Declined"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отказано"
+        }
+      ]
+    },
+    {
+      "Name": "KrAction_ActionCompletionOption_Disapproved",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Disapproved"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не согласовано"
+        }
+      ]
+    },
+    {
+      "Name": "KrAction_ActionCompletionOption_Signed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Signed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подписано"
+        }
+      ]
+    },
+    {
+      "Name": "KrAction_BeforeCompleteTask",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Before complete task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Перед завершением задания"
+        }
+      ]
+    },
+    {
+      "Name": "KrAction_BeforeNewTask",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Before new task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Перед созданием задания"
+        }
+      ]
+    },
+    {
+      "Name": "KrAction_BeforeStoreCard",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Before store card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Перед сохранением карточки"
+        }
+      ]
+    },
+    {
+      "Name": "KrAction_CompleteTask",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Complete task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершение задания"
+        }
+      ]
+    },
+    {
+      "Name": "KrAction_NewCard",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создание карточки"
+        }
+      ]
+    },
+    {
+      "Name": "KrAction_NewTask",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "New task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создание задания"
+        }
+      ]
+    },
+    {
+      "Name": "KrAction_StoreCard",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Store card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранение карточки"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_Acquaintance",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Acquaintance"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ознакомление"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_Actions_Action_OptionNotificationScriptError",
+      "Comment": "{0} - имя варианта завершения действия\n{{0}} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in action completion option \"{0}\" notification modification scenario {{0}}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии изменения уведомления о варианте завершения действия \"{0}\" {{0}}"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_Actions_Action_OptionScriptError",
+      "Comment": "{0} - имя варианта завершения действия\n{{0}} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in action completion option \"{0}\" scenario {{0}}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии варианта завершения действия \"{0}\" {{0}}"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_Actions_Action_OptionsDescription",
+      "Comment": "{0} - название варианта завершения действия\n{1} - номер строки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Action completion option \"{0}\", row {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вариант завершения действия \"{0}\", строка {1}"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_Amending",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Amending"
+        },
+        {
+          "Culture": 25,
+          "Value": "Доработка"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_Approval",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approval"
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласование"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_ChangeState",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Change state"
+        },
+        {
+          "Culture": 25,
+          "Value": "Смена состояния"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_ChangeState_TypeNotAllowed",
+      "Comment": "{0} - заголовок типа карточки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "State setting for type \"{0}\" is not allowed. Card type does not belong to the standard solution."
+        },
+        {
+          "Culture": 25,
+          "Value": "Установка состояния для типа \"{0}\" невозможна. Данный тип карточки не принадлежит типовому решению."
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_ContextRoleIsEmpty",
+      "Comment": "{0} - имя контекстной роли.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Context role \"{0}\" is empty."
+        },
+        {
+          "Culture": 25,
+          "Value": "Контекстная роль \"{0}\" пуста."
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_Deregistration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Deregistration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отмена регистрации"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_IncorrectCalculatedPerformersQuery_IncorrectSqlResultSet",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The request for calculated performers must return a result consisting of two columns: the role ID and the name."
+        },
+        {
+          "Culture": 25,
+          "Value": "Запрос на получение вычисляемых исполнителей должен возвращать результат, состоящий из двух колонок: идентификатор и имя роли."
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_IncorrectCalculatedPerformersQuery_SeveralQueries",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The SQL expression used to get calculated performers contains several queries."
+        },
+        {
+          "Culture": 25,
+          "Value": "SQL выражение, используемое для получения вычисляемых исполнителей, содержит несколько запросов."
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_MissingTaskCommonInfoKind",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "To be able to specify a kind task, the task type must contain a complex column TaskCommonInfo.Kind."
+        },
+        {
+          "Culture": 25,
+          "Value": "Для возможности задания вида задания, тип задания должен содержать комплексную колонку TaskCommonInfo.Kind."
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_OnlyPersonalOrContextRolesSetAsAuthor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Only personal or context roles are allowed to set as an author."
+        },
+        {
+          "Culture": 25,
+          "Value": "Только персональная или контекстная роль может быть установлена как автор."
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_OutOfRangeColumnOrder",
+      "Comment": "{0} - имя элемента управления.\n{1} - порядковый номер столбца.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Элемент управления ({0}) не содержит столбца с порядковым номером {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "The control ({0}) does not contain a column with the sequence number {1}."
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_PerformerNotSpecified",
+      "Comment": "{0} - имя действия\n{1} - имя узла",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "In the action \"{0}\" in the node \"{1}\" performer isn't specified."
+        },
+        {
+          "Culture": 25,
+          "Value": "В действии \"{0}\" в узле \"{1}\" не указан исполнитель."
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_Registration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Registration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Регистрация"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_Resolution",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task execution"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выполнение задачи"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_RoleNotFound",
+      "Comment": "{0} - идентификатор роли.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Role (ID = \"{0}\") is not found."
+        },
+        {
+          "Culture": 25,
+          "Value": "Роль (ИД = \"{0}\") не найдена."
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_RouteInitialization",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Route initialization"
+        },
+        {
+          "Culture": 25,
+          "Value": "Инициализация маршрута"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_RoutesGroup",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Routes"
+        },
+        {
+          "Culture": 25,
+          "Value": "Маршруты"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_RowContentIndicatorFormat",
+      "Comment": "{0} - отображаемое значение.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} *"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} *"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_Signing",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Signing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подписание"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_StandardSolutionGroup",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Standard solution"
+        },
+        {
+          "Culture": 25,
+          "Value": "Типовое решение"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_Task_SingleOptionScriptError",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in completion option scenario."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии варианта завершения."
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_TaskCompletion_NotificationScriptError",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in completion task notification modification scenario."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии изменения уведомления о завершении задания."
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_TaskDigestPartsSeparator",
+      "Comment": "Разделитель частей дайджеста задания.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "---------------"
+        },
+        {
+          "Culture": 25,
+          "Value": "---------------"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_TaskRegistration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task registration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание регистрации"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_UniversalTask",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Customizable task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настраиваемое задание"
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_UniversalTask_CompletionOptionCaptionEmpty",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Field \"{$CardTypes_Controls_CompletionOption}\" in \"{$KrActions_UniversalTask}\" action setting is empty."
+        },
+        {
+          "Culture": 25,
+          "Value": "Поле \"{$CardTypes_Controls_CompletionOption}\" в настройках действия \"{$KrActions_UniversalTask}\" не заполнено."
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_UniversalTask_CompletionOptionIDEmpty",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Field \"{$CardTypes_Control_CompletionOptions_ID}\" in \"{$KrActions_UniversalTask}\" action setting is empty."
+        },
+        {
+          "Culture": 25,
+          "Value": "Поле \"{$CardTypes_Control_CompletionOptions_ID}\" в настройках действия \"{$KrActions_UniversalTask}\" не заполнено."
+        }
+      ]
+    },
+    {
+      "Name": "KrActions_UniversalTask_CompletionOptionIDNotUnique",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Field \"{$CardTypes_Control_CompletionOptions_ID}\" in \"{$KrActions_UniversalTask}\" action setting contains a non-unique value."
+        },
+        {
+          "Culture": 25,
+          "Value": "Поле \"{$CardTypes_Control_CompletionOptions_ID}\" в настройках действия \"{$KrActions_UniversalTask}\" содержит неуникальное значение."
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_CancelProcess",
+      "Comment": "Название плитки \"Отменить процесс\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancel process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отменить процесс"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_CancelProcessConfirmation",
+      "Comment": "Текст подтверждения отмены процесса",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancel process and change document state to \"{$KrStates_Doc_Canceled}\"?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отменить процесс с переводом документа в состояние \"{$KrStates_Doc_Canceled}\"?"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_DefaultTileSplash",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Operation is in progress"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выполняется операция"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_DeregisterDocument",
+      "Comment": "Название плитки \"Отменить регистрацию\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancel registration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отменить регистрацию"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_DeregisterDocumentConfirmation",
+      "Comment": "Текст подтверждения отмены регистрации документа",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancel registration of the document?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отменить регистрацию документа?"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_DeregisterDocumentTooltip",
+      "Comment": "Всплывающая подсказка к плитке \"Отменить регистрацию\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancel registration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отменить регистрацию"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_FullRecalcRoute",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Full recalc route button"
+        },
+        {
+          "Culture": 25,
+          "Value": "Кнопка полного пересчёта маршрута"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_ProcessManagement",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Route"
+        },
+        {
+          "Culture": 25,
+          "Value": "Маршрут"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_RebuildProcess",
+      "Comment": "Название плитки \"Вернуть документ на доработку\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Return document for revision"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вернуть документ на доработку"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_RebuildProcessConfirmation",
+      "Comment": "Подтверждение отзыва процесса на доработку",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Return document for amending and change document state to \"{$KrStates_Doc_Editing}\"?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вернуть документ на доработку с переводом документа в состояние \"{$KrStates_Doc_Editing}\"?"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_RegisterDocument",
+      "Comment": "Название плитки \"Зарегистрировать документ\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Register document"
+        },
+        {
+          "Culture": 25,
+          "Value": "Зарегистрировать документ"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_RegisterDocumentConfirmation",
+      "Comment": "Текст подтверждения регистрации документа",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Register document?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Зарегистрировать документ?"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_RegisterDocumentTooltip",
+      "Comment": "Всплывающая подсказка к плитке \"регистрация документа\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Register document"
+        },
+        {
+          "Culture": 25,
+          "Value": "Зарегистрировать документ"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_RejectProcess",
+      "Comment": "Название плитки \"Отозвать процесс\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Revoke process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отозвать процесс"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_RevokeProcessConfirmation",
+      "Comment": "Текст подтверждения отзыва процесса",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Revoke process and change document state to \"{$KrStates_Doc_Draft}\"?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отозвать процесс с переводом документа в состояние \"{$KrStates_Doc_Draft}\"?"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_StartProcess",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Start process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запустить процесс"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_StartProcessConfirmation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Start process?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запустить процесс?"
+        }
+      ]
+    },
+    {
+      "Name": "KrButton_StartProcessTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Start process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запуск процесса"
+        }
+      ]
+    },
+    {
+      "Name": "KrCompilation_RecalcChanges_HiddenStage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "hidden"
+        },
+        {
+          "Culture": 25,
+          "Value": "скрытый"
+        }
+      ]
+    },
+    {
+      "Name": "KrCompilation_RouteElementRenamedFrom",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "renamed from"
+        },
+        {
+          "Culture": 25,
+          "Value": "переименован из"
+        }
+      ]
+    },
+    {
+      "Name": "KrCompilation_ValidationKey_MainProcessStarted",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't recalculate route when main process is started."
+        },
+        {
+          "Culture": 25,
+          "Value": "Пересчет маршрута недоступен, т.к. основной процесс запущен."
+        }
+      ]
+    },
+    {
+      "Name": "KrCompilation_ValidationKey_RecalcWithChanges",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Route has been updated."
+        },
+        {
+          "Culture": 25,
+          "Value": "Маршрут обновлен."
+        }
+      ]
+    },
+    {
+      "Name": "KrCompilation_ValidationKey_RecalcWithoutChanges",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No changes in the route."
+        },
+        {
+          "Culture": 25,
+          "Value": "Маршрут не изменен."
+        }
+      ]
+    },
+    {
+      "Name": "KrCompilation_ValidationKey_StageAdded",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stage {0} was added{1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Этап {0} был добавлен{1}."
+        }
+      ]
+    },
+    {
+      "Name": "KrCompilation_ValidationKey_StageDeleted",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stage {0} was deleted{1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Этап {0} был удален{1}."
+        }
+      ]
+    },
+    {
+      "Name": "KrCompilation_ValidationKey_StageModified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stage {0} {1} was modified{2}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Этап {0} {1} был изменен{2}."
+        }
+      ]
+    },
+    {
+      "Name": "KrNotification_Acquaintance",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Acquaintance"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ознакомление"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotification_AcquaintanceType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Acquaintance"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ознакомление"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotification_DefaultCss",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "body\n  {\n   font-family: tahoma, verdana, arial, sans-serif;\n  }\n\n  div.head_link\n  {\n   border-bottom: #b9c4da 1px solid\n  }\n\n  #head_link\n  {\n   display: inline-block;\n   font-weight: bold;\n   font-size: 14px;\n   margin: 3px 0px 5px;\n   overflow: hidden;\n   color: #365a7b;   \n  }\n\n  a\n  {\n   text-decoration: none;\n  }\n\n  div.task_content\n  {\n   display: inline-block;\n   overflow: hidden;\n   font-size: 15px;\n   margin: 5px 0px 3px;\n   padding-top: 5px;\n   border-top: #b9c4da 1px solid\n  }\n\n  span.data_description\n  {\n   display: inline-block;\n   margin: 11px;\n   font-size: 13px;\n   overflow: hidden;\n   color: #808080;\n  }\n\n  span.data\n  {\n   display: inline-block;\n   margin: 11px;\n   font-size: 13px;\n   overflow: hidden;\n  }"
+        },
+        {
+          "Culture": 25,
+          "Value": "body\n  {\n   font-family: tahoma, verdana, arial, sans-serif;\n  }\n\n  div.head_link\n  {\n   border-bottom: #b9c4da 1px solid\n  }\n\n  #head_link\n  {\n   display: inline-block;\n   font-weight: bold;\n   font-size: 14px;\n   margin: 3px 0px 5px;\n   overflow: hidden;\n   color: #365a7b;   \n  }\n\n  a\n  {\n   text-decoration: none;\n  }\n\n  div.task_content\n  {\n   display: inline-block;\n   overflow: hidden;\n   font-size: 15px;\n   margin: 5px 0px 3px;\n   padding-top: 5px;\n   border-top: #b9c4da 1px solid\n  }\n\n  span.data_description\n  {\n   display: inline-block;\n   margin: 11px;\n   font-size: 13px;\n   overflow: hidden;\n   color: #808080;\n  }\n\n  span.data\n  {\n   display: inline-block;\n   margin: 11px;\n   font-size: 13px;\n   overflow: hidden;\n  }"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotification_LinkStyle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "text-decoration:underline;font-size:14px;color:#808080"
+        },
+        {
+          "Culture": 25,
+          "Value": "text-decoration:underline;font-size:14px;color:#808080"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotification_PasswordExpires",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Password expires warning"
+        },
+        {
+          "Culture": 25,
+          "Value": "Предупреждение об окончании срока пароля"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotification_PasswordExpires_Description",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Please, open application and change your password there. Open right panel, click on \"My settings\" button, then click on \"Change my password\" and follow the instructions.\n\nIf your password expires before you change it, then according to the current security policy you will not be able to access the system. In that case contact system administrator."
+        },
+        {
+          "Culture": 25,
+          "Value": "Пожалуйста, откройте приложение и поменяйте пароль. На правой боковой панели нажмите на кнопку \"Мои настройки\", и там на кнопку \"Изменить мой пароль\". Далее следуйте инструкциям.\n\nЕсли срок действия пароля закончится прежде, чем вы его поменяете, то в соответствии с действующей политикой безопасности вы не сможете войти в систему. В таком случае обратитесь к администратору системы."
+        }
+      ]
+    },
+    {
+      "Name": "KrNotification_PasswordExpires_ExpirationDate",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Password expiration date"
+        },
+        {
+          "Culture": 25,
+          "Value": "Срок окончания действия пароля"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotification_PasswordExpires_Title",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Your password in TESSA will expire soon"
+        },
+        {
+          "Culture": 25,
+          "Value": "Срок вашего пароля в TESSA истекает"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_AdditionalApprovalCompletedNotification",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Additional approval completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершение дополнительного согласования"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_AdditionalApprovalCompletedNotificationType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Additional approval completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершение дополнительного согласования"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_AdditionalApprovalNotification",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Additional approval task completion"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершение задания дополнительного согласования"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_AdditionalApprovalNotificationType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Additional approval task completion"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершение задания дополнительного согласования"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_ApprovedNotification",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Document approved"
+        },
+        {
+          "Culture": 25,
+          "Value": "Документ согласован"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_ApprovedNotificationType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Document approved"
+        },
+        {
+          "Culture": 25,
+          "Value": "Документ согласован"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_CommentNotification",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Response to the comment request"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ответ на запрос комментария"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_CommentNotificationType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Response to the comment request"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ответ на запрос комментария"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_ReturnFromPostponeNotification",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Returning of postponed task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Возвращение отложенного задания"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_ReturnFromPostponeNotificationType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Returning of postponed task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Возвращение отложенного задания"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_SubTaskCompletedNotification",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Subtask completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершение подзадачи"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_SubTaskCompletedNotificationType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Subtask completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершение подзадачи"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_SubTaskRevokedNotification",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Subtask revoked"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отзыв подзадачи"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_SubTaskRevokedNotificationType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Subtask revoked"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отзыв подзадачи"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_TaskNotification",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task was sent"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание отправлено"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_TaskNotificationType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task was sent"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание отправлено"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_TasksNotification",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Newsletter about tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Рассылка о заданиях"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_TasksNotificationType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Newsletter about tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Рассылка о заданиях"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_UpdateKeysNotification",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Update keys for signatures and ciphers"
+        },
+        {
+          "Culture": 25,
+          "Value": "Измените ключи для подписи и шифрования"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_Acquaintance_SenderShoudBePersonalOrContext",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Field \"Sender\" in \"Acquaintance\" stage settings should be only personal or context role."
+        },
+        {
+          "Culture": 25,
+          "Value": "В настройках этапа \"Ознакомление\" отправитель может быть только сотрудником или контекстной ролью."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_AdvisoryApprovalCommentFormat",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Advisory approval.\n\n{0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Рекомендательное согласование.\n\n{0}"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_AssemblyMissed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error occurred during compilation of route's subsystem scripts. Please, contact your system administrator (find out more details on the error by opening any stage template card and pressing button \"Compile\" at the tab \"All scripts\")."
+        },
+        {
+          "Culture": 25,
+          "Value": "Произошла ошибка при компиляции сценариев подсистемы маршрутов. Обратитесь к администратору системы (для уточнения ошибки нажмите кнопку \"Выполнить компиляцию\" на вкладке \"Все сценарии\" в карточке любого шаблона этапа)."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_AsyncMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "async mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "асинхронный режим"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ChangingOrderStageIsProhibited",
+      "Comment": "{0} - Название этапа.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Changing the order of the \"{0}\" stage is prohibited."
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменение порядка этапа \"{0}\" запрещено."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ChangingStageIsProhibited",
+      "Comment": "{0} - Название этапа.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Changing the \"{0}\" stage is prohibited."
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменение этапа \"{0}\" запрещено."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ClassMissed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Class {0} not found. Check the presence of the specified object in the system.\nFor more details, see the Administrator's Guide -> Document Routes -> Features of the scripts and recommendations for their use.\nCheck compiler output for compilation errors."
+        },
+        {
+          "Culture": 25,
+          "Value": "Класс {0} не найден. Проверьте наличие указанного объекта в системе.\nБолее подробно см. Руководство администратора -> Маршруты документов -> Особенности работы сценариев и рекомендации по их использованию.\nПроверьте вывод компилятора на наличие ошибок компиляции."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_Constructor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Constructor"
+        },
+        {
+          "Culture": 25,
+          "Value": "Конструктор"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_Dialog_ConfirmClose",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card contains unsaved data.\nClose card?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка содержит несохранённые данные.\nЗакрыть карточку?"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_Disabled",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Routes subsystem disabled in the standard solution settings."
+        },
+        {
+          "Culture": 25,
+          "Value": "Подсистема маршрутов отключена в настройках типового решения."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_Error_AsyncProcessWithoutPersistentHolder",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't start an async process without a persistent holder."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно запустить асинхронный процесс без персистентного холдера."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_Error_TreeStructureStageModified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Nested stages modification is forbidden."
+        },
+        {
+          "Culture": 25,
+          "Value": "Вносить изменения во вложенные этапы запрещено."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_AuthorRoleIsntFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Author role is not found."
+        },
+        {
+          "Culture": 25,
+          "Value": "Роль автора не найдена."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_ContextRoleIsEmpty",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Context role is empty."
+        },
+        {
+          "Culture": 25,
+          "Value": "Контекстная роль пуста."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_ContextRoleRequiresCard",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't evaluate author as context role when no info about main card is present in the context."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось вычислить контекстную роль, т.к. в контексте отсутствует карточка."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_DesignAfterTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Runtime postprocessing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Постобработка построения"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_DesignBeforeTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Design time initialization"
+        },
+        {
+          "Culture": 25,
+          "Value": "Инициализация построения"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_DesignConditionTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Design time condition"
+        },
+        {
+          "Culture": 25,
+          "Value": "Условие построения"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_DesignSqlConditionTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Design time SQL condition"
+        },
+        {
+          "Culture": 25,
+          "Value": "SQL условие построения"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_ErrorFormat",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0}:\n{1}\n{2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0}:\n{1}\n{2}"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_ErrorFormat2",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0}\n{1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0}\n{1}"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_ExecutionSqlTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Execution SQL condition"
+        },
+        {
+          "Culture": 25,
+          "Value": "SQL условие выполнения"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_ExecutionTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Execution condition"
+        },
+        {
+          "Culture": 25,
+          "Value": "Условие выполнения"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_FullQueryInDetails",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "See full query text in details."
+        },
+        {
+          "Culture": 25,
+          "Value": "Полный текст запроса указан в деталях."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_FullScriptInDetails",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "See full script in details."
+        },
+        {
+          "Culture": 25,
+          "Value": "Полный текст скрипта указан в деталях."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_FullScriptInDetailsWithErrorPointer",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "See full script with an error in details."
+        },
+        {
+          "Culture": 25,
+          "Value": "Полный текст скрипта c указанием места ошибки в деталях."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_GroupTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stage group \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Группа этапов \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_IncorrectRoleResultSet",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The request for SQL roles must return a result consisting of two columns: the role ID and the name."
+        },
+        {
+          "Culture": 25,
+          "Value": "Запрос на получение SQL-ролей должен возвращать результат, состоящий из двух колонок: ID роли и имя."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_MissingTaskCommonInfoKind",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error processing stage \"{0}\". To be able to specify a kind task, the task type must contain a complex column TaskCommonInfo.Kind."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка обработки этапа \"{0}\". Для возможности задания вида задания, тип задания должен содержать комплексную колонку TaskCommonInfo.Kind."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_NestedProcessRunner",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Nested launch of routes runner for the same process is unavailable."
+        },
+        {
+          "Culture": 25,
+          "Value": "Вложенный запуск обработчика маршрутов для одного и того же процесса невозможен."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_OnlyPersonalAndContextRoles",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Only users and context roles are allowed to set as an author."
+        },
+        {
+          "Culture": 25,
+          "Value": "Только пользователи и контекстные роли могут быть установлены как авторы."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_RuntimeAfterTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Runtime postprocessing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Постобработка выполнения"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_RuntimeBeforeTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Runtime time initialization"
+        },
+        {
+          "Culture": 25,
+          "Value": "Инициализация выполнения"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_RuntimeConditionTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Runtime time condition"
+        },
+        {
+          "Culture": 25,
+          "Value": "Условие выполнения"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_RuntimeSqlConditionTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Runtime time SQL condition"
+        },
+        {
+          "Culture": 25,
+          "Value": "SQL условие выполнения"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_SecondaryProcessTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Secondary process \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Вторичный процесс \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_SeveralQueries",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The SQL expression contains several queries."
+        },
+        {
+          "Culture": 25,
+          "Value": "SQL выражение содержит несколько запросов."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_SqlConditionMustReturnBool",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "SQL condition must return boolean type."
+        },
+        {
+          "Culture": 25,
+          "Value": "SQL условие шаблона должно возвращать логический тип данных."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_SqlConditionTooManyColumns",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "SQL condition query must return only one column."
+        },
+        {
+          "Culture": 25,
+          "Value": "SQL условие должно возвращать только один столбец."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_SqlConditionTooManyRows",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "SQL condition query must return only one row."
+        },
+        {
+          "Culture": 25,
+          "Value": "SQL условие должно возвращать только одну строку."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_SqlPerformersError",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred while calculating SQL performers."
+        },
+        {
+          "Culture": 25,
+          "Value": "При вычислении SQL исполнителей возникла ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_SqlPerformersTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "SQL performers"
+        },
+        {
+          "Culture": 25,
+          "Value": "SQL исполнители"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_SqlPreprocessorDirectiveNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Placeholder \"{0}\" isn't supported."
+        },
+        {
+          "Culture": 25,
+          "Value": "Плейсхолдер \"{0}\" не поддерживается."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_SqlPreprocessorGeneral",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred while processing the request."
+        },
+        {
+          "Culture": 25,
+          "Value": "Во время предобработки запроса произошла ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_StageStageGroupOrderLessPrevStageStageGroupOrder",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The group order the next stage must be greater than the group order the current stage."
+        },
+        {
+          "Culture": 25,
+          "Value": "Порядковый номер группы следующего этапа должен быть больше порядкового номера группы текущего этапа."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_StageTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stage \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Этап \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_TemplateTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stage template \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Шаблон этапов \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_UnexpectedException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An exception occurred unexpectedly during script execution."
+        },
+        {
+          "Culture": 25,
+          "Value": "Во время выполнения скрипта неожиданно возникло исключение."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_VisibilitySqlTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Visibility SQL condition"
+        },
+        {
+          "Culture": 25,
+          "Value": "SQL условие видимости"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ErrorMessage_VisibilityTrace",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Visibility condition"
+        },
+        {
+          "Culture": 25,
+          "Value": "Условие видимости"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_HiddenStageWillBeRevealed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stage template contains hidden stages. Template with movable stages cannot contain hidden stages, so when you save card, the checkbox \"{$CardTypes_Controls_HiddenStage}\" will be unchecked."
+        },
+        {
+          "Culture": 25,
+          "Value": "В шаблоне есть скрытые этапы. Шаблон с перемещаемыми этапами не может содержать скрытых этапов, поэтому при сохранении у всех этапов будет снят флажок \"{$CardTypes_Controls_HiddenStage}\"."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_MainRouteHasNoActiveStages",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": ". Please, make sure that in \"Route\" tab after route recalculation there are at least one stage which will not be skipped during process execution (e.g. approval stages)."
+        },
+        {
+          "Culture": 25,
+          "Value": ". Пожалуйста, проверьте, что на вкладке \"Маршрут\" после пересчёта маршрута присутствуют этапы, которые не будут пропущены при выполнении (например, этапы согласования)."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_MaximumKrScopeDepth",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Maximum nested request depth has been exceeded. Most likely, some action is launched on each nested card store. Try to set \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Превышена максимальная вложенность запросов. Скорее всего, некоторое действие запускается на каждое вложенное сохранение карточки. Попробуйте указать \"{0}\"."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_NotificationIsEmpty",
+      "Comment": "{0} - имя этапа",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Is settings of stage \"{0}\" notification not specified"
+        },
+        {
+          "Culture": 25,
+          "Value": "В настройках этапа \"{0}\" не задано уведомление"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_NotificationWithIDNotFound",
+      "Comment": "{0} - идентификатор карточки уведомления",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Notification card with id \"{0}\" is not found"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка уведомления с идентификатором \"{0}\" не найдена"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_NotificationWithNameNotFound",
+      "Comment": "{0} - имя карточки уведомления",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Notification card with name \"{0}\" is not found"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка уведомления с именем \"{0}\" не найдена"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_ProcessWasModified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't modify active part of the route, including adding or changing stages above active stage. Its possible that there is another employee who modified the route at the same time. In that case, please refresh the card and modify the route again."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно изменить активную часть маршрута, в т.ч. добавить или изменить этапы, расположенные выше активного этапа. Также возможно, что другой сотрудник параллельно изменил маршрут, в этом случае обновите карточку и внесите изменения повторно."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_RouteHasNoActiveStages",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There are no stages in the route to execute when process is being started{0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "В маршруте отсутствуют этапы, выполняемые при запуске процесса{0}"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_StageTypeDoesNotSupportMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stage type \"{0}\" does not support {1}. \nSupported modes: {2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип этапа \"{0}\" не поддерживает {1}.\nПоддерживаемые режимы: {2}"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_SyncMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "sync mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "синхронный режим"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_TabContainsText",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} *"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} *"
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_UniversalTask_AuthorShoudBePersonalOrContext",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Field \"Author\" in \"Customizable task\" stage settings should be only personal or context role."
+        },
+        {
+          "Culture": 25,
+          "Value": "В настройках этапа \"Настраиваемое задание\" автор может быть только сотрудником или контекстной ролью."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_UniversalTask_CompletionOptionCaptionEmpty",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Field \"Completion option\" in \"Customizable task\" stage setting is empty."
+        },
+        {
+          "Culture": 25,
+          "Value": "Поле \"Вариант завершения\" в настройках этапа \"Настраиваемое задание\" не заполнено."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_UniversalTask_CompletionOptionIDEmpty",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Field \"ID\" in \"Customizable task\" stage setting is empty."
+        },
+        {
+          "Culture": 25,
+          "Value": "Поле \"ID\" в настройках этапа \"Настраиваемое задание\" не заполнено."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_UniversalTask_CompletionOptionIDNotUnique",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Field \"ID\" in \"Customizable task\" stage setting contains a non-unique value."
+        },
+        {
+          "Culture": 25,
+          "Value": "Поле \"ID\" в настройках этапа \"Настраиваемое задание\" содержит неуникальное значение."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_UniversalTask_NoCompletionOptions",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "In the \"Customizable task\" stage settings no completion options are specified."
+        },
+        {
+          "Culture": 25,
+          "Value": "В настройках этапа \"Настраиваемое задание\" не заданы варианты завершения."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_UniversalTask_NotFoundCompletionOption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The \"Customizable task\": completion option (ID = \"{0}\") not found."
+        },
+        {
+          "Culture": 25,
+          "Value": "Настраиваемое задание: вариант завершения (ИД = \"{0}\") не найден."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcess_WorkingDaysSuffix",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "  w/d"
+        },
+        {
+          "Culture": 25,
+          "Value": "  р.д."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcessRunner_DifferentContextCardDoesnotExist",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card specified in ExecuteSubsequentStageInContext does not exist."
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка, указанная в ExecuteSubsequentStageInContext, не существует."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcessRunner_Interrupted",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process execution unexpectedly interrupted (check compiler output)."
+        },
+        {
+          "Culture": 25,
+          "Value": "Выполнение процесса неожиданно прервалось (проверьте вывод компилятора на наличие ошибок)."
+        }
+      ]
+    },
+    {
+      "Name": "KrProcessRunner_StageHandlerIsNull",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Fail to create stage type handler for stage {0} (RowID = \"{1}\", StageTypeID = \"{2}\", StageTypeName = \"{3}\") "
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось создать обработчик типа для этапа {0} (RowID = \"{1}\", StageTypeID = \"{2}\", StageTypeName = \"{3}\") "
+        }
+      ]
+    },
+    {
+      "Name": "KrProcessRunner_StageTypeIsNull",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stage {0} (RowID = \"{1}\") has no stage type"
+        },
+        {
+          "Culture": 25,
+          "Value": "В этапе {0} (RowID = \"{1}\") не указан тип этапа"
+        }
+      ]
+    },
+    {
+      "Name": "KrRoute_Mode_RoutesNotUsed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Routes are not used"
+        },
+        {
+          "Culture": 25,
+          "Value": "Маршруты не используются"
+        }
+      ]
+    },
+    {
+      "Name": "KrRoute_Mode_RoutesUsed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Routes are used"
+        },
+        {
+          "Culture": 25,
+          "Value": "Маршруты используются"
+        }
+      ]
+    },
+    {
+      "Name": "KrRoute_Mode_RoutesUsedProcessActive",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Routes are used and process active"
+        },
+        {
+          "Culture": 25,
+          "Value": "Маршруты используются и процесс активен"
+        }
+      ]
+    },
+    {
+      "Name": "KrRoute_Mode_RoutesUsedProcessInactive",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Routes are used and process inactive"
+        },
+        {
+          "Culture": 25,
+          "Value": "Маршруты используются и процесс не активен"
+        }
+      ]
+    },
+    {
+      "Name": "KrSecondaryProcess_AsyncWithoutCard",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can not launch async process without card (ID = {0}, Name = {1})."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно запустить асинхронный процесс без карточки (ID = {0}, Название= {1})."
+        }
+      ]
+    },
+    {
+      "Name": "KrSecondaryProcess_ClientSideIsForbidden",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Launch from client-side is forbidden via process settings (ID = {0}, Name = {1})."
+        },
+        {
+          "Culture": 25,
+          "Value": "Запуск с клиента запрещен настройками процесса (ID = {0}, Название = {1})."
+        }
+      ]
+    },
+    {
+      "Name": "KrSecondaryProcess_IsNotGlobal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Secondary process is not global and can not be launched (ID = {0}, Name = {1})."
+        },
+        {
+          "Culture": 25,
+          "Value": "Процесс не является глобальным и не может быть запущен в глобальном контексте (ID = {0}, Название = {1})."
+        }
+      ]
+    },
+    {
+      "Name": "KrSecondaryProcess_IsNotLocal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Secondary process is not local and can not be launched in current context (ID = {0}, Name = {1})."
+        },
+        {
+          "Culture": 25,
+          "Value": "Процесс не является локальным и не может быть запущен в текущем контексте (ID = {0}, Название = {1})."
+        }
+      ]
+    },
+    {
+      "Name": "KrSecondaryProcess_Mode_Action",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Action"
+        },
+        {
+          "Culture": 25,
+          "Value": "Действие"
+        }
+      ]
+    },
+    {
+      "Name": "KrSecondaryProcess_Mode_Button",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Button"
+        },
+        {
+          "Culture": 25,
+          "Value": "Кнопка"
+        }
+      ]
+    },
+    {
+      "Name": "KrSecondaryProcess_Mode_PureProcess",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Pure process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Простой процесс"
+        }
+      ]
+    },
+    {
+      "Name": "KrSecondaryProcess_SecondaryProcessLaunchIsForbiddenViaRestrictions",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Secondary process launch is forbidden via restrictions."
+        },
+        {
+          "Culture": 25,
+          "Value": "Запуск вторичного процесса запрещен ограничениями."
+        }
+      ]
+    },
+    {
+      "Name": "KrSecondaryProcess_SignatureVerifyingFailed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error occurred when launching serialized process. Signature is invalid."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка при запуске сериализованного процесса. Подпись неверна."
+        }
+      ]
+    },
+    {
+      "Name": "KrSecondaryProcess_Unknown",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unknown secondary process (ID = {0})."
+        },
+        {
+          "Culture": 25,
+          "Value": "Неизвестный процесс (ID = {0})."
+        }
+      ]
+    },
+    {
+      "Name": "KrStageGroups_DefaultApprovalGroup",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approval"
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласование"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Acquaintance",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Acquaintance"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ознакомление"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_AddFromTemplate",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create file from template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать файл по шаблону"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_AddFromTemplate_TemplateIsRequiredWarning",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Template is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Шаблон не указан."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Approval",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approval"
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласование"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Approval_AdditionalApprovalTaskParentRowIDNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Reference to the parent task is required. Task ID: {0:B}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не задана ссылка на родительское задание. Идентификатор задания: {0:B}."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ChangeState",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Change state"
+        },
+        {
+          "Culture": 25,
+          "Value": "Смена состояния"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_CreateCard",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создание карточки"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_CreateCard_ModeRequired",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Mode is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим не заполнен."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_CreateCard_OpenMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open new card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть новую карточку"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_CreateCard_StartProcessAndOpenMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Start process and open card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запустить процесс и открыть карточку"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_CreateCard_StartProcessMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Start process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запустить процесс"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_CreateCard_StoreAndOpenMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save and open card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить и открыть карточку"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_CreateCard_StoreMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить карточку"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_CreateCard_TemplateAndTypeNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "To create a card neither template card nor card or document is specified."
+        },
+        {
+          "Culture": 25,
+          "Value": "Для создания карточки не указан ни шаблон, ни тип карточки или документа."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_CreateCard_TemplateAndTypeSelected",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select one of the following: template or card type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите только шаблон или тип карточки."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_CreateCard_TemplateNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Template card not found."
+        },
+        {
+          "Culture": 25,
+          "Value": "Шаблон карточки не найден."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Deregistration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Deregistration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отмена регистрации"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dialog"
+        },
+        {
+          "Culture": 25,
+          "Value": "Диалог"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_AlwaysOpen",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Always"
+        },
+        {
+          "Culture": 25,
+          "Value": "Всегда"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_BottomDialogButton",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Bottom dialog button"
+        },
+        {
+          "Culture": 25,
+          "Value": "Нижняя диалоговая кнопка"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_BottomToolbarButton",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Bottom toolbar button"
+        },
+        {
+          "Culture": 25,
+          "Value": "Кнопка нижнего тулбара"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_ButtonAliasNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Button alias is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не указан алиас кнопки."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_ButtonCaptionNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Button caption is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не указан текст кнопки."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_ButtonClickOpen",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Do not open automatically"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не отображать автоматически"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_ButtonTypeIDNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Button type is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не указан тип кнопки."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_CardOpenModeNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card open mode is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим открытия диалога не указан."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_CardStoreModeNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dialog lifetime is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Время жизни диалога не указано."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_StartingSyncDialogWithNotInfoStoreMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sync dialog can be launched only with \"Info\" lifetime"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запуск синхронного диалога возможен только с временем жизни \"Info\""
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_StoreAsCard",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card (depends on card is satellite or not)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка (зависит от того, является ли карточка сателлитом)"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_StoreIntoInfo",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Request (transmit through Task.Info)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запрос (передача через Task.Info)"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_StoreIntoSettings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task (store into Task.Settings)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание (сохранение в Task.Settings)"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_TemplateAndTypeNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "To create a card neither template card nor card or document is specified."
+        },
+        {
+          "Culture": 25,
+          "Value": "Для создания карточки не указан ни шаблон, ни тип карточки или документа."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_TemplateAndTypeSelected",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select one of the following: template or card type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите только шаблон или тип карточки."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Dialog_ToolbarButton",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Toolbar button"
+        },
+        {
+          "Culture": 25,
+          "Value": "Кнопка тулбара"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Edit",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Amending"
+        },
+        {
+          "Culture": 25,
+          "Value": "Доработка"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Fork",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Fork"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ветвление"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Fork_AfterNested",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "After branch completion"
+        },
+        {
+          "Culture": 25,
+          "Value": "После завершения ветки"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Fork_CannotRunAsyncIntoSync",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't run async process into sync."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно запустить асинхронный процесс внутри синхронного."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Fork_SecondaryProcessMissed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Secondary process missed."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не найден вторичный процесс для запуска."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ForkManagement",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Fork management"
+        },
+        {
+          "Culture": 25,
+          "Value": "Управление ветвлением"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ForkManagement_AddMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add branch"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить ветку"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ForkManagement_ModeNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Fork management mode not specified."
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим управления ветвлением не указан."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ForkManagement_RemoveMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Complete branch"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершение ветки"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_HistoryManagement",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "History management"
+        },
+        {
+          "Culture": 25,
+          "Value": "Управление историей"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_HistoryManagement_GlobalContextError",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "History management is impossible without card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Управление историей невозможно без карточки."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Notification",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Notification"
+        },
+        {
+          "Culture": 25,
+          "Value": "Уведомление"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_PartialRecalc",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Route recalc"
+        },
+        {
+          "Culture": 25,
+          "Value": "Пересчёт маршрута"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ProcessAlreadyStarted",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process already started"
+        },
+        {
+          "Culture": 25,
+          "Value": "Процесс уже запущен"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ProcessManagement",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process management"
+        },
+        {
+          "Culture": 25,
+          "Value": "Управление процессом"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ProcessManagement_CancelProcessMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancel process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отменить процесс"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ProcessManagement_CurrentGroupMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Transition to beginning of the current group"
+        },
+        {
+          "Culture": 25,
+          "Value": "Переход в начало текущей группы"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ProcessManagement_GroupMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Transition to group"
+        },
+        {
+          "Culture": 25,
+          "Value": "Переход на группу"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ProcessManagement_ModeNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Management mode is not specified."
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим управления процессом не указан."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ProcessManagement_NextGroupMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Transition to next group"
+        },
+        {
+          "Culture": 25,
+          "Value": "Переход на следующую группу"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ProcessManagement_PrevGroupMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Transition to previous group"
+        },
+        {
+          "Culture": 25,
+          "Value": "Переход на предыдущую группу"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ProcessManagement_SignalMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Send signal"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отправить сигнал"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ProcessManagement_SkipProcessMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Skip process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Пропустить процесс"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_ProcessManagement_StageMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Transition to stage"
+        },
+        {
+          "Culture": 25,
+          "Value": "Переход на этап"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Registration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Registration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Регистрация"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Registration_PerformerNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Registrator is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Регистратор не указан."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Resolution",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задача"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_RouteIsEmptySecondaryProcessDescription",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": " (secondary process \"{0}\", ID =\"{1}\")."
+        },
+        {
+          "Culture": 25,
+          "Value": " (вторичный процесс \"{0}\", ID =\"{1}\")."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Script",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Script"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сценарий"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_Signing",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Signing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подписание"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_TypedTask",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Typed task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Типизированное задание"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_TypedTask_AfterTask",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "After task"
+        },
+        {
+          "Culture": 25,
+          "Value": "После завершения задания"
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_TypedTask_TaskType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task type is requires."
+        },
+        {
+          "Culture": 25,
+          "Value": "Необходимо указать тип задания."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_TypedTask_TaskTypeUndefined",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The task type {0} ({1}) is not included in the approval stages settings in the standard solution."
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип задания {0} ({1}) не включён в настройках этапов маршрутов в типовом решении."
+        }
+      ]
+    },
+    {
+      "Name": "KrStages_UniversalTask",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Customizable task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настраиваемое задание"
+        }
+      ]
+    },
+    {
+      "Name": "KrStageTemplates_DefaultEditTemplate",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Amending"
+        },
+        {
+          "Culture": 25,
+          "Value": "Доработка"
+        }
+      ]
+    },
+    {
+      "Name": "KrStageTemplates_DefaultReturnForAmendingTemplate",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Return for amending"
+        },
+        {
+          "Culture": 25,
+          "Value": "Возврат на доработку"
+        }
+      ]
+    },
+    {
+      "Name": "KrStageTemplates_NewTaskHistoryGroupIteration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "New approval iteration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Новая итерация согласования"
+        }
+      ]
+    },
+    {
+      "Name": "KrTileExtensions_CheckState",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Check state"
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверка состояния"
+        }
+      ]
+    },
+    {
+      "Name": "KrTileExtensions_CheckState_AccessDenied",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "You do not have access to perform this action. Refresh the card and try again."
+        },
+        {
+          "Culture": 25,
+          "Value": "У вас нет доступа на выполнение данного действия. Обновите карточку и повторите попытку."
+        }
+      ]
+    },
+    {
+      "Name": "KrTileExtensions_CheckState_States",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "States: "
+        },
+        {
+          "Culture": 25,
+          "Value": "Состояния: "
+        }
+      ]
+    },
+    {
+      "Name": "UI_Error_NoAvailableStageGroups",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No available stage groups"
+        },
+        {
+          "Culture": 25,
+          "Value": "Нет доступных групп этапов"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Error_NoAvailableStages",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No stages available"
+        },
+        {
+          "Culture": 25,
+          "Value": "Нет доступных этапов"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Error_PerformerNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Performer isn't specified for stage \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Исполнитель не задан для этапа \"{0}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Error_PerformerNotSpecifiedWarn",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Performer isn't specified. Start stage without performer is impossible."
+        },
+        {
+          "Culture": 25,
+          "Value": "Исполнитель не указан. Запуск этапа без исполнителя невозможен."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Error_PlannedNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Planned date is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата выполнения не указана."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Error_PlannedNotSpecifiedWarn",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Planned date is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата выполнения не указана."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Error_TimeLimitNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Time limit is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Срок не указан."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Error_TimeLimitNotSpecifiedWarn",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Time limit is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Срок не указан."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Error_TimeLimitOrPlannedNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Time limit or planned date is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Срок или дата выполнения не указаны."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Error_TimeLimitOrPlannedNotSpecifiedWarn",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Time limit or planned date are required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Срок или дата выполнения не указаны."
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrAcquaintance_ExcludeDeputies",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Do not send deputies"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не отправлять заместителям"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrApproval_Advisory",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Advisory approval"
+        },
+        {
+          "Culture": 25,
+          "Value": "Рекомендательное согласование"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrApproval_AdvisoryTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Completion option \"Disapprove\" does not send process to amending. When flag is enabled the special task kind is set, but you can specify your own task kind."
+        },
+        {
+          "Culture": 25,
+          "Value": "Вариант завершения \"Не согласовать\" не возвращает процесс на доработку. При установке флага проставляется специальный вид задания, однако можно указать собственный."
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrApproval_ChangeStateOnEnd",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Change state on end"
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменять состояние при завершении"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrApproval_ChangeStateOnStart",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Change state on start"
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменять состояние при старте"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrApproval_Parallel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Parallel"
+        },
+        {
+          "Culture": 25,
+          "Value": "Параллельно"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrApproval_Sequential",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sequential"
+        },
+        {
+          "Culture": 25,
+          "Value": "Последовательно"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrAuthorSettings_From",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "From (user or context role)"
+        },
+        {
+          "Culture": 25,
+          "Value": "От имени (сотрудник или контекстная роль)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrChangeState_State",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "State"
+        },
+        {
+          "Culture": 25,
+          "Value": "Состояние"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrCreateCard_Mode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrCreateCard_ModeValidator",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Mode is required"
+        },
+        {
+          "Culture": 25,
+          "Value": "Укажите режим"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrCreateCard_Template",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Шаблон"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrCreateCard_TemplateValidator",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Template is required"
+        },
+        {
+          "Culture": 25,
+          "Value": "Укажите шаблон"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_ButtonName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task button caption"
+        },
+        {
+          "Culture": 25,
+          "Value": "Текст кнопки в задании"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_ButtonSettingsCancel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancel (do not send request)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отмена (не отправлять запрос)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_ButtonSettingsCaption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Caption"
+        },
+        {
+          "Culture": 25,
+          "Value": "Текст"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_ButtonSettingsIcon",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Icon"
+        },
+        {
+          "Culture": 25,
+          "Value": "Иконка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_ButtonSettingsName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Button alias"
+        },
+        {
+          "Culture": 25,
+          "Value": "Алиас кнопки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_ButtonSettingsTable",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Button settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки кнопок"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_ButtonSettingsType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_DialogAlias",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dialog alias (uniqueness key)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Алиас диалога (ключ уникальности)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_DialogAliasTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Alias is used for operating with the same instance of card into different dialog stages."
+        },
+        {
+          "Culture": 25,
+          "Value": "Алиас используется для отображения одного и того же экземпляра карточки в разных этапах диалога в рамках одного процесса."
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_DialogName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dialog name (for extensions)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя диалога (для расширений)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_DialogNameTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dialog name is used for determine current dialog in extensions. Dialog name placed into \"ICardEditorModel.DialogName\" and card UI extensions can be filtered at registration using method \".WhenDialog(name)\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя диалога, позволяющая определять текущий диалог в расширениях. Имя диалога находится в \"ICarEditorModel.DialogName\", а также его можно указывать при регистрации UI расширений с помощью \".WhenDialog(name)\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_Mode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dialog lifetime"
+        },
+        {
+          "Culture": 25,
+          "Value": "Время жизни диалога"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_ModeTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dialog card storing mode\n* Transmit through Task.Info means that dialog card will not store anywhere. \nAfter request completion card data will be losed.\n\n* Storing into Task.Setting is allow to save dialog card data into Task.Settings field. \nTask.Settings field stores some task-related data with arbitrary JSON structure.\nDialog card exists while task exists.\n\n* \"Card mode\" option operates by persistent card that exists in database.\nThat card will be linked to the main card if it contains \"KrDialogSatellite\" section.\nIn this case it lives as long as the main card does.\nIt is deleted, imported and exported alongside with the main card. \nOtherwise it's an independent card with it's own life cycle."
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим сохранения карточки диалога\n* Передача Task.Info подразумевает, что карточка диалога нигде сохранена не будет. \nПосле выполнения запроса данные о карточке будут потеряны. \n\n* Сохранение в Task.Settings позволяет сохранить информацию о карточке диалога в поле Task.Settings.\nПоле Task.Settings хранит некоторые данные о задании произвольной структуры в формате JSON.\nДанные о карточке диалога существуют, пока существует задание.\n\n* Режим \"Карточка\" оперирует карточкой, существующей в базе данных.\nТакая карточка будет связана с основной карточкой если она содержит секцию \"KrDialogSatellite\".\nВ этом случае карточка существует вместе с основной карточкой.\nПри удалении, импорте, экспорте основной карточки диалог будет также удален/импортирован/экспортирован.\nИначе карточка диалога является независимой с собственным жизненным циклом."
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_OpenMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dialog open mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим открытия диалога"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_SavingScript",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Saving script"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сценарий сохранения"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_SavingScriptTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Script is executed on card saving. This script may be executed before validation script or independently.\nContext contains:\n* Dialog.ButtonName - pressed button alias.\n* Dialog.StoreMode - dialog lifetime.\n{$UI_KrDialog_SavingScriptTooltip2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сценарий, выполняемый при сохранении карточки диалога. Выполнение сценария возможно перед сценарием валидации, а также независимо от него. \nКонтекст содержит:\n* Dialog.ButtonName - алиас нажатой кнопки.\n* Dialog.StoreMode - способ сохранения карточки диалога.\n{$UI_KrDialog_SavingScriptTooltip2}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_SavingScriptTooltip2",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "* Dialog.GetDialogCardAsync(CancellationToken cancellationToken = default) - get dialog card.\n* Dialog.GetFileContentAsync(CardFile file) - get file content from dialog card with lifetime \"Request\" or \"Task\". Function parameter \"file\" should be taken from dialog card. Ex: (await Dialog.GetDialogCardAsync(CancellationToken)).Files[0].\n* Dialog.SetFileContent(CardFile file, byte[] content) - write file content into dialog card with lifetime \"Request\".\n* Dialog.GetFileContainerAsync(IValidationResultBuilder validationResult = default, CancellationToken cancellationToken = default) - get file container for work with file content. Satisfy only for cards with dialog lifetime \"Request\" or \"Card\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "* Dialog.GetDialogCardAsync(CancellationToken cancellationToken = default) - возвращает карточку диалога.\n* Dialog.GetFileContentAsync(CardFile file) - возвращает контент файла из карточки диалога с временем жизни \"Запрос\" или \"Задание\". Параметр метода \"file\" должен быть получен из карточки диалога. Например: (await Dialog.GetDialogCardAsync(this.CancellationToken)).Files[0].\n* Dialog.SetFileContent(CardFile file, byte[] content) - сохраняет контент файла в карточку диалога с временем жизни \"Запрос\".\n* Dialog.GetFileContainerAsync(IValidationResultBuilder validationResult = default, CancellationToken cancellationToken = default) - возвращает файловый контейнер карточки диалога с временем жизни \"Задание\" или \"Карточка\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_Script",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Validation script"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сценарий валидации"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_Scripts",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scripts"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сценарии"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_ScriptTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Context contains full card including file contents.\nContext contains:\n* Dialog.Cancel - indicates that dialog processing needs to be cancelled and dialog window should not be closed. Default is false, can be set to true.\n* Dialog.CompleteDialog - indicates that dialog stage needs to be completed. By default true and can be set to false, then the dialog box will be closed without completing stage.\n* Dialog.ButtonName - pressed button alias.\n* Dialog.StoreMode - dialog lifetime.\n{$UI_KrDialog_ScriptTooltip2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "В контексте доступна полная карточка, включая содержимое файлов.\nКонтекст содержит:\n* Dialog.Cancel - признак того, что необходимо прервать обработку диалога без закрытия окна. По умолчанию false, может быть выставлено в true.\n* Dialog.CompleteDialog - признак того, что этап диалога необходимо завершить. По умолчанию true, может быть выставлено в false, тогда диалоговое окно будет закрыто без завершения этапа.\n* Dialog.ButtonName - алиас нажатой кнопки.\n* Dialog.StoreMode - способ сохранения карточки диалога.\n{$UI_KrDialog_ScriptTooltip2}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrDialog_ScriptTooltip2",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "* Dialog.GetDialogCardAsync(CancellationToken cancellationToken = default) - get dialog card.\n* Dialog.GetFileContentAsync(CardFile file) - get file content from dialog card with lifetime \"Request\" or \"Task\". Function parameter \"file\" should be taken from dialog card. Ex: (await Dialog.GetDialogCardAsync(CancellationToken)).Files[0].\n* Dialog.SetFileContent(CardFile file, byte[] content) - write file content into dialog card with lifetime \"Request\".\n* Dialog.GetFileContainerAsync(IValidationResultBuilder validationResult = default, CancellationToken cancellationToken = default) - get file container for work with file content. Satisfy only for cards with dialog lifetime \"Request\" or \"Card\". Adding and changing files is not supported for dialog cards with lifetime \"Card\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "* Dialog.GetDialogCardAsync(CancellationToken cancellationToken = default) - возвращает карточку диалога.\n* Dialog.GetFileContentAsync(CardFile file) - возвращает контент файла из карточки диалога с временем жизни \"Запрос\" или \"Задание\". Параметр метода \"file\" должен быть получен из карточки диалога. Например: (await Dialog.GetDialogCardAsync(this.CancellationToken)).Files[0].\n* Dialog.SetFileContent(CardFile file, byte[] content) - сохраняет контент файла в карточку диалога с временем жизни \"Запрос\".\n* Dialog.GetFileContainerAsync(IValidationResultBuilder validationResult = default, CancellationToken cancellationToken = default) - возвращает файловый контейнер карточки диалога с временем жизни \"Задание\" или \"Карточка\". Добавление и изменение файлов не поддерживается для диалога с временем жизни \"Карточка\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrEdit_ChangeState",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Change state"
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменять состояние"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrEdit_DoNotSkipStage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Do not skip stage"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не пропускать этап"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrEdit_IncrementCycle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Increment cycle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Увеличить цикл"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrEdit_ManageStageVisibility",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Manage stage visibility"
+        },
+        {
+          "Culture": 25,
+          "Value": "Управлять видимостью этапа"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrHistoryManagement_NewIteration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "New iteration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Новая итерация"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrHistoryManagement_ParentType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Parent group"
+        },
+        {
+          "Culture": 25,
+          "Value": "Родительская группа"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrHistoryManagement_Type",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task history group"
+        },
+        {
+          "Culture": 25,
+          "Value": "Группа истории заданий"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrNotification_ExcludeDeputies",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Do not send deputies"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не отправлять заместителям"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrNotification_ExcludeSubscribers",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Do not send subscribers"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не отправлять подписчикам"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrPerformersSettings_AcquaintanceWith",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Receivers"
+        },
+        {
+          "Culture": 25,
+          "Value": "Получатели"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrPerformersSettings_Approvers",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approvers"
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласующие"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrPerformersSettings_Performer",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Performer"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исполнитель"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrPerformersSettings_Performers",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Performers"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исполнители"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrPerformersSettings_Recipients",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Recipients"
+        },
+        {
+          "Culture": 25,
+          "Value": "Получатели"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrPerformersSettings_Registrator",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Registrator"
+        },
+        {
+          "Culture": 25,
+          "Value": "Регистратор"
+        }
+      ]
+    },
+    {
+      "Name": "UI_KrPerformersSettings_Singers",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Signers"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подписанты"
+        }
+      ]
+    },
+    {
+      "Name": "UI_StageRowWindowTitle",
+      "Comment": "{0} - Название типа этапа.\n{1} - Название группы этапов.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0}, stage group {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0}, группа этапов {1}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_TaskKind_Legacy",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Kind (obsolete)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид (устаревшее)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_TaskKind_LegacyTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Using for backward compatibility. It will be deleted in one of next versions. Please, use actual \"Kind\" field."
+        },
+        {
+          "Culture": 25,
+          "Value": "Используется для обратной совместимости. В следующий версиях будет удалено. Пожалуйста, используйте актуальное поле \"Вид\"."
+        }
+      ]
+    },
+    {
+      "Name": "Views_CompletionOptions_Partition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scheme partition"
+        },
+        {
+          "Culture": 25,
+          "Value": "Библиотека схемы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_FunctionRoles_Partition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scheme partition"
+        },
+        {
+          "Culture": 25,
+          "Value": "Библиотека схемы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_KrDocStates_ID",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Identifier"
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор"
+        }
+      ]
+    },
+    {
+      "Name": "Views_KrDocStates_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название"
+        }
+      ]
+    },
+    {
+      "Name": "Views_KrDocStates_Partition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scheme partition"
+        },
+        {
+          "Culture": 25,
+          "Value": "Библиотека схемы"
+        }
+      ]
+    }
+  ]
+}

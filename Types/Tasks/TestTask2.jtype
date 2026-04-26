@@ -1,0 +1,42 @@
+﻿{
+  "Blocks": [],
+  "Caption": "$CardTypes_TypesNames_TestTask2",
+  "CardTypeSections": [],
+  "CompletionOptions": [
+    {
+      "Flags::int": 0,
+      "FormName": null,
+      "Order::int": 0,
+      "TypeID::uid": "7000ea10-efd8-0479-a6d4-b5e37a27f30a",
+      "Validators": []
+    }
+  ],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 544,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "Interval::int": 10
+  },
+  "Group": "TestProcess",
+  "ID::uid": "5239e1b6-1ed6-4a3f-a11e-7e4c6e187af6",
+  "InstanceType::int": 2,
+  "Name": "TestTask2",
+  "SchemeItems": [
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "3e920b6a-94aa-4691-9014-207d7ed01b27"
+      ],
+      "SectionID::uid": "005962e7-65f1-4763-a0ef-b76751d26de3"
+    }
+  ],
+  "TabCaption": null,
+  "TabOrder::int": 0,
+  "Validators": []
+}

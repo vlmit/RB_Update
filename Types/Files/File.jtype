@@ -1,0 +1,22 @@
+﻿{
+  "Blocks": [],
+  "Caption": "$CardTypes_TypesNames_File",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 0,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "Interval::int": 10
+  },
+  "Group": "System",
+  "ID::uid": "ab387c69-fd62-0655-bbc3-b879e433a143",
+  "InstanceType::int": 1,
+  "Name": "File",
+  "SchemeItems": [],
+  "TabCaption": null,
+  "TabOrder::int": 0,
+  "Validators": []
+}

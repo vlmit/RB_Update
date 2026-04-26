@@ -1,0 +1,4011 @@
+﻿{
+  "ID": "09c3fd4e-b0f0-4d45-9e47-3ff60b281ada",
+  "Name": "UI_Scheme",
+  "Priority": 0,
+  "Entries": [
+    {
+      "Name": "UI_Scheme_AddComplexColumn",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add complex column"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить комплексную колонку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AddDatabase",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add database"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить базу данных"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Added",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Added"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавлено"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AddFunction",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add function"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить функцию"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AddIndex",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add index"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить индекс"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AddMigration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add migration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить миграцию"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AddPartition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add partition"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить библиотеку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AddPartitionFrom",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add partition from..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить библиотеку из..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AddPhysicalColumn",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add physical column"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить физическую колонку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AddPrimaryKey",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add primary key"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить первичный ключ"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AddProcedure",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add procedure"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить процедуру"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AddRecord",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add record"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить строку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AddTable",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add table"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить таблицу"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AddUniqueKey",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add unique key"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить уникальный ключ"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AdvancedSettings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Advanced settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Расширенные настройки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AllDatabasesLabel",
+      "Comment": "Имя метки Все базы данных в объекте фильтрации",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All databases"
+        },
+        {
+          "Culture": 25,
+          "Value": "Все базы данных"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AllowPageLocks",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Allow page locks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Блокировки страниц"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AllowRowLocks",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Allow row locks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Блокировки строк"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_AllPartitionsLabel",
+      "Comment": "Имя метки Все библиотеки в объекте фильтрации",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All partitions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Все библиотеки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_BeforeModifyingTables",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "before modifying tables"
+        },
+        {
+          "Culture": 25,
+          "Value": "до модификации таблиц"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Collation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Collation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Правила сравнения строк"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Columns",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Columns"
+        },
+        {
+          "Culture": 25,
+          "Value": "Колонки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ConfirmDeletePartition",
+      "Comment": "Сообщение о подтверждении удаления Библиотеки\n{0} список таблиц, имеющих объекты прочих библиотек",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dependent objects from other partitions will be deleted: {0}\nContinue removing partition?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Будут удалены зависимые объекты других библиотек: {0} \nПродолжить удаление библиотеки?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ConfirmDeleteTable",
+      "Comment": "Сообщение о подтверждении удаления Таблицы\n{0} список таблиц, имеющих ссылки на удаляему таблицу",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dependent objects from other tables will be deleted: {0}\nContinue removing table?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Будут удалены зависимые объекты других таблиц: {0} \nПродолжить удаление таблицы?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Connect",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Connect"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подключиться"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ConnectionString",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Connection String"
+        },
+        {
+          "Culture": 25,
+          "Value": "Строка подключения"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ConnectToDatabase",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Connect to Database"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подключение к базе данных"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Constraints",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Constraints"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ограничения"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ContentType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Section type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип секции"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ContentType_Collections",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Collections"
+        },
+        {
+          "Culture": 25,
+          "Value": "Коллекционная"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ContentType_Entries",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Entries"
+        },
+        {
+          "Culture": 25,
+          "Value": "Строковая"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ContentType_Enumeration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enumeration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Перечисление"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ContentType_Hierarchies",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hierarchies"
+        },
+        {
+          "Culture": 25,
+          "Value": "Иерархическая"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_CreateStorage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There is no storage for the scheme.\n\nCreate it?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не существует хранилища для схемы.\n\nСоздать его?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Database",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Database"
+        },
+        {
+          "Culture": 25,
+          "Value": "База данных"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_DatabaseFileType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "TESSA database scheme file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл схемы базы данных TESSA"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_DatabasePartitionFileType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "TESSA scheme file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл схемы TESSA"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_DataCompression",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Data compression"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сжатие данных"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Dbms",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "DBMS"
+        },
+        {
+          "Culture": 25,
+          "Value": "СУБД"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Dbms_PostgreSql",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "PostgreSQL"
+        },
+        {
+          "Culture": 25,
+          "Value": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Dbms_SqlServer",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "MS SQL Server"
+        },
+        {
+          "Culture": 25,
+          "Value": "MS SQL Server"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_DefaultValue",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Default value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение по умолчанию"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_DeleteReferentialAction",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete referential action"
+        },
+        {
+          "Culture": 25,
+          "Value": "Действие при удалении"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Description",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Description"
+        },
+        {
+          "Culture": 25,
+          "Value": "Описание"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_EmptyFilter",
+      "Comment": "Строка поиска в схеме, выводимая, когда строка пустая",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "input filter"
+        },
+        {
+          "Culture": 25,
+          "Value": "введите фильтр"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ExecuteBeforeModifyingTables",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Execute before modifying tables"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выполнять до модификации таблиц"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ExecutionOrder",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Execution order"
+        },
+        {
+          "Culture": 25,
+          "Value": "Порядок выполнения"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Expression",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Expression"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выражение"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_FillFactor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Fill factor (%)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Степень заполнения (%)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Function",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Function"
+        },
+        {
+          "Culture": 25,
+          "Value": "Функция"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Functions",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Functions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Функции"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Group",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Group"
+        },
+        {
+          "Culture": 25,
+          "Value": "Группа"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IdentityIncrement",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Step"
+        },
+        {
+          "Culture": 25,
+          "Value": "Шаг"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IdentityStart",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Initial value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Начальное значение"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IncludedColumns",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Included columns"
+        },
+        {
+          "Culture": 25,
+          "Value": "Включённые колонки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IndexColumnDisplayOption_Lower",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Function lower()"
+        },
+        {
+          "Culture": 25,
+          "Value": "Функция lower()"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IndexColumnDisplayOption_PgTrgm",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Operator class from pg_trgm"
+        },
+        {
+          "Culture": 25,
+          "Value": "Оператор класса из pg_trgm"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IndexColumnDisplayOption_ToTsvector",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Function to_tsvector() with configuration '{0}'"
+        },
+        {
+          "Culture": 25,
+          "Value": "Функция to_tsvector() с параметром '{0}'"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IndexColumnDisplaySort_Ascending",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sort ascending"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сортировка по возрастанию"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IndexColumnDisplaySort_Descending",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sort descending"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сортировка по убыванию"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IndexColumnDisplaySort_Unspecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sort unspecified"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сортировка не указана"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IndexColumnOption_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "None"
+        },
+        {
+          "Culture": 25,
+          "Value": "ничего"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IndexColumnOption_PgTrgm",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Operator class from pg_trgm"
+        },
+        {
+          "Culture": 25,
+          "Value": "Оператор класса из pg_trgm"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IndexColumnOption_ToTsvector",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Function to_tsvector()"
+        },
+        {
+          "Culture": 25,
+          "Value": "Функция to_tsvector()"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IndexedColumns",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Indexed columns"
+        },
+        {
+          "Culture": 25,
+          "Value": "Индексируемые колонки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Indexes",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Indexes"
+        },
+        {
+          "Culture": 25,
+          "Value": "Индексы"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IndexType_BTree",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "B-Tree"
+        },
+        {
+          "Culture": 25,
+          "Value": "B-Tree"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IndexType_GIN",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "GIN"
+        },
+        {
+          "Culture": 25,
+          "Value": "GIN"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IndexType_GiST",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "GiST"
+        },
+        {
+          "Culture": 25,
+          "Value": "GiST"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IndexType_Hash",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hash"
+        },
+        {
+          "Culture": 25,
+          "Value": "Hash"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_InstanceType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Used for the type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Используется для типа"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_InstanceType_Cards",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cards"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_InstanceType_Files",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Files"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файлы"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_InstanceType_Tasks",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задания"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_InstanceType_Unspecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unspecified"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не указан"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IsClustered",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Clustered"
+        },
+        {
+          "Culture": 25,
+          "Value": "Кластерный"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IsEnabled",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enabled"
+        },
+        {
+          "Culture": 25,
+          "Value": "Включён"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IsIdentity",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Auto increment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автоинкрементная колонка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IsNotForReplication",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Not for replication"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не для репликации"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IsPadded",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Padded"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разреженный"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IsReferenceToOwner",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Reference to owner"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ссылка на родителя"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IsRowGuidColumn",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Row GUID"
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор строки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IsSparse",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sparse"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разреженная"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IsUnique",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unique"
+        },
+        {
+          "Culture": 25,
+          "Value": "Уникальный"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_IsVirtual",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Virtual"
+        },
+        {
+          "Culture": 25,
+          "Value": "Виртуальная"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Language",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Language"
+        },
+        {
+          "Culture": 25,
+          "Value": "Язык"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_MaxDegreeOfParallelism",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Max degree of parallelism"
+        },
+        {
+          "Culture": 25,
+          "Value": "Степень параллелизма"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Migration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Migration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Миграция"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Migrations",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Migrations"
+        },
+        {
+          "Culture": 25,
+          "Value": "Миграции"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Modified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Modified"
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменено"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_NoRecomputeStatistics",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No recompute statistics"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не перерасчитывать статистику"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_OpenDatabase",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open database"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть схему"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_OpenScheme",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open scheme"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть схему"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Order",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "order"
+        },
+        {
+          "Culture": 25,
+          "Value": "порядок"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Partition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Partition"
+        },
+        {
+          "Culture": 25,
+          "Value": "Библиотека"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_PartitionErrorTemplate",
+      "Comment": "Шаблон сообщения об ошибке в библиотеке\n{0} - список таблиц с ошибками через запятую",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tables: {0} depends on non-existent partition"
+        },
+        {
+          "Culture": 25,
+          "Value": "Таблицы: {0} ссылаются на несуществующую библиотеку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_PartitionFileType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "TESSA scheme partition file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл библиотеки схемы TESSA"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Partitions",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Partitions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Библиотеки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Advanced",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Advanced"
+        },
+        {
+          "Culture": 25,
+          "Value": "Advanced"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ApplicationName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Application Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Application Name"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ApplicationName_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The optional application name parameter to be sent to the backend during connection initiation"
+        },
+        {
+          "Culture": 25,
+          "Value": "The optional application name parameter to be sent to the backend during connection initiation"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ClientEncoding",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Client Encoding"
+        },
+        {
+          "Culture": 25,
+          "Value": "Client Encoding"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ClientEncoding_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Gets or sets the client_encoding parameter."
+        },
+        {
+          "Culture": 25,
+          "Value": "Gets or sets the client_encoding parameter."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_CommandTimeout",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Command Timeout"
+        },
+        {
+          "Culture": 25,
+          "Value": "Command Timeout"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_CommandTimeout_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The time to wait (in seconds) while trying to execute a command before terminating the attempt and generating an error. Set to zero for infinity."
+        },
+        {
+          "Culture": 25,
+          "Value": "The time to wait (in seconds) while trying to execute a command before terminating the attempt and generating an error. Set to zero for infinity."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Compatibility",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Compatibility"
+        },
+        {
+          "Culture": 25,
+          "Value": "Compatibility"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Connection",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Connection"
+        },
+        {
+          "Culture": 25,
+          "Value": "Connection"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ConnectionIdleLifetime",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Connection Idle Lifetime"
+        },
+        {
+          "Culture": 25,
+          "Value": "Connection Idle Lifetime"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ConnectionIdleLifetime_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The time to wait before closing unused connections in the pool if the count of all connections exeeds MinPoolSize."
+        },
+        {
+          "Culture": 25,
+          "Value": "The time to wait before closing unused connections in the pool if the count of all connections exeeds MinPoolSize."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ConnectionPruningInterval",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Connection Pruning Interval"
+        },
+        {
+          "Culture": 25,
+          "Value": "Connection Pruning Interval"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ConnectionPruningInterval_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "How many seconds the pool waits before attempting to prune idle connections that are beyond idle lifetime."
+        },
+        {
+          "Culture": 25,
+          "Value": "How many seconds the pool waits before attempting to prune idle connections that are beyond idle lifetime."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ConvertInfinityDateTime",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Convert Infinity DateTime"
+        },
+        {
+          "Culture": 25,
+          "Value": "Convert Infinity DateTime"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ConvertInfinityDateTime_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Makes MaxValue and MinValue timestamps and dates readable as infinity and negative infinity."
+        },
+        {
+          "Culture": 25,
+          "Value": "Makes MaxValue and MinValue timestamps and dates readable as infinity and negative infinity."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Database",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Database"
+        },
+        {
+          "Culture": 25,
+          "Value": "Database"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Database_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The PostgreSQL database to connect to."
+        },
+        {
+          "Culture": 25,
+          "Value": "The PostgreSQL database to connect to."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Encoding",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Encoding"
+        },
+        {
+          "Culture": 25,
+          "Value": "Encoding"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Encoding_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Gets or sets the .NET encoding that will be used to encode/decode PostgreSQL string data."
+        },
+        {
+          "Culture": 25,
+          "Value": "Gets or sets the .NET encoding that will be used to encode/decode PostgreSQL string data."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Enlist",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enlist"
+        },
+        {
+          "Culture": 25,
+          "Value": "Enlist"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Enlist_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Whether to enlist in an ambient TransactionScope."
+        },
+        {
+          "Culture": 25,
+          "Value": "Whether to enlist in an ambient TransactionScope."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_EntityAdminDatabase",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "EF Admin Database"
+        },
+        {
+          "Culture": 25,
+          "Value": "EF Admin Database"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_EntityAdminDatabase_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The database admin to specify when creating and dropping a database in Entity Framework. If not specified, defaults to \"template1\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "The database admin to specify when creating and dropping a database in Entity Framework. If not specified, defaults to \"template1\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_EntityTemplateDatabase",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "EF Template Database"
+        },
+        {
+          "Culture": 25,
+          "Value": "EF Template Database"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_EntityTemplateDatabase_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The database template to specify when creating a database in Entity Framework. If not specified, PostgreSQL defaults to \"template1\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "The database template to specify when creating a database in Entity Framework. If not specified, PostgreSQL defaults to \"template1\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Host",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Host"
+        },
+        {
+          "Culture": 25,
+          "Value": "Host"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Host_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The hostname or IP address of the PostgreSQL server to connect to."
+        },
+        {
+          "Culture": 25,
+          "Value": "The hostname or IP address of the PostgreSQL server to connect to."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_IncludeRealm",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Include Realm"
+        },
+        {
+          "Culture": 25,
+          "Value": "Include Realm"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_IncludeRealm_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The Kerberos realm to be used for authentication."
+        },
+        {
+          "Culture": 25,
+          "Value": "The Kerberos realm to be used for authentication."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_IntegratedSecurity",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Integrated Security"
+        },
+        {
+          "Culture": 25,
+          "Value": "Integrated Security"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_IntegratedSecurity_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Whether to use Windows integrated security to log in."
+        },
+        {
+          "Culture": 25,
+          "Value": "Whether to use Windows integrated security to log in."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_InternalCommandTimeout",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Internal Command Timeout"
+        },
+        {
+          "Culture": 25,
+          "Value": "Internal Command Timeout"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_InternalCommandTimeout_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The time to wait (in seconds) while trying to execute a an internal command before terminating the attempt and generating an error. -1 uses CommandTimeout, 0 means no timeout."
+        },
+        {
+          "Culture": 25,
+          "Value": "The time to wait (in seconds) while trying to execute a an internal command before terminating the attempt and generating an error. -1 uses CommandTimeout, 0 means no timeout."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_KeepAlive",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Keepalive"
+        },
+        {
+          "Culture": 25,
+          "Value": "Keepalive"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_KeepAlive_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The number of seconds of connection inactivity before Npgsql sends a keepalive query."
+        },
+        {
+          "Culture": 25,
+          "Value": "The number of seconds of connection inactivity before Npgsql sends a keepalive query."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_KerberosServiceName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Kerberos Service Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Kerberos Service Name"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_KerberosServiceName_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The Kerberos service name to be used for authentication."
+        },
+        {
+          "Culture": 25,
+          "Value": "The Kerberos service name to be used for authentication."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_MaxPoolSize",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Maximum Pool Size"
+        },
+        {
+          "Culture": 25,
+          "Value": "Maximum Pool Size"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_MaxPoolSize_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The maximum connection pool size."
+        },
+        {
+          "Culture": 25,
+          "Value": "The maximum connection pool size."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_MinPoolSize",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Minimum Pool Size"
+        },
+        {
+          "Culture": 25,
+          "Value": "Minimum Pool Size"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_MinPoolSize_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The minimum connection pool size."
+        },
+        {
+          "Culture": 25,
+          "Value": "The minimum connection pool size."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Password",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Password"
+        },
+        {
+          "Culture": 25,
+          "Value": "Password"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Password_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The password to connect with. Not required if using IntegratedSecurity."
+        },
+        {
+          "Culture": 25,
+          "Value": "The password to connect with. Not required if using IntegratedSecurity."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_PersistSecurityInfo",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Persist Security Info"
+        },
+        {
+          "Culture": 25,
+          "Value": "Persist Security Info"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_PersistSecurityInfo_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Gets or sets a Boolean value that indicates if security-sensitive information, such as the password, is not returned as part of the connection if the connection is open or has ever been in an open state."
+        },
+        {
+          "Culture": 25,
+          "Value": "Gets or sets a Boolean value that indicates if security-sensitive information, such as the password, is not returned as part of the connection if the connection is open or has ever been in an open state."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Pooling",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Pooling"
+        },
+        {
+          "Culture": 25,
+          "Value": "Pooling"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Pooling_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Whether connection pooling should be used."
+        },
+        {
+          "Culture": 25,
+          "Value": "Whether connection pooling should be used."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Port",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Port"
+        },
+        {
+          "Culture": 25,
+          "Value": "Port"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Port_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The TCP port of the PostgreSQL server."
+        },
+        {
+          "Culture": 25,
+          "Value": "The TCP port of the PostgreSQL server."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ReadBufferSize",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Read Buffer Size"
+        },
+        {
+          "Culture": 25,
+          "Value": "Read Buffer Size"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ReadBufferSize_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Determines the size of the internal buffer Npgsql uses when reading. Increasing may improve performance if transferring large values from the database."
+        },
+        {
+          "Culture": 25,
+          "Value": "Determines the size of the internal buffer Npgsql uses when reading. Increasing may improve performance if transferring large values from the database."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_SearchPath",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Search Path"
+        },
+        {
+          "Culture": 25,
+          "Value": "Search Path"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_SearchPath_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Gets or sets the scheme search path."
+        },
+        {
+          "Culture": 25,
+          "Value": "Получает или устанавливает путь поиска схемы данных."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Security",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Security"
+        },
+        {
+          "Culture": 25,
+          "Value": "Security"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ServerCompatibilityMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Server Compatibility Mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Server Compatibility Mode"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ServerCompatibilityMode_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "None"
+        },
+        {
+          "Culture": 25,
+          "Value": "None"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ServerCompatibilityMode_Redshift",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Amazon Redshift"
+        },
+        {
+          "Culture": 25,
+          "Value": "Amazon Redshift"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_ServerCompatibilityMode_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "A compatibility mode for special PostgreSQL server types."
+        },
+        {
+          "Culture": 25,
+          "Value": "A compatibility mode for special PostgreSQL server types."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_SslMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "SSL Mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "SSL Mode"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_SslMode_Disable",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Disable"
+        },
+        {
+          "Culture": 25,
+          "Value": "Disable"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_SslMode_Prefer",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Prefer"
+        },
+        {
+          "Culture": 25,
+          "Value": "Prefer"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_SslMode_Require",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Require"
+        },
+        {
+          "Culture": 25,
+          "Value": "Require"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_SslMode_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Controls whether SSL is required, disabled or preferred, depending on server support."
+        },
+        {
+          "Culture": 25,
+          "Value": "Controls whether SSL is required, disabled or preferred, depending on server support."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Timeout",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Timeout"
+        },
+        {
+          "Culture": 25,
+          "Value": "Timeout"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Timeout_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The time to wait (in seconds) while trying to establish a connection before terminating the attempt and generating an error."
+        },
+        {
+          "Culture": 25,
+          "Value": "The time to wait (in seconds) while trying to establish a connection before terminating the attempt and generating an error."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Timeouts",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Timeouts"
+        },
+        {
+          "Culture": 25,
+          "Value": "Timeouts"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_TrustServerCertificate",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Trust Server Certificate"
+        },
+        {
+          "Culture": 25,
+          "Value": "Trust Server Certificate"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_TrustServerCertificate_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Whether to trust the server certificate without validating it."
+        },
+        {
+          "Culture": 25,
+          "Value": "Whether to trust the server certificate without validating it."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Username",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Username"
+        },
+        {
+          "Culture": 25,
+          "Value": "Username"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_Username_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The username to connect with. Not required if using IntegratedSecurity."
+        },
+        {
+          "Culture": 25,
+          "Value": "The username to connect with. Not required if using IntegratedSecurity."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_WriteBufferSize",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Write Buffer Size"
+        },
+        {
+          "Culture": 25,
+          "Value": "Write Buffer Size"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Postgres_WriteBufferSize_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Determines the size of the internal buffer Npgsql uses when writing. Increasing may improve performance if transferring large values to the database."
+        },
+        {
+          "Culture": 25,
+          "Value": "Determines the size of the internal buffer Npgsql uses when writing. Increasing may improve performance if transferring large values to the database."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Predicate",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Predicate"
+        },
+        {
+          "Culture": 25,
+          "Value": "Предикат"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Procedure",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Procedure"
+        },
+        {
+          "Culture": 25,
+          "Value": "Процедура"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Procedures",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Procedures"
+        },
+        {
+          "Culture": 25,
+          "Value": "Процедуры"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Providers_Database",
+      "Comment": "Используется в контексте \"Сохранить в...\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Database"
+        },
+        {
+          "Culture": 25,
+          "Value": "Базу данных..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Providers_File",
+      "Comment": "Используется в контексте \"Сохранить в...\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "File"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Providers_PartitionFile",
+      "Comment": "Используется в контексте \"Импорт\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Partition file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл библиотеки..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Providers_SchemeFile",
+      "Comment": "Используется в контексте \"Импорт\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scheme file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл схемы..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Records",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Records"
+        },
+        {
+          "Culture": 25,
+          "Value": "Записи"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ReferencedTable",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Referenced table"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ссылка на таблицу"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ReferencingColumns",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Referencing columns"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ссылочные колонки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ReferentialAction_Cascade",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cascade"
+        },
+        {
+          "Culture": 25,
+          "Value": "Каскадное изменение"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ReferentialAction_NoAction",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No action"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не указано"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ReferentialAction_SetDefault",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Set default"
+        },
+        {
+          "Culture": 25,
+          "Value": "Указать значение по умолчанию"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_ReferentialAction_SetNull",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Set null"
+        },
+        {
+          "Culture": 25,
+          "Value": "Указать значение NULL"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_RefreshButtonTooltip",
+      "Comment": "Подсказка на кнопке Обновить в редакторе схемы данных",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Refresh data scheme from server   [ F5 ]"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновить схему данных из сервера   [ F5 ]"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Removed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Removed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалено"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_SaveAllButtonCaption",
+      "Comment": "Подсказка на кнопке сохранить всё в редакторе схемы данных",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save all"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить всё"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_SaveAllButtonTooltip",
+      "Comment": "Подсказка на кнопке Сохранить все в редакторе схемы данных",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save data scheme and modify database at server   [ Ctrl+S ]"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить схему данных и изменить базу данных на сервере   [ Ctrl+S ]"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_SaveBeforeOpenningPartition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Before opening the scheme library, the current changes must be saved.\n\nSave the changes and continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Перед открытием библиотеки схемы необходимо сохранить текущие изменения.\n\nВыполнить сохранение и продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_SavingChanges",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Saving changes"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранение изменений"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_SchemeEditor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scheme Editor"
+        },
+        {
+          "Culture": 25,
+          "Value": "Редактор схем"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_SortInTemporaryDatabase",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sort in tempdb"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сортировать в tempdb"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_SortOrder",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sort by"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сортировка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_SortOrder_Ascending",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Ascending"
+        },
+        {
+          "Culture": 25,
+          "Value": "по возрастанию"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_SortOrder_Descending",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Descending"
+        },
+        {
+          "Culture": 25,
+          "Value": "по убыванию"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_SortOrder_Unspecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unspecified"
+        },
+        {
+          "Culture": 25,
+          "Value": "не указана"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Advanced",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Advanced"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дополнительно"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_ApplicationIntent",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "ApplicationIntent"
+        },
+        {
+          "Culture": 25,
+          "Value": "ApplicationIntent"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_ApplicationIntent_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Declares the application workload type when connecting to a server."
+        },
+        {
+          "Culture": 25,
+          "Value": "Объявляет тип рабочей нагрузки приложения при соединении с сервером."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_ApplicationName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Application Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Application Name"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_ApplicationName_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The name of the application."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя приложения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_AttachDBFilename",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "AttachDbFilename"
+        },
+        {
+          "Culture": 25,
+          "Value": "AttachDbFilename"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_AttachDBFilename_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The name of the primary file, including the full path name, of an attachable database."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя первичного файла прикрепляемой базы данных, включая полный путь."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Authentication",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Authentication"
+        },
+        {
+          "Culture": 25,
+          "Value": "Authentication"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Authentication_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Specifies the method of authenticating with SQL Server."
+        },
+        {
+          "Culture": 25,
+          "Value": "Указывает метод проверки подлинности с SQL Server."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_ColumnEncryptionSetting",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Column Encryption Setting"
+        },
+        {
+          "Culture": 25,
+          "Value": "Column Encryption Setting"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_ColumnEncryptionSetting_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Default column encryption setting for all the commands on the connection."
+        },
+        {
+          "Culture": 25,
+          "Value": "Параметр шифрования столбца по умолчанию для всех команд подключения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_ConnectRetryCount",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "ConnectRetryCount"
+        },
+        {
+          "Culture": 25,
+          "Value": "ConnectRetryCount"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_ConnectRetryCount_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Number of attempts to restore connection."
+        },
+        {
+          "Culture": 25,
+          "Value": "Число попыток восстановления подключения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_ConnectRetryInterval",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "ConnectRetryInterval"
+        },
+        {
+          "Culture": 25,
+          "Value": "ConnectRetryInterval"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_ConnectRetryInterval_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delay between attempts to restore connection."
+        },
+        {
+          "Culture": 25,
+          "Value": "Задержка между попытками восстановления подключения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_ConnectTimeout",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Connect Timeout"
+        },
+        {
+          "Culture": 25,
+          "Value": "Connect Timeout"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_ConnectTimeout_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The length of time (in seconds) to wait for a connection to the server before terminating the attempt and generating an error."
+        },
+        {
+          "Culture": 25,
+          "Value": "Продолжительность интервала ожидания (в секундах) подключения к серверу, по истечении которого попытка завершается и создается ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Context",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Context"
+        },
+        {
+          "Culture": 25,
+          "Value": "Контекст"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_CurrentLanguage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Current Language"
+        },
+        {
+          "Culture": 25,
+          "Value": "Current Language"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_CurrentLanguage_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The SQL Server Language record name."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя записи SQL Server Language."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_DataSource",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Data Source"
+        },
+        {
+          "Culture": 25,
+          "Value": "Data Source"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_DataSource_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Indicates the name of the data source to connect to."
+        },
+        {
+          "Culture": 25,
+          "Value": "Указывает имя источника данных, к которому необходимо установить подключение."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Encrypt",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Encrypt"
+        },
+        {
+          "Culture": 25,
+          "Value": "Encrypt"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Encrypt_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "When true, SQL Server uses SSL encryption for all data sent between the client and server if the server has a certificate installed."
+        },
+        {
+          "Culture": 25,
+          "Value": "Когда true (истина) и на сервере установлен сертификат, то SQL Server использует шифрование SSL для всех данных, которые пересылаются между клиентом и сервером."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Enlist",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enlist"
+        },
+        {
+          "Culture": 25,
+          "Value": "Enlist"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Enlist_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sessions in a Component Services (or MTS, if you are using Microsoft Windows NT) environment should automatically be enlisted in a global transaction where required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сеансы в среде служб компонентов Component Services (или MTS для Microsoft Windows NT) должны автоматически вноситься в глобальную транзакцию, если это необходимо."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_FailoverPartner",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Failover Partner"
+        },
+        {
+          "Culture": 25,
+          "Value": "Failover Partner"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_FailoverPartner_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The name or network address of the instance of SQL Server that acts as a failover partner."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя или сетевой адрес экземпляра SQL Server, выступающего в роли партнера при обеспечении отказоустойчивости."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_InitialCatalog",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Initial Catalog"
+        },
+        {
+          "Culture": 25,
+          "Value": "Initial Catalog"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_InitialCatalog_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The name of the initial catalog or database in the data source."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя исходного каталога или базы данных в источнике данных."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Initialization",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Initialization"
+        },
+        {
+          "Culture": 25,
+          "Value": "Инициализация"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_IntegratedSecurity",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Integrated Security"
+        },
+        {
+          "Culture": 25,
+          "Value": "Integrated Security"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_IntegratedSecurity_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Whether the connection is to be a secure connection or not."
+        },
+        {
+          "Culture": 25,
+          "Value": "Должно ли подключение быть безопасным."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_LoadBalanceTimeout",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Load Balance Timeout"
+        },
+        {
+          "Culture": 25,
+          "Value": "Load Balance Timeout"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_LoadBalanceTimeout_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The minimum amount of time (in seconds) for this connection to live in the pool before being destroyed."
+        },
+        {
+          "Culture": 25,
+          "Value": "Минимальное время (в секундах), которое это подключение будет оставаться в пуле до уничтожения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_MaxPoolSize",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Max Pool Size"
+        },
+        {
+          "Culture": 25,
+          "Value": "Max Pool Size"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_MaxPoolSize_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The maximum number of connections allowed in the pool."
+        },
+        {
+          "Culture": 25,
+          "Value": "Максимально допустимое число подключений в пуле."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_MinPoolSize",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Min Pool Size"
+        },
+        {
+          "Culture": 25,
+          "Value": "Min Pool Size"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_MinPoolSize_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The minimum number of connections allowed in the pool."
+        },
+        {
+          "Culture": 25,
+          "Value": "Минимально допустимое число подключений в пуле."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_MultipleActiveResultSets",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "MultipleActiveResultSets"
+        },
+        {
+          "Culture": 25,
+          "Value": "MultipleActiveResultSets"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_MultipleActiveResultSets_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "When true, multiple result sets can be returned and read from one connection."
+        },
+        {
+          "Culture": 25,
+          "Value": "Если true (истина), то из одного подключения могут быть возвращены и прочитаны несколько наборов данных."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_MultiSubnetFailover",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "MultiSubnetFailover"
+        },
+        {
+          "Culture": 25,
+          "Value": "MultiSubnetFailover"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_MultiSubnetFailover_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "If your application is connecting to a high-availability, disaster recovery (AlwaysOn) availability group (AG) on different subnets, MultiSubnetFailover=Yes configures SqlConnection to provide faster detection of and connection to the (currently) active server."
+        },
+        {
+          "Culture": 25,
+          "Value": "Если приложение соединяется в других подсетях с группой доступности (AG) с высокой степенью готовности и возможностью аварийного восстановления (к группе \"AlwaysOn\"), параметр MultiSubnetFailover=Yes настраивает SqlConnection для более быстрого обнаружения активного (на данный момент) сервера и соединения с ним."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_PacketSize",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Packet Size"
+        },
+        {
+          "Culture": 25,
+          "Value": "Packet Size"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_PacketSize_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Size in bytes of the network packets used to communicate with an instance of SQL Server."
+        },
+        {
+          "Culture": 25,
+          "Value": "Размер (в байтах) сетевых пакетов, которые используются для взаимодействия с экземпляром SQL Server."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Password",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Password"
+        },
+        {
+          "Culture": 25,
+          "Value": "Password"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Password_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Indicates the password to be used when connecting to the data source."
+        },
+        {
+          "Culture": 25,
+          "Value": "Указывает пароль, который необходимо использовать для подключения к источнику данных."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_PersistSecurityInfo",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Persist Security Info"
+        },
+        {
+          "Culture": 25,
+          "Value": "Persist Security Info"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_PersistSecurityInfo_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "When false, security-sensitive information, such as the password, is not returned as part of the connection if the connection is open or has ever been in an open state."
+        },
+        {
+          "Culture": 25,
+          "Value": "Когда false (ложь), то секретные данные (например, пароль) не возвращаются в составе подключения, если подключение открыто или когда-либо находилось в открытом состоянии."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_PoolBlockingPeriod",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "PoolBlockingPeriod"
+        },
+        {
+          "Culture": 25,
+          "Value": "PoolBlockingPeriod"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_PoolBlockingPeriod_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Defines the blocking period behavior for a connection pool."
+        },
+        {
+          "Culture": 25,
+          "Value": "Задает поведение периода блокировки для пула подключений."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Pooling",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Pooling"
+        },
+        {
+          "Culture": 25,
+          "Value": "Pooling"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Pooling_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "When true, the connection object is drawn from the appropriate pool, or if necessary, is created and added to the appropriate pool."
+        },
+        {
+          "Culture": 25,
+          "Value": "Когда true (истина), то объект подключения извлекается из соответствующего пула или, в случае необходимости, создается и добавляется в соответствующий пул."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Replication",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Replication"
+        },
+        {
+          "Culture": 25,
+          "Value": "Replication"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Replication_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Used by SQL Server in Replication."
+        },
+        {
+          "Culture": 25,
+          "Value": "Используется SQL Server для репликации."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Security",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Security"
+        },
+        {
+          "Culture": 25,
+          "Value": "Безопасность"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_Source",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Source"
+        },
+        {
+          "Culture": 25,
+          "Value": "Источник"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_TransactionBinding",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Transaction Binding"
+        },
+        {
+          "Culture": 25,
+          "Value": "Transaction Binding"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_TransactionBinding_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Indicates binding behavior of connection to a System.Transactions Transaction when enlisted."
+        },
+        {
+          "Culture": 25,
+          "Value": "Указывает поведение привязки для соединения с транзакцией System.Transactions при наличии прикрепления."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_TransparentNetworkIPResolution",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "TransparentNetworkIPResolution"
+        },
+        {
+          "Culture": 25,
+          "Value": "TransparentNetworkIPResolution"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_TransparentNetworkIPResolution_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "If your application connects to different networks, TransparentNetworkIPResolution=Yes configures SqlConnection to provide transparent connection resolution to the currently active server, independently of the network IP topology."
+        },
+        {
+          "Culture": 25,
+          "Value": "Если приложение подключается к различным сетям, TransparentNetworkIPResolution=Yes настраивает подключение SqlConnection на предоставление прозрачного разрешения подключения для текущего активного сервера независимо от топологии IP-адресов."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_TrustServerCertificate",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "TrustServerCertificate"
+        },
+        {
+          "Culture": 25,
+          "Value": "TrustServerCertificate"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_TrustServerCertificate_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "When true (and encrypt=true), SQL Server uses SSL encryption for all data sent between the client and server without validating the server certificate."
+        },
+        {
+          "Culture": 25,
+          "Value": "Когда true (истина) и encrypt=true, то SQL Server использует шифрование SSL для всех данных, которые пересылаются между клиентом и сервером, не проверяя сертификат сервера."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_TypeSystemVersion",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Type System Version"
+        },
+        {
+          "Culture": 25,
+          "Value": "Type System Version"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_TypeSystemVersion_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Indicates which server type system the provider will expose through the DataReader."
+        },
+        {
+          "Culture": 25,
+          "Value": "Указывает серверную систему, которую поставщик будет представлять через DataReader."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_UserID",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "User ID"
+        },
+        {
+          "Culture": 25,
+          "Value": "User ID"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_UserID_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Indicates the user ID to be used when connecting to the data source."
+        },
+        {
+          "Culture": 25,
+          "Value": "Указывает идентификатор пользователя, с помощью которого следует устанавливать подключение к источнику данных."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_UserInstance",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "User Instance"
+        },
+        {
+          "Culture": 25,
+          "Value": "User Instance"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_UserInstance_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Indicates whether the connection will be re-directed to connect to an instance of SQL Server running under the user's account."
+        },
+        {
+          "Culture": 25,
+          "Value": "Указывает, будет ли подключение перенаправляться к экземпляру SQL Server, который запущен с помощью учетной записи пользователя."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_WorkstationID",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Workstation ID"
+        },
+        {
+          "Culture": 25,
+          "Value": "Workstation ID"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Sql_WorkstationID_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The name of the workstation connecting to SQL Server."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя рабочей станции, которая устанавливает подключение к SQL Server."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_SupportedDbmses",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Supported DBMS"
+        },
+        {
+          "Culture": 25,
+          "Value": "Поддерживаемые СУБД"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Table",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Table"
+        },
+        {
+          "Culture": 25,
+          "Value": "Таблица"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Tables",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tables"
+        },
+        {
+          "Culture": 25,
+          "Value": "Таблицы"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_Type",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_UpdateReferentialAction",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Update referential action"
+        },
+        {
+          "Culture": 25,
+          "Value": "Действие при обновлении"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_UpdateStorage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The storage version is too old, and the scheme can't be opened.\n\nUpdate it?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Версия хранилища устарела, и схема не может быть открыта.\n\nОбновить её?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_UpdateTypes",
+      "Comment": "Сообщение, выдаваемое в редакторе типов при попытке обновления измененных и несохраненных типов",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There are unsaved changes in card types. All changes will be discarded during the refresh. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имеются несохраненные изменения в типах карточек. При обновлении вы потеряете все изменения. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_UseLower",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Use lower()"
+        },
+        {
+          "Culture": 25,
+          "Value": "Использовать lower()"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_UseOnlineOperations",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Available for queries during operation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Доступен для запросов во время операций"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_UseOption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Use option"
+        },
+        {
+          "Culture": 25,
+          "Value": "Использовать опцию"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_WithForeignKey",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "With foreign key"
+        },
+        {
+          "Culture": 25,
+          "Value": "С внешним ключом"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_WithoutGroup",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "(without group)"
+        },
+        {
+          "Culture": 25,
+          "Value": "(без группы)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_WithoutTransaction",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Execute without transaction"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выполнять без транзакции"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_WithoutTransactionHint",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "without transaction"
+        },
+        {
+          "Culture": 25,
+          "Value": "без транзакции"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Scheme_WithValues",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "With values"
+        },
+        {
+          "Culture": 25,
+          "Value": "Со значениями"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Schene_SchemeWasChanged",
+      "Comment": "{0} - имя сотрудника, последнего изменившего схему\n{1} - последняя дата изменения схемы",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scheme was changed by user {0} in {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Схема данных была изменена сотрудником {0} в {1}."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Sheme_DBMS_PostgreSql",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Empty query text for PostgreSQL"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отсутствует текст запроса для СУБД PostgreSQL"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Sheme_DBMS_SqlServer",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Empty query text for SqlServer"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отсутствует текст запроса для СУБД SqlServer"
+        }
+      ]
+    }
+  ]
+}

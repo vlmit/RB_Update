@@ -1,0 +1,1127 @@
+﻿{
+  "ID": "146a3d6f-f461-4866-a962-cc9ad52d17ec",
+  "Name": "WfResolution",
+  "Priority": 0,
+  "Entries": [
+    {
+      "Name": "WfResolution_CopyFileFromTaskToMainCard",
+      "Comment": "Пункт контекстного меню для файлов, которые надо перенести в основную карточку из карточки задачи.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Copy to the card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Копировать в карточку"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Digest_ControlWithComment",
+      "Comment": "Digest задания WfResolutionControl, когда предыдущее задание было завершено с комментарием.\n{0} - имя сотрудника, который завершил предыдущее задание.\n{1} - комментарий, с которым сотрудник завершил предыдущее задание.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_TaskReturned} {0} {$WfResolution_Placeholder_WithComment}: {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_TaskReturned} {0} {$WfResolution_Placeholder_WithComment}: {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Digest_ControlWithoutComment",
+      "Comment": "Digest задания контроля WfResolutionControl, когда комментарий отсутствует для предыдущего задания.\n{0} - имя сотрудника, который завершил предыдущее задание.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_TaskReturned} {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_TaskReturned} {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Digest_Coperformer",
+      "Comment": "Digest задания, отправленного соисполнителю с комментарием.\n{0} - имя сотрудника, отправившего задачу.\n{1} - имя роли ответственного исполнителя.\n{2} - комментарий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_YouAreCoperformer}\n{0}: {2}\n{$WfResolution_Placeholder_MajorPerformer}: {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_YouAreCoperformer}\n{0}: {2}\n{$WfResolution_Placeholder_MajorPerformer}: {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Digest_CoperformerWithoutComment",
+      "Comment": "Digest задания, отправленного соисполнителю без комментария.\n{0} - имя сотрудника, отправившего задачу.\n{1} - имя роли ответственного исполнителя.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_YouAreCoperformer}\n{0}: {$WfResolution_Placeholder_WithoutComment}\n{$WfResolution_Placeholder_MajorPerformer}: {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_YouAreCoperformer}\n{0}: {$WfResolution_Placeholder_WithoutComment}\n{$WfResolution_Placeholder_MajorPerformer}: {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Digest_MajorPerformer",
+      "Comment": "Digest задания, отправленного ответственному исполнителю с комментарием.\n{0} - имя сотрудника, отправившего задачу.\n{1} - комментарий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_YouAreMajorPerformer}\n{0}: {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_YouAreMajorPerformer}\n{0}: {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Digest_MajorPerformerWithoutComment",
+      "Comment": "Digest задания, отправленного ответственному исполнителю без комментария.\n{0} - имя сотрудника, отправившего задачу.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_YouAreMajorPerformer}\n{0}: {$WfResolution_Placeholder_WithoutComment}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_YouAreMajorPerformer}\n{0}: {$WfResolution_Placeholder_WithoutComment}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Error_CantGetDateTimeFromCalendar",
+      "Comment": "Нельзя получить дату из бизнес-календаря.\n{0} - строка с датой и временем начала отсчёта в локальном времени.\n{1} - строка с датой и временем начала отсчёта в UTC.\n{2} - строка с длительностью в бизнес-днях.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't get date/time from calendar starting at {0} ({1} UTC) plus {2} days. Make sure that calendar is calculated."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно получить дату/время из календаря, начиная от {0} ({1} UTC) плюс {2} дней. Убедитесь, что календарь рассчитан."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Error_CantObtainPerformers",
+      "Comment": "Ошибка, которая происходит при невозможности получить исполнителей вследствие нарушения структуры в текущем задании.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't obtain performers from current task."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно получить исполнителей для текущего задания."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Error_ChildResolutionCantBePlannedAfterParent",
+      "Comment": "Дата запланированного завершения подзадачи не может быть позже даты родительской задачи (плюс некоторое время).\n{0} - строка с датой и временем завершения подзадачи в локальном часовом поясе.\n{1} - строка с разрешённой датой и временем завершения родительской задачи в локальном часовом поясе.\n{2} - строка с датой и временем завершения родительской задачи в локальном часовом поясе.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create subtask with planned completion at {0} later than allowed at {1}, because parent task is planned to complete at {2}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нельзя создать подзадачу с датой запланированного завершения {0} позже разрешённой даты {1}, когда запланировано, что родительская задача завершится в {2}."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Error_ChildResolutionSafeLimitIsNull",
+      "Comment": "Дата запланированного завершения подзадачи не может быть пустой.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create subtask with null planned completion."
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата запланированного завершения подзадачи не может быть пустой."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Error_CommentIsEmpty",
+      "Comment": "Сообщение валидации о том, что комментарий пуст при завершении задачи.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Comment is empty when completing task."
+        },
+        {
+          "Culture": 25,
+          "Value": "Необходимо указать комментарий при завершении задачи."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Error_PerformerIsEmpty",
+      "Comment": "Ошибка, которая возникает при попытке создать задачу для пустого списка исполнителей.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Performers list doesn't match to any employee."
+        },
+        {
+          "Culture": 25,
+          "Value": "Список исполнителей не соответствует ни одному сотруднику."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Error_PerformerIsNotPersonalRole",
+      "Comment": "Ошибка, которая происходит при отправке задачи с объединением исполнителей, когда указанный исполнитель не является персональной ролью.\n{0} - имя роли, которая не является персональной ролью.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Performer role \"{0}\" should be a personal role, i.e. an employee. Combining performers into single role requires every performer to be personal role."
+        },
+        {
+          "Culture": 25,
+          "Value": "Роль исполнителя \"{0}\" должна быть персональной ролью, т.е. сотрудником. Объединение исполнителей выполняется только для персональных ролей."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Error_ResolutionCantBePlannedInThePast",
+      "Comment": "Дата запланированного завершения задачи не может быть раньше, чем текущее время при сохранении карточки.\n{0} - строка с датой и временем запланированного завершения создаваемой задачи в локальном часовом поясе.\n{1} - строка с текущей датой и временем сохранения карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create task with planned completion at {0} because it is planned before current time {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нельзя создать задачу с датой запланированного завершения {0}, потому что такая дата меньше текущего времени {1}."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Error_ResolutionCantUseNegativeDuaration",
+      "Comment": "Длительность не может быть отрицательным значением.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Duration cannot be a negative value."
+        },
+        {
+          "Culture": 25,
+          "Value": "Длительность не может быть отрицательным значением."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Error_ResolutionHasNoPlannedDate",
+      "Comment": "Дата запланированного завершения задачи не указана.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There are no duration or planned date specified for the task."
+        },
+        {
+          "Culture": 25,
+          "Value": "Длительность или дата выполнения задачи не указаны."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Error_RevokingChildResolutions",
+      "Comment": "Ошибка, которая происходит при невозможности загрузить одну из отзываемых подзадач.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error occurred when trying to revoke subtasks."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в процессе отзыва подзадач."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Error_TaskDurationCantBeZeroOrNegative",
+      "Comment": "Длительность задания в бизнес-днях может быть только положительным числом.\n{0} - строка с длительностью в бизнес-днях.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task duration in days can't be zero or negative but value '{0}' was specified."
+        },
+        {
+          "Culture": 25,
+          "Value": "Длительность задания в днях не может быть нулём или отрицательным числом, но было указано значение '{0}'."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Error_TaskNotFoundInVisualization",
+      "Comment": "Ошибка, которая происходит, если в карточке, загруженной для визуализации задач, отсутствует задание, визуализация которого выполняется.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task has been deleted with history recently, visualization can't proceed. Refresh card in order to visualize."
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание было недавно удалено с историей заданий, поэтому невозможно выполнить его визуализацию. Обновите карточку."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_MainCardFileCategory",
+      "Comment": "Отображаемое имя для специальной категории файлов, в которую добавляются файлы основной карточки при открытии задачи.\n\nНесколько ведущих пробелов нужны для того, чтобы категория по алфавиту была раньше, чем все прочие категории файлов, в т.ч. \"(Без категории)\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "    Files of the card"
+        },
+        {
+          "Culture": 25,
+          "Value": "    Файлы карточки"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_AuthorComment",
+      "Comment": "Плейсхолдер, который подставляется в строку WfResolution_Result_ParentComment.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Author comment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Комментарий автора"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_CancelledByPerformer",
+      "Comment": "Плейсхолдер, который подставляется в строку WfResolution_Result_Cancelled.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancelled by performer"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отменено исполнителем"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_CompletedWithComment",
+      "Comment": "Плейсхолдер, который подставляется в строку WfResolution_Result_Completed.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Completed with comment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершено с комментарием"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_CompletedWithoutComment",
+      "Comment": "Плейсхолдер, который подставляется в строку WfResolution_Result_CompletedWithoutComment",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Completed without comment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершено без комментария"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_MajorPerformer",
+      "Comment": "Плейсхолдер, используемый в Digest задания при отправке задачи с ответственным исполнителем.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Major performer"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ответственный"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_ModifiedByAuthor",
+      "Comment": "Плейсхолдер в строке с историей действий, определяющий, что автор изменил параметры завершения задачи.\nПосле этой строки будут выведены дата и время изменений.\nНапример, автор изменил роль, на которую отправлена задача.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "modified by author at"
+        },
+        {
+          "Culture": 25,
+          "Value": "изменено автором"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_RevokedByAuthor",
+      "Comment": "Плейсхолдер, который подставляется в строку WfResolution_Result_Revoked.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Revoked by author"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отозвано автором"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_SentToPerformer",
+      "Comment": "Плейсхолдер, который подставляется в строки WfResolution_Result_SentToPerformerWithControl и WfResolution_Result_SentToPerformerWithoutControl.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sent to role"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отправлено на роль"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_SentToPerformerWithMassCreation",
+      "Comment": "Плейсхолдер, который подставляется в строку WfResolution_Result_SentToPerformerWithMassCreation.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sent to performers (created subtasks)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отправлено исполнителям (созданы подзадачи)"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_TaskReturned",
+      "Comment": "Плейсхолдер, который подставляется в строки WfResolution_Digest_ControlWithComment и WfResolution_Digest_ControlWithoutComment.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task has been completed by"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание возвращено после завершения сотрудником"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_WithComment",
+      "Comment": "Плейсхолдер, который подставляется в строку WfResolution_Result_SentToPerformerWithoutControl.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "with comment"
+        },
+        {
+          "Culture": 25,
+          "Value": "с комментарием"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_WithControlAndComment",
+      "Comment": "Плейсхолдер, который подставляется в строку WfResolution_Result_SentToPerformerWithControl.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "with returning after completion and comment"
+        },
+        {
+          "Culture": 25,
+          "Value": "с возвратом после завершения и с комментарием"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_WithControlAndWithoutComment",
+      "Comment": "Плейсхолдер, который подставляется в строку WfResolution_Result_SentToPerformerWithControl.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "with returning after completion and without comment"
+        },
+        {
+          "Culture": 25,
+          "Value": "с возвратом после завершения и без комментария"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_WithoutComment",
+      "Comment": "Плейсхолдер, который подставляется в строку WfResolution_Placeholder_SentToPerformerWithMassCreation.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "without comment"
+        },
+        {
+          "Culture": 25,
+          "Value": "без комментария"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_YouAreCoperformer",
+      "Comment": "Плейсхолдер, используемый в Digest задания при отправке задачи с ответственным исполнителем.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "You are assigned to be co-performer."
+        },
+        {
+          "Culture": 25,
+          "Value": "Вы назначены соисполнителем."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Placeholder_YouAreMajorPerformer",
+      "Comment": "Плейсхолдер, используемый в Digest задания при отправке задачи с ответственным исполнителем.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "You are assigned to be major performer."
+        },
+        {
+          "Culture": 25,
+          "Value": "Вы назначены ответственным исполнителем."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Result_Cancelled",
+      "Comment": "Результат завершения задачи, которая была отменена исполнителем.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_CancelledByPerformer}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_CancelledByPerformer}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Result_Completed",
+      "Comment": "Результат завершения задачи, которая была завершена исполнителем.\n{0} - комментарий, с которым была завершена задача.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_CompletedWithComment}: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_CompletedWithComment}: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Result_CompletedWithoutComment",
+      "Comment": "Результат завершения задачи, которая была завершена исполнителем без указания комментария.\nОбычно это возможно только для WfResolutionProject и WfResolutionControl.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_CompletedWithoutComment}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_CompletedWithoutComment}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Result_ParentComment",
+      "Comment": "Дополнительная информация для результата завершения подзадачи.\n{0} - комментарий, отправленный от автора к исполнителю в родительской задаче.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_AuthorComment}: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_AuthorComment}: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Result_Revoked",
+      "Comment": "Результат завершения задачи, которая была отозвана автором.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_RevokedByAuthor}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_RevokedByAuthor}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Result_SentToPerformerWithControlAndWithComment",
+      "Comment": "Результат завершения задачи, которая была отправлена исполнителю с возвратом и с комментарием.\n{0} - исполнитель или исполнители, которым отправлено задание.\n{1} - комментарий, с которым была отправлена задача.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_SentToPerformer} \"{0}\" {$WfResolution_Placeholder_WithControlAndComment}: {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_SentToPerformer} \"{0}\" {$WfResolution_Placeholder_WithControlAndComment}: {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Result_SentToPerformerWithControlAndWithoutComment",
+      "Comment": "Результат завершения задачи, которая была отправлена исполнителю с возвратом и без комментария.\n{0} - исполнитель или исполнители, которым отправлено задание.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_SentToPerformer} \"{0}\" {$WfResolution_Placeholder_WithControlAndWithoutComment}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_SentToPerformer} \"{0}\" {$WfResolution_Placeholder_WithControlAndWithoutComment}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Result_SentToPerformerWithMassCreationAndWithComment",
+      "Comment": "Результат завершения задачи, которая была отправлена исполнителям с созданием подзадач и с комментарием.\n{0} - исполнители, которым отправлено задание.\n{1} - комментарий, с которым была отправлена задача.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_SentToPerformerWithMassCreation} \"{0}\" {$WfResolution_Placeholder_WithComment}: {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_SentToPerformerWithMassCreation} \"{0}\" {$WfResolution_Placeholder_WithComment}: {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Result_SentToPerformerWithMassCreationAndWithControlAndWithComment",
+      "Comment": "Результат завершения задачи, которая была отправлена исполнителям с созданием подзадач, с возвратом и с комментарием.\n{0} - исполнители, которым отправлено задание.\n{1} - комментарий, с которым была отправлена задача.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_SentToPerformerWithMassCreation} \"{0}\" {$WfResolution_Placeholder_WithControlAndComment}: {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_SentToPerformerWithMassCreation} \"{0}\" {$WfResolution_Placeholder_WithControlAndComment}: {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Result_SentToPerformerWithMassCreationAndWithControlAndWithoutComment",
+      "Comment": "Результат завершения задачи, которая была отправлена исполнителям с созданием подзадач, с возвратом и без комментария.\n{0} - исполнители, которым отправлено задание.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_SentToPerformerWithMassCreation} \"{0}\" {$WfResolution_Placeholder_WithControlAndWithoutComment}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_SentToPerformerWithMassCreation} \"{0}\" {$WfResolution_Placeholder_WithControlAndWithoutComment}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Result_SentToPerformerWithMassCreationAndWithoutComment",
+      "Comment": "Результат завершения задачи, которая была отправлена исполнителям с созданием подзадач и без комментария.\n{0} - исполнители, которым отправлено задание.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_SentToPerformerWithMassCreation} \"{0}\" {$WfResolution_Placeholder_WithoutComment}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_SentToPerformerWithMassCreation} \"{0}\" {$WfResolution_Placeholder_WithoutComment}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Result_SentToPerformerWithoutControlAndWithComment",
+      "Comment": "Результат завершения задачи, которая была отправлена исполнителю без возврата и с комментарием.\n{0} - исполнитель или исполнители, которым отправлено задание.\n{1} - комментарий, с которым была отправлена задача.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_SentToPerformer} \"{0}\" {$WfResolution_Placeholder_WithComment}: {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_SentToPerformer} \"{0}\" {$WfResolution_Placeholder_WithComment}: {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Result_SentToPerformerWithoutControlAndWithoutComment",
+      "Comment": "Результат завершения задачи, которая была отправлена исполнителю без возврата и без комментария.\n{0} - исполнитель или исполнители, которым отправлено задание.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{$WfResolution_Placeholder_SentToPerformer} \"{0}\" {$WfResolution_Placeholder_WithoutComment}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{$WfResolution_Placeholder_SentToPerformer} \"{0}\" {$WfResolution_Placeholder_WithoutComment}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_State_Revoked",
+      "Comment": "Строка с состоянием подзадачи, которая была отозвана.\nКонец строки может быть укорочен с троеточием.\n{0} - имя пользователя, который отозвал задачу.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "revoked {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "отозвано {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_TaskHistory_GroupName",
+      "Comment": "Название группы \"Типовые процессы отправки задач\" в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task chains of standard solution"
+        },
+        {
+          "Culture": 25,
+          "Value": "Типовые процессы отправки задач"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_TaskNotification_ChildCompleted",
+      "Comment": "Название уведомления о завершённой подзадаче, которая не является последней активной подзадачей.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Subtask was completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершена подзадача"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_TaskNotification_LastChildCompleted",
+      "Comment": "Название уведомления о завершённой подзадаче, которая является последней активной задачей.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Last subtask was completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершена последняя подзадача"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_TaskNotification_Revoked",
+      "Comment": "Название уведомления об отозванной задаче для пользователя, у которого задача была в работе.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task was revoked"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задача отозвана"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_TaskNotification_Revoked_ParentOption",
+      "Comment": "Текст уведомления об отозванной задаче с указанием варианта завершения родительской задачи, который привёл к отзыву текущей задачи.\n{0} - имя сотрудника, который отозвал задачи.\n{1} - название варианта завершения родительской задачи.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Parent task has been completed by employee {0} with completion option \"{1}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Родительская задача была завершена сотрудником {0} с вариантом завершения \"{1}\"."
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_TaskPerformersRole",
+      "Comment": "Название роли \"Исполнители задания\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task performers"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исполнители задания"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Visualization_AssigneeRole",
+      "Comment": "Строка, выводимая в узле визуализации для указания роли, на которую было назначено задание.\n{0} - локализованное имя роли, на которую назначено задание.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Assigned to role: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Назначена на роль: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Visualization_Completed",
+      "Comment": "Строка, выводимая в узле визуализации для указания фактических даты и времени завершения задачи.\n{0} - строка с указанием фактических даты и времени завершения задачи.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task is completed at {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задача завершена {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Visualization_CompleteUntilForOverdue",
+      "Comment": "Строка, выводимая в узле визуализации для указания даты и времени, к которым просроченное задание должно было быть готово.\n{0} - строка с датой и временем предполагаемого завершения задания.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Had to be completed by {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Требовалось завершить до {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Visualization_ControllerRole",
+      "Comment": "Строка, выводимая в узле визуализации для указания роли, на которую будет возвращена задача, когда текущая задача будет завершена (с учётом делегирования).\n{0} - локализованное имя роли, на которую будет возвращена задача.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task will be returned to role: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задача возвращается на роль: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Visualization_Created",
+      "Comment": "Строка, выводимая в узле визуализации для указания даты и времени постановки задачи.\n{0} - строка с указанием даты и времени постановки задачи.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task is created at {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задача поставлена {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Visualization_InProgress",
+      "Comment": "Строка, выводимая в узле визуализации для указания времени, которое задание уже находилось в работе.\n{0} - строка с указанием того, сколько времени задание находилось в работе, например, \"2 дня\".\n{1} - строка с датой и временем взятия задания в работу.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} in progress since {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "В работе {0} с {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Visualization_Overdue",
+      "Comment": "Строка, выводимая в узле визуализации для индикации просроченности задания.\n{0} - строка с указанием того, насколько просрочено задание, например, \"на 2 дня\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "overdue {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "просрочено {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Visualization_Planned",
+      "Comment": "Строка, выводимая в узле визуализации для указания запланированной даты и времени завершения задачи.\n{0} - строка с указанием запланированной даты и времени завершения задачи.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task is planned to be completed at {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исполнение запланировано к {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Visualization_TimeLeft",
+      "Comment": "Строка, выводимая в узле визуализации для указания времени, оставшегося до завершения задания, которое ещё не было просрочено.\n{0} - строка с указанием того, сколько времени осталось до завершения задания, например, \"2 дня\".\n{1} - строка с датой и временем предполагаемого завершения задания.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} left until {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Осталось: {0} до {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Visualization_TimeLeft_TooLittle",
+      "Comment": "Строка, выводимая в узле визуализации, для указания времени, оставшегося до завершения задания, когда этого времени осталось мало, но задание ещё не просрочено.\n{0} - строка с указанием того, сколько времени осталось до завершения задания, например, \"2 дня\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} left"
+        },
+        {
+          "Culture": 25,
+          "Value": "до завершения {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Visualization_ToControl",
+      "Comment": "Надпись \"возврат\" над стрелкой для задачи.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "is returned"
+        },
+        {
+          "Culture": 25,
+          "Value": "возврат"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_Visualization_WithControl",
+      "Comment": "Надпись \"с возвратом\" над стрелкой в окне визуализации задачи",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "will be returned"
+        },
+        {
+          "Culture": 25,
+          "Value": "с возвратом"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_VisualizeBranch",
+      "Comment": "Название кнопки \"Визуализировать ветку\" для задачи.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Visualize branch"
+        },
+        {
+          "Culture": 25,
+          "Value": "Визуализировать ветку"
+        }
+      ]
+    },
+    {
+      "Name": "WfResolution_VisualizeProcess",
+      "Comment": "Название кнопки \"Визуализировать процесс\" для задачи.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Visualize process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Визуализировать процесс"
+        }
+      ]
+    },
+    {
+      "Name": "WfTaskFiles_FilesTagCount_ToolTip",
+      "Comment": "Всплывающая подсказка для иконки-тега, по которой не выполняется переход из записи в истории заданий в приложенные файлы, когда известно количество приложенных файлов.\n{0} - количество файлов, приложенных к заданию.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Attached files   ( {0} )"
+        },
+        {
+          "Culture": 25,
+          "Value": "Приложенные файлы   ( {0} )"
+        }
+      ]
+    },
+    {
+      "Name": "WfTaskFiles_ReturnFromFilesLink",
+      "Comment": "Текст ссылки, по которой выполняется переход к основной карточке из карточки с файлами.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "<< return to the card"
+        },
+        {
+          "Culture": 25,
+          "Value": "<< вернуться в карточку"
+        }
+      ]
+    },
+    {
+      "Name": "WfTaskFiles_ReturnFromFilesLink_ToolTip",
+      "Comment": "Всплывающая подсказка для ссылки в задании, по которой выполняется переход к основной карточке из карточки с файлами.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Return to the main card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Перейти к основной карточке"
+        }
+      ]
+    },
+    {
+      "Name": "WfTaskFiles_SaveChangesConfirmation",
+      "Comment": "Текст сообщения, возникающего при переходе в приложенные файлы задания или обратно в карточку, когда в текущей карточке есть несохранённые изменения.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save changes?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить изменения?"
+        }
+      ]
+    },
+    {
+      "Name": "WfTaskFiles_ShowFilesLinkTemplate",
+      "Comment": "Текст ссылки, по которой выполняется переход к приложенным файлам из задания, если файлы есть.\n{0} - количество приложенных файлов.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "<< show files ( {0} )"
+        },
+        {
+          "Culture": 25,
+          "Value": "<< показать файлы ( {0} )"
+        }
+      ]
+    },
+    {
+      "Name": "WfTaskFiles_ShowFilesTag_ContextMenu",
+      "Comment": "Всплывающая подсказка для иконки-тега, по которой выполняется переход из строки в истории заданий в приложенные файлы.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show attached files"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показать приложенные файлы"
+        }
+      ]
+    },
+    {
+      "Name": "WfTaskFiles_ShowFilesTag_ToolTip",
+      "Comment": "Всплывающая подсказка для иконки-тега и для гиперлинка в задании, по которым выполняется переход из задания в приложенные файлы.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show attached files"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показать приложенные файлы"
+        }
+      ]
+    },
+    {
+      "Name": "WfTaskFiles_ShowFilesTagCount_ContextMenu",
+      "Comment": "Всплывающая подсказка для иконки-тега, по которой выполняется переход из строки в истории заданий в приложенные файлы, когда известно количество приложенных файлов.\n{0} - количество файлов, приложенных к заданию.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show attached files   ( {0} )"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показать приложенные файлы   ( {0} )"
+        }
+      ]
+    },
+    {
+      "Name": "WfTaskFiles_ShowFilesTagCount_ToolTip",
+      "Comment": "Всплывающая подсказка для иконки-тега, по которой выполняется переход из записи в истории заданий в приложенные файлы, когда известно количество приложенных файлов.\n{0} - количество файлов, приложенных к заданию.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show attached files   ( {0} )"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показать приложенные файлы   ( {0} )"
+        }
+      ]
+    }
+  ]
+}

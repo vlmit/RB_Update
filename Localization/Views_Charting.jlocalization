@@ -1,0 +1,8743 @@
+﻿{
+  "ID": "83aebf5d-3b40-4495-ac61-515f7dea0159",
+  "Name": "Views_Charting",
+  "Priority": 0,
+  "Entries": [
+    {
+      "Name": "Views_Charting_AdornmentSettings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Adornment settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки подписей"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AdornmentsLabelPosition_Auto",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Auto"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автоматически"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AdornmentsLabelPosition_Center",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Center"
+        },
+        {
+          "Culture": 25,
+          "Value": "По центру"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AdornmentsLabelPosition_Default",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Default"
+        },
+        {
+          "Culture": 25,
+          "Value": "По умолчанию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AdornmentsLabelPosition_Inner",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Inner"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внутри"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AdornmentsLabelPosition_Outer",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Outer"
+        },
+        {
+          "Culture": 25,
+          "Value": "Снаружи"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AdornmentsPosition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Position"
+        },
+        {
+          "Culture": 25,
+          "Value": "Позиция"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AdornmentsPosition_Bottom",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Bottom"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внизу"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AdornmentsPosition_Top",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Top"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сверху"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AdornmentsPosition_TopAndBottom",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Between top and bottom"
+        },
+        {
+          "Culture": 25,
+          "Value": "По центру"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Advanced",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Advanced"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дополнительно"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AggregateFunctions",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Aggregate functions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Функция агрегирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AggregateFunctions_Average",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Average"
+        },
+        {
+          "Culture": 25,
+          "Value": "Среднее"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AggregateFunctions_Count",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Count"
+        },
+        {
+          "Culture": 25,
+          "Value": "Количество"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AggregateFunctions_Max",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Max"
+        },
+        {
+          "Culture": 25,
+          "Value": "Максимум"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AggregateFunctions_Min",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Min"
+        },
+        {
+          "Culture": 25,
+          "Value": "Минимум"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AggregateFunctions_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "None"
+        },
+        {
+          "Culture": 25,
+          "Value": "Нет"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AggregateFunctions_Sum",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sum"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сумма"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Angle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Angle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Угол поворота"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AnnotationName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Annotation {0} - {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Аннотация {0} - {1}"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Annotations_EllipseAnnotation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Ellipse"
+        },
+        {
+          "Culture": 25,
+          "Value": "Эллипс"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Annotations_HorizontalLineAnnotation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Horizontal line"
+        },
+        {
+          "Culture": 25,
+          "Value": "Горизонтальная линия"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Annotations_ImageAnnotation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Image"
+        },
+        {
+          "Culture": 25,
+          "Value": "Изображение"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Annotations_LineAnnotation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Line"
+        },
+        {
+          "Culture": 25,
+          "Value": "Линия"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Annotations_RectangleAnnotation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Rectangle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Прямоугольник"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Annotations_TextAnnotation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Text"
+        },
+        {
+          "Culture": 25,
+          "Value": "Текст"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Annotations_VerticalLineAnnotation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Vertical line"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вертикальная линия"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AnnotationsSettings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Annotation settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки аннотаций"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Appearance",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Appearance:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внешний вид:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditor_CreateNewAppearance",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create new appearance"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать новый внешний вид"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditor_DuplicateAppearance",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Duplicate"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дублировать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditor_EditAppearance",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Edit"
+        },
+        {
+          "Culture": 25,
+          "Value": "Редактировать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditor_NotSelected",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "( not selected )"
+        },
+        {
+          "Culture": 25,
+          "Value": "(не выбрано)"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditor_Sample",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sample"
+        },
+        {
+          "Culture": 25,
+          "Value": "Пример"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditorDialog_Title",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Appearance settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки внешнего вида"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditorFontSize",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Font size"
+        },
+        {
+          "Culture": 25,
+          "Value": "Размер шрифта"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditorHorizontalAlignment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Horizontal alignment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выравнивание по горизонтали"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditorTextAlignment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Horizontal text alignment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выравнивание текста по горизонтали"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditorVerticalAlignment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Vertical alignment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выравнивание по вертикали"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditorView_Background",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Background:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет фона:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditorView_Font",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Font:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Шрифт:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditorView_FontStretch",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Font stretch:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Степень растяжения шрифта:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditorView_FontStyle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Font style:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Стиль шрифта:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditorView_FontWeight",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Font weight:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Толщина шрифта:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceEditorView_Foreground",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Foreground:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет текста:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearanceField",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Appearance field name:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя столбца описаний внешних видов:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AppearancePalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Appearance based"
+        },
+        {
+          "Culture": 25,
+          "Value": "Основанная на описаниях внешних видов"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ApplyPaletteTo",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Apply palette to"
+        },
+        {
+          "Culture": 25,
+          "Value": "Применять палитру к"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AreaBackground",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Area background"
+        },
+        {
+          "Culture": 25,
+          "Value": "Фон области диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AreaBorderBrush",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Area border brush"
+        },
+        {
+          "Culture": 25,
+          "Value": "Кисть рамки области диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AreaBorderThickness",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Area border thickness"
+        },
+        {
+          "Culture": 25,
+          "Value": "Толщина рамки области диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AreaSeries_TypeName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Area series"
+        },
+        {
+          "Culture": 25,
+          "Value": "Область"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AutumnBrightsPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Autumn brights"
+        },
+        {
+          "Culture": 25,
+          "Value": "Краски осени"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Axis_CategoryAxisFactory",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Category"
+        },
+        {
+          "Culture": 25,
+          "Value": "Категории"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Axis_DateTimeAxisFactory",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Date time axis"
+        },
+        {
+          "Culture": 25,
+          "Value": "Временная шкала"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Axis_DateTimeCategoryAxisFactory",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Date time category axis"
+        },
+        {
+          "Culture": 25,
+          "Value": "Временная шкала категорий"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Axis_NumericalAxisFactory",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Numerical"
+        },
+        {
+          "Culture": 25,
+          "Value": "Числовая"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Axis_TimeSpanAxisFactory",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Time spans axis"
+        },
+        {
+          "Culture": 25,
+          "Value": "Временные отрезки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisElementPosition_Inside",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Inside"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внутри"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisElementPosition_Outside",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Outside"
+        },
+        {
+          "Culture": 25,
+          "Value": "Снаружи"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisHeaderPosition_Far",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Far"
+        },
+        {
+          "Culture": 25,
+          "Value": "Далеко"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisHeaderPosition_Near",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Near"
+        },
+        {
+          "Culture": 25,
+          "Value": "Близко"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisLabelAlignment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Axis label alignment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выравнивание меток по осям"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisLabelsIntersectAction_Auto",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Auto"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автоматически"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisLabelsIntersectAction_Hide",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hide"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрывать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisLabelsIntersectAction_MultipleRows",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Multiple rows"
+        },
+        {
+          "Culture": 25,
+          "Value": "В виде строк"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisLabelsIntersectAction_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "not selected"
+        },
+        {
+          "Culture": 25,
+          "Value": "не выбрано"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisLineOffset",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Axis line offset"
+        },
+        {
+          "Culture": 25,
+          "Value": "Смещение оси координат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisNameValidationFailed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Axis name is invalid."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибочное имя оси. Имя должно начинаться с буквы."
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisSettings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Axises"
+        },
+        {
+          "Culture": 25,
+          "Value": "Оси"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisStroke",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Axis line color"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет оси координат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisStrokeDashArray",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Axis line style"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид линии оси координат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisStrokeThickness",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Axis line thickness"
+        },
+        {
+          "Culture": 25,
+          "Value": "Толщина линии оси координат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Axis type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид оси координат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_AxisVisibility",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Visibility"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим отображения"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Background",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Background"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет фона"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_BarSeries_TypeName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Bar series"
+        },
+        {
+          "Culture": 25,
+          "Value": "Линейчатая диаграмма"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_BehaviorsSettings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Behaviors"
+        },
+        {
+          "Culture": 25,
+          "Value": "Поведения"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_BlackAndWhiteMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Black and white mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Черно-белая печать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_BlueChromePalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Blue сhrome"
+        },
+        {
+          "Culture": 25,
+          "Value": "Синяя"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_BorderBrush",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Border brush"
+        },
+        {
+          "Culture": 25,
+          "Value": "Кисть рамки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_BorderThickness",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Border thickness"
+        },
+        {
+          "Culture": 25,
+          "Value": "Толщина рамки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_BreakPercent",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Break Percent"
+        },
+        {
+          "Culture": 25,
+          "Value": "Процент положения разрыва от размера оси"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_BreakPosition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scale break position"
+        },
+        {
+          "Culture": 25,
+          "Value": "Позиция разрыва масштаба"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_BreakSpacing",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Break Spacing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Размер области разрыва"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Cancel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancel"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отмена"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CanDrag",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can drag"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить перемещение"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CanResize",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can resize"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить изменение размеров"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CategoryFieldName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Category field name:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя столбца категорий:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CategoryFields",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Data sources for X-axis"
+        },
+        {
+          "Culture": 25,
+          "Value": "Источник значений для оси X"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartAlignment_Auto",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Auto"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автоматически"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartAlignment_Center",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Center"
+        },
+        {
+          "Culture": 25,
+          "Value": "По центру"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartAlignment_Far",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Far"
+        },
+        {
+          "Culture": 25,
+          "Value": "Далеко"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartAlignment_Near",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Near"
+        },
+        {
+          "Culture": 25,
+          "Value": "Близко"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartAxisMode_All",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All"
+        },
+        {
+          "Culture": 25,
+          "Value": "Все"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartAxisMode_Horizontal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Horizontal"
+        },
+        {
+          "Culture": 25,
+          "Value": "По горизонтали"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartAxisMode_Vertical",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Vertical"
+        },
+        {
+          "Culture": 25,
+          "Value": "По вертикали"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartBackground",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Chart background"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет фона диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartBorderBrush",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Chart border brush"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет границы рамки диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartBorderThickness",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Chart border thickness"
+        },
+        {
+          "Culture": 25,
+          "Value": "Граница рамки диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartCoordinateUnit_Axis",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Axis coordinates"
+        },
+        {
+          "Culture": 25,
+          "Value": "Координаты оси"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartCoordinateUnit_Pixel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Pixels"
+        },
+        {
+          "Culture": 25,
+          "Value": "Точки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartCrossHairBehavior",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cross hair"
+        },
+        {
+          "Culture": 25,
+          "Value": "Перекрестие"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartDock_Bottom",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Bottom"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внизу"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartDock_Floating",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Floating"
+        },
+        {
+          "Culture": 25,
+          "Value": "Плавающая"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartDock_Left",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Left"
+        },
+        {
+          "Culture": 25,
+          "Value": "Слева"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartDock_Right",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Right"
+        },
+        {
+          "Culture": 25,
+          "Value": "Справа"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartDock_Top",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Top"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вверху"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartIsPrinting",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Charts are printing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Печать диаграмм"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartLegendIcon_Circle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Circle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Круг"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartLegendIcon_Cross",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cross"
+        },
+        {
+          "Culture": 25,
+          "Value": "Крест"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartLegendIcon_Diamond",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Diamond"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ромб"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartLegendIcon_InvertedTriangle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Inverted triangle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Перевернутый треугольник"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartLegendIcon_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "None"
+        },
+        {
+          "Culture": 25,
+          "Value": "Без значка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartLegendIcon_Pentagon",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Pentagon"
+        },
+        {
+          "Culture": 25,
+          "Value": "Пятиугольник"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartLegendIcon_Rectangle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Rectangle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Прямоугольник"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartLegendIcon_SeriesType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Series type"
+        },
+        {
+          "Culture": 25,
+          "Value": "По виду ряда"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartLegendIcon_StraightLine",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Straight line"
+        },
+        {
+          "Culture": 25,
+          "Value": "Прямая"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartLegendIcon_Triangle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Triangle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Треугольник"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartLineCap_Arrow",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Arrow"
+        },
+        {
+          "Culture": 25,
+          "Value": "Стрелка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartLineCap_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "None"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отсутствует"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartMargin",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Chart margin"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отступы диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartOrientation_Default",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Default"
+        },
+        {
+          "Culture": 25,
+          "Value": "По умолчанию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartOrientation_Horizontal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Horizontal"
+        },
+        {
+          "Culture": 25,
+          "Value": "Горизонтально"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartOrientation_Vertical",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Vertical"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вертикально"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartPrintDialog",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Print options"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройка печати"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartSettings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Chart"
+        },
+        {
+          "Culture": 25,
+          "Value": "Диаграмма"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartSymbol_Cross",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cross"
+        },
+        {
+          "Culture": 25,
+          "Value": "Крест"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartSymbol_Custom",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Custom"
+        },
+        {
+          "Culture": 25,
+          "Value": "Другой"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartSymbol_Diamond",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Diamond"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ромб"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartSymbol_Ellipse",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Ellipse"
+        },
+        {
+          "Culture": 25,
+          "Value": "Эллипс"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartSymbol_Hexagon",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hexagon"
+        },
+        {
+          "Culture": 25,
+          "Value": "Шестиугольник"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartSymbol_HorizontalLine",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Horizontal line"
+        },
+        {
+          "Culture": 25,
+          "Value": "Горизонтальная линия"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartSymbol_InvertedTriangle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Inverted triangle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Перевернутый треугольник"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartSymbol_Pentagon",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Pentagon"
+        },
+        {
+          "Culture": 25,
+          "Value": "Пятиугольник"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartSymbol_Plus",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Plus"
+        },
+        {
+          "Culture": 25,
+          "Value": "Плюс"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartSymbol_Square",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Square"
+        },
+        {
+          "Culture": 25,
+          "Value": "Квадрат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartSymbol_Triangle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Triangle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Треугольник"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartSymbol_VerticalLine",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Vertical line"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вертикальная линия"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartTrackBallBehavior",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tracking"
+        },
+        {
+          "Culture": 25,
+          "Value": "Трекинг"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartTrackBallLabelGenerationDirection_Default",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Default"
+        },
+        {
+          "Culture": 25,
+          "Value": "По умолчанию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartTrackBallLabelGenerationDirection_Reverse",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Reverse"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обратный"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ChartType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Chart type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CheckBoxVisibility",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Check box visibility:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим отображения флажков:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CircularSeriesLabelPosition_Inside",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Inside"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внутри"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CircularSeriesLabelPosition_Outside",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Outside"
+        },
+        {
+          "Culture": 25,
+          "Value": "За пределами"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CircularSeriesLabelPosition_OutsideExtended",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Outside, extended"
+        },
+        {
+          "Culture": 25,
+          "Value": "За пределами, расширенная"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ClickToSelectImage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Click to select image..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нажмите для выбора изображения..."
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CloneDataSourceToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Duplicate"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дублировать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CloseTime",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Close time"
+        },
+        {
+          "Culture": 25,
+          "Value": "Конец рабочего дня"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ColorMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Color mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цветная печать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ColorPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Color palette"
+        },
+        {
+          "Culture": 25,
+          "Value": "Палитра"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Column",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Column"
+        },
+        {
+          "Culture": 25,
+          "Value": "Столбец"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ColumnChartName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Column chart"
+        },
+        {
+          "Culture": 25,
+          "Value": "Столбчатая диаграмма"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ColumnCount",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Column count"
+        },
+        {
+          "Culture": 25,
+          "Value": "Количество столбцов в строке "
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ColumnSeries_TypeName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Column chart"
+        },
+        {
+          "Culture": 25,
+          "Value": "Столбчатая диаграмма"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ConfigurationDialogTitle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Chart settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройка параметров диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ConfigureChartTile_Caption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Configure chart settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменить параметры диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ConfigureChartTile_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Configure chart settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменение параметров диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ConfirmConvert",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Convert all chart series to '{0}'?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Преобразовать диаграмму в '{0}'?"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ConnectorHeight",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Connector height"
+        },
+        {
+          "Culture": 25,
+          "Value": "Высота соединительной линии"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ConnectorMode_Bezier",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Bezier"
+        },
+        {
+          "Culture": 25,
+          "Value": "Безье"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ConnectorMode_Line",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Line"
+        },
+        {
+          "Culture": 25,
+          "Value": "Линия"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ConnectorRotationAngle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Connector rotation angle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Угол соединения"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ConnectorType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Connector type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид соединения"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ContentPosition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Content position"
+        },
+        {
+          "Culture": 25,
+          "Value": "Положение содержимого"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ContentPosition_Bottom",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Bottom"
+        },
+        {
+          "Culture": 25,
+          "Value": "Снизу"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ContentPosition_Left",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Left"
+        },
+        {
+          "Culture": 25,
+          "Value": "Слева"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ContentPosition_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "None"
+        },
+        {
+          "Culture": 25,
+          "Value": "Нет"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ContentPosition_Right",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Right"
+        },
+        {
+          "Culture": 25,
+          "Value": "Справа"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ContentPosition_Top",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Top"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сверху"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ConvertSeriesButton_Tooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Convert"
+        },
+        {
+          "Culture": 25,
+          "Value": "Преобразовать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CoordinateUnit",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Coordinate unit"
+        },
+        {
+          "Culture": 25,
+          "Value": "Единицы измерения"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CreateAnnotationButton_Tooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create Annotation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить аннотацию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CreateButton",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "New"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CreateNewColor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create new color"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать новый цвет"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CreateScaleBreakCaption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create scale break"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать разрыв масштаба"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CreateSeries",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add series"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить ряд"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CreateSeriesButton_Tooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create new series"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать новый ряд"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CreateStripLineCaption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create strip line"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить полосу"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_CustomPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Custom"
+        },
+        {
+          "Culture": 25,
+          "Value": "Пользовательская"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DataLabels",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show data labels"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показывать подписи к данным"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DateTimeIntervalType_Auto",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Auto"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автоматически"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DateTimeIntervalType_Days",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Days"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дни"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DateTimeIntervalType_Hours",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hours"
+        },
+        {
+          "Culture": 25,
+          "Value": "Часы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DateTimeIntervalType_Milliseconds",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Milliseconds"
+        },
+        {
+          "Culture": 25,
+          "Value": "Миллисекунды"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DateTimeIntervalType_Minutes",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Minutes"
+        },
+        {
+          "Culture": 25,
+          "Value": "Минуты"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DateTimeIntervalType_Months",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Months"
+        },
+        {
+          "Culture": 25,
+          "Value": "Месяцы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DateTimeIntervalType_Seconds",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Seconds"
+        },
+        {
+          "Culture": 25,
+          "Value": "Секунды"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DateTimeIntervalType_Years",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Years"
+        },
+        {
+          "Culture": 25,
+          "Value": "Годы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DateTimeRangePadding_Additional",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Additional"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дополнять"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DateTimeRangePadding_Auto",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Auto"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автоматически"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DateTimeRangePadding_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "none"
+        },
+        {
+          "Culture": 25,
+          "Value": "нет"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DateTimeRangePadding_Round",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Round"
+        },
+        {
+          "Culture": 25,
+          "Value": "Округлять"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Day_Friday",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Friday"
+        },
+        {
+          "Culture": 25,
+          "Value": "Пятница"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Day_Monday",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Monday"
+        },
+        {
+          "Culture": 25,
+          "Value": "Понедельник"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Day_Saturday",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Saturday"
+        },
+        {
+          "Culture": 25,
+          "Value": "Суббота"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Day_Sunday",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sunday"
+        },
+        {
+          "Culture": 25,
+          "Value": "Воскресенье"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Day_Thursday",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Thursday"
+        },
+        {
+          "Culture": 25,
+          "Value": "Четверг"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Day_Tuesday",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tuesday"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вторник"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Day_Wednesday",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Wednesday"
+        },
+        {
+          "Culture": 25,
+          "Value": "Среда"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DefaultLegendName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Default legend"
+        },
+        {
+          "Culture": 25,
+          "Value": "По умолчанию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DefaultPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Default"
+        },
+        {
+          "Culture": 25,
+          "Value": "По умолчанию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DeleteAllSeries",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete all chart series?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить все ряды диаграммы?"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DeleteAllSeriesButton_Tooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete all series"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить все ряды диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DeleteCaption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить..."
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DeleteMessage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete '{0}'?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить '{0}'?"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DeleteScaleBreak",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete scale break '{0}'?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить разрыв масштаба '{0}'?"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DeleteSeries",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DeleteStripLine",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete strip line?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить полосу?"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Diameter",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Diameter"
+        },
+        {
+          "Culture": 25,
+          "Value": "Диаметр"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DimensionFieldNames",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Field names for building charts"
+        },
+        {
+          "Culture": 25,
+          "Value": "Список имен столбцов для формирования диаграмм"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Direction_Ascending",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Ascending"
+        },
+        {
+          "Culture": 25,
+          "Value": "По возрастанию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Direction_Descending",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Descending"
+        },
+        {
+          "Culture": 25,
+          "Value": "По убыванию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DoughnutCoefficient",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Inner radius coefficient"
+        },
+        {
+          "Culture": 25,
+          "Value": "Коэффициент внутреннего радиуса"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DoughnutHole",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Doughnut hole size"
+        },
+        {
+          "Culture": 25,
+          "Value": "Размер внутренней области кольца"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DoughnutSeries_TypeName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Doughnut chart"
+        },
+        {
+          "Culture": 25,
+          "Value": "Кольцевая диаграмма"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DoughnutSize",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Outer radius coefficient"
+        },
+        {
+          "Culture": 25,
+          "Value": "Коэффициент внешнего радиуса"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DraggingMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dragging mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим перемещения"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_DrawPadding",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Draw padding:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Промежуток:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EdgeLabelsDrawingMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Edge labels drawing mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим отрисовки концевых меток"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EdgeLabelsDrawingMode_Center",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Center"
+        },
+        {
+          "Culture": 25,
+          "Value": "По центру"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EdgeLabelsDrawingMode_Fit",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Fit"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подгонять"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EdgeLabelsDrawingMode_Hide",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hide"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрыть"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EdgeLabelsDrawingMode_Shift",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Shift"
+        },
+        {
+          "Culture": 25,
+          "Value": "Смещать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EdgeLabelsVisibilityMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Edge labels visibility"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображение концевых меток"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EdgeLabelsVisibilityMode_AlwaysVisible",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Always"
+        },
+        {
+          "Culture": 25,
+          "Value": "Всегда отображать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EdgeLabelsVisibilityMode_Default",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Default"
+        },
+        {
+          "Culture": 25,
+          "Value": "По умолчанию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EdgeLabelsVisibilityMode_Visible",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Visible"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ElitePalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Elite"
+        },
+        {
+          "Culture": 25,
+          "Value": "Элитная"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EmptyColumnInfo",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "none"
+        },
+        {
+          "Culture": 25,
+          "Value": "не выбрано"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EmptyPointInterior",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Empty point interior"
+        },
+        {
+          "Culture": 25,
+          "Value": "Кисть пустого значения"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EmptyPointValue",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Empty point value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Пустое значение"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EmptyPointValue_Average",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Average"
+        },
+        {
+          "Culture": 25,
+          "Value": "Среднее"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EmptyPointValue_Zero",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Zero"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ноль"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableAnimation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable animation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить анимацию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableAnimations",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable animation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить анимацию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableAutoIntervalOnZooming",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable auto interval on zooming"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автоматически рассчитывать интервал при увеличении"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableBusinessHours",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable business hours"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить рабочее время"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableClipping",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable shape clipping"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить обрезку фигуры"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableDragTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable drag tooltip"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить подсказку при перетягивании"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableEditing",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable editing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить редактирование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableEndUserModification",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable modification"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить изменение"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableHoverHighlighting",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable segment hovering"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить активацию сегментов"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableMouseWheelZooming",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable mouse wheel zooming"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить масштабирование колесиком мыши"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnablePanning",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable panning"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить панорамирование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnablePinchZooming",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable pinch zooming"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить масштабирование прикосновением"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableScrollBar",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable scroll bar"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить прокрутку"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableScrollBarResizing",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable scroll bar resizing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить масштабирование прокрутки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableSegmentDragging",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable segment dragging"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить перетаскивание сегментов"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableSegmentSelection",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable segment selection"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить выделение сегментов"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableSelectionZooming",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable selection zooming"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить увеличение выделением области"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableSeriesDragging",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable series dragging"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить перетягивание рядов"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableSeriesSelection",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable series selection"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить выделение рядов"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableSmartLabels",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable smart labels"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить умные метки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableTouchMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable touch mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить изменение диапазона оси координат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EnableZoomingToolBar",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enable zooming toolbar"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешить панель инструментов масштабирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_End",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "End value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Конечное значение"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_EndAngle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "End angle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Конечный угол"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ExpandAll",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Expand all segments"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вырезать все сегменты"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ExpandingRadius",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Expanding radius"
+        },
+        {
+          "Culture": 25,
+          "Value": "Радиус вырезания сегмента"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ExplodeAll",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Explode all"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вырезать все"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ExplodeIndex",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Explode index"
+        },
+        {
+          "Culture": 25,
+          "Value": "Номер вырезанного сектора"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ExplodeMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Explode mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Метод вырезания сегмента"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ExplodeMode_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "None"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не вырезать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ExplodeMode_OnMouseClick",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "On mouse click"
+        },
+        {
+          "Culture": 25,
+          "Value": "Нажатием мыши"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ExplodeMode_OnMouseEnter",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "On mouse enter"
+        },
+        {
+          "Culture": 25,
+          "Value": "При наведении мыши"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ExplodeOnMouseClick",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Explode on mouse click"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вырезать сектор по нажатию мыши"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ExplodeRadius",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Explode radius"
+        },
+        {
+          "Culture": 25,
+          "Value": "Радиус вырезания сектора"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ExportAllCharts",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Charts"
+        },
+        {
+          "Culture": 25,
+          "Value": "Диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ExportChart",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Chart"
+        },
+        {
+          "Culture": 25,
+          "Value": "Диаграмма"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ExportChartTile_Caption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export chart"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспорт диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ExportChartTile_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save chart as file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранение диаграммы в файл"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_FieldNamesSelector_Title",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select field names"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите имена полей"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Fill",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Fill"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заливка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_FloraHuesPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Flora hues"
+        },
+        {
+          "Culture": 25,
+          "Value": "Растительная"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_GreenChromePalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Green сhrome"
+        },
+        {
+          "Culture": 25,
+          "Value": "Зеленая"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_GroupingLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Grouping by name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Группировать по имени"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Header",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Header"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заголовок"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HeaderAppearance",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Header appearance"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внешний вид заголовка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HeaderFormat",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Header:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заголовок:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HeaderPosition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Header position"
+        },
+        {
+          "Culture": 25,
+          "Value": "Позиция заголовка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HeaderSettings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Header"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заголовок"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HighlightOnSelection",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Highlight on selection"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подсвечивать при выделении"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HorizontalAlignment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Horizontal alignment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Горизонтальное выравнивание"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HorizontalAlignment_Center",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Center"
+        },
+        {
+          "Culture": 25,
+          "Value": "По центру"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HorizontalAlignment_Left",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Left"
+        },
+        {
+          "Culture": 25,
+          "Value": "Влево"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HorizontalAlignment_Right",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Right"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вправо"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HorizontalAlignment_Stretch",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stretch"
+        },
+        {
+          "Culture": 25,
+          "Value": "Растянуть"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HorizontalAxisLabelAlignment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Horizontal axis label alignment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выравнивание меток по горизонтальной оси"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HorizontalHeaderAlignment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Horizontal header alignment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Горизонтальное выравнивание заголовка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HorizontalPosition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Horizontal position"
+        },
+        {
+          "Culture": 25,
+          "Value": "Положение по горизонтали"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HorizontalTextAlignment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Horizontal text alignment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выравнивание текста по горизонтали"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HoverSegmentBrush",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hover segment brush"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет активного сегмента "
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HoverSegmentOpacity",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hover segment opacity"
+        },
+        {
+          "Culture": 25,
+          "Value": "Непрозрачность активного сегмента"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_HoverSelectionBrush",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Selected segment color"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет выбранного сегмента"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_IconHeight",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Icon height"
+        },
+        {
+          "Culture": 25,
+          "Value": "Высотка значка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_IconVisibility",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Icon visibility"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим отображения значков"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_IconWidth",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Icon width"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ширина значка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ImageSource",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Image"
+        },
+        {
+          "Culture": 25,
+          "Value": "Изображение"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_InnerRadius",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Inner radius"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внутренний радиус"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Interior",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Interior"
+        },
+        {
+          "Culture": 25,
+          "Value": "Кисть"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_InteriorFillType_Segments",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Segments"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сегменты"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_InteriorFillType_Series",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Series"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ряд"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Interval",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Interval"
+        },
+        {
+          "Culture": 25,
+          "Value": "Интервал"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_IntervalType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Interval type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид интервала"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_IsBehaviorEnabled",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Behavior enabled"
+        },
+        {
+          "Culture": 25,
+          "Value": "Включить поведение"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_IsClosed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Draw border around all of the area"
+        },
+        {
+          "Culture": 25,
+          "Value": "Рисовать границу вокруг всей области"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_IsEmptyCheckBox",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "empty"
+        },
+        {
+          "Culture": 25,
+          "Value": "не задано"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_IsIndexed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Indexed values"
+        },
+        {
+          "Culture": 25,
+          "Value": "Индексированная ось"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_IsInversed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Is inverted"
+        },
+        {
+          "Culture": 25,
+          "Value": "Инвертировать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_IsPixelWidth",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Strip line width as pixels"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ширина полосы задается в точках"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_IsSegmented",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Use segmented strip line"
+        },
+        {
+          "Culture": 25,
+          "Value": "Использовать сегментированные полосы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_IsSeriesVisible",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Is series visible"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображать серию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_IsSortData",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Is sort data"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сортировать данные"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_IsTransposed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Is transposed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Поменять оси местами"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ItemHeight",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Chart item height"
+        },
+        {
+          "Culture": 25,
+          "Value": "Высота диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ItemWidth",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Chart item width"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ширина диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Label",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Strip line text"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подпись полосы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelAngle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Label angle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Угол подписи"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelAppearance",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Label appearance"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внешний вид текста"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelContent_DateTime",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Date time value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата и время"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelContent_LabelContentPath",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Label content path"
+        },
+        {
+          "Culture": 25,
+          "Value": "Содержимое метки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelContent_Percentage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Percentage"
+        },
+        {
+          "Culture": 25,
+          "Value": "Проценты"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelContent_XValue",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "X value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение оси X"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelContent_YofTot",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Y value of total"
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение оси Y относительно всех значений"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelContent_YValue",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Y value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение оси Y"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelDisplayMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Label display mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим отображения меток"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelFormat",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Label format"
+        },
+        {
+          "Culture": 25,
+          "Value": "Формат подписей оси"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelGenerationDirection",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Multiple labels generation direction"
+        },
+        {
+          "Culture": 25,
+          "Value": "Порядок отображения множественных меток"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelHorizontalAlignment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Label horizontal alignment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Горизонтальное выравнивание меток"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelPlacement",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Label placement"
+        },
+        {
+          "Culture": 25,
+          "Value": "Расположение подписей"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelPlacement_BetweenTicks",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Between ticks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Между меток"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelPlacement_OnTicks",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "On ticks"
+        },
+        {
+          "Culture": 25,
+          "Value": "На линиях меток"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelPosition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Label position"
+        },
+        {
+          "Culture": 25,
+          "Value": "Позиция подписей"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelRotationAngle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Label rotation angle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Угол поворота подписей"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelsIntersectAction",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Labels intersect action"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим перекрытия подписей"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LabelVerticalAlignment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Label vertical alignment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вертикальное выравнивание меток"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Legend",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Legend"
+        },
+        {
+          "Culture": 25,
+          "Value": "Легенда"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendAppearance",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Legend appearance"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внешний вид области легенды"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendAreaBorderBrush",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Legend area border color"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет рамки области легенды"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendAreaBorderThickness",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Border thickness"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ширина рамки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendAreaCornerRadius",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Corner radius"
+        },
+        {
+          "Culture": 25,
+          "Value": "Радиус закругления углов"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendAreaOffsetX",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Location horizontal offset"
+        },
+        {
+          "Culture": 25,
+          "Value": "Горизонтальное смещение размещения"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendAreaOffsetY",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Location vertical offset"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вертикальное смещение размещения"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendIcon",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Legend icon kind"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид значка легенды"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendKind",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Legend kind"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид отображения легенды"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendKind_Multiple",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Multiple"
+        },
+        {
+          "Culture": 25,
+          "Value": "Множественная"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendKind_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "None"
+        },
+        {
+          "Culture": 25,
+          "Value": "Без легенды"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendKind_Single",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Single"
+        },
+        {
+          "Culture": 25,
+          "Value": "Одиночная"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendLocaltion_Bottom",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Bottom"
+        },
+        {
+          "Culture": 25,
+          "Value": "Снизу"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendLocaltion_Floating",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Floating"
+        },
+        {
+          "Culture": 25,
+          "Value": "Плавающая"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendLocaltion_Left",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Left"
+        },
+        {
+          "Culture": 25,
+          "Value": "Слева"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendLocaltion_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hidden"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрыта"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendLocaltion_Right",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Right"
+        },
+        {
+          "Culture": 25,
+          "Value": "Справа"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendLocaltion_Top",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Top"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сверху"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendLocation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Legend location:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Размещать легенду:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendOrientation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Legend orientation:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ориентация легенды:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendPosition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Legend position"
+        },
+        {
+          "Culture": 25,
+          "Value": "Позиция легенды"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendPosition_Inside",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Inside"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внутри"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendPosition_Outside",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Outside"
+        },
+        {
+          "Culture": 25,
+          "Value": "Снаружи"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendSettingsCategory",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Legend settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки легенды"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendTitle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Legend title"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заголовок легенды"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendTitleAppearance",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Legend title appearance"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внешний вид заголовка легенды"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Legend type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип легенды"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LegendVisibility",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Legend visibility mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим отображения легенды"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LicenseNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "License doesn't have charts enabled."
+        },
+        {
+          "Culture": 25,
+          "Value": "Отсутствует лицензия для использования диаграмм."
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LightCandyPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Light candy"
+        },
+        {
+          "Culture": 25,
+          "Value": "Леденцовая"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LineCap",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Line cap"
+        },
+        {
+          "Culture": 25,
+          "Value": "Конец линии"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LineChartName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Lines chart"
+        },
+        {
+          "Culture": 25,
+          "Value": "График"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LineSeries_TypeName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Line chart"
+        },
+        {
+          "Culture": 25,
+          "Value": "График"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LinesSeries_TypeName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Lines"
+        },
+        {
+          "Culture": 25,
+          "Value": "График"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LineType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Line type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип линии"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_LoadImage_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Load image..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Загрузить изображение..."
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MajorGridLineStroke",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Major grid line color"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет основной линии метки таблицы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MajorGridLineStrokeDashArray",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Major grid line stroke style"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид основной линии метки таблицы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MajorGridLineStrokeThickness",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Major grid line thickness"
+        },
+        {
+          "Culture": 25,
+          "Value": "Толщина основной линии метки таблицы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MajorTickLineStroke",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Major tick line color"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет основного штриха метки оси координат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MajorTickLineStrokeDashArray",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Major tick line style"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид линии основного штриха метки оси координат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MajorTickLineStrokeThickness",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Major tick line thickness"
+        },
+        {
+          "Culture": 25,
+          "Value": "Толщина основного штриха метки оси координат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Margin",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Margin"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отступ"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Marging",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Margins"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отступы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Maximum",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Maximum"
+        },
+        {
+          "Culture": 25,
+          "Value": "Максимальное значение оси"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MaximumLabels",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Maximum labels per 100 pixels"
+        },
+        {
+          "Culture": 25,
+          "Value": "Максимальное число меток на 100 пикселей"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MetroPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Metro"
+        },
+        {
+          "Culture": 25,
+          "Value": "Метро"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Minimum",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Minimum"
+        },
+        {
+          "Culture": 25,
+          "Value": "Минимальное значение оси"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MinorGridLineStroke",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Minor grid line color"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет вспомогательной линии таблицы метки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MinorGridLineStrokeDashArray",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Minor grid line style"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид вспомогательной линии таблицы метки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MinorGridLineStrokeThickness",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Minor grid line stroke thickness"
+        },
+        {
+          "Culture": 25,
+          "Value": "Толщина вспомогательной линии таблицы метки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MinorTickLineStroke",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Minor tick line color"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет второстепенного штриха для метки оси координат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MinorTickLineStrokeDashArray",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Minor tick line style"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид линии второстепенного штриха для метки оси координат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MinorTickLineStrokeThickness",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Minor tick line thickness"
+        },
+        {
+          "Culture": 25,
+          "Value": "Толщина второстепенного штриха метки оси координат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MoveSeriesDown",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Move series down"
+        },
+        {
+          "Culture": 25,
+          "Value": "Переместить ниже"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MoveSeriesUp",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Move series up"
+        },
+        {
+          "Culture": 25,
+          "Value": "Переместить выше"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_MultiColorPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Multiple colors"
+        },
+        {
+          "Culture": 25,
+          "Value": "Многоцветная"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_NonePalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "none"
+        },
+        {
+          "Culture": 25,
+          "Value": "не выбрана"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_NumericalPadding_Additional",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Additional"
+        },
+        {
+          "Culture": 25,
+          "Value": "Расширить"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_NumericalPadding_Auto",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Auto"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автоматически"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_NumericalPadding_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "None"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не выбрано"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_NumericalPadding_Normal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Normal"
+        },
+        {
+          "Culture": 25,
+          "Value": "Нормализовать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_NumericalPadding_Round",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Round"
+        },
+        {
+          "Culture": 25,
+          "Value": "Округлить"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Opacity",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Strip line opacity"
+        },
+        {
+          "Culture": 25,
+          "Value": "Непрозрачность полосы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_OpenTime",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open time"
+        },
+        {
+          "Culture": 25,
+          "Value": "Начало рабочего дня"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_OpposedPosition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Opposed position"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отобразить ось в противоположном положении"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Orientation_Horizontal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Horizontal"
+        },
+        {
+          "Culture": 25,
+          "Value": "По горизонтали"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Orientation_Vertical",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Vertical"
+        },
+        {
+          "Culture": 25,
+          "Value": "По вертикали"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Origin",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Origin value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение начала координат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_OutsideLabelFormat",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Outside label format"
+        },
+        {
+          "Culture": 25,
+          "Value": "Формат внешней метки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PaletteType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Chart palette"
+        },
+        {
+          "Culture": 25,
+          "Value": "Палитра"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PenLineCap_Flat",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Flat"
+        },
+        {
+          "Culture": 25,
+          "Value": "Плоский"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PenLineCap_Round",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Round"
+        },
+        {
+          "Culture": 25,
+          "Value": "Округлый"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PenLineCap_Square",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Square"
+        },
+        {
+          "Culture": 25,
+          "Value": "Квадратный"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PenLineCap_Triangle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Triangle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Треугольный"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PenLineJoin_Bevel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Bevel"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скашивать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PenLineJoin_Miter",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Miter"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скашивать под 45-градусов"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PenLineJoin_Round",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Round"
+        },
+        {
+          "Culture": 25,
+          "Value": "Округлять"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PieChartName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Pie chart"
+        },
+        {
+          "Culture": 25,
+          "Value": "Круговая диаграмма"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PieCoefficient",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Pie coefficient:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Соотношение области и диаграммы:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PieSeries_TypeName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Pie chart"
+        },
+        {
+          "Culture": 25,
+          "Value": "Круговая диаграмма"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PineapplePalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Pineapple"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ананасовая"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PlotOffset",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Plot offset"
+        },
+        {
+          "Culture": 25,
+          "Value": "Смещение области отрисовки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PrimaryAxis",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Primary axis"
+        },
+        {
+          "Culture": 25,
+          "Value": "Основная ось"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Print",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Print"
+        },
+        {
+          "Culture": 25,
+          "Value": "Печать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PrintAllCharts",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Print all charts"
+        },
+        {
+          "Culture": 25,
+          "Value": "Печать диаграмм"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PrintChart",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Print chart"
+        },
+        {
+          "Culture": 25,
+          "Value": "Печать диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PrintMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Orientation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ориентация"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PrintMode_Landscape",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Landscape"
+        },
+        {
+          "Culture": 25,
+          "Value": "Альбомная"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PrintMode_Portrait",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Portrait"
+        },
+        {
+          "Culture": 25,
+          "Value": "Книжная"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PrintStretch",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Print stretch"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим заполнения"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_PurpleChromePalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Purple сhrome"
+        },
+        {
+          "Culture": 25,
+          "Value": "Фиолетовая"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_RangePadding",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Range padding"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дополнять диапазон"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_RangeValidationRule_Format",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Value '{0}' out of range '{1}' - '{2}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение '{0}' вне допустимого диапазона '{1}' - '{2}'"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_RedChromePalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Red сhrome"
+        },
+        {
+          "Culture": 25,
+          "Value": "Красная"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_RemoveAnnotation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Remove annotation '{0}' ?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить аннотацию '{0}' ?"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_RemoveSeries",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete series '{0}'?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить ряд '{0}'?"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_RepeatEvery",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repeat strip line every (value)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Повторять полосы через (значение)"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_RepeatUntil",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repeat strip lines until (value)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Повторять полосы до (значение)"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ResetImage_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Reset image"
+        },
+        {
+          "Culture": 25,
+          "Value": "Очистить изображение"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ResetOnDoubleTap",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Reset on double tap"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сбрасывать масштаб при двойном нажатии"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ResetToNaN",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Set default value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сбросить в значение по умолчанию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ResizingMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Resizing mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим изменения размеров"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_RoundToDecimal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Round to decimal"
+        },
+        {
+          "Culture": 25,
+          "Value": "Округлять до цифры"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Row",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Row"
+        },
+        {
+          "Culture": 25,
+          "Value": "Строка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SandyBeachPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sandy beach"
+        },
+        {
+          "Culture": 25,
+          "Value": "Песчаная"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ScaleBreak",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scale break"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрыв масштаба"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ScaleBreakLineType_StraightLine",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Straight line"
+        },
+        {
+          "Culture": 25,
+          "Value": "Прямая линия"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ScaleBreakLineType_Wave",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Wave"
+        },
+        {
+          "Culture": 25,
+          "Value": "Волна"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ScrollableLegendName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scrollable legend"
+        },
+        {
+          "Culture": 25,
+          "Value": "Легенда с прокруткой элементов"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SecondaryAxis",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Secondary axis"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вспомогательная ось"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentAnimation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hover segment animation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Анимация активного сегмента"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentAnimation_Explode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Explode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Смещать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentAnimation_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "None"
+        },
+        {
+          "Culture": 25,
+          "Value": "Нет"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentAnimation_Scale",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scaling"
+        },
+        {
+          "Culture": 25,
+          "Value": "Масштабирование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentAnimationOffsetX",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Explode x-offset"
+        },
+        {
+          "Culture": 25,
+          "Value": "Смещение активного сегмента по оси X"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentAnimationOffsetY",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Explode y-offset"
+        },
+        {
+          "Culture": 25,
+          "Value": "Смещение активного сегмента по оси Y"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentAnimationScale",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Segment scale factor"
+        },
+        {
+          "Culture": 25,
+          "Value": "Коэффициент масштабирования сегмента"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentAnimationScaleY",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scale segment by Y"
+        },
+        {
+          "Culture": 25,
+          "Value": "Масштаб активного элемента по оси Y"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentAxisName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Segment Axis Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя сегмента"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentEndValue",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Segment End value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Конец сегмента (значение)"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentLabelContent",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Segment label content"
+        },
+        {
+          "Culture": 25,
+          "Value": "Содержимое метки сегмента"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentLabelFormat",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Segment label format (use 0 for value inserting)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Формат метки сегмента (используйте 0 для подстановки значения)"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentSelectionBrush",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Segment selection brush"
+        },
+        {
+          "Culture": 25,
+          "Value": "Кисть выбранного сегмента"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentSpacing",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Segment spacing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Промежуток между сегментами"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentsPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Series segments palette"
+        },
+        {
+          "Culture": 25,
+          "Value": "Палитра сегментов ряда"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SegmentStartValue",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Segment start value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Начало сегмента (значение)"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SelectedSegmentOpacity",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Selected segment opacity"
+        },
+        {
+          "Culture": 25,
+          "Value": "Непрозрачность выбранного сегмента"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SelectFields",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select columns"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выбрать столбцы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SelectionBehavior",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Selection"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выделение"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SelectionMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Selection mode:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим выделения:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SelectionMode_MouseClick",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "By mouse click"
+        },
+        {
+          "Culture": 25,
+          "Value": "Щелчком мыши"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SelectionMode_MouseMove",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "By mouse move"
+        },
+        {
+          "Culture": 25,
+          "Value": "При наведении мыши"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SelectionStyle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Selection style"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим выделения"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SelectionStyle_Multiple",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Multiple"
+        },
+        {
+          "Culture": 25,
+          "Value": "Множественный"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SelectionStyle_Single",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Single"
+        },
+        {
+          "Culture": 25,
+          "Value": "Одиночный"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Series",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Chart series"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ряды диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SeriesAppearanceFieldName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Appearance filed name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя столбца описаний внешних видов"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SeriesFields",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Fields for selecting series values"
+        },
+        {
+          "Culture": 25,
+          "Value": "Список столбцов для отбора значений ряда"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SeriesFieldsFormat",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Series name format"
+        },
+        {
+          "Culture": 25,
+          "Value": "Формат имени ряда"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SeriesName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Series '{0}' of type '{1}'"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ряд '{0}' - {1}"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SeriesOpacity",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Series opacity"
+        },
+        {
+          "Culture": 25,
+          "Value": "Непрозрачность ряда"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SeriesPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Series palette"
+        },
+        {
+          "Culture": 25,
+          "Value": "Палитра цвета рядов"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SeriesSelectionBrush",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Series selection brush"
+        },
+        {
+          "Culture": 25,
+          "Value": "Кисть выбранного ряда"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SeriesSettings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Series"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ряды"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SeriesSettingsTabTitle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Series settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Параметры серии"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ShowAxisLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show label on axis"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображение метки на оси"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ShowAxisNextToOrigin",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show axis origin on plot area"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображать начало координат над областью диаграммы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ShowConnectorLine",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show connector line"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображать соединительную линию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ShowEmptyPoints",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show empty points"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображать пустые точки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ShowGridLines",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show grid lines"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображать таблицу"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ShowLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show labels on segments"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображать подписи на сегментах"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ShowLine",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show line"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображать линию"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ShowMarker",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show markers on segments"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображать маркеры на сегментах"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ShowOrigin",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show origin"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображать начало координат"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ShowToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show tooltip"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показывать подсказки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ShowTrackballInfo",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show trackball info"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображать информацию трекера на оси"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SideBySideSeriesPlacement",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Side-by-side series placement"
+        },
+        {
+          "Culture": 25,
+          "Value": "Располагать серии рядом"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SmallTickLineSize",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Small tick line size"
+        },
+        {
+          "Culture": 25,
+          "Value": "Размер маленького штриха"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SmallTickLinesPosition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Small tick lines position"
+        },
+        {
+          "Culture": 25,
+          "Value": "Положение маленьких штрихов"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SmallTicksPerInterval",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Small ticks per interval"
+        },
+        {
+          "Culture": 25,
+          "Value": "Интервал между маленькими штрихами"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SnapToPoint",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Snap to point"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим округления"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SnapToPoint_Ceil",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Round to nearest maximum integer"
+        },
+        {
+          "Culture": 25,
+          "Value": "Округлять до ближайшего большего целого"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SnapToPoint_Floor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Round to nearest minimum integer"
+        },
+        {
+          "Culture": 25,
+          "Value": "Округлять до ближайшего меньшего целого"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SnapToPoint_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "None"
+        },
+        {
+          "Culture": 25,
+          "Value": "Нет"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SnapToPoint_Round",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Round"
+        },
+        {
+          "Culture": 25,
+          "Value": "Округлять"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SortBy",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sort by"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сортировать по"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SortDirection",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sort direction"
+        },
+        {
+          "Culture": 25,
+          "Value": "Порядок сортировки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SortingAxis_X",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "By axis X"
+        },
+        {
+          "Culture": 25,
+          "Value": "По оси X"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SortingAxis_Y",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "By axis Y"
+        },
+        {
+          "Culture": 25,
+          "Value": "По оси Y"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SplineAreaSeries_TypeName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Spline area series"
+        },
+        {
+          "Culture": 25,
+          "Value": "Область с гибкими контурами"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SplinesSeries_TypeName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Spline"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сплайн"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StackingBarSeries_TypeName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stacking bar series"
+        },
+        {
+          "Culture": 25,
+          "Value": "Накопительная линейчатая диаграмма"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StackingColumnSeries_TypeName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stacking column series"
+        },
+        {
+          "Culture": 25,
+          "Value": "Накопительная столбчатая диаграмма"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Start",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Start value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Начальное значение"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StartAngle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Start angle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Начальный угол"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StartRangeFromZero",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Start range from zero"
+        },
+        {
+          "Culture": 25,
+          "Value": "Начинать отсчет с нуля"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StepAreaSeries_TypeName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Step area series"
+        },
+        {
+          "Culture": 25,
+          "Value": "Прямоугольная область"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Stretch_Fill",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Fill"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заполнить"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Stretch_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "None"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не растягивать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Stretch_Uniform",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Uniform"
+        },
+        {
+          "Culture": 25,
+          "Value": "Растянуть до границы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Stretch_UniformToFill",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Uniform to fill"
+        },
+        {
+          "Culture": 25,
+          "Value": "Растянуть до заполнения"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StripLine",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Strip line"
+        },
+        {
+          "Culture": 25,
+          "Value": "Полоса"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StripLines",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Strip lines"
+        },
+        {
+          "Culture": 25,
+          "Value": "Полосы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Stroke",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stroke color"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет обводки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StrokeDashArray",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stroke dash template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Шаблон штрихов линии"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StrokeDashCap",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stroke dash cap"
+        },
+        {
+          "Culture": 25,
+          "Value": "Границы штрихов"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StrokeDashOffset",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stroke dash offset"
+        },
+        {
+          "Culture": 25,
+          "Value": "Смещение штриха"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StrokeEndLineCap",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stroke end line cap"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид границы последнего штриха линии"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StrokeLineJoin",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stroke line join"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид соединения линий"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StrokeMiterLimit",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stroke miter limit"
+        },
+        {
+          "Culture": 25,
+          "Value": "Коэффициент скоса штриха"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StrokeStartLineCap",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stroke start line cap"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид границы первого штриха линии"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_StrokeThickness",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stroke thickness"
+        },
+        {
+          "Culture": 25,
+          "Value": "Толщина линии обводки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Symbol",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Marker type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вид маркера"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SymbolHeight",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Marker height"
+        },
+        {
+          "Culture": 25,
+          "Value": "Высота маркера"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SymbolInterior",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Marker color"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет маркера"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SymbolStroke",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Marker stroke"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет рамки маркера"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_SymbolWidth",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Marker width"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ширина маркера"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_TessaScaleBreakPosition_DataCount",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Data count"
+        },
+        {
+          "Culture": 25,
+          "Value": "По количеству данных"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_TessaScaleBreakPosition_Percent",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Percent"
+        },
+        {
+          "Culture": 25,
+          "Value": "По процентам"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_TessaScaleBreakPosition_Scale",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scale"
+        },
+        {
+          "Culture": 25,
+          "Value": "По интервалу"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Text",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Text"
+        },
+        {
+          "Culture": 25,
+          "Value": "Текст"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Thickness_Bottom",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Bottom:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Снизу:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Thickness_Left",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Left:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Слева:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Thickness_Right",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Right:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Справа:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Thickness_Top",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Top:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сверху:"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ThumbLabelVisibility",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Thumb label visibility"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображение меток ползунка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_TickLinePosition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tick line position"
+        },
+        {
+          "Culture": 25,
+          "Value": "Позиция метки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_TickLineSize",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tick line size"
+        },
+        {
+          "Culture": 25,
+          "Value": "Размер линии метки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_TomotoSpectrumPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tomato spectrum"
+        },
+        {
+          "Culture": 25,
+          "Value": "Томатная"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolBarBackground",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Toolbar background"
+        },
+        {
+          "Culture": 25,
+          "Value": "Цвет фона панели масштабирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolBarItemHeight",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Toolbar item height"
+        },
+        {
+          "Culture": 25,
+          "Value": "Высота элемента панели масштабирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolBarItemMargin",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Toolbar item margin"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отступы элемента панели масштабирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolBarItems",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Toolbar items"
+        },
+        {
+          "Culture": 25,
+          "Value": "Элементы панели масштабирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolBarItemWidth",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Toolbar item width"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ширина элемента панели масштабирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolBarOrientation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Toolbar orientation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ориентация панели масштабирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolTipContent",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tooltip"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подсказка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolTipFields",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tooltip fields"
+        },
+        {
+          "Culture": 25,
+          "Value": "Столбцы формирования подсказки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolTipInitialShowDelay",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tooltip initial show delay"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задержка отображения подсказки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolTipLabelPlacement_Bottom",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Bottom"
+        },
+        {
+          "Culture": 25,
+          "Value": "Снизу"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolTipLabelPlacement_Left",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Left"
+        },
+        {
+          "Culture": 25,
+          "Value": "Слева"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolTipLabelPlacement_Right",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Right"
+        },
+        {
+          "Culture": 25,
+          "Value": "Справа"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolTipLabelPlacement_Top",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Top"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сверху"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolTipPlacement",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tooltip placement"
+        },
+        {
+          "Culture": 25,
+          "Value": "Размещать подсказку"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ToolTipShowDuration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tooltip show duration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Продолжительность отображения подсказки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_TrackballLabelDisplayMode_FloatAllPoints",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Float all points"
+        },
+        {
+          "Culture": 25,
+          "Value": "Плавающие точки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_TrackballLabelDisplayMode_GroupAllPoints",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Group all points"
+        },
+        {
+          "Culture": 25,
+          "Value": "Группировать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_TrackballLabelDisplayMode_NearestPoint",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Nearest"
+        },
+        {
+          "Culture": 25,
+          "Value": "Рядом"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_UpdateSource",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dynamic updating"
+        },
+        {
+          "Culture": 25,
+          "Value": "Динамическое обновление"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Use100PercentSpacing",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Use 100 % space for series"
+        },
+        {
+          "Culture": 25,
+          "Value": "Использовать 100 % пространства для ряда"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_UseOpacityForSegmentSelection",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Use opacity for segment selection"
+        },
+        {
+          "Culture": 25,
+          "Value": "Делать выбранный сегмент ряда прозрачным"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_UseSeriesPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Use series palette"
+        },
+        {
+          "Culture": 25,
+          "Value": "Использовать для фона цвет ряда"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ValidationKeys_ValueAlreadyDefined",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Value already used."
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение уже используется."
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ValidationKeys_ValueMustNotBeEmpty",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Value can't be empty"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задайте значение"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ValidationKeys_ValueOutOfRange",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Value '{0}' out of range '{1}' - '{2}'"
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение '{0}' вне допустимого диапазона значений '{1}' - '{2}'"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ValueFields",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Y-axis values field name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Столбец, содержащий значение по оси Y"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ValuesField",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Data source for Y-axis"
+        },
+        {
+          "Culture": 25,
+          "Value": "Источник значений для оси Y"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_VerticalAlignment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Vertical alignment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вертикальное выравнивание"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_VerticalAlignment_Bottom",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Bottom"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вниз"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_VerticalAlignment_Center",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Center"
+        },
+        {
+          "Culture": 25,
+          "Value": "По центру"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_VerticalAlignment_Stretch",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stretch"
+        },
+        {
+          "Culture": 25,
+          "Value": "Растянуть"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_VerticalAlignment_Top",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Top"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вверх"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_VerticalAxisLabelAlignment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Vertical axis label alignment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выравнивание меток по вертикальной оси"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_VerticalHeaderAlignment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Vertical header alignment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вертикальное выравнивание заголовка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_VerticalPosition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Vertical position"
+        },
+        {
+          "Culture": 25,
+          "Value": "Положение по вертикали"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_VerticalTextAlignment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Vertical text alignment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выравнивание текста по вертикали"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Visibility_Collapsed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Collapsed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Свернуть"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Visibility_Hidden",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hidden"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрыть"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Visibility_Visible",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Visible"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_VisibilityOnLegend",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Visibility on legend"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показывать в легенде"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Width",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Strip line width"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ширина полосы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_WorkingDays",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Working days"
+        },
+        {
+          "Culture": 25,
+          "Value": "Рабочие дни"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_WrapLegendName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Legend with wrapping"
+        },
+        {
+          "Culture": 25,
+          "Value": "Легенда с переносом элементов"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_X1",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "X1"
+        },
+        {
+          "Culture": 25,
+          "Value": "X1"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_X2",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "X2"
+        },
+        {
+          "Culture": 25,
+          "Value": "X2"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_XAxisName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "X axis name for binding"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя оси координат X для привязки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Y1",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Y1"
+        },
+        {
+          "Culture": 25,
+          "Value": "Y1"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_Y2",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Y2"
+        },
+        {
+          "Culture": 25,
+          "Value": "Y2"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_YAxisName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Y Axis name for binding"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя оси координат Y для привязки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomAndPanBehavior",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Zoom and pan"
+        },
+        {
+          "Culture": 25,
+          "Value": "Масштабирование и панорамирование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomChart",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Zoom chart"
+        },
+        {
+          "Culture": 25,
+          "Value": "Увеличить диаграмму"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomFactor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Zoom factor"
+        },
+        {
+          "Culture": 25,
+          "Value": "Коэффициент масштабирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoominOptions",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Zoom"
+        },
+        {
+          "Culture": 25,
+          "Value": "Увеличение"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomMode",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Zoom mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим масштабирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomMode_X",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "X"
+        },
+        {
+          "Culture": 25,
+          "Value": "X"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomMode_XY",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "XY"
+        },
+        {
+          "Culture": 25,
+          "Value": "XY"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomMode_Y",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Y"
+        },
+        {
+          "Culture": 25,
+          "Value": "Y"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomOutChart",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Zoom out chart"
+        },
+        {
+          "Culture": 25,
+          "Value": "Уменьшить диаграмму"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomPosition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Zoom position"
+        },
+        {
+          "Culture": 25,
+          "Value": "Позиция масштабирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomRelativeToCursor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Zoom relative to cursor"
+        },
+        {
+          "Culture": 25,
+          "Value": "Масштабировать относительно позиции курсора"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomToolBarItems_All",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All"
+        },
+        {
+          "Culture": 25,
+          "Value": "Все"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomToolBarItems_Reset",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Reset"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сбросить"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomToolBarItems_SelectZooming",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select zooming"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выбор области масштабирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomToolBarItems_ZoomIn",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Zoom in"
+        },
+        {
+          "Culture": 25,
+          "Value": "Уменьшить"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Charting_ZoomToolBarItems_ZoomOut",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Zoom out"
+        },
+        {
+          "Culture": 25,
+          "Value": "Увеличить"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WebCharting_AccentPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Heliocentric"
+        },
+        {
+          "Culture": 25,
+          "Value": "Перигей"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WebCharting_Category10Palette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Empty space"
+        },
+        {
+          "Culture": 25,
+          "Value": "Пустота"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WebCharting_Dark2Palette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Eccentricity"
+        },
+        {
+          "Culture": 25,
+          "Value": "Орбита"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WebCharting_PairedPalette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Lagrangian"
+        },
+        {
+          "Culture": 25,
+          "Value": "Магнетар"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WebCharting_Pastel1Palette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Parsec"
+        },
+        {
+          "Culture": 25,
+          "Value": "Облако Оорта"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WebCharting_Pastel2Palette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Multiverse"
+        },
+        {
+          "Culture": 25,
+          "Value": "Галактика"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WebCharting_Set1Palette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Extrasolar"
+        },
+        {
+          "Culture": 25,
+          "Value": "Инфракрасное излучение"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WebCharting_Set2Palette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Perigee"
+        },
+        {
+          "Culture": 25,
+          "Value": "Туманность "
+        }
+      ]
+    },
+    {
+      "Name": "Views_WebCharting_Set3Palette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Luminosity"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ель"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WebCharting_Tableau10Palette",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Supernova"
+        },
+        {
+          "Culture": 25,
+          "Value": "Коричневый карлик "
+        }
+      ]
+    }
+  ]
+}

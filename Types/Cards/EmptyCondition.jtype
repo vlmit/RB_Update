@@ -1,0 +1,24 @@
+﻿{
+  "Blocks": [],
+  "Caption": "$CardTypes_TypesNames_EmptyCondition",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 272,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "FilePreviewIsDisabled": false,
+    "HorizontalInterval::int": 10,
+    "Interval::int": 10
+  },
+  "Group": "Conditions",
+  "ID::uid": "4b68414d-bf1a-4227-bb01-b1fc939d0e5a",
+  "InstanceType::int": 0,
+  "Name": "EmptyCondition",
+  "SchemeItems": [],
+  "TabCaption": "$CardTypes_Tabs_Card",
+  "TabOrder::int": 0,
+  "Validators": []
+}

@@ -1,0 +1,269 @@
+{
+  "Alias": "KrStageRows",
+  "Caption": "KrStageRows",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Kr Wf",
+  "ID::uid": "74f0ec7a-2cb4-4bb9-9eca-942e28374ea9",
+  "JsonMetadataSource::txt": "KrStageRows JSONMETA",
+  "MsQuerySource::txt": "KrStageRows MSSQL",
+  "PgQuerySource::txt": "KrStageRows PGSQL",
+  "Roles": null
+}
+
+[TEXTPART KrStageRows JSONMETA]
+{
+  "Alias": "KrStageRows",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "KrStageRows",
+  "Columns": [
+    {
+      "Alias": "StageRowID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrStages.RowID"
+    },
+    {
+      "Alias": "TypeCaption",
+      "Appearance": null,
+      "Caption": "$Views_KrStageRows_TypeCaption",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrStages.StageTypeCaption"
+    },
+    {
+      "Alias": "StageName",
+      "Appearance": null,
+      "Caption": "$Views_KrStageRows_Name",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrStages.Name"
+    },
+    {
+      "Alias": "TimeLimit",
+      "Appearance": null,
+      "Caption": "$Views_KrStageRows_TimeLimit",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrStages.DisplayTimeLimit"
+    },
+    {
+      "Alias": "Participants",
+      "Appearance": null,
+      "Caption": "$Views_KrStageRows_Participants",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrStages.DisplayParticipants"
+    },
+    {
+      "Alias": "Settings",
+      "Appearance": null,
+      "Caption": "$Views_KrStageRows_Settings",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrStages.DisplaySettings"
+    },
+    {
+      "Alias": "Order",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "Order",
+      "TreatValueAsUtc": false,
+      "Type": "Int32"
+    },
+    {
+      "Alias": "StageRowGroupID",
+      "Appearance": null,
+      "Caption": "StageGroupID",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrStages.StageGroupID"
+    },
+    {
+      "Alias": "StageRowGroupName",
+      "Appearance": null,
+      "Caption": "StageGroupName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrStages.StageGroupName"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "Order",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "StageTemplateIDParam",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "StageTemplateIDParam",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrStageTemplates.ID"
+    },
+    {
+      "Alias": "StageNameParam",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_KrStageRows_Name",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrStages.Name"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Stage",
+      "Condition": null,
+      "DisplayValueColumn": "StageName",
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "KrStages"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART KrStageRows MSSQL]
+SELECT
+	[ks].[RowID] AS [StageRowID],
+	[ks].[StageTypeCaption] AS [TypeCaption],
+	[ks].[Name] AS [StageName],
+	[ks].[DisplayTimeLimit] AS [TimeLimit],
+	[ks].[DisplayParticipants] AS [Participants],
+	[ks].[DisplaySettings] AS [Settings],
+	[ks].[Order],
+	[kst].[StageGroupID] AS [StageRowGroupID],
+	[kst].[StageGroupName] AS [StageRowGroupName]
+FROM [KrStages] AS [ks] WITH (NOLOCK)
+INNER JOIN [KrStageTemplates] AS [kst] WITH (NOLOCK) ON [kst].[ID] = [ks].[ID]
+#if (StageNameParam) {
+CROSS APPLY [Localization]([ks].[Name], #param(locale)) AS [locName]
+}
+WHERE 1=1
+	#param(StageTemplateIDParam, [kst].[ID])
+	#param(StageNameParam, [locName].[Value])
+ORDER BY #order_by
+
+[TEXTPART KrStageRows PGSQL]
+SELECT
+	"ks"."RowID" AS "StageRowID",
+	"ks"."StageTypeCaption" AS "TypeCaption",
+	"ks"."Name" AS "StageName",
+	"ks"."DisplayTimeLimit" AS "TimeLimit",
+	"ks"."DisplayParticipants" AS "Participants",
+	"ks"."DisplaySettings" AS "Settings",
+	"ks"."Order",
+	"kst"."StageGroupID" AS "StageRowGroupID",
+	"kst"."StageGroupName" AS "StageRowGroupName"
+FROM "KrStages" AS "ks"
+INNER JOIN "KrStageTemplates" AS "kst" ON "kst"."ID" = "ks"."ID"
+#if (StageNameParam) {
+CROSS JOIN "Localization"("ks"."Name", #param(locale)) AS "locName"
+}
+WHERE true
+	#param(StageTemplateIDParam,  "kst"."ID")
+	#param(StageNameParam, "locName"."Value")
+ORDER BY #order_by

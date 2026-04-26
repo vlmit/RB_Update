@@ -1,0 +1,4823 @@
+﻿{
+  "ID": "983dce15-396c-48d5-8065-0cf5a3e954bb",
+  "Name": "WorkflowEngine",
+  "Priority": 0,
+  "Entries": [
+    {
+      "Name": "Views_ActiveWorkflows_CardDigest",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ActiveWorkflows_CardDigest_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ActiveWorkflows_CardID_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card ID"
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор карточки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ActiveWorkflows_CardType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип карточки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ActiveWorkflows_CardType_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип карточки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ActiveWorkflows_Created",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Created"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата создания"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ActiveWorkflows_Created_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Created"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата создания"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ActiveWorkflows_HasActiveErrors_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Has errors"
+        },
+        {
+          "Culture": 25,
+          "Value": "Есть ошибки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ActiveWorkflows_LastActivity",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Activity"
+        },
+        {
+          "Culture": 25,
+          "Value": "Активность"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ActiveWorkflows_LastActivity_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Activity"
+        },
+        {
+          "Culture": 25,
+          "Value": "Активность"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ActiveWorkflows_NoNameStr_Sql",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "<no name>"
+        },
+        {
+          "Culture": 25,
+          "Value": "<без названия>"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ActiveWorkflows_ProcessName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process title"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название процесса"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ActiveWorkflows_ProcessTemplate_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Шаблон процесса"
+        }
+      ]
+    },
+    {
+      "Name": "Views_BusinessProcessTemplates_CardType_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип карточки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_BusinessProcessTemplates_CardTypes",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card types"
+        },
+        {
+          "Culture": 25,
+          "Value": "Типы карточек"
+        }
+      ]
+    },
+    {
+      "Name": "Views_BusinessProcessTemplates_Group",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Group"
+        },
+        {
+          "Culture": 25,
+          "Value": "Группа"
+        }
+      ]
+    },
+    {
+      "Name": "Views_BusinessProcessTemplates_Group_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Group"
+        },
+        {
+          "Culture": 25,
+          "Value": "Группа"
+        }
+      ]
+    },
+    {
+      "Name": "Views_BusinessProcessTemplates_MultipleInstances",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Multiple instances"
+        },
+        {
+          "Culture": 25,
+          "Value": "Несколько экземпляров"
+        }
+      ]
+    },
+    {
+      "Name": "Views_BusinessProcessTemplates_MultipleInstances_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Multiple instances"
+        },
+        {
+          "Culture": 25,
+          "Value": "Несколько экземпляров"
+        }
+      ]
+    },
+    {
+      "Name": "Views_BusinessProcessTemplates_NoGroup_Sql",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "<Without group>"
+        },
+        {
+          "Culture": 25,
+          "Value": "<Без группы>"
+        }
+      ]
+    },
+    {
+      "Name": "Views_BusinessProcessTemplates_ProcessTemplateName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Title"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название"
+        }
+      ]
+    },
+    {
+      "Name": "Views_BusinessProcessTemplates_ProcessTemplateName_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Title"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название"
+        }
+      ]
+    },
+    {
+      "Name": "Views_BusinessProcessTemplates_RunFromCard",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Start from card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запуск из карточки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_BusinessProcessTemplates_RunFromCard_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Start from card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запуск из карточки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ErrorWorkflows_CardDigest",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ErrorWorkflows_CardDigest_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ErrorWorkflows_CardID_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card ID"
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор карточки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ErrorWorkflows_CardType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип карточки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ErrorWorkflows_CardType_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип карточки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ErrorWorkflows_Created",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Created"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата создания"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ErrorWorkflows_ErrorText_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error text"
+        },
+        {
+          "Culture": 25,
+          "Value": "Текст ошибки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ErrorWorkflows_LastErrorAdded",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Last error date"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата последней ошибки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ErrorWorkflows_NoNameStr_Sql",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "<no name>"
+        },
+        {
+          "Culture": 25,
+          "Value": "<без названия>"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ErrorWorkflows_ProcessName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process title"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название процесса"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ErrorWorkflows_ProcessTemplate_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Шаблон процесса"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ErrorWorkflows_Resumable",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Resumable"
+        },
+        {
+          "Culture": 25,
+          "Value": "Возобновимый"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ErrorWorkflows_ResumableOnly_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show resumable only"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показать только возобновимые"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WeTaskControlTypes_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WeTaskControlTypes_Name_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WeTaskGroupActionOptionTypes_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WeTaskGroupActionOptionTypes_Name_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineCompiledBaseTypes_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineCompiledBaseTypes_Name_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineErrors_Added",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Added"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавлено"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineErrors_Added_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Added"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавлено"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineErrors_ErrorText",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error text"
+        },
+        {
+          "Culture": 25,
+          "Value": "Текст ошибки"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineErrors_Process_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Процесс"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineErrors_ShowActiveOnly_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show active only"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показывать только активные"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineLinksTessaView_AllLinks_Value",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All links"
+        },
+        {
+          "Culture": 25,
+          "Value": "Все переходы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineLinksTessaView_AvailableLinks",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Available links"
+        },
+        {
+          "Culture": 25,
+          "Value": "Доступные переходы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineLinksTessaView_Caption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Caption"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заголовок"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineLinksTessaView_Caption_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Caption"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заголовок"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineLinksTessaView_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineLogLevels_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineLogLevels_Name_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineLogs_Added",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Added"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавлено"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineLogs_Added_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Added"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавлено"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineLogs_LogLevel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Log level"
+        },
+        {
+          "Culture": 25,
+          "Value": "Уровень логирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineLogs_LogLevel_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Log level"
+        },
+        {
+          "Culture": 25,
+          "Value": "Уровень логирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineLogs_LogObject",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Log object"
+        },
+        {
+          "Culture": 25,
+          "Value": "Логируемый объект"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineLogs_Process_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Процесс"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineLogs_Text",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Text"
+        },
+        {
+          "Culture": 25,
+          "Value": "Текст"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineTaskActions_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineTaskActions_Name_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineTileManagerExtensions_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowEngineTileManagerExtensions_Name_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowLinkModes_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowLinkModes_Name_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowSignalProcessingModes_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowSignalProcessingModes_Name_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowSignalTypes_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Views_WorkflowSignalTypes_Name_Param",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Наименование"
+        }
+      ]
+    },
+    {
+      "Name": "Workflow_TileCommand_DefaultTileSplash",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Operation is in progress"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выполняется операция"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowAction_ConditionAction_AlwaysSuccessfulConditionCheck",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Always completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Всегда выполнено"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowAction_ConditionAction_ConditionsConditionCheck",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "By conditions"
+        },
+        {
+          "Culture": 25,
+          "Value": "По набору условий"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowAction_ConditionAction_ElseConditionCheck",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Perform if all other conditions are not met"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выполнять, если все другие условия не выполнены"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowAction_ConditionAction_ScenarioAndConditionsConditionCheck",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "By scenario and conditions"
+        },
+        {
+          "Culture": 25,
+          "Value": "По сценарию и набору условий"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowAction_ConditionAction_ScenarioConditionCheck",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "By scenario"
+        },
+        {
+          "Culture": 25,
+          "Value": "По сценарию"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Condition_ConditionError",
+      "Comment": "{0} - имя связи, где была ошибка\n{{0}} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in condition for link \"{0}\" scenario {{0}}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в условии для связи \"{0}\" {{0}}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_CreateCard_CompilationError",
+      "Comment": "{0} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in scenario {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Dialog_ActionScriptError",
+      "Comment": "{0} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in dialog validation scenario {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии валидации диалога {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Dialog_ButtonScriptDescription",
+      "Comment": "{0} - имя кнопки\n{1} - номер строки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scenario for button \"{0}\", row {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сценарий кнопки \"{0}\", строка {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Dialog_ButtonScriptError",
+      "Comment": "{0} - имя кнопки с ошибкой\n{{0}} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in button \"{0}\" scenario {{0}}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии кнопки \"{0}\" {{0}}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Dialog_DialogTypeIsRequired",
+      "Comment": "{0} - имя узла\n{1} - имя действия",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "In the node \"{0}\" in the action \"{1}\" settings the dialog type is requred."
+        },
+        {
+          "Culture": 25,
+          "Value": "В узле \"{0}\" в настройках действия \"{1}\" не задан тип диалога."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Dialog_InitScriptError",
+      "Comment": "{0} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in dialog initialization scenario {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии инициализации диалога {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Dialog_SavingScriptError",
+      "Comment": "{0} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in dialog saving scenario {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии сохранения диалога {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_FieldCompilationTemplate",
+      "Comment": "{0} - имя действия\n{1} - имя узла\n{2} - имя контрола",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "In the action \"{0}\" in the node \"{1}\" in the field \"{2}\" errors founded."
+        },
+        {
+          "Culture": 25,
+          "Value": "В действии \"{0}\" в узле \"{1}\" в поле \"{2}\" найдены ошибки."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_FieldEmptyTemplate",
+      "Comment": "{0} - имя действия\n{1} - имя узла\n{2} - имя контрола",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "In the action \"{0}\" in the node \"{1}\" the field \"{2}\" is not set"
+        },
+        {
+          "Culture": 25,
+          "Value": "В действии \"{0}\" в узле \"{1}\" не задано поле \"{2}\""
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Notification_CompilationError",
+      "Comment": "{0} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in email modification scenario {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии изменения уведомления {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Script_CompilationError",
+      "Comment": "{0} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in scenario {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_SendSignal_CompilationError",
+      "Comment": "{0} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in signal initialization scenario {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии инициализации сигнала {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Subprocess_NoStartActions",
+      "Comment": "{0} - тип сигнала",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No actions panding signal \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Не найдено ни одного действия, ожидающего сигнала \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Subprocess_OptionScriptError",
+      "Comment": "{0} - имя сигнала завершения\n{{0}} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in completion signal \"{0}\" scenario {{0}}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии обработки сигнала завершения \"{0}\" {{0}}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_TableEmptyTemplate",
+      "Comment": "{0} - имя действия\n{1} - имя узла\n{2} - имя контрола",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "In the action \"{0}\" in the node \"{1}\" the table \"{2}\" is empty."
+        },
+        {
+          "Culture": 25,
+          "Value": "В действии \"{0}\" в узле \"{1}\" не заполнена таблица \"{2}\"."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_ButtonScriptDescription",
+      "Comment": "{0} - имя кнопки\n{1} - номер строки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scenario for button \"{0}\", row in dialogs table {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сценарий кнопки \"{0}\", строка в таблице диалогов {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_ButtonScriptError",
+      "Comment": "{0} - имя кнопки с ошибкой\n{{0}} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in button \"{0}\" scenario {{0}}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии кнопки \"{0}\" {{0}}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_DialogActionScriptDescription",
+      "Comment": "{0} - вариант завершения, для которого настраивается диалог\n{1} - номер строки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dialog validation scenario for completion option \"{0}\", row {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сценарий валидации диалога для варианта завершения \"{0}\", строка {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_DialogActionScriptError",
+      "Comment": "{0} - вариант завершения, для которого настраивается диалог\n{{0}} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in dialog validation scenario for completion option \"{0}\" {{0}}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии валидации диалога для варианта завершения \"{0}\" {{0}}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_DialogInitScriptDescription",
+      "Comment": "{0} - вариант завершения, для которого настраивается диалог\n{1} - номер строки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dialog initialization scenario for completion option \"{0}\", row {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сценарий инициализации диалога для варианта завершения \"{0}\", строка {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_DialogInitScriptError",
+      "Comment": "{0} - вариант завершения, для которого настраивается диалог\n{{0}} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in dialog initialization scenario for completion option \"{0}\" {{0}}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии инициализации диалога для варианта завершения \"{0}\" {{0}}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_DialogSavingScriptDescription",
+      "Comment": "{0} - вариант завершения, для которого настраивается диалог\n{1} - номер строки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dialog saving scenario for completion option \"{0}\", row {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сценарий сохранения диалога для варианта завершения \"{0}\", строка {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_DialogSavingScriptError",
+      "Comment": "{0} - вариант завершения, для которого настраивается диалог\n{{0}} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in dialog saving scenario for completion option \"{0}\" {{0}}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии сохранения диалога для варианта завершения \"{0}\" {{0}}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_DialogTypeIsRequired",
+      "Comment": "{0} - имя узла\n{1} - имя действия\n{2} - имя варианта завершения, для которого настраивается диалог.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "In the node \"{0}\" in the action \"{1}\" settings in the dialog settings for completion option \"{2}\" the dialog type is requred."
+        },
+        {
+          "Culture": 25,
+          "Value": "В узле \"{0}\" в настройках действия \"{1}\" в настройках диалога для варианта завершения \"{2}\" не задан тип диалога."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_EventDescription",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Event \"{0}\", row {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Событие \"{0}\", строка {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_EventScriptError",
+      "Comment": "{0} - имя события\n{{0}} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in event \"{0}\" scenario {{0}}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в скрипте события \"{0}\" {{0}}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_InitScriptError",
+      "Comment": "{0} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in initialization scenario {{0}}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии инициализации задания {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_NotificationScriptError",
+      "Comment": "{0} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in task notification modification scenario {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии изменения уведомления о задании {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_OptionNotificationScriptError",
+      "Comment": "{0} - имя варианта завершения\n{{0}} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in completion option \"{0}\" notification modification scenario {{0}}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии изменения уведомления о задании варианта завершения \"{0}\" {{0}}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_OptionScriptError",
+      "Comment": "{0} - имя варианта завершения\n{{0}} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in completion option \"{0}\" scenario {{0}}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии варианта завершения \"{0}\" {{0}}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Task_OptionsDescription",
+      "Comment": "{0} - название варианта завершения\n{1} - номер строки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Completion option \"{0}\", row {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вариант завершения \"{0}\", строка {1}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Timer_CompilationError",
+      "Comment": "{0} - имя объекта, где возникла ошибка",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in timer stop condition {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в условии остановки таймера {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Actions_Timer_Validation",
+      "Comment": "{0} - имя действия\n{1} - имя узла",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "In the action \"{0}\" in the node \"{1}\" timer settings are not set"
+        },
+        {
+          "Culture": 25,
+          "Value": "В действии \"{0}\" в узле \"{1}\" не заданы настройки таймера"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_BindingTypeChangeMessage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Changing the binding type will clear the current binding settings. Are you sure you want to change the binding type?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Смена типа привязки очистит настройки текущей привязки. Вы уверены, что хотите изменить тип привязки?"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_BindingTypeLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Binding type:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип привязки:"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_CardBindingTabCaption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_CardIDParameterLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Parameter for card ID:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Параметр для ID карточки:"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_CardTypeLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card type:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип карточки:"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_ColumnLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Column:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Колонка:"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_CompletedTasksLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Completed tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершенные задания"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_CompletedTasksToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Setting this flag determines that completed tasks from the execution context can be used to get the binding data.\n\nTasks are considered completed if its State corresponds to CardRowState.Deleted or CardRowState.Modified, and Action corresponds to CardTaskAction.Complete."
+        },
+        {
+          "Culture": 25,
+          "Value": "Установка данного флага определяет, что для получения данных по привязке могут использоваться завершенные задания из контекста выполнения.\n\nЗадания считается завершенным, если его State соответствует CardRowState.Deleted или CardRowState.Modified, а Action соответствует CardTaskAction.Complete."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_DistinctLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Remove duplicates"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить дубликаты"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_DistinctToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Setting this flag determines that duplicates should be removed from the result obtained by binding."
+        },
+        {
+          "Culture": 25,
+          "Value": "Установка данного флага определяет, что из полученного по привязке результата должны быть удалены дубли."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_FiltersBlockHeader",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Filters"
+        },
+        {
+          "Culture": 25,
+          "Value": "Фильтры"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_FirstTaskLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "First task only"
+        },
+        {
+          "Culture": 25,
+          "Value": "Только первое задание"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_FirstTaskToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Setting this flag determines that only the first task that satisfies the filtering settings should be used to get data from the binding."
+        },
+        {
+          "Culture": 25,
+          "Value": "Установка данного флага определяет, что для получения данных из привязки должно использоваться только первое задание, удовлетворяющее настройкам фильтрации."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_ModifiedTasksLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Modified task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Измененные задания"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_ModifiedTasksToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Setting this flag determines that modified tasks from the execution context can be used to get the binding data.\n\nTasks are considered modified if its State corresponds to CardRowState.Deleted or CardRowState.Modified, or at least one of its attributes (Digest, Author, etc.) is changed, and Action is different from CardTaskAction.Complete."
+        },
+        {
+          "Culture": 25,
+          "Value": "Установка данного флага определяет, что для получения данных по привязке могут использоваться измененные задания из контекста выполнения.\n\nЗадания считается измененным, если его State соответствует CardRowState.Deleted или CardRowState.Modified, или в задании происходит изменение хотя бы одного из его аттрибутов (Digest, Author и т.д.), а Action отличен от CardTaskAction.Complete."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_NewTasksLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "New tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Новые задания"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_NewTasksToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Setting this flag determines that new tasks from the execution context can be used to get binding data.\n\nTasks are considered new if its State corresponds to CardRowState.Inserted."
+        },
+        {
+          "Culture": 25,
+          "Value": "Установка данного флага определяет, что для получения данных по привязке могут использоваться новые задания из контекста выполнения.\n\nЗадания считается новым, если его State соответствует CardRowState.Inserted."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_OrderColumnLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Order column:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Колонка для сортировки:"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_ReferenceLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Reference:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ссылочное значение:"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_SelectParamHint",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select a binding type and configure it with an editor.\nChanging the binding type clears the current binding.\nTo confirm the changes click \"OK\" button. To cancel the changes click \"Cancel\" or close the window."
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите тип привязки и настройте ее с помощью редактора.\nСмена типа привязки очищает текущую привязку.\nДля подтверждения изменений нажмите кнопку \"Ок\". Для отмены изменений нажмите кнопку \"Отмена\" или закройте окно."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_ShowVirtualSectionsLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show virtual sections"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показывать виртуальные секции"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_SqlBindingTabCaption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "SQL-value"
+        },
+        {
+          "Culture": 25,
+          "Value": "SQL-значение"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_SqlHintAnyName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "<Any name>"
+        },
+        {
+          "Culture": 25,
+          "Value": "<Любое имя>"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_SqlHintMultipleRows",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Multiple rows expected"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ожидается несколько строк"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_SqlHintParameters",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Parameters:\n@CardID - card ID\n@UserID - employee ID"
+        },
+        {
+          "Culture": 25,
+          "Value": "Параметры:\n@CardID - ID карточки\n@UserID - ID сотрудника"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_SqlHintSingleRow",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Expected single row"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ожидается одна строка"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_TaskBindingTabCaption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_TaskTypeLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task type:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип задания:"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_ViewBindingTabCaption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "View"
+        },
+        {
+          "Culture": 25,
+          "Value": "Представление"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_BindingEditor_ViewLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "View:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Представление:"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Compilation_ConditionError",
+      "Comment": "{0} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in condition {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в условии {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Compilation_InAction",
+      "Comment": "{0} - имя действия",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "in action \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "в действии \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Compilation_InConditionError",
+      "Comment": "{0} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in node entry condition {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в условии перехода в узел {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Compilation_InLink",
+      "Comment": "{0} - имя перехода",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "in transition \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "в переходе \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Compilation_InNode",
+      "Comment": "{0} - имя узла",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "in node \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "в узле \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Compilation_OutConditionError",
+      "Comment": "{0} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in node exit condition {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в условии выхода из узла {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Compilation_PostScriptError",
+      "Comment": "{0} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in postprocessing scenario {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии постобработки {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Compilation_PreScriptError",
+      "Comment": "{0} - имя объекта с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in preprocessing scenario {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в сценарии предобработки {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Compilation_ProcessGlobalScriptError",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in global process script"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в глобальном скрипте процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_DefaultProcessTemplateNotFound",
+      "Comment": "{0} - идентификатор шаблона процесса.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The default template version identifier was not found for the process template with ID \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Для шаблона процесса с идентификатором \"{0}\" не найден идентификатор версии шаблона по умолчанию."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_DeleteTemplate_InstanceExists",
+      "Comment": "{0} - идентификатор карточки шаблона файла",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "You can not delete a process template with the identifier \"{0}\". There are active process instances for the template."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно удалить шаблон процесса с идентификатором \"{0}\". Для него существуют активные экземпляры процесса."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_DeleteVersion_InstanceExists",
+      "Comment": "{0} - идентификатор версии шаблона файла",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "You can not delete a process template version with the identifier \"{0}\". There are active process instances for the template version."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно удалить версию шаблона процесса с идентификатором \"{0}\". Для нее существуют активные экземпляры процесса."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Groups_Conditions",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Conditions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Условия"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Groups_Control",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Control"
+        },
+        {
+          "Culture": 25,
+          "Value": "Управление"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Groups_Main",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Main"
+        },
+        {
+          "Culture": 25,
+          "Value": "Основные"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Groups_Timers",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Timers"
+        },
+        {
+          "Culture": 25,
+          "Value": "Таймеры"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_HashBinder_FieldBindingError",
+      "Comment": "{0} - имя поля\n{1} - имя секции\n{2} - путь для привязки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred while creating a binding for the field {0} from section {1} on the path {2}."
+        },
+        {
+          "Culture": 25,
+          "Value": "При создании привязки для поля {0} из секции {1} по пути {2} возникла ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_HashBinder_FieldErrorText",
+      "Comment": "{0} - имя поля\n{1} - тип параметра\n{2} - ожидаемый тип параметра",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in field '{0}'.\nThe value of the binded parameter has an incorrect data type.\nParameter type '{1}', Expected type '{2}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в поле '{0}'.\nЗначение указанного в привязке параметра имеет некорректный тип данных.\nТип параметра '{1}', Ожидаемый тип '{2}'."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_HashBinder_RowBindingError",
+      "Comment": "{0} - имя секции\n{1} - путь для привязки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred while creating a binding for a new row of the {0} section on the path {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "При создании привязки для новой строки секции {0} по пути {1} возникла ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_HashBinder_SectionErrorText",
+      "Comment": "{0} - имя секции\n{1} - тип параметра\n{2} - ожидаемый тип параметра",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error in collection section '{0}'.\nThe value of the binded parameter has an incorrect data type.\nParameter type '{1}', Expected type '{2}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка в коллекционной секции '{0}'.\nЗначение указанного в привязке параметра имеет некорректный тип данных.\nТип параметра '{1}', Ожидаемый тип '{2}'."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_HashBinder_TableSectionBindingError",
+      "Comment": "{0} - имя секции\n{1} - путь для привязки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred while creating the binding to the table section {0} on the path {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "При создании привязки к табличной секции {0} по пути {1} возникла ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_LicenseError",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Business process designer license isn't found. Please, make sure that license contain \"Business process designer\" module."
+        },
+        {
+          "Culture": 25,
+          "Value": "Лицензия конструктора бизнес-процессов не найдена. Пожалуйста, убедитесь, что лицензия содержит модуль \"Конструктор бизнес-процессов\"."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_LinkDeleted",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "[Link deleted]"
+        },
+        {
+          "Culture": 25,
+          "Value": "[Переход удален]"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_LinkModes_AlwaysCreateNew",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Always create a node instance"
+        },
+        {
+          "Culture": 25,
+          "Value": "Всегда создавать экземпляр узла"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_LinkModes_Default",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create an node instance if it is not exists"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать экземпляр узла, если его нет"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_LinkModes_NeverCreateNew",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Never create a node instance"
+        },
+        {
+          "Culture": 25,
+          "Value": "Никогда не создавать экземпляр узла"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_LinkNodeMismatch",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "[Link refers to another node]"
+        },
+        {
+          "Culture": 25,
+          "Value": "[Переход относится к другому узлу]"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Log_LinkDebug",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Link is performing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выполняется связь"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Log_NodeDebug",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Node is performing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выполняется узел"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Log_SignalType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Signal type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип сигнала"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Log_StartDebug",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Processing started"
+        },
+        {
+          "Culture": 25,
+          "Value": "Начата обработка"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Log_SuccessfullyCompletedDebug",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Processing completed successfully"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обработка успешно завершена"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_ManualLink",
+      "Comment": "Ссылка на руководство разработчика бизнес-процессов",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "https://mytessa.ru/docs/3.6/dev/workflow/"
+        },
+        {
+          "Culture": 25,
+          "Value": "https://mytessa.ru/docs/3.6/dev/workflow/"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_ObjectTypes_Employee",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Employee"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сотрудник"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_ObjectTypes_Partner",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Partner"
+        },
+        {
+          "Culture": 25,
+          "Value": "Контрагент"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_ObjectTypes_Role",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Role"
+        },
+        {
+          "Culture": 25,
+          "Value": "Роль"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_ParametrizedControl_SelectFormTitle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Choose parameter"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите параметр"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_ParametrizedControl_WrongTypeMessage",
+      "Comment": "{0} - привязка\n{1} - тип значения для привязки\n{2} - ожидаемый тип",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "It is impossible to set the binding of the parameter \"{0}\" to the type \"{1}\". Expected type \"{2}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно задать привязку параметра \"{0}\" к типу \"{1}\". Ожидается тип \"{2}\""
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Permission_CreateTemplateCardDenied",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Insufficient permissions to create the process template card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Недостаточно прав доступа на создание карточки шаблона процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Permission_DeleteProcessInstanceCardDenied",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Insufficient permissions to delete the process instance card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Недостаточно прав доступа на удаление карточки экземпляра процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Permission_DeleteTemplateCardDenied",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Insufficient permissions to delete the process template card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Недостаточно прав доступа на удаление карточки шаблона процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Permission_EditProcessInstanceDenied",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Insufficient permissions to edit the process instance"
+        },
+        {
+          "Culture": 25,
+          "Value": "Недостаточно прав доступа на редактирование экземпляра процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Permission_EditProcessVersionDenied",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Insufficient permissions to edit the process template version"
+        },
+        {
+          "Culture": 25,
+          "Value": "Недостаточно прав доступа на редактирование версии шаблона процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Permission_EditTemplateCardDenied",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Insufficient permissions to edit the process template card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Недостаточно прав доступа на редактирование карточки шаблона процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Permission_ProcessInstanceNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "A process instance was not found. Perhaps it was deleted or completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экземпляр процесса не найден. Возможно он был удален или завершен"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Permission_ReadProcessDenied",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Insufficient permissions to read the process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Недостаточно прав доступа на чтение процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Permission_ReadProcessInstanceDenied",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Insufficient permissions to read the process instance"
+        },
+        {
+          "Culture": 25,
+          "Value": "Недостаточно прав доступа на чтение экземпляра процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Permission_TileExecuteError",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Insufficient access to perform the action."
+        },
+        {
+          "Culture": 25,
+          "Value": "Недостаточно прав доступа на выполнение действия."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_AccessError",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Access error when processing the signal in WorkflowEngine."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка доступа при обработке сигнала в WorkflowEngine."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_ActionCountLimit",
+      "Comment": "{0} - лимит обрабатываемых действий ",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Exceeded the maximum number of processed actions for one execution {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Превышено максимальное число обрабатываемых за одно выполнение действий {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_ActionError",
+      "Comment": "{0} - имя действия\n{1} - имя узла",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred when executing the action \"{0}\" of the node \"{1}\":"
+        },
+        {
+          "Culture": 25,
+          "Value": "В ходе выполнения действия \"{0}\" в узле \"{1}\" возникла ошибка:"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_AsyncOperation",
+      "Comment": "{0} - имя процесса",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Asynchronous execution of the process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Асинхронное выполнение процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_ErrorStoreError",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred when storing error in the process instance card"
+        },
+        {
+          "Culture": 25,
+          "Value": "При сохранении ошибки в карточку экземпляра процесса возникла ошибка"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_LinkInConditionError",
+      "Comment": "{0} - имя перехода",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred when executing the entry condition in transition \"{0}\":"
+        },
+        {
+          "Culture": 25,
+          "Value": "В ходе выполнения условия входа в переходе \"{0}\" возникла ошибка:"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_LinkOutConditionError",
+      "Comment": "{0} - имя перехода",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred when executing the exit condition in transition \"{0}\":"
+        },
+        {
+          "Culture": 25,
+          "Value": "В ходе выполнения условия выхода в переходе \"{0}\" возникла ошибка:"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_NodeCountLimit",
+      "Comment": "{0} - лимит обрабатываемых узлов",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Exceeded the maximum number of processed nodes for one execution {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Превышено максимальное число обрабатываемых за одно выполнение узлов {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_NodeDepthLimit",
+      "Comment": "{0} - лимит обрабатываемых узлов в одной ветви дерева исполнения",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Exceeded the maximum number ({0}) of processed nodes in one branch of execution"
+        },
+        {
+          "Culture": 25,
+          "Value": "Превышено максимальное число ({0}) обрабатываемых в одной ветви исполнения узлов"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_NodeNotExists",
+      "Comment": "{0} - имя шаблона процесса\n{1} - ID узла",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process template \"{0}\" does not have a node with the identifier \"{1}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "В шаблоне процесса \"{0}\" отсутствует узел с идентификатором \"{1}\""
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_NodeNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can not find node for processing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не найден узел для обработки"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_NoStartActions",
+      "Comment": "{0} - тип сигнала",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No actions panding signal \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Не найдено ни одного действия, ожидающего сигнала \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_ProcessInstanceNotFound",
+      "Comment": "{0} - ID процесса",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The process instance with identifier \"{0}\" not found"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не найден экземпляр процесса с идентификатором \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_ProcessLocked",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The process is locked for execution"
+        },
+        {
+          "Culture": 25,
+          "Value": "Процесс заблокирован для выполнения"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Processor_UnknownActionTypeWithID",
+      "Comment": "{0} - идентификатор неизвестного типа действия",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unknown action type with ID \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Неизвестный тип действия с идентификатором \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_RequestSignatureVerifyingFailed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error occured when processing signal. Request signature is invalid."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка при обработке сигнала. Подпись запроса неверна."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_SelectParamControl_BindingToListNotAllowed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Binding to list element not allowed."
+        },
+        {
+          "Culture": 25,
+          "Value": "Привязку нельзя сделать к элементу списка."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_SelectParamControl_NullOrEmptyKey",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The use of an empty key is not allowed."
+        },
+        {
+          "Culture": 25,
+          "Value": "Использование пустого ключа недопустимо."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_SelectParamControl_UnexpectedError",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An unexpected error occurred."
+        },
+        {
+          "Culture": 25,
+          "Value": "Произошла непредвиденная ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_SelectParamControl_WrongType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The selected parameter has an incorrect data type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Выбранный параметр имеет некорректный тип данных."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Service_ProcessInstanceNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "A process instance was not found. Perhaps it was deleted or completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экземпляр процесса не найден. Возможно он был удален или завершен"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_Service_ProcessTemplateLocked",
+      "Comment": "{0} - имя сотрудника, заблокировавшего шаблон процесса",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The business process template card was locked by the employee {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка шаблона бизнес-процесса заблокирована сотрудником {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_SignalProcessingMode_AfterUploadingFiles",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "After uploading files"
+        },
+        {
+          "Culture": 25,
+          "Value": "После загрузки файлов"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_SignalProcessingMode_Async",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Asynchronous"
+        },
+        {
+          "Culture": 25,
+          "Value": "Асинхронный"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_SignalProcessingMode_Default",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Default"
+        },
+        {
+          "Culture": 25,
+          "Value": "По умолчанию"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TaskActions_Complete",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Complete"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выполнить"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TaskActions_InProgress",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "In progress"
+        },
+        {
+          "Culture": 25,
+          "Value": "Взять в работу"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TaskActions_Postpone",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Postpone"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отложить"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TaskActions_ReturnFromPostpone",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Return fom postpone"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вернуть из отложенного"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TaskActions_ReturnToRole",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Return to role"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вернуть на роль"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TaskControlTypes_CompleteTask",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Complete task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершить задание"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TaskControlTypes_DeleteTask",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить задание"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TaskControlTypes_UpdateTask",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Update task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменить задание"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TaskGroupOptionTypes_AfterFinish",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Always, after the completion of the group"
+        },
+        {
+          "Culture": 25,
+          "Value": "Всегда, после завершения группы"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TaskGroupOptionTypes_All",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Все задания"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TaskGroupOptionTypes_OneAfterAll",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "One task, after completing the group"
+        },
+        {
+          "Culture": 25,
+          "Value": "Одно задание, после выполнения группы"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TaskGroupOptionTypes_OneNow",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "One task, immediately"
+        },
+        {
+          "Culture": 25,
+          "Value": "Одно задание, сразу"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TileManager_Processes",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Processes"
+        },
+        {
+          "Culture": 25,
+          "Value": "Процессы"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TilePermission_CheckRolesForExecution",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Check roles for execution"
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверка ролей на выполнение"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_TilePermission_CheckRolesForExecution_AvailableRoles",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Available roles: "
+        },
+        {
+          "Culture": 25,
+          "Value": "Доступно ролям: "
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ActionsPanelComponent_EmptyFilter",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "action search"
+        },
+        {
+          "Culture": 25,
+          "Value": "поиск действия"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_BusinessProcessTemplate_Compilation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Compilation performing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Производится компиляция"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_BusinessProcessTemplate_CompilationSuccessful",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Compilation is successful."
+        },
+        {
+          "Culture": 25,
+          "Value": "Компиляция выполнена успешно."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_BusinessProcessTemplate_CompileButton",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Compile"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выполнить компиляцию"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_CodeComponent_FolderAlreadyExists",
+      "Comment": "{0} - путь до проекта",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The folder {0} already exists and is not empty. Replace the contents of the folder?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Папка {0} уже существует и не пуста. Заменить содержимое папки?"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_CodeComponent_ProjectGenerationInProgress",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Project generation in progress"
+        },
+        {
+          "Culture": 25,
+          "Value": "Производится создание файлов проекта"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_CodeComponent_ProjectNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Project not found."
+        },
+        {
+          "Culture": 25,
+          "Value": "Проект не найден."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_InstanceContext_CardOpening",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card opening in progress"
+        },
+        {
+          "Culture": 25,
+          "Value": "Производится открытие карточки"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_InstanceContext_OpenCardTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть карточку"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_InstanceContext_OpenProcessTemplateTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open process template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть шаблон процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_InstanceContext_ProcessResuming",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process resuming in progress"
+        },
+        {
+          "Culture": 25,
+          "Value": "Производится возобновление процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_InstanceContext_ProcessSaving",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process saving in progress"
+        },
+        {
+          "Culture": 25,
+          "Value": "Производится сохранение процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_InstanceContext_ProcessSettingsTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_InstanceContext_RefreshHasChangesMessage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There are changes in the process. Refresh the process?"
+        },
+        {
+          "Culture": 25,
+          "Value": "В процессе есть изменения. Обновить процесс?"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_InstanceContext_RefreshProcessTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Refresh process. Press Shift+F5 for full refresh."
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновить процесс. Нажмите Shift+F5 для обновления шаблона."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_InstanceContext_ResumeProcessTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Resume process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Возобновить процесс"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_InstanceContext_SaveProcessTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить процесс"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_InstanceContext_ShowLogsTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show process log"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показать журнал процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_InstanceContext_ShowLogsWorkplace",
+      "Comment": "{0} - имя процесса",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process log {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Журнал процесса {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_InstanceEditorWebClient",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Workflow process designer isn't supported in a web client."
+        },
+        {
+          "Culture": 25,
+          "Value": "Редактор процессов не поддерживается в веб-клиенте."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_LoaderComponent_Loading",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Loading"
+        },
+        {
+          "Culture": 25,
+          "Value": "Загрузка"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_LoaderComponent_LoadingAnnotations",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Loading annotations"
+        },
+        {
+          "Culture": 25,
+          "Value": "Загрузка подписей"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_LoaderComponent_LoadingConnections",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Loading connections"
+        },
+        {
+          "Culture": 25,
+          "Value": "Загрузка переходов"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_LoaderComponent_LoadingNodes",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Loading nodes"
+        },
+        {
+          "Culture": 25,
+          "Value": "Загрузка узлов"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_LoaderComponent_LoadingProcess",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Loading process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Загрузка процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_LoaderComponent_Unloading",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unloading process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выгрузка процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_NodeEditor_NodeInstanceNameTemplate",
+      "Comment": "{0} - условное обозначение узла",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Node instance {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экземпляр узла {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ObjectComponent_ActionEditorWarning",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Changing action parameters is recommended through the action editor."
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменение параметров действия рекомендуется производить через редактор действия."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ObjectComponent_ParameterEditor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Parameter editor"
+        },
+        {
+          "Culture": 25,
+          "Value": "Редактор параметров"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ObjectComponent_RefreshObjectConfirmation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Roll back all changes of the object?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отменить все изменения данного объекта?"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ObjectComponent_UnableToRefreshObject",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unable to roll back changes of the object."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно произвести откат изменений для данного объекта."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ObjectComponent_Validating",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Validating"
+        },
+        {
+          "Culture": 25,
+          "Value": "Производится валидация"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ObjectComponent_ValidationSuccessful",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Validation is successful."
+        },
+        {
+          "Culture": 25,
+          "Value": "Валидация выполнена успешно."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_AddAnnotationMenuAction",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add annotation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить подпись"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_AnnotationDefaultText",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Input text here"
+        },
+        {
+          "Culture": 25,
+          "Value": "Введите свой текст"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_Compilation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Compilation performing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Производится компиляция"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_CompilationSuccessful",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Compilation is successful."
+        },
+        {
+          "Culture": 25,
+          "Value": "Компиляция выполнена успешно."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_CopyMenuAction",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Copy"
+        },
+        {
+          "Culture": 25,
+          "Value": "Копировать"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_CreateConnectionToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add a connection. Drag to create a new connection."
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить связь. Тяните для создания новой связи."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_DeleteAnnotationConfirm",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Are you sure you want to delete the selected annotation?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вы уверены, что хотите удалить выбранную подпись?"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_DeleteConnectionConfirm",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Are you sure you want to delete the selected connection?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вы уверены, что хотите удалить выбранную связь?"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_DeleteElementsConfirm",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Are you sure you want to delete selected elements?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вы уверены, что хотите удалить выбранные элементы?"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_DeleteNodeConfirm",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Are you sure you want to delete the selected node?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вы уверены, что хотите удалить выбранный узел?"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_DeleteToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete node"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить узел"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_PasteMenuAction",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Paste"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вставить"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_PasteToConnectionMenuAction",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Paste to connection"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вставить в связь"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_PasteToNodeMenuAction",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Paste to node"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вставить скопированные действия в узел"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessComponent_WindowTitle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process template editor"
+        },
+        {
+          "Culture": 25,
+          "Value": "Редактор шаблона процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessEditor_ReferencesFoundTemplate",
+      "Comment": "{0} - список ссылок на сборки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The following references are found:\n\n{0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Найдены следующие ссылки на сборки:\n\n{0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessEditor_ReferencesNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "References not found"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не найдено ни одной ссылки в скриптах процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessInstanceComponent_SelectRoleButton",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select role"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выбрать роль"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessInstanceComponent_SendCompleteTasksSignal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Send complete tasks signal"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отправить сигнал завершения заданий"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessInstanceComponent_SendControlSubprocessSignal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Send control subprocess signal"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отправить сигнал управление подпроцессом"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessInstanceComponent_SendDeleteTasksSignal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Send delete tasks signal"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отправить сигнал удаления заданий"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessInstanceComponent_SendSignal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Send signal"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отправить сигнал"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessInstanceComponent_SendUpdateTasksSignal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Send update tasks signal"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отправить сигнал обновления заданий"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessInstanceComponent_WindowTitle",
+      "Comment": "{0} - имя процесса",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process instance editor: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Редактор экземпляра процесса: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessInstanceEditor_ClearErrorSelection",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Clear error selection"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сбросить отображение ошибки"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessInstanceEditor_OpenErrorCard",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open error card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть карточку ошибки"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_ProcessInstanceEditor_ResendSignal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Resend signal"
+        },
+        {
+          "Culture": 25,
+          "Value": "Повторить отправку сигнала"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_ActionType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Action"
+        },
+        {
+          "Culture": 25,
+          "Value": "Действие"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_FieldTemplate",
+      "Comment": "{0} - название поля",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Field \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Поле \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_FilterLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Filter"
+        },
+        {
+          "Culture": 25,
+          "Value": "Фильтр"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_HashKeyNameTemplate",
+      "Comment": "{0} - путь к параметру в хеше объекта",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Parameter name on path\n{0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя параметра по пути\n{0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_HashValueNameTemplate",
+      "Comment": "{0} - путь к параметру в хеше объекта",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Parameter value on path \n{0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение параметра по пути \n{0}"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_LinkType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Link"
+        },
+        {
+          "Culture": 25,
+          "Value": "Связь"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_MatchWholeWord",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Match whole word"
+        },
+        {
+          "Culture": 25,
+          "Value": "Совпадение слова целиком"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_NameColumn",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_NodeType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Node"
+        },
+        {
+          "Culture": 25,
+          "Value": "Узел"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_PreviewLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Preview"
+        },
+        {
+          "Culture": 25,
+          "Value": "Предпросмотр"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_ProcessType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Процесс"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_ReplaceAllConfirmMessage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Are you sure you want to replace in all process objects?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вы уверены, что хотите произвести замену во всех объектах процесса?"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_ReplaceAllToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Replace values in all objects"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заменить значения во всех объектах"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_ReplaceToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Replace values in selected objects"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заменить значения в выбранных объектах"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_ReplaceWithLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Replace with"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заменить на"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_TableTemplate",
+      "Comment": "{0} - название таблицы",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Table \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Таблица \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_TableWithFieldTemplate",
+      "Comment": "{0} - название таблицы\n{1} - название поля",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Table \"{0}\", field \"{1}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Таблица \"{0}\", поле \"{1}\""
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_TableWithRowAndFieldTemplate",
+      "Comment": "{0} - название таблицы\n{1} - номер строки\n{2} - название поля",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Table \"{0}\", row {1}, field \"{2}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Таблица \"{0}\", строка {1}, поле \"{2}\""
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SearchComponent_TypeColumn",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_Service_ProcessNameNotSpecified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process title is not specified"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название процесса не задано"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_Service_ValidationNotSupported",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Validating an object of the specified type is not supported"
+        },
+        {
+          "Culture": 25,
+          "Value": "Валидация объекта заданного типа не поддерживается"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SignalComponent_SendSignalButton",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Send signal"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отправить сигнал"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SignalComponent_SendSignalConfirm",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There are changes in the process instance. Sending a signal will undo all not saved changes. Continue sending a signal?"
+        },
+        {
+          "Culture": 25,
+          "Value": "В экземпляре процесса есть изменения. Отправка сигнала отменит все не сохраненные изменения. Продолжить отправку сигнала?"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SignalComponent_SignalSending",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Signal sending"
+        },
+        {
+          "Culture": 25,
+          "Value": "Идет отправка сигнала"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_SubprocessAction_SubprocessOpening",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Subprocess opening"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подпроцесс открывается"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_CopyButton",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create version copy"
+        },
+        {
+          "Culture": 25,
+          "Value": "Копировать в новую версию"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_DefaultProcessName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "New process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Новый процесс"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_ExportProcess",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспортировать процесс"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_ImportInvalidFile",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The structure of the json file does not match the structure of the Workflow Engine business process."
+        },
+        {
+          "Culture": 25,
+          "Value": "Структура переданного json-файла не соответствует структуре бизнес-процесса Workflow Engine."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_ImportProcess",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Импортировать процесс"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_LockButton",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Lock for edit"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заблокировать для редактирования"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_LockProcessTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Lock process for edit"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заблокировать процесс для редактирования"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_MakeDefaultButton",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Make it default version"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сделать версией по умолчанию"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_OpenButton",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_OpenManualTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open business process developer guide"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть руководство разработчика бизнес-процессов"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_ProcessFileFilter",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Workflow Engine process|*.json|BPMN process|*.bpmn;*.xml"
+        },
+        {
+          "Culture": 25,
+          "Value": "Процесс Workflow Engine|*.json|Процесс BPMN|*.bpmn;*.xml"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_ProcessingLockChanging",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Processing lock changing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Производится смена состояния блокировки"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_ProcessSaving",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process saving"
+        },
+        {
+          "Culture": 25,
+          "Value": "Процесс сохраняется"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_ProcessSettingsTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_ProcessVersionNotFoundMessage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Process version not found"
+        },
+        {
+          "Culture": 25,
+          "Value": "Версия процесса не обнаружена"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_RefreshHasChangesMessage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There are changes in the process. Refresh the process?"
+        },
+        {
+          "Culture": 25,
+          "Value": "В процессе есть изменения. Обновить процесс?"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_RefreshProcessTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Refresh process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновить процесс"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_RemoveButton",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete version"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить версию"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_SaveHasChangesMessage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There are changes in the process. Save the process?"
+        },
+        {
+          "Culture": 25,
+          "Value": "В процессе есть изменения. Сохранить процесс?"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_SaveProcessTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить процесс"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_SettingDefaultVersion",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Setting the default version"
+        },
+        {
+          "Culture": 25,
+          "Value": "Производится установка версии по умолчанию"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_UnlockButton",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unlock"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разблокировать"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_UnlockContinueTemplateMessage",
+      "Comment": "{0} - причина блокировки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0}\n\nAre you sure you want to continue with the current operation?"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0}\n\nВы уверены, что хотите продолжить выполнение текущей операции?"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TemplateContext_UnlockProcessTooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unlock process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разблокировать процесс"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_TileFactory_GlobalProcessProcessing",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sending process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Производится отправка процесса"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_Tiles_ResumeInProcessing",
+      "Comment": "{0} - число возобновленных процессов\n{1} - общее число для возобновления",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Resume in processing ({0}/{1})"
+        },
+        {
+          "Culture": 25,
+          "Value": "Идет возобновление процессов ({0}/{1})"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UI_Tiles_ResumeSelectedProcesses",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Resume selected processes"
+        },
+        {
+          "Culture": 25,
+          "Value": "Возобновить выбранные процессы"
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_UIHandler_MethodErrorTemplate",
+      "Comment": "{0} - имя метода, где возникла ошибка.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred while executing the \"{0}\" method of the action editor extension."
+        },
+        {
+          "Culture": 25,
+          "Value": "При выполнении метода \"{0}\" расширения редактора действия возникла ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "WorkflowEngine_WorkflowCache_ProcessTemplateNotFound",
+      "Comment": "{0} - идентификатор версии шаблона файла",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The version of the process template with the identifier \"{0}\" was not found."
+        },
+        {
+          "Culture": 25,
+          "Value": "Версия шаблона процесса с идентификатором \"{0}\" не найдена."
+        }
+      ]
+    }
+  ]
+}

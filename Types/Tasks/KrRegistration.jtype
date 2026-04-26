@@ -1,0 +1,42 @@
+﻿{
+  "Blocks": [],
+  "Caption": "$CardTypes_TypesNames_KrRegistration",
+  "CardTypeSections": [],
+  "CompletionOptions": [
+    {
+      "Flags::int": 0,
+      "FormName": null,
+      "Order::int": 0,
+      "TypeID::uid": "48ae0fd4-8a0d-494a-b89d-ca8fc33efe7c",
+      "Validators": []
+    }
+  ],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 512,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "Interval::int": 10
+  },
+  "Group": "KrProcess",
+  "ID::uid": "09fdd6a3-3946-4f30-9ef9-f533fad3a4a2",
+  "InstanceType::int": 2,
+  "Name": "KrRegistration",
+  "SchemeItems": [
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "3e920b6a-94aa-4691-9014-207d7ed01b27"
+      ],
+      "SectionID::uid": "005962e7-65f1-4763-a0ef-b76751d26de3"
+    }
+  ],
+  "TabCaption": null,
+  "TabOrder::int": 0,
+  "Validators": []
+}

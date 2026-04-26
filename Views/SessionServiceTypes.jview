@@ -1,0 +1,137 @@
+{
+  "Alias": "SessionServiceTypes",
+  "Caption": "Типы сессий в системе, связанные с типом сервиса",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "System",
+  "ID::uid": "24f1eafb-5b69-4329-bf8b-10de805770df",
+  "JsonMetadataSource::txt": "SessionServiceTypes JSONMETA",
+  "MsQuerySource::txt": "SessionServiceTypes MSSQL",
+  "PgQuerySource::txt": "SessionServiceTypes PGSQL",
+  "Roles": null
+}
+
+[TEXTPART SessionServiceTypes JSONMETA]
+{
+  "Alias": "SessionServiceTypes",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Типы сессий в системе, связанные с типом сервиса",
+  "Columns": [
+    {
+      "Alias": "RefID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$SessionServiceTypes.ID"
+    },
+    {
+      "Alias": "RefName",
+      "Appearance": null,
+      "Caption": "$Views_SessionServiceTypes_Name",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "t.ID",
+      "TreatValueAsUtc": false,
+      "Type": "$SessionServiceTypes.Name"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "RefName",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_SessionServiceTypes_Name_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Ref",
+      "Condition": null,
+      "DisplayValueColumn": "RefName",
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "SessionServiceTypes"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART SessionServiceTypes MSSQL]
+SELECT
+	[t].[ID]		AS [RefID],
+	[t].[Name]		AS [RefName]
+FROM [SessionServiceTypes] AS [t] WITH (NOLOCK)
+#if(Name) {
+CROSS APPLY [Localization]([t].[Name], #param(locale)) AS [lName]
+}
+WHERE 1 = 1
+	#param(Name, [lName].[Value])
+ORDER BY #order_by
+
+[TEXTPART SessionServiceTypes PGSQL]
+SELECT
+	"t"."ID"		AS "RefID",
+	"t"."Name"		AS "RefName"
+FROM "SessionServiceTypes" AS "t"
+#if(Name) {
+CROSS JOIN "Localization"("t"."Name", #param(locale)) AS "lName"
+}
+WHERE true
+	#param(Name, "lName"."Value")
+ORDER BY #order_by

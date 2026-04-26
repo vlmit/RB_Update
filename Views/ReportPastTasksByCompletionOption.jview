@@ -1,0 +1,412 @@
+{
+  "Alias": "ReportPastTasksByCompletionOption",
+  "Caption": "Завершённые задания по вариантам завершения",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "System",
+  "ID::uid": "623870a1-a2f5-40f9-a0ed-325d7f1583d5",
+  "JsonMetadataSource::txt": "ReportPastTasksByCompletionOption JSONMETA",
+  "MsQuerySource::txt": "ReportPastTasksByCompletionOption MSSQL",
+  "PgQuerySource::txt": "ReportPastTasksByCompletionOption PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "623870a1-a2f5-40f9-a0ed-325d7f1583d5",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART ReportPastTasksByCompletionOption JSONMETA]
+{
+  "Alias": "ReportPastTasksByCompletionOption",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Завершённые задания по вариантам завершения",
+  "Columns": [
+    {
+      "Alias": "OptionID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.OptionID"
+    },
+    {
+      "Alias": "OptionCaption",
+      "Appearance": null,
+      "Caption": "$Views_ReportPastTasksByCompletionOption_Option",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "t.OptionCaptionLocalized",
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.OptionCaption"
+    },
+    {
+      "Alias": "cnt",
+      "Appearance": null,
+      "Caption": "$Views_ReportPastTasksByCompletionOption_Count",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.cnt",
+      "TreatValueAsUtc": false,
+      "Type": "Int64"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "OptionCaption",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "CompletionDate",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_ReportPastTasksByCompletionOption_CompletionDate_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "datetime"
+    },
+    {
+      "Alias": "TypeParam",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality"
+      ],
+      "AutoCompleteInfo": {
+        "ParamAlias": "Caption",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrTypesEffective"
+      },
+      "Caption": "$Views_ReportPastTasksByCompletionOption_DocType_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrTypesEffective"
+      },
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "TypeForView",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.CardTypeID"
+    },
+    {
+      "Alias": "TaskType",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Caption",
+        "PopupColumns": null,
+        "RefPrefix": null,
+        "ViewAlias": "TaskTypes"
+      },
+      "Caption": "$Views_ReportPastTasksByCompletionOption_TaskType_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "TaskTypes"
+      },
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "TaskTypes",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.TypeID"
+    },
+    {
+      "Alias": "SelUser",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          4
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "Users"
+      },
+      "Caption": "$Views_ReportPastTasksByCompletionOption_User_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "PersonalRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.UserID"
+    },
+    {
+      "Alias": "Role",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          3
+        ],
+        "RefPrefix": "Role",
+        "ViewAlias": "DurableRoles"
+      },
+      "Caption": "$Views_CompletedTasks_RoleGroup_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "Roles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$RoleUsers.ID"
+    },
+    {
+      "Alias": "Option",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Caption",
+        "PopupColumns": null,
+        "RefPrefix": null,
+        "ViewAlias": "CompletionOptions"
+      },
+      "Caption": "$Views_ReportPastTasksByCompletionOption_Option_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "CompletionOptions"
+      },
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "CompletionOptions",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.OptionID"
+    },
+    {
+      "Alias": "IsDelayed",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue",
+        "IsFalse"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_ReportPastTasksByCompletionOption_IsDelayed_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART ReportPastTasksByCompletionOption MSSQL]
+SELECT
+	[t].[OptionID],
+	[t].[OptionCaption],
+	[t].[cnt]
+FROM (
+	SELECT
+		[th].[OptionID],
+		[th].[OptionCaption],
+		#if(request.SortedBy("OptionCaption")) {
+		[lOptionCaption].[Value] AS [OptionCaptionLocalized],
+		}
+		count(*) AS [cnt]
+	FROM [TaskHistory] AS [th] WITH (NOLOCK)
+	#if(request.SortedBy("OptionCaption")) {
+	CROSS APPLY [Localization]([th].[OptionCaption], #param(locale)) AS [lOptionCaption]
+	}
+	LEFT JOIN [DocumentCommonInfo] AS [dci] WITH (NOLOCK)
+		ON [dci].[ID] = [th].[ID]
+	#if(Role) {
+	INNER JOIN [RoleUsers] AS [ru] WITH (NOLOCK)
+		ON [ru].[UserID] = [th].[UserID]
+		#param(Role, [ru].[ID])
+	}
+	WHERE [th].[Completed] IS NOT NULL
+		-- Исключаем из отчёта задания, завершённые вариантами: Отозвать, Запросить дополнительное согласование, Запросить комментарии,
+		-- Вернуть документ на доработку, Начать новый цикл, Отменить регистрацию, Отозвать процесс, Отменить процесс, Отмена.
+		AND [th].[OptionID] NOT IN ('6472fea9-f818-4ab5-9f31-9ccdaea9b412', 'c726d8ba-73b9-4867-87fe-387d4c61a75a', 'fffb3209-2b67-09f0-bd25-ba4ec94ca5e8',
+		'174d3f96-c658-07b7-ba6a-d51a893390d8',  'c0b704b3-3ac5-4a0d-bcb6-1210e9cdb0b3', '66e0a7e1-484a-40a6-b123-06118ce3b160',
+		'd97d75a9-96ae-00ca-83ad-baa5c6aa811b', '6e244482-2e2f-46fd-8ec3-0de6daea2930', '2582b66f-375a-0d59-ae86-a149309c5785')
+		#param(CompletionDate, [th].[Completed])
+		#if(TypeParam) {
+		AND COALESCE([dci].[DocTypeID], [dci].[CardTypeID]) = #param(TypeParam)
+		}
+		#param(TaskType, [th].[TypeID])
+		#param(SelUser, [th].[UserID])
+		#param(Option, [th].[OptionID])
+		#if(IsDelayed) {
+			#if(IsDelayed.CriteriaName == "IsTrue") {
+		AND [th].[Completed] > [th].[Planned]
+			} {
+		AND [th].[Completed] <= [th].[Planned]
+			}
+		}
+	GROUP BY CUBE ((
+		[th].[OptionID],
+		[th].[OptionCaption]
+		#if(request.SortedBy("OptionCaption")) {,
+		[lOptionCaption].[Value]
+		}
+		))
+	) AS [t]
+ORDER BY
+	CASE WHEN [t].[OptionID] IS NULL
+		THEN 0
+		ELSE 1
+	END DESC,
+	#order_by
+
+[TEXTPART ReportPastTasksByCompletionOption PGSQL]
+SELECT
+	"t"."OptionID",
+	"t"."OptionCaption",
+	"t"."cnt"
+FROM (
+	SELECT
+		"th"."OptionID",
+		"th"."OptionCaption",
+		#if(request.SortedBy("OptionCaption")) {
+		"lOptionCaption"."Value" AS "OptionCaptionLocalized",
+		}
+		count(*) AS "cnt"
+	FROM "TaskHistory" AS "th"
+	#if(request.SortedBy("OptionCaption")) {
+	CROSS JOIN "Localization"("th"."OptionCaption", #param(locale)) AS "lOptionCaption"
+	}
+	LEFT JOIN "DocumentCommonInfo" AS "dci"
+		ON "dci"."ID" = "th"."ID"
+	#if(Role) {
+	INNER JOIN "RoleUsers" AS "ru"
+		ON "ru"."UserID" = "th"."UserID"
+		#param(Role, "ru"."ID")
+	}
+	WHERE "th"."Completed" IS NOT NULL
+		-- Исключаем из отчёта задания, завершённые вариантами: Отозвать, Запросить дополнительное согласование, Запросить комментарии,
+		-- Вернуть документ на доработку, Начать новый цикл, Отменить регистрацию, Отозвать процесс, Отменить процесс, Отмена.
+		AND "th"."OptionID" NOT IN ('6472fea9-f818-4ab5-9f31-9ccdaea9b412', 'c726d8ba-73b9-4867-87fe-387d4c61a75a', 'fffb3209-2b67-09f0-bd25-ba4ec94ca5e8',
+		'174d3f96-c658-07b7-ba6a-d51a893390d8',  'c0b704b3-3ac5-4a0d-bcb6-1210e9cdb0b3', '66e0a7e1-484a-40a6-b123-06118ce3b160',
+		'd97d75a9-96ae-00ca-83ad-baa5c6aa811b', '6e244482-2e2f-46fd-8ec3-0de6daea2930', '2582b66f-375a-0d59-ae86-a149309c5785')
+		#param(CompletionDate, "th"."Completed")
+		#if(TypeParam) {
+		AND COALESCE("dci"."DocTypeID", "dci"."CardTypeID") = #param(TypeParam)
+		}
+		#param(TaskType, "th"."TypeID")
+		#param(SelUser, "th"."UserID")
+		#param(Option, "th"."OptionID")
+		#if(IsDelayed) {
+			#if(IsDelayed.CriteriaName == "IsTrue") {
+		AND "th"."Completed" > "th"."Planned"
+			} {
+		AND "th"."Completed" <= "th"."Planned"
+			}
+		}
+	GROUP BY CUBE ((
+		"th"."OptionID",
+		"th"."OptionCaption"
+		#if(request.SortedBy("OptionCaption")) {,
+		"lOptionCaption"."Value"
+		}
+		))
+	) AS "t"
+ORDER BY
+	CASE WHEN "t"."OptionID" IS NULL
+		THEN 0
+		ELSE 1
+	END DESC,
+	#order_by

@@ -1,0 +1,861 @@
+﻿{
+  "ID": "f3891df2-b765-4336-a87e-80c8cef7efa6",
+  "Name": "UI_Tasks",
+  "Priority": 0,
+  "Entries": [
+    {
+      "Name": "UI_Tasks_Author",
+      "Comment": "Текст метки в заданиях \"Автор\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Author"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автор"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_AutoApprovedMessageWithAdditionalApprove",
+      "Comment": "Стандартное сообщение при авто завершении задания согласно мнению отвесвенного доп. согласующего.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Auto-approved by the system according to responsible approver's conclusion"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автоматически завершено системой согласно мнению ответственного доп. согласующего"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_AutoApproveNotice",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Attention, this document will be automatically approved by system"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внимание, данный документ будет автоматически согласован системой"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_Accept",
+      "Comment": "Текст варианта завершения задания \"Accept\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Accept"
+        },
+        {
+          "Culture": 25,
+          "Value": "Принять"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_AddComment",
+      "Comment": "Текст варианта завершения задания \"AddComment\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add comment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить комментарий"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_AdditionalApproval",
+      "Comment": "Текст варианта завершения задания \"AdditionalApproval\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Additional approval"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запросить дополнительное согласование"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_Approve",
+      "Comment": "Текст варианта завершения задания \"Approve\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approve"
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласовать"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_AuthorActions",
+      "Comment": "Текст кнопки \"Действия автора\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Author actions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Действия автора"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_Back",
+      "Comment": "Текст кнопки \"Назад\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Back"
+        },
+        {
+          "Culture": 25,
+          "Value": "Назад"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_Cancel",
+      "Comment": "Текст варианта завершения задания \"Cancel\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancel"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отмена"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_CancelApprovalProcess",
+      "Comment": "Текст варианта завершения задания \"CancelApprovalProcess\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancel process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отменить процесс"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_Complete",
+      "Comment": "Текст варианта завершения задания \"Complete\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Complete"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_Continue",
+      "Comment": "Текст варианта завершения задания \"Continue\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Continue process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Продолжить процесс"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_CreateChildResolution",
+      "Comment": "Текст варианта завершения задания \"CreateChildResolution\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create subtask"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать подзадачу"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_Decline",
+      "Comment": "Текст варианта завершения задания \"Decline\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Decline"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отказать"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_Delegate",
+      "Comment": "Текст варианта завершения задания \"Delegate\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delegate"
+        },
+        {
+          "Culture": 25,
+          "Value": "Делегировать"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_DeregisterDocument",
+      "Comment": "Текст варианта завершения задания \"DeregisterDocument\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancel document registration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отменить регистрацию документа"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_Disapprove",
+      "Comment": "Текст варианта завершения задания \"Disapprove\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Reject"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не согласовать"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_HideAuthorActions",
+      "Comment": "Текст кнопки \"Скрыть действия автора\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hide author actions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрыть действия автора"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_InProgress",
+      "Comment": "Текст кнопки \"В работу\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "In progress"
+        },
+        {
+          "Culture": 25,
+          "Value": "В работу"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_ModifyAsAuthor",
+      "Comment": "Текст варианта завершения задания \"ModifyAsAuthor\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Modify parameters as author"
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменить параметры как автор"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_More",
+      "Comment": "Текст кнопки \"ещё\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "more"
+        },
+        {
+          "Culture": 25,
+          "Value": "ещё"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_NewApprovalCycle",
+      "Comment": "Текст варианта завершения задания \"NewApprovalCycle\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Start new cycle"
+        },
+        {
+          "Culture": 25,
+          "Value": "Начать новый цикл"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_OptionA",
+      "Comment": "Текст варианта завершения задания \"OptionA\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Option A"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вариант А"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_OptionB",
+      "Comment": "Текст варианта завершения задания \"OptionB\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Option B"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вариант Б"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_Postpone",
+      "Comment": "Текст кнопки \"Отложить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Postpone"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отложить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_Rebuild",
+      "Comment": "Текст варианта завершения задания \"Rebuild\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Return back for revision"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вернуть документ на доработку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_RegisterDocument",
+      "Comment": "Текст варианта завершения задания \"RegisterDocument\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Register document"
+        },
+        {
+          "Culture": 25,
+          "Value": "Зарегистрировать документ"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_Reject",
+      "Comment": "Текст варианта завершения задания \"Reject\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Reject process"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отозвать процесс"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_RequestComments",
+      "Comment": "Текст варианта завершения задания \"RequestComments\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Request comments"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запросить комментарии"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_ReturnFromPostponed",
+      "Comment": "Текст кнопки \"Вернуть из отложенного\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Return from postponed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вернуть из отложенного"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_ReturnToRole",
+      "Comment": "Текст кнопки \"Вернуть на роль\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Return to role"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вернуть на роль"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_Revoke",
+      "Comment": "Текст варианта завершения задания \"Revoke\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Revoke"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отозвать"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_SendToPerformer",
+      "Comment": "Текст варианта завершения задания \"SendToPerformer\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Send to"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отправить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_ShowDialog",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open dialog"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть диалог"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CompletionOptions_Sign",
+      "Comment": "Текст варианта завершения задания \"Sign\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sign"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подписать"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_Created",
+      "Comment": "Текст метки в заданиях \"Создано\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Created"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создано"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_CurrentPerformer",
+      "Comment": "Текст метки в заданиях \"В работе у\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Current performer"
+        },
+        {
+          "Culture": 25,
+          "Value": "В работе у"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_DefaultAutoApprovedMessage",
+      "Comment": "Стандартное сообщение при авто завершении задания",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Auto-approved by system"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автоматически согласовано системой по истечении срока"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_DueDate",
+      "Comment": "Текст метки в заданиях \"Выполнить до\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Due date"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выполнить до"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_Expired",
+      "Comment": "Текст метки в заданиях \"Просрочено\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Expired:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Просрочено"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_HideAuthorLocked",
+      "Comment": "Кнопка \"скрыть задания автора\" в списке заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "hide author tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "скрыть задания автора"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_HidePostponed",
+      "Comment": "Кнопка \"скрыть отложенные задания\" в списке заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "hide postponed tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "скрыть отложенные задания"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_Individual",
+      "Comment": "Текст метки в заданиях \"лично вам\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "individual"
+        },
+        {
+          "Culture": 25,
+          "Value": "лично вам"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_OnRole",
+      "Comment": "Текст метки в заданиях \"для роли\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": " on role"
+        },
+        {
+          "Culture": 25,
+          "Value": " для роли"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_OnYourRole",
+      "Comment": "Текст метки в заданиях \"для вашей роли\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": " on your role"
+        },
+        {
+          "Culture": 25,
+          "Value": " для вашей роли"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_OpenEmployeeTooltip",
+      "Comment": "Тултип \"Нажмите, чтобы открыть карточку сотрудника\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Click to open employee card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Нажмите, чтобы открыть карточку сотрудника"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_OpenRoleTooltip",
+      "Comment": "Тултип \"Нажмите, чтобы открыть карточку роли\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Click to open role card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Нажмите, чтобы открыть карточку роли"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_PassedFrom",
+      "Comment": "Текст метки в заданиях \"Передано от\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "passed from"
+        },
+        {
+          "Culture": 25,
+          "Value": "от"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_PostponedFrom",
+      "Comment": "Текст метки в заданиях \"Отложено от\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Postponed from"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отложено от"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_PostponedTo",
+      "Comment": "Текст метки в заданиях \"Отложено до\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Postponed to"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отложено до"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_PostponeUntil",
+      "Comment": "Заголовок контрола \"Отложить до\" в специальной форме откладывания заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Postpone until"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отложить до"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_ProcessingSince",
+      "Comment": "Текст метки в заданиях \"В работе с\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Processing since"
+        },
+        {
+          "Culture": 25,
+          "Value": "В работе с"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_RemindAbout",
+      "Comment": "Заголовок контрола \"Напомнить про\" в специальной форме откладывания заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Remind about"
+        },
+        {
+          "Culture": 25,
+          "Value": "Напомнить про"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_ShowAuthorLocked",
+      "Comment": "Кнопка \"показать задания автора\" в списке заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "show author tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "показать задания автора"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_ShowPostponed",
+      "Comment": "Кнопка \"показать отложенные задания\" в списке заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "show postponed tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "показать отложенные задания"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_TimeLeft",
+      "Comment": "Текст метки в заданиях \"До завершения\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Time left"
+        },
+        {
+          "Culture": 25,
+          "Value": "До завершения"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_YouAreTheAuthor",
+      "Comment": "Текст метки в заданиях \"(вы автор задания)\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "( you are the author )"
+        },
+        {
+          "Culture": 25,
+          "Value": "( вы автор задания )"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_YouAreTheAuthorDeputy",
+      "Comment": "Текст метки в заданиях для заместителя автора\n{0} - автор задания",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "( you are the author's deputy for {0} )"
+        },
+        {
+          "Culture": 25,
+          "Value": "( вы заместитель автора {0} )"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_YouAreThePerformerDeputy",
+      "Comment": "Текст метки в заданиях \"(вы заместитель исполнителя)\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "( you are the performer deputy )"
+        },
+        {
+          "Culture": 25,
+          "Value": "( вы заместитель исполнителя )"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tasks_Zone",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "({0})"
+        },
+        {
+          "Culture": 25,
+          "Value": "({0})"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+﻿{
+  "Blocks": [],
+  "Caption": "$CardTypes_TypesNames_TemplateFile",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 1040,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "Interval::int": 10
+  },
+  "Group": "System",
+  "ID::uid": "a259101b-58f7-47b4-959e-dd5e7be1671c",
+  "InstanceType::int": 1,
+  "Name": "TemplateFile",
+  "SchemeItems": [
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid",
+            "uid"
+          ]
+        },
+        "dd49150f-89e9-4670-8873-7b9424db00e1",
+        "14e23b99-b43d-480c-bd01-6fbb8572d8c8"
+      ],
+      "SectionID::uid": "fb7c3c18-d7cd-4f16-84e2-33ab0269adbd"
+    }
+  ],
+  "TabCaption": null,
+  "TabOrder::int": 0,
+  "Validators": []
+}

@@ -1,0 +1,22 @@
+﻿{
+  "Blocks": [],
+  "Caption": "$CardTypes_TypesNames_And",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 16,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "Interval::int": 10
+  },
+  "Group": "WorkflowActions",
+  "ID::uid": "575959db-4dd4-4b82-bbe9-445733b8e7dd",
+  "InstanceType::int": 0,
+  "Name": "WorkflowAndAction",
+  "SchemeItems": [],
+  "TabCaption": "$CardTypes_Tabs_Card",
+  "TabOrder::int": 0,
+  "Validators": []
+}

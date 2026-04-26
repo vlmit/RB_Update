@@ -1,0 +1,3745 @@
+﻿{
+  "ID": "3a67cae8-2a79-4b28-8202-4fb93094e0b5",
+  "Name": "UI_Cards",
+  "Priority": 0,
+  "Entries": [
+    {
+      "Name": "CardTypes_Blocks_Shareslist",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Shares list"
+        },
+        {
+          "Culture": 25,
+          "Value": "Список акций"
+        }
+      ]
+    },
+    {
+      "Name": "UI_CardFiles_CaptionField",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Caption"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название"
+        }
+      ]
+    },
+    {
+      "Name": "UI_CardFiles_GroupCaptionField",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Group Caption"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название группы"
+        }
+      ]
+    },
+    {
+      "Name": "UI_CardFiles_GroupIDField",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Group ID"
+        },
+        {
+          "Culture": 25,
+          "Value": "ID Группы"
+        }
+      ]
+    },
+    {
+      "Name": "UI_CardFiles_GroupSortingField",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Group sorting"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сортировка группы"
+        }
+      ]
+    },
+    {
+      "Name": "UI_CardFiles_IDField",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "File ID"
+        },
+        {
+          "Culture": 25,
+          "Value": "ID файла"
+        }
+      ]
+    },
+    {
+      "Name": "UI_CardFiles_NameField",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя"
+        }
+      ]
+    },
+    {
+      "Name": "UI_CardFiles_NameParameterText",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя"
+        }
+      ]
+    },
+    {
+      "Name": "UI_CardFiles_SizeField",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Size"
+        },
+        {
+          "Culture": 25,
+          "Value": "Размер"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Action",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Action"
+        },
+        {
+          "Culture": 25,
+          "Value": "Действие"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CannotCreateFileTemplateOnNewCard",
+      "Comment": "Сообщение о необходимости сохранить карточку перед генерацией файла по шаблону.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card isn't yet saved. Please, save the card and try again."
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка не сохранена. Пожалуйста, сохраните карточку и повторите попытку."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CardDeleted",
+      "Comment": "Начало сообщения о том, что карточка удалена.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card was deleted"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалена карточка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CardExported",
+      "Comment": "Начало сообщения о том, что карточка экспортирована.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card was exported"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспортирована карточка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CardImported",
+      "Comment": "Начало сообщения о том, что карточка импортирована.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card was imported"
+        },
+        {
+          "Culture": 25,
+          "Value": "Импортирована карточка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CardInTemplateInfoTemplate",
+      "Comment": "Шаблон названия типа карточки, которая редактируется в шаблоне.\n{0} - название типа карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} (in template)"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} (в шаблоне)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CardLibraryFilterText",
+      "Comment": "Название строки фильтра файлов для выбора библиотек карточек.\nСтрока не содержит маски для поиска файлов, только текстовое описание.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card library"
+        },
+        {
+          "Culture": 25,
+          "Value": "Библиотека карточек"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CardStorageFilterText",
+      "Comment": "Название строки фильтра файлов для выбора структуры карточки.\nСтрока не содержит маски для поиска файлов, только текстовое описание.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card structure"
+        },
+        {
+          "Culture": 25,
+          "Value": "Структура карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CardTypeFilterText",
+      "Comment": "Название строки фильтра файлов для выбора типов карточек.\nСтрока не содержит маски для поиска файлов, только текстовое описание.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "TESSA card type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип карточки TESSA"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CheckSigns",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Check signatures"
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверить подписи"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ClientCountText",
+      "Comment": "Шаблон сообщения, отображаемый в карточке настроек лицензии для того, чтобы показать количество использованных лицензий по отношению к количеству доступных лицензий.\n{0} - количество использованных лицензий.\n{1} - количество доступных лицензий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} of {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} из {1}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CloseAfterImportSucceeded",
+      "Comment": "Название галки, при установке которой диалог импорта карточек из библиотеки будет закрыт после успешного импорта.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Close after import succeeded"
+        },
+        {
+          "Culture": 25,
+          "Value": "Закрыть после успешного импорта"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CloseSessionAction_CantCloseCurrentSession",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't close current session."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно закрыть текущую сессию."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CloseSessionAction_CompletedWithErrors",
+      "Comment": "Сообщение о наличии ошибок, возникших при закрытии сессии.\n{0} - имя сессии.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Errors occurred when closing session \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "При закрытии сессии \"{0}\" возникли ошибки."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CloseSessionAction_CompletedWithMessages",
+      "Comment": "Сообщение о наличии сообщений, возникших при закрытии сессии.\n{0} - имя сессии.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Messages added when closing session \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "При закрытии сессии \"{0}\" добавлены сообщения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CloseSessionAction_ConfirmMultiple",
+      "Comment": "Подтверждение при закрытии нескольких сессий.\n{0} - количество закрываемых сессий.\n{1} - список закрываемых сессий через запятую.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Close sessions ({0}): {1}?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Закрыть сессии ({0}): {1}?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CloseSessionAction_ConfirmSingle",
+      "Comment": "Подтверждение при закрытии единственной сессии.\n{0} - имя сессии.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Close session \"{0}\"?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Закрыть сессию \"{0}\"?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CloseSessionAction_SplashMultipleCard",
+      "Comment": "Сплеш по закрытию одной из нескольких закрываемых сессий.\n{0} - номер закрываемой сессии.\n{1} - общее количество закрываемых сессий.\n{2} - имя закрываемой сессии.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Closing session {0} / {1}\n{2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Закрывается сессия {0} / {1}\n{2}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CloseSessionAction_SplashMultipleInitial",
+      "Comment": "Сплеш по подготовке к закрытию при закрытии нескольких сессий.\n{0} - количество закрываемых сессий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Closing sessions {0}\nPreparation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Закрываются сессии {0}\nПодготовка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CloseSessionAction_SplashSingle",
+      "Comment": "Сплеш при закрытии единственной сессии.\n{0} - имя сессии.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Closing session\n{0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Закрывается сессия\n{0}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Comment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Comment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Комментарий"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Company",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Company"
+        },
+        {
+          "Culture": 25,
+          "Value": "Организация"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ConfirmDeleteWithBackup",
+      "Comment": "Подтверждение удаления карточки с созданием резервной копии.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card will be deleted. Proceed?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка будет удалена. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ConfirmDeleteWithoutBackup",
+      "Comment": "Подтверждение удаления карточки без возможности восстановления из резервной копии.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card will be deleted without backup. Proceed?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка будет удалена без возможности восстановления. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ConfirmRefresh",
+      "Comment": "Подтверждение при обновлении изменённой карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card contains unsaved data. Refresh card?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка содержит несохранённые данные. Обновить карточку?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ConfirmSavingCardBeforeCreatingBasedOn",
+      "Comment": "Подтверждение для сохранения изменённой карточки перед созданием карточки на основании текущей карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card contains unsaved changes that don't migrate to a created card.\nSave card before creating a card?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка содержит несохранённые изменения, которые не попадут в создаваемую карточку. Сохранить карточку перед созданием?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ConfirmSavingCardBeforeCreatingCopy",
+      "Comment": "Подтверждение для сохранения изменённой карточки перед созданием копии.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card contains unsaved changes that don't migrate to the copied card.\nSave card before creating the copy?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка содержит несохранённые изменения, которые не попадут в копию.\nСохранить карточку перед созданием копии карточки?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ConfirmSavingCardBeforeCreatingFileTemplate",
+      "Comment": "Подтверждение для сохранения изменённой карточки перед созданием файлового шаблона.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card contains unsaved changes that don't migrate to the formed file. Save card before creating the file?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка содержит несохранённые изменения, которые не попадут в сформированный файл. Сохранить карточку перед формированием файла?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ConfirmSavingCardBeforeCreatingTemplate",
+      "Comment": "Подтверждение для сохранения изменённой карточки перед созданием шаблона.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card contains unsaved changes that don't migrate to the template.\nSave card before creating the template?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка содержит несохранённые изменения, которые не попадут в шаблон.\nСохранить карточку перед созданием шаблона?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ConfirmUnsavedChangesBeforeCreatingFileTemplate",
+      "Comment": "Подтверждение для генерации файла по изменённой карточке перед добавлением файла, созданного по шаблону.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card contains unsaved changes that don't migrate to the formed file. Continue with creating the file ignoring unsaved changes?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка содержит несохранённые изменения, которые не попадут в сформированный файл. Продолжить создание файла, игнорируя несохранённые изменения?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ContextMenu_CollapseAllBlocks",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Collapse all blocks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Свернуть все блоки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ContextMenu_Copy",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Copy"
+        },
+        {
+          "Culture": 25,
+          "Value": "Копировать"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ContextMenu_Cut",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cut"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вырезать"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ContextMenu_Expand",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Expand"
+        },
+        {
+          "Culture": 25,
+          "Value": "Развернуть"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ContextMenu_ExpandAllBlocks",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Expand all blocks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Развернуть все блоки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ContextMenu_Paste",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Paste"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вставить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ContextMenu_SelectAll",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select all"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выбрать всё"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreateMultipleTemplate_AverageTimeToCreateCard",
+      "Comment": "Сообщение с указанием среднего времени в миллисекундах, затраченного на создание одной карточки по шаблону.\n{0} - среднее время в миллисекундах, затраченное на создание одной карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Average time to create card: {0} ms"
+        },
+        {
+          "Culture": 25,
+          "Value": "Среднее время создания карточки: {0} мс"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreateMultipleTemplate_Confirm",
+      "Comment": "Подтверждение по созданию заданного количества карточек по шаблону.\n{0} - количество карточек, которые должны быть созданы.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} card(s) will be created and saved. It may take a long time. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Будет создано и сохранено {0} карточек. Операция может занять длительное время. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreateMultipleTemplate_CreateCards",
+      "Comment": "Название кнопки \"Создать карточки\" в окне создания нескольких карточек по шаблону.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create cards"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreateMultipleTemplate_CreateCardSplash",
+      "Comment": "Сплэш с указанием прогресса создаваемых карточек по шаблону.\n{0} - количество созданных карточек.\n{1} - общее количество карточек для создания.\n{2} - процент выполнения операции по созданию карточек.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Creating cards\n{0} of {1}\n{2} %"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создаются карточки\n{0} из {1}\n{2} %"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreateMultipleTemplate_LoadingEmployeesSplash",
+      "Comment": "Сплэш при загрузке справочника контрагентов для создания нескольких карточек по шаблону.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Loading employees"
+        },
+        {
+          "Culture": 25,
+          "Value": "Загружается справочник\nсотрудников"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreateMultipleTemplate_LoadingPartnersSplash",
+      "Comment": "Сплэш при загрузке справочника контрагентов для создания нескольких карточек по шаблону.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Loading partners"
+        },
+        {
+          "Culture": 25,
+          "Value": "Загружается справочник\nконтрагентов"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreateMultipleTemplate_NoAccessToDictionary",
+      "Comment": "Сообщение об ошибке при невозможности получить доступ к заданному справочнику.\n{0} - алиас представления для справочника, к которому невозможно получить доступ.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No access to dictionary \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нет доступа к справочнику \"{0}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreateMultipleTemplate_StatisticsFailed",
+      "Comment": "Сообщение о карточках, некоторые из которых были неудачно созданы по шаблону.\n{0} - количество успешно созданных карточек.\n{1} - общее количество карточек, которое должно было быть создано.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} of {1} card(s) were created and saved."
+        },
+        {
+          "Culture": 25,
+          "Value": "Создано и сохранено карточек: {0} из {1}."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreateMultipleTemplate_StatisticsSucceeded",
+      "Comment": "Сообщение о карточках, которые все были успешно созданы по шаблону.\n{0} - количество успешно созданных карточек.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} card(s) were created and saved."
+        },
+        {
+          "Culture": 25,
+          "Value": "Создано и сохранено {0} карточек."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreateMultipleTemplate_TimeElapsed",
+      "Comment": "Сообщение с указанием количества времени, затраченного на операцию.\n{0} - строка с указанием времени.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Time elapsed: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Общее время операции: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreateNotSupported",
+      "Comment": "Сообщение о том, что создание карточки не поддерживается.\n{0} - идентификатор или имя типа карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Requested creating of card with type \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Запрошено создание типа карточки \"{0}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreateTemplateFromLibraryTitle",
+      "Comment": "Заголовок диалога с созданием карточки по шаблону из библиотеки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create card using library"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создание карточки из библиотеки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreateUsingTemplateWithCardName",
+      "Comment": "Сообщение по созданию карточки по шаблону. Указывается имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Creating card using template \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Создание карточки по шаблону \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreateUsingTemplateWithoutCardName",
+      "Comment": "Сообщение по созданию карточки по шаблону. Имя карточки не указывается.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Creating card using template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создание карточки по шаблону"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreatingCardUsingTemplateWithFile",
+      "Comment": "Информация по созданию карточке по шаблону с единственным приложенным файлом.\n{0} - название операции.\n{1} - имя файла в карточке шаблона, который создаётся в настоящий момент.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0}\nCreating file\n\"{1}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "{0}\nСоздаётся файл\n\"{1}\""
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_CreatingCardUsingTemplateWithMultipleFiles",
+      "Comment": "Информация по созданию карточки по шаблону с несколькими приложенными файлами.\n{0} - название операции.\n{1} - имя файла в карточке шаблона, который создаётся в настоящий момент.\n{2} - порядковый номер текущего создаваемого файла.\n{3} - общее количество файлов в карточке, которые будут созданы.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0}\nCreating file {2} / {3}\n\"{1}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "{0}\nСоздаётся файл {2} / {3}\n\"{1}\""
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteAction_CompletedWithErrors",
+      "Comment": "Сообщение о наличии ошибок, возникших при удалении карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Errors occurred when deleting card \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "При удалении карточки \"{0}\" возникли ошибки."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteAction_CompletedWithMessages",
+      "Comment": "Сообщение о наличии сообщений, возникших при удалении карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Messages added when deleting card \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "При удалении карточки \"{0}\" добавлены сообщения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteAction_ConfirmMultiple",
+      "Comment": "Подтверждение при удалении нескольких карточек.\n{0} - количество удаляемых карточек.\n{1} - список удаляемых карточек через запятую.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete cards ({0}): {1}?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить карточки ({0}): {1}?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteAction_ConfirmMultipleWithoutBackup",
+      "Comment": "Подтверждение при удалении нескольких карточек без возможности восстановления.\n{0} - количество удаляемых карточек.\n{1} - список удаляемых карточек через запятую.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete cards ({0}) WITHOUT BACKUP: {1}?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить карточки ({0}) БЕЗ ВОЗМОЖНОСТИ ВОССТАНОВЛЕНИЯ: {1}?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteAction_ConfirmSingle",
+      "Comment": "Подтверждение при удалении единственной карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete card \"{0}\"?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить карточку \"{0}\"?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteAction_ConfirmSingleWithoutBackup",
+      "Comment": "Подтверждение при удалении единственной карточки принудительно без возможности восстановления.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete card \"{0}\" WITHOUT BACKUP?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить карточку \"{0}\" БЕЗ ВОЗМОЖНОСТИ ВОССТАНОВЛЕНИЯ?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteAction_SplashMultipleCard",
+      "Comment": "Сплеш по удалению одной из нескольких удаляемых карточек.\n{0} - номер удаляемой карточки.\n{1} - общее количество удаляемых карточек.\n{2} - имя удаляемой карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Deleting card {0} / {1}\n{2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удаляется карточка {0} / {1}\n{2}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteAction_SplashMultipleInitial",
+      "Comment": "Сплеш по подготовке к удалению при удалении нескольких карточек.\n{0} - количество удаляемых карточек.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Deleting cards {0}\nPreparation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удаляются карточки {0}\nПодготовка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteAction_SplashSingle",
+      "Comment": "Сплеш при удалении единственной карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Deleting card\n{0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удаляется карточка\n{0}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteAction_UnknownCardType",
+      "Comment": "Сообщение о неизвестном типе удаляемой карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unknown card type when attempting to delete card \"{0}\". Card can be already deleted."
+        },
+        {
+          "Culture": 25,
+          "Value": "Неизвестен тип карточки при удалении карточки \"{0}\". Карточка уже может быть удалена."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteItemFromAutoComplete",
+      "Comment": "Пункт контекстного меню по удалению значения из автокомплита.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteNotificationSubscriptionOperation_CompletedWithErrors",
+      "Comment": "Сообщение о наличии ошибок, возникших при удалении подписки на уведомление.\n{0} - имя подписки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Errors occurred when deleting notifications subscription \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "При удалении подписки на уведомление \"{0}\" возникли ошибки."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteNotificationSubscriptionOperation_CompletedWithMessages",
+      "Comment": "Сообщение о наличии сообщений, возникших при удалении подписки на уведомление.\n{0} - имя подписки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Messages added when deleting notifications subscription \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "При удалении подписки на уведомление \"{0}\" добавлены сообщения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteNotificationSubscriptionOperation_ConfirmMultiple",
+      "Comment": "Подтверждение при закрытии нескольких сессий.\n{0} - количество удаляемых подписок на уведомления.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete selected notification subscriptions ({0})?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить выбранные подписки на уведомления ({0})?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteNotificationSubscriptionOperation_ConfirmSingle",
+      "Comment": "Подтверждение при закрытии единственной сессии.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete selected notification subscription?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить выбранную подписку на уведомление?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteNotificationSubscriptionOperation_Splash",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Deleting notification subscriptions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Производится удаление подписок на уведомления"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeleteNotificationSubscriptionOperation_SplashMultipleCard",
+      "Comment": "Сплеш по удалению одной из нескольких удаляемых подписок на уведомления.\n{0} - номер удаляемой подписки.\n{1} - общее количество удаляемых подписок.\n{2} - имя удаляемой подписки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Deleting subscription {0} / {1}\n{2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удаляется подписка {0} / {1}\n{2}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeletingAddOperationPrefix",
+      "Comment": "Префикс информации, добавляемой к результату валидации для удаления карточки.\nНапример, \"При удалении карточки ... возникли ошибки.\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "While removing card"
+        },
+        {
+          "Culture": 25,
+          "Value": "При удалении карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_DeletionFormatOperationPrefix",
+      "Comment": "Префикс операции по удалении карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Removing card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удаляется карточка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Dialogs_View",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "View"
+        },
+        {
+          "Culture": 25,
+          "Value": "Представление"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_EDSEventType_Import",
+      "Comment": "Тип события появления подписи (Импорт)",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import"
+        },
+        {
+          "Culture": 25,
+          "Value": "Импорт"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_EDSEventType_Other",
+      "Comment": "Тип события появления подписи (Другое)",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Other"
+        },
+        {
+          "Culture": 25,
+          "Value": "Другое"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_EDSEventType_Sign",
+      "Comment": "Тип события появления подписи (Подписание)",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sign"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подписание"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ErrorText",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error text"
+        },
+        {
+          "Culture": 25,
+          "Value": "Текст ошибки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportAction_CardsNotFound",
+      "Comment": "Сообщение о том, что карточки для экспорта не найдены.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There are no cards to export."
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточки для экспорта не найдены."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportAction_CompletedWithErrors",
+      "Comment": "Сообщение о наличии ошибок, возникших при экспорте карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Errors occurred when exporting card \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "При экспорте карточки \"{0}\" возникли ошибки."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportAction_CompletedWithMessages",
+      "Comment": "Сообщение о наличии сообщений, возникших при экспорте карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Messages added when exporting card \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "При экспортировании карточки \"{0}\" добавлены сообщения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportAction_ConfirmExportAll",
+      "Comment": "Подтверждение о том, что все карточки будут экспортированы.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All cards provided by the view will be exported. It may take a long time. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Все карточки, на которые есть ссылки в представлении, будут экспортированы. Это может занять длительное время. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportAction_ConfirmMultiple",
+      "Comment": "Подтверждение при экспорте нескольких карточек.\n{0} - количество экспортируемых карточек.\n{1} - список экспортируемых карточек через запятую.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export cards ({0}): {1}?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспортировать карточки ({0}): {1}?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportAction_ConfirmSingle",
+      "Comment": "Подтверждение при экспорте единственной карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export card \"{0}\"?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспортировать карточку \"{0}\"?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportAction_SplashMultipleCard",
+      "Comment": "Сплеш по экспорту одной из нескольких экспортируемых карточек.\n{0} - номер экспортируемой карточки.\n{1} - общее количество экспортируемых карточек.\n{2} - имя экспортируемой карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Exporting card {0} / {1}\n{2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспортируется карточка {0} / {1}\n{2}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportAction_SplashMultipleInitial",
+      "Comment": "Сплеш по подготовке к экспорту при экспорте нескольких карточек.\n{0} - количество экспортируемых карточек.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Exporting cards {0}\nPreparation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспортируются карточки {0}\nПодготовка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportAction_SplashPrepareList",
+      "Comment": "Сплеш по подготовке списка карточек к экспорту.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Exporting cards\nPreparing card list"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспортируются карточки\nПодготовка списка карточек"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportAction_SplashSingle",
+      "Comment": "Сплеш при экспорте единственной карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Exporting card\n{0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспортируется карточка\n{0}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportAction_UnknownCardType",
+      "Comment": "Сообщение о неизвестном типе экспортируемой карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unknown card type when attempting to export card \"{0}\". Card can be already deleted."
+        },
+        {
+          "Culture": 25,
+          "Value": "Неизвестен тип карточки при экспорте карточки \"{0}\". Карточка уже может быть удалена."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportCardTypeTitle",
+      "Comment": "Заголовок окна с выбором файла для экспорта типа карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select file to export card type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите файл для экспорта типа карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportedCardFilterText",
+      "Comment": "Название строки фильтра файлов для выбора экспортированных карточек.\nСтрока не содержит маски для поиска файлов, только текстовое описание.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "TESSA cards"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточки TESSA"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportFileTitle",
+      "Comment": "Заголовок окна с выбором файла для экспорта карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select file to export card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите файл для экспорта карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ExportingAddOperationPrefix",
+      "Comment": "Префикс информации, добавляемой к результату валидации для экспорта карточки.\nНапример, \"При экспорте карточки ... возникли ошибки.\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "While exporting card"
+        },
+        {
+          "Culture": 25,
+          "Value": "При экспорте карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileAttaching_Locked",
+      "Comment": "{0} - имя файла, отображаемое в карточке.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "File \"{0}\" is locked for reading."
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл \"{0}\" заблокирован для чтения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileAttaching_LockingProcess",
+      "Comment": "{0} - имя процесса, блокирующего файл.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Application \"{0}\" is locking the file for reading. Please, close the application and attach the file again. Double click the message to see technical details."
+        },
+        {
+          "Culture": 25,
+          "Value": "Приложение \"{0}\" блокирует чтение файла. Закройте, пожалуйста, приложение и снова приложите файл. Дважды кликните по сообщению, чтобы посмотреть технические подробности."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileAttaching_LockingProcessDetails",
+      "Comment": "{0} - идентификатор процесса.\n{1} - название запускающего модуля (как правило название .exe).\n{2} - путь к файлу запускающего модуля.\n{3} - заголовок главного окна приложения.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Window title: {3}\nProcess identifier: {0}\nMain module: {1}\nFile path: {2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заголовок окна: {3}\nИдентификатор процесса: {0}\nОсновной модуль: {1}\nПуть к файлу: {2}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileAttaching_NotFound",
+      "Comment": "{0} - имя файла, отображаемое в карточке.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Content for file \"{0}\" is not found. It is possible that it was deleted by another application. Please, attach the file again."
+        },
+        {
+          "Culture": 25,
+          "Value": "Содержимое файла \"{0}\" не найдено. Возможно, другое приложение удалило файл. Пожалуйста, приложите файл ещё раз."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileAttaching_ReadingError",
+      "Comment": "{0} - имя файла, отображаемое в карточке.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't open file \"{0}\" for reading. Double click on this message to get error details."
+        },
+        {
+          "Culture": 25,
+          "Value": "Возникла ошибка при чтении файла \"{0}\". Дважды кликните на сообщение, чтобы получить подробную информацию по ошибке."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileCategoryMissingError",
+      "Comment": "Текст сообщения об ошибке: нет категорий, подходящих для файла.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There are no categories available for the file."
+        },
+        {
+          "Culture": 25,
+          "Value": "Отсутствуют доступные категории файлов."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileConverterCache_RemoveAllFiles_Confirm",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Attention! All files in the cache will be removed.\n\nOperation can take a long time. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внимание! Все файлы в кэше будут удалены.\n\nОперация может занять длительное время. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileConverterCache_RemoveOldFiles_Confirm",
+      "Comment": "{0} - количество дней, в течение которых файлы не должны быть использованы, чтобы они были удалены.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Files not being used for the last {0} days will be removed. Usually such files are removed automatically.\n\nContinue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Будет выполнена очистка кэша от файлов, к которым не было обращений за последние {0} дней. Обычно такие файлы удаляются автоматически.\n\nПродолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileCopyDefaultCaption",
+      "Comment": "Стандартное имя копии файла",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0}  (Copy:  {1})"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0}  (Копия:  {1})"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileNoCategory",
+      "Comment": "Категория файла - без категории",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "( No category )"
+        },
+        {
+          "Culture": 25,
+          "Value": "( Без категории )"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileSaving_Locked",
+      "Comment": "{0} - имя файла, отображаемое в карточке.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "File \"{0}\" is locked for reading."
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл \"{0}\" заблокирован для чтения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileSaving_LockingProcess",
+      "Comment": "{0} - имя процесса, блокирующего файл.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Application \"{0}\" is locking the file for reading. Please, close the application and save card again. Double click the message to see technical details."
+        },
+        {
+          "Culture": 25,
+          "Value": "Приложение \"{0}\" блокирует чтение файла. Закройте, пожалуйста, приложение и сохраните карточку. Дважды кликните по сообщению, чтобы посмотреть технические подробности."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileSaving_LockingProcessDetails",
+      "Comment": "{0} - идентификатор процесса.\n{1} - название запускающего модуля (как правило название .exe).\n{2} - путь к файлу запускающего модуля.\n{3} - заголовок главного окна приложения.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Window title: {3}\nProcess identifier: {0}\nMain module: {1}\nFile path: {2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заголовок окна: {3}\nИдентификатор процесса: {0}\nОсновной модуль: {1}\nПуть к файлу: {2}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileSaving_NotFound",
+      "Comment": "{0} - имя файла, отображаемое в карточке.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Content for file \"{0}\" is not found. It is possible that it was deleted by another application. Please, refresh the card and attach the file again."
+        },
+        {
+          "Culture": 25,
+          "Value": "Содержимое файла \"{0}\" не найдено. Возможно, другое приложение удалило файл. Пожалуйста, обновите карточку и приложите файл ещё раз."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileSaving_ReadingError",
+      "Comment": "{0} - имя файла, отображаемое в карточке.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't open file \"{0}\" for reading. Double click on this message to get error details."
+        },
+        {
+          "Culture": 25,
+          "Value": "Возникла ошибка при чтении файла \"{0}\". Дважды кликните на сообщение, чтобы получить подробную информацию по ошибке."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileTemplate_Type",
+      "Comment": "Заголовок контрола \"Тип шаблона\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Template type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип шаблона"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileTooltip_CategoryAndType",
+      "Comment": "Часть подсказки к файлу - категория {0} и тип файла {1}\n\nМы решили не отображать тип файла, поскольку он бесполезен, но на всякий случай продолжает передаваться в строку формата со стороны кода desktop- и web-клиентов.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Category: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Категория: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileTooltip_CopyOf",
+      "Comment": "Часть подсказки к файлу - копия для",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Copy of: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Копия для: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileTooltip_FileIsLarge",
+      "Comment": "Часть подсказки к файлу - файл считается большим файлом",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "File is considered large. Double click to save it to a specified location.\nFile preview and editing is unavailable."
+        },
+        {
+          "Culture": 25,
+          "Value": "Это файл большого размера. Двойной клик сохраняет его в указанное место.\nПредпросмотр и редактирование файла недоступны."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileTooltip_FileName",
+      "Comment": "Имя файла.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "File: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileTooltip_MainInfo",
+      "Comment": "Основная часть подсказки к файлу - кем/когда изменён, версия",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Content modified: {0} at {1}\nFile modified: {2} at {3}\nVersion: {4}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменено содержимое: {0} в {1}\nИзменён файл: {2} в {3}\nВерсия: {4}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileTooltip_OpenForEditKeys",
+      "Comment": "Часть подсказки к файлу - клавиши, чтобы открыть для редактирования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Alt+double click to open file for edit\nor Shift+Enter if file is selected using keyboard"
+        },
+        {
+          "Culture": 25,
+          "Value": "Alt+двойной клик, чтобы открыть для редактирования\nили Shift+Enter, если файл выбран, используя клавиатуру"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_FileTooltip_Size",
+      "Comment": "Часть подсказки к файлу - размер",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Size: {0} {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Размер: {0} {1}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_GetExportedCardWithCardName",
+      "Comment": "Сообщение по открытию экспортированной карточки. Указывается имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Opening card from file \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Открывается карточка из файла \"{0}\""
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_GetExportedCardWithFile",
+      "Comment": "Информация по открытию экспортированной карточки с единственным приложенным файлом.\n{0} - название операции.\n{1} - имя файла в карточке шаблона, который открывается в настоящий момент.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0}\nOpening file\n\"{1}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "{0}\nОткрывается файл\n\"{1}\""
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_GetExportedCardWithMultipleFiles",
+      "Comment": "Информация по открытию экспортированной карточки с несколькими приложенными файлами.\n{0} - название операции.\n{1} - имя файла в карточке, который открывается в настоящий момент.\n{2} - порядковый номер текущего открываемого файла.\n{3} - общее количество файлов в карточке, которые будут открыты.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0}\nOpening file {2} / {3}\n\"{1}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "{0}\nОткрывается файл {2} / {3}\n\"{1}\""
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_GetExportedCardWithoutCardName",
+      "Comment": "Сообщение по открытию экспортированной карточки. Имя карточки не указывается.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Opening card from file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открывается карточка из файла"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_GridView_ClearSearchText",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Clear text    [ Esc ]"
+        },
+        {
+          "Culture": 25,
+          "Value": "Очистить текст    [ Esc ]"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_GridView_EmptySearchText",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "search"
+        },
+        {
+          "Culture": 25,
+          "Value": "поиск"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_HasErrorsSuffix",
+      "Comment": "Суффикс информации, добавляемой к результату валидации при наличии ошибок.\nНапример, \"При импорте карточки ... возникли ошибки.\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "errors have occurred."
+        },
+        {
+          "Culture": 25,
+          "Value": "возникли ошибки."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_HasInfoSuffix",
+      "Comment": "Суффикс информации, добавляемой к результату валидации при наличии информационных сообщений.\nНапример, \"При импорте карточки ... получены информационные сообщения.\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "information have occurred."
+        },
+        {
+          "Culture": 25,
+          "Value": "получены информационные сообщения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_HasWarningsSuffix",
+      "Comment": "Суффикс информации, добавляемой к результату валидации при наличии предупреждений.\nНапример, \"При импорте карточки ... возникли предупреждения.\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "warnings have occurred."
+        },
+        {
+          "Culture": 25,
+          "Value": "возникли предупреждения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_HideEmptyToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Collapses empty area to the right of the card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сворачивает пустую область справа от карточки."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ImportCardsTitle",
+      "Comment": "Заголовок диалога по импорту карточек.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import cards"
+        },
+        {
+          "Culture": 25,
+          "Value": "Импорт карточек"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ImportCardTypesTitle",
+      "Comment": "Заголовок окна с выбором файлов для импорта типов карточек.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select files to import card types"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите файлы для импорта типов карточек"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ImportFailedTitle",
+      "Comment": "Заголовок окна сообщений о неудачном импорте.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import failed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Импорт завершён с ошибками"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ImportingAddOperationPrefix",
+      "Comment": "Префикс информации, добавляемой к результату валидации для импорта карточки.\nНапример, \"При импорте карточки ... возникли ошибки.\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "While importing card"
+        },
+        {
+          "Culture": 25,
+          "Value": "При импорте карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ImportingFormatOperationPrefix",
+      "Comment": "Префикс операции по импорту карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Importing card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Импортируется карточка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ImportSucceededTitle",
+      "Comment": "Заголовок окна сообщений об успешном импорте.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Импорт завершён"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_AddButtonToolTip",
+      "Comment": "Всплывающая подсказка к кнопке добавления карточек в список библиотеки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add cards to the list from selected .jcard or .card files"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить карточки в список для выбранных файлов .jcard или .card"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_AddCardTitle",
+      "Comment": "Заголовок диалога по добавлению файлов с карточками в библиотеку карточек.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select cards"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_AdditionalToolTip",
+      "Comment": "Всплывающая подсказка для кнопки, открывающей меню с дополнительными действиями с библиотекой.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show additional actions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показать дополнительные действия"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_CardFileMissing",
+      "Comment": "Подтверждение на удаление карточки с отсутствующим файлом из библиотеки карточки.\n{0} - отображаемое имя карточки, файл которой отсутствует, заключённое в кавычки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card file is missing: {0}. Delete it from the list?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отсутствует файл карточки {0}. Удалить его из списка?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_CardMultipleFilesMissing",
+      "Comment": "Подтверждение на удаление карточек с отсутствующими файлами из библиотеки.\n{0} - отображаемые имена карточек, файлы которых отсутствуют, заключённые в кавычки и разделённые запятыми.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card files are missing: {0}. Delete them from the list?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отсутствуют файлы карточек {0}. Удалить их из списка?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_CheckAllToolTip",
+      "Comment": "Всплывающая подсказка к кнопке, отмечающей все карточки в списке библиотеки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Check all cards in the list"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отметить все карточки в списке"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_ClearMergeOptionsToolTip",
+      "Comment": "Всплывающая подсказка для кнопки очистки выбранных опций слияния.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Clear merge options"
+        },
+        {
+          "Culture": 25,
+          "Value": "Очистить опции слияния"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_ConfirmUnsavedChanges",
+      "Comment": "Сообщение, подтверждающее закрытие библиотеки карточек, в которой есть несохранённые изменения.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Library has unsaved changes. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Библиотека содержит несохранённые изменения. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_CreateFromTemplate",
+      "Comment": "Название кнопки для создания карточки по шаблону в диалоге создания карточки из библиотеки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create card using template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать карточку по шаблону"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_CreateLibrary",
+      "Comment": "Кнопка \"Создать библиотеку\" в меню действий с библиотекой.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create library"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать библиотеку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_CreateLibraryToolTip",
+      "Comment": "Всплывающая подсказка для кнопки создания библиотеки карточек.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create card library"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать библиотеку карточек"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_DeleteButtonToolTip",
+      "Comment": "Всплывающая подсказка к кнопке удаления карточки из списка библиотеки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete card from the list"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить карточку из списка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_DescriptionOfCards",
+      "Comment": "Название поля с описанием карточек в библиотеках.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Description of cards"
+        },
+        {
+          "Culture": 25,
+          "Value": "Описание карточек"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_DescriptionOfCardTemplate",
+      "Comment": "Шаблон метки, описывающей указанную карточку, выбранную в списке библиотеки.\n{0} - название выбранной карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Description of card: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Описание карточки: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_FilterText",
+      "Comment": "Подсказка для поля с фильтром списка карточек в библиотеке.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "search"
+        },
+        {
+          "Culture": 25,
+          "Value": "фильтр"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_ImportCheckedCards",
+      "Comment": "Название плитки для импортирования отмеченных карточек в диалоге импорта из библиотеки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import checked cards"
+        },
+        {
+          "Culture": 25,
+          "Value": "Импортировать отмеченные карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_InvalidRelativePath",
+      "Comment": "Сообщение об ошибке, когда запись в библиотеке карточек содержит путь, не содержащийся внутри папки с библиотекой.\n{0} - путь к файлу, указанный в записи.\n{1} - путь к папке с библиотекой карточек.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Path to file \"{0}\" isn't relative to folder with library \"{1}\". Can't save library."
+        },
+        {
+          "Culture": 25,
+          "Value": "Путь к файлу \"{0}\" не указан относительно папки с библиотекой \"{1}\". Невозможно сохранить библиотеку."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_NewLibrary",
+      "Comment": "Название создаваемой библиотеки карточек по умолчанию.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "New library"
+        },
+        {
+          "Culture": 25,
+          "Value": "Новая библиотека"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_OpenLibraryToolTip",
+      "Comment": "Всплывающая подсказка для кнопки открытия библиотеки карточек из файла.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open card library from .cardlib file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть библиотеку карточек из файла .cardlib"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_OpenMergeOptionsTitle",
+      "Comment": "Заголовок окна диалога выбора опций слияния.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open merge options file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть файл с опциями слияния"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_OpenMergeOptionsToolTip",
+      "Comment": "Всплывающая подсказка для кнопки открытия опций слияния.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open merge options from .json file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть опции слияния из файла .json"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_OptionsMark",
+      "Comment": "Пометка о том, что к импортируемому файлу имеются опции слияния.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "options"
+        },
+        {
+          "Culture": 25,
+          "Value": "опции"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_RefreshLibraryToolTip",
+      "Comment": "Всплывающая подсказка для кнопки обновления библиотеки карточки (т.е. повторной загрузки с диска).",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Refresh card library"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновить библиотеку карточек"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_SaveAs",
+      "Comment": "Кнопка \"Сохранить как\" в действиях с библиотекой.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save as..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить как..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_SaveAsTitle",
+      "Comment": "Заголовок диалога по сохранению существующей библиотеки карточек с указанием другого имени файла.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save library as..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить библиотеку как..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_SaveLibraryToolTip",
+      "Comment": "Всплывающая подсказка для кнопки сохранения библиотеки карточек.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save card library"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить библиотеку карточек"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_SaveTitle",
+      "Comment": "Заголовок диалога по сохранению библиотеки карточек.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save library"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить библиотеку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_SaveToAnotherFolder",
+      "Comment": "Предупреждение, возникающее перед сохранением библиотеки карточек в другую папку.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Library is being saved to another folder. All card files will be copied to this folder with replacement of existing files. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Библиотека сохраняется в другую папку. Это приведёт к копированию в указанную папку всех файлов карточек с заменой. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_SelectLibraryTitle",
+      "Comment": "Заголовок окна выбора файла с библиотекой для открытия.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select library"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите библиотеку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_SortByAlphabet",
+      "Comment": "Кнопка, включающая и отключающая сортировку по алфавиту для списка карточек библиотеки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sort alphabetically"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сортировать по алфавиту"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_UncheckAllToolTip",
+      "Comment": "Всплывающая подсказка к кнопке, снимающей отметку со всех карточек в списке.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Uncheck all cards in the list"
+        },
+        {
+          "Culture": 25,
+          "Value": "Снять отметки со всех карточек в списке"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Library_UnknownItemPath",
+      "Comment": "Сообщение о том, что в библиотеке карточек присутствует запись о карточке, путь к файлу которой не указан.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Library contains record of card that has no file path."
+        },
+        {
+          "Culture": 25,
+          "Value": "В библиотеке присутствует запись о карточке, путь к файлу которой не указан."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_MergeOptionsFilterText",
+      "Comment": "Название настройки фильтра для выбора файла опций слияния. Строка не содержит маски для поиска файлов, только текстовое описание.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "TESSA cards merge options"
+        },
+        {
+          "Culture": 25,
+          "Value": "Опции слияния карточек TESSA"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_MultipleCardsDeleted",
+      "Comment": "Начало сообщения о том, что карточки удалены.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cards were deleted"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалены карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_MultipleCardsExported",
+      "Comment": "Начало сообщения о том, что карточки экспортированы.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cards were exported"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспортированы карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_MultipleCardsImported",
+      "Comment": "Начало сообщения о том, что карточки импортированы.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cards were imported"
+        },
+        {
+          "Culture": 25,
+          "Value": "Импортированы карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_OpenCardFromAutoComplete",
+      "Comment": "Пункт контекстного меню по открытию ссылки как карточки из автокомплита.\n{0} - название ссылки (открываемой карточки).",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open card: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть карточку: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_OpenNotSupported",
+      "Comment": "Сообщение о том, что открытие карточки не поддерживается.\n{0} - локализованный Digest карточки.\n{1} - идентификатор карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Requested opening of card \"{0}\" with identifier \"{1}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Запрошено открытие карточки \"{0}\" с идентификатором \"{1}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RemoveOperationAction_CompletedWithErrors",
+      "Comment": "Сообщение о наличии ошибок, возникших при удалении операции.\n{0} - имя операции.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Errors occurred when removing operation \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "При удалении операции \"{0}\" возникли ошибки."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RemoveOperationAction_CompletedWithMessages",
+      "Comment": "Сообщение о наличии сообщений, возникших при удалении операции.\n{0} - имя операции.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Messages added when removing operation \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "При удалении операции \"{0}\" добавлены сообщения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RemoveOperationAction_ConfirmMultiple",
+      "Comment": "Подтверждение при удалении нескольких операций.\n{0} - количество удаляемых операций.\n{1} - список удаляемых операций через запятую.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Remove operations ({0}): {1}?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить операции ({0}): {1}?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RemoveOperationAction_ConfirmSingle",
+      "Comment": "Подтверждение при удалении единственной операции.\n{0} - имя операции.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Remove operation \"{0}\"?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить операцию \"{0}\"?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RemoveOperationAction_SplashMultipleCard",
+      "Comment": "Сплеш по удалению одной из нескольких удаляемых операций.\n{0} - номер удаляемой операции.\n{1} - общее количество удаляемых операций.\n{2} - имя удаляемой операции.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Remove operation {0} / {1}\n{2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удаляется операция {0} / {1}\n{2}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RemoveOperationAction_SplashMultipleInitial",
+      "Comment": "Сплеш по подготовке к удалению при удалении нескольких операций.\n{0} - количество удаляемых операций.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Removing operations {0}\nPreparation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удаляются операции {0}\nПодготовка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RemoveOperationAction_SplashSingle",
+      "Comment": "Сплеш при удалении единственной операции.\n{0} - имя операции.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Removing operation\n{0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удаляется операция\n{0}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RepairAction_CompletedWithErrors",
+      "Comment": "Сообщение о наличии ошибок, возникших при исправлении карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Errors occurred when repairing card \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "При исправлении карточки \"{0}\" возникли ошибки."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RepairAction_CompletedWithMessages",
+      "Comment": "Сообщение о наличии сообщений, возникших при исправлении карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Messages added when repairing card \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "При исправлении карточки \"{0}\" добавлены сообщения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RepairAction_ConfirmMultiple",
+      "Comment": "Подтверждение при исправлении нескольких карточек.\n{0} - количество исправляемых карточек.\n{1} - список исправляемых карточек через запятую.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repair cards ({0}): {1}?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исправить карточки ({0}): {1}?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RepairAction_ConfirmSingle",
+      "Comment": "Подтверждение при исправлении единственной карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repair card \"{0}\"?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исправить карточку \"{0}\"?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RepairAction_SplashMultipleCard",
+      "Comment": "Сплеш по исправлению одной из нескольких исправляемых карточек.\n{0} - номер исправляемой карточки.\n{1} - общее количество исправляемых карточек.\n{2} - имя исправляемой карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repairing card {0} / {1}\n{2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исправляется карточка {0} / {1}\n{2}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RepairAction_SplashMultipleInitial",
+      "Comment": "Сплеш по подготовке к исправлению нескольких карточек.\n{0} - количество исправляемых карточек.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repairing cards {0}\nPreparation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исправляются карточки {0}\nПодготовка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RepairAction_SplashSingle",
+      "Comment": "Сплеш при исправлении единственной карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repairing card\n{0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исправляется карточка\n{0}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RepairTypeOperationPrefix",
+      "Comment": "Префикс информации, добавляемой к результату валидации для исправления типа.\nНапример, \"При исправлении типа ... возникли ошибки.\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "While repairing type"
+        },
+        {
+          "Culture": 25,
+          "Value": "При исправлении типа"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RestoreAction_CompletedWithErrors",
+      "Comment": "Сообщение о наличии ошибок, возникших при восстановлении карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Errors occurred when restoring card \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "При восстановлении карточки \"{0}\" возникли ошибки."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RestoreAction_CompletedWithMessages",
+      "Comment": "Сообщение о наличии сообщений, возникших при восстановлении карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Messages added when restoring card \"{0}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "При восстановлении карточки \"{0}\" добавлены сообщения."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RestoreAction_ConfirmMultiple",
+      "Comment": "Подтверждение при восстановлении нескольких карточек.\n{0} - количество восстанавливаемых карточек.\n{1} - список восстанавливаемых карточек через запятую.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Restore cards ({0}): {1}?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Восстановить карточки ({0}): {1}?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RestoreAction_ConfirmSingle",
+      "Comment": "Подтверждение при восстановлении единственной карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Restore card \"{0}\"?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Восстановить карточку \"{0}\"?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RestoreAction_SplashMultipleCard",
+      "Comment": "Сплеш по восстановлению одной из нескольких восстанавливаемых карточек.\n{0} - номер восстанавливаемой карточки.\n{1} - общее количество восстанавливаемых карточек.\n{2} - имя восстанавливаемой карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Restoring card {0} / {1}\n{2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Восстанавливается карточка {0} / {1}\n{2}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RestoreAction_SplashMultipleInitial",
+      "Comment": "Сплеш по подготовке к восстановлению при восстановлении нескольких карточек.\n{0} - количество восстанавливаемых карточек.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Restoring cards {0}\nPreparation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Восстанавливаются карточки {0}\nПодготовка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_RestoreAction_SplashSingle",
+      "Comment": "Сплеш при восстановлении единственной удалённой карточки.\n{0} - имя карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Restoring card\n{0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Восстанавливается карточка\n{0}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_SelectCardToCreateTemplateTitle",
+      "Comment": "Название диалога для выбора файла, который используется в качестве шаблона создаваемой карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select card to create template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите карточку для создания по шаблону"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_SelectCardToViewExportedTitle",
+      "Comment": "Название диалога для выбора файла, для которого выполняется просмотр.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select card to view"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите карточку для просмотра"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_SelectCategory",
+      "Comment": "Выберите категорию",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select category"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите категорию"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_SelectFileToViewStorageTitle",
+      "Comment": "Заголовок диалога по выбору файла, структура которого будет отображена.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select file to show structure"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите файл для отображения структуры"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_SelectFileType",
+      "Comment": "Выберите тип",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите тип"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_SelectGroupAndType",
+      "Comment": "Выберите группу и категорию этапа",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select stage group and type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите группу и тип этапа"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_SettingsExportTemplate",
+      "Comment": "Шаблон названия файла для экспорта карточки настроек.\n{0} - название экспортируемой карточки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} (settings)"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} (настройки)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_SignDate",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sign date"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата подписания"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Signer",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Signer"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подписант"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_SignStatus",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "State"
+        },
+        {
+          "Culture": 25,
+          "Value": "Статус"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_StorageViewer_CardBeforeSaving",
+      "Comment": "Название галки \"карточка перед сохранением\" в диалоге просмотра структуры.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card before saving"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка перед сохранением"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_StorageViewer_EmptyFilter",
+      "Comment": "Строка поиска по структуре карточки, выводимая, когда сотрудник ещё не начал вводить искомую строку.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "search case insensitive"
+        },
+        {
+          "Culture": 25,
+          "Value": "поиск без учёта регистра"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_StorageViewer_SaveToFile",
+      "Comment": "Кнопка \"Сохранить в файл\" в диалоге просмотра структуры.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save to file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить в файл"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_StorageViewer_SaveToFileTitle",
+      "Comment": "Заголовок окна сохранения файла из диалога просмотра структуры.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select file to export"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите файл для экспорта"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_StorageViewer_SaveToFileToolTip",
+      "Comment": "Тултип кнопки \"Сохранить в файл\" в диалоге просмотра структуры.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save full card structure to a text file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохраняет полную структуру карточки в текстовый файл"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_SupportedFilterText",
+      "Comment": "Название строки фильтра файлов для всех поддерживаемых форматов в текущем диалоге.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Supported formats"
+        },
+        {
+          "Culture": 25,
+          "Value": "Поддерживаемые форматы"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_AssignedToRole",
+      "Comment": "Роль, на которую назначено задание, для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Assigned to role"
+        },
+        {
+          "Culture": 25,
+          "Value": "Назначено на роль"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_Author",
+      "Comment": "Автор задания для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Author"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автор задания"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_Completed",
+      "Comment": "Дата завершения задания для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершено"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_CompletedBy",
+      "Comment": "Колонка \"Завершено сотрудником\" во вкладке \"История заданий\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Completed by"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершено сотрудником"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_CompletionOption",
+      "Comment": "Вариант завершения задания для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Completion option"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вариант завершения"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_Created",
+      "Comment": "Дата создания задания для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Created"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создано"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_Date",
+      "Comment": "Колонка с датой последнего действия с заданием для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Date"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_DetailsTitle",
+      "Comment": "Заголовок окна с информацией по записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task history record"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запись в истории заданий"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_HideResult",
+      "Comment": "Пункт контекстного меню \"Скрыть колонку Результат\" для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hide column \"Result\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрыть колонку \"Результат\""
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_InProgress",
+      "Comment": "Дата взятия задания в работу для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "In progress"
+        },
+        {
+          "Culture": 25,
+          "Value": "В работе"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_OpenHistoryView",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "open in new tab >>"
+        },
+        {
+          "Culture": 25,
+          "Value": "открыть в отдельной вкладке >>"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_Option",
+      "Comment": "Колонка с вариантом завершения задания для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Option"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вариант"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_Planned",
+      "Comment": "Дата запланированного завершения задания для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Planned"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запланировано"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_Result",
+      "Comment": "Результат завершения задания для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Result"
+        },
+        {
+          "Culture": 25,
+          "Value": "Результат"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_ShowDetails",
+      "Comment": "Пункт контекстного меню \"показать подробности\" для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show details"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показать подробности"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_ShowResult",
+      "Comment": "Пункт контекстного меню \"Показать колонку Результат\" для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show column \"Result\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Показать колонку \"Результат\""
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_State",
+      "Comment": "Колонка с состоянием задания для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "State"
+        },
+        {
+          "Culture": 25,
+          "Value": "Состояние"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_Task",
+      "Comment": "Название задания для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_ToolTipHeader",
+      "Comment": "Заголовок всплывающей подсказки для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Press middle mouse button to open or close details window."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нажмите среднюю кнопку мыши, чтобы открыть или закрыть окно с деталями."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_Type",
+      "Comment": "Тип задания для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип задания"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TaskHistory_User",
+      "Comment": "Сотрудник, взявший задание в работу или завершивший его, для записи в истории заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Employee"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сотрудник"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_CardIdParamAlias",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "CardID Param Alias"
+        },
+        {
+          "Culture": 25,
+          "Value": "Алиас параметра CardID"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_CreateFirstRowSelectionEditor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Automatically select first row"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автоматически выделять первую строку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_DisableColumnAutoWidth",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Disable column auto width"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запрет расчета ширины столбцов"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_DisableLocalization",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Disable localization"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отключить локализацию"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_DisableLocalization_Tooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "When this setting is enabled, neither extended nor regular localization will be applied."
+        },
+        {
+          "Culture": 25,
+          "Value": "При включении данной настройки не будет применяться ни расширенная, ни обычная локализация."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_ExtendedLocalization",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Extended localization"
+        },
+        {
+          "Culture": 25,
+          "Value": "Расширенная локализация"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_ExtendedLocalization_Tooltip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Use localization with formatting rows like {$...}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Использовать локализацию с форматированием строк вида {$...}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_Height",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Height"
+        },
+        {
+          "Culture": 25,
+          "Value": "Высота"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_InitializeFilesView",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "List of files in a view"
+        },
+        {
+          "Culture": 25,
+          "Value": "Список файлов в представлении"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_MasterViewControlAlias",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Master View control alias"
+        },
+        {
+          "Culture": 25,
+          "Value": "Алиас мастер-контрола"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_RichTextBox",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "rich text"
+        },
+        {
+          "Culture": 25,
+          "Value": "текст с форматированием"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_RichTextBoxDisableAttachingFile",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Prohibit adding files"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запретить добавление файлов"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_RichTextBoxDisableAttachingFile_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Prohibit adding files"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запретить добавление файлов"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_RichTextBoxType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Rich text box"
+        },
+        {
+          "Culture": 25,
+          "Value": "Текст с форматированием"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_ViewControl",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "view"
+        },
+        {
+          "Culture": 25,
+          "Value": "представление"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_ViewControlType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "View"
+        },
+        {
+          "Culture": 25,
+          "Value": "Представление"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_ViewMapping_MasterLinkName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Link name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя ссылки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_ViewMapping_MasterLinkType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Link type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип ссылки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_ViewMapping_ViewParameterSetName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Parameters set"
+        },
+        {
+          "Culture": 25,
+          "Value": "Набор параметров"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_TypesEditor_ViewMasterLink",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Link"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ссылка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_UserName",
+      "Comment": "Колонка списка подписей - Сотрудник",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Employee"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сотрудник"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_VerifyingInProgress",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Signatures verifying"
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверка подписей"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ViewExtension_Configuration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Extension cofiguration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки расширения"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_ViewMetadata_Editor_DemoColumn",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Demonstration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Демонстрация"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Web_CardEditor_ErrorMessage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "UI error occurred. Please refresh card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Произошла ошибка в UI компоненте. Пожалуйста, обновите карточку."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Workflow_ProcessEditorOpenedConfirm",
+      "Comment": "Сообщение отображается при закрытии карточки шаблона процесса при наличии открытиых редакторов процесса",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "You are viewing or editing business processes. Are you sure you want to close the card?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выполняется просмотр или редактирование бизнес-процессов. Вы уверены, что хотите закрыть карточку?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Workflow_ProcessHasChangesConfirm",
+      "Comment": "Сообщение отображается при закрытии редакторе процесса при наличии несохраненных изменений в нем",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The process has changes. Are you sure you want to exit without saving?"
+        },
+        {
+          "Culture": 25,
+          "Value": "В процесс были внесены изменения. Вы уверены, что хотите выйти без сохранения изменений?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Controls_FilesControl_ErrorsSignaturesVerify",
+      "Comment": "Проверка электронных подписей была завершена с ошибками.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Verifying of digital signatures was completed with errors."
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверка электронных подписей была завершена с ошибками."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Controls_FilesControl_NoErrorsSignaturesVerify",
+      "Comment": "Проверка электронных подписей успешно завершена.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Verifying of digital signatures was successfully completed."
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверка электронных подписей успешно завершена."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Controls_FilesControl_WarningSignaturesVerify",
+      "Comment": "Проверка электронных подписей завершена c предупреждениями.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Verifying of digital signatures was completed with warnings."
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверка электронных подписей завершена c предупреждениями."
+        }
+      ]
+    }
+  ]
+}

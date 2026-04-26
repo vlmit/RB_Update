@@ -1,0 +1,609 @@
+﻿{
+  "ID": "8d2f0d2a-7df8-4e7a-8890-7ece4fd0c876",
+  "Name": "TaskNotification",
+  "Priority": 0,
+  "Entries": [
+    {
+      "Name": "AdditionalApprovalNotificationTemplate_SubjectLabel_Completed",
+      "Comment": "Доп. согласование завершено",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Additional approval. Completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дополнительное согласование. Завершено"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovedAdditionalApproval_NoTimeLimitation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There are no duration specified for the task."
+        },
+        {
+          "Culture": 25,
+          "Value": "Длительность задачи не указана."
+        }
+      ]
+    },
+    {
+      "Name": "ApprovedAdditionalApprovalNotificationTemplate_InfoLabel",
+      "Comment": "Задание доп. согласования завершено",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Additional approval task has been completed "
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание доп. согласования завершено"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovedAdditionalApprovalNotificationTemplate_MessageLabel",
+      "Comment": "Завершено задание дополнительного согласования документа",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Additional approve task is complete."
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершено задание дополнительного согласования документа."
+        }
+      ]
+    },
+    {
+      "Name": "ApprovedAdditionalApprovalNotificationTemplate_SubjectLabel",
+      "Comment": "Согласовано. Дополнительное согласование.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Additional approval. Approved"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дополнительное согласование. Согласовано"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovedNotificationTemplate_AllTasksCompleted",
+      "Comment": "Завершено последнее задание дополнительного согласования документа",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The last additional approve task is complete"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершено последнее задание дополнительного согласования документа"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovedNotificationTemplate_BodyLabel",
+      "Comment": "Согласовано",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approved"
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласовано"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovedNotificationTemplate_InfoLabel",
+      "Comment": "Согласование завершено",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approval has been completed "
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласование завершено"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovedNotificationTemplate_MessageLabel",
+      "Comment": "Согласование документа успешно завершено",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approval of the document has been completed successfully"
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласование документа успешно завершено"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovedNotificationTemplate_SubjectLabel",
+      "Comment": "Согласовано",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approved"
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласовано"
+        }
+      ]
+    },
+    {
+      "Name": "ApprovedNotificationTemplate_TasksCount",
+      "Comment": "Не все задания доп. согласования завершены. ",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Not all additional approval task are completed. Tasks left: "
+        },
+        {
+          "Culture": 25,
+          "Value": "Не все задания доп. согласования завершены. Заданий осталось: "
+        }
+      ]
+    },
+    {
+      "Name": "DisapprovedAdditionalApprovalNotificationTemplate_SubjectLabel",
+      "Comment": "Дополнительное согласование. Не согласовано",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Additional approval. Rejected"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дополнительное согласование. Не согласовано"
+        }
+      ]
+    },
+    {
+      "Name": "DisapprovedNotificationTemplate_BodyLabel",
+      "Comment": "Не согласовано",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Rejected"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не согласовано"
+        }
+      ]
+    },
+    {
+      "Name": "Notification_AppLinkCaption",
+      "Comment": "Ссылка на открытие desktop-клиента для почтовых уведомлений.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "open application"
+        },
+        {
+          "Culture": 25,
+          "Value": "открыть приложение"
+        }
+      ]
+    },
+    {
+      "Name": "Notification_CardLinkCaption",
+      "Comment": "Ссылка на открытие карточки в desktop-клиенте для почтовых уведомлений.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "open card in application"
+        },
+        {
+          "Culture": 25,
+          "Value": "открыть карточку в приложении"
+        }
+      ]
+    },
+    {
+      "Name": "Notification_WebAppLinkCaption",
+      "Comment": "Ссылка на открытие приложения в web-клиенте для почтовых уведомлений.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "open application in browser"
+        },
+        {
+          "Culture": 25,
+          "Value": "открыть приложение в браузере"
+        }
+      ]
+    },
+    {
+      "Name": "Notification_WebCardLinkCaption",
+      "Comment": "Ссылка на открытие карточки в web-клиенте для почтовых уведомлений.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "open card in browser"
+        },
+        {
+          "Culture": 25,
+          "Value": "открыть карточку в браузере"
+        }
+      ]
+    },
+    {
+      "Name": "Notification_WebCardLinkTableText",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "open"
+        },
+        {
+          "Culture": 25,
+          "Value": "открыть"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_ApprovingLabel",
+      "Comment": "Согласование",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approving"
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласование"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_AuthorLabel",
+      "Comment": "Лэйбл \"автор\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Author"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автор"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_AutoApprovedLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Auto-approved documents"
+        },
+        {
+          "Culture": 25,
+          "Value": "Автоматически согласованные документы"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_CardLabel",
+      "Comment": "Лэйбл \"карточка\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_CompletedLabel",
+      "Comment": "Лэйбл \"завершено\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершено"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_DateLabel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Date"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_InfoLabel",
+      "Comment": "Лэйбл \"информация\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Information"
+        },
+        {
+          "Culture": 25,
+          "Value": "Информация"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_InProgressLabel",
+      "Comment": "Лэйбл \"в работе\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "In progress"
+        },
+        {
+          "Culture": 25,
+          "Value": "В работе"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_NewLabel",
+      "Comment": "Лэйбл \"новые\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "New"
+        },
+        {
+          "Culture": 25,
+          "Value": "Новых"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_NewTask",
+      "Comment": "Заголовок уведомления о задании",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "New task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Новое задание"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_NewTaskInCard",
+      "Comment": "Новое задание в карточке",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "New task in card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Новое задание в карточке"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_OutdatedLabel",
+      "Comment": "Лэйбл \"просроченные\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Outdated"
+        },
+        {
+          "Culture": 25,
+          "Value": "Просроченных"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_PerformerLabel",
+      "Comment": "Лэйбл \"исполнитель\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Performer"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исполнитель"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_PlannedLabel",
+      "Comment": "Лэйбл \"запланировано\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Planned"
+        },
+        {
+          "Culture": 25,
+          "Value": "Запланировано"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_Postponed_Date",
+      "Comment": "Поле для даты, когда задание было отложено.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Postponed at"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отложено"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_Postponed_Subject",
+      "Comment": "Заголовок письма по возвращению отложенного задания",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Returning of postponed task"
+        },
+        {
+          "Culture": 25,
+          "Value": "Возвращение отложенного задания"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_Postponed_Type",
+      "Comment": "Поле для типа отложенного задания.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_Postponed_User",
+      "Comment": "Поле для пользователя, который отложил задание.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Postponed by"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отложил"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_ReceivedLabel",
+      "Comment": "Лэйбл \"получено\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Received"
+        },
+        {
+          "Culture": 25,
+          "Value": "Получено"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_RespondedByLabel",
+      "Comment": "Лэйбл \"комментарий от\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Responded by"
+        },
+        {
+          "Culture": 25,
+          "Value": "Комментарий от"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_RespondLabel",
+      "Comment": "Лэйбл \"ответил\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Respond"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ответил"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_TasksLabel",
+      "Comment": "Лэйбл \"задания\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заданий"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_Title",
+      "Comment": "Заголовок уведомления-отчета о заданиях",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task notification"
+        },
+        {
+          "Culture": 25,
+          "Value": "Уведомление о заданиях"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_TypeLabel",
+      "Comment": "Лэйбл \"тип\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип"
+        }
+      ]
+    },
+    {
+      "Name": "TaskNotification_WebLabel",
+      "Comment": "Лэйбл \"веб-клиент\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Web link"
+        },
+        {
+          "Culture": 25,
+          "Value": "Веб-ссылка"
+        }
+      ]
+    }
+  ]
+}

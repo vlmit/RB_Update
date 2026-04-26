@@ -1,0 +1,133 @@
+{
+  "Alias": "KrDocNumberRegistrationAutoAssigment",
+  "Caption": "KrDocNumberRegistrationAutoAssigment",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Kr Wf",
+  "ID::uid": "65867469-2aec-4c13-a807-a2784a023d6b",
+  "JsonMetadataSource::txt": "KrDocNumberRegistrationAutoAssigment JSONMETA",
+  "MsQuerySource::txt": "KrDocNumberRegistrationAutoAssigment MSSQL",
+  "PgQuerySource::txt": "KrDocNumberRegistrationAutoAssigment PGSQL",
+  "Roles": null
+}
+
+[TEXTPART KrDocNumberRegistrationAutoAssigment JSONMETA]
+{
+  "Alias": "KrDocNumberRegistrationAutoAssigment",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "KrDocNumberRegistrationAutoAssigment",
+  "Columns": [
+    {
+      "Alias": "DocNumberRegistrationAutoAssignmentID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrDocNumberRegistrationAutoAssignment.ID"
+    },
+    {
+      "Alias": "DocNumberRegistrationAutoAssignmentDescription",
+      "Appearance": null,
+      "Caption": "$Views_KrDocNumberRegistrationAutoAssigment_Option",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "lCaption.Value",
+      "TreatValueAsUtc": false,
+      "Type": "$KrDocNumberRegistrationAutoAssignment.Description"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "DocNumberRegistrationAutoAssignmentDescription",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Description",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_KrDocNumberRegistrationAutoAssigment_Option_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrDocNumberRegistrationAutoAssignment.Description"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "DocNumberRegistrationAutoAssignment",
+      "Condition": null,
+      "DisplayValueColumn": "DocNumberRegistrationAutoAssignmentDescription",
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "DocNumberRegistrationAutoAssignment"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART KrDocNumberRegistrationAutoAssigment MSSQL]
+SELECT
+	[dn].[ID]			AS [DocNumberRegistrationAutoAssignmentID],
+	[dn].[Description]	AS [DocNumberRegistrationAutoAssignmentDescription]
+FROM [KrDocNumberRegistrationAutoAssignment] AS [dn] WITH (NOLOCK)
+CROSS APPLY [Localization]([dn].[Description], #param(locale)) AS [lCaption]
+WHERE 1 = 1
+	#param(Description, [lCaption].[Value])
+ORDER BY #order_by
+
+[TEXTPART KrDocNumberRegistrationAutoAssigment PGSQL]
+SELECT
+	"dn"."ID"			AS "DocNumberRegistrationAutoAssignmentID",
+	"dn"."Description"	AS "DocNumberRegistrationAutoAssignmentDescription"
+FROM "KrDocNumberRegistrationAutoAssignment" AS "dn"
+CROSS JOIN "Localization"("dn"."Description", #param(locale)) AS "lCaption"
+WHERE true
+	#param(Description, "lCaption"."Value")
+ORDER BY #order_by

@@ -1,0 +1,139 @@
+{
+  "Alias": "ProtocolReportsWithPhoto",
+  "Caption": "Доклады с фото докладчика",
+  "Description": "Представление используется для демонстрации возможности формировая файлов по шаблону с изображениями.\nВ шаблоне протокола, включенном в типовом решении, в списке докладов будет новая колонка с фотографией докладчика.\nФото докладчика получается из карточки сотрудника, из приложенного файла с именем вида \"photo%\".",
+  "FormatVersion::int": 1,
+  "GroupName": "KrDocuments",
+  "ID::uid": "a5bb501c-3169-4d72-8098-588f932815b1",
+  "JsonMetadataSource::txt": "ProtocolReportsWithPhoto JSONMETA",
+  "MsQuerySource::txt": "ProtocolReportsWithPhoto MSSQL",
+  "PgQuerySource::txt": "ProtocolReportsWithPhoto PGSQL",
+  "Roles": null
+}
+
+[TEXTPART ProtocolReportsWithPhoto JSONMETA]
+{
+  "Alias": "ProtocolReportsWithPhoto",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Доклады с фото докладчика",
+  "Columns": [
+    {
+      "Alias": "PersonName",
+      "Appearance": null,
+      "Caption": "PersonName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$ProtocolReports.PersonName"
+    },
+    {
+      "Alias": "Subject",
+      "Appearance": null,
+      "Caption": "Subject",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$ProtocolReports.Subject"
+    },
+    {
+      "Alias": "PhotoFileID",
+      "Appearance": null,
+      "Caption": "PhotoFileID",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Files.RowID"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "CardId",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "CardId",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$ProtocolReports.ID"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART ProtocolReportsWithPhoto MSSQL]
+SELECT
+	[pr].[PersonName],
+	[pr].[Subject],
+	[p].[RowID] AS [PhotoFileID]
+FROM [ProtocolReports] AS [pr] WITH (NOLOCK)
+OUTER APPLY (
+	SELECT TOP(1) [f].[RowID]
+	FROM [Files] AS [f] WITH (NOLOCK)
+	WHERE [f].[ID] = [pr].[PersonID]
+		AND [f].[Name] LIKE N'photo%'
+	) AS [p]
+WHERE 1 = 1 
+	#param(CardId, [pr].[ID])
+ORDER BY [pr].[Order];
+
+[TEXTPART ProtocolReportsWithPhoto PGSQL]
+SELECT
+	"pr"."PersonName",
+	"pr"."Subject",
+	"p"."RowID" AS "PhotoFileID"
+FROM "ProtocolReports" AS "pr"
+LEFT JOIN LATERAL (
+	SELECT "f"."RowID"
+	FROM "Files" AS "f"
+	WHERE "f"."ID" = "pr"."PersonID"
+		AND "f"."Name" LIKE 'photo%'
+	LIMIT 1
+	) AS "p" ON true
+WHERE true
+	#param(CardId, "pr"."ID")
+ORDER BY "pr"."Order";

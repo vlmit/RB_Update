@@ -1,0 +1,346 @@
+{
+  "Alias": "Applications",
+  "Caption": "Applications",
+  "Description": "Возвращает список доступных приложений",
+  "FormatVersion::int": 1,
+  "GroupName": "System",
+  "ID::uid": "87345860-1b95-4fdd-887e-bf632fb3752d",
+  "JsonMetadataSource::txt": "Applications JSONMETA",
+  "MsQuerySource::txt": "Applications MSSQL",
+  "PgQuerySource::txt": "Applications PGSQL",
+  "Roles": null
+}
+
+[TEXTPART Applications JSONMETA]
+{
+  "Alias": "Applications",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Applications",
+  "Columns": [
+    {
+      "Alias": "AppID",
+      "Appearance": null,
+      "Caption": "ID",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Applications.ID"
+    },
+    {
+      "Alias": "AppName",
+      "Appearance": null,
+      "Caption": "$Views_Applications_Name",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Name",
+      "TreatValueAsUtc": false,
+      "Type": "$Applications.Name"
+    },
+    {
+      "Alias": "GroupName",
+      "Appearance": null,
+      "Caption": "$Views_Applications_GroupName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Applications.GroupName"
+    },
+    {
+      "Alias": "LocalizedGroupName",
+      "Appearance": null,
+      "Caption": "$Views_Applications_GroupName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "l.Value",
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "Alias",
+      "Appearance": null,
+      "Caption": "$Views_Applications_Alias",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Applications.Alias"
+    },
+    {
+      "Alias": "Icon",
+      "Appearance": null,
+      "Caption": "Icon",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Applications.Icon"
+    },
+    {
+      "Alias": "Client64Bit",
+      "Appearance": null,
+      "Caption": "$Views_Applications_Client64Bit",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Client64Bit",
+      "TreatValueAsUtc": false,
+      "Type": "$Applications.Client64Bit"
+    },
+    {
+      "Alias": "ExecutableFileName",
+      "Appearance": null,
+      "Caption": "$Views_Applications_ExecutableFileName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Applications.ExecutableFileName"
+    },
+    {
+      "Alias": "ForAdmin",
+      "Appearance": null,
+      "Caption": "$Views_Applications_ForAdmin",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Applications.ForAdmin"
+    },
+    {
+      "Alias": "AppManagerApiV2",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Applications.AppManagerApiV2"
+    },
+    {
+      "Alias": "AppVersion",
+      "Appearance": null,
+      "Caption": "$Views_Applications_AppVersion",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Applications.AppVersion"
+    },
+    {
+      "Alias": "ExtensionVersion",
+      "Appearance": null,
+      "Caption": "$Views_Applications_ExtensionVersion",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "PlatformVersion",
+      "Appearance": null,
+      "Caption": "$Views_Applications_PlatformVersion",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Applications.PlatformVersion"
+    },
+    {
+      "Alias": "AvailableRoles",
+      "Appearance": null,
+      "Caption": "$Views_Applications_AvailableRoles",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "LocalizedGroupName",
+      "SortDirection": "Ascending"
+    },
+    {
+      "Alias": "AppName",
+      "SortDirection": "Ascending"
+    },
+    {
+      "Alias": "Client64Bit",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": "LocalizedGroupName",
+  "MultiSelect": true,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Applications_Name_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    }
+  ],
+  "QuickSearchParam": "Name",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "App",
+      "Condition": null,
+      "DisplayValueColumn": "AppName",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "Applications"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART Applications MSSQL]
+SELECT
+	[t].[ID]					AS [AppID],
+	[t].[Name]					AS [AppName],
+	[t].[GroupName],
+	[l].[Value]					AS [LocalizedGroupName],
+	[t].[Alias],
+	[t].[Icon],
+	[t].[Client64Bit],
+	[t].[ExecutableFileName],
+	[t].[ForAdmin],
+	[t].[AppManagerApiV2],
+	[t].[AppVersion],
+	N'1.0.0.0'					AS [ExtensionVersion],
+	[t].[PlatformVersion],
+	STUFF((
+		SELECT N', ' + [r].[RoleName]
+		FROM [ApplicationRoles] AS [r] WITH (NOLOCK)
+		WHERE [r].[ID] = [t].[ID]
+		ORDER BY [r].[RoleName]
+		FOR XML PATH('')
+	), 1, 2, N'') AS [AvailableRoles]
+FROM [Applications] AS [t] WITH (NOLOCK)
+CROSS APPLY [Localization]([t].[GroupName], #param(locale)) AS [l]
+WHERE 1 = 1
+	#param(Name, [t].[Name])
+ORDER BY #order_by
+
+[TEXTPART Applications PGSQL]
+SELECT
+	"t"."ID"					AS "AppID",
+	"t"."Name"					AS "AppName",
+	"t"."GroupName",
+	"l"."Value"					AS "LocalizedGroupName",
+	"t"."Alias",
+	"t"."Icon",
+	"t"."Client64Bit",
+	"t"."ExecutableFileName",
+	"t"."ForAdmin",
+	"t"."AppManagerApiV2",
+	"t"."AppVersion",
+	'1.0.0.0'::text					AS "ExtensionVersion",
+	"t"."PlatformVersion",
+	(
+		SELECT string_agg("RoleName", ', ')
+		FROM (
+			SELECT "r"."RoleName"
+			FROM "ApplicationRoles" AS "r"
+			WHERE "r"."ID" = "t"."ID"
+			ORDER BY "r"."RoleName") AS "r"
+	) AS "AvailableRoles"
+FROM "Applications" AS "t"
+CROSS JOIN "Localization"("t"."GroupName", #param(locale)) AS "l"
+WHERE true
+	#param(Name, "t"."Name")
+ORDER BY #order_by

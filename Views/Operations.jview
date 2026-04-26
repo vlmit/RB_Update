@@ -1,0 +1,473 @@
+{
+  "Alias": "Operations",
+  "Caption": "Активные операции",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "System",
+  "ID::uid": "c0bc56cb-0868-4108-996f-a87fe290d90d",
+  "JsonMetadataSource::txt": "Operations JSONMETA",
+  "MsQuerySource::txt": "Operations MSSQL",
+  "PgQuerySource::txt": "Operations PGSQL",
+  "Roles": null
+}
+
+[TEXTPART Operations JSONMETA]
+{
+  "Alias": "Operations",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Активные операции",
+  "Columns": [
+    {
+      "Alias": "TypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.TypeID"
+    },
+    {
+      "Alias": "TypeName",
+      "Appearance": null,
+      "Caption": "$Views_Operations_Type",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "lot.Value",
+      "TreatValueAsUtc": false,
+      "Type": "$OperationTypes.Name"
+    },
+    {
+      "Alias": "OperationID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.ID"
+    },
+    {
+      "Alias": "OperationName",
+      "Appearance": null,
+      "Caption": "$Views_Operations_Name",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "o.Digest",
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.Digest"
+    },
+    {
+      "Alias": "StateID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.StateID"
+    },
+    {
+      "Alias": "StateName",
+      "Appearance": null,
+      "Caption": "$Views_Operations_State",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "los.Value",
+      "TreatValueAsUtc": false,
+      "Type": "$OperationStates.Name"
+    },
+    {
+      "Alias": "Progress",
+      "Appearance": null,
+      "Caption": "%",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "o.Progress",
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "CreatedByID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.CreatedByID"
+    },
+    {
+      "Alias": "CreatedByName",
+      "Appearance": null,
+      "Caption": "$Views_Operations_User",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "o.CreatedByName",
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.CreatedByName"
+    },
+    {
+      "Alias": "Created",
+      "Appearance": null,
+      "Caption": "$Views_Operations_Created",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "o.Created",
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.Created"
+    },
+    {
+      "Alias": "InProgress",
+      "Appearance": null,
+      "Caption": "$Views_Operations_InProgress",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "o.InProgress",
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.InProgress"
+    },
+    {
+      "Alias": "Completed",
+      "Appearance": null,
+      "Caption": "$Views_Operations_Completed",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "o.Completed",
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.Completed"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "Created",
+      "SortDirection": "Descending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": [
+    {
+      "Condition": null,
+      "Data": null,
+      "Order::int": 0,
+      "TypeName": "Tessa.Extensions.Platform.Client.Cards.OpenFromOperationsOnDoubleClickExtension"
+    }
+  ],
+  "GroupingColumn": null,
+  "MultiSelect": true,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "TypeName",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Operations_Type_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$OperationTypes.Name"
+    },
+    {
+      "Alias": "Digest",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Operations_Name_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.Digest"
+    },
+    {
+      "Alias": "StateName",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Operations_State_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$OperationStates.Name"
+    },
+    {
+      "Alias": "Progress",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Operations_Progress_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.Progress"
+    },
+    {
+      "Alias": "CreatedByID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          4
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "Users"
+      },
+      "Caption": "$Views_Operations_User_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "PersonalRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.CreatedByID"
+    },
+    {
+      "Alias": "CreatedByName",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Operations_UserName_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.CreatedByName"
+    },
+    {
+      "Alias": "Created",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Operations_Created_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.Created"
+    },
+    {
+      "Alias": "InProgress",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Operations_InProgress_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.InProgress"
+    },
+    {
+      "Alias": "Completed",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Operations_Completed_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Operations.Completed"
+    }
+  ],
+  "QuickSearchParam": "TypeName",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Operation",
+      "Condition": null,
+      "DisplayValueColumn": "TypeName",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "Operations"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART Operations MSSQL]
+SELECT
+	[o].[TypeID],
+	[ot].[Name]							AS [TypeName],
+	[o].[ID]							AS [OperationID],
+	[o].[Digest]						AS [OperationName],
+	[o].[StateID],
+	[os].[Name]							AS [StateName],
+	LTRIM(STR([o].[Progress], 6, 2))	AS [Progress],
+	[o].[CreatedByID],
+	[o].[CreatedByName],
+	[o].[Created],
+	[o].[InProgress],
+	[o].[Completed]
+FROM [Operations] AS [o] WITH (NOLOCK)
+INNER JOIN [OperationTypes] AS [ot] WITH (NOLOCK)
+	ON [ot].[ID] = [o].[TypeID]
+#if(TypeName || request.SortedBy("TypeName")) {
+CROSS APPLY [Localization]([ot].[Name], #param(locale)) AS [lot]
+}
+INNER JOIN [OperationStates] AS [os] WITH (NOLOCK)
+	ON [os].[ID] = [o].[StateID]
+#if(StateName || request.SortedBy("StateName")) {
+CROSS APPLY [Localization]([os].[Name], #param(locale)) AS [los]
+}
+WHERE 1 = 1
+	#param(TypeName, [lot].[Value])
+	#param(Digest, [o].[Digest])
+	#param(StateName, [los].[Value])
+	#param(Progress, [o].[Progress])
+	#param(CreatedByID, [o].[CreatedByID])
+	#param(CreatedByName, [o].[CreatedByName])
+	#param(Created, [o].[Created])
+	#param(InProgress, [o].[InProgress])
+	#param(Completed, [o].[Completed])
+ORDER BY #order_by
+
+[TEXTPART Operations PGSQL]
+SELECT
+	"o"."TypeID",
+	"ot"."Name"					AS "TypeName",
+	"o"."ID"					AS "OperationID",
+	"o"."Digest"				AS "OperationName",
+	"o"."StateID",
+	"os"."Name"					AS "StateName",
+	trim(leading ' ' from to_char("o"."Progress", '990D99')) AS "Progress",
+	"o"."CreatedByID",
+	"o"."CreatedByName",
+	"o"."Created",
+	"o"."InProgress",
+	"o"."Completed"
+FROM "Operations" AS "o"
+INNER JOIN "OperationTypes" AS "ot"
+	ON "ot"."ID" = "o"."TypeID"
+#if(TypeName || request.SortedBy("TypeName")) {
+CROSS JOIN "Localization"("ot"."Name", #param(locale)) AS "lot"
+}
+INNER JOIN "OperationStates" AS "os"
+	ON "os"."ID" = "o"."StateID"
+#if(StateName || request.SortedBy("StateName")) {
+CROSS JOIN "Localization"("os"."Name", #param(locale)) AS "los"
+}
+WHERE true
+	#param(TypeName, "lot"."Value")
+	#param(Digest, "o"."Digest")
+	#param(StateName, "los"."Value")
+	#param(Progress, "o"."Progress")
+	#param(CreatedByID, "o"."CreatedByID")
+	#param(CreatedByName, "o"."CreatedByName")
+	#param(Created, "o"."Created")
+	#param(InProgress, "o"."InProgress")
+	#param(Completed, "o"."Completed")
+ORDER BY #order_by

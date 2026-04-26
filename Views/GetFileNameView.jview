@@ -1,0 +1,84 @@
+{
+  "Alias": "GetFileNameView",
+  "Caption": "GetFileNameView",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Testing",
+  "ID::uid": "1eb7431c-32f1-4ed6-bf71-57a842d61949",
+  "JsonMetadataSource::txt": "GetFileNameView JSONMETA",
+  "MsQuerySource::txt": "GetFileNameView MSSQL",
+  "PgQuerySource::txt": "GetFileNameView PGSQL",
+  "Roles": null
+}
+
+[TEXTPART GetFileNameView JSONMETA]
+{
+  "Alias": "GetFileNameView",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "GetFileNameView",
+  "Columns": [
+    {
+      "Alias": "PreviewPath",
+      "Appearance": null,
+      "Caption": "PreviewPath",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "FileName",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "FileName",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART GetFileNameView MSSQL]
+select #if(FileName){ #param(FileName) } {''} as [PreviewPath]
+
+[TEXTPART GetFileNameView PGSQL]
+select #if(FileName){ #param(FileName) } {''} as "PreviewPath"

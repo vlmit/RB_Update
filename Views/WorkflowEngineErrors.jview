@@ -1,0 +1,249 @@
+{
+  "Alias": "WorkflowEngineErrors",
+  "Caption": "Ошибки процесса",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "WorkflowEngine",
+  "ID::uid": "6138ccf4-b5a2-4789-a3c2-82382ae666a2",
+  "JsonMetadataSource::txt": "WorkflowEngineErrors JSONMETA",
+  "MsQuerySource::txt": "WorkflowEngineErrors MSSQL",
+  "PgQuerySource::txt": "WorkflowEngineErrors PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "6138ccf4-b5a2-4789-a3c2-82382ae666a2",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART WorkflowEngineErrors JSONMETA]
+{
+  "Alias": "WorkflowEngineErrors",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Ошибки процесса",
+  "Columns": [
+    {
+      "Alias": "ProcessErrorID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$WorkflowEngineErrors.ErrorCardID"
+    },
+    {
+      "Alias": "ProcessErrorAdded",
+      "Appearance": null,
+      "Caption": "$Views_WorkflowEngineErrors_Added",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "wee.Added",
+      "TreatValueAsUtc": false,
+      "Type": "$WorkflowEngineErrors.Added"
+    },
+    {
+      "Alias": "ProcessErrorText",
+      "Appearance": null,
+      "Caption": "$Views_WorkflowEngineErrors_ErrorText",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Errors.Text"
+    },
+    {
+      "Alias": "ProcessNodeInstanceID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$WorkflowEngineErrors.NodeRowID"
+    },
+    {
+      "Alias": "ProcessNodeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$WorkflowEngineNodes.NodeID"
+    },
+    {
+      "Alias": "ProcessIsAsync",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$WorkflowEngineErrors.IsAsync"
+    },
+    {
+      "Alias": "ProcessResumable",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$WorkflowEngineErrors.Resumable"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "ProcessErrorAdded",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Added",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_WorkflowEngineErrors_Added_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$WorkflowEngineErrors.Added"
+    },
+    {
+      "Alias": "ProcessInstance",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_WorkflowEngineErrors_Process_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$WorkflowEngineNodes.ProcessRowID"
+    },
+    {
+      "Alias": "Active",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_WorkflowEngineErrors_ShowActiveOnly_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$WorkflowEngineErrors.Active"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART WorkflowEngineErrors MSSQL]
+SELECT
+	[wee].[ErrorCardID] as [ProcessErrorID]
+	,[wee].[Added] as [ProcessErrorAdded]
+	,[e].[Text] as [ProcessErrorText]
+	,[wee].[NodeRowID] as [ProcessNodeInstanceID]
+	,[wen].[NodeID] as [ProcessNodeID]
+	,[wee].[IsAsync] as [ProcessIsAsync]
+	,[wee].[Resumable] as [ProcessResumable]
+FROM [WorkflowEngineErrors] [wee] WITH(NOLOCK)
+INNER JOIN [Errors] [e] WITH(NOLOCK) ON [e].[ID] = [wee].[ErrorCardID]
+INNER JOIN [WorkflowEngineNodes] [wen] WITH(NOLOCK) ON [wen].[RowID] = [wee].[NodeRowID] 
+
+WHERE 1 = 1
+	#param(ProcessInstance, [wen].[ProcessRowID])
+	#param(Active, [wee].[Active])
+	#param(Added, [wee].[Added])
+ORDER BY #order_by
+
+[TEXTPART WorkflowEngineErrors PGSQL]
+SELECT
+	"wee"."ErrorCardID" as "ProcessErrorID"
+	,"wee"."Added" as "ProcessErrorAdded"
+	,"e"."Text" as "ProcessErrorText"
+	,"wee"."NodeRowID" as "ProcessNodeInstanceID"
+	,"wen"."NodeID" as "ProcessNodeID"
+	,"wee"."IsAsync" as "ProcessIsAsync"
+	,"wee"."Resumable" as "ProcessResumable"
+FROM "WorkflowEngineErrors" "wee"
+INNER JOIN "Errors" "e"ON "e"."ID" = "wee"."ErrorCardID"
+INNER JOIN "WorkflowEngineNodes" "wen" ON "wen"."RowID" = "wee"."NodeRowID" 
+
+WHERE true
+	#param(ProcessInstance, "wen"."ProcessRowID")
+	#param(Active, "wee"."Active")
+	#param(Added, "wee"."Added")
+ORDER BY #order_by

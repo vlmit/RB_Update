@@ -1,0 +1,24 @@
+﻿{
+  "Blocks": [],
+  "Caption": "$KrActions_Registration",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 16,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "FilePreviewIsDisabled": false,
+    "HorizontalInterval::int": 10,
+    "Interval::int": 10
+  },
+  "Group": "WorkflowActions",
+  "ID::uid": "bf4641ad-f4dc-4a75-83f4-534cba8bf225",
+  "InstanceType::int": 0,
+  "Name": "KrRegistrationAction",
+  "SchemeItems": [],
+  "TabCaption": "$CardTypes_Tabs_Card",
+  "TabOrder::int": 0,
+  "Validators": []
+}

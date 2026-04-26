@@ -1,0 +1,22 @@
+﻿{
+  "Blocks": [],
+  "Caption": "Used by the system. Do not modify it.",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 400,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "Interval::int": 10
+  },
+  "Group": "System",
+  "ID::uid": "7e6a9f59-0889-4b4d-8989-9f0c70c39f90",
+  "InstanceType::int": 0,
+  "Name": "UserSettingsSystemType",
+  "SchemeItems": [],
+  "TabCaption": "$CardTypes_Tabs_Card",
+  "TabOrder::int": 0,
+  "Validators": []
+}

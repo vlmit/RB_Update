@@ -1,0 +1,231 @@
+﻿{
+  "ID": "3bd90ac7-5400-4c68-a795-f825ec4392a6",
+  "Name": "KrTypes",
+  "Priority": 0,
+  "Entries": [
+    {
+      "Name": "KrTypes_DocTypes_Addendum",
+      "Comment": "Тип документа - дополнительное соглашение",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Addendum"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дополнительное соглашение"
+        }
+      ]
+    },
+    {
+      "Name": "KrTypes_DocTypes_Contract",
+      "Comment": "Тип документа - договор",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Contract"
+        },
+        {
+          "Culture": 25,
+          "Value": "Договор"
+        }
+      ]
+    },
+    {
+      "Name": "KrTypes_DocTypes_Document",
+      "Comment": "Тип документа - документ",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Document"
+        },
+        {
+          "Culture": 25,
+          "Value": "Документ"
+        }
+      ]
+    },
+    {
+      "Name": "KrTypes_DocTypes_Incoming",
+      "Comment": "Тип документа - входящий",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Incoming"
+        },
+        {
+          "Culture": 25,
+          "Value": "Входящий"
+        }
+      ]
+    },
+    {
+      "Name": "KrTypes_DocTypes_Instruction",
+      "Comment": "Тип документа - распоряжение",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Directive"
+        },
+        {
+          "Culture": 25,
+          "Value": "Распоряжение"
+        }
+      ]
+    },
+    {
+      "Name": "KrTypes_DocTypes_Order",
+      "Comment": "Тип документа - приказ",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Order"
+        },
+        {
+          "Culture": 25,
+          "Value": "Приказ"
+        }
+      ]
+    },
+    {
+      "Name": "KrTypes_DocTypes_Outgoing",
+      "Comment": "Тип документа - исходящий",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Outgoing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исходящий"
+        }
+      ]
+    },
+    {
+      "Name": "KrTypes_DocTypes_ServiceRecord",
+      "Comment": "Тип документа - служебная записка",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Official note"
+        },
+        {
+          "Culture": 25,
+          "Value": "Служебная записка"
+        }
+      ]
+    },
+    {
+      "Name": "KrTypes_TaskKinds_Advisory",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Advisory approval"
+        },
+        {
+          "Culture": 25,
+          "Value": "Рекомендательное согласование"
+        }
+      ]
+    },
+    {
+      "Name": "ManagerWorkplace_SettingsEditor_ActiveImageColumnName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Column with the image of the selected tile"
+        },
+        {
+          "Culture": 25,
+          "Value": "Столбец с изображением выбранной плитки"
+        }
+      ]
+    },
+    {
+      "Name": "ManagerWorkplace_SettingsEditor_CardId",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Identifier of card containing images"
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор карточки с изображениями"
+        }
+      ]
+    },
+    {
+      "Name": "ManagerWorkplace_SettingsEditor_CountColumnName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Column with the number of displayed objects"
+        },
+        {
+          "Culture": 25,
+          "Value": "Столбец с количеством отображаемых объектов"
+        }
+      ]
+    },
+    {
+      "Name": "ManagerWorkplace_SettingsEditor_HoverImageColumnName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Column with image displayed on hover over tile"
+        },
+        {
+          "Culture": 25,
+          "Value": "Столбец с изображением при наведении на плитку"
+        }
+      ]
+    },
+    {
+      "Name": "ManagerWorkplace_SettingsEditor_InactiveImageColumnName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Column with an image of an unselected tile"
+        },
+        {
+          "Culture": 25,
+          "Value": "Столбец с изображением невыбранной плитки"
+        }
+      ]
+    },
+    {
+      "Name": "ManagerWorkplace_SettingsEditor_TileColumnName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Column with the displaying tile name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Столбец с отображаемым названием плитки"
+        }
+      ]
+    },
+    {
+      "Name": "ManagerWorkplace_SettingsEditor_WindowCaption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Manager workplace settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки рабочего места руководителя"
+        }
+      ]
+    }
+  ]
+}

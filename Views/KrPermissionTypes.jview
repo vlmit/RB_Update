@@ -1,0 +1,138 @@
+{
+  "Alias": "KrPermissionTypes",
+  "Caption": "Типы карточек правила доступа",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Kr Wf",
+  "ID::uid": "54026b2a-6699-425c-8669-5ad5c75945f9",
+  "JsonMetadataSource::txt": "KrPermissionTypes JSONMETA",
+  "MsQuerySource::txt": "KrPermissionTypes MSSQL",
+  "PgQuerySource::txt": "KrPermissionTypes PGSQL",
+  "Roles": null
+}
+
+[TEXTPART KrPermissionTypes JSONMETA]
+{
+  "Alias": "KrPermissionTypes",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Типы карточек правила доступа",
+  "Columns": [
+    {
+      "Alias": "KrPermissionTypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionTypes.TypeID"
+    },
+    {
+      "Alias": "KrPermissionTypeCaption",
+      "Appearance": null,
+      "Caption": "$Views_KrPermissions_Types",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "lType.Value",
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionTypes.TypeCaption"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "KrPermissionTypeCaption",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": true,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "AccessRule",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Caption",
+        "PopupColumns": null,
+        "RefPrefix": null,
+        "ViewAlias": "KrPermissions"
+      },
+      "Caption": "Access rule",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "KrPermissions",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrPermissionTypes.ID"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "KrPermissionType",
+      "Condition": null,
+      "DisplayValueColumn": "KrPermissionTypeCaption",
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "KrPermissionTypes"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART KrPermissionTypes MSSQL]
+SELECT
+	[t].[TypeID] AS [KrPermissionTypeID],
+	[t].[TypeCaption] AS [KrPermissionTypeCaption]
+FROM [KrPermissionTypes] AS [t] WITH(NOLOCK)
+CROSS APPLY [Localization]([t].[TypeCaption], #param(locale)) AS [lType]
+WHERE 1 = 1
+	#param(AccessRule, [t].[ID])
+ORDER BY #order_by
+
+[TEXTPART KrPermissionTypes PGSQL]
+SELECT
+	"t"."TypeID" AS "KrPermissionTypeID",
+	"t"."TypeCaption" AS "KrPermissionTypeCaption"
+FROM "KrPermissionTypes" AS "t"
+CROSS JOIN "Localization"("t"."TypeCaption", #param(locale)) AS "lType"
+WHERE true
+	#param(AccessRule, "t"."ID")
+ORDER BY #order_by

@@ -1,0 +1,2415 @@
+﻿{
+  "ID": "37984470-e17f-4ea3-95ba-ddeb72c04ccb",
+  "Name": "KrMessages",
+  "Priority": 0,
+  "Entries": [
+    {
+      "Name": "KrMessages_Acquaintance_Completed",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Document has been sent for acquaintance. Employees: {0}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Документ отправлен на ознакомление. Сотрудников: {0}."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Acquaintance_NotEnoughPermissions",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Not enough permissions to send acquaintance."
+        },
+        {
+          "Culture": 25,
+          "Value": "Недостаточно прав для отправки на ознакомление."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Acquaintance_Notification_Body",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "You are assigned to read this document and be informed about its existence. Please open the document and read its content. You're considered to be informed once you open the document."
+        },
+        {
+          "Culture": 25,
+          "Value": "Документ направлен вам на ознакомление. Пожалуйста, откройте документ и прочитайте его. Ознакомление подтверждается открытием документа."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Acquaintance_Notification_Comment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Comment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Комментарий"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Acquaintance_Notification_Sender",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sender"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отправитель"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Acquaintance_Notification_Subject",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Acquaintance: "
+        },
+        {
+          "Culture": 25,
+          "Value": "Ознакомление:"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Acquaintance_Received",
+      "Comment": "{0} - имя отправителя.\n{1} - дата отправки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The document is marked as read.\nSent by: {0}, {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вы ознакомились с документом.\nОтправитель: {0}, {1}"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Acquaintance_ReceivedAndCommented",
+      "Comment": "{0} - имя отправителя.\n{1} - дата отправки.\n{2} - текст комментария, оставленного инициатором ознакомления.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The document is marked as read.\nSent by: {0}, {1}\nComment: {2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вы ознакомились с документом.\nОтправитель: {0}, {1}\nКомментарий: {2}"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Acquaintance_RolesRequired",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Groups or employees aren't specified."
+        },
+        {
+          "Culture": 25,
+          "Value": "Группы или сотрудники не заданы."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_AddressNotSpecified",
+      "Comment": "Сообщение об ошибке - не указан делегат при делегировании задания",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't delegate the task because the address is not specified."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно делегировать задание - не указан получатель."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ApprovalCaption",
+      "Comment": "Название \"Мобильное согласование\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Mobile approval"
+        },
+        {
+          "Culture": 25,
+          "Value": "Мобильное согласование"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ApprovalCardTypes",
+      "Comment": "Сообщение валидации при незаполненных типах карточек в строке с настройками маршрута.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card Types are required for an approval stage settings row."
+        },
+        {
+          "Culture": 25,
+          "Value": "Типы карточки не заполнены для строки с настройками маршрута."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ApprovalEmptyCommentMessage",
+      "Comment": "Сообщение \"Комментарий отсутствует\", используемое в мобильном согласовании в качестве комментария, когда он не был задан. Не должно оканчиваться на точку, т.к. точка ставится системой \"снаружи\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No comment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Комментарий отсутствует"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ApprovalLimitationOutOfCalendar",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't determine planned limitation for a task. It is possible that calendar isn't calculated. Please, contact administrator."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно определить запланированный срок задания. Возможно, календарь не рассчитан. Обратитесь к администратору."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ApprovalProcessIsAlreadyActive",
+      "Comment": "Сообщение об ошибке - процесс согласования уже начат",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approval process has already begun."
+        },
+        {
+          "Culture": 25,
+          "Value": "Процесс согласования уже начат."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ApprovalResultMessage",
+      "Comment": "Сообщение \"Согласовано\" результата мобильного согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approved"
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласовано"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ApprovalStageGroups",
+      "Comment": "Сообщение валидации при незаполненных группах этапов в строке с настройками маршрута.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stage Groups are required for an approval stage settings row."
+        },
+        {
+          "Culture": 25,
+          "Value": "Группы этапа не заполнены для строки с настройками маршрута."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ApprovalStageRoles",
+      "Comment": "Сообщение валидации при незаполненных ролях этапов в строке с настройками маршрута.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stage Role are required for an approval stage settings row."
+        },
+        {
+          "Culture": 25,
+          "Value": "Роли этапа не заполнены для строки с настройками маршрута."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ApprovalStageTypes",
+      "Comment": "Сообщение валидации при незаполненных типах этапов в строке с настройками маршрута.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stage Type are required for an approval stage settings row."
+        },
+        {
+          "Culture": 25,
+          "Value": "Типы этапа не заполнены для строки с настройками маршрута."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ApproveLink",
+      "Comment": "Ссылка \"Согласовать\" для мобильного согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approve"
+        },
+        {
+          "Culture": 25,
+          "Value": "Согласовать"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Approving",
+      "Comment": "Часть сообщения об ошибке - согласование",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "approval process"
+        },
+        {
+          "Culture": 25,
+          "Value": "согласование"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CantCreateCardWithoutDocType",
+      "Comment": "Сообщение о невозможности создать карточку без указания типа документа",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Document type is required in order to create the card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать карточку данного типа без указания типа документа."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CantCreateTemplateWithoutDocType",
+      "Comment": "Сообщение о невозможности создать шаблон без указания типа документа",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create template because there is no specified document type in the base card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать шаблон - в базовой карточке не указан тип документа."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CantFindApprovalInfoTask",
+      "Comment": "Сообщение об ошибке - не найден тип задания-информации о ходе процесса",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't find type of the virtual task \"Approval process information\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не найден тип виртуального задания \"Информация процесса согласования\"."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CantFindCurrentApprovalStage",
+      "Comment": "Сообщение об ошибке - не удалось найти текущий этап согласования.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't find current approval stage."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось найти текущий этап согласования."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CantGetTaskResultUnknownType",
+      "Comment": "Сообщение об ошибке - невозможно получить результат задания неизвестного типа",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't get task result because task type is unknown."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно получить результат завершения задания - тип задания неизвестен."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CantRevoke",
+      "Comment": "Сообщение об ошибке отзыва процесса",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't revoke the approval process : {0}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно отозвать процесс : {0}."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CardContainsApprovalTasks",
+      "Comment": "Сообщение об ошибке - карточка содержит задания согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card contains approval tasks."
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточка содержит задания процесса согласования."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CardDocTypeRequired",
+      "Comment": "Сообщение валидации при незаполненных типах карточек/документов в настройках включения группировки по циклам",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card or document type required for cycle grouping settings row."
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип карточки или документа не указан в настройках группировки по циклам."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CardHasNoTokenWhenSaving",
+      "Comment": "Сообщение об отсутствии токена прав доступа в карточке во время сохранения",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card has no permission token when saving."
+        },
+        {
+          "Culture": 25,
+          "Value": "При сохранении карточка не содержала токена прав доступа."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CardIdNotFound",
+      "Comment": "Часть сообщения об ошибке - не найден ИД карточки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card ID is not found."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не найден идентификатор карточки."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CardType",
+      "Comment": "Часть сообщения об ошибке - тип карточки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card"
+        },
+        {
+          "Culture": 25,
+          "Value": "карточки"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CardTypeDoesntUseStandardSolution",
+      "Comment": "Сообщение об ошибке - тип карточки не включен в типовое решение",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card type is not included into standard solution."
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип карточки не включен в типовое решение."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CommentIsNeeded",
+      "Comment": "Сообщение об ошибке - требуется комментарий",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Comment is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Комментарий не указан."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CommentIsNeededWhenDeclining",
+      "Comment": "Сообщение об ошибке - необходимо указать комментарий при отказе в подписании",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Comment is required in order to decline."
+        },
+        {
+          "Culture": 25,
+          "Value": "При отказе в подписании необходимо указать комментарий."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CommentIsNeededWhenDisapproving",
+      "Comment": "Сообщение об ошибке - необходимо указать комментарий при отказе в согласовании",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Comment is required in order to reject."
+        },
+        {
+          "Culture": 25,
+          "Value": "При отказе в согласовании необходимо указать комментарий."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CommentTextMessage",
+      "Comment": "Подсказка в тексте ответного письма",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Your comment goes above this line"
+        },
+        {
+          "Culture": 25,
+          "Value": "Текст комментария должен быть выше этой строки"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CompleteTaskResultMessage",
+      "Comment": "Сообщение \"Завершено\" результата мобильного завершения задачи",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Completed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершено"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_CurrencyNameIsNotUnique",
+      "Comment": "Валюта с указанным названием уже существует.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Currency with specified name already exists."
+        },
+        {
+          "Culture": 25,
+          "Value": "Валюта с указанным названием уже существует."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_DeclineLink",
+      "Comment": "Ссылка \"Отказать\" для мобильного согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Decline"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отказать"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_DecliningResultMessage",
+      "Comment": "Сообщение \"Отказано\" результата мобильного согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Declined"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отказано"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_DefaultAdditionalApprovalComment",
+      "Comment": "Комментарий для обычного доп согласования.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "You are assigned to be an additional approver"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вы назначены дополнительным согласующим"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_DefaultModeRequired",
+      "Comment": "Сообщение валидации при незаполненном режиме по умолчанию в настройках включения группировки по циклам",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Default display mode required for cycle grouping settings row."
+        },
+        {
+          "Culture": 25,
+          "Value": "Режим отображения по умолчанию не указан в настройках группировки по циклам."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_DisapprovalResultMessage",
+      "Comment": "Сообщение \"Не согласовано\" результата мобильного согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Rejected"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не согласовано"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_DisapproveLink",
+      "Comment": "Ссылка \"Не согласовать\" для мобильного согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Reject"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не согласовать"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_DocType",
+      "Comment": "Часть сообщения об ошибке - тип документа",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Document"
+        },
+        {
+          "Culture": 25,
+          "Value": "документа"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_DocTypeNotSpecified",
+      "Comment": "Сообщение об ошибке - в карточке не указан тип документа",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card type uses document types, but current card has no specified document type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип карточки использует типы документов, но в карточке не указан тип документа."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_DocumentCategoryNameIsNotUnique",
+      "Comment": "Категория документа с указанным наименованием уже существует для этого типа документа.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Document category with specified title already exists for this document type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Категория документа с указанным наименованием уже существует для этого типа документа."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Error_CantGetTimeZonesSettings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't get time zones settings card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось получить карточку с настройками временных зон."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Error_PerformerIsNotPersonalRole",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Performer role \"{0}\" should be a personal role, i.e. an employee. Combining performers into single role requires every performer to be personal role."
+        },
+        {
+          "Culture": 25,
+          "Value": "Роль исполнителя \"{0}\" должна быть персональной ролью, т.е. сотрудником. Объединение исполнителей выполняется только для персональных ролей."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ExcelTemplate_DefineNameCrossed",
+      "Comment": "Текст ошибки при пересечении нескольких именованных групп\n{0} - строка отображения именованной группы 1\n{1} - строка отображения именованной группы 2",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Named group {0} has crosses with named group {1}. Check the excel template."
+        },
+        {
+          "Culture": 25,
+          "Value": "Именованная группа {0} имеет пересечение с именованной группой {1}. Проверьте шаблон Excel."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ExcelTemplate_DefineNameCrossedRows",
+      "Comment": "Текст ошибки при наличии общих строк у именованных групп, где это не должно быть\n{0} - строка отображения именованной группы 1\n{1} - строка отображения именованной группы 2",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Named group {0} has shared rows with named group {1}. Check the excel template."
+        },
+        {
+          "Culture": 25,
+          "Value": "Именованная группа {0} имеет общие строки с именованной группой {1}. Проверьте шаблон Excel."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ExcelTemplate_DefineNameCrossesMergeCell",
+      "Comment": "Текст ошибки при пересечении именованной группы с смерженными ячейками\n{0} - строка отображения именованной группы 1\n{1} - строка отображения смерженных ячеек",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Named group {0} has crosses with merge cells {1}. Check the excel template."
+        },
+        {
+          "Culture": 25,
+          "Value": "Именованная группа {0} имеет пересечение с объединенными ячейками '{1}'. Проверьте шаблон Excel."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ExcelTemplate_DefineNameDisplayFormat",
+      "Comment": "Формат отображения именованной группы\n{0} - имя группы\n{1} - имя листа, к которому принадлежит группа\n{2} - диапазон ячеек",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "'{0}' (sheet '{1}', cells '{2}') "
+        },
+        {
+          "Culture": 25,
+          "Value": "'{0}' (лист '{1}', ячейки '{2}') "
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ExcelTemplate_DefineNameParsingError",
+      "Comment": "Сообщение при ошибке разбора элемента DefineName\n{0} - название именованной группы",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error during parsing named group '{0}'"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка при разборе именованной группы '{0}'"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ExcelTemplate_DefineNameRangesError",
+      "Comment": "Текст ошибки при наличии в именованной группе более одного диапазона ячеек\n{0} - имя именованной группы",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Named group '{0}' has more than one range of cells."
+        },
+        {
+          "Culture": 25,
+          "Value": "Именованная группа '{0}' имеет более одного диапазона ячеек."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ExcelTemplate_OperationNotSupported",
+      "Comment": "Текст ошибки о неподдерживаемой операции\n{0} - название операции\n{1} - тип объекта",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Operation '{0}' is not supported for '{1}' objects."
+        },
+        {
+          "Culture": 25,
+          "Value": "Операция '{0}' не поддерживается для объектов типа '{1}'."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ExcelTemplate_PlaceholdersWithoutTable",
+      "Comment": "Текст ошибки при нахождении плейсхолдеров, не соответствующих таблице с данными\n{0} - соответствующие плейсхолдеры через запятую",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Placeholders in a table aren't associated with data: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Плейсхолдеры в таблице не связаны с данными: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ExcelTemplate_SetChildGroupFailed",
+      "Comment": "Текст ошибки при нахождении двух Row групп в одной группирующей группе\n{0} - строка отображения группирующей именованной группы \n{1} - строка отображения именованной группы, которую пытаемся добавить\n{2} - строка отображения именовонной группы, уже добавленной в группирующую группу",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Named group {0} can contains only one inner named group. It includes named groups {1} and {2}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Именованная группа {0} может иметь только одну вложенную именованную группу. Сейчас в нее входят группы {1} и {2}."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_FileCategoryNameIsNotUnique",
+      "Comment": "Категория файла с указанным названием уже существует.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "File category with specified name already exists."
+        },
+        {
+          "Culture": 25,
+          "Value": "Категория файла с указанным названием уже существует."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Forums",
+      "Comment": "Часть сообщения об ошибке - \"форумы\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "forums"
+        },
+        {
+          "Culture": 25,
+          "Value": "форумы"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_HaveNoPermissionsToCreateCard",
+      "Comment": "Сообщение о недостаточности прав для создания карточки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Not enough permissions to create card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Недостаточно прав для создания карточки."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_HaveNoPermissionsToReadCard",
+      "Comment": "Сообщение о недостаточности прав для чтения карточки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Not enough permissions to read the card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Недостаточно прав на чтение карточки."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_HaveNoPermissionsToVizualizeRoute",
+      "Comment": "Сообщение о невозможности визуализировать маршрут из-за отсутствия прав на чтение карточки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There are not enough permissions to read the card in order to visualize the process route."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно визуализировать маршрут, т.к. нет прав на чтение карточки."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_InitiatorCannotBeRemoved",
+      "Comment": "Сообщение об ошибке - инициатор не может быть удален после начала согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Initiator can't be removed when the approval process is started."
+        },
+        {
+          "Culture": 25,
+          "Value": "Инициатор не может быть удален после начала согласования."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_KrStageSourceFailedBuild",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Compilation failed. See more info on compiler output tab."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сборка завершена с ошибками. Дополнительная информация на вкладке \"Результат компиляции\"."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_KrStageSourceSuccessfulBuild",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Compilation successful. See more info on compiler output tab."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сборка завершена успешно. Дополнительная информация на вкладке \"Результат компиляции\"."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_MethodDoesNotSupportCheckingCreatePermissions",
+      "Comment": "Сообщение об ошибке - метод не поддерживает проверку возможности создания карточки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Method doesn't support checking of the permissions to create card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Метод не поддерживает проверку допустимости создания карточки."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_MoreThenOneResponsible",
+      "Comment": "Сообщение об ошибке - не удалось добавить задание дополнительного согласования. Ответственных больше одного",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unable to add additional approval task. More than one responsible."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось добавить задание дополнительного согласования. Ответственных больше одного."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_NeedCardIDToCalculatePermissions",
+      "Comment": "Сообщение об ошибке - требуется ИД карточки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card ID is required in order to calculate specified permissions."
+        },
+        {
+          "Culture": 25,
+          "Value": "Для выбранного к проверке набора прав требуется идентификатор карточки."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_NeedDefaultCardRepositoryToCalculatePermissions",
+      "Comment": "Сообщение об ошибке - требуется дефолтный репозиторий карточек",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Default card repository (without extensions) is required in order to calculate specified permissions."
+        },
+        {
+          "Culture": 25,
+          "Value": "Для выбранного к проверке набора прав требуется репозиторий карточек (без расширений)."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_NeedRoleRepositoryToCalculatePermissions",
+      "Comment": "Сообщение об ошибке - требуется репозиторий ролей",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Role repository is required in order to calculate specified permissions."
+        },
+        {
+          "Culture": 25,
+          "Value": "Для выбранного к проверке набора прав требуется репозиторий ролей."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_NeedToSpecifyApprovers",
+      "Comment": "Сообщение об ошибке - необходимо указать согласующих",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Approvers are required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Необходимо указать согласующих."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_NeedToSpecifyAtLeastOneRole",
+      "Comment": "Сообщение об ошибке - необходимо указать по меньшей мере одну роль",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "You have to specify at least one role."
+        },
+        {
+          "Culture": 25,
+          "Value": "Необходимо указать хотя бы одну роль."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_NeedToSpecifyAtLeastOneType",
+      "Comment": "Сообщение об ошибке - необходимо указать по меньшей мере один тип",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "You have to specify at least one type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Необходимо указать хотя бы один тип."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_NeedToSpecifyRespondent",
+      "Comment": "Сообщение об ошибке - необходимо указать комментатора.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "You have to specify respondent."
+        },
+        {
+          "Culture": 25,
+          "Value": "Необходимо указать комментатора."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_NeedUnityContainerToCalculatePermissions",
+      "Comment": "Сообщение об ошибке - требуется unity container",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "UnityContainer is required in order to calculate specified permissions."
+        },
+        {
+          "Culture": 25,
+          "Value": "Для выбранного к проверке набора прав требуется UnityContainer."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_NoEditStage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There is no edit stage before the active approval stage."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нет этапа редактирования перед активным этапом согласования."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_NoPermissionsTo",
+      "Comment": "Часть сообщения об ошибке - нет разрешений",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Access error - not enough permissions to:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка доступа - нет разрешения:"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_PartnerNameFormat",
+      "Comment": "Формат имени генерируемого тестового контрагента.\n{0} - номер контрагента из последовательности.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Partner {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Контрагент {0}"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_PartnerNameIsNotUnique",
+      "Comment": "Контрагент с указанным наименованием уже существует.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Partner with specified short name already exists."
+        },
+        {
+          "Culture": 25,
+          "Value": "Контрагент с указанным кратким наименованием уже существует."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_PartnersGenerated",
+      "Comment": "Сообщение с указанием количества созданных контрагентов.\n{0} - количество созданных контрагентов.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Partners generated: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создано контрагентов: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_PermissionsGranted",
+      "Comment": "Часть сообщения о выдаче прав после запроса на перерасчет прав (по плитке \"редактировать\")",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Permissions granted:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выданы права:"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_PermissionsNotSpecified",
+      "Comment": "Предупреждение - не заданы разрешения",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Permissions are not specified"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разрешения не заданы"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_QuestionIsNeeded",
+      "Comment": "Сообщение об ошибке - необходимо указать вопрос",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Question is required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Необходимо указать вопрос."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Registration",
+      "Comment": "Часть сообщения об ошибке - регистрация",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "registration"
+        },
+        {
+          "Culture": 25,
+          "Value": "регистрацию"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Resolutions",
+      "Comment": "Часть сообщения об ошибке - \"типовой процесс исполнения\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "task chains of standard solution"
+        },
+        {
+          "Culture": 25,
+          "Value": "типовой процесс отправки задач"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ResponsibleAdditionalApprovalComment",
+      "Comment": "Комментарий для ответственного доп. согласования.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "You're assigned to be a responsible additional approver"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вы назначены ответственным дополнительным согласующим"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ResponsibleAdditionalDigest",
+      "Comment": "Дайджест для задания отвественного доп. согласующего.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "You are responsible additional approver"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вы ответственный дополнительный согласующий"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_SigningResultMessage",
+      "Comment": "Сообщение \"Подписано\" результата мобильного согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Signed"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подписано"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_SignLink",
+      "Comment": "Ссылка \"Подписать\" для мобильного согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Sign"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подписать"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_Stage",
+      "Comment": "Строка \"Этап\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stage"
+        },
+        {
+          "Culture": 25,
+          "Value": "Этап"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_StageCommonMethodValidName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Method name is invalid."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя метода не должно содержать пробелов и начинаться с цифры."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_StageTemplateNullReferenceException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Value {0} is not defined (null)."
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение {0} не определено (null)."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_StageTemplateRecalcSqlRolesException",
+      "Comment": "Сообщение об ошибке при вычислени SQL-согласующих\n{0} - название шаблона.\n{1} - коментарий\n{2} - id шаблона",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "SQL-roles recalculating error for template \"{0}\" {1}. ID = {2}."
+        },
+        {
+          "Culture": 25,
+          "Value": "При вычислении SQL-ролей для шаблона \"{0}\" возникла ошибка {1}. ID = {2}."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_StandardSolution",
+      "Comment": "Часть сообщения об ошибке - типовое решение",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "standard solution"
+        },
+        {
+          "Culture": 25,
+          "Value": "типовое решение"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_StateRequired",
+      "Comment": "Сообщение валидации при незаполненных состояниях в настройках включения группировки по циклам",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "State required for cycle grouping settings row."
+        },
+        {
+          "Culture": 25,
+          "Value": "Состояние не указано в настройках группировки по циклам."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_StatesNotSpecified",
+      "Comment": "Предупреждение - не заданы состояния карточки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card states are required."
+        },
+        {
+          "Culture": 25,
+          "Value": "Состояния карточки не заданы."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_TaskAuthorReplacesRequired",
+      "Comment": "Сообщение валидации при незаполненных ролях в строке с настройками задач.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Roles are required for a task settings row."
+        },
+        {
+          "Culture": 25,
+          "Value": "Роли не заполнены для строки с настройкой задач."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_TaskAuthorsRequired",
+      "Comment": "Сообщение валидации при незаполненных руководителях в строке с настройками задач.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Managers are required for a task settings row."
+        },
+        {
+          "Culture": 25,
+          "Value": "Руководители не заполнены для строки с настройкой задач."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_TaskCompleteLink",
+      "Comment": "Ссылка \"Завершить\" для мобильного завершения задачи",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Complete"
+        },
+        {
+          "Culture": 25,
+          "Value": "Завершить"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_TaskNotFoundInActive",
+      "Comment": "Сообщение об ошибке - задание не найдено в списке активных",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task is not found in the list of active tasks."
+        },
+        {
+          "Culture": 25,
+          "Value": "Задание не найдено в списке активных."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_TokenForOtherCard",
+      "Comment": "Сообщение об ошибке - токен подписан для другой карточки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Permissions token is signed for card ID = {0} but actual card ID = {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Токен подписан для другой карточки. В токене ID = {0}, но в карточке ID = {1}."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_TokenIncorrectlySigned",
+      "Comment": "Сообщение об ошибке - токен подписан неверно",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Permissions token sign is incorrect."
+        },
+        {
+          "Culture": 25,
+          "Value": "Токен подписан неверно."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_TypeDoesntUse",
+      "Comment": "Сообщение об ошибке - тип (карточки/документа) не использует (согласование/регистрацию)",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} type doesn't use {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип {0} не использует {1}."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_UnableToAddAdditionalApprovalTask",
+      "Comment": "Сообщение об ошибке - не удалось добавить задание дополнительного согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unable to add additional approval task."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось добавить задание дополнительного согласования."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_UnableToAddApprovalTask",
+      "Comment": "Сообщение об ошибке - не удалось добавить задание комментирования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unable to add approval task."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось добавить задание комментирования."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_UnableToAddCommentingTask",
+      "Comment": "Сообщение об ошибке - не удалось добавить задание комментирования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unable to add commenting task."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось добавить задание комментирования."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_UnableToAddEditingTask",
+      "Comment": "Сообщение об ошибке - не удалось добавить задание редактирования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unable to add editing task."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось добавить задание редактирования."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_UnableToCalculatePermissionsDependsOnTasks",
+      "Comment": "Сообщение об ошибке - не удалось рассчитать права доступа в зависимости от заданий карточки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unable to calculate permissions depending on tasks in the card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось рассчитать права доступа в зависимости от заданий карточки."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_UnableToFindTypeWithID",
+      "Comment": "Сообщение об ошибке - не найден тип документа",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unable to find document type with ID {0}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось найти тип документа с ID {0}."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_UnableToGetSatelliteID",
+      "Comment": "Сообщение об ошибке - не удалось получить ИД сателлита",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unable to get satellite card ID."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось получить идентификатор карточки-сателлита."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_UnableToGetSpecifiedDocType",
+      "Comment": "Сообщение об ошибке - не удалось получить указанный в карточке тип документа",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unable to get document type specified in the card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось получить указанный в карточке тип документа."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_UnableToLoadSatellite",
+      "Comment": "Сообщение об ошибке - не удалось загрузить сателлит",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unable to load the satellite card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось загрузить карточку-сателлит."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_UnknownCompletionOption",
+      "Comment": "Сообщение об ошибке - неизвестный вариант завершения задания",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unknown task completion option."
+        },
+        {
+          "Culture": 25,
+          "Value": "Неизвестный вариант завершения задания."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_UserNameFormat",
+      "Comment": "Формат имени генерируемого тестового сотрудника.\n{0} - номер сотрудника из последовательности.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Employee {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сотрудник {0}"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_UsersGenerated",
+      "Comment": "Сообщение с указанием количества созданных сотрудников.\n{0} - количество созданных сотрудников.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Employees generated: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создано сотрудников: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_ViolationOfGroupBoundaries",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Stage \"{0}\" is placed outside of its group \"{1}\". Stage groups should be sequential and should follow initial order (before it was modified manually). Stages from one group should be placed in the route without intersection with stages from other groups."
+        },
+        {
+          "Culture": 25,
+          "Value": "Этап \"{0}\" расположен вне своей группы \"{1}\". Группы этапов должны следовать друг за другом в исходном порядке (без их изменения вручную). Этапы из одной группы должны располагаться в маршруте, не перемешиваясь с этапами из других групп."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_WarnAboutUnsavedChanges",
+      "Comment": "Предупреждение о наличии изменений в секциях процесса согласования",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Settings of approval process has been changed. Please, save the card and then complete the task."
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки процесса согласования были изменены. Пожалуйста, сначала сохраните карточку, затем завершите задание."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_WarnCantCreateCardBasedOnTemplate",
+      "Comment": "Предпруждение о невозможности создать карточку по создаваемому шаблону",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Not enough permissions to create card based on created template."
+        },
+        {
+          "Culture": 25,
+          "Value": "Недостаточно прав для создания карточки по созданному шаблону."
+        }
+      ]
+    },
+    {
+      "Name": "KrMessages_WarnCantVizualizeRouteBeforeSaving",
+      "Comment": "Предупреждение о невозможности визуализации маршрута до первого сохранения карточки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't visualize the process route for the unsaved card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно визуализировать маршрут до сохранения карточки."
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_AvailableTasksMessage",
+      "Comment": "Текст уведомления, выводимое по всем новым заданиям.\n{0} - количество новых заданий.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "New tasks are available ({0})"
+        },
+        {
+          "Culture": 25,
+          "Value": "Доступны новые задания ({0})"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_AvailableTasksMessage_TooMany",
+      "Comment": "Текст уведомления, выводимое по всем новым заданиям, если их слишком много.\n{0} - количество новых заданий, о которых известно; на деле их может быть столько же или больше.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "New tasks are available ({0} or more)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Доступны новые задания (не менее {0})"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_ClickTaskTextToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Click to open \"My tasks\""
+        },
+        {
+          "Culture": 25,
+          "Value": "По клику открываются \"Мои задания\""
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_ClickTaskToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Click to open card with the task"
+        },
+        {
+          "Culture": 25,
+          "Value": "По клику открывается карточка с заданием"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_ErrorOccuredWhenLoadingTasks",
+      "Comment": "Сообщение, возникающее, когда при загрузке заданий возникла ошибка",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error occurred when loading tasks, it has been added to the log\nPlease, ask administrator to check it\n\nClick to open error window"
+        },
+        {
+          "Culture": 25,
+          "Value": "При загрузке заданий возникла ошибка, она была добавлена в лог\nПожалуйста, попросите администратора проверить его\n\nНажмите, чтобы открыть окно с ошибкой"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_NoNewTasksAreAvailable",
+      "Comment": "Текст уведомления, выводимый при отсутствии новых заданий, когда выполняется проверка вручную.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No new tasks are available"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отсутствуют новые задания"
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_UpdateKeysNotification_FirstParagraph",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "It is recommended to update signature and cipher keys in TESSA. They are being used to sign system data and to cipher specific user data in database."
+        },
+        {
+          "Culture": 25,
+          "Value": "Рекомендуется обновить ключи для подписи и шифрования в TESSA. Они используются для подписи служебных данных и для шифрования специфичных для пользователя данных в базе данных."
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_UpdateKeysNotification_SecondParagraph",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "In order to do this, use console application \"tadmin\". When it is launched without arguments, all available commands are listed, and you can type command name with argument \"--help\" argument for a short help regarding that command, for example: \"tadmin GetKey --help\". To update keys use commands \"GetKey\" and \"SetKey\" with arguments \"Signature\" and \"Cipher\". You can also paste generated keys, which are returned by \"tadmin GetKey Signature\" and \"tadmin GetKey Cipher\" commands, into app.json files manually under \"SignatureKey\" and \"CipherKey\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Для замены ключей используйте консольное приложение \"tadmin\". Когда оно запущено без аргументов, отображается список доступных команд, и вы можете ввести имя команды с аргументом \"--help\" для краткой справки по этой команде, например: \"tadmin GetKey --help\". Для замены ключей используйте команды \"GetKey\" и \"SetKey\" с аргументами \"Signature\" и \"Cipher\". Также вы можете вставить ключи, сгенерированные командами \"tadmin GetKey Signature\" и \"tadmin GetKey Cipher\", в файл app.json вручную в строки \"SignatureKey\" и \"CipherKey\"."
+        }
+      ]
+    },
+    {
+      "Name": "KrNotifications_UpdateKeysNotification_Subject",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "It is recommended to update signature and cipher keys in TESSA"
+        },
+        {
+          "Culture": 25,
+          "Value": "Рекомендуется обновить ключи для подписи и шифрования в TESSA"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_Agenda",
+      "Comment": "Заголовок строки в шаблоне протокола \"Повестка\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Agenda"
+        },
+        {
+          "Culture": 25,
+          "Value": "Повестка"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_Branch",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Protocol branch"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ветка протокола"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_Chairman",
+      "Comment": "Заголовок строки в шаблоне протокола \"Председатель\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Chairman"
+        },
+        {
+          "Culture": 25,
+          "Value": "Председатель"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_DateOfMeeting",
+      "Comment": "Заголовок строки в шаблоне протокола \"Дата проведения\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Date of the meeting"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата проведения"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_Decided",
+      "Comment": "Заголовок строки в шаблоне протокола \"Постановили\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Decided"
+        },
+        {
+          "Culture": 25,
+          "Value": "Постановили"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_Errand",
+      "Comment": "Заголовок строки в шаблоне протокола \"Поручение\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Errand"
+        },
+        {
+          "Culture": 25,
+          "Value": "Поручение"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_ErrandIsRequired",
+      "Comment": "Сообщение валидации при незаполненном поручении в одной из строк с решением.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Errand is required for a decision row."
+        },
+        {
+          "Culture": 25,
+          "Value": "Поручение не задано для строки с решением."
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_NoDecisionsWarning",
+      "Comment": "Предупреждение при отсутствии строк в таблице с решениями.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Decisions table is empty."
+        },
+        {
+          "Culture": 25,
+          "Value": "Таблица с решениями не заполнена."
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_Participants",
+      "Comment": "Заголовок строки в шаблоне протокола \"Участники\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Participants"
+        },
+        {
+          "Culture": 25,
+          "Value": "Участники"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_Planned",
+      "Comment": "Заголовок строки в шаблоне протокола \"Срок\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Planned date"
+        },
+        {
+          "Culture": 25,
+          "Value": "Срок"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_ProtocolFileName",
+      "Comment": "Предупреждение при наличии изменений в карточке перед рассылкой задач.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Protocol"
+        },
+        {
+          "Culture": 25,
+          "Value": "Протокол"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_ProtocolOfMeeting",
+      "Comment": "Заголовок строки в шаблоне протокола \"Протокол совещания по теме\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Protocol of the meeting on the topic"
+        },
+        {
+          "Culture": 25,
+          "Value": "Протокол совещания по теме"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_ProtocolOfMeeting_FileName",
+      "Comment": "Имя файла в шаблоне протокола \"Протокол совещания\", версия .docx",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Protocol of the meeting"
+        },
+        {
+          "Culture": 25,
+          "Value": "Протокол совещания"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_ProtocolOfMeetingExcel_FileName",
+      "Comment": "Имя файла в шаблоне протокола \"Протокол совещания\", версия .xlsx",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Protocol of the meeting"
+        },
+        {
+          "Culture": 25,
+          "Value": "Протокол совещания"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_ProtocolOfMeetingExcelTitle",
+      "Comment": "Заголовок строки в шаблоне протокола \"Протокол совещания (Excel)\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Protocol of the meeting (Excel)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Протокол совещания (Excel)"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_ProtocolOfMeetingTitle",
+      "Comment": "Колонтитул в шаблоне протокола \"Протокол совещания\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Protocol of the meeting"
+        },
+        {
+          "Culture": 25,
+          "Value": "Протокол совещания"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_ReplaceFileConfirmation",
+      "Comment": "Подтверждение по замене существующего файла протокола.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Protocol file already exists. Replace it?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл протокола уже существует. Заменить?"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_ReporterName",
+      "Comment": "Заголовок колонки \"Докладчик\" в шаблоне протокола в таблице \"Доклады\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Reporter"
+        },
+        {
+          "Culture": 25,
+          "Value": "Докладчик"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_ReporterRequired",
+      "Comment": "Сообщение валидации при незаполненном ФИО докладчика в одной из строк с докладом.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Report name is required for a report row."
+        },
+        {
+          "Culture": 25,
+          "Value": "ФИО докладчика не задано для строки с докладом."
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_Reports",
+      "Comment": "Заголовок строки в шаблоне протокола \"Доклады\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Reports"
+        },
+        {
+          "Culture": 25,
+          "Value": "Доклады"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_ReportSubject",
+      "Comment": "Заголовок колонки \"Тема\" в шаблоне протокола в таблице \"Доклады\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Subject"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тема"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_Responsibles",
+      "Comment": "Заголовок строки в шаблоне протокола \"Ответственные\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Responsibles"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ответственные"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_ResponsiblesRequired",
+      "Comment": "Сообщение валидации при незаполненном ответственном сотруднике в одной из строк с решением.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Responsible persons are required for a decision row."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ответственные сотрудники не заполнены для строки с решением."
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_Secretary",
+      "Comment": "Заголовок строки в шаблоне протокола \"Секретарь\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Secretary"
+        },
+        {
+          "Culture": 25,
+          "Value": "Секретарь"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_SendTasksConfirmation",
+      "Comment": "Подтверждение перед рассылкой задач.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Send tasks for each decision made?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разослать задачи для каждого принятого решения?"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_SubjectRequired",
+      "Comment": "Сообщение валидации при незаполненной теме доклада в одной из строк с докладом.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Report subject is required for a report row."
+        },
+        {
+          "Culture": 25,
+          "Value": "Тема доклада не задана для строки с докладом."
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_TaskHistoryGroup",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Protocol decisions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Решения по протоколу"
+        }
+      ]
+    },
+    {
+      "Name": "KrProtocols_TimeOfMeeting",
+      "Comment": "Заголовок строки в шаблоне протокола \"Время проведения\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Time of the meeting"
+        },
+        {
+          "Culture": 25,
+          "Value": "Время проведения"
+        }
+      ]
+    },
+    {
+      "Name": "KrTest_ExternalFilesGroup",
+      "Comment": "Группа для внешних файлов.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "External files"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внешние файлы"
+        }
+      ]
+    },
+    {
+      "Name": "KrTest_ExternalFileType",
+      "Comment": "Название типа для файла из внешней системы.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "External file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Внешний файл"
+        }
+      ]
+    },
+    {
+      "Name": "KrTest_ExternalSourceFiles",
+      "Comment": "Пункт меню файлового контрола, добавляющий файлы из внешнего источника.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Files from external source"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файлы из внешнего источника"
+        }
+      ]
+    },
+    {
+      "Name": "KrTest_GroupingBySource",
+      "Comment": "Группировка файлов по источнику.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "By source"
+        },
+        {
+          "Culture": 25,
+          "Value": "По источнику"
+        }
+      ]
+    },
+    {
+      "Name": "KrTest_LoadedFrom1C",
+      "Comment": "Сообщение в карточке \"Автомобиль\" при загрузке данных из виртуального 1С.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Data from 1C is loaded."
+        },
+        {
+          "Culture": 25,
+          "Value": "Данные из 1С загружены."
+        }
+      ]
+    },
+    {
+      "Name": "KrTest_MainFilesGroup",
+      "Comment": "Группа для основных файлов.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Files"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файлы"
+        }
+      ]
+    },
+    {
+      "Name": "KrTest_Splash_LoadingFrom1C",
+      "Comment": "Сплэш в карточке \"Автомобиль\" при загрузке данных из виртуального 1С.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Loading data from 1C..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Загрузка данных из 1С..."
+        }
+      ]
+    },
+    {
+      "Name": "KrTest_TestApprovalTile",
+      "Comment": "Плитка \"Тестовое согласование\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Test approval"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тестовое согласование"
+        }
+      ]
+    },
+    {
+      "Name": "KrTest_TestSignalTile",
+      "Comment": "Плитка \"Тестовый сигнал подпроцессу\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Test signal to subprocess"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тестовый сигнал подпроцессу"
+        }
+      ]
+    },
+    {
+      "Name": "KrVirtualFiles_CompilationErrorTemplate",
+      "Comment": "{0} - имя объекта, где произошла ошибка компиляции\n{1} - текст ошибки",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Compile error \"{0}\":\n{1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка при компиляции \"{0}\":\n{1}"
+        }
+      ]
+    },
+    {
+      "Name": "KrVirtualFiles_CompilationSuccessful",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Compilation is successful."
+        },
+        {
+          "Culture": 25,
+          "Value": "Компиляция выполнена успешно."
+        }
+      ]
+    },
+    {
+      "Name": "KrVirtualFiles_NoAccessToFile",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No access to this file. Update the card to see the actual file list."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нет доступа к данному файлу. Обновите карточку, чтобы увидеть актуальный список файлов."
+        }
+      ]
+    },
+    {
+      "Name": "KrVirtualFiles_ScriptsNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No scripts found"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрипты не обнаружены"
+        }
+      ]
+    },
+    {
+      "Name": "KrVirtualFiles_UnknownVirtualFile",
+      "Comment": "{0} - идентификатор виртуального файла",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unknown virtual file with id \"{0}\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Неизвестный виртуальный файл с идентификатором \"{0}\""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2205 @@
+﻿{
+  "ID": "1cdc33a6-290e-4e5b-aef9-8658f4169727",
+  "Name": "UI_Tiles",
+  "Priority": 0,
+  "Entries": [
+    {
+      "Name": "UI_Tiles_About",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "About TESSA"
+        },
+        {
+          "Culture": 25,
+          "Value": "О программе"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_About_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show \"About TESSA\" window"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показать окно \"О программе\""
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ActionHistory",
+      "Comment": "Заголовок тайла \"История действий\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Action history"
+        },
+        {
+          "Culture": 25,
+          "Value": "История действий"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ActionHistory_Tooltip",
+      "Comment": "Тултип тайла \"История действий\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Opens action history for the card in new tab"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открывает историю действий с карточкой в новой вкладке"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ActionsGrouping",
+      "Comment": "Заголовок тайла \"Действия\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Actions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Действия"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_AddFolder",
+      "Comment": "Заголовок тайла \"Добавить папку\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add folder..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить папку..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_AddStoredRequest",
+      "Comment": "Заголовок тайла \"Добавить сохраненный запрос\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add stored request..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить\nсохраненный запрос..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_BackToTemplate",
+      "Comment": "Заголовок тайла \"Назад к шаблону\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Back to template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Назад к шаблону"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_BackToTemplate_Tooltip",
+      "Comment": "Тултип тайла \"Назад к шаблону\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Go back to template editor"
+        },
+        {
+          "Culture": 25,
+          "Value": "Переходит назад к редактированию шаблона"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Browse",
+      "Comment": "Заголовок тайла \"Обзор\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Browse..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Обзор..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CardExport_Tooltip",
+      "Comment": "Тултип тайла \"Экспорт карточки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export card with files and tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспортирует карточку с файлами и заданиями"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CardStructure",
+      "Comment": "Заголовок тайла \"Структура карточки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card structure"
+        },
+        {
+          "Culture": 25,
+          "Value": "Структура карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CardStructure_Tooltip",
+      "Comment": "Тултип тайла \"Структура карточки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "View card structure with full system information"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображает структуру карточки со всей системной информацией"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CheckTasks",
+      "Comment": "Заголовок тайла \"Новые задания\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "New tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Новые задания"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CheckTasks_ToolTip",
+      "Comment": "Тултип тайла \"Новые задания\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Checks if new tasks are available and shows notification; the check is also performed periodically"
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверяет наличие новых заданий и выводит уведомление; проверка также выполняется периодически"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CheckTimeZonesInheritance",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Update inheritance"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновить связи"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CheckTimeZonesInheritanceToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Check inheritance of time zones in roles and fix it if it needs."
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверить связи наследования временных зон и исправить, если есть ошибки."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CheckTimeZonesOffsets",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Update offsets"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновить смещения"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CheckTimeZonesOffsetsToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Check time zone offsets in roles and fix it if it needs."
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверить смещения временных зон в ролях и исправить, если есть ошибки."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CloseSession",
+      "Comment": "Заголовок тайла \"Закрыть сессию\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Close session"
+        },
+        {
+          "Culture": 25,
+          "Value": "Закрыть сессию"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CloseSession_ToolTip",
+      "Comment": "Тултип тайла \"Закрыть сессию\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Close selected sessions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Закрывает выбранные сессии"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ColdTheme",
+      "Comment": "Заголовок тайла \"Холодная тема\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cold theme"
+        },
+        {
+          "Culture": 25,
+          "Value": "Холодная тема"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CopyFileToClipboard",
+      "Comment": "Заголовок тайла \"Скопировать файл в буфер\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Copy file\nto clipboard"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скопировать файл\nв буфер обмена"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CopyLink",
+      "Comment": "Заголовок тайла \"Копировать ссылку\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Copy link"
+        },
+        {
+          "Culture": 25,
+          "Value": "Копировать ссылку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CopyLink_Tooltip",
+      "Comment": "Тултип тайла \"Копировать ссылку\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Copy link to the card in clipboard"
+        },
+        {
+          "Culture": 25,
+          "Value": "Копирует ссылку на карточку в буфер обмена"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateCard",
+      "Comment": "Заголовок тайла \"Создать карточку\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать карточку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateCard_SpecificToolTip",
+      "Comment": "Тултип тайла \"Создать карточку\", когда плитка выполняет повторное создание последней карточки.\n{0} - имя типа карточки или документа, который будет создан.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Press to create card:  {0}\n\nCard is created the same way it was created previous time.\nIf it was created from template or as a copy, then it will be created the same way next time."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нажмите, чтобы создать карточку:  {0}\n\nКарточка создаётся точно таким же образом, как создавалась в предыдущий раз.\nЕсли она была создана по шаблону или как копия, то она повторно создаётся таким же образом."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateCard_Suffix_BasedOn",
+      "Comment": "Суффикс для тайла \"Создать карточку\", который создаётся на основании другой карточки (в типовом решении).",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "(based on card)"
+        },
+        {
+          "Culture": 25,
+          "Value": "(на основании)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateCard_Suffix_Copy",
+      "Comment": "Суффикс для тайла \"Создать карточку\", который создаётся как копия.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "(as a copy)"
+        },
+        {
+          "Culture": 25,
+          "Value": "(как копию)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateCard_Suffix_Template",
+      "Comment": "Суффикс для тайла \"Создать карточку\", который создаётся по шаблону.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "(from template)"
+        },
+        {
+          "Culture": 25,
+          "Value": "(по шаблону)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateCard_Suffix_TemplateFile",
+      "Comment": "Суффикс для тайла \"Создать карточку\", который создаётся по шаблону из файла.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "(from file template)"
+        },
+        {
+          "Culture": 25,
+          "Value": "(по шаблону из файла)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateCardFromLibrary",
+      "Comment": "Заголовок тайла \"Создать карточку из библиотеки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create card\nusing library"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать карточку\nиз библиотеки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateCardFromLibrary_Tooltip",
+      "Comment": "Тултип тайла \"Создать карточку из библиотеки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create card using template from selected library or from the list of added files"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создаёт карточку по шаблону из выбранной библиотеки или добавленных файлов"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateCardMore",
+      "Comment": "Заголовок тайла, из которого выпадают неуместившиеся тайлы.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "( more )"
+        },
+        {
+          "Culture": 25,
+          "Value": "( ещё )"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateCardUsingTemplate",
+      "Comment": "Заголовок тайла \"Создать карточку по шаблону\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create card\nusing template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать карточку\nпо шаблону"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateCardUsingTemplate_Tooltip",
+      "Comment": "Тултип тайла \"Создать карточку по шаблону\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create card using template from selected file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создаёт карточку по шаблону из выбранного файла"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateCopy",
+      "Comment": "Заголовок тайла \"Создать копию\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create copy"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать копию"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateCopy_Tooltip",
+      "Comment": "Тултип тайла \"Создать копию\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create card copied from the opened card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создаёт карточку, данные которой скопированы из открытой карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateFileFromTemplate",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create file\nfrom template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать файл\nпо шаблону"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateFromTemplate",
+      "Comment": "Заголовок тайла \"Создать по шаблону\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create\nusing template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать\nпо шаблону"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateFromTemplate_Tooltip",
+      "Comment": "Тултип тайла \"Создать из шаблона\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create card using template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создаёт карточку из шаблона"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateMultipleCards",
+      "Comment": "Заголовок плитки \"Создать несколько карточек\".",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create multiple\ncards"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать несколько\nкарточек"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateTemplate",
+      "Comment": "Заголовок тайла \"Создать шаблон\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать шаблон"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_CreateTemplate_Tooltip",
+      "Comment": "Тултип тайла \"Создать шаблон\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create template card from the opened card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создаёт карточку шаблона по открытой карточке"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_DateTime",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Date and time"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата и время"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Delete",
+      "Comment": "Заголовок тайла \"Удалить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Delete_Tooltip",
+      "Comment": "Тултип тайла \"Удалить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete card and close tab"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удаляет карточку и закрывает вкладку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Delete_TooltipAdmin",
+      "Comment": "Дополнительное сообщение в тултипе тайла \"Удалить\", доступное для администраторов",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hold Alt in order to delete cards without backup"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удерживайте Alt для удаления карточек без возможности восстановления"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_DeleteCardFromView",
+      "Comment": "Заголовок тайла \"Удалить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_DeleteCardFromView_ToolTip",
+      "Comment": "Тултип тайла \"Удалить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete selected cards"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удаляет выбранные карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_DeleteCardFromView_ToolTipAdmin",
+      "Comment": "Дополнительное сообщение в тултипе тайла \"Удалить\", доступное для администраторов",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hold Alt in order to delete cards without backup"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удерживайте Alt для удаления карточек без возможности восстановления"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_DeletedCard",
+      "Comment": "Заголовок тайла \"Удалённая карточка\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Deleted card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалённая карточка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_DeletedCard_Tooltip",
+      "Comment": "Тултип тайла \"Удалённая карточка\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Navigate to tab with the information about deleted card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Переходит к вкладке с информацией по удалённой карточке"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_DeleteNotificationSubscription",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete notification subscription"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить подписку на уведомление"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_DeleteNotificationSubscription_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete selected notification subscriptions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удаляет выбранные подписки на уведомления"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Dialogs",
+      "Comment": "Заголовок тайла \"Диалоги\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dialogs"
+        },
+        {
+          "Culture": 25,
+          "Value": "Диалоги"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Dictionaries",
+      "Comment": "Заголовок тайла \"Справочники\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dictionaries"
+        },
+        {
+          "Culture": 25,
+          "Value": "Справочники"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Documents",
+      "Comment": "Заголовок тайла \"Документы\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Documents"
+        },
+        {
+          "Culture": 25,
+          "Value": "Документы"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Edit",
+      "Comment": "Заголовок тайла \"Редактировать\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Edit"
+        },
+        {
+          "Culture": 25,
+          "Value": "Редактировать"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Edit_Tooltip",
+      "Comment": "Тултип тайла \"Редактировать\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Edit card in template which one is used to create using template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Редактировать карточку в шаблоне, которая используется для создания из шаблона"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ExportAllCardsFromView",
+      "Comment": "Заголовок тайла \"Экспорт (всё)\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export all"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспорт (всё)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ExportAllCardsFromView_ToolTip",
+      "Comment": "Тултип тайла \"Экспорт (всё)\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export all cards from all pages of the view using current filter parameters"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспортирует все карточки со всех страниц представления, используя текущие параметры фильтрации"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ExportAllData",
+      "Comment": "Заголовок тайла \"Выгрузить все данные\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export\nall data"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выгрузить\nвсе данные"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ExportCard",
+      "Comment": "Заголовок тайла \"Экспорт карточки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспорт карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ExportCardFromView",
+      "Comment": "Заголовок тайла \"Экспорт\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспорт"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ExportCardFromView_ToolTip",
+      "Comment": "Тултип тайла \"Экспорт\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export selected cards"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспортирует выбранные карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ExportCurrentPage",
+      "Comment": "Заголовок тайла \"Выгрузить текущую страницу\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export\ncurrent page"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выгрузить\nтекущую страницу"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_FileFormat_CSV",
+      "Comment": "Заголовок тайла для экспорта представления в формате CSV",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Excel - CSV"
+        },
+        {
+          "Culture": 25,
+          "Value": "Excel - CSV"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_FileFormat_HTML",
+      "Comment": "Заголовок тайла для экспорта представления в формате HTML",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "HTML"
+        },
+        {
+          "Culture": 25,
+          "Value": "HTML"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Filter",
+      "Comment": "Заголовок тайла \"Фильтр\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Filter"
+        },
+        {
+          "Culture": 25,
+          "Value": "Фильтр"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Filter_Tooltip",
+      "Comment": "Тултип тайла \"Фильтр\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open dialog with view filtering parameters"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открывает диалог с параметрами фильтрации выбранного представления"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Fullscreen",
+      "Comment": "Заголовок тайла \"На весь экран\". Используется в веб-клиенте.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Fullscreen"
+        },
+        {
+          "Culture": 25,
+          "Value": "На весь экран"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_GenerateTimeZonesFromDotNet",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Fill time zones"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заполнить временные зоны"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_GenerateTimeZonesFromDotNetToolTip",
+      "Comment": "Заполнить временные зоны в соответствии с настройками ОС на сервере приложений.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Fill time zones according to OS settings for application server."
+        },
+        {
+          "Culture": 25,
+          "Value": "Заполнить временные зоны в соответствии с настройками ОС на сервере приложений."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Help",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Help"
+        },
+        {
+          "Culture": 25,
+          "Value": "Справка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Help_ToolTipTemplate",
+      "Comment": "{0} - открываемая ссылка URL",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open link to system documentation: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть ссылку с документацией по системе: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_HideEmptyFolders",
+      "Comment": "Заголовок тайла \"Скрывать пустые папки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hide empty folders"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрывать пустые папки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_HideEmptyFolders_ToolTip",
+      "Comment": "Тултип тайла \"Скрывать пустые папки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hide empty folder in workplace tree"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрывает пустые папки дерева"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_HideInaccessibleItems",
+      "Comment": "Заголовок тайла \"Скрыть недоступные элементы\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hide inaccessible items"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрыть недоступные элементы"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_HideTree",
+      "Comment": "Заголовок тайла \"Скрыть дерево\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hide tree"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрыть дерево"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_HideTree_Tooltip",
+      "Comment": "Тултип тайла \"Скрыть дерево\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hide workplace tree"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрывает дерево рабочего места"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ImportCardFromLibrary",
+      "Comment": "Заголовок тайла \"Импорт карточек\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import cards"
+        },
+        {
+          "Culture": 25,
+          "Value": "Импорт карточек"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ImportCardFromLibrary_Tooltip",
+      "Comment": "Тултип тайла \"Импорт карточек\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import selected cards with files and tasks"
+        },
+        {
+          "Culture": 25,
+          "Value": "Импортирует несколько выбранных карточек с файлами и заданиями"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_LeftPanelToolTip",
+      "Comment": "Всплывающая подсказка на кнопке открытия левой боковой панели.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open left tile panel - contextual actions like Refresh or Save    [ Shift+Win ]\n\nChange panel settings using \"My settings\" button on right tile panel."
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть левую боковую панель - контекстные действия, такие как Обновить или Сохранить    [ Shift+Win ]\n\nИзмените настройки панелей, используя диалог \"Мои настройки\" по кнопке на правой боковой панели."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_LightTheme",
+      "Comment": "Заголовок тайла \"Светлая тема\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Light theme"
+        },
+        {
+          "Culture": 25,
+          "Value": "Светлая тема"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_LocalizationRestartRequired",
+      "Comment": "Название плитки с переводом языка, когда язык уже выбран и ожидает перезапуска приложения.\n{0} - название языка.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0}\n(restart required)"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0}\n(требуется перезапуск)"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_MySettings",
+      "Comment": "Заголовок тайла \"Мои настройки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "My settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Мои настройки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_MySettings_ToolTip",
+      "Comment": "Тултип тайла \"Мои настройки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open \"My settings\" dialog with settings used by current user"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть диалог \"Мои настройки\" с настройками текущего пользователя"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_NewUsersSettings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "New users settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки новых пользователей"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_NodeSettings",
+      "Comment": "Заголовок тайла \"Параметры узла\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Node settings..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Параметры узла..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_NotificationSubscriptions",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card notification settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки уведомлений по карточке"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_OpenCard",
+      "Comment": "Заголовок тайла \"Открыть карточку\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть карточку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_OpenCard_Tooltip",
+      "Comment": "Тултип тайла \"Открыть карточку\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open main card instead of the record from action history"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открывает основную карточку вместо записи из истории действий"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_OpenCardStructure",
+      "Comment": "Заголовок тайла \"Открыть структуру карточки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "View card\nstructure"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть структуру\nкарточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_OpenCardStructure_Tooltip",
+      "Comment": "Тултип тайла \"Открыть структуру карточки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show card structure that was stored in file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображает структуру карточки, которая была сохранена в файл"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_OpenPageInNewTab",
+      "Comment": "Заголовок тайла \"Открыть страницу в новой вкладке\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open page\nin new tab"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть страницу\nв новой вкладке"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_OpenPageInNewTab_ToolTip",
+      "Comment": "Тултип тайла \"Открыть страницу в новой вкладке\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open current page in a new tab"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открывает текущую страницу в новой вкладке"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_OpenTemplate",
+      "Comment": "Заголовок тайла \"Открыть шаблон\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть шаблон"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_OpenTemplate_Tooltip",
+      "Comment": "Тултип тайла \"Открыть шаблон\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open template card instead of the creation of card using template"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открывает карточку шаблона вместо создания карточки из шаблона"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Other",
+      "Comment": "Заголовок тайла \"Другие\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Misc"
+        },
+        {
+          "Culture": 25,
+          "Value": "Другие"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Refresh",
+      "Comment": "Заголовок тайла \"Обновить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Refresh"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Refresh_Tooltip",
+      "Comment": "Тултип тайла \"Обновить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Refresh card that could be modified by other employees"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновляет карточку, которую могли изменить другие сотрудники"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RefreshNode",
+      "Comment": "Заголовок тайла \"Обновить узел\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Refresh node"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновить узел"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RefreshNode_Tooltip",
+      "Comment": "Тултип тайла \"Обновить узел\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Refresh content of selected tree node"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновляет содержимое выбранного узла дерева"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RefreshTable",
+      "Comment": "Заголовок тайла \"Обновить таблицу\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Refresh table"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновить таблицу"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RefreshTable_Tooltip",
+      "Comment": "Тултип тайла \"Обновить таблицу\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Refresh table content of selected view"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновляет содержимое таблицы для выбранного представления"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RefreshView_Tooltip",
+      "Comment": "Тултип тайла \"Обновить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Refresh table content for selected view and selected tree node"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновляет содержимое таблицы для выбранного представления и выбранного узла дерева"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RemoveOperation",
+      "Comment": "Заголовок тайла \"Удалить операцию\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Remove operation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить операцию"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RemoveOperation_ToolTip",
+      "Comment": "Тултип тайла \"Удалить операцию\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Removes selected operations"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удаляет выбранные операции"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RepairDeleted",
+      "Comment": "Заголовок тайла \"Исправить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repair"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исправить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RepairDeleted_Tooltip",
+      "Comment": "Тултип тайла \"Исправить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repair deleted card and save it if fixes were made"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исправляет удалённую карточку и сохраняет её, если были внесены исправления"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RepairDeletedFromView",
+      "Comment": "Заголовок тайла \"Исправить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repair"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исправить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RepairDeletedFromView_ToolTip",
+      "Comment": "Тултип тайла \"Исправить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repair selected cards that were deleted and then save fixed cards"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исправляет выбранные карточки, которые были удалены, и сохраняет исправленные карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RepairTemplate",
+      "Comment": "Заголовок тайла \"Исправить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repair"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исправить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RepairTemplate_Tooltip",
+      "Comment": "Тултип тайла \"Исправить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repair card in template and save the template if fixes were made"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исправляет карточку в шаблоне и сохраняет шаблон, если были внесены исправления"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RepairTemplateFromView",
+      "Comment": "Заголовок тайла \"Исправить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repair"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исправить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RepairTemplateFromView_ToolTip",
+      "Comment": "Тултип тайла \"Исправить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Repair selected templates and then save fixed templates"
+        },
+        {
+          "Culture": 25,
+          "Value": "Исправляет выбранные карточки шаблонов и сохраняет исправленные шаблоны"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Restore",
+      "Comment": "Заголовок тайла \"Восстановить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Restore"
+        },
+        {
+          "Culture": 25,
+          "Value": "Восстановить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Restore_Tooltip",
+      "Comment": "Тултип тайла \"Восстановить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Restore deleted card and close tab"
+        },
+        {
+          "Culture": 25,
+          "Value": "Восстанавливает удалённую карточку и закрывает вкладку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RestoreCardFromView",
+      "Comment": "Заголовок тайла \"Восстановить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Restore"
+        },
+        {
+          "Culture": 25,
+          "Value": "Восстановить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RestoreCardFromView_ToolTip",
+      "Comment": "Тултип тайла \"Восстановить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Restore selected cards"
+        },
+        {
+          "Culture": 25,
+          "Value": "Восстанавливает выбранные карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Review",
+      "Comment": "Заголовок тайла \"Просмотр\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Review"
+        },
+        {
+          "Culture": 25,
+          "Value": "Просмотр"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Review_Tooltip",
+      "Comment": "Тултип тайла \"Просмотр\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open deleted card in new tab "
+        },
+        {
+          "Culture": 25,
+          "Value": "Открывает в новой вкладке просмотр удалённой карточки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RightPanelToolTip",
+      "Comment": "Всплывающая подсказка на кнопке открытия правой боковой панели.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open right tile panel - global actions like Create card or Change background    [ Ctrl+Win ]\n\nChange panel settings using \"My settings\" button on right tile panel."
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть правую боковую панель - глобальные действия, такие как Создать карточку или Изменить фон    [ Ctrl+Win ]\n\nИзмените настройки панелей, используя диалог \"Мои настройки\" по кнопке на правой боковой панели."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RoleDeputiesManagement",
+      "Comment": "Заголовок тайла \"Мои замещения\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Deputies"
+        },
+        {
+          "Culture": 25,
+          "Value": "Мои замещения"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_RoleDeputiesManagement_Tooltip",
+      "Comment": "Тултип тайла \"Мои замещения\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open dialog with information about deputies"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открывает диалог \"Мои замещения\""
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Roles",
+      "Comment": "Заголовок тайла \"Роли\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Roles"
+        },
+        {
+          "Culture": 25,
+          "Value": "Роли"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Save",
+      "Comment": "Заголовок тайла \"Сохранить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Save_Tooltip",
+      "Comment": "Тултип тайла \"Сохранить\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save all changes and refresh card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохраняет все сделанные изменения и обновляет карточку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_SaveAndClose",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save and close"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить и закрыть"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_SaveAndClose_Tooltip",
+      "Comment": "Тултип тайла \"Сохранить, закрыть\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save all changes and close current card"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохраняет все сделанные изменения и закрывает карточку"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_SaveCloseAndCreate",
+      "Comment": "Заголовок тайла \"Сохранить, закрыть и создать\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save, close\nand create"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить, закрыть\nи создать"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_SaveCloseAndCreate_Tooltip",
+      "Comment": "Тултип тайла \"Сохранить, закрыть и создать\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save all changes and refresh card, and then create new card\nthe same way that current card was created"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохраняет все сделанные изменения и закрывает карточку, после чего\nсоздаёт новую карточку таким же образом, как была создана текущая карточка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_SaveNew",
+      "Comment": "Заголовок тайла \"Сохранить новую\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save new"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить новую"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_SaveWorkplaceSettings",
+      "Comment": "Заголовок тайла \"Сохранить настройки рабочего места\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save workplace settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить настройки рабочего места"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_SearchQueries",
+      "Comment": "Заголовок тайла \"Поисковые запросы\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Search queries"
+        },
+        {
+          "Culture": 25,
+          "Value": "Поисковые запросы"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_SelectFile",
+      "Comment": "Заголовок тайла \"Выбрать файл\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выбрать файл"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_SendProtocolTasks",
+      "Comment": "Заголовок тайла \"Разослать задачи по решениям\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Send tasks\nfor decisions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Разослать задачи\nпо решениям"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_SetDefaultTimeZone",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Set \"Default\" time zone"
+        },
+        {
+          "Culture": 25,
+          "Value": "Установить зону \"По умолчанию\""
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_SetDefaultTimeZoneToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Set \"Default\" time zone for all roles."
+        },
+        {
+          "Culture": 25,
+          "Value": "Установить зону \"По умолчанию\" для всех ролей."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Settings",
+      "Comment": "Заголовок тайла \"Настройки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ShowEmptyFolders",
+      "Comment": "Заголовок тайла \"Показывать пустые папки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show empty folders"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показывать пустые папки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ShowEmptyFolders_ToolTip",
+      "Comment": "Тултип тайла \"Показывать пустые папки\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show hidden empty folders in workplace tree"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображает скрытые пустые папки дерева"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ShowInaccessibleItems",
+      "Comment": "Заголовок тайла \"Показать недоступные элементы\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show inaccessible items"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показать недоступные элементы"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ShowTree",
+      "Comment": "Заголовок тайла \"Показать дерево\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show tree"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показать дерево"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ShowTree_ToolTip",
+      "Comment": "Тултип тайла \"Показать дерево\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show workplace tree"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отображает дерево рабочего места"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_StageSourceBuild",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Check scripts"
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверить скрипты"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_StageSourceBuild_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Compile scripts and conditions for this card and show errors if exists"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выполнить компиляцию всех условий и скриптов для данной карточки, и отобразить ошибки при их наличии"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_System",
+      "Comment": "Заголовок тайла \"Системные\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "System"
+        },
+        {
+          "Culture": 25,
+          "Value": "Системные"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Theme",
+      "Comment": "Заголовок тайла \"Тема\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Theme"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тема"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_TreeSettings",
+      "Comment": "Заголовок тайла \"Настройки дерева\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tree\nsettings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки\nдерева"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ViewExported",
+      "Comment": "Заголовок тайла \"Просмотр карточки из файла\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "View card\nfrom file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Просмотр карточки\nиз файла"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_ViewExported_Tooltip",
+      "Comment": "Тултип тайла \"Просмотр карточки из файла\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open card for viewing from selected file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открывает карточку для просмотра из выбранного файла"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Wallpaper",
+      "Comment": "Заголовок тайла \"Фон\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Wallpaper"
+        },
+        {
+          "Culture": 25,
+          "Value": "Фон"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_WarmTheme",
+      "Comment": "Заголовок тайла \"Тёплая тема\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Warm theme"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тёплая тема"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Tiles_Web_CreateCard_SpecificToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Press to create card:  {0}\n\nCard is created the same way it was created previous time.\nIf it was created from template or as a copy, then it will be created the same way next time."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нажмите, чтобы создать карточку:  {0}\n\nКарточка создаётся точно таким же образом, как создавалась в предыдущий раз.\nЕсли она была создана по шаблону или как копия, то она повторно создаётся таким же образом."
+        }
+      ]
+    },
+    {
+      "Name": "UI_ToolbarButtons_SaveCloseAndCreate",
+      "Comment": "Заголовок тайла \"Сохранить, закрыть и создать\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save, close and create"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить, закрыть и создать"
+        }
+      ]
+    }
+  ]
+}

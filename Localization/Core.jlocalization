@@ -1,0 +1,6811 @@
+﻿{
+  "ID": "0cea53e9-7fd8-4c51-a517-5408c4c7ea63",
+  "Name": "Core",
+  "Priority": 0,
+  "Entries": [
+    {
+      "Name": "About_CompanyUri",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "https://www.mytessa.ru/"
+        },
+        {
+          "Culture": 25,
+          "Value": "https://www.mytessa.ru/"
+        }
+      ]
+    },
+    {
+      "Name": "About_Copyright",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "© LLC \"SYNTELLECT\" 2023"
+        },
+        {
+          "Culture": 25,
+          "Value": "© ООО \"СИНТЕЛЛЕКТ\" 2023"
+        }
+      ]
+    },
+    {
+      "Name": "About_ProductName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Document and business process\nmanagement platform \"TESSA\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Платформа управления документами и\nбизнес-процессами \"ТЕССА\" (\"TESSA\")"
+        }
+      ]
+    },
+    {
+      "Name": "AddColumn",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add column"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить колонку"
+        }
+      ]
+    },
+    {
+      "Name": "AddDatabase",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add database"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить базу данных"
+        }
+      ]
+    },
+    {
+      "Name": "AddFunction",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add function"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить функцию"
+        }
+      ]
+    },
+    {
+      "Name": "AddIndex",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add index"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить индекс"
+        }
+      ]
+    },
+    {
+      "Name": "AddMigration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add migration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить миграцию"
+        }
+      ]
+    },
+    {
+      "Name": "AddPrimaryKey",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add primary key"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить первичный ключ"
+        }
+      ]
+    },
+    {
+      "Name": "AddReferencingColumn",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add referencing column"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить ссылочную колонку"
+        }
+      ]
+    },
+    {
+      "Name": "AddStoredProcedure",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add stored procedure"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить хранимую процедуру"
+        }
+      ]
+    },
+    {
+      "Name": "AddTable",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add table"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить таблицу"
+        }
+      ]
+    },
+    {
+      "Name": "AddUniqueKey",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add unique key"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить уникальный ключ"
+        }
+      ]
+    },
+    {
+      "Name": "Admin_MainWindowTitleTemplate",
+      "Comment": "Это шаблон, используемый для указания имени окна приложения TessaAdmin.\n{0} - имя приложения; {1} - код сервера, к которому подключено приложение; {2} - версия сборки.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} build {2} ({1})"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} сборка {2} ({1})"
+        }
+      ]
+    },
+    {
+      "Name": "ArgumentFormatException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't convert value of argument '{0}' to type '{1}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось привести значение аргумента '{0}' к типу '{1}'."
+        }
+      ]
+    },
+    {
+      "Name": "Behaviors_TypeConstraintViolated",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cannot attach type '{0}' to type '{1}'. Instances of type '{0}' can only be attached to objects of type '{2}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нельзя присоединить тип '{0}' к типу '{1}'. Экземпляры типа '{0}' могут быть соединены только с объектами типа '{2}'."
+        }
+      ]
+    },
+    {
+      "Name": "CantConvertValue",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can not convert value of type '{0}' to type '{1}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось привести значение типа '{0}' к типу '{1}'."
+        }
+      ]
+    },
+    {
+      "Name": "Cards_Editors_Message_Hidden",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Is hidden"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрыть"
+        }
+      ]
+    },
+    {
+      "Name": "Cards_SelectFieldsOrSections",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select fields or sections"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выберите поля или секции"
+        }
+      ]
+    },
+    {
+      "Name": "Cards_TabDefaultCaption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tab"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вкладка"
+        }
+      ]
+    },
+    {
+      "Name": "Cards_TableEditor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Table editor"
+        },
+        {
+          "Culture": 25,
+          "Value": "Редактор таблицы"
+        }
+      ]
+    },
+    {
+      "Name": "Cards_TableRow",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Row of a table"
+        },
+        {
+          "Culture": 25,
+          "Value": "Строка таблицы"
+        }
+      ]
+    },
+    {
+      "Name": "CLI_NoLogo",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Prevents displaying of copyright message and version number."
+        },
+        {
+          "Culture": 25,
+          "Value": "Предотвращает отображение сообщения по авторским правам и номеру версии."
+        }
+      ]
+    },
+    {
+      "Name": "Client_MainWindowTitleTemplate",
+      "Comment": "Это шаблон, используемый для указания имени окна приложения TessaClient.\n{0} - имя приложения; {1} - код сервера, к которому подключено приложение; {2} - версия приложения.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} ({1})"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} ({1})"
+        }
+      ]
+    },
+    {
+      "Name": "CollapseAll",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Collapse all"
+        },
+        {
+          "Culture": 25,
+          "Value": "Свернуть всё"
+        }
+      ]
+    },
+    {
+      "Name": "CollapseAllButThis",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Collapse all but this"
+        },
+        {
+          "Culture": 25,
+          "Value": "Свернуть всё, кроме текущего"
+        }
+      ]
+    },
+    {
+      "Name": "Common_AllRightReserved",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All rights reserved."
+        },
+        {
+          "Culture": 25,
+          "Value": "Все права защищены."
+        }
+      ]
+    },
+    {
+      "Name": "Common_CLI_GetKey",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Generate key of specified type and returns it to standard output."
+        },
+        {
+          "Culture": 25,
+          "Value": "Генерирует ключ указанного типа и возвращает его на стандартный вывод."
+        }
+      ]
+    },
+    {
+      "Name": "Common_CLI_KeyFolderOrFile",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Services path in which app.json files are searched, or path to an app.json file."
+        },
+        {
+          "Culture": 25,
+          "Value": "Папка с сервисами, в которой выполняется поиск файлов app.json, или путь к файлу app.json."
+        }
+      ]
+    },
+    {
+      "Name": "Common_CLI_KeyType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Key type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип ключа."
+        }
+      ]
+    },
+    {
+      "Name": "Common_CLI_KeyType_Cipher",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Key for encoding information in database, including private keys for encoding files in users` local folders."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ключ для шифрования информации в базе данных, в т.ч. закрытые ключи для шифрования локальных файлов пользователя."
+        }
+      ]
+    },
+    {
+      "Name": "Common_CLI_KeyType_Signature",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Signature for sessions and permissions tokens."
+        },
+        {
+          "Culture": 25,
+          "Value": "Подпись для токенов сессий и разрешений."
+        }
+      ]
+    },
+    {
+      "Name": "Common_CLI_KeyValue",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Key to update. By default key is read from standard input."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ключ, который требуется обновить. По умолчанию ключ считывается из стандартного ввода."
+        }
+      ]
+    },
+    {
+      "Name": "Common_CLI_SetKey",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Update key of specified type in every app.json file found in a services path."
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновляет ключ указанного типа в каждом файле app.json, найденном в папке с сервисами."
+        }
+      ]
+    },
+    {
+      "Name": "Common_Copyright",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Copyright"
+        },
+        {
+          "Culture": 25,
+          "Value": "Copyright"
+        }
+      ]
+    },
+    {
+      "Name": "Common_EndEditWithoutBeginEdit",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can not call CancelEdit/EndEdit without a matching BeginEdit call."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нельзя вызвать CancelEdit/EndEdit без предварительного вызова BeginEdit."
+        }
+      ]
+    },
+    {
+      "Name": "Common_EndInitWithoutBeginInit",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can not call EndInit without a matching BeginInit call."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нельзя вызвать EndInit без предварительного вызова BeginInit."
+        }
+      ]
+    },
+    {
+      "Name": "Common_Exception_InvalidType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Object is expected to have type {0}, but found type {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ожидается, что у объекта тип {0}, но обнаружен тип {1}."
+        }
+      ]
+    },
+    {
+      "Name": "Common_Exception_InvalidType2",
+      "Comment": "{0} - ожидаемый первый тип.\n{1} - ожидаемый второй тип.\n{2} - фактический тип.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Object is expected to have type {0} or {1}, but found type {2}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ожидается, что у объекта тип {0} или {1}, но обнаружен тип {2}."
+        }
+      ]
+    },
+    {
+      "Name": "Common_InitializationIncomplete",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can not execute this operation inside a BeginInit/EndInit block."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нельзя вызвать эту операцию внутри блока BeginInit/EndInit."
+        }
+      ]
+    },
+    {
+      "Name": "Common_InitializationPendingRequired",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can not execute this operation outside a BeginInit/EndInit block."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нельзя вызвать эту операцию снаружи блока BeginInit/EndInit."
+        }
+      ]
+    },
+    {
+      "Name": "Common_InitializationRequired",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can not execute this operation before initialization."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нельзя вызвать эту операцию перед инициализацией."
+        }
+      ]
+    },
+    {
+      "Name": "Common_NestedBeginEdit",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can not have nested BeginEdit calls on the same instance."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нельзя использовать вложенные вызовы BeginEdit для одного и того же экземпляра."
+        }
+      ]
+    },
+    {
+      "Name": "Common_NestedBeginInit",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can not have nested BeginInit calls on the same instance."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нельзя использовать вложенные вызовы BeginInit для одного и того же экземпляра."
+        }
+      ]
+    },
+    {
+      "Name": "Common_Version",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Version"
+        },
+        {
+          "Culture": 25,
+          "Value": "Версия"
+        }
+      ]
+    },
+    {
+      "Name": "ConfigKeyNotFoundInElementCollection",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No elements matching the key '{0}' were found in the configuration element collection."
+        },
+        {
+          "Culture": 25,
+          "Value": "В коллекции конфигурационных элементов не было найдено элементов по ключу '{0}'."
+        }
+      ]
+    },
+    {
+      "Name": "ConfigKeysDoNotMatch",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The key does not match the indexer key. When setting the value of a specific index, the key of the desired value must match the index at which it is being set. Key on element (expected value): {0}. Key provided to indexer: {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Указанный ключ не соответствует ключу индексатора. При установке значения для специфичного индекса ключ такого значения должен соответствовать индексу, для которого ключ был установлен. Ключ на элементе (предполагаемое значение): {0}. Ключ, предоставленный индексатором: {1}."
+        }
+      ]
+    },
+    {
+      "Name": "Configuration_DefaultDescription",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Default configuration."
+        },
+        {
+          "Culture": 25,
+          "Value": "Конфигурация по умолчанию."
+        }
+      ]
+    },
+    {
+      "Name": "Data_BitFieldsNotSupported",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Bit fields are not supported."
+        },
+        {
+          "Culture": 25,
+          "Value": "Битовые поля не поддерживаются."
+        }
+      ]
+    },
+    {
+      "Name": "Data_ConverterFunctionNotDefined",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} is not defined for this converter."
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} не определён для конвертера."
+        }
+      ]
+    },
+    {
+      "Name": "Data_EnumValueNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Requested value '{0}' was not found."
+        },
+        {
+          "Culture": 25,
+          "Value": "Запрошенное значение '{0}' не было найдено."
+        }
+      ]
+    },
+    {
+      "Name": "Data_InsufficientSourceParameters",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Converter requires {0} source parameters."
+        },
+        {
+          "Culture": 25,
+          "Value": "Конвертер требует исходные параметры {0}."
+        }
+      ]
+    },
+    {
+      "Name": "Data_InsufficientTypeParameters",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Converter requires {0} type parameters."
+        },
+        {
+          "Culture": 25,
+          "Value": "Конвертер требуется параметры типа {0}."
+        }
+      ]
+    },
+    {
+      "Name": "Data_ParameterNotOfType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Parameter must be of type '{0}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Параметр должен быть с типом '{0}'."
+        }
+      ]
+    },
+    {
+      "Name": "Data_TargetAtOffsetNotExtendingType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Target type at offset {0} must extend '{1}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Целевой тип со смещением {0} должен расширять тип '{1}'."
+        }
+      ]
+    },
+    {
+      "Name": "Data_TargetNotExtendingType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Target type must extend '{0}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Целевой тип должен расширять тип '{0}'."
+        }
+      ]
+    },
+    {
+      "Name": "Data_ValueAtOffsetNotOfType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Value at offset {0} must be of type '{1}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение со смещением {0} должно быть с типом '{1}'."
+        }
+      ]
+    },
+    {
+      "Name": "Data_ValueNotOfType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Value must be of type '{0}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение должно быть с типом '{0}'."
+        }
+      ]
+    },
+    {
+      "Name": "Databases",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Databases"
+        },
+        {
+          "Culture": 25,
+          "Value": "Базы данных"
+        }
+      ]
+    },
+    {
+      "Name": "DialogCaption_Fatal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Critical error"
+        },
+        {
+          "Culture": 25,
+          "Value": "Критическая ошибка"
+        }
+      ]
+    },
+    {
+      "Name": "DialogCaption_UnhandledError",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unhandled error"
+        },
+        {
+          "Culture": 25,
+          "Value": "Необработанная ошибка"
+        }
+      ]
+    },
+    {
+      "Name": "EmptyTypeName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Type name is not speсified."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя типа не указано."
+        }
+      ]
+    },
+    {
+      "Name": "EnumTypeNotSet",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The EnumType property is not specified."
+        },
+        {
+          "Culture": 25,
+          "Value": "Свойство EnumType не задано."
+        }
+      ]
+    },
+    {
+      "Name": "Error_LogicalTree",
+      "Comment": "Сообщение об ошибке в дереве XAML.\n{0} - объект, в котором произошла ошибка.\n{1} - логическое дерево элементов,в котором произошла ошибка.\n{2} - визуальное дерево элементов, в котором произошла ошибка.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error occurred in object {0} in logical tree: {1}.\nVisual tree: {2}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка возникла в объекте {0} в логическом дереве элементов: {1}.\nВизуальное дерево: {2}."
+        }
+      ]
+    },
+    {
+      "Name": "Error_LogicalTreeRoot",
+      "Comment": "Сообщение об ошибке в дереве XAML в объекте, который является корнем логического дерева.\n{0} - объект, в котором произошла ошибка.\n{1} - визуальное дерево элементов, в котором произошла ошибка.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error occurred in the root of logical tree {0}.\nVisual tree: {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка возникла в объекте {0}, который является корнем логического дерева.\nВизуальное дерево: {1}."
+        }
+      ]
+    },
+    {
+      "Name": "GroupView_UnnamedGroupName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "(without group)"
+        },
+        {
+          "Culture": 25,
+          "Value": "(без группы)"
+        }
+      ]
+    },
+    {
+      "Name": "ImportFromDatabase",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import from database..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Импортировать из базы данных..."
+        }
+      ]
+    },
+    {
+      "Name": "ImportFromFile",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import from file..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Импортировать из файла..."
+        }
+      ]
+    },
+    {
+      "Name": "ImportFromFileWithMerge",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import from file with merge..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Импортировать из файла со слиянием..."
+        }
+      ]
+    },
+    {
+      "Name": "License_CantReactivateConcurrentSession",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There are no available concurrent licenses. Session is deactivated.\nPlease try again in a few minutes."
+        },
+        {
+          "Culture": 25,
+          "Value": "Недостаточно конкурентных лицензий. Сессия деактивирована.\nПожалуйста, повторите действие через несколько минут."
+        }
+      ]
+    },
+    {
+      "Name": "License_CantReactivateNonConcurrentSession",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Session is deactivated. It is recommended to save all data on local computer and restart the application."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сессия деактивирована. Рекомендуется сохранить все данные на локальном компьютере и перезапустить приложение."
+        }
+      ]
+    },
+    {
+      "Name": "License_ExceededMobileLicenses",
+      "Comment": "{0} - количество использованных лицензий; {1} - количество доступных лицензий",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Exceeded maximum number of mobile approval licenses. Licenses used: {0} of {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Превышено максимальное количество лицензий мобильного согласования. Использовано лицензий: {0} из {1}."
+        }
+      ]
+    },
+    {
+      "Name": "License_ExceededPersonalLicenses",
+      "Comment": "{0} - количество использованных лицензий; {1} - количество доступных лицензий",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Exceeded maximum number of personal licenses. Licenses used: {0} of {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Превышено максимальное количество персональных лицензий. Использовано лицензий: {0} из {1}."
+        }
+      ]
+    },
+    {
+      "Name": "License_ExceededSessions",
+      "Comment": "{0} - максимальное число конкурентных сессий",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Exceeded maximum number {0} of concurrent sessions."
+        },
+        {
+          "Culture": 25,
+          "Value": "Превышено максимальное число {0} конкурентных сессий."
+        }
+      ]
+    },
+    {
+      "Name": "License_Expired",
+      "Comment": "{0} - дата, до которой лицензия валидна",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "License has expired. It was valid until {0}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Лицензия просрочена. Она была валидна до {0}"
+        }
+      ]
+    },
+    {
+      "Name": "License_InstallationOutdated",
+      "Comment": "{0} - дата выпуска сборки; {1} - дата окончания получения обновлений",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Installation is published at {0}, but license can receive updates to {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сборка выпущена {0}, но по лицензии обновления могут быть получены до {1}."
+        }
+      ]
+    },
+    {
+      "Name": "License_InvalidSignature",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Server license is invalid. Signature check failed."
+        },
+        {
+          "Culture": 25,
+          "Value": "Лицензия не прошла валидацию на сервере. Проверка подписи неуспешна."
+        }
+      ]
+    },
+    {
+      "Name": "License_InvalidVersion",
+      "Comment": "{0} - license version number, {1} - version number supported by server",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Server license is invalid. License version is {0}, but server supports only version {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Лицензия не прошла валидацию на сервере. Версия лицензии {0}, но сервер поддерживает только версию {1}."
+        }
+      ]
+    },
+    {
+      "Name": "License_RevokedError",
+      "Comment": "{0} - идентификатор лицензии",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "License is revoked. Please, contact vendor. License identifier: {0:B}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Лицензия отозвана. Пожалуйста, свяжитесь с вендором. Идентификатор лицензии: {0:B}"
+        }
+      ]
+    },
+    {
+      "Name": "License_SessionExpired",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Session is expired at {0} UTC, now is {1} UTC.\nIt is recommended to save all data on local computer and restart the application."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сессия просрочена в {0} UTC, сейчас время {1} UTC.\nРекомендуется сохранить все данные на локальном компьютере и перезапустить приложение."
+        }
+      ]
+    },
+    {
+      "Name": "License_ValidationError",
+      "Comment": "{0} - new line, {1} - validation text",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Server license is invalid.{0}{1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Серверная лицензия некорректна.{0}{1}"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Common_DeleteFromList",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Common_DeleteFromList_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete item from the list"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить элемент из списка"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Common_NewEnumValue",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Common_NewModule",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Module"
+        },
+        {
+          "Culture": 25,
+          "Value": "Модуль"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Common_NewModuleSetting",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Setting"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройка"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_EnumEditor_AddItem",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить значение"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_EnumEditor_AddItem_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add value to the list of enumeration values"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавляет значение в список значений перечисления"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_EnumEditor_Title",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enumeration editor"
+        },
+        {
+          "Culture": 25,
+          "Value": "Редактор перечисления"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Filter_InstallationInfoFile",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Build information"
+        },
+        {
+          "Culture": 25,
+          "Value": "Информация по сборке"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Filter_LicenseFile",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "License files"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файлы лицензий"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Filter_LicenseTessa",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "TESSA license"
+        },
+        {
+          "Culture": 25,
+          "Value": "Лицензии TESSA"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Filter_LicenseXml",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "XML license"
+        },
+        {
+          "Culture": 25,
+          "Value": "Лицензии XML"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Filter_PrivateKeyFile",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Private key file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл закрытого ключа"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Main_AddModule_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add selected module to the license"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить выбранный модуль в лицензию"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Main_GenerateKeys_Title",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Generate keys"
+        },
+        {
+          "Culture": 25,
+          "Value": "Генерация ключей"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Main_MakeEnterprise_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add all Enterprise modules to the license."
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавляет в лицензию все модули Enterprise."
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Main_OpenLicense_Title",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open license"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открытие лицензии"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Main_PublishLicense_Title",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Publish license"
+        },
+        {
+          "Culture": 25,
+          "Value": "Публикация лицензии"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Main_SaveLicense_Title",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save license"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранение лицензии"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Main_ValidateLicense_Title",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Validate license"
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверка лицензии"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Menu_File",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "File"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Menu_File_Close",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Close"
+        },
+        {
+          "Culture": 25,
+          "Value": "Закрыть"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Menu_File_Create",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Menu_File_Open",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть..."
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Menu_File_Save",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Menu_File_SaveAs",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save as..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить как..."
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Menu_Publishing",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Publish"
+        },
+        {
+          "Culture": 25,
+          "Value": "Публикация"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Menu_Publishing_GenerateKeys",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Generate a pair of keys..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать пару ключей..."
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Menu_Publishing_Publish",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Publish license..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Опубликовать лицензию..."
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Menu_Publishing_Verify",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Validate signature..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверить подпись..."
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Menu_Tools",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tools"
+        },
+        {
+          "Culture": 25,
+          "Value": "Инструменты"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Menu_Tools_ModuleEditor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Edit modules..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Редактировать модули..."
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_ConfirmClosingLicense",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "License will be closed. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Лицензия будет закрыта. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_ConfirmClosingWindow",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Window will be closed. Save changes?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Окно будет закрыто. Сохранить изменения?"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_ConfirmDeletionOfEnumValue",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Value '{0}' will be deleted. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение '{0}' будет удалено. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_ConfirmDeletionOfModule",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All information for module '{0}' will be deleted. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вся информация по модулю '{0}' будет удалена. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_ConfirmDeletionOfModuleFromLicense",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Module '{0}' will be deleted from license with all its settings. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Модуль '{0}' будет удалён из лицензии со всеми настройками. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_ConfirmDeletionOfModuleSetting",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All information for setting '{0}' will be deleted. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вся информация по настройке '{0}' будет удалена. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_ConfirmDeletionOfMultipleEnumValues",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Values {0} will be deleted. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Значения {0} будут удалены. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_ConfirmDeletionOfMultipleModules",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All information for modules {0} will be deleted. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вся информация по модулям {0} будет удалена. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_ConfirmDeletionOfMultipleModuleSettings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All information for settings {0} will be deleted. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вся информация по настройкам {0} будет удалена. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_ConfirmDeletionOfMultipleModulesFromLicense",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Modules {0} will be deleted from the license with all its settings. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Модули {0} будут удалены из лицензии со всеми настройками. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_ConfirmRefresh",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All unsaved data will be lost when refreshing. Continue?"
+        },
+        {
+          "Culture": 25,
+          "Value": "При обновлении будут потеряны несохранённые данные. Продолжить?"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_ConfirmSavingLicenseBeforeClosing",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "License is modified. Save before closing?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Лицензия изменена. Сохранить перед закрытием?"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_KeysAreGenerated",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Private key: {0}\nPublic key: {1}\nFolder with keys: {2}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Закрытый ключ: {0}\nОткрытый ключ: {1}\nПапка с ключами: {2}"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_LicenseIsPublished",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "License is published to file:\n{0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Лицензия опубликована в файл:\n{0}"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_LicenseUpgraded",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "License is upgraded from version {0} to version {1}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Лицензия обновлена от версии {0} до версии {1}."
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_PrivateKeyNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Private key file is not found or not available in following location: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл закрытого ключа не найден или недоступен по адресу: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_PublicKeyNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Public key file is not found or not available in following location: {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл открытого ключа не найден или недоступен по адресу: {0}"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_SignatureIsInvalid",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Signature is failed to validate the license {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подпись не прошла валидацию для лицензии {0}"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_SignatureIsValid",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Signature is valid for the license {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подпись корректна для лицензии {0}"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_Message_UnknownModule",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unknown module '{0}', ID='{1}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Неизвестный модуль '{0}', ID='{1}'."
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleEditor_AddModuleType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add module"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить модуль"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleEditor_AddModuleType_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add module to the list of license modules"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавляет модуль в список модулей лицензий"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleEditor_AddSetting",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add setting"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить настройку"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleEditor_AddSetting_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add setting to the list of module settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавляет настройку в список настроек модуля"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleEditor_ModuleList",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Modules"
+        },
+        {
+          "Culture": 25,
+          "Value": "Модули"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleEditor_Refresh",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Refresh"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновить"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleEditor_Refresh_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Load modules information from the settings file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Загружает информацию по модулям из файла настроек"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleEditor_Save",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleEditor_Save_ToolTIp",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save modules information to the settings file and copy it to clipboard"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохраняет информацию по модулям в файл настроек и копирует её в буфер обмена"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleEditor_SettingList",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleEditor_Title",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Module editor"
+        },
+        {
+          "Culture": 25,
+          "Value": "Редактор модулей"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleSettingTag_EndingDate",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Ending date"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата окончания"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleSettingTag_MaxDate",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Maximum date"
+        },
+        {
+          "Culture": 25,
+          "Value": "Максимальная дата"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleSettingTag_MinDate",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Minimum date"
+        },
+        {
+          "Culture": 25,
+          "Value": "Минимальная дата"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleSettingTag_None",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "None"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отсутствует"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleSettingTag_StartingDate",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Starting date"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата выдачи"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleSettingType_Boolean",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Boolean"
+        },
+        {
+          "Culture": 25,
+          "Value": "Логическое значение"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleSettingType_Date",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Date"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleSettingType_Decimal",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Decimal"
+        },
+        {
+          "Culture": 25,
+          "Value": "Десятичное число"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleSettingType_Double",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Double"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вещественное число"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleSettingType_Enum",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enumeration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Перечисление"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleSettingType_Guid",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Identifier"
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleSettingType_Integer",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Integer"
+        },
+        {
+          "Culture": 25,
+          "Value": "Целое число"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_ModuleSettingType_String",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "String"
+        },
+        {
+          "Culture": 25,
+          "Value": "Строка"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ClientCount_PositiveOrZeroOnly",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Number of clients should be positive or zero"
+        },
+        {
+          "Culture": 25,
+          "Value": "Число клиентов должно быть положительно или равно нулю"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_CompanyAddress",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Company address"
+        },
+        {
+          "Culture": 25,
+          "Value": "Адрес компании"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_CompanyName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Company name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя компании"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_CompanyName_NotNull",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Company name should not be empty"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя компании не может быть пустым"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ConcurrentCount",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Max. concurrent clients"
+        },
+        {
+          "Culture": 25,
+          "Value": "Макс. конкурентных клиентов"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_Edit",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Edit"
+        },
+        {
+          "Culture": 25,
+          "Value": "Редактировать"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_Enterprise",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enterprise"
+        },
+        {
+          "Culture": 25,
+          "Value": "Enterprise"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_Enterprise_ToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Module is included in Enterprise edition licenses."
+        },
+        {
+          "Culture": 25,
+          "Value": "Модуль включается в лицензии редакции Enterprise."
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_Identifier",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Identifier"
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_IssuedBy",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Issued by"
+        },
+        {
+          "Culture": 25,
+          "Value": "Кем выдана"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_IssuedBy_NotNull",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Company that issued the license should not have empty name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя компании, которая выдала лицензию, не может быть пустым"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_Module",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Module"
+        },
+        {
+          "Culture": 25,
+          "Value": "Модуль"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_Module_NotNull",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Module name should not be empty"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя модуля не должно быть пустым"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ModuleSetting",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Setting"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройка"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ModuleSetting_NotNull",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Setting name should not be empty"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название настройки не должно быть пустым"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ModuleSettingDefaultValue",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Default value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение по умолчанию"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ModuleSettingDescription",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Description"
+        },
+        {
+          "Culture": 25,
+          "Value": "Описание"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ModuleSettingEnumValues",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enumeration values"
+        },
+        {
+          "Culture": 25,
+          "Value": "Значения перечисления"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ModuleSettingItem",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ModuleSettingItem_NotNull",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Setting name should not be empty"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название настройки не должно быть пустым"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ModuleSettingKey",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Key"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ключ"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ModuleSettingKey_NotNull",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Key that determines the setting should not be empty"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ключ, по которому определяется настройка, не должен быть пустым"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ModuleSettingTag",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tag"
+        },
+        {
+          "Culture": 25,
+          "Value": "Признак"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ModuleSettingType",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_PersonalCount",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Max. personal clients"
+        },
+        {
+          "Culture": 25,
+          "Value": "Макс. персональных клиентов"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ReceiveUpdatesTo",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Receive updates to"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновления до"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_SetupLicenseDates",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dates in license"
+        },
+        {
+          "Culture": 25,
+          "Value": "Даты в лицензии"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_SetupLicenseDates_Button",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Setup dates"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настроить даты"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ValidFrom",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Valid from"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата выдачи"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_PropertyGrid_ValidTo",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Valid to"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата окончания"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseEditor_SetupLicenseDates_Title",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Dates in license"
+        },
+        {
+          "Culture": 25,
+          "Value": "Даты в лицензии"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseModule_ActiveDirectorySync",
+      "Comment": "Модуль лицензии \"Синхронизация с Active Directory / LDAP\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Active Directory / LDAP sync"
+        },
+        {
+          "Culture": 25,
+          "Value": "Синхронизация с Active Directory / LDAP"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseModule_ArchiveRecordKeeping",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Archive record keeping"
+        },
+        {
+          "Culture": 25,
+          "Value": "Архивное хранение документов"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseModule_Charts",
+      "Comment": "Модуль лицензии \"Диаграммы и графики\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Diagrams and charts"
+        },
+        {
+          "Culture": 25,
+          "Value": "Диаграммы и графики"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseModule_Clustering",
+      "Comment": "Модуль лицензии \"Кластеризация\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Clustering"
+        },
+        {
+          "Culture": 25,
+          "Value": "Кластеризация"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseModule_ContinuousDocumentLoad",
+      "Comment": "Модуль лицензии \"Потоковый ввод документов\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Continuous document load"
+        },
+        {
+          "Culture": 25,
+          "Value": "Потоковый ввод документов"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseModule_Enterprise",
+      "Comment": "Модуль лицензии \"Редакция Enterprise\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enterprise edition"
+        },
+        {
+          "Culture": 25,
+          "Value": "Редакция Enterprise"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseModule_Forums",
+      "Comment": "Модуль лицензии \"Форумы и обсуждения\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Forums and discussions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Форумы и обсуждения"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseModule_MobileApproval",
+      "Comment": "Модуль лицензии \"Мобильное согласование\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Mobile approval"
+        },
+        {
+          "Culture": 25,
+          "Value": "Мобильное согласование"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseModule_MobileApproval_Count",
+      "Comment": "Настройка для модуля лицензии \"Мобильное согласование\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "License count (0 - auto)"
+        },
+        {
+          "Culture": 25,
+          "Value": "Количество лицензий (0 - авто)"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseModule_MultipleFileSources",
+      "Comment": "Модуль лицензии \"Несколько файловых хранилищ\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Multiple file sources"
+        },
+        {
+          "Culture": 25,
+          "Value": "Несколько файловых хранилищ"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseModule_WorkflowEngine",
+      "Comment": "Модуль лицензии \"Конструктор бизнес-процессов\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Business process designer"
+        },
+        {
+          "Culture": 25,
+          "Value": "Конструктор бизнес-процессов"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseModule_WorkflowViewer",
+      "Comment": "Модуль лицензии \"Визуализатор маршрутов\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Routes visualizer"
+        },
+        {
+          "Culture": 25,
+          "Value": "Визуализатор маршрутов"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseModule_WorkflowViewer_ValidFrom",
+      "Comment": "Поле \"Дата выдачи\" для модуля лицензии \"Визуализатор маршрутов\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Valid from"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата выдачи"
+        }
+      ]
+    },
+    {
+      "Name": "LicenseModule_WorkflowViewer_ValidTo",
+      "Comment": "Поле \"Дата окончания\" для модуля лицензии \"Визуализатор маршрутов\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Valid to"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата окончания"
+        }
+      ]
+    },
+    {
+      "Name": "LinkedFreezableCollection_CannotHostItemMultipleTimes",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An instance of a '{0}' cannot be attached to more than one object at a time."
+        },
+        {
+          "Culture": 25,
+          "Value": "Экземпляр типа '{0}' не может быть соединён с более, чем одним объектом одновременно."
+        }
+      ]
+    },
+    {
+      "Name": "LinkedFreezableCollection_CannotReplaceItemFromAnotherHost",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An instance of a '{0}' cannot be replaced because it is attached to another object."
+        },
+        {
+          "Culture": 25,
+          "Value": "Экземпляр типа '{0}' не может быть заменён, потому что он соединён с другим объектом."
+        }
+      ]
+    },
+    {
+      "Name": "Localization_AllLibraries",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All libraries"
+        },
+        {
+          "Culture": 25,
+          "Value": "Все библиотеки"
+        }
+      ]
+    },
+    {
+      "Name": "Localization_Translations",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Translations"
+        },
+        {
+          "Culture": 25,
+          "Value": "Переводы"
+        }
+      ]
+    },
+    {
+      "Name": "MissingArgumentException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "'{0}' is required argument for command '{1}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "'{0}' является обязательным аргументом для команды '{1}'."
+        }
+      ]
+    },
+    {
+      "Name": "ModelNotSet",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The Model property is not specified."
+        },
+        {
+          "Culture": 25,
+          "Value": "Свойство Model не задано."
+        }
+      ]
+    },
+    {
+      "Name": "OpenFromDatabase",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open from database..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть из базы данных..."
+        }
+      ]
+    },
+    {
+      "Name": "OpenFromFile",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open from file..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть из файла..."
+        }
+      ]
+    },
+    {
+      "Name": "PermanentlyDelete",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "'{0}' will be deleted permanently."
+        },
+        {
+          "Culture": 25,
+          "Value": "'{0}' будет удалён безвозвратно."
+        }
+      ]
+    },
+    {
+      "Name": "RemovingFunctionException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred during removing a function '{0}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Во время удаления функции '{0}' возникла ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "RemovingMigrationException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred during removing a migration '{0}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Во время удаления миграции '{0}' возникла ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "RemovingProcedureException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred during removing a procedure '{0}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Во время удаления процедуры '{0}' возникла ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "RemovingTableException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred during removing a table '{0}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Во время удаления таблицы '{0}' возникла ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "SaveToDatabase",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save to database..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить в базу данных..."
+        }
+      ]
+    },
+    {
+      "Name": "SaveToFile",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save to file..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить в файл..."
+        }
+      ]
+    },
+    {
+      "Name": "SavingFunctionException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred during saving a function '{0}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Во время сохранения функции '{0}' возникла ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "SavingMigrationException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred during saving a migration '{0}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Во время сохранения миграции '{0}' возникла ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "SavingProcedureException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred during saving a procedure '{0}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Во время сохранения процедуры '{0}' возникла ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "SavingTableException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An error occurred during saving a table '{0}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Во время сохранения таблицы '{0}' возникла ошибка."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_CollectionPropertyDifference",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} items added.\n{1} items modified.\n{2} items removed."
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} элементов добавлено.\n{1} элементов изменено.\n{2} элементов удалено."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Column",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Column"
+        },
+        {
+          "Culture": 25,
+          "Value": "Колонка"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Constraint",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Constraint"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ограничение"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_CreateStorage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Create"
+        },
+        {
+          "Culture": 25,
+          "Value": "Создать"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_ActionHistory",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Action history."
+        },
+        {
+          "Culture": 25,
+          "Value": "История действий."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_CompletionOptions",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task completion options."
+        },
+        {
+          "Culture": 25,
+          "Value": "Варианты завершения заданий."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_CompletionOptions_Caption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Completion option's caption."
+        },
+        {
+          "Culture": 25,
+          "Value": "Заголовок варианта завершения."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_CompletionOptions_ID",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Completion option's identifier."
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор варианта завершения."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_CompletionOptions_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Completion option's unique name."
+        },
+        {
+          "Culture": 25,
+          "Value": "Уникальное имя варианта завершения."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Configuration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Configuration properties"
+        },
+        {
+          "Culture": 25,
+          "Value": "Свойства конфигурации"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Configuration_BuildDate",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Platform build date"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата сборки платформы"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Configuration_BuildName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Platform build version as text, for example \"2.5 beta\""
+        },
+        {
+          "Culture": 25,
+          "Value": "Версия сборки платформы в текстовом виде, например, \"2.5 beta\""
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Configuration_BuildVersion",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Platform build version"
+        },
+        {
+          "Culture": 25,
+          "Value": "Версия сборки платформы"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Configuration_Description",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Configuration description"
+        },
+        {
+          "Culture": 25,
+          "Value": "Описание конфигурации"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Configuration_Modified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Date/time of the last changes"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата/время последних изменений конфигурации"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Configuration_ModifiedBy",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Employee who made recent changes"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сотрудник, внесший последние изменения"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Configuration_Version",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Configuration version"
+        },
+        {
+          "Culture": 25,
+          "Value": "Версия конфигурации"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_FileContent",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Files' content in database."
+        },
+        {
+          "Culture": 25,
+          "Value": "Контент файлов в базе данных."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Files",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Files."
+        },
+        {
+          "Culture": 25,
+          "Value": "Файлы."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_FileVersions",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "File versions."
+        },
+        {
+          "Culture": 25,
+          "Value": "Версии файлов."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Functions",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Contains metadata that describes functions which used by TESSA."
+        },
+        {
+          "Culture": 25,
+          "Value": "Содержит метаинформацию, которая описывает хранимые функции, используемые в TESSA."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Functions_Definition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Definition of a function."
+        },
+        {
+          "Culture": 25,
+          "Value": "Определение хранимой функции."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Functions_ID",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "ID of a function."
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор хранимой функции."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Functions_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unique name of a function."
+        },
+        {
+          "Culture": 25,
+          "Value": "Уникальное имя хранимой функции."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_GetTranslation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Returns a translation of localization string."
+        },
+        {
+          "Culture": 25,
+          "Value": "Возвращает перевод строки локализации."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Instances",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card instances."
+        },
+        {
+          "Culture": 25,
+          "Value": "Экземпляры карточек."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Instances_Created",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card's creation date."
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата создания карточки."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Instances_CreatedBy",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Employee who create the card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сотрудник, который создал карточку."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Instances_ID",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card's identifier."
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор карточки."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Instances_Modified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card's modification date."
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата изменения карточки."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Instances_ModifiedBy",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Employee who modified the card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сотрудник, который изменил карточку."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Instances_Readers",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card's number of concurrent readers."
+        },
+        {
+          "Culture": 25,
+          "Value": "Количество одновременных читателей карточки."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Instances_RowID",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Row identifier."
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор строки."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Instances_Type",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card's type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип карточки."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Instances_Version",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Card's version."
+        },
+        {
+          "Culture": 25,
+          "Value": "Версия карточки."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Instances_WritePending",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "True if there are writer pending to modify the card."
+        },
+        {
+          "Culture": 25,
+          "Value": "Истина, если существует писатель, который собирается изменить карточку."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_LocalizationEntries",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Localization entries."
+        },
+        {
+          "Culture": 25,
+          "Value": "Записи локализации."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_LocalizationEntries_Comment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Comment for localization entry."
+        },
+        {
+          "Culture": 25,
+          "Value": "Комментарий для записи локализации."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_LocalizationEntries_Library",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Localization entry's library."
+        },
+        {
+          "Culture": 25,
+          "Value": "Библиотека записи локализации."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_LocalizationEntries_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Localization entry's name."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя записи локализации."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_LocalizationEntries_Overriden",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Localization entry is overridden in another library."
+        },
+        {
+          "Culture": 25,
+          "Value": "Запись локализации переопределена в другой библиотеке."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_LocalizationEntries_Value",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Localization entry's value."
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение записи локализации."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_LocalizationLibraries",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Localization libraries."
+        },
+        {
+          "Culture": 25,
+          "Value": "Библиотеки локализации."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_LocalizationLibraries_Culture",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Localization library's culture."
+        },
+        {
+          "Culture": 25,
+          "Value": "Культура библиотеки локализации."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_LocalizationLibraries_ID",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Localization library's identifier."
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор библиотеки локализации."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_LocalizationLibraries_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Localization library's name."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя библиотеки локализации."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_LocalizationLibraries_Priority",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Localization library's priority."
+        },
+        {
+          "Culture": 25,
+          "Value": "Приоритет библиотеки локализации."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Migrations",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Migrations."
+        },
+        {
+          "Culture": 25,
+          "Value": "Миграции."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Migrations_Definition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Definition of a migration."
+        },
+        {
+          "Culture": 25,
+          "Value": "Метаинформация по миграции."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Migrations_ID",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "ID of a migration."
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор миграции."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Migrations_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name of a migration."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя миграции."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_PersonalRoles",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Employees."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сотрудники."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_PersonalRoles_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Employee's name."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя сотрудника."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Procedures",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Contains metadata that describes procedures which used by TESSA."
+        },
+        {
+          "Culture": 25,
+          "Value": "Содержит метаданные, которые описывают хранимые процедуры, используемые в TESSA."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Procedures_Definition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Definition of a procedure."
+        },
+        {
+          "Culture": 25,
+          "Value": "Метаинформация по хранимой процедуре."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Procedures_ID",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "ID of a procedure."
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор хранимой процедуры."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Procedures_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name of a procedure."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя хранимой процедуры."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Roles",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Roles."
+        },
+        {
+          "Culture": 25,
+          "Value": "Роли."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Roles_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Role's name."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя роли."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Scheme",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scheme properties"
+        },
+        {
+          "Culture": 25,
+          "Value": "Свойства схемы"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Scheme_Description",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scheme description"
+        },
+        {
+          "Culture": 25,
+          "Value": "Описание схемы"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Scheme_ID",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scheme ID"
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор схемы"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Scheme_Modified",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Date/time of the last changes"
+        },
+        {
+          "Culture": 25,
+          "Value": "Дата/время последних изменений схемы"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Scheme_ModifiedBy",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Employee who made recent changes"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сотрудник, внесший последние изменения"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Scheme_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scheme name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя схемы"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Scheme_StorageVersion",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scheme storage version"
+        },
+        {
+          "Culture": 25,
+          "Value": "Версия хранилища схемы"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Scheme_Version",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scheme version"
+        },
+        {
+          "Culture": 25,
+          "Value": "Версия схемы"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Tables",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Contains metadata that describes tables which used by TESSA."
+        },
+        {
+          "Culture": 25,
+          "Value": "Содержит метаданные, которые описывают таблицы, используемые в TESSA."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Tables_Definition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Definition of a table."
+        },
+        {
+          "Culture": 25,
+          "Value": "Метаинформация по таблице."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Tables_ID",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "ID of a table."
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор таблицы."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Tables_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name of a table."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя таблицы."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_TaskHistory",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Task history."
+        },
+        {
+          "Culture": 25,
+          "Value": "История заданий."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Tasks",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Tasks."
+        },
+        {
+          "Culture": 25,
+          "Value": "Задания."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Types",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Contains metadata that describes types which used by TESSA."
+        },
+        {
+          "Culture": 25,
+          "Value": "Содержит метаданные, которые описывают типы, используемые в TESSA."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Types_Caption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Caption of a type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Заголовок типа."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Types_Definition",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Definition of a type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Метаинформация по типу."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Types_ID",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "ID of a type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Идентификатор типа."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Descriptions_Types_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name of a type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя типа."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Exception_CircularReferenceToOwner",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Circular references are prohibited on columns with the reference to owner flag."
+        },
+        {
+          "Culture": 25,
+          "Value": "Циклические связи запрещены для колонок с флагом ссылка на родителя."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Exception_DuplicateRecords",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There are duplicate records in the table '{0}' which violate the primary key uniqueness."
+        },
+        {
+          "Culture": 25,
+          "Value": "В таблице '{0}' имеются повторяющиеся записи, которые нарушают уникальность первичного ключа."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Exception_ExpressionFormat",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Failed to build the index expression. The index expression expects more columns than specified in the index."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось построить выражение индекса. В выражении индекса ожидалось большее число колонок, чем задано в индексе."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Exception_RecordsWithoutPrimaryKey",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "A table with records must have a non-empty primary key."
+        },
+        {
+          "Culture": 25,
+          "Value": "Таблица с записями должна иметь первичный ключ с указанным списком колонок."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Function",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Function"
+        },
+        {
+          "Culture": 25,
+          "Value": "Функция"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Index",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Index"
+        },
+        {
+          "Culture": 25,
+          "Value": "Индекс"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_ItemFromAnotherCollection",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} '{1}' is not contained in this collection."
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} '{1}' не содержится в этой коллекции."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_ItemIsAttached",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} '{1}' is attached already."
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} '{1}' уже был присоединён."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_ItemIsPermanent",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} '{1}' is permanent."
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} '{1}' является неизменяемым."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Migration",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Migration"
+        },
+        {
+          "Culture": 25,
+          "Value": "Миграция"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_NewStorage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can not initialize the service because current scheme has version {0} which is higher that the service supports."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно инициализировать сервис, поскольку текущая схема имеет более новую версию {0}, которая не поддерживается сервисом."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_NoStorage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can not initialize the service because scheme does not exist and must be created before using the service."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно инициализировать сервис, поскольку схема не найдена и должна быть создана перед использованием сервиса."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_OldStorage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can not initialize the service because current scheme has version {0} and must be updated before using the service."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно инициализировать сервис, поскольку текущая схема имеет версию {0} и должна быть обновлена перед использованием сервиса."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_OperationException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An exception occurred during the {0} operation."
+        },
+        {
+          "Culture": 25,
+          "Value": "Возникло исключение во время выполнения операции {0}."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_OperationExceptionWithObject",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An exception occurred during the {0} operation on the {1} object."
+        },
+        {
+          "Culture": 25,
+          "Value": "Возникло исключение во время выполнения операции {0} над объектом {1}."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Procedure",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Procedure"
+        },
+        {
+          "Culture": 25,
+          "Value": "Процедура"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_ScalarPropertyDifference",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Changed from '{0}' to '{1}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменено с '{0}' на '{1}'."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_Table",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Table"
+        },
+        {
+          "Culture": 25,
+          "Value": "Таблица"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_UnableToShowDifference",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Unable to show difference."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно отобразить изменения."
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_UpgradeStorage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Upgrade"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновить"
+        }
+      ]
+    },
+    {
+      "Name": "Scheme_XmlObjectDeserializationException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "An exception occurs while deserializing object {0} from file '{1}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Во время десериализации объекта {0} из файла '{1}' возникло исключение."
+        }
+      ]
+    },
+    {
+      "Name": "Sessions_AccessIsBlockedAfterSequentialAttempts",
+      "Comment": "{0} - максимальное количество неудачных попыток подряд по настройкам безопасности.\n{1} - дата/время окончания блокировки в локальном времени пользователя.\n{2} - дата/время окончания блокировки пароля в UTC.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There is a series of {0} failed attempts to login in a short period of time. User is blocked until {1} ({2} UTC). Contact administrator if you need to unblock account earlier."
+        },
+        {
+          "Culture": 25,
+          "Value": "Было произведено несколько неудачных попыток входа ({0}) за короткий промежуток времени. Пользователь заблокирован до {1} ({2} UTC). Свяжитесь с администратором, если требуется разблокировать аккаунт раньше указанного времени."
+        }
+      ]
+    },
+    {
+      "Name": "Sessions_AccessIsBlockedAfterTotalAttempts",
+      "Comment": "{0} - максимальное количество неудачных попыток подряд по настройкам безопасности.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "There is a series of {0} failed attempts to login. User is blocked until {0} ({1} UTC).\nContact administrator if you need to unblock account."
+        },
+        {
+          "Culture": 25,
+          "Value": "Было произведено несколько неудачных попыток входа подряд ({0}). Пользователь заблокирован бессрочно.\nСвяжитесь с администратором, если требуется разблокировать аккаунт."
+        }
+      ]
+    },
+    {
+      "Name": "Sessions_InvalidUserForRelogin",
+      "Comment": "{0} - имя сотрудника, для которого выполнялся вход в предыдущий раз.\n{1} - имя сотрудника для которого выполнен вход сейчас.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Expected to log in as the same user \"{0}\". But you log in as \"{1}\". Please, reenter credentials."
+        },
+        {
+          "Culture": 25,
+          "Value": "Ожидался вход для того же сотрудника \"{0}\". Но вы вошли как сотрудник \"{1}\".\nПожалуйста, повторите ввод логина."
+        }
+      ]
+    },
+    {
+      "Name": "Sessions_NotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Session isn't found. It can be closed by administrator or because of inactivity.\nPlease, save your work in application to local computer and restart the application."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сессия не найдена. Возможно, она закрыта администратором или из-за неактивности.\nПожалуйста, сохраните работу в приложении на вашем компьютере и перезапустите приложение."
+        }
+      ]
+    },
+    {
+      "Name": "Sessions_PasswordExpired",
+      "Comment": "{0} - дата/время истечения срока пароля в локальном времени пользователя.\n{1} - дата/время истечения срока пароля в UTC.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Password is expired at {0} ({1} UTC). Please, contact system administrator in order to change the password."
+        },
+        {
+          "Culture": 25,
+          "Value": "Срок действия пароля истёк {0} ({1} UTC). Пожалуйста, свяжитесь с администратором системы, чтобы изменить пароль."
+        }
+      ]
+    },
+    {
+      "Name": "Sessions_SessionIsInactiveForTooLong",
+      "Comment": "{0} - дата/время последней активности сессии в локальном времени пользователя.\n{1} - дата/время последней активности сессии в UTC.\n{2} - идентификатор сессии.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Session was inactive for too long and it was locked due to security restrictions. It is recommended to save all data on local computer and restart the application.\n\nSession's last activity {0} ({1} UTC). Session identifier: {2:B}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Сессия была неактивна длительное время и была заблокирована в соответствии с настройками безопасности. Рекомендуется сохранить все данные на локальном компьютере и перезапустить приложение.\n\nПоследняя активность сессии: {0} ({1} UTC). Идентификатор сессии: {2:B}."
+        }
+      ]
+    },
+    {
+      "Name": "Sessions_UserIsBlockedPermanently",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "User access is blocked. Administrators only can unblock the user."
+        },
+        {
+          "Culture": 25,
+          "Value": "Доступ пользователя заблокирован. Только администраторы могут снять блокировку."
+        }
+      ]
+    },
+    {
+      "Name": "Sessions_UserIsBlockedTemporary",
+      "Comment": "{0} - дата/время окончания блокировки в локальном времени пользователя.\n{1} - дата/время окончания блокировки в UTC.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "User access is blocked until {0} ({1} UTC). User can be unblocked by administrators or after due time will come."
+        },
+        {
+          "Culture": 25,
+          "Value": "Доступ пользователя заблокирован до {0} ({1} UTC). Блокировка может быть снята администраторами или по достижении обозначенного времени."
+        }
+      ]
+    },
+    {
+      "Name": "Splash_CheckTimeZonesInheritance",
+      "Comment": "Проверяются связи наследования временных зон.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Checking time zones inheritance."
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверяются связи наследования временных зон."
+        }
+      ]
+    },
+    {
+      "Name": "Splash_GeneratingTimeZonesFromDotNet",
+      "Comment": "Заполнение временных зон.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Time zones filling."
+        },
+        {
+          "Culture": 25,
+          "Value": "Заполнение временных зон."
+        }
+      ]
+    },
+    {
+      "Name": "Splash_OpeningFile",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Opening file"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открывается файл"
+        }
+      ]
+    },
+    {
+      "Name": "Splash_SetDefaultTimeZone",
+      "Comment": "Сплэш - Установка зоны по умолчанию для всех ролей",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Set default zone for all roles"
+        },
+        {
+          "Culture": 25,
+          "Value": "Установка зоны по умолчанию для всех ролей"
+        }
+      ]
+    },
+    {
+      "Name": "Splash_UpdateZonesOffsetss",
+      "Comment": "Проверяются смещения временных зон в ролях.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Checking time zones offsets in roles."
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверяются смещения временных зон в ролях."
+        }
+      ]
+    },
+    {
+      "Name": "SqlServerAuthentication",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "SQL Server authentication"
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверка подлинности SQL Server"
+        }
+      ]
+    },
+    {
+      "Name": "SubmittingQueueControl_NoChanges",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No changes found."
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменений не найдено."
+        }
+      ]
+    },
+    {
+      "Name": "SubmittingQueueDialog_CancelSubmitting",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancel submitting changes?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вы действительно хотите прервать сохранение изменений?"
+        }
+      ]
+    },
+    {
+      "Name": "Syntellect_CompanyAddress",
+      "Comment": "Адрес компании по умолчанию для лицензии.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Moscow, Bakuninskaja street, 69, bldg 1, floor 7"
+        },
+        {
+          "Culture": 25,
+          "Value": "Москва, ул. Бакунинская, д. 69, стр. 1, этаж 7"
+        }
+      ]
+    },
+    {
+      "Name": "Syntellect_CompanyName",
+      "Comment": "Название компании по умолчанию для лицензии.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "LLC \"SYNTELLECT\""
+        },
+        {
+          "Culture": 25,
+          "Value": "ООО \"СИНТЕЛЛЕКТ\""
+        }
+      ]
+    },
+    {
+      "Name": "TargetTypeNotEnum",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Target type '{0}' is not an Enum or a Nullable<Enum> type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Целевой тип '{0}' не является типом Enum или Nullable<Enum>."
+        }
+      ]
+    },
+    {
+      "Name": "TargetTypeNotStringOrObject",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Target type '{0}' is not the string type or the object type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Целевой тип '{0}' не является строковым типом или типом Object."
+        }
+      ]
+    },
+    {
+      "Name": "TessaAdmin_Tabs_Cards",
+      "Comment": "Название вкладки \"Карточки\" в TessaAdmin.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cards"
+        },
+        {
+          "Culture": 25,
+          "Value": "Карточки"
+        }
+      ]
+    },
+    {
+      "Name": "TessaAdmin_Tabs_Info",
+      "Comment": "Название вкладки \"Информация\" в TessaAdmin.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Information"
+        },
+        {
+          "Culture": 25,
+          "Value": "Информация"
+        }
+      ]
+    },
+    {
+      "Name": "TessaAdmin_Tabs_Localization",
+      "Comment": "Название вкладки \"Локализация\" в TessaAdmin.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Localization"
+        },
+        {
+          "Culture": 25,
+          "Value": "Локализация"
+        }
+      ]
+    },
+    {
+      "Name": "TessaAdmin_Tabs_Scheme",
+      "Comment": "Название вкладки \"Схема\" в TessaAdmin.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Scheme"
+        },
+        {
+          "Culture": 25,
+          "Value": "Схема"
+        }
+      ]
+    },
+    {
+      "Name": "TessaAdmin_Tabs_Views",
+      "Comment": "Название вкладки \"Представления\" в TessaAdmin.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Views"
+        },
+        {
+          "Culture": 25,
+          "Value": "Представления"
+        }
+      ]
+    },
+    {
+      "Name": "TessaAdmin_Tabs_Workplaces",
+      "Comment": "Название вкладки \"Рабочие места\" в TessaAdmin.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Workplaces"
+        },
+        {
+          "Culture": 25,
+          "Value": "Рабочие места"
+        }
+      ]
+    },
+    {
+      "Name": "Tiles_LocalizationFromSystemSettings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "System language"
+        },
+        {
+          "Culture": 25,
+          "Value": "Язык системы"
+        }
+      ]
+    },
+    {
+      "Name": "Tiles_LocalizationFromUserSettings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "From user settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Из настроек пользователя"
+        }
+      ]
+    },
+    {
+      "Name": "Tiles_LocalizationSelectLanguage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Interface language"
+        },
+        {
+          "Culture": 25,
+          "Value": "Язык интерфейса"
+        }
+      ]
+    },
+    {
+      "Name": "TooManyValuesForArgumentException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Too many values specified for argument ' {0} '."
+        },
+        {
+          "Culture": 25,
+          "Value": "Для аргумента ' {0} ' указано слишком много значений."
+        }
+      ]
+    },
+    {
+      "Name": "TypeHasNoStandardValues",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The type '{0}' has no standard values."
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип '{0}' не имеет стандартных значений."
+        }
+      ]
+    },
+    {
+      "Name": "TypeIsNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Type '{0}' is not found."
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип '{0}' не найден."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_CreateBlock",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create block \"{0}\" in form \"{1}\", type \"{2}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать блок \"{0}\" в форме \"{1}\", тип \"{2}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_CreateBlock_ParentControl",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create block \"{0}\" in form \"{1}\", parent control \"{2}\", type \"{3}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать блок \"{0}\" в форме \"{1}\", родительский контрол \"{2}\", тип \"{3}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_CreateBlockEditor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create editor for block \"{0}\" in form \"{1}\", type \"{2}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать редактор блока \"{0}\" в форме \"{1}\", тип \"{2}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_CreateBlockEditor_ParentControl",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create editor for block \"{0}\" in form \"{1}\", parent control \"{2}\", type \"{3}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать редактор блока \"{0}\" в форме \"{1}\", родительский контрол \"{2}\", тип \"{3}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_CreateControl",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create control \"{0}\" in block \"{1}\", form \"{2}\", type \"{3}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать контрол \"{0}\" в блоке \"{1}\", форма \"{2}\", тип \"{3}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_CreateControl_ParentControl",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create control \"{0}\" in block \"{1}\", form \"{2}\", parent control \"{3}\", type \"{4}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать контрол \"{0}\" в блоке \"{1}\", форма \"{2}\", родительский контрол \"{3}\", тип \"{4}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_CreateControlEditor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create editor for control \"{0}\" in block \"{1}\", form \"{2}\", type \"{3}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать редактор контрола \"{0}\" в блоке \"{1}\", форма \"{2}\", тип \"{3}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_CreateControlEditor_ParentControl",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create editor for control \"{0}\" in block \"{1}\", form \"{2}\", parent control \"{3}\", type \"{4}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать редактор контрола \"{0}\" в блоке \"{1}\", форма \"{2}\", родительский контрол \"{3}\", тип \"{4}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_CreateForm",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create form \"{0}\" in type \"{1}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать форму \"{0}\" в типе \"{1}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_CreateForm_ParentControl",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create form \"{0}\" in parent control \"{1}\", type \"{2}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать форму \"{0}\" в родительском контроле \"{1}\", тип \"{2}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_CreateFormEditor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create editor for form \"{0}\" in type \"{1}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать редактор формы \"{0}\" в типе \"{1}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_CreateFormEditor_ParentControl",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create editor for form \"{0}\" in parent control \"{1}\", type \"{2}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать редактор формы \"{0}\" в родительском контроле \"{1}\", тип \"{2}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_CreateTypeExtensionEditor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create editor for type extension \"{0}\" in type \"{1}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать редактор расширения \"{0}\" в типе \"{1}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_CreateValidatorEditor",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't create editor for validator \"{0}\" in type \"{1}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно создать редактор валидатора \"{0}\" в типе \"{1}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_RepairBlock",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't repair block \"{0}\" in type \"{1}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно исправить блок \"{0}\" в типе \"{1}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_RepairControl",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't repair control \"{0}\" in type \"{1}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно исправить контрол \"{0}\" в типе \"{1}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_RepairForm",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't repair form \"{0}\" in type \"{1}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно исправить форму \"{0}\" в типе \"{1}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_RepairTypeExtension",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't repair extension \"{0}\" in type \"{1}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно исправить расширение \"{0}\" в типе \"{1}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_RepairValidator",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't repair validator \"{0}\" in type \"{1}\"."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно исправить валидатор \"{0}\" в типе \"{1}\"."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Cards_Exception_ViewNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't find view with name '{0}'."
+        },
+        {
+          "Culture": 25,
+          "Value": "Представление с именем '{0}' - не найдено."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_AbortSaveMessage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Abort saving?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Прервать сохранение?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_About",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "About"
+        },
+        {
+          "Culture": 25,
+          "Value": "О программе"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Add",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Cancel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancel"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отмена"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_CancelSaveMessage",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Are you sure to cancel saving changes?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Отменить сохранение изменений?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_CancelSaveTitle",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cancel saving"
+        },
+        {
+          "Culture": 25,
+          "Value": "Прервать сохранение"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Caption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Caption"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заголовок"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Close",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Close"
+        },
+        {
+          "Culture": 25,
+          "Value": "Закрыть"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Comment",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Comment"
+        },
+        {
+          "Culture": 25,
+          "Value": "Комментарий"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Copy",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Copy"
+        },
+        {
+          "Culture": 25,
+          "Value": "Копировать"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Copy_Hint",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Copy message to clipboard"
+        },
+        {
+          "Culture": 25,
+          "Value": "Копирует сообщение в буфер обмена"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_CopyFiles",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Copy files"
+        },
+        {
+          "Culture": 25,
+          "Value": "Копировать файлы"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_CopyFiles_Hint",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Copy files with error details to clipboard"
+        },
+        {
+          "Culture": 25,
+          "Value": "Копирует файлы с описанием ошибки в буфер обмена"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Cut",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cut"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вырезать"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Delete",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Dialog_CantDisplayMessages",
+      "Comment": "Заголовок окна сообщения, которое выводится вместо стандартного окна валидации в случае,если стандартное окно не удалось отобразить.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't display messages"
+        },
+        {
+          "Culture": 25,
+          "Value": "Не удалось отобразить сообщения"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Dialog_Confirmation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Confirmation"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подтверждение"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Dialog_Error",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Export",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export"
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспорт"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_FormatException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Wrong format."
+        },
+        {
+          "Culture": 25,
+          "Value": "Неверный формат."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Import",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import"
+        },
+        {
+          "Culture": 25,
+          "Value": "Импорт"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Messages_ClickToChangePassword",
+      "Comment": "String should be in Core library in order to localize password notification.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Click here to open dialog for changing the password."
+        },
+        {
+          "Culture": 25,
+          "Value": "Нажмите здесь, чтобы открыть окно изменения пароля."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Name",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Название"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_No",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "No"
+        },
+        {
+          "Culture": 25,
+          "Value": "Нет"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_OK",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "OK"
+        },
+        {
+          "Culture": 25,
+          "Value": "OK"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Paste",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Paste"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вставить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Refresh",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Refresh"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Save",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Settings",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Settings"
+        },
+        {
+          "Culture": 25,
+          "Value": "Настройки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Splash_SavingLibraries",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Saving localization libraries"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохраняются библиотеки локализации"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Splash_SavingTypes",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Saving types"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохраняются типы"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Value",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Value"
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Common_Yes",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Yes"
+        },
+        {
+          "Culture": 25,
+          "Value": "Да"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Controls_Exception_FileNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "File not found"
+        },
+        {
+          "Culture": 25,
+          "Value": "Файл не найден"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Files_NoCategory",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "( No category )"
+        },
+        {
+          "Culture": 25,
+          "Value": "( Без категории )"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Links_Handle_ErrorCaption",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error handling link"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка при обработке ссылки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Localization_AllLibraries",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "All libraries"
+        },
+        {
+          "Culture": 25,
+          "Value": "Все библиотеки"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Localization_Header_ExportToExcel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export to Excel..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспорт в Excel..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Localization_Header_ExportToLibrary",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export to library..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспорт в файл..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Localization_Header_ImportFromExcel",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import from Excel..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Импорт из Excel..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Localization_Header_ImportFromLibrary",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import from library..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Импорт из файла..."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Localization_Header_LocalizationEntry",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Localization entry"
+        },
+        {
+          "Culture": 25,
+          "Value": "Строка локализации"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Localization_Library",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Library"
+        },
+        {
+          "Culture": 25,
+          "Value": "Библиотека"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Localization_Library_DuplicateName",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Library with specified name already exists."
+        },
+        {
+          "Culture": 25,
+          "Value": "Библиотека с таким именем уже существует."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Localization_Message_AddStringsConfirmation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Are you sure to add strings with culture '{0}' to library '{1}'?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вы действительно хотите добавить строки с культурой '{0}' в библиотеку '{1}'?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Localization_Priority",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Priority:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Приоритет:"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Login_ConfirmRelogin",
+      "Comment": "Подтверждение, запрашиваемое у пользователя при близком времени завершения сессии.\n{0} - ожидаемое время завершения.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Session will expire at {0}. Relogin?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сессия истекает в {0}. Повторить вход в систему?"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Login_Login",
+      "Comment": "Метка поля для ввода логина в диалоге, предлагающем ввести логин и пароль. Оканчивается на двоеточие.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Login:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Логин:"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Login_Logout_Tile",
+      "Comment": "Тайл выхода из учетной записи",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Logout"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выйти из учетной записи"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Login_Password",
+      "Comment": "Метка поля для ввода пароля в диалоге, предлагающем ввести логин и пароль. Оканчивается на двоеточие.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Password:"
+        },
+        {
+          "Culture": 25,
+          "Value": "Пароль:"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Login_SaveCredentials",
+      "Comment": "Название флажка для сохранения логина и пароля",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Save password"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сохранить пароль"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Login_SaveCredentials_ToolTip",
+      "Comment": "Всплывающая подсказка на флажок для сохранения логина и пароля",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "On \"Servers\" tab you can modify saved login and password."
+        },
+        {
+          "Culture": 25,
+          "Value": "На вкладке \"Серверы\" можно изменить сохранённые логин и пароль."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Login_ServerLabelFormat",
+      "Comment": "Строка текста, преобразуемая в адрес логина. {0} - информация по server code, instance name и base address",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Connecting to {0}"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подключение к {0}"
+        }
+      ]
+    },
+    {
+      "Name": "UI_Login_SessionExceptionMessage",
+      "Comment": "Сообщение, выводимое пользователю при ошибке, связанной с сессией.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Can't login with specified credentials.\nCheck login and password, and try again."
+        },
+        {
+          "Culture": 25,
+          "Value": "Невозможно выполнить вход с указанными параметрами.\nПроверьте логин и пароль, и попробуйте ещё раз."
+        }
+      ]
+    },
+    {
+      "Name": "UI_Login_Title",
+      "Comment": "Заголовок диалога, предлагающего ввести логин и пароль.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Enter login and password"
+        },
+        {
+          "Culture": 25,
+          "Value": "Введите логин и пароль"
+        }
+      ]
+    },
+    {
+      "Name": "UI_LoginProxy_Title",
+      "Comment": "Заголовок диалога, предлагающего ввести логин и пароль для подключения к прокси-серверу.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Proxy-server: enter login and password"
+        },
+        {
+          "Culture": 25,
+          "Value": "Прокси-сервер: введите логин и пароль"
+        }
+      ]
+    },
+    {
+      "Name": "UnknownArgumentException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "'{1}' is not recognized as an argument of '{0}' command."
+        },
+        {
+          "Culture": 25,
+          "Value": "'{1}' не является аргументом команды '{0}'."
+        }
+      ]
+    },
+    {
+      "Name": "UnknownCommandException",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "'{0}' is not recognized as a command."
+        },
+        {
+          "Culture": 25,
+          "Value": "'{0}' не является командой."
+        }
+      ]
+    },
+    {
+      "Name": "ValidationResultDialog_Header_Error",
+      "Comment": "Заголовок результата валидации - ошибка",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Error"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ошибка"
+        }
+      ]
+    },
+    {
+      "Name": "ValidationResultDialog_Header_Info",
+      "Comment": "Заголовок результата валидации - информация",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Information"
+        },
+        {
+          "Culture": 25,
+          "Value": "Информация"
+        }
+      ]
+    },
+    {
+      "Name": "ValidationResultDialog_Header_Warning",
+      "Comment": "Заголовок результата валидации - предупреждение",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Warning"
+        },
+        {
+          "Culture": 25,
+          "Value": "Предупреждение"
+        }
+      ]
+    },
+    {
+      "Name": "ValidationResultDialog_ItemType",
+      "Comment": "\"Тип\" в диалоге результата валидации (сообщение/предупреждение/ошибка)",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип"
+        }
+      ]
+    },
+    {
+      "Name": "ValidationResultDialog_ShowDetails",
+      "Comment": "\"Подробно\" в диалоге результата валидации",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show details"
+        },
+        {
+          "Culture": 25,
+          "Value": "Подробно"
+        }
+      ]
+    },
+    {
+      "Name": "ValidationResultDialog_ValidationDetails",
+      "Comment": "\"Детали\" в диалоге результата валидации",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Details"
+        },
+        {
+          "Culture": 25,
+          "Value": "Детали"
+        }
+      ]
+    },
+    {
+      "Name": "ValidationResultDialog_ValidationField",
+      "Comment": "\"Поле\" в диалоге результата валидации",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Field"
+        },
+        {
+          "Culture": 25,
+          "Value": "Поле"
+        }
+      ]
+    },
+    {
+      "Name": "ValidationResultDialog_ValidationKey",
+      "Comment": "\"Ключ\" в диалоге результата валидации",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Key"
+        },
+        {
+          "Culture": 25,
+          "Value": "Ключ"
+        }
+      ]
+    },
+    {
+      "Name": "ValidationResultDialog_ValidationMessage",
+      "Comment": "\"Сообщение\" в диалоге результата валидации",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Message"
+        },
+        {
+          "Culture": 25,
+          "Value": "Сообщение"
+        }
+      ]
+    },
+    {
+      "Name": "ValidationResultDialog_ValidationObjectName",
+      "Comment": "\"Имя объекта\" в диалоге результата валидации",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Object name"
+        },
+        {
+          "Culture": 25,
+          "Value": "Имя объекта"
+        }
+      ]
+    },
+    {
+      "Name": "ValidationResultDialog_ValidationObjectType",
+      "Comment": "\"Тип объекта\" в диалоге результата валидации",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Object type"
+        },
+        {
+          "Culture": 25,
+          "Value": "Тип объекта"
+        }
+      ]
+    },
+    {
+      "Name": "ValueTypeNotEnum",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "SettedValues type '{0}' is not an Enum or a Nullable<Enum> type."
+        },
+        {
+          "Culture": 25,
+          "Value": "Значение имеет отличный от Enum или Nullable<Enum> тип '{0}'."
+        }
+      ]
+    },
+    {
+      "Name": "Views_AccessManagerView_AddRole",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add"
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить"
+        }
+      ]
+    },
+    {
+      "Name": "Views_AccessManagerView_DeleteRole",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete role '{0}'?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить роль '{0}'?"
+        }
+      ]
+    },
+    {
+      "Name": "Views_AccessManagerView_DeleteRoleToolTip",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete role"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить роль"
+        }
+      ]
+    },
+    {
+      "Name": "Views_AccessManagerView_ViewNotFound",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "View '{0}' not found or access denied."
+        },
+        {
+          "Culture": 25,
+          "Value": "Не найдено представление '{0}' или отсутствует доступ к нему."
+        }
+      ]
+    },
+    {
+      "Name": "Views_ExchangeDialog_EmptyList",
+      "Comment": "Информационный текст, отображаемый в диалоговом окне диалога импорта/экспорта представлений/рабочих мест при отсутствии элементов.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Empty list..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Список пуст..."
+        }
+      ]
+    },
+    {
+      "Name": "Views_ExchangeDialog_SelectFolderTooltip",
+      "Comment": "Подсказка для кнопки выбора папки в диалоговом окне импорт/экспорта представлений/рабочих мест",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Select folder"
+        },
+        {
+          "Culture": 25,
+          "Value": "Выбрать папку..."
+        }
+      ]
+    },
+    {
+      "Name": "Views_ExportData_ClipboardComplete",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export to file completed. File is copied in a clipboard."
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспорт в файл с помещением файла в буфер обмена завершен"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ExportData_FileComplete",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Export to file '{0}' completed."
+        },
+        {
+          "Culture": 25,
+          "Value": "Экспорт в файл '{0}' завершен."
+        }
+      ]
+    },
+    {
+      "Name": "Views_Filtering_And",
+      "Comment": "Элемент текстового фильтра 'и'",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": ","
+        },
+        {
+          "Culture": 25,
+          "Value": ","
+        }
+      ]
+    },
+    {
+      "Name": "Views_Filtering_BetweenConditionSeparator",
+      "Comment": "Разделитель условия \"между\" в текстовом описании фильтра, например: '1' [and] '2'",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": " and "
+        },
+        {
+          "Culture": 25,
+          "Value": " и "
+        }
+      ]
+    },
+    {
+      "Name": "Views_Filtering_Or",
+      "Comment": "Элемент текстового фильтра 'или'",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "or"
+        },
+        {
+          "Culture": 25,
+          "Value": "или"
+        }
+      ]
+    },
+    {
+      "Name": "Views_GetData_LongOperation",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Please wait... Data loading in progress."
+        },
+        {
+          "Culture": 25,
+          "Value": "Идет загрузка данных..."
+        }
+      ]
+    },
+    {
+      "Name": "Views_Import_DeleteViewsOption",
+      "Comment": "Опция импортирования представлений \"Удалить перед импортом все представления из базы данных\"",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete all views before import"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить перед импортом все представления из базы данных"
+        }
+      ]
+    },
+    {
+      "Name": "Views_Import_ReplacePermissions",
+      "Comment": "Опция в диалоговом окне импорта представлений",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Replace existing permissions"
+        },
+        {
+          "Culture": 25,
+          "Value": "Заменить разрешения в базе данных"
+        }
+      ]
+    },
+    {
+      "Name": "Views_TessaAdmin_Import_InvalidViewGroupName",
+      "Comment": "Имя группы в диалоге импорта содержащей объекты с ошибкой",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "With errors"
+        },
+        {
+          "Culture": 25,
+          "Value": "С ошибками"
+        }
+      ]
+    },
+    {
+      "Name": "Views_TessaAdmin_WithoutGroup",
+      "Comment": "Элемент без группы",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "( no group )"
+        },
+        {
+          "Culture": 25,
+          "Value": "( без группы )"
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItem_DeleteItemMessage",
+      "Comment": "Текст подтверждения удаления узла дерева рабочего места",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete item '{0}'?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить '{0}'?"
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItem_NotUsedComponentsFolder",
+      "Comment": "Текст заголовка специальной папки для дерева рабочего места, которая содержит элементы без владельца (owner`а)",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Inaccessible elements"
+        },
+        {
+          "Culture": 25,
+          "Value": "Недоступные элементы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItemContextMenu_Copy",
+      "Comment": "Заголовок элемента контекстного меню Копирования узла дерева",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Copy"
+        },
+        {
+          "Culture": 25,
+          "Value": "Копировать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItemContextMenu_CopyLink",
+      "Comment": "Заголовок элемента контекстного меню Копирования ссылки на узел дерева",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Copy link"
+        },
+        {
+          "Culture": 25,
+          "Value": "Копировать ссылку на узел"
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItemContextMenu_CreateFolder",
+      "Comment": "Заголовок элемента меню добавления папки к узлу дерева",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Add folder..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Добавить папку..."
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItemContextMenu_Cut",
+      "Comment": "Заголовок элемента меню вырезания узла дерева",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Cut"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вырезать"
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItemContextMenu_Delete",
+      "Comment": "Заголовок элемента меню удаления узла дерева",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить..."
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItemContextMenu_HideUnusedItems",
+      "Comment": "Заголовок элемента меню скрытия недоступных элементов узла дерева",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hide unused items"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрыть недоступные элементы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItemContextMenu_HideWorkplaceTree",
+      "Comment": "Заголовок элемента меню скрытия дерева рабочего места",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Hide tree"
+        },
+        {
+          "Culture": 25,
+          "Value": "Скрыть дерево"
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItemContextMenu_Paste",
+      "Comment": "Заголовок элемента меню вставки узла дерева",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Paste"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вставить"
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItemContextMenu_RefreshTreeItem",
+      "Comment": "Заголовок элемента контекстного меню дерева Обновить узел",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Refresh node"
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновить узел"
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItemContextMenu_ShowProperties",
+      "Comment": "Заголовок элемента меню настройки параметров узла",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Property..."
+        },
+        {
+          "Culture": 25,
+          "Value": "Изменить параметры..."
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItemContextMenu_ShowUnusedItems",
+      "Comment": "Заголовок элемента меню отображения недоступных элементов узла дерева",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show unused items"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показать недоступные элементы"
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItemContextMenu_ShowWorkplaceTree",
+      "Comment": "Заголовок элемента меню отображения дерева рабочего места",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Show tree"
+        },
+        {
+          "Culture": 25,
+          "Value": "Показать дерево"
+        }
+      ]
+    },
+    {
+      "Name": "Views_TreeItemContextMenu_Zoom",
+      "Comment": "Заголовок элемента меню копирования узла дерева в отдельную вкладку рабочего места",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Open in new tab"
+        },
+        {
+          "Culture": 25,
+          "Value": "Открыть в новой вкладке"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ViewEditorView_ApplyRawJsonChanges",
+      "Comment": "Кнопка применения изменений JSON редактора представлений",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Validate and save changes"
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверить и сохранить изменения"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ViewEditorView_LegacyMetadataMigrationWarning",
+      "Comment": "Предупреждение перед переключением на редактирование метаданных в JSON",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "The view metadata will be converted to the new format. If you save view after convertion is complete, the old metadata would not be available anymore. If you want to view the old metatadata after convertion is complete, refresh the view before you save it. Perform convertion now?"
+        },
+        {
+          "Culture": 25,
+          "Value": "Метаданные будут конвертированы в новый формат. После перехода на новый формат и первого сохранения, старые метаданные будет невозможно просмотреть. Чтобы повторно просмотреть старые метаданные обновите представление не сохраняя его. Выполнить конвертацию сейчас?"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ViewEditorView_MetadataModeToggleButton",
+      "Comment": "Переключение режима редактирования метаданных представлений JSON <-> Карточка",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Switch editor mode"
+        },
+        {
+          "Culture": 25,
+          "Value": "Переключить режим редактирования"
+        }
+      ]
+    },
+    {
+      "Name": "Views_ViewEditorView_TransformLegacyMetadata",
+      "Comment": "Кнопка для перехода к новому формату для метаданных представлений",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Editor of the old metadata format is now deprecated. Save your data in external text editor and click here to switch to new metadata format."
+        },
+        {
+          "Culture": 25,
+          "Value": "Редактор метаданных в старом формате более не поддерживается. Сохраните необходимые Вам данные во внешнем текстовом редакторе, после чего нажмите сюда для миграции на новый формат метаданных."
+        }
+      ]
+    },
+    {
+      "Name": "Window_Close",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Close"
+        },
+        {
+          "Culture": 25,
+          "Value": "Закрыть"
+        }
+      ]
+    },
+    {
+      "Name": "Window_Maximize",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Maximize"
+        },
+        {
+          "Culture": 25,
+          "Value": "Развернуть"
+        }
+      ]
+    },
+    {
+      "Name": "Window_Minimize",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Minimize"
+        },
+        {
+          "Culture": 25,
+          "Value": "Свернуть"
+        }
+      ]
+    },
+    {
+      "Name": "Window_RestoreDown",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Restore down"
+        },
+        {
+          "Culture": 25,
+          "Value": "Восстановить размер"
+        }
+      ]
+    },
+    {
+      "Name": "WindowsAuthentication",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Windows authentication"
+        },
+        {
+          "Culture": 25,
+          "Value": "Проверка подлинности Windows"
+        }
+      ]
+    },
+    {
+      "Name": "Workplaces_Import_InjectedSearchQueries",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import injected search queries"
+        },
+        {
+          "Culture": 25,
+          "Value": "Импортировать внедрённые в рабочие места файлы поисковых запросов"
+        }
+      ]
+    },
+    {
+      "Name": "Workplaces_Import_InjectedViews",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Import injected views"
+        },
+        {
+          "Culture": 25,
+          "Value": "Импортировать внедрённые в рабочие места файлы представлений"
+        }
+      ]
+    },
+    {
+      "Name": "Workplaces_Import_InjectedViewsCount",
+      "Comment": "Информационная строка содержащая информацию о количестве внедренных в рабочее место представлений",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "{0} - views: {1}"
+        },
+        {
+          "Culture": 25,
+          "Value": "{0} - представлений: {1}"
+        }
+      ]
+    },
+    {
+      "Name": "Workplaces_Import_NeedClear",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Delete all workplaces before importing"
+        },
+        {
+          "Culture": 25,
+          "Value": "Удалить перед импортом все рабочие места из базы данных"
+        }
+      ]
+    }
+  ]
+}
