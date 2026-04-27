@@ -17,7 +17,7 @@
 		<SchemeDefaultConstraint IsPermanent="true" ID="b5bfa3bc-d8ff-4497-8ec4-68aed41c0e09" Name="df_KrStageTemplates_IsStagesReadonly" Value="true" />
 	</SchemePhysicalColumn>
 	<SchemeComplexColumn ID="b91d59a3-f6b5-4ad3-be57-b41ecdf52d4a" Name="GroupPosition" Type="Reference(Typified) Not Null" ReferencedTable="496c30f2-79d0-408a-8085-95b43d67a22b">
-		<SchemeReferencingColumn IsPermanent="true" ID="271dd937-38e8-40f7-a0bd-22dee8ba81b6" Name="GroupPositionID" Type="Int32 Not Null" ReferencedColumn="2357fdc4-35e8-4200-b626-a21027473232" />
+		<SchemeReferencingColumn IsSystem="true" IsPermanent="true" ID="271dd937-38e8-40f7-a0bd-22dee8ba81b6" Name="GroupPositionID" Type="Int32 Not Null" ReferencedColumn="2357fdc4-35e8-4200-b626-a21027473232" />
 		<SchemeReferencingColumn ID="366c53e7-3f76-4647-a4ce-77f6304bd353" Name="GroupPositionName" Type="String(50) Not Null" ReferencedColumn="bf262a11-5e78-4752-9dc7-795ae179eca7" />
 	</SchemeComplexColumn>
 	<SchemePhysicalColumn ID="8a2c2598-5dd0-4735-816a-5f26ba584014" Name="SqlCondition" Type="String(Max) Null">

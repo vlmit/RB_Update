@@ -60,7 +60,7 @@
 		</SchemeReferencingColumn>
 	</SchemeComplexColumn>
 	<SchemeComplexColumn ID="ece42d34-97cb-4a99-b10c-4e16fcdf86e3" Name="VatType" Type="Reference(Typified) Null" ReferencedTable="8dd87520-9d83-4d8a-8c60-c1275328c5e8">
-		<SchemeReferencingColumn IsPermanent="true" ID="910dcc69-6499-4930-92ee-acb25c0eb412" Name="VatTypeID" Type="Int32 Null" ReferencedColumn="5338f623-353a-4922-ae37-a4a531c7caf1" />
+		<SchemeReferencingColumn IsSystem="true" IsPermanent="true" ID="910dcc69-6499-4930-92ee-acb25c0eb412" Name="VatTypeID" Type="Int32 Null" ReferencedColumn="5338f623-353a-4922-ae37-a4a531c7caf1" />
 		<SchemeReferencingColumn ID="6a918717-99eb-43f6-964a-ac70bf3fc134" Name="VatTypeName" Type="String(256) Null" ReferencedColumn="7615e67a-6089-4f1a-95ed-1cfa92ca784a" />
 	</SchemeComplexColumn>
 	<SchemePrimaryKey IsSystem="true" IsPermanent="true" IsSealed="true" ID="5d47ef13-b6f4-00ef-5000-0b3d0e6d475a" Name="pk_Partners" IsClustered="true">

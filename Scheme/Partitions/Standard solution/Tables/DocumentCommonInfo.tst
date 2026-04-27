@@ -3,6 +3,11 @@
 	<Description>Общая секция для всех видов документов.
 Должна использоваться для всех типов карточек, использующих такие поля, как номер, контрагент, тема и т.п.
 Помимо всего прочего, активно используется в поиске и представлениях.</Description>
+	<SchemeComplexColumn ID="36be79af-fff7-417e-997e-4fe3f51aae56" Name="Department" Type="Reference(Typified) Null" ReferencedTable="d43dace1-536f-4c9f-af15-49a8892a7427">
+		<Description>Подразделение</Description>
+		<SchemeReferencingColumn IsSystem="true" IsPermanent="true" ID="36be79af-fff7-007e-4000-0fe3f51aae56" Name="DepartmentID" Type="Guid Null" ReferencedColumn="d43dace1-536f-019f-4000-09a8892a7427" />
+		<SchemePhysicalColumn ID="f47e37a5-8181-438a-a7c6-fb79ffe63680" Name="DepartmentName" Type="String(128) Null" />
+	</SchemeComplexColumn>
 	<SchemeComplexColumn IsSystem="true" IsPermanent="true" IsSealed="true" ID="a161e289-2f99-0099-2000-0e3336be8527" Name="ID" Type="Reference(Typified) Not Null" ReferencedTable="1074eadd-21d7-4925-98c8-40d1e5f0ca0e">
 		<SchemeReferencingColumn IsSystem="true" IsPermanent="true" ID="a161e289-2f99-0199-4000-0e3336be8527" Name="ID" Type="Guid Not Null" ReferencedColumn="9a58123b-b2e9-4137-9c6c-5dab0ec02747" />
 	</SchemeComplexColumn>
@@ -37,7 +42,7 @@
 	<SchemePhysicalColumn ID="dadb1130-034d-493c-b7a0-a7c74eae078b" Name="SecondarySequence" Type="String(128) Null">
 		<Description>Последовательность для вторичного номера (поля SecondaryNumber и SecondaryFullNumber)</Description>
 	</SchemePhysicalColumn>
-	<SchemePhysicalColumn ID="2246998b-e4f7-45f1-8a96-211848466450" Name="Subject" Type="String(440) Null">
+	<SchemePhysicalColumn ID="2246998b-e4f7-45f1-8a96-211848466450" Name="Subject" Type="String(1024) Null">
 		<Description>Тема документа.</Description>
 	</SchemePhysicalColumn>
 	<SchemePhysicalColumn ID="b452a4ce-ae1e-43fd-a44f-cc74464a6cd3" Name="DocDate" Type="Date Null">
@@ -80,11 +85,6 @@
 		<SchemeReferencingColumn ID="de897147-3250-40a3-a71f-bb9502380b76" Name="SignedByName" Type="String(128) Null" ReferencedColumn="1782f76a-4743-4aa4-920c-7edaee860964">
 			<Description>Отображаемое имя пользователя.</Description>
 		</SchemeReferencingColumn>
-	</SchemeComplexColumn>
-	<SchemeComplexColumn ID="36be79af-fff7-417e-997e-4fe3f51aae56" Name="Department" Type="Reference(Typified) Null" ReferencedTable="d43dace1-536f-4c9f-af15-49a8892a7427">
-		<Description>Подразделение</Description>
-		<SchemeReferencingColumn IsSystem="true" IsPermanent="true" ID="36be79af-fff7-007e-4000-0fe3f51aae56" Name="DepartmentID" Type="Guid Null" ReferencedColumn="d43dace1-536f-019f-4000-09a8892a7427" />
-		<SchemePhysicalColumn ID="f47e37a5-8181-438a-a7c6-fb79ffe63680" Name="DepartmentName" Type="String(128) Null" />
 	</SchemeComplexColumn>
 	<SchemeComplexColumn ID="22ed59ec-4939-4d96-a7a8-cbf0bda55ec0" Name="Partner" Type="Reference(Typified) Null" ReferencedTable="5d47ef13-b6f4-47ef-9815-3b3d0e6d475a">
 		<Description>Контрагент.</Description>

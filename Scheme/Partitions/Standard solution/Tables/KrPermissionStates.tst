@@ -7,7 +7,7 @@
 	<SchemePhysicalColumn IsSystem="true" IsPermanent="true" IsSealed="true" ID="5024c846-07bb-0032-3100-0c6f9c1e27f7" Name="RowID" Type="Guid Not Null" />
 	<SchemeComplexColumn ID="9acfb365-f531-41e9-a30a-f64cbddfa3e1" Name="State" Type="Reference(Typified) Not Null" ReferencedTable="47107d7a-3a8c-47f0-b800-2a45da222ff4">
 		<Description>Состояние согласуемой карточки, к которому применяются права из карточки с правами.</Description>
-		<SchemeReferencingColumn IsPermanent="true" ID="c31031f0-64de-4152-9b8f-129c00a9d54b" Name="StateID" Type="Int16 Not Null" ReferencedColumn="502209b0-233f-4e1f-be01-35a50f53414c" />
+		<SchemeReferencingColumn IsSystem="true" IsPermanent="true" ID="c31031f0-64de-4152-9b8f-129c00a9d54b" Name="StateID" Type="Int16 Not Null" ReferencedColumn="502209b0-233f-4e1f-be01-35a50f53414c" />
 		<SchemeReferencingColumn ID="2d2ff670-226f-4120-8100-b96b161ca28a" Name="StateName" Type="String(128) Not Null" ReferencedColumn="4c1a8dd7-72ed-4fc9-b559-b38ae30dccb9" />
 	</SchemeComplexColumn>
 	<SchemePrimaryKey IsSystem="true" IsPermanent="true" IsSealed="true" ID="5024c846-07bb-0032-5000-0c6f9c1e27f7" Name="pk_KrPermissionStates">

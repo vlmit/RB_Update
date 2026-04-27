@@ -6,7 +6,7 @@
 	</SchemeComplexColumn>
 	<SchemePhysicalColumn ID="c818fad3-4641-40ff-b1d5-058b6c152a24" Name="MainCardID" Type="Guid Null" />
 	<SchemeComplexColumn ID="71399f2b-60cf-4b4c-bc21-06c4eec0a1dc" Name="State" Type="Reference(Typified) Not Null" ReferencedTable="47107d7a-3a8c-47f0-b800-2a45da222ff4">
-		<SchemeReferencingColumn IsPermanent="true" ID="ccae9571-b9fa-4509-97c4-c9e36936766a" Name="StateID" Type="Int16 Not Null" ReferencedColumn="502209b0-233f-4e1f-be01-35a50f53414c">
+		<SchemeReferencingColumn IsSystem="true" IsPermanent="true" ID="ccae9571-b9fa-4509-97c4-c9e36936766a" Name="StateID" Type="Int16 Not Null" ReferencedColumn="502209b0-233f-4e1f-be01-35a50f53414c">
 			<SchemeDefaultConstraint IsPermanent="true" ID="e7eda1a0-242c-4e17-b0fa-ac8b83020fbb" Name="df_KrApprovalCommonInfo_StateID" Value="0" />
 		</SchemeReferencingColumn>
 		<SchemeReferencingColumn ID="e36cb975-6c89-4e23-a12d-ac7a44223b49" Name="StateName" Type="String(128) Not Null" ReferencedColumn="4c1a8dd7-72ed-4fc9-b559-b38ae30dccb9">

@@ -22,7 +22,7 @@
 		<SchemeDefaultConstraint IsPermanent="true" ID="8ded49e9-e76c-47b3-9bbf-88e5e58fc755" Name="df_KrSettingsCardTypes_UseApproving" Value="false" />
 	</SchemePhysicalColumn>
 	<SchemeComplexColumn ID="529b5f7c-7639-447c-b781-9709f358f70b" Name="DocNumberRegularAutoAssignment" Type="Reference(Typified) Not Null" ReferencedTable="83b4c03f-fdb8-4e11-bca4-02177dd4b3dc" WithForeignKey="false">
-		<SchemeReferencingColumn IsPermanent="true" ID="deb16f20-1690-4811-b247-cb70d409f0ca" Name="DocNumberRegularAutoAssignmentID" Type="Int32 Not Null" ReferencedColumn="7ef0f81c-6121-447c-9a2c-21bbdcaf3707" />
+		<SchemeReferencingColumn IsSystem="true" IsPermanent="true" ID="deb16f20-1690-4811-b247-cb70d409f0ca" Name="DocNumberRegularAutoAssignmentID" Type="Int32 Not Null" ReferencedColumn="7ef0f81c-6121-447c-9a2c-21bbdcaf3707" />
 		<SchemeReferencingColumn ID="136b16d8-f91b-41e3-9773-7f6ce687e795" Name="DocNumberRegularAutoAssignmentDescription" Type="String(128) Not Null" ReferencedColumn="a769e235-b237-4f3a-be39-f1e7602fe9da" />
 	</SchemeComplexColumn>
 	<SchemePhysicalColumn ID="24438706-f615-44f5-8ce8-f776d5f73ecd" Name="DocNumberRegularSequence" Type="String(Max) Null">
@@ -36,7 +36,7 @@
 		<SchemeDefaultConstraint IsPermanent="true" ID="e00743f3-8a06-4933-9d2c-a22fd87c602d" Name="df_KrSettingsCardTypes_AllowManualRegularDocNumberAssignment" Value="false" />
 	</SchemePhysicalColumn>
 	<SchemeComplexColumn ID="b17fcec6-a516-475f-aa0c-39e722883726" Name="DocNumberRegistrationAutoAssignment" Type="Reference(Typified) Not Null" ReferencedTable="b965332c-296b-48e3-b16f-21a0cd8a6a25" WithForeignKey="false">
-		<SchemeReferencingColumn IsPermanent="true" ID="d4cc4987-166c-4375-92ce-c8e67448bf99" Name="DocNumberRegistrationAutoAssignmentID" Type="Int32 Not Null" ReferencedColumn="dd4b2d82-5ed5-4765-9f07-37ae3ab7eb3f" />
+		<SchemeReferencingColumn IsSystem="true" IsPermanent="true" ID="d4cc4987-166c-4375-92ce-c8e67448bf99" Name="DocNumberRegistrationAutoAssignmentID" Type="Int32 Not Null" ReferencedColumn="dd4b2d82-5ed5-4765-9f07-37ae3ab7eb3f" />
 		<SchemeReferencingColumn ID="f2fda14e-e2c8-4954-8f89-e56a5f9d73cd" Name="DocNumberRegistrationAutoAssignmentDescription" Type="String(128) Not Null" ReferencedColumn="4ef823f7-c84d-42dd-8689-ed3571b19c3c" />
 	</SchemeComplexColumn>
 	<SchemePhysicalColumn ID="a8b3636b-301f-4de6-9ffe-6628a019c8b8" Name="DocNumberRegistrationSequence" Type="String(Max) Null">

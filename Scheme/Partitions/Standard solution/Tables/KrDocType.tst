@@ -51,11 +51,11 @@
 		<SchemeDefaultConstraint IsPermanent="true" ID="f3b936ea-96fa-4911-a2f3-ee2822d3f581" Name="df_KrDocType_AllowManualRegistrationDocNumberAssignment" Value="false" />
 	</SchemePhysicalColumn>
 	<SchemeComplexColumn ID="b5e4da68-558e-46a7-9225-7ec93ed7ae63" Name="DocNumberRegistrationAutoAssignment" Type="Reference(Typified) Not Null" ReferencedTable="b965332c-296b-48e3-b16f-21a0cd8a6a25" WithForeignKey="false">
-		<SchemeReferencingColumn IsPermanent="true" ID="034c138c-ce2d-4623-8eb2-d610b8983c40" Name="DocNumberRegistrationAutoAssignmentID" Type="Int32 Not Null" ReferencedColumn="dd4b2d82-5ed5-4765-9f07-37ae3ab7eb3f" />
+		<SchemeReferencingColumn IsSystem="true" IsPermanent="true" ID="034c138c-ce2d-4623-8eb2-d610b8983c40" Name="DocNumberRegistrationAutoAssignmentID" Type="Int32 Not Null" ReferencedColumn="dd4b2d82-5ed5-4765-9f07-37ae3ab7eb3f" />
 		<SchemeReferencingColumn ID="a0cc2a23-517b-4154-aeff-af54793cfcd7" Name="DocNumberRegistrationAutoAssignmentDescription" Type="String(128) Not Null" ReferencedColumn="4ef823f7-c84d-42dd-8689-ed3571b19c3c" />
 	</SchemeComplexColumn>
 	<SchemeComplexColumn ID="9d178c09-302b-47cf-915a-aaf5ff62cf81" Name="DocNumberRegularAutoAssignment" Type="Reference(Typified) Not Null" ReferencedTable="83b4c03f-fdb8-4e11-bca4-02177dd4b3dc" WithForeignKey="false">
-		<SchemeReferencingColumn IsPermanent="true" ID="76d1881b-068e-4fb0-bc91-65e999c1f86d" Name="DocNumberRegularAutoAssignmentID" Type="Int32 Not Null" ReferencedColumn="7ef0f81c-6121-447c-9a2c-21bbdcaf3707" />
+		<SchemeReferencingColumn IsSystem="true" IsPermanent="true" ID="76d1881b-068e-4fb0-bc91-65e999c1f86d" Name="DocNumberRegularAutoAssignmentID" Type="Int32 Not Null" ReferencedColumn="7ef0f81c-6121-447c-9a2c-21bbdcaf3707" />
 		<SchemeReferencingColumn ID="39676ed5-78d2-4d9f-9b1c-c6d5a83df495" Name="DocNumberRegularAutoAssignmentDescription" Type="String(128) Not Null" ReferencedColumn="a769e235-b237-4f3a-be39-f1e7602fe9da" />
 	</SchemeComplexColumn>
 	<SchemePhysicalColumn ID="61803c98-dee2-45f5-a9a0-dff3cc8bebad" Name="ReleaseRegularNumberOnFinalDeletion" Type="Boolean Not Null">
