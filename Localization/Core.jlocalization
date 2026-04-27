@@ -23,11 +23,11 @@
       "Strings": [
         {
           "Culture": 9,
-          "Value": "© LLC \"SYNTELLECT\" 2023"
+          "Value": "© LLC \"SYNTELLECT\" 2022"
         },
         {
           "Culture": 25,
-          "Value": "© ООО \"СИНТЕЛЛЕКТ\" 2023"
+          "Value": "© ООО \"СИНТЕЛЛЕКТ\" 2022"
         }
       ]
     },
@@ -4559,11 +4559,11 @@
       "Strings": [
         {
           "Culture": 9,
-          "Value": "Session was inactive for too long and it was locked due to security restrictions. It is recommended to save all data on local computer and restart the application.\n\nSession's last activity {0} ({1} UTC). Session identifier: {2:B}."
+          "Value": "Session was inactive for too long and it was locked due to security restrictions. It is recommended to save all data on local computer and restart the application.\nPlease refresh your browser page and log in again.\n\nSession's last activity {0} ({1} UTC). Session identifier: {2:B}."
         },
         {
           "Culture": 25,
-          "Value": "Сессия была неактивна длительное время и была заблокирована в соответствии с настройками безопасности. Рекомендуется сохранить все данные на локальном компьютере и перезапустить приложение.\n\nПоследняя активность сессии: {0} ({1} UTC). Идентификатор сессии: {2:B}."
+          "Value": "Сессия была неактивна длительное время и была заблокирована в соответствии с настройками безопасности. Рекомендуется сохранить все данные на локальном компьютере и перезапустить приложение.\nПожалуйста, обновите страницу браузера и повторите вход в систему.\n\nПоследняя активность сессии: {0} ({1} UTC). Идентификатор сессии: {2:B}."
         }
       ]
     },

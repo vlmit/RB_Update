@@ -1,0 +1,27 @@
+﻿{
+  "ID": "1f365bb2-b53f-4b05-9175-2bbf2365e015",
+  "Name": "GipSignStamp",
+  "Priority": 0,
+  "Entries": [
+    {
+      "Name": "GipPrefixDocName",
+      "Comment": "Префикс для файла проставления штампа   ",
+      "Strings": [
+        {
+          "Culture": 25,
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "GipTemplateFileGuid",
+      "Comment": "ID шаблона файла штампа",
+      "Strings": [
+        {
+          "Culture": 25,
+          "Value": "9323f563-307d-4e76-89e4-da80b5adf588"
+        }
+      ]
+    }
+  ]
+}

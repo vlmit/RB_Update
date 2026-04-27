@@ -2006,20 +2006,6 @@
       ]
     },
     {
-      "Name": "Forum_ValidationKey_MaxMessageSizeError",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Message has exceeded it's max characters limit: {0}."
-        },
-        {
-          "Culture": 25,
-          "Value": "Превышен лимит количества символов на сообщение: {0}."
-        }
-      ]
-    },
-    {
       "Name": "Forum_ValidationKey_ForumSatelliteID",
       "Comment": null,
       "Strings": [
@@ -2142,6 +2128,20 @@
         {
           "Culture": 25,
           "Value": "Превышено максимальное количество вложений в сообщении (вставленных изображений). Максимальное количество вложений: {0}."
+        }
+      ]
+    },
+    {
+      "Name": "Forum_ValidationKey_MaxMessageSizeError",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Message has exceeded it's max characters limit: {0}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Превышен лимит количества символов на сообщение: {0}."
         }
       ]
     },
@@ -2874,6 +2874,48 @@
       ]
     },
     {
+      "Name": "RichTextBox_ToolTip_Align_Center",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Center align"
+        },
+        {
+          "Culture": 25,
+          "Value": "По центру"
+        }
+      ]
+    },
+    {
+      "Name": "RichTextBox_ToolTip_Align_Left",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Left align"
+        },
+        {
+          "Culture": 25,
+          "Value": "По левому краю"
+        }
+      ]
+    },
+    {
+      "Name": "RichTextBox_ToolTip_Align_Right",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Right align"
+        },
+        {
+          "Culture": 25,
+          "Value": "По правому краю"
+        }
+      ]
+    },
+    {
       "Name": "RichTextBox_ToolTip_AttachImage",
       "Comment": null,
       "Strings": [
@@ -2986,6 +3028,20 @@
       ]
     },
     {
+      "Name": "RichTextBox_ToolTip_InlineBlock",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Insert monospaced text"
+        },
+        {
+          "Culture": 25,
+          "Value": "Вставить моноширинный текст"
+        }
+      ]
+    },
+    {
       "Name": "RichTextBox_ToolTip_Italic",
       "Comment": null,
       "Strings": [
@@ -3000,6 +3056,20 @@
       ]
     },
     {
+      "Name": "RichTextBox_ToolTip_Justify",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Justify"
+        },
+        {
+          "Culture": 25,
+          "Value": "По ширине"
+        }
+      ]
+    },
+    {
       "Name": "RichTextBox_ToolTip_MonoBlock",
       "Comment": null,
       "Strings": [
@@ -3010,20 +3080,6 @@
         {
           "Culture": 25,
           "Value": "Добавить моноширинный блок"
-        }
-      ]
-    },
-    {
-      "Name": "RichTextBox_ToolTip_InlineBlock",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Insert monospaced text"
-        },
-        {
-          "Culture": 25,
-          "Value": "Вставить моноширинный текст"
         }
       ]
     },
@@ -3066,62 +3122,6 @@
         {
           "Culture": 25,
           "Value": "Очистить всё форматирование"
-        }
-      ]
-    },
-    {
-      "Name": "RichTextBox_ToolTip_Align_Left",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Left align"
-        },
-        {
-          "Culture": 25,
-          "Value": "По левому краю"
-        }
-      ]
-    },
-    {
-      "Name": "RichTextBox_ToolTip_Align_Center",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Center align"
-        },
-        {
-          "Culture": 25,
-          "Value": "По центру"
-        }
-      ]
-    },
-    {
-      "Name": "RichTextBox_ToolTip_Align_Right",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Right align"
-        },
-        {
-          "Culture": 25,
-          "Value": "По правому краю"
-        }
-      ]
-    },
-    {
-      "Name": "RichTextBox_ToolTip_Justify",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Justify"
-        },
-        {
-          "Culture": 25,
-          "Value": "По ширине"
         }
       ]
     },

@@ -1707,7 +1707,7 @@
         },
         {
           "Culture": 25,
-          "Value": "Новое"
+          "Value": "Не начато"
         }
       ]
     },
@@ -3462,35 +3462,7 @@
       ]
     },
     {
-      "Name": "Views_Cars_CardName_Param",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Model"
-        },
-        {
-          "Culture": 25,
-          "Value": "Модель"
-        }
-      ]
-    },
-    {
       "Name": "Views_Cars_DriverName",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Driver name"
-        },
-        {
-          "Culture": 25,
-          "Value": "Водитель"
-        }
-      ]
-    },
-    {
-      "Name": "Views_Cars_DriverName_Param",
       "Comment": null,
       "Strings": [
         {
@@ -3514,62 +3486,6 @@
         {
           "Culture": 25,
           "Value": "Скорость"
-        }
-      ]
-    },
-    {
-      "Name": "Views_Cars_MaxSpeed_Param",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Max speed"
-        },
-        {
-          "Culture": 25,
-          "Value": "Скорость"
-        }
-      ]
-    },
-    {
-      "Name": "Views_Cars_ReleaseDate",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Release date"
-        },
-        {
-          "Culture": 25,
-          "Value": "Дата выпуска"
-        }
-      ]
-    },
-    {
-      "Name": "Views_Cars_ReleaseDateFrom_Param",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Release date \"from\""
-        },
-        {
-          "Culture": 25,
-          "Value": "Дата выпуска \"с\""
-        }
-      ]
-    },
-    {
-      "Name": "Views_Cars_ReleaseDateTo_Param",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Release date \"to\""
-        },
-        {
-          "Culture": 25,
-          "Value": "Дата выпуска \"по\""
         }
       ]
     },
@@ -10569,7 +10485,7 @@
         },
         {
           "Culture": 25,
-          "Value": "Дата документа"
+          "Value": "Дата регистрации"
         }
       ]
     },
@@ -10583,7 +10499,7 @@
         },
         {
           "Culture": 25,
-          "Value": "Дата документа"
+          "Value": "Дата регистрации"
         }
       ]
     },
@@ -10751,7 +10667,7 @@
         },
         {
           "Culture": 25,
-          "Value": "Контрагент"
+          "Value": "Корреспондент"
         }
       ]
     },
@@ -10765,7 +10681,7 @@
         },
         {
           "Culture": 25,
-          "Value": "Контрагент"
+          "Value": "Корреспондент"
         }
       ]
     },
@@ -10947,7 +10863,7 @@
         },
         {
           "Culture": 25,
-          "Value": "Тема"
+          "Value": "Заголовок"
         }
       ]
     },
@@ -10961,7 +10877,7 @@
         },
         {
           "Culture": 25,
-          "Value": "Тема"
+          "Value": "Заголовок"
         }
       ]
     },
@@ -11017,7 +10933,7 @@
         },
         {
           "Culture": 25,
-          "Value": "Тип"
+          "Value": "Тип документа"
         }
       ]
     },
@@ -13187,7 +13103,7 @@
         },
         {
           "Culture": 25,
-          "Value": "Вариант завершения"
+          "Value": "Результат"
         }
       ]
     },
@@ -13215,7 +13131,7 @@
         },
         {
           "Culture": 25,
-          "Value": "Результат"
+          "Value": "Комментарии"
         }
       ]
     },
@@ -15735,7 +15651,7 @@
         },
         {
           "Culture": 25,
-          "Value": "Контрагенты"
+          "Value": "Корреспонденты"
         }
       ]
     },

@@ -18,20 +18,6 @@
       ]
     },
     {
-      "Name": "FilterViewDialogOverrideWorkplaceComponentExtension_Description",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Replaces the standard dialog for configuring filtering parameters with the specified one. Used for testing purposes."
-        },
-        {
-          "Culture": 25,
-          "Value": "Заменяет стандартный диалог настройки параметров фильтрации на заданный. Используется в целях тестирования."
-        }
-      ]
-    },
-    {
       "Name": "ChartViewExtension_Description",
       "Comment": null,
       "Strings": [
@@ -2151,7 +2137,7 @@
       "Strings": [
         {
           "Culture": 9,
-          "Value": "View alias cannot be empty or whitespace."
+          "Value": "View alias cannot be empty or contain only spaces."
         },
         {
           "Culture": 25,
@@ -2165,7 +2151,7 @@
       "Strings": [
         {
           "Culture": 9,
-          "Value": "View caption cannot be empty or whitespace."
+          "Value": "View caption cannot be empty or contain only spaces."
         },
         {
           "Culture": 25,
@@ -2323,7 +2309,7 @@
         },
         {
           "Culture": 25,
-          "Value": "Следующая страница"
+          "Value": "Перейти к следующей странице"
         }
       ]
     },
@@ -2333,11 +2319,11 @@
       "Strings": [
         {
           "Culture": 9,
-          "Value": "Previous page"
+          "Value": "Page back"
         },
         {
           "Culture": 25,
-          "Value": "Предыдущая страница"
+          "Value": "Вернутся на страницу назад"
         }
       ]
     },
@@ -2351,7 +2337,7 @@
         },
         {
           "Culture": 25,
-          "Value": "Включение/отключение страничного режима"
+          "Value": "Включение/Отключение страничного режима"
         }
       ]
     },

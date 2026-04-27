@@ -2314,20 +2314,6 @@
       ]
     },
     {
-      "Name": "Cards_ValidationKey_ComplexColumnMappingUpdated",
-      "Comment": "Маппинг комплексной колонки с ID: {0}, из таблицы c ID: {1}, на параметр '{2}' - был исправлен в контроле: {3}.",
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Mapping of the complex column with ID: {0}, from table with ID: {1}, on property '{2}' - was fixed in control {3}."
-        },
-        {
-          "Culture": 25,
-          "Value": "Маппинг комплексной колонки с ID: {0}, из таблицы c ID: {1}, на параметр '{2}' - был исправлен в контроле: {3}."
-        }
-      ]
-    },
-    {
       "Name": "Cards_ValidationKey_ColumnNotFound",
       "Comment": "Колонка с указанным именем не найдена.",
       "Strings": [
@@ -2338,6 +2324,20 @@
         {
           "Culture": 25,
           "Value": "Колонка '{0}' не найдена."
+        }
+      ]
+    },
+    {
+      "Name": "Cards_ValidationKey_ComplexColumnMappingUpdated",
+      "Comment": "Маппинг комплексной колонки с ID: {0}, из таблицы c ID: {1}, на параметр '{2}' - был исправлен в контроле: {3}.",
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Mapping of the complex column with ID: {0}, from table with ID: {1}, on property '{2}' - was fixed in control {3}."
+        },
+        {
+          "Culture": 25,
+          "Value": "Маппинг комплексной колонки с ID: {0}, из таблицы c ID: {1}, на параметр '{2}' - был исправлен в контроле: {3}."
         }
       ]
     },

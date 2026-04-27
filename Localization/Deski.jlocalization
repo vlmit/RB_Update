@@ -158,20 +158,6 @@
       ]
     },
     {
-      "Name": "Deski_Higher_Version_Require",
-      "Comment": "{0} - минимально требуемая версия, {1} - текущая версия пользователя",
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "There are no versions available for updating, please contact system's administrator. This functionality requires version >={0}. Your current version is {1}."
-        },
-        {
-          "Culture": 25,
-          "Value": "Нет доступных для обновления версий, обратитесь к администратору системы. Для данной функциональности требуется версия >={0}. Ваша текущая версия {1}."
-        }
-      ]
-    },
-    {
       "Name": "Deski_Unlock_Feature",
       "Comment": null,
       "Strings": [
@@ -196,20 +182,6 @@
         {
           "Culture": 25,
           "Value": "Установленная версия приложения-ассистента \"{0}\" устарела, доступна версия \"{1}\". Скачать обновление?"
-        }
-      ]
-    },
-    {
-      "Name": "Deski_Warning_OpenForRead",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "The edited version and the read version are different, save the card so that the versions match."
-        },
-        {
-          "Culture": 25,
-          "Value": "Отредактированная версия и версия на чтение отличаются, сохраните карточку, чтобы версии совпадали."
         }
       ]
     }

@@ -765,11 +765,11 @@
       "Strings": [
         {
           "Culture": 9,
-          "Value": "Only types of selected instance type is being exported: Card, Dialog, File or Task."
+          "Value": "Only types of selected instance type is being exported: Card, File or Task."
         },
         {
           "Culture": 25,
-          "Value": "Экспортируются только типы с заданным типом экземпляра: Card (карточка), Dialog (диалог), File (файл) или Task (задание)."
+          "Value": "Экспортируются только типы с заданным типом экземпляра: Card (карточка), File (файл) или Task (задание)."
         }
       ]
     },
@@ -2566,6 +2566,20 @@
       ]
     },
     {
+      "Name": "Common_CLI_Scheme_Update",
+      "Comment": null,
+      "Strings": [
+        {
+          "Culture": 9,
+          "Value": "Updates the storage."
+        },
+        {
+          "Culture": 25,
+          "Value": "Обновляет схему."
+        }
+      ]
+    },
+    {
       "Name": "Common_CLI_Scheme_X_Source",
       "Comment": null,
       "Strings": [
@@ -2576,20 +2590,6 @@
         {
           "Culture": 25,
           "Value": "Имя файла схемы базы данных TESSA."
-        }
-      ]
-    },
-    {
-      "Name": "Common_CLI_SchemeUpdate",
-      "Comment": null,
-      "Strings": [
-        {
-          "Culture": 9,
-          "Value": "Updating scheme in the file system to current version."
-        },
-        {
-          "Culture": 25,
-          "Value": "Обновление схемы в файловой системе до текущей версии."
         }
       ]
     },
@@ -3607,11 +3607,11 @@
       "Strings": [
         {
           "Culture": 9,
-          "Value": "TESSA - {0}"
+          "Value": "СЭД РБ - {0}"
         },
         {
           "Culture": 25,
-          "Value": "TESSA - {0}"
+          "Value": "СЭД РБ - {0}"
         }
       ]
     },
