@@ -33,7 +33,7 @@
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
-      "Hidden": true,
+      "Hidden": false,
       "Localizable": false,
       "MaxLength": null,
       "SortBy": null,
@@ -86,6 +86,22 @@
       "SourceViews": null,
       "TreatValueAsUtc": false,
       "Type": "String"
+    },
+    {
+      "Alias": "ForControlTask",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Статусы для КП",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Null"
     }
   ],
   "QuickSearchParam": "Name",
@@ -141,4 +157,9 @@ CROSS JOIN "Localization"("s"."Name", #param(locale)) AS "lName"
 }
 WHERE 1 = 1
 	#param(Name, "lName"."Value")
+	#if(ForControlTask) 
+	{ 
+	and  "s"."ID" in (0,5,11,13,14)
+	} --Проект, Отмена, Исполнено, На проверке, На исполнении
+
 ORDER BY #order_by

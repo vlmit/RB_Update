@@ -1,7 +1,7 @@
 {
   "Alias": "Partners",
   "Caption": "Контрагенты",
-  "Description": "",
+  "Description": "  ",
   "FormatVersion::int": 1,
   "GroupName": "System",
   "ID::uid": "f9e6f291-2de8-459c-8d05-420fb8cce90f",
@@ -53,6 +53,48 @@
       "SortBy": "t.Name",
       "TreatValueAsUtc": false,
       "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "MEDOActive",
+      "Appearance": null,
+      "Caption": "Статус МЭДО",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.MEDOActiveActiveStatus"
+    },
+    {
+      "Alias": "PartnerMedoID",
+      "Appearance": null,
+      "Caption": "PartnerMedoID",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Name",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "PartnerMedoAddress",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "\"t\".\"MedoAddress\"",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.MedoAddress"
     },
     {
       "Alias": "FullName",
@@ -218,6 +260,28 @@
       "Type": "$Partners.FullName"
     },
     {
+      "Alias": "MedoAddress",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue",
+        "IsFalse"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "МЭДО",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Null"
+    },
+    {
       "Alias": "Type",
       "AllowedOperands": null,
       "AutoCompleteInfo": {
@@ -315,6 +379,57 @@
       "SourceViews": null,
       "TreatValueAsUtc": false,
       "Type": "$Partners.Comment"
+    },
+    {
+      "Alias": "CardID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "CardID",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.ID"
+    },
+    {
+      "Alias": "MEDOActive",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": "Active",
+        "ViewAlias": "MEDOActive"
+      },
+      "Caption": "Статус МЭДО",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "MEDOActive"
+      },
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "MEDOActive",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.MEDOActiveID"
     }
   ],
   "QuickSearchParam": "Name",
@@ -410,10 +525,13 @@ ORDER BY [t].[rn]
 }
 
 [TEXTPART Partners PGSQL]
-SELECT
+SELECT 
 	#if(Normal) {
 	"t"."ID"			AS "PartnerID",
 	"t"."Name"			AS "PartnerName",
+	"t"."MEDOActiveActiveStatus" AS MEDOActive,
+	"t"."MedoID"		AS "PartnerMedoID",
+	"t"."MedoAddress"   AS "PartnerMedoAddress",
 	"t"."FullName",
 	"t"."TypeID",
 	"t"."TypeName",
@@ -427,6 +545,19 @@ SELECT
 	}
 FROM "Partners" AS "t"
 WHERE true
+#if(MedoAddress) {
+and
+	"t"."MedoAddress" is not null
+	}
+#if(CardID) {
+and exists(
+	select null from "Correspondents" as "co"
+	inner join "Tasks" as "tsk" on "tsk"."ID" = "co"."ID"
+	where "t"."ID"="co"."PartnersID"
+	#param(CardID, "tsk"."RowID")
+	)
+	}
+and "t"."ID" in (SELECT distinct on ("t2"."Name") "t2"."ID"  FROM "Partners" as "t2" Order BY "t2"."Name", "t2"."ID")
 	#param(PartnerID, "t"."ID")
 	#param(Name, "t"."Name")
 	#param(FullName, "t"."FullName")
@@ -435,6 +566,7 @@ WHERE true
 	#param(KPP, "t"."KPP")
 	#param(OGRN, "t"."OGRN")
 	#param(Comment, "t"."Comment")
+	#param(MEDOActive, "t"."MEDOActiveID")
 #if(Normal) {
 ORDER BY #order_by
 }

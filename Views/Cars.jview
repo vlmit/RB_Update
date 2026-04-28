@@ -29,7 +29,6 @@
       "Hidden": true,
       "Localizable": false,
       "MaxLength": null,
-      "PlannedColumn": null,
       "SortBy": null,
       "TreatValueAsUtc": false,
       "Type": "$TEST_CarMainInfo.ID"
@@ -44,7 +43,6 @@
       "Hidden": false,
       "Localizable": false,
       "MaxLength": null,
-      "PlannedColumn": null,
       "SortBy": null,
       "TreatValueAsUtc": false,
       "Type": "$TEST_CarMainInfo.Name"
@@ -59,7 +57,6 @@
       "Hidden": false,
       "Localizable": false,
       "MaxLength": null,
-      "PlannedColumn": null,
       "SortBy": null,
       "TreatValueAsUtc": false,
       "Type": "$TEST_CarMainInfo.MaxSpeed"
@@ -74,7 +71,6 @@
       "Hidden": true,
       "Localizable": false,
       "MaxLength": null,
-      "PlannedColumn": null,
       "SortBy": null,
       "TreatValueAsUtc": false,
       "Type": "$TEST_CarMainInfo.DriverID"
@@ -89,7 +85,6 @@
       "Hidden": false,
       "Localizable": false,
       "MaxLength": null,
-      "PlannedColumn": null,
       "SortBy": null,
       "TreatValueAsUtc": false,
       "Type": "$TEST_CarMainInfo.DriverName"
@@ -97,9 +92,6 @@
     {
       "Alias": "CarReleaseDate",
       "Appearance": null,
-      "CalendarIDColumn": null,
-      "CalendarOverdueFormat": null,
-      "CalendarQuantsColumn": null,
       "Caption": "$Views_Cars_ReleaseDate",
       "Condition": null,
       "DisableGrouping": false,
@@ -107,7 +99,6 @@
       "Hidden": false,
       "Localizable": false,
       "MaxLength": null,
-      "PlannedColumn": null,
       "SortBy": null,
       "TreatValueAsUtc": false,
       "Type": "$TEST_CarMainInfo.ReleaseDate"
@@ -304,10 +295,11 @@ WHERE
 SELECT
 	"ID"			AS "CarID",
 	"Name"			AS "CarName",
-	"MaxSpeed"		AS "CarMaxSpeed",
+	120		AS "CarMaxSpeed",
 	"DriverID",
 	"DriverName",
 	"ReleaseDate"	AS "CarReleaseDate"
+	
 FROM "TEST_CarMainInfo"
 WHERE
 	true

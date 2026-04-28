@@ -1,7 +1,7 @@
 {
   "Alias": "MyCompletedTasks",
   "Caption": "Завершенные задания",
-  "Description": "",
+  "Description": "   ",
   "FormatVersion::int": 1,
   "GroupName": "System",
   "ID::uid": "89cf35b0-69bc-406a-9b95-77be879a94fa",
@@ -416,9 +416,57 @@
       "SourceViews": null,
       "TreatValueAsUtc": false,
       "Type": "$TaskHistory.OptionID"
+    },
+    {
+      "Alias": "Number",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Номер",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "Subject",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Тема",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "ForHeadHistory",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Завершены в течение последних 14 дней",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Not Null"
     }
   ],
-  "QuickSearchParam": null,
+  "QuickSearchParam": "Subject",
   "References": [
     {
       "CardType": null,
@@ -437,9 +485,23 @@
     }
   ],
   "RowCounterVisible": false,
-  "RowCountSubset": null,
+  "RowCountSubset": "Count",
   "SelectionMode": "Row",
-  "Subsets": null,
+  "Subsets": [
+    {
+      "Alias": "Count",
+      "Caption": null,
+      "CaptionColumn": null,
+      "Condition": null,
+      "CountColumn": null,
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": null,
+      "RefParam": null,
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    }
+  ],
   "TreatAsSingleQuery": false,
   "TreeGroup": null,
   "TreeGroupDisplayValue": null,
@@ -552,6 +614,7 @@ BEGIN
 
 	RETURN QUERY
 	SELECT
+		#if(Normal){
 		"th"."ID"											AS "CardID",
 		COALESCE("dci"."FullNumber", "no_name")				AS "CardName",
 		"dci"."DocTypeTitle"								AS "CardTypeCaption",
@@ -567,9 +630,19 @@ BEGIN
 		"th"."AuthorName",
 		"th"."Completed",
 		0::int8												AS "rn"
+		}
+		#if(Count) {
+			"t".*
+			}
 	FROM (
 		SELECT
+		#if(Normal){
 			"th"."RowID"
+			}
+		#if(Count) {
+				count(*) AS "cnt"
+				}
+		
 		FROM "TaskHistory" AS "th"
 		#if(TypeParam) {
 		LEFT JOIN "DocumentCommonInfo" AS "dci"
@@ -577,9 +650,17 @@ BEGIN
 		}
 		WHERE "th"."Completed" IS NOT NULL
 			#param(CompletionDate, "th"."Completed")
+			#if(ForHeadHistory)
+			{
+				and extract(day from current_timestamp - "th"."Completed") <= 14
+			}
 			#param(TaskType, "th"."TypeID")
 			#param(SelUser, "th"."UserID")
 			#param(Option, "th"."OptionID")
+			#if(Number) 
+				{ and exists (select null from "DocumentCommonInfo" as "dci" where "th"."ID" = "dci"."ID" #param(Number, "dci"."FullNumber"))}
+			#if(Subject) 
+			{ and exists (select null from "DocumentCommonInfo" as "dci" where "th"."ID" = "dci"."ID" #param(Subject, "dci"."Subject"))}
 
 			#if(FromMeMode && FromMeMode.Value == 1) {
 			AND "th"."AuthorID" = #param(CurrentUserID)
@@ -606,11 +687,12 @@ BEGIN
 		OFFSET #param(PageOffset) - 1 LIMIT #param(PageLimit)
 		}
 		) AS "t"
+	#if(Normal) {	
 	INNER JOIN "TaskHistory" AS "th"
 		ON "th"."RowID" = "t"."RowID"
 	LEFT JOIN "DocumentCommonInfo" AS "dci"
 		ON "dci"."ID" = "th"."ID"
-	#if(Normal) {
+	
 	ORDER BY #order_by
 	};
 END;

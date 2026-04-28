@@ -26,7 +26,7 @@
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
-      "Hidden": true,
+      "Hidden": false,
       "Localizable": false,
       "MaxLength": null,
       "SortBy": null,
@@ -145,7 +145,7 @@
   "GroupingColumn": null,
   "MultiSelect": true,
   "Overrides": null,
-  "PageLimit": null,
+  "PageLimit::int": 1000,
   "Paging": "Always",
   "Parameters": [
     {
@@ -244,7 +244,7 @@
       "DropDownInfo": null,
       "Hidden": false,
       "HideAutoCompleteButton": false,
-      "Multiple": false,
+      "Multiple": true,
       "RefSection": "PersonalRoles",
       "SourceViews": null,
       "TreatValueAsUtc": false,

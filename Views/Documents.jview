@@ -55,18 +55,18 @@
       "Type": "$DocumentCommonInfo.FullNumber"
     },
     {
-      "Alias": "SubTypeTitle",
+      "Alias": "DocDate",
       "Appearance": null,
-      "Caption": "$Views_Registers_DocType",
+      "Caption": "$Views_Registers_DocDate",
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
       "Hidden": false,
-      "Localizable": true,
+      "Localizable": false,
       "MaxLength": null,
-      "SortBy": "mi.DocTypeTitle",
+      "SortBy": "mi.DocDate",
       "TreatValueAsUtc": false,
-      "Type": "$DocumentCommonInfo.DocTypeTitle"
+      "Type": "$DocumentCommonInfo.DocDate"
     },
     {
       "Alias": "DocSubject",
@@ -81,6 +81,20 @@
       "SortBy": "mi.Subject",
       "TreatValueAsUtc": false,
       "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "SubTypeTitle",
+      "Appearance": null,
+      "Caption": "$Views_Registers_DocType",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "mi.DocTypeTitle",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocTypeTitle"
     },
     {
       "Alias": "DocDescription",
@@ -165,20 +179,6 @@
       "SortBy": null,
       "TreatValueAsUtc": false,
       "Type": "$KrApprovalCommonInfo.StateName"
-    },
-    {
-      "Alias": "DocDate",
-      "Appearance": null,
-      "Caption": "$Views_Registers_DocDate",
-      "Condition": null,
-      "DisableGrouping": false,
-      "HasTag": false,
-      "Hidden": false,
-      "Localizable": false,
-      "MaxLength": null,
-      "SortBy": "mi.DocDate",
-      "TreatValueAsUtc": false,
-      "Type": "$DocumentCommonInfo.DocDate"
     },
     {
       "Alias": "CreationDate",
@@ -785,15 +785,16 @@ BEGIN
 		#if(Normal) {
 		"mi"."ID"																	AS "DocID",
 		"mi"."FullNumber"															AS "DocNumber",
-		"mi"."DocTypeTitle"															AS "SubTypeTitle",
+		"mi"."DocDate"																AS "DocDate",
 		"mi"."Subject"																AS "DocSubject",
+		"mi"."DocTypeTitle"															AS "SubTypeTitle",
 		COALESCE("mi"."FullNumber", '') || ', ' || COALESCE("mi"."Subject", '')		AS "DocDescription",		-- autocomplete
 		"mi"."AuthorID"																AS "AuthorID",
 		"mi"."AuthorName"															AS "AuthorName",
 		"mi"."RegistratorID"														AS "RegistratorID",
 		"mi"."RegistratorName"														AS "RegistratorName",
 		COALESCE("kr"."StateName", "project")										AS "KrState",
-		"mi"."DocDate"																AS "DocDate",
+		
 		CAST("mi"."CreationDate" AS date)											AS "CreationDate",
 		"mi"."DepartmentName"														AS "Department"
 		}

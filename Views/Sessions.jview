@@ -22,11 +22,11 @@
     {
       "Alias": "SessionID",
       "Appearance": null,
-      "Caption": null,
+      "Caption": "ID сессии",
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
-      "Hidden": true,
+      "Hidden": false,
       "Localizable": false,
       "MaxLength": null,
       "SortBy": null,
@@ -722,9 +722,41 @@
       "SourceViews": null,
       "TreatValueAsUtc": false,
       "Type": "$RoleUsers.ID"
+    },
+    {
+      "Alias": "SessionID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Идентификатор сессии",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Sessions.ID"
+    },
+    {
+      "Alias": "UserName",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Имя пользователя",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Sessions.UserName"
     }
   ],
-  "QuickSearchParam": "Login",
+  "QuickSearchParam": "UserName",
   "References": [
     {
       "CardType": null,
@@ -1153,6 +1185,7 @@ FROM (
 	}
 	WHERE true
 		#param(UserID, "t"."UserID")
+		#param(UserName, "t"."UserName")
 		#param(Login, "t"."UserLogin")
 		#param(HostName, "t"."HostName")
 		#param(HostIP, "t"."HostIP")
@@ -1165,6 +1198,7 @@ FROM (
 		#param(LicenseType, "t"."LicenseTypeID")
 		#param(ServiceType, "t"."ServiceTypeID")
 		#param(DeviceType, "t"."DeviceTypeID")
+		#param(SessionID, "t"."ID")
 		#param(OSName, "t"."OSName")
 		#if(Department) {
 		AND EXISTS (

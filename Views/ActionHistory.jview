@@ -1,14 +1,21 @@
 {
   "Alias": "ActionHistory",
   "Caption": "История действий",
-  "Description": "",
+  "Description": " ",
   "FormatVersion::int": 1,
   "GroupName": "System",
   "ID::uid": "7b10287f-31bb-4d4c-a515-ae754e452ed3",
   "JsonMetadataSource::txt": "ActionHistory JSONMETA",
   "MsQuerySource::txt": "ActionHistory MSSQL",
   "PgQuerySource::txt": "ActionHistory PGSQL",
-  "Roles": null
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "7b10287f-31bb-4d4c-a515-ae754e452ed3",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
 }
 
 [TEXTPART ActionHistory JSONMETA]

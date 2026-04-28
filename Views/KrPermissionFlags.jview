@@ -26,7 +26,7 @@
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
-      "Hidden": true,
+      "Hidden": false,
       "Localizable": false,
       "MaxLength": null,
       "SortBy": null,

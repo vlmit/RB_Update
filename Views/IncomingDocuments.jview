@@ -55,18 +55,18 @@
       "Type": "$DocumentCommonInfo.FullNumber"
     },
     {
-      "Alias": "SubTypeTitle",
+      "Alias": "DocDate",
       "Appearance": null,
-      "Caption": "$Views_Registers_DocType",
+      "Caption": "$Views_Registers_DocDate",
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
       "Hidden": false,
-      "Localizable": true,
+      "Localizable": false,
       "MaxLength": null,
-      "SortBy": "mi.DocTypeTitle",
+      "SortBy": "mi.DocDate",
       "TreatValueAsUtc": false,
-      "Type": "$DocumentCommonInfo.DocTypeTitle"
+      "Type": "$DocumentCommonInfo.DocDate"
     },
     {
       "Alias": "DocSubject",
@@ -81,6 +81,20 @@
       "SortBy": "mi.Subject",
       "TreatValueAsUtc": false,
       "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "SubTypeTitle",
+      "Appearance": null,
+      "Caption": "$Views_Registers_DocType",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "mi.DocTypeTitle",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocTypeTitle"
     },
     {
       "Alias": "DocDescription",
@@ -165,20 +179,6 @@
       "SortBy": "mi.RegistratorName",
       "TreatValueAsUtc": false,
       "Type": "$DocumentCommonInfo.RegistratorName"
-    },
-    {
-      "Alias": "DocDate",
-      "Appearance": null,
-      "Caption": "$Views_Registers_DocDate",
-      "Condition": null,
-      "DisableGrouping": false,
-      "HasTag": false,
-      "Hidden": false,
-      "Localizable": false,
-      "MaxLength": null,
-      "SortBy": "mi.DocDate",
-      "TreatValueAsUtc": false,
-      "Type": "$DocumentCommonInfo.DocDate"
     },
     {
       "Alias": "CreationDate",
@@ -771,15 +771,16 @@ SELECT
 	#if(Normal) {
 	"t"."ID"																	AS "DocID",
 	"t"."FullNumber"															AS "DocNumber",
-	"t"."DocTypeTitle"															AS "SubTypeTitle",
+	"t"."DocDate"																AS "DocDate",
 	"t"."Subject"																AS "DocSubject",
+	"t"."DocTypeTitle"															AS "SubTypeTitle",
 	COALESCE("t"."FullNumber", '') || ', ' || COALESCE("t"."Subject", '')		AS "DocDescription",		-- autocomplete
 	"t"."PartnerID"																AS "PartnerID",
 	"t"."PartnerName"															AS "PartnerName",
 	"t"."OutgoingNumber"														AS "OutgoingNumber",
 	"t"."RegistratorID"															AS "RegistratorID",
 	"t"."RegistratorName"														AS "RegistratorName",
-	"t"."DocDate"																AS "DocDate",
+	
 	CAST("t"."CreationDate" AS date)											AS "CreationDate",
 	"t"."DepartmentName"														AS "Department"
 	}

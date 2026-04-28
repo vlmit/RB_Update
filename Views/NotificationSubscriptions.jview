@@ -43,9 +43,6 @@
     {
       "Alias": "NotificationSubscriptionCardID",
       "Appearance": null,
-      "CalendarIDColumn": null,
-      "CalendarOverdueFormat": null,
-      "CalendarQuantsColumn": null,
       "Caption": null,
       "Condition": null,
       "DisableGrouping": false,
@@ -53,7 +50,6 @@
       "Hidden": true,
       "Localizable": false,
       "MaxLength": null,
-      "PlannedColumn": null,
       "SortBy": null,
       "TreatValueAsUtc": false,
       "Type": "$NotificationSubscriptions.CardID"

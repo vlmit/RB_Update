@@ -55,6 +55,34 @@
       "Type": "$Roles.Name"
     },
     {
+      "Alias": "RoleIndexDistrict",
+      "Appearance": null,
+      "Caption": "Индекс района",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "t.Name",
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.Name"
+    },
+    {
+      "Alias": "RoleIndexDep",
+      "Appearance": null,
+      "Caption": "Индекс подразделения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "t.Name",
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.Name"
+    },
+    {
       "Alias": "HeadUserID",
       "Appearance": null,
       "Caption": null,
@@ -238,6 +266,22 @@
       "SourceViews": null,
       "TreatValueAsUtc": false,
       "Type": "Boolean"
+    },
+    {
+      "Alias": "RoleIndexDep",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Индекс подразделения",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.Name"
     }
   ],
   "QuickSearchParam": "Name",
@@ -400,6 +444,8 @@ SELECT
 	"t"."Name"				AS "RoleName",
 	}
 	#if(Normal) {
+	"t"."IndexDistrict"		AS "RoleIndexDistrict",
+	"t"."IndexDep"			AS "RoleIndexDep",
 	"d"."HeadUserID",
 	"d"."HeadUserName",
 	"t"."ParentID"			AS "ParentRoleID",
@@ -418,11 +464,14 @@ FROM (
 		#if(Normal) {
 		"t"."ID",
 		"t"."Name",
-		"t"."ParentID"
+		"t"."ParentID",
+		"t"."IndexDistrict",
+		"t"."IndexDep"
 		}
 		#if(ByDep) {
 		"t"."ID",
 		"t"."Name",
+		
 		(
 			SELECT count(*)
 			FROM "RoleUsers" AS "ru"
@@ -447,6 +496,7 @@ FROM (
 		#param(Name, "t"."Name")
 		#param(DepID, "t"."ID")
 		#param(ParentDepID, "t"."ParentID")
+		#param(RoleIndexDep, "t"."IndexDep")
 		-- если параметр "показать скрытые" не задан или задан как не "да", то не будем отображать скрытые
 		#if(!ShowHidden || ShowHidden.CriteriaName != "IsTrue") {
 		AND "t"."Hidden" = false

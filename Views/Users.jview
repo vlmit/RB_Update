@@ -1,7 +1,7 @@
 {
   "Alias": "Users",
   "Caption": "Сотрудники",
-  "Description": "",
+  "Description": "   ",
   "FormatVersion::int": 1,
   "GroupName": "System",
   "ID::uid": "8b68754e-19c8-0984-aac8-51d8908acecf",
@@ -43,7 +43,7 @@
     {
       "Alias": "UserName",
       "Appearance": null,
-      "Caption": "$Views_Users_Name",
+      "Caption": "Сотрудник",
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
@@ -75,7 +75,7 @@
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
-      "Hidden": false,
+      "Hidden": true,
       "Localizable": false,
       "MaxLength": null,
       "SortBy": null,
@@ -109,6 +109,34 @@
       "SortBy": null,
       "TreatValueAsUtc": false,
       "Type": "String"
+    },
+    {
+      "Alias": "ExternalID",
+      "Appearance": null,
+      "Caption": "Внешний ID",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "Login",
+      "Appearance": null,
+      "Caption": "Login",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$PersonalRoles.Login"
     }
   ],
   "ConnectionAlias": null,
@@ -142,6 +170,22 @@
       "SourceViews": null,
       "TreatValueAsUtc": false,
       "Type": "$RoleUsers.UserName"
+    },
+    {
+      "Alias": "Login",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Логин",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$PersonalRoles.Login"
     },
     {
       "Alias": "RoleID",
@@ -302,9 +346,9 @@
         {
           "::single_type": "str"
         },
+        "PersonalRoles",
         "Roles",
-        "DurableRoles",
-        "PersonalRoles"
+        "DurableRoles"
       ]
     }
   ],
@@ -518,7 +562,8 @@ ORDER BY [t].[RoleName]
 SELECT
 	#if(Normal) {
 	"t"."ID"				AS "UserID",
-	"t"."Name"				AS "UserName",
+	--"t"."Name"				AS "UserName",
+	concat("t"."Name",' - ',"t"."Position") AS "UserName",
 	"t"."Email",
 	"t"."Position",
 	(
@@ -542,18 +587,22 @@ SELECT
 			WHERE "ru"."UserID" = "t"."ID"
 				AND "ru"."TypeID" = 0
 			ORDER BY "r"."Name") AS "names"
-	)						AS "StaticRoles"
+	)						AS "StaticRoles",
+	"r"."ExternalID",
+	"t"."Login" AS "Login"
 	} {
 	"r".*
 	}
 FROM (
 	SELECT
 		#if(Normal) {
-		"t"."ID"
+		"t"."ID",
+		"t"."ExternalID"	AS "ExternalID"
 		}
 		#if(ByDepartment || ByStaticRole) {
 		"t"."ID"	AS "RoleID",
 		"t"."Name"	AS "RoleName",
+		"t"."ExternalID"	AS "ExternalID"
 		(
 			SELECT count(*)
 			FROM "RoleUsers" AS "ru"
@@ -565,6 +614,13 @@ FROM (
 				#param(Name, "ru"."UserName")
 				#if(!ShowHidden || ShowHidden.CriteriaName != "IsTrue") {
 				AND "r"."Hidden" = false
+				}
+				#if(Login) {
+				AND EXISTS (
+					SELECT NULL
+					FROM "PersonalRoles" AS "pr"
+					WHERE "pr"."ID" = "r"."ID"
+						#param(Login, "pr"."Login"))
 				}
 				#if(RoleID) {
 				AND EXISTS (
@@ -618,6 +674,14 @@ FROM (
 			-- тип роли "Сотрудник" в прочих случаях
 			"t"."TypeID" = 1
 			#param(Name, "t"."Name")
+			#if(Login) {
+				AND EXISTS (
+					SELECT NULL
+					FROM "PersonalRoles" AS "pr"
+					WHERE "pr"."ID" = "t"."ID"
+						#param(Login, "pr"."Login"))
+				}
+			
 			#if(RoleID) {
 			AND EXISTS (
 				SELECT NULL

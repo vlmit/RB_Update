@@ -189,6 +189,7 @@ FROM "FileCategories" AS "t"
 CROSS JOIN "Localization"("t"."Name", #param(locale)) AS "lName"
 }
 WHERE true
+	and "t"."Name" in ('Документ', 'Приложение')
 	#param(Name, "lName"."Value")
 #if(Normal) {
 ORDER BY #order_by

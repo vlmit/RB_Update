@@ -108,7 +108,7 @@
   "ExportDataPageLimit": null,
   "Extensions": null,
   "GroupingColumn": null,
-  "MultiSelect": false,
+  "MultiSelect": true,
   "Overrides": null,
   "PageLimit": null,
   "Paging": "Always",
@@ -247,7 +247,7 @@ BEGIN
 	RETURN QUERY
 	SELECT
 		"t"."ID"																	AS "DocID",
-		COALESCE("dci"."FullNumber", '') || ', ' || COALESCE("dci"."Subject", '')	AS "DocDescription",
+		COALESCE('№ '|| "dci"."FullNumber") || ' от ' || to_char("dci"."DocDate", 'dd.mm.yyyy') || ' ' || COALESCE("dci"."Subject", '')	AS "DocDescription",
 		COALESCE("dci"."DocTypeTitle", "ts"."Caption")								AS "DocTypeName",
 		"dci"."DocDate"																AS "Date",
 		"dci"."PartnerName"

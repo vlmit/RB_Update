@@ -1,17 +1,17 @@
 {
   "Alias": "MyTasks",
   "Caption": "Мои задания",
-  "Description": "",
+  "Description": "            ",
   "FormatVersion::int": 1,
   "GroupName": "System",
-  "ID::uid": "d249d321-c5a3-4847-951a-f47ffcf5509d",
+  "ID::uid": "4b89d87e-f4c6-482c-add9-50b19778e7e0",
   "JsonMetadataSource::txt": "MyTasks JSONMETA",
   "MsQuerySource::txt": "MyTasks MSSQL",
   "PgQuerySource::txt": "MyTasks PGSQL",
   "Roles": [
     {
       "DeltaKind": "Added",
-      "ObjectId::uid": "d249d321-c5a3-4847-951a-f47ffcf5509d",
+      "ObjectId::uid": "4b89d87e-f4c6-482c-add9-50b19778e7e0",
       "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
       "RoleName": "Все сотрудники"
     }
@@ -21,7 +21,7 @@
 [TEXTPART MyTasks JSONMETA]
 {
   "Alias": "MyTasks",
-  "Appearance": null,
+  "Appearance": "Highlighting",
   "Appearances": null,
   "AutoWidthRowLimit": null,
   "Caption": "Мои задания",
@@ -55,6 +55,160 @@
       "Type": "Int64"
     },
     {
+      "Alias": "Created",
+      "Appearance": null,
+      "Caption": "Создано",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Created",
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.Created"
+    },
+    {
+      "Alias": "ControlMark",
+      "Appearance": "#appearance( Foreground: #FF4D8EBF, FontSize: 12, FontWeight: Bold)",
+      "Caption": "    ",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "TaskInfo",
+      "Appearance": null,
+      "Caption": "Название",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength::int": 150,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.Digest"
+    },
+    {
+      "Alias": "Urgency",
+      "Appearance": "#appearance( Foreground: Red, FontSize: 8, FontWeight: Bold)",
+      "Caption": "    ",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "CardName",
+      "Appearance": null,
+      "Caption": "Номер",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "dci.FullNumber",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.FullNumber"
+    },
+    {
+      "Alias": "DocDate",
+      "Appearance": null,
+      "Caption": "Дата",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocDate"
+    },
+    {
+      "Alias": "CardSubject",
+      "Appearance": null,
+      "Caption": "Заголовок документа",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength::int": 150,
+      "SortBy": "dci.Subject",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "CardOutgoingNumber",
+      "Appearance": null,
+      "Caption": "№ Внеш.",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "dci.OutgoingNumber",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.OutgoingNumber"
+    },
+    {
+      "Alias": "CardOutgoingDate",
+      "Appearance": null,
+      "Caption": "Дата внеш.",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "dci.OutgoingDate",
+      "TreatValueAsUtc": false,
+      "Type": "Date Null"
+    },
+    {
+      "Alias": "CardDocDate",
+      "Appearance": null,
+      "Caption": "Дата регистрации",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocDate"
+    },
+    {
+      "Alias": "PointNumber",
+      "Appearance": null,
+      "Caption": "Номер пункта",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
       "Alias": "StateID",
       "Appearance": null,
       "Caption": null,
@@ -69,9 +223,23 @@
       "Type": "$Tasks.StateID"
     },
     {
+      "Alias": "PlannedDate",
+      "Appearance": null,
+      "Caption": "Срок",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Planned",
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.Planned"
+    },
+    {
       "Alias": "StateName",
       "Appearance": null,
-      "Caption": "$Views_MyTasks_State",
+      "Caption": "Статус",
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
@@ -97,34 +265,6 @@
       "Type": "$Tasks.TypeID"
     },
     {
-      "Alias": "PlannedDate",
-      "Appearance": null,
-      "Caption": "$Views_MyTasks_Planned",
-      "Condition": null,
-      "DisableGrouping": false,
-      "HasTag": false,
-      "Hidden": false,
-      "Localizable": false,
-      "MaxLength": null,
-      "SortBy": "t.Planned",
-      "TreatValueAsUtc": false,
-      "Type": "$Tasks.Planned"
-    },
-    {
-      "Alias": "TaskInfo",
-      "Appearance": null,
-      "Caption": "$Views_MyTasks_Info",
-      "Condition": null,
-      "DisableGrouping": false,
-      "HasTag": false,
-      "Hidden": false,
-      "Localizable": true,
-      "MaxLength::int": 150,
-      "SortBy": null,
-      "TreatValueAsUtc": false,
-      "Type": "$Tasks.Digest"
-    },
-    {
       "Alias": "RoleID",
       "Appearance": null,
       "Caption": null,
@@ -145,7 +285,7 @@
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
-      "Hidden": false,
+      "Hidden": true,
       "Localizable": true,
       "MaxLength": null,
       "SortBy": "t.RoleName",
@@ -201,7 +341,7 @@
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
-      "Hidden": false,
+      "Hidden": true,
       "Localizable": false,
       "MaxLength": null,
       "SortBy": null,
@@ -215,26 +355,12 @@
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
-      "Hidden": false,
+      "Hidden": true,
       "Localizable": false,
       "MaxLength": null,
       "SortBy": "t.Modified",
       "TreatValueAsUtc": false,
       "Type": "$Tasks.Modified"
-    },
-    {
-      "Alias": "Created",
-      "Appearance": null,
-      "Caption": null,
-      "Condition": null,
-      "DisableGrouping": false,
-      "HasTag": false,
-      "Hidden": true,
-      "Localizable": false,
-      "MaxLength": null,
-      "SortBy": "t.Created",
-      "TreatValueAsUtc": false,
-      "Type": "$Tasks.Created"
     },
     {
       "Alias": "CreatedByID",
@@ -293,20 +419,6 @@
       "Type": "$Tasks.RoleTypeID"
     },
     {
-      "Alias": "CardName",
-      "Appearance": null,
-      "Caption": "$Views_MyTasks_Card",
-      "Condition": null,
-      "DisableGrouping": false,
-      "HasTag": false,
-      "Hidden": false,
-      "Localizable": false,
-      "MaxLength": null,
-      "SortBy": "dci.FullNumber",
-      "TreatValueAsUtc": false,
-      "Type": "$DocumentCommonInfo.FullNumber"
-    },
-    {
       "Alias": "CardTypeID",
       "Appearance": null,
       "Caption": null,
@@ -327,7 +439,7 @@
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
-      "Hidden": false,
+      "Hidden": true,
       "Localizable": true,
       "MaxLength": null,
       "SortBy": null,
@@ -355,7 +467,7 @@
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
-      "Hidden": false,
+      "Hidden": true,
       "Localizable": true,
       "MaxLength": null,
       "SortBy": "t.Planned",
@@ -389,12 +501,26 @@
       "SortBy": null,
       "TreatValueAsUtc": false,
       "Type": "String"
+    },
+    {
+      "Alias": "Highlighting",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
     }
   ],
   "ConnectionAlias": null,
   "DefaultSortColumns": [
     {
-      "Alias": "ModificationTime",
+      "Alias": "Created",
       "SortDirection": "Descending"
     }
   ],
@@ -426,15 +552,29 @@
     {
       "Alias": "TaskType",
       "AllowedOperands": null,
-      "AutoCompleteInfo": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Caption",
+        "PopupColumns": null,
+        "RefPrefix": null,
+        "ViewAlias": "TaskTypes"
+      },
       "Caption": "$Views_MyTasks_TaskType_Param",
       "Condition": null,
       "DisallowedOperands": null,
-      "DropDownInfo": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "TaskTypes"
+      },
       "Hidden": true,
       "HideAutoCompleteButton": false,
       "Multiple": true,
-      "RefSection": null,
+      "RefSection": "TaskTypes",
       "SourceViews": null,
       "TreatValueAsUtc": false,
       "Type": "$Tasks.TypeID"
@@ -468,15 +608,27 @@
         },
         "Equality"
       ],
-      "AutoCompleteInfo": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          3,
+          5
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "Departments"
+      },
       "Caption": "$Views_MyTasks_AuthorDepartment_Param",
       "Condition": null,
       "DisallowedOperands": null,
       "DropDownInfo": null,
-      "Hidden": true,
+      "Hidden": false,
       "HideAutoCompleteButton": false,
       "Multiple": false,
-      "RefSection": null,
+      "RefSection": "DepartmentRoles",
       "SourceViews": null,
       "TreatValueAsUtc": false,
       "Type": "$RoleUsers.ID"
@@ -584,7 +736,7 @@
       "Condition": null,
       "DisallowedOperands": null,
       "DropDownInfo": null,
-      "Hidden": true,
+      "Hidden": false,
       "HideAutoCompleteButton": false,
       "Multiple": true,
       "RefSection": null,
@@ -594,13 +746,23 @@
     },
     {
       "Alias": "EndDate",
-      "AllowedOperands": null,
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "GreatOrEquals",
+        "GreatThan",
+        "Equality",
+        "LessOrEquals",
+        "LessThan",
+        "Between"
+      ],
       "AutoCompleteInfo": null,
-      "Caption": "$Views_CurrentTasks_EndDate_Param",
+      "Caption": "Выполнить к",
       "Condition": null,
       "DisallowedOperands": null,
       "DropDownInfo": null,
-      "Hidden": true,
+      "Hidden": false,
       "HideAutoCompleteButton": false,
       "Multiple": true,
       "RefSection": null,
@@ -669,9 +831,121 @@
       "SourceViews": null,
       "TreatValueAsUtc": false,
       "Type": "$DocumentCommonInfo.DocTypeID"
+    },
+    {
+      "Alias": "Digest",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Информация",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "AllTypesSearch",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Поиск по реквизитам",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "ASAP",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Срочные",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Not Null"
+    },
+    {
+      "Alias": "InWork",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "В работе",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Not Null"
+    },
+    {
+      "Alias": "NotInWork",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Исключая В работе",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Not Null"
+    },
+    {
+      "Alias": "NotComplete",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Исключая исполненные",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Not Null"
+    },
+    {
+      "Alias": "AssistantMode",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Для руководителя с помощниками",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Not Null"
     }
   ],
-  "QuickSearchParam": null,
+  "QuickSearchParam": "AllTypesSearch",
   "References": [
     {
       "CardType": null,
@@ -1421,6 +1695,7 @@ DECLARE
 	#if(Normal) {
 	"red_threshold"				int;
 	"no_name"					text;
+	"current_user"			uuid;
 	}
 
 	#if(Normal || ByAuthorDepartment) {
@@ -1465,6 +1740,7 @@ BEGIN
 	#if(Normal) {
 	"red_threshold"			= 320; -- задания, просроченные более чем на две недели (320 квантов), будут одинаково красные
 	"no_name"				= "GetString"('Views_MyTasks_NoNameStr_Sql', #param(locale));
+	"current_user"			= #param(CurrentUserID);
 	}
 
 	#if(Normal || ByAuthorDepartment) {
@@ -1591,18 +1867,102 @@ BEGIN
 					ELSE '#appearance(Background: ' || CAST(abs("t"."QuantsToFinish") * 160 / "red_threshold" * 256 * 256 * 256 + 255 * 256 * 256 AS text) || ')'
 				END
 			ELSE ''
-		END AS "AppearanceColumn"
+		END AS "AppearanceColumn",
+		'#appearance(FontWeight: ' || CASE
+			WHEN (select "th"."Created" from "TaskHistory" as "th" where 
+				(
+				"th"."RoleID" = "current_user" or "th"."RoleID" IN (Select "d"."DeputizedID" from "RoleDeputies" as "d"
+				 						where "d"."IsActive" = true and "d"."DeputyID" = "current_user" )
+				 						or "th"."RoleID" IN (Select "ru"."ID" from "RoleUsers" as "ru"
+				 						where "ru"."UserID" = "current_user" and "ru"."TypeID" in (0,4))
+				)
+				and "th"."ID" = "t"."CardID" order by "th"."Created" desc limit 1) <= 
+				  (select "ah"."Modified" from "ActionHistory" as "ah" where  "ah"."ModifiedByID" = "current_user"
+				 
+				 and "ah"."ID" = "t"."CardID" order by "ah"."Modified" desc limit 1)	-- Red: is expand control card
+				THEN 'Normal'
+			ELSE 'Bold'	
+		END || ')'																	AS "Highlighting"
 		}
 	FROM (
 		SELECT
 			#if(Normal) {
-			"t"."ID"													AS "CardID",
+			CASE WHEN "dci"."CardTypeID" = '01ad498e-5f8e-417a-bd28-942739dbf342' and "dci"."ParentID" is not null --меняем ссылку на карточку для КП
+				 THEN "dci"."ParentID"
+				 ELSE "t"."ID"
+			END															AS "CardID",
 			0::int8														AS "rn",
+			(select "th"."Created" from "TaskHistory" as "th" where "t"."RowID"="th"."RowID"  ),--"t"."Created",
+			CASE
+			WHEN exists(select null from "ControlTaskDecisions" as "CTD" 
+							inner join "TaskData" as "td" on "CTD"."ID" = "td"."TaskCardID"
+							inner join "ControlTaskPerformers" as "CtP" on "CTD"."RowID" = "CtP"."ParentRowID"
+							where "td"."ID" = "t"."RowID"
+							and ("CtP"."UserID" = "current_user"  OR "CtP"."UserID" IN (Select "d"."DeputizedID" from "RoleDeputies" as "d" where "d"."DeputyID" = "current_user"))
+							and "CTD"."IsReassigned" = true
+							--and "CTD"."SubStateID" = 3
+							)  THEN
+			'➦'		
+							
+			WHEN exists(select null from "KrAdditionalApprovalInfo" as "kaa" where "t"."RowID" = "kaa"."ID"
+							and "kaa"."Completed" is Null)  THEN '➦'
+
+			WHEN exists(select null from "KrAdditionalApprovalInfo" as "kaa" where "t"."RowID" = "kaa"."ID"
+							and "kaa"."Completed" is not Null)  THEN '➦✓'	
+							
+			ELSE ''
+			END 														AS "ControlMark",
+			case 
+			when "t"."Digest" like '%------------%' 
+			then left("t"."Digest", POSITION('------------' in "t"."Digest") - 1)
+			else "t"."Digest"
+			end														AS "TaskInfo",
+			CASE
+			WHEN (select "mi"."UrgencyName" from "DocumentCommonInfo" as "mi" inner join "TaskData" as "td" on "mi"."ID" = "td"."TaskCardID"
+							where "td"."ID" = "t"."RowID" limit 1) = 'Низкий приоритет'  THEN '◻◻◻◻'
+			WHEN (select "mi"."UrgencyName" from "DocumentCommonInfo" as "mi" inner join "TaskData" as "td" on "mi"."ID" = "td"."TaskCardID"
+							where "td"."ID" = "t"."RowID" limit 1) = 'Обычный приоритет'  THEN '■◻◻◻'
+			WHEN (select "mi"."UrgencyName" from "DocumentCommonInfo" as "mi" inner join "TaskData" as "td" on "mi"."ID" = "td"."TaskCardID"
+							where "td"."ID" = "t"."RowID" limit 1) = 'Оперативно'  THEN '■■◻◻'
+			WHEN (select "mi"."UrgencyName" from "DocumentCommonInfo" as "mi" inner join "TaskData" as "td" on "mi"."ID" = "td"."TaskCardID"
+							where "td"."ID" = "t"."RowID" limit 1) = 'Важно'  THEN '■■■◻'
+			WHEN (select "mi"."UrgencyName" from "DocumentCommonInfo" as "mi" inner join "TaskData" as "td" on "mi"."ID" = "td"."TaskCardID"
+							where "td"."ID" = "t"."RowID" limit 1) = 'Срочно'  THEN '■■■■'
+			WHEN "dci"."UrgencyName" = 'Низкий приоритет'  THEN '◻◻◻◻'
+			WHEN "dci"."UrgencyName" = 'Обычный приоритет'  THEN '■◻◻◻'
+			WHEN "dci"."UrgencyName" = 'Оперативно'  THEN '■■◻◻'
+			WHEN "dci"."UrgencyName" = 'Важно'  THEN '■■■◻'
+			WHEN "dci"."UrgencyName" = 'Срочно'  THEN '■■■■'
+			WHEN "dci"."UrgencyNPAName" = 'Срочно'  THEN '■■■◻'
+			WHEN "dci"."UrgencyNPAName" = 'Весьма срочно'  THEN '■■■■'
+			--WHEN "t"."TypeID" = '5309ce42-c4d2-4e99-a733-697c589311e7' and (select "mi"."UrgencyName" from "DocumentCommonInfo" as "mi" 
+			--	where "mi"."ParentID" = "t"."ID" and "mi"."CategoryName" = 'Проект поручения' limit 1) = 'Низкий приоритет'  THEN '◻◻◻◻'
+			--WHEN "t"."TypeID" = '5309ce42-c4d2-4e99-a733-697c589311e7' and (select "mi"."UrgencyName" from "DocumentCommonInfo" as "mi" 
+			--	where "mi"."ParentID" = "t"."ID" and "mi"."CategoryName" = 'Проект поручения' limit 1) = 'Обычный приоритет'  THEN '■◻◻◻'
+			--WHEN "t"."TypeID" = '5309ce42-c4d2-4e99-a733-697c589311e7' and (select "mi"."UrgencyName" from "DocumentCommonInfo" as "mi" 
+			--	where "mi"."ParentID" = "t"."ID" and "mi"."CategoryName" = 'Проект поручения' limit 1) = 'Оперативно'  THEN '■■◻◻'
+			--WHEN "t"."TypeID" = '5309ce42-c4d2-4e99-a733-697c589311e7' and (select "mi"."UrgencyName" from "DocumentCommonInfo" as "mi" 
+			--	where "mi"."ParentID" = "t"."ID" and "mi"."CategoryName" = 'Проект поручения' limit 1) = 'Важно'  THEN '■■■◻'
+			--WHEN "t"."TypeID" = '5309ce42-c4d2-4e99-a733-697c589311e7' and (select "mi"."UrgencyName" from "DocumentCommonInfo" as "mi" 
+			--	where "mi"."ParentID" = "t"."ID" and "mi"."CategoryName" = 'Проект поручения' limit 1) = 'Срочно'  THEN '■■■■'
+			ELSE ''
+			END 														AS "Urgency",
+			COALESCE("dci"."FullNumber", "no_name")						AS "CardName",
+			CAST("dci"."DocDate" AS date)								AS "DocDate",
+			COALESCE("dci"."Subject", '')								AS "CardSubject",
+			
+			COALESCE("dci"."OutgoingNumber", '')						AS "CardOutgoingNumber",
+			COALESCE("dci"."OutgoingDate", null)						AS "CardOutgoingDate",
+			COALESCE("dci"."DocDate", null)								AS "CardDocDate",
+			(select "mi"."OrderPoint" from "DocumentCommonInfo" as "mi" inner join "TaskData" as "td" on "mi"."ID" = "td"."TaskCardID"
+							where "td"."ID" = "t"."RowID")				AS "PointNumber",
 			"t"."StateID",
+			"t"."Planned"												AS "PlannedDate",
 			"ts"."Name"													AS "StateName",
 			"t"."TypeID",
-			"t"."Planned"												AS "PlannedDate",
-			"t"."Digest"												AS "TaskInfo",
+			
+			
+			---"t"."Digest"												AS "TaskInfo",
 			"t"."RoleID",
 			"t"."RoleName",
 			"t"."AuthorID",
@@ -1623,12 +1983,11 @@ BEGIN
 				"no_department_name"
 			)															AS "AuthorDeptName",
 			"t"."Modified"												AS "ModificationTime",
-			"t"."Created",
 			"t"."CreatedByID",
 			"t"."CreatedByName",
 			"t"."TimeZoneUtcOffsetMinutes",
 			"t"."RoleTypeID",
-			COALESCE("dci"."FullNumber", "no_name")						AS "CardName",
+			
 			COALESCE("dci"."DocTypeID", "i"."TypeID")					AS "CardTypeID",
 			COALESCE("dci"."DocTypeTitle", "i"."TypeCaption")			AS "CardTypeName",
 			COALESCE("ti"."KindCaption", "t"."TypeCaption")				AS "TypeCaption",
@@ -1758,8 +2117,9 @@ BEGIN
 				ON "ti"."ID" = "t"."RowID"
 			}
 
-			#if(TypeParam || request.SortedBy("CardName")) {
-			LEFT JOIN "DocumentCommonInfo" AS "dci"
+			#if(AllTypesSearch|| TypeParam || request.SortedBy("CardName") || request.SortedBy("CardSubject")
+			|| request.SortedBy("CardOutgoingNumber") || request.SortedBy("CardOutgoingDate")) {
+			LEFT JOIN "DocumentCommonInfo" AS "dci" 
 				ON "dci"."ID" = "t"."ID"
 			}
 
@@ -1835,11 +2195,65 @@ BEGIN
 							AND "rd"."DeputizedID" = "t"."UserID"													-- Замещение в неконтекстной роли, в работе у замещаемого
 						)
 					)
-
+			
 				#param(Status, "t"."StateID")
 				#param(TaskType, "t"."TypeID")
+				and "t"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
 				#param(EndDate, "t"."Planned")
+				#if(ASAP)
+				{
+				and extract(day from "t"."Planned" - current_timestamp) <= 1--DATEDIFF ( "now_timestamp" , "t"."Planned" )  
+				}
+				#if(InWork)
+				{
+				and exists(select null from "ControlTaskDecisions" as "CTD" 
+							inner join "TaskData" as "td" on "CTD"."ID" = "td"."TaskCardID"
+							where "td"."ID" = "t"."RowID"
+							and "CTD"."SubStateID" = 3)  
+				}
+				#if(NotInWork)
+				{
+				and not exists(select null from "ControlTaskDecisions" as "CTD" 
+							inner join "TaskData" as "td" on "CTD"."ID" = "td"."TaskCardID"
+							where "td"."ID" = "t"."RowID"
+							and "CTD"."SubStateID" = 3)  
+				}
+				#if(NotComplete)
+				{
+				and not exists(select null from "ControlTaskDecisions" as "CTD" 
+							inner join "TaskData" as "td" on "CTD"."ID" = "td"."TaskCardID"
+							inner join "DocumentCommonInfo" as "dci" on "dci"."ID" = "td"."TaskCardID"
+							where "td"."ID" = "t"."RowID"
+							and "dci"."ManualStateID" = 14
+							and "dci"."CreationDate" < '2023-07-01'
+							--and "dci"."ExternalGuidForTask" is not null 
+							)  
+				}
+				#if(AssistantMode)
+				{
+				and ("t"."TypeID" != 'e4d7f6bf-fea9-4a3b-8a5a-e1a0a40de74c' and "t"."TypeID" != '968d68b3-a7c5-4b5d-bfa4-bb0f346880b6'
+						or
+									("t"."Digest" like '%Проверено помощником%' and  "t"."TypeID" = 'e4d7f6bf-fea9-4a3b-8a5a-e1a0a40de74c' 
+									or 
+									"t"."Digest" like '%Проверено помощником%'and "t"."TypeID" = '968d68b3-a7c5-4b5d-bfa4-bb0f346880b6')
+				)
+				}
 				#param(CreationDate, "t"."Created")
+				#param(Digest, "t"."Digest")
+				#if(AllTypesSearch)
+				{
+				and (  
+				    (true #param(AllTypesSearch, "t"."Digest"))
+					or
+					(true #param(AllTypesSearch, "t"."AuthorName"))
+					or
+					(TRUE #param(AllTypesSearch, "dci"."FullNumber"))
+					or
+					(TRUE #param(AllTypesSearch, "dci"."Subject"))
+					or
+					(TRUE #param(AllTypesSearch, "dci"."OutgoingNumber"))
+					)
+				}
 
 				#if(TaskTypeGrouped) {
 				AND (

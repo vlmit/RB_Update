@@ -12,6 +12,18 @@
     {
       "DeltaKind": "Added",
       "ObjectId::uid": "88069520-441a-4f38-a103-c8f2ac8a2101",
+      "RoleId::uid": "e2175f60-7645-4300-b332-0fadbc080a78",
+      "RoleName": "АГиП"
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "88069520-441a-4f38-a103-c8f2ac8a2101",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "88069520-441a-4f38-a103-c8f2ac8a2101",
       "RoleId::uid": "0071b103-0ffa-49da-8776-53b9c654d815",
       "RoleName": "Регистраторы"
     }
@@ -55,18 +67,18 @@
       "Type": "$DocumentCommonInfo.FullNumber"
     },
     {
-      "Alias": "TypeName",
+      "Alias": "CreationDate",
       "Appearance": null,
-      "Caption": "$Views_Registers_Type",
+      "Caption": "$Views_Registers_CreationDate",
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
       "Hidden": false,
-      "Localizable": true,
+      "Localizable": false,
       "MaxLength": null,
-      "SortBy": null,
+      "SortBy": "mi.CreationDate",
       "TreatValueAsUtc": false,
-      "Type": "$DocumentCommonInfo.DocTypeTitle"
+      "Type": "Date"
     },
     {
       "Alias": "DocSubject",
@@ -81,6 +93,20 @@
       "SortBy": null,
       "TreatValueAsUtc": false,
       "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "TypeName",
+      "Appearance": null,
+      "Caption": "$Views_Registers_Type",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocTypeTitle"
     },
     {
       "Alias": "DocDescription",
@@ -193,20 +219,6 @@
       "SortBy": null,
       "TreatValueAsUtc": false,
       "Type": "$DocumentCommonInfo.DocDate"
-    },
-    {
-      "Alias": "CreationDate",
-      "Appearance": null,
-      "Caption": "$Views_Registers_CreationDate",
-      "Condition": null,
-      "DisableGrouping": false,
-      "HasTag": false,
-      "Hidden": false,
-      "Localizable": false,
-      "MaxLength": null,
-      "SortBy": "mi.CreationDate",
-      "TreatValueAsUtc": false,
-      "Type": "Date"
     },
     {
       "Alias": "Department",
@@ -730,8 +742,9 @@ BEGIN
 		#if(Normal) {
 		"mi"."ID" AS "DocID",
 		"mi"."FullNumber" AS "DocNumber",
-		"mi"."DocTypeTitle" AS "TypeName",
+		"mi"."DocDate",
 		"mi"."Subject" AS "DocSubject",
+		"mi"."DocTypeTitle" AS "TypeName",
 		COALESCE("mi"."FullNumber", '') || ', ' || COALESCE("mi"."Subject", '') AS "DocDescription",	-- autocomplete
 		"mi"."PartnerID",
 		"mi"."PartnerName",
@@ -739,7 +752,7 @@ BEGIN
 		"mi"."AuthorName",
 		"mi"."RegistratorID",
 		"mi"."RegistratorName",
-		"mi"."DocDate",
+		
 		CAST("mi"."CreationDate" AS date) AS "CreationDate",
 		"mi"."DepartmentName" AS "Department",
 		COALESCE("kr"."StateName", "project") AS "KrState"

@@ -33,7 +33,7 @@
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
-      "Hidden": true,
+      "Hidden": false,
       "Localizable": false,
       "MaxLength": null,
       "SortBy": null,
@@ -67,6 +67,20 @@
       "SortBy": "lCardTypeCaption.Value",
       "TreatValueAsUtc": false,
       "Type": "$KrDocType.CardTypeCaption"
+    },
+    {
+      "Alias": "ExternalID",
+      "Appearance": null,
+      "Caption": "Группа документов (EOS)",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "lTitle.Value",
+      "TreatValueAsUtc": false,
+      "Type": "$KrDocType.Title"
     }
   ],
   "ConnectionAlias": null,
@@ -100,6 +114,22 @@
       "SourceViews": null,
       "TreatValueAsUtc": false,
       "Type": "String"
+    },
+    {
+      "Alias": "TypeCaption",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": null,
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrDocType.CardTypeCaption"
     }
   ],
   "QuickSearchParam": "Name",
@@ -153,7 +183,8 @@ ORDER BY #order_by
 SELECT
 	"t"."ID"				AS "KrDocTypeID",
 	"t"."Title"				AS "KrDocTypeTitle",
-	"t"."CardTypeCaption"	AS "KrDocCardTypeCaption"
+	"t"."CardTypeCaption"	AS "KrDocCardTypeCaption",
+	"t"."ExternalID"	AS "ExternalID"
 FROM "KrDocType" AS "t"
 #if(Name || request.SortedBy("KrDocTypeTitle")) {
 CROSS JOIN "Localization"("t"."Title", #param(locale)) AS "lTitle"
@@ -163,4 +194,5 @@ CROSS JOIN "Localization"("t"."CardTypeCaption", #param(locale)) AS "lCardTypeCa
 }
 WHERE true
 	#param(Name, "lTitle"."Value")
+	#param(TypeCaption, "t"."CardTypeCaption")
 ORDER BY #order_by

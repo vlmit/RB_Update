@@ -20,9 +20,9 @@
   "Caption": "Файлы",
   "Columns": [
     {
-      "Alias": "FullFileName",
+      "Alias": "UserName",
       "Appearance": null,
-      "Caption": "FullFileName",
+      "Caption": "UserName",
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
@@ -31,7 +31,7 @@
       "MaxLength": null,
       "SortBy": null,
       "TreatValueAsUtc": false,
-      "Type": "String"
+      "Type": "String(Max) Null"
     }
   ],
   "ConnectionAlias": null,
@@ -127,3 +127,6 @@
 
 
 [TEXTPART ViewFiles PGSQL]
+select "UserName" 
+from "PersonalRoles" 
+where "ID"=#param(CurrentUserID)

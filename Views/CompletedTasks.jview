@@ -307,6 +307,34 @@
       "Type": "$TaskHistory.Completed"
     },
     {
+      "Alias": "ProcessID",
+      "Appearance": null,
+      "Caption": "Id процесса",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "Guid Null"
+    },
+    {
+      "Alias": "ProcessName",
+      "Appearance": null,
+      "Caption": "Имя процесса",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
       "Alias": "rn",
       "Appearance": null,
       "Caption": null,
@@ -694,6 +722,8 @@ BEGIN
 		"th"."Created",
 		"th"."Planned",
 		"th"."Completed",
+		"th"."ProcessID",
+		"th"."ProcessName",
 		0::int8 AS "rn"
 	FROM (
 		SELECT

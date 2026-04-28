@@ -167,6 +167,20 @@
       "Type": "$DocumentCommonInfo.FullNumber"
     },
     {
+      "Alias": "Subject",
+      "Appearance": null,
+      "Caption": "Заголовок",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
       "Alias": "CardTypeID",
       "Appearance": null,
       "Caption": null,
@@ -407,9 +421,25 @@
       "SourceViews": null,
       "TreatValueAsUtc": false,
       "Type": "$Roles.ParentID"
+    },
+    {
+      "Alias": "Number",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Номер",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
     }
   ],
-  "QuickSearchParam": null,
+  "QuickSearchParam": "Number",
   "References": [
     {
       "CardType": null,
@@ -985,6 +1015,7 @@ BEGIN
 			"t"."UserID",
 			"t"."UserName",
 			COALESCE("dci"."FullNumber", "no_name") AS "CardName",
+			COALESCE("dci"."Subject", "no_name") AS "Subject",
 			COALESCE("dci"."DocTypeID", "i"."TypeID") AS "CardTypeID",
 			COALESCE("dci"."DocTypeTitle", "i"."TypeCaption") AS "CardTypeName",
 			"t"."Planned" AS "PlannedDate",
@@ -1088,8 +1119,11 @@ BEGIN
 				)
 
 				#param(Status, "t"."StateID")
-				#param(TaskType, "t"."TypeID")
-
+				#param(TaskType, "t"."TypeID") 
+				
+				#if(Number) 
+				{ and exists (select null from "DocumentCommonInfo" as "dci" where "t"."ID" = "dci"."ID" #param(Number, "dci"."FullNumber"))}
+				
 				#if(CardType) {
 				AND COALESCE("dci"."DocTypeID", "dci"."CardTypeID") = #param(CardType)
 				}

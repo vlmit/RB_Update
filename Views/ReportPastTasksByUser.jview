@@ -149,7 +149,7 @@
       "Condition": null,
       "DisallowedOperands": null,
       "DropDownInfo": null,
-      "Hidden": true,
+      "Hidden": false,
       "HideAutoCompleteButton": false,
       "Multiple": true,
       "RefSection": null,
@@ -219,7 +219,7 @@
         "RefPrefix": null,
         "ViewAlias": "TaskTypes"
       },
-      "Hidden": true,
+      "Hidden": false,
       "HideAutoCompleteButton": false,
       "Multiple": true,
       "RefSection": "TaskTypes",
@@ -247,7 +247,7 @@
       "Condition": null,
       "DisallowedOperands": null,
       "DropDownInfo": null,
-      "Hidden": true,
+      "Hidden": false,
       "HideAutoCompleteButton": false,
       "Multiple": true,
       "RefSection": "DepartmentRoles",
@@ -274,7 +274,7 @@
       "Condition": null,
       "DisallowedOperands": null,
       "DropDownInfo": null,
-      "Hidden": true,
+      "Hidden": false,
       "HideAutoCompleteButton": false,
       "Multiple": true,
       "RefSection": "PersonalRoles",
@@ -301,7 +301,7 @@
       "Condition": null,
       "DisallowedOperands": null,
       "DropDownInfo": null,
-      "Hidden": true,
+      "Hidden": false,
       "HideAutoCompleteButton": false,
       "Multiple": true,
       "RefSection": "Roles",
@@ -331,7 +331,7 @@
         "RefPrefix": null,
         "ViewAlias": "CompletionOptions"
       },
-      "Hidden": true,
+      "Hidden": false,
       "HideAutoCompleteButton": false,
       "Multiple": true,
       "RefSection": "CompletionOptions",
@@ -651,7 +651,7 @@ BEGIN
 				#param(Department, "rud"."ID")
 					}
 				} {
-				AND "rud"."ID" = "no_rows_in_parent_department"
+				--AND "rud"."ID" = "no_rows_in_parent_department"
 				}
 				#param(SelUser, "th"."UserID")
 				#if(TypeParam) {

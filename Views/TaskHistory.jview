@@ -1,7 +1,7 @@
 {
   "Alias": "TaskHistory",
   "Caption": "История заданий",
-  "Description": "",
+  "Description": "  ",
   "FormatVersion::int": 1,
   "GroupName": "System",
   "ID::uid": "00da4f8f-bbf5-4b18-8b43-c528e5359d28",
@@ -21,7 +21,7 @@
 [TEXTPART TaskHistory JSONMETA]
 {
   "Alias": "TaskHistory",
-  "Appearance": null,
+  "Appearance": "AppearanceColumn",
   "Appearances": null,
   "AutoWidthRowLimit": null,
   "Caption": "История заданий",
@@ -319,6 +319,20 @@
       "SortBy": null,
       "TreatValueAsUtc": false,
       "Type": "Int64"
+    },
+    {
+      "Alias": "AppearanceColumn",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
     }
   ],
   "ConnectionAlias": null,
@@ -623,7 +637,20 @@ SELECT
 		"h"."InProgress",
 		"h"."Completed",
 		
-		"h"."FilesCount"
+		"h"."FilesCount",
+		CASE
+			WHEN 1 = 1 THEN
+				CASE 
+					WHEN "h"."OptionCaption" = '$UI_Tasks_CompletionOptions_Approve' and "h"."CompletedByName" != 'System'
+					THEN '#appearance(Background: #98FB98)'
+					WHEN "h"."OptionCaption" = '$UI_Tasks_CompletionOptions_Disapprove'
+					THEN '#appearance(Background: #FA8072)'
+					WHEN "h"."OptionCaption" = '$UI_Tasks_CompletionOptions_Approve' and "h"."CompletedByName" = 'System'
+					THEN '#appearance(Background: #FFFF00)'
+					ELSE ''
+				END
+			ELSE ''
+		END AS "AppearanceColumn"
 FROM (
 	SELECT
 		"h"."RowID",
@@ -738,5 +765,6 @@ FROM (
 		LIMIT 1) AS "TMP"
 				
 	) AS "h"
+Where "h"."RoleName" != 'SystemTaskHelper'
 ORDER BY "h"."CompletedOrder", "h"."Completed", "h"."Created";
 }

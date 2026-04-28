@@ -8,7 +8,14 @@
   "JsonMetadataSource::txt": "Notifications JSONMETA",
   "MsQuerySource::txt": "Notifications MSSQL",
   "PgQuerySource::txt": "Notifications PGSQL",
-  "Roles": null
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "ecc76994-461e-428d-abd0-c2499f6711fe",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
 }
 
 [TEXTPART Notifications JSONMETA]

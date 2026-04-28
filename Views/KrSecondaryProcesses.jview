@@ -26,7 +26,7 @@
       "Condition": null,
       "DisableGrouping": false,
       "HasTag": false,
-      "Hidden": true,
+      "Hidden": false,
       "Localizable": false,
       "MaxLength": null,
       "SortBy": null,
@@ -46,6 +46,20 @@
       "SortBy": "locName.Value",
       "TreatValueAsUtc": false,
       "Type": "$KrSecondaryProcesses.Name"
+    },
+    {
+      "Alias": "ModeName",
+      "Appearance": null,
+      "Caption": "Режим",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "locMode.Value",
+      "TreatValueAsUtc": false,
+      "Type": "$KrSecondaryProcesses.ModeName"
     },
     {
       "Alias": "Description",
@@ -183,6 +197,22 @@
       "AllowedOperands": null,
       "AutoCompleteInfo": null,
       "Caption": "$Views_KrSecondaryProcesses_Name",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrSecondaryProcesses.Name"
+    },
+    {
+      "Alias": "ModeNameParam",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Режим",
       "Condition": null,
       "DisallowedOperands": null,
       "DropDownInfo": null,
@@ -503,6 +533,7 @@ SELECT
 	#if(Normal) {
 		"b"."ID" as "SecondaryProcessID",
 		"b"."Name" as "SecondaryProcessName",
+		"b"."ModeName" as "ModeName",
 		"b"."Description",
 		"b"."IsGlobal",
 		"b"."Async",
@@ -558,9 +589,13 @@ FROM "KrSecondaryProcesses" as "b"
 #if (SecondaryProcessNameParam || Normal && request.SortedBy("SecondaryProcessName")) {
 CROSS JOIN "Localization"("b"."Name", #param(locale)) AS "locName"
 }
+#if (ModeNameParam ||  Normal && request.SortedBy("ModeName")) {
+CROSS JOIN "Localization"("b"."ModeName", #param(locale)) AS "locMode"
+}
 WHERE true
 	#param(SecondaryProcessIDParam, "b"."ID")
 	#param(SecondaryProcessNameParam, "locName"."Value")
+	#param(ModeNameParam, "locMode"."Value")
 	#param(IsGlobalParam, "b"."IsGlobal")
 	#param(AsyncParam, "b"."Async")
 	#if(TypeParam) {

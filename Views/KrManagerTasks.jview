@@ -1,14 +1,63 @@
 {
   "Alias": "KrManagerTasks",
   "Caption": "Задания руководителя",
-  "Description": "",
+  "Description": "  ",
   "FormatVersion::int": 1,
   "GroupName": "Kr Wf",
   "ID::uid": "98e09dab-c265-46e0-96ae-0a81cef3fa20",
   "JsonMetadataSource::txt": "KrManagerTasks JSONMETA",
   "MsQuerySource::txt": "KrManagerTasks MSSQL",
   "PgQuerySource::txt": "KrManagerTasks PGSQL",
-  "Roles": null
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "98e09dab-c265-46e0-96ae-0a81cef3fa20",
+      "RoleId::uid": "d7e4bcae-89db-4a71-8a93-cd0dd84d1d6c",
+      "RoleName": "Андронов В.В."
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "98e09dab-c265-46e0-96ae-0a81cef3fa20",
+      "RoleId::uid": "010120e2-348d-4c7b-9fb7-d78001481e40",
+      "RoleName": "Белоколодов С.Н."
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "98e09dab-c265-46e0-96ae-0a81cef3fa20",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "98e09dab-c265-46e0-96ae-0a81cef3fa20",
+      "RoleId::uid": "18a0d343-fea7-45ce-8792-33b2c0a88e46",
+      "RoleName": "Демьянюк Р.Р."
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "98e09dab-c265-46e0-96ae-0a81cef3fa20",
+      "RoleId::uid": "aa16cfd1-bc75-42d9-b239-05f3b9db7fa6",
+      "RoleName": "Ковалев Н.П."
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "98e09dab-c265-46e0-96ae-0a81cef3fa20",
+      "RoleId::uid": "05559a65-e31f-4484-ae6a-eff826109725",
+      "RoleName": "Комарь П.М."
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "98e09dab-c265-46e0-96ae-0a81cef3fa20",
+      "RoleId::uid": "274db87a-ed10-471c-95e6-f86d113b00ee",
+      "RoleName": "Мадаев Г.Э."
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "98e09dab-c265-46e0-96ae-0a81cef3fa20",
+      "RoleId::uid": "30f097bd-8e95-4814-aea8-ceacff6ae7f7",
+      "RoleName": "Рыжук А.Г."
+    }
+  ]
 }
 
 [TEXTPART KrManagerTasks JSONMETA]
@@ -88,6 +137,62 @@
       "SortBy": null,
       "TreatValueAsUtc": false,
       "Type": "Int64"
+    },
+    {
+      "Alias": "UnreadCount",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int64"
+    },
+    {
+      "Alias": "Urgently",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "ViewID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "LastDocID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
     }
   ],
   "ConnectionAlias": null,
@@ -217,18 +322,21 @@ CREATE TEMP TABLE IF NOT EXISTS "task_types" (
 	"Caption"		text,
 	"TypeCaption"	text,
 	"ActiveImage"	text,
-	"InactiveImage"	text);
+	"InactiveImage"	text,
+	"Bool"			text,
+	"ViewID"		text,
+	"LastDocID"		text);
 
 -- Здесь перечисляются названия типов или видов заданий в порядке их отображения.
 -- Для каждого указывается имя файла с изображением, отображаемым при выборе пункта,
 -- и имя файла с изображением, отображаемым для невыбранного пункта.
-INSERT INTO "task_types" ("Caption", "TypeCaption", "ActiveImage", "InactiveImage") VALUES
-(null, 'На исполнение', 'PerformTask.png', 'PerformTask-inactive.png') ,
-(null, 'На рассмотрение', 'InformTask.png', 'InformTask-inactive.png') ,
-('На согласовании', '$CardTypes_TypesNames_KrApprove', 'ApproveTask.png', 'ApproveTask-inactive.png') ,
-('На контроле', '$CardTypes_TypesNames_WfResolutionControl', 'ControlTask.png', 'ControlTask-inactive.png') ,
-(null, 'Срочное поручение', 'UrgentTask.png', 'UrgentTask-inactive.png') ,
-(null, 'Просроченное поручение', 'OverdueTask.png', 'OverdueTask-inactive.png');
+INSERT INTO "task_types" ("Caption", "TypeCaption", "ActiveImage", "InactiveImage", "Bool", "ViewID","LastDocID") VALUES
+('Все поступившие', '$CardTypes_TypesNames_KrApprove', 'PerformTask.png', 'PerformTask-inactive.png', 'true', 'MyTasks_AllForMob', '83091e9b-3989-4a75-ade4-9fbdbb57fedf') ,
+('На рассмотрение', 'Регистрация документа, поступившего по МЭДО', 'InformTask.png', 'InformTask-inactive.png', 'false', 'MyTasks_InConsideration', '83091e9b-3989-4a75-ade4-9fbdbb57fedf') ,
+('На согласовании', '$CardTypes_TypesNames_KrApprove', 'ApproveTask.png', 'ApproveTask-inactive.png', 'true', 'MyTasks_forApproval', '95c7dd8c-e8f7-4b8f-b901-99b4eabca3a7') ,
+('На подпись', '$CardTypes_TypesNames_KrSigning', 'ControlTask.png', 'ControlTask-inactive.png', 'false', 'MyTasks_forSign', '83091e9b-3989-4a75-ade4-9fbdbb57fedf') ,
+('В работе', '$CardTypes_TypesNames_KrRegistration', 'UrgentTask.png', 'UrgentTask-inactive.png', 'false', 'MyTasks_InProgress', '95c7dd8c-e8f7-4b8f-b901-99b4eabca3a7') ,
+('История', '$CardTypes_TypesNames_KrApprove', 'OverdueTask.png', 'OverdueTask-inactive.png', 'false', 'MyCompletedTasks_forMob', '95c7dd8c-e8f7-4b8f-b901-99b4eabca3a7');
 
 
 
@@ -238,7 +346,411 @@ SELECT
 	COALESCE("tt"."Caption", "tt"."TypeCaption") AS "Caption",
 	"tt"."ActiveImage",
 	"tt"."InactiveImage",
-	COALESCE("t2"."cnt", 0) + COALESCE("t3"."cnt", 0) AS "Count"
+	case
+		WHEN "tt"."Caption" = 'Все поступившие'  THEN 
+			(select count(*) from "Tasks" as "tas" where "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae' and "tas"."StateID"= 0
+				and (
+				"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+				or "tas"."UserID" is null 
+				and 
+				exists (
+					select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+					and "ru"."UserID"=#param(CurrentUserID)
+				)
+				or 
+				exists (
+					select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+					and "rd"."IsActive"=true 
+					and "rd"."DeputyID"=#param(CurrentUserID) 
+					and "rd"."DeputizedID"="tas"."UserID"
+					)
+				)
+			)
+		WHEN "tt"."Caption" = 'На рассмотрение'  THEN 
+			(select count(*) from "Tasks" as "tas" where "tas"."StateID"=0 and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+				and ("tas"."TypeID"='2257bff2-1bdd-4f9a-aacd-dd93de844ea6' or "tas"."TypeID"='5309ce42-c4d2-4e99-a733-697c589311e7')
+				and (
+				"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+				or "tas"."UserID" is null 
+				and 
+				exists (
+					select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+					and "ru"."UserID"=#param(CurrentUserID)
+				)
+				or 
+				exists (
+					select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+					and "rd"."IsActive"=true 
+					and "rd"."DeputyID"=#param(CurrentUserID) 
+					and "rd"."DeputizedID"="tas"."UserID"
+					)
+				)
+			)
+		WHEN "tt"."Caption" = 'На согласовании'  THEN
+			(select count(*) from "Tasks" as "tas" where "tas"."TypeID"='e4d7f6bf-fea9-4a3b-8a5a-e1a0a40de74c'
+				and "t"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+				and (
+				"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+				or "tas"."UserID" is null 
+				and 
+				exists (
+					select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+					and "ru"."UserID"=#param(CurrentUserID)
+				)
+				or 
+				exists (
+					select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+					and "rd"."IsActive"=true 
+					and "rd"."DeputyID"=#param(CurrentUserID) 
+					and "rd"."DeputizedID"="tas"."UserID"
+					)
+				)
+			)
+		WHEN "tt"."Caption" = 'На подпись'  THEN
+			(select count(*) from "Tasks" as "tas" where "tas"."TypeID"='968d68b3-a7c5-4b5d-bfa4-bb0f346880b6'
+				and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+				and (
+				"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+				or "tas"."UserID" is null 
+				and 
+				exists (
+					select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+					and "ru"."UserID"=#param(CurrentUserID)
+				)
+				or 
+				exists (
+					select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+					and "rd"."IsActive"=true 
+					and "rd"."DeputyID"=#param(CurrentUserID) 
+					and "rd"."DeputizedID"="tas"."UserID"
+					)
+				)
+			)
+		WHEN "tt"."Caption" = 'В работе'  THEN
+			(select count(*) from "Tasks" as "tas" where "tas"."StateID"=1 and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+				and (
+				"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+				or "tas"."UserID" is null 
+				and 
+				exists (
+					select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+					and "ru"."UserID"=#param(CurrentUserID)
+				)
+				or 
+				exists (
+					select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+					and "rd"."IsActive"=true 
+					and "rd"."DeputyID"=#param(CurrentUserID) 
+					and "rd"."DeputizedID"="tas"."UserID"
+					)
+				)
+			)
+		when"tt"."Caption"='История' then
+			(select count(*) from "TaskHistory" where "UserID"=#param(CurrentUserID) and "Completed" is not null and extract(day from current_timestamp - "Completed") <= 14)
+		end	
+	as Count,
+	CASE
+			WHEN "tt"."Caption" = 'Все поступившие'  THEN 
+				(select count(*) from "Tasks" as "tas" where "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae' and "tas"."StateID"= 0
+					and (
+					"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID) 
+					or "tas"."UserID" is null 
+					and 
+					exists (
+						select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+						and "ru"."UserID"=#param(CurrentUserID)
+					)
+					or 
+					exists (
+						select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+						and "rd"."IsActive"=true 
+						and "rd"."DeputyID"=#param(CurrentUserID) 
+						and "rd"."DeputizedID"="tas"."UserID"
+						)
+					) 
+					and
+					(select "th"."Created" from "TaskHistory" as "th" where 
+						(
+						"th"."RoleID" = #param(CurrentUserID) or "th"."RoleID" IN (Select "d"."DeputizedID" from "RoleDeputies" as "d"
+												where "d"."IsActive" = true and "d"."DeputyID" = #param(CurrentUserID) )
+												or "th"."RoleID" IN (Select "ru"."ID" from "RoleUsers" as "ru"
+												where "ru"."UserID" = #param(CurrentUserID) and "ru"."TypeID" in (0,4))
+						)
+						and "th"."ID" = "tas"."ID" order by "th"."Created" desc limit 1) <= 
+						  (select "ah"."Modified" from "ActionHistory" as "ah" where  "ah"."ModifiedByID" = #param(CurrentUserID)					 
+						 and "ah"."ID" = "tas"."ID" order by "ah"."Modified" desc limit 1) is not true
+					)
+						
+			WHEN "tt"."Caption" = 'На рассмотрение'  THEN 
+				(select count(*) from "Tasks" as "tas" where "tas"."StateID"=0 and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+				and ("tas"."TypeID"='2257bff2-1bdd-4f9a-aacd-dd93de844ea6' or "tas"."TypeID"='5309ce42-c4d2-4e99-a733-697c589311e7')
+				and (
+				"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+				or "tas"."UserID" is null 
+				and 
+				exists (
+					select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+					and "ru"."UserID"=#param(CurrentUserID)
+				)
+				or 
+				exists (
+					select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+					and "rd"."IsActive"=true 
+					and "rd"."DeputyID"=#param(CurrentUserID) 
+					and "rd"."DeputizedID"="tas"."UserID"
+					)
+				)
+				and
+				(select "th"."Created" from "TaskHistory" as "th" where 
+					(
+					"th"."RoleID" = #param(CurrentUserID) or "th"."RoleID" IN (Select "d"."DeputizedID" from "RoleDeputies" as "d"
+											where "d"."IsActive" = true and "d"."DeputyID" = #param(CurrentUserID) )
+											or "th"."RoleID" IN (Select "ru"."ID" from "RoleUsers" as "ru"
+											where "ru"."UserID" = #param(CurrentUserID) and "ru"."TypeID" in (0,4))
+					)
+					and "th"."ID" = "tas"."ID" order by "th"."Created" desc limit 1) <= 
+					  (select "ah"."Modified" from "ActionHistory" as "ah" where  "ah"."ModifiedByID" = #param(CurrentUserID)
+					 and "ah"."ID" = "tas"."ID" order by "ah"."Modified" desc limit 1) is not true
+				)
+			WHEN "tt"."Caption" = 'На согласовании'  THEN 
+				(select count(*) from "Tasks" as "tas" where "tas"."TypeID"='e4d7f6bf-fea9-4a3b-8a5a-e1a0a40de74c'
+				and "t"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+				and (
+				"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+				or "tas"."UserID" is null 
+				and 
+				exists (
+					select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+					and "ru"."UserID"=#param(CurrentUserID)
+				)
+				or 
+				exists (
+					select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+					and "rd"."IsActive"=true 
+					and "rd"."DeputyID"=#param(CurrentUserID) 
+					and "rd"."DeputizedID"="tas"."UserID"
+					)
+				)
+				and
+				(select "th"."Created" from "TaskHistory" as "th" where 
+					(
+					"th"."RoleID" = #param(CurrentUserID) or "th"."RoleID" IN (Select "d"."DeputizedID" from "RoleDeputies" as "d"
+											where "d"."IsActive" = true and "d"."DeputyID" = #param(CurrentUserID) )
+											or "th"."RoleID" IN (Select "ru"."ID" from "RoleUsers" as "ru"
+											where "ru"."UserID" = #param(CurrentUserID) and "ru"."TypeID" in (0,4))
+					)
+					and "th"."ID" = "tas"."ID" order by "th"."Created" desc limit 1) <= 
+					  (select "ah"."Modified" from "ActionHistory" as "ah" where  "ah"."ModifiedByID" = #param(CurrentUserID)
+					 and "ah"."ID" = "tas"."ID" order by "ah"."Modified" desc limit 1) is not true
+			)
+			WHEN "tt"."Caption" = 'На подпись'  THEN 
+				(select count(*) from "Tasks" as "tas" where "tas"."TypeID"='968d68b3-a7c5-4b5d-bfa4-bb0f346880b6'
+				and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+				and (
+				"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+				or "tas"."UserID" is null 
+				and 
+				exists (
+					select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+					and "ru"."UserID"=#param(CurrentUserID)
+				)
+				or 
+				exists (
+					select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+					and "rd"."IsActive"=true 
+					and "rd"."DeputyID"=#param(CurrentUserID) 
+					and "rd"."DeputizedID"="tas"."UserID"
+					)
+				)
+				and
+				(select "th"."Created" from "TaskHistory" as "th" where 
+					(
+					"th"."RoleID" = #param(CurrentUserID) or "th"."RoleID" IN (Select "d"."DeputizedID" from "RoleDeputies" as "d"
+											where "d"."IsActive" = true and "d"."DeputyID" = #param(CurrentUserID) )
+											or "th"."RoleID" IN (Select "ru"."ID" from "RoleUsers" as "ru"
+											where "ru"."UserID" = #param(CurrentUserID) and "ru"."TypeID" in (0,4))
+					)
+					and "th"."ID" = "tas"."ID" order by "th"."Created" desc limit 1) <= 
+					  (select "ah"."Modified" from "ActionHistory" as "ah" where  "ah"."ModifiedByID" = #param(CurrentUserID)
+					 
+					 and "ah"."ID" = "tas"."ID" order by "ah"."Modified" desc limit 1) is not true
+			)
+			WHEN "tt"."Caption" = 'В работе'  THEN 
+				 (select count(*) from "Tasks" as "tas" where "tas"."StateID"=1 and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+						and (
+						"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+						or "tas"."UserID" is null 
+						and 
+						exists (
+							select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+							and "ru"."UserID"=#param(CurrentUserID)
+						)
+						or 
+						exists (
+							select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+							and "rd"."IsActive"=true 
+							and "rd"."DeputyID"=#param(CurrentUserID) 
+							and "rd"."DeputizedID"="tas"."UserID"
+							)
+						)
+						and 
+						(select "th"."Created" from "TaskHistory" as "th" where 
+								(
+								"th"."RoleID" = #param(CurrentUserID) or "th"."RoleID" IN (Select "d"."DeputizedID" from "RoleDeputies" as "d"
+														where "d"."IsActive" = true and "d"."DeputyID" = #param(CurrentUserID) )
+														or "th"."RoleID" IN (Select "ru"."ID" from "RoleUsers" as "ru"
+														where "ru"."UserID" = #param(CurrentUserID))
+								)
+								and "th"."ID" = "tas"."ID" order by "th"."Created" desc limit 1) <= 
+							  (select "ah"."Modified" from "ActionHistory" as "ah" where  "ah"."ModifiedByID" = #param(CurrentUserID)	 
+							 and "ah"."ID" = "tas"."ID" order by "ah"."Modified" desc limit 1) is not true
+					)
+			when"tt"."Caption"='История' then
+				0::int8 --(select count(*) from "TaskHistory" where "UserID"=#param(CurrentUserID) and "Completed" is not null)
+			END 			 AS "UnreadCount"
+	,
+	case
+		WHEN "tt"."Caption" = 'Все поступившие'  THEN 
+				case 
+					(select count(*) from "Tasks" as "tas" where "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae' 
+						and (
+						"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+						or "tas"."UserID" is null 
+						and 
+						exists (
+							select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+							and "ru"."UserID"=#param(CurrentUserID)
+						)
+						or 
+						exists (
+							select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+							and "rd"."IsActive"=true 
+							and "rd"."DeputyID"=#param(CurrentUserID) 
+							and "rd"."DeputizedID"="tas"."UserID"
+							)
+						)
+						and 
+						exists (select 1 from "DocumentCommonInfo" as "dci" where "dci"."ID"="tas"."ID" and 
+							"dci"."UrgencyName" in ('Срочно','Важно', 'Оперативно', 'Да'))
+					)
+					when 0 then 'false'
+					else 'true'
+				end
+		WHEN "tt"."Caption" = 'На рассмотрение'  THEN 
+			case
+				(select count(*) from "Tasks" as "tas" where "tas"."StateID"=0 and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+					and ("tas"."TypeID"='2257bff2-1bdd-4f9a-aacd-dd93de844ea6' or "tas"."TypeID"='5309ce42-c4d2-4e99-a733-697c589311e7')
+					and (
+					"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+					or "tas"."UserID" is null 
+					and 
+					exists (
+						select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+						and "ru"."UserID"=#param(CurrentUserID)
+					)
+					or 
+					exists (
+						select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+						and "rd"."IsActive"=true 
+						and "rd"."DeputyID"=#param(CurrentUserID) 
+						and "rd"."DeputizedID"="tas"."UserID"
+						)
+					)
+					and 
+						exists (select 1 from "DocumentCommonInfo" as "dci" where "dci"."ID"="tas"."ID" and 
+							"dci"."UrgencyName" in ('Срочно','Важно', 'Оперативно', 'Да'))
+				)
+				when 0 then 'false'
+				else 'true'
+			end
+		WHEN "tt"."Caption" = 'На согласовании'  THEN
+			case
+				(select count(*) from "Tasks" as "tas" where "tas"."TypeID"='e4d7f6bf-fea9-4a3b-8a5a-e1a0a40de74c'
+					and "t"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+					and (
+					"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+					or "tas"."UserID" is null 
+					and 
+					exists (
+						select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+						and "ru"."UserID"=#param(CurrentUserID)
+					)
+					or 
+					exists (
+						select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+						and "rd"."IsActive"=true 
+						and "rd"."DeputyID"=#param(CurrentUserID) 
+						and "rd"."DeputizedID"="tas"."UserID"
+						)
+					)
+					and 
+						exists (select 1 from "DocumentCommonInfo" as "dci" where "dci"."ID"="tas"."ID" and 
+							"dci"."UrgencyName" in ('Срочно','Важно', 'Оперативно', 'Да'))
+				)
+				when 0 then 'false'
+				else 'true'
+			end
+		WHEN "tt"."Caption" = 'На подпись'  THEN
+			case
+				(select count(*) from "Tasks" as "tas" where "tas"."TypeID"='968d68b3-a7c5-4b5d-bfa4-bb0f346880b6'
+					and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+					and (
+					"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+					or "tas"."UserID" is null 
+					and 
+					exists (
+						select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+						and "ru"."UserID"=#param(CurrentUserID)
+					)
+					or 
+					exists (
+						select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+						and "rd"."IsActive"=true 
+						and "rd"."DeputyID"=#param(CurrentUserID) 
+						and "rd"."DeputizedID"="tas"."UserID"
+						)
+					)
+					and 
+						exists (select 1 from "DocumentCommonInfo" as "dci" where "dci"."ID"="tas"."ID" and 
+							"dci"."UrgencyName" in ('Срочно','Важно', 'Оперативно', 'Да'))
+				)
+				when 0 then 'false'
+				else 'true'
+			end
+		WHEN "tt"."Caption" = 'В работе'  THEN
+			case
+				(select count(*) from "Tasks" as "tas" where "tas"."StateID"=1 and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+					and (
+					"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+					or "tas"."UserID" is null 
+					and 
+					exists (
+						select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+						and "ru"."UserID"=#param(CurrentUserID)
+					)
+					or 
+					exists (
+						select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+						and "rd"."IsActive"=true 
+						and "rd"."DeputyID"=#param(CurrentUserID) 
+						and "rd"."DeputizedID"="tas"."UserID"
+						)
+					)
+					and 
+						exists (select 1 from "DocumentCommonInfo" as "dci" where "dci"."ID"="tas"."ID" and 
+							"dci"."UrgencyName" in ('Срочно','Важно', 'Оперативно', 'Да'))
+				)
+				when 0 then 'false'
+				else 'true'
+			end
+		when"tt"."Caption"='История' then
+			'false'
+		end AS "Urgently"
+	,"tt"."ViewID" AS "ViewID"
+	,"tt"."LastDocID" AS "LastDocID"
+	--,
+	--'ddd' AS "ViewID"
+	--'ddd' AS "ViewID"
 FROM (
 	SELECT "tk"."ID" AS "TypeID", "tt"."ID" AS "Order"
 	FROM "task_types" AS "tt"

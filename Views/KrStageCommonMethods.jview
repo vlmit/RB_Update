@@ -153,6 +153,22 @@
       "SourceViews": null,
       "TreatValueAsUtc": false,
       "Type": "$KrStageCommonMethods.Description"
+    },
+    {
+      "Alias": "Source",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_KrStageCommonMethod_Source",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrStageCommonMethods.Source"
     }
   ],
   "QuickSearchParam": "MethodNameParam",
@@ -244,6 +260,7 @@ WHERE true
 	#param(MethodIDParam, "ID")
 	#param(MethodNameParam, "Name")
 	#param(MethodDescriptionParam, "Description")
+	#param(Source, "Source")
 #if(Normal) {
 ORDER BY #order_by
 }
