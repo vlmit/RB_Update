@@ -1,0 +1,194 @@
+{
+  "Alias": "test2_currenttask",
+  "Caption": "текущие задачи по документу",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "e2e7b1f1-8be4-43e4-abd9-da889e70f3d7",
+  "JsonMetadataSource::txt": "test2_currenttask JSONMETA",
+  "MsQuerySource::txt": "test2_currenttask MSSQL",
+  "PgQuerySource::txt": "test2_currenttask PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "e2e7b1f1-8be4-43e4-abd9-da889e70f3d7",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART test2_currenttask JSONMETA]
+{
+  "Alias": "test2_currenttask",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "текущие задачи по документу",
+  "Columns": [
+    {
+      "Alias": "NdsID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.ID"
+    },
+    {
+      "Alias": "RowID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.ID"
+    },
+    {
+      "Alias": "Planned",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.Planned"
+    },
+    {
+      "Alias": "Created",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.Created"
+    },
+    {
+      "Alias": "RoleID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.ID"
+    },
+    {
+      "Alias": "RoleName",
+      "Appearance": null,
+      "Caption": "RoleName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    },
+    {
+      "Alias": "UserName",
+      "Appearance": null,
+      "Caption": "UserName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    },
+    {
+      "Alias": "TypeCaption",
+      "Appearance": null,
+      "Caption": "TypeCaption",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "NdsID",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": "Rate",
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART test2_currenttask MSSQL]
+
+
+[TEXTPART test2_currenttask PGSQL]
+SELECT
+	"pt"."ID"		AS "ID",
+	"pt"."RowID"	AS "RowID",
+	"pt"."Planned"  AS "Planned",
+	"pt"."Created"  AS "Created",
+	"pt"."RoleID"		AS "RoleID",
+	"pt"."RoleName"		AS "RoleName",
+	"pt"."UserName"		AS "UserName",
+	"pt"."TypeCaption"		AS "TypeCaption"
+FROM "Tasks" AS "pt"
+
+WHERE true --and "pt"."AccessLevelID" = 1
+--and "pt"."ID" = '0fde0b99-2cf3-4f17-a270-510bae6e0dc2'
+and "pt"."TypeID" = '5309ce42-c4d2-4e99-a733-697c589311e7'
+--and "pt"."Created" > '2023-09-01'
+and "pt"."RoleID" = 'd7e4bcae-89db-4a71-8a93-cd0dd84d1d6c'
+
+ORDER BY "pt"."Created" desc

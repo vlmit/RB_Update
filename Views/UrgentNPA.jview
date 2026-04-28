@@ -1,0 +1,91 @@
+{
+  "Alias": "UrgentNPA",
+  "Caption": "Кол-во срочных НПА",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Testing",
+  "ID::uid": "680827b8-36cf-4e34-8915-af9824ec9355",
+  "JsonMetadataSource::txt": "UrgentNPA JSONMETA",
+  "MsQuerySource::txt": "UrgentNPA MSSQL",
+  "PgQuerySource::txt": "UrgentNPA PGSQL",
+  "Roles": null
+}
+
+[TEXTPART UrgentNPA JSONMETA]
+{
+  "Alias": "UrgentNPA",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Кол-во срочных НПА",
+  "Columns": [
+    {
+      "Alias": "Projects",
+      "Appearance": null,
+      "Caption": "Проектов НПА",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int64 Null"
+    },
+    {
+      "Alias": "Documents",
+      "Appearance": null,
+      "Caption": "Документов НПА",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int64 Null"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART UrgentNPA MSSQL]
+
+
+[TEXTPART UrgentNPA PGSQL]
+select 
+(select count(*) from "DocumentCommonInfo" as "dci"
+where "dci"."CardTypeID"='4e8d39ac-381e-4111-bc3a-66179ace7ecb'
+and "dci"."CreationDate" > '2023-12-13 23:59:59' 
+and "dci"."UrgencyNPAID" is not null
+) as "Projects",
+(select count(*) from "DocumentCommonInfo" as "dci"
+where "dci"."CardTypeID"='0fadf560-bd34-4c41-b24e-e63d3b15bd74'
+and "dci"."CreationDate" > '2023-12-13 23:59:59' 
+and "dci"."UrgencyNPAID" is not null) as "Documents"
+

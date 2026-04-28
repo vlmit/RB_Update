@@ -1,0 +1,786 @@
+{
+  "Alias": "TaskHistory_limited",
+  "Caption": "История заданий",
+  "Description": "  ",
+  "FormatVersion::int": 1,
+  "GroupName": "System",
+  "ID::uid": "58554151-6d94-4e7a-8135-c09aa61b65f1",
+  "JsonMetadataSource::txt": "TaskHistory_limited JSONMETA",
+  "MsQuerySource::txt": "TaskHistory_limited MSSQL",
+  "PgQuerySource::txt": "TaskHistory_limited PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "58554151-6d94-4e7a-8135-c09aa61b65f1",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART TaskHistory_limited JSONMETA]
+{
+  "Alias": "TaskHistory_limited",
+  "Appearance": "AppearanceColumn",
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "История заданий",
+  "Columns": [
+    {
+      "Alias": "RowID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.RowID"
+    },
+    {
+      "Alias": "ParentRowID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.ParentRowID"
+    },
+    {
+      "Alias": "GroupRowID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistoryGroups.RowID"
+    },
+    {
+      "Alias": "GroupParentRowID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistoryGroups.ParentRowID"
+    },
+    {
+      "Alias": "GroupCaption",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistoryGroups.Caption"
+    },
+    {
+      "Alias": "Group",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean"
+    },
+    {
+      "Alias": "TypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.TypeID"
+    },
+    {
+      "Alias": "TypeCaption",
+      "Appearance": null,
+      "Caption": "$UI_Cards_TaskHistory_Task",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.TypeCaption"
+    },
+    {
+      "Alias": "StateCaption",
+      "Appearance": null,
+      "Caption": "$Views_TaskHistory_StateCaption",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "Date",
+      "Appearance": null,
+      "Caption": "$Views_TaskHistory_Date",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "DateTime"
+    },
+    {
+      "Alias": "OptionCaption",
+      "Appearance": null,
+      "Caption": "$Views_TaskHistory_OptionCaption",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.OptionCaption"
+    },
+    {
+      "Alias": "CompletedByName",
+      "Appearance": null,
+      "Caption": "$Views_TaskHistory_CompletedByName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.CompletedByName"
+    },
+    {
+      "Alias": "Result",
+      "Appearance": null,
+      "Caption": "$Views_TaskHistory_Result",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.Result"
+    },
+    {
+      "Alias": "AuthorName",
+      "Appearance": null,
+      "Caption": "$Views_TaskHistory_Author",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.AuthorName"
+    },
+    {
+      "Alias": "RoleName",
+      "Appearance": null,
+      "Caption": "$Views_TaskHistory_RoleName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.RoleName"
+    },
+    {
+      "Alias": "UserName",
+      "Appearance": null,
+      "Caption": "$Views_TaskHistory_UserName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.UserName"
+    },
+    {
+      "Alias": "Created",
+      "Appearance": null,
+      "Caption": "$Views_TaskHistory_Created",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.Created"
+    },
+    {
+      "Alias": "Planned",
+      "Appearance": null,
+      "Caption": "$Views_TaskHistory_Planned",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.Planned"
+    },
+    {
+      "Alias": "InProgress",
+      "Appearance": null,
+      "Caption": "$Views_TaskHistory_InProgress",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.InProgress"
+    },
+    {
+      "Alias": "Completed",
+      "Appearance": null,
+      "Caption": "$Views_TaskHistory_Completed",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.Completed"
+    },
+    {
+      "Alias": "FilesCount",
+      "Appearance": null,
+      "Caption": "$Views_TaskHistory_FilesCount",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int64"
+    },
+    {
+      "Alias": "AppearanceColumn",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": true,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "CardID",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Templates_Digest",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.ID"
+    },
+    {
+      "Alias": "Token",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "Token",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": "Group",
+  "TreeGroupDisplayValue": "GroupCaption",
+  "TreeGroupId": "GroupRowID",
+  "TreeGroupParentId": "GroupParentRowID",
+  "TreeId": "RowID",
+  "TreeParentId": "ParentRowID"
+}
+
+[TEXTPART TaskHistory_limited MSSQL]
+WITH
+	[Items] AS (
+		SELECT [h].[RowID], [h].[GroupRowID]
+		FROM [TaskHistory] AS [h] WITH (NOLOCK)
+		WHERE #if(CardID) { 1=1 } { 1=0 }
+			#param(CardID, [h].[ID])
+		),
+	[GroupsNonUnique] AS (
+		SELECT [i].[GroupRowID] AS [RowID]
+		FROM [Items] AS [i] WITH (NOLOCK)
+		WHERE [i].[GroupRowID] IS NOT NULL
+
+		UNION ALL
+
+		SELECT [g].[ParentRowID] AS [RowID]
+		FROM [TaskHistoryGroups] AS [g] WITH (NOLOCK)
+		INNER JOIN [GroupsNonUnique] AS [i]
+			ON [i].[RowID] = [g].[RowID]
+		),
+	[Groups] AS (
+		SELECT [g].[RowID]
+		FROM [GroupsNonUnique] AS [g] WITH (NOLOCK)
+		GROUP BY [g].[RowID]
+		),
+	[FilesCount] AS (
+		SELECT 
+			[h].[RowID] 								AS [TaskID],
+			SUM(CASE WHEN [f].[ID] IS NULL 
+				THEN 0 ELSE 1 END) 						AS [Count]
+		FROM [TaskHistory] AS [h] WITH (NOLOCK)
+		LEFT JOIN [Satellites] AS [s] WITH (NOLOCK)
+			ON [s].[TaskID] = [h].[RowID]
+		LEFT JOIN [Files] AS [f]  WITH (NOLOCK)
+			ON [f].[ID] = [s].[ID] 
+		WHERE #if(CardID) { 1=1 } { 1=0 }
+			#param(CardID, "h"."ID")
+		GROUP BY [h].[RowID]
+		)
+		
+#if(Normal) {
+SELECT
+		[h].[RowID],
+		[h].[ParentRowID],
+		ISNULL([h].[GroupRowID], '00000000-0000-0000-0000-000000000000') as [GroupRowID],
+		[h].[GroupParentRowID],
+		[h].[GroupCaption],
+		[h].[Group],
+		[h].[TypeID],
+		[h].[TypeCaption],
+		[h].[StateCaption],
+		[h].[Date],
+		[h].[OptionCaption],
+		[h].[CompletedByName],
+		[h].[Result],
+		[h].[AuthorName],
+		[h].[RoleName],
+		[h].[UserName],
+		[h].[Created],
+		[h].[Planned],
+		[h].[InProgress],
+		[h].[Completed],
+		[h].[FilesCount]
+FROM (
+	SELECT
+		[h].[RowID],
+		[h].[ParentRowID],
+		[h].[GroupRowID],
+		NULL				AS [GroupParentRowID],
+		NULL				AS [GroupCaption],
+		CAST(0 AS bit)		AS [Group],
+		[h].[TypeID],
+		COALESCE([h].[KindCaption], [h].[TypeCaption]) as [TypeCaption],
+		CASE
+			WHEN [h].[OptionID] IS NOT NULL THEN
+				N'{$Views_TaskHistory_StateCompleted} ' + CASE WHEN LEFT([h].[UserName], 1) = N'$' THEN
+					N'{' + [h].[UserName] + N'}' ELSE [h].[UserName] END
+			WHEN [h].[UserName] IS NOT NULL THEN
+				N'{$Views_TaskHistory_StateInProgress} ' + CASE WHEN LEFT([h].[UserName], 1) = N'$' THEN
+					N'{' + [h].[UserName] + N'}' ELSE [h].[UserName] END
+			ELSE
+				N'{$Views_TaskHistory_StateCreated} ' + CASE WHEN LEFT([h].[RoleName], 1) = N'$' THEN
+					N'{' + [h].[RoleName] + N'}' ELSE [h].[RoleName] END
+		END AS [StateCaption],
+		COALESCE([h].[Completed], [h].[InProgress], [h].[Created]) AS [Date],
+		[h].[AuthorName],
+		[h].[RoleName],
+		[h].[UserName],
+		[h].[Created],
+		[h].[Planned],
+		[h].[InProgress],
+		[h].[Completed],
+		CASE
+			WHEN [h].[Completed] IS NULL
+			THEN 1
+			ELSE 0
+		END AS [CompletedOrder],
+		[h].[OptionCaption],
+		[h].[CompletedByName],
+		[h].[Result],
+		[fc].[Count] AS [FilesCount]
+	FROM [TaskHistory] AS [h] WITH (NOLOCK)
+	INNER JOIN [Items] AS [i] WITH (NOLOCK)
+		ON [i].[RowID] = [h].[RowID]
+	LEFT JOIN [FilesCount] AS [fc] 
+		ON [fc].[TaskID] = [h].[RowID]
+
+	UNION ALL
+
+	SELECT
+		NULL				AS [RowID],
+		NULL				AS [ParentRowID],
+		[g].[RowID]			AS [GroupRowID],
+		[g].[ParentRowID]	AS [GroupParentRowID],
+		[g].[Caption]		AS [GroupCaption],
+		CAST(1 AS bit)		AS [Group],
+		NULL				AS [TypeID],
+		NULL				AS [TypeCaption],
+		NULL				AS [StateCaption],
+		NULL				AS [Date],
+		NULL				AS [AuthorName],
+		NULL				AS [RoleName],
+		NULL				AS [UserName],
+		NULL				AS [Created],
+		NULL				AS [Planned],
+		NULL				AS [InProgress],
+		NULL				AS [Completed],
+		NULL				AS [CompletedOrder],
+		NULL				AS [OptionCaption],
+		NULL				AS [CompletedByName],
+		NULL				AS [Result],
+		0		 			AS [FilesCount]
+	FROM [TaskHistoryGroups] AS [g] WITH (NOLOCK)
+	INNER JOIN [Groups] AS [i] WITH (NOLOCK)
+			ON [i].[RowID] = [g].[RowID]
+			
+	UNION ALL
+
+	SELECT TOP 1
+		NULL									AS [RowID],
+		NULL									AS [ParentRowID],
+		CAST('00000000-0000-0000-0000-000000000000' as uniqueidentifier)			AS [GroupRowID],
+		NULL									AS [GroupParentRowID],
+		'$Views_TaskHistory_WithoutGroup'		AS [GroupCaption],
+		CAST(1 AS bit)							AS [Group],
+		NULL									AS [TypeID],
+		NULL									AS [TypeCaption],
+		NULL									AS [StateCaption],
+		NULL									AS [Date],
+		NULL									AS [AuthorName],
+		NULL									AS [RoleName],
+		NULL									AS [UserName],
+		NULL									AS [Created],
+		NULL									AS [Planned],
+		NULL									AS [InProgress],
+		NULL									AS [Completed],
+		NULL									AS [CompletedOrder],
+		NULL									AS [OptionCaption],
+		NULL									AS [CompletedByName],
+		NULL									AS [Result],
+		0		 								AS [FilesCount]
+	FROM [TaskHistory] AS [h] WITH (NOLOCK)
+	WHERE #if(CardID) { 1=1 } { 1=0 }
+		AND [h].[GroupRowID] IS NULL
+		AND [h].[ParentRowID] IS NULL
+			#param(CardID, [h].[ID])
+		
+	) AS [h]
+ORDER BY [h].[CompletedOrder], [h].[Completed], [h].[Created];
+}
+
+[TEXTPART TaskHistory_limited PGSQL]
+--Представление для вкладки "Лист согласований и утверждений"
+--Ruslan D. 28/09/23
+WITH RECURSIVE
+	"Items" AS (
+		SELECT "h"."RowID", "h"."GroupRowID"
+		FROM "TaskHistory" AS "h"
+		WHERE #if(CardID) { true } { false }
+			#param(CardID, "h"."ID")
+		),
+	"GroupsNonUnique" AS (
+		SELECT "i"."GroupRowID" AS "RowID"
+		FROM "Items" AS "i"
+		WHERE "i"."GroupRowID" IS NOT NULL
+
+		UNION ALL
+
+		SELECT "g"."ParentRowID" AS "RowID"
+		FROM "TaskHistoryGroups" AS "g"
+		INNER JOIN "GroupsNonUnique" AS "i"
+			ON "i"."RowID" = "g"."RowID"
+		),
+	"Groups" AS (
+		SELECT "g"."RowID"
+		FROM "GroupsNonUnique" AS "g"
+		GROUP BY "g"."RowID"
+		),
+	"FilesCount" AS (
+		SELECT 
+			"h"."RowID" AS "TaskID",
+			COUNT("f"."ID") FILTER (WHERE "f"."ID" IS NOT NULL ) AS "Count"
+		FROM "TaskHistory" AS "h"
+		LEFT JOIN "Satellites" AS "s"
+			ON "s"."TaskID" = "h"."RowID"
+		LEFT JOIN "Files" AS "f"
+			ON "f"."ID" = "s"."ID" 
+		WHERE #if(CardID) { true } { false }
+			#param(CardID, "h"."ID")
+		GROUP BY "h"."RowID"
+		)
+
+#if(Normal) {
+SELECT
+		"h"."RowID",
+		"h"."ParentRowID",
+		COALESCE("h"."GroupRowID", '00000000-0000-0000-0000-000000000000'::uuid) AS "GroupRowID",
+		"h"."GroupParentRowID",
+		"h"."GroupCaption",
+		"h"."Group",
+		"h"."TypeID",
+		"h"."TypeCaption",
+		"h"."StateCaption",
+		"h"."Date",
+		"h"."OptionCaption",
+		"h"."CompletedByName",
+		"h"."Result",
+		"h"."AuthorName",
+		"h"."RoleName",
+		"h"."UserName",
+		"h"."Created",
+		"h"."Planned",
+		"h"."InProgress",
+		"h"."Completed",
+		
+		"h"."FilesCount",
+		CASE
+			WHEN 1 = 1 THEN
+				CASE WHEN "h"."OptionCaption" = '$UI_Tasks_CompletionOptions_Approve'
+					THEN '#appearance(Background: #98FB98)'
+					 WHEN "h"."OptionCaption" = '$UI_Tasks_CompletionOptions_Disapprove'
+					THEN '#appearance(Background: #FA8072)'
+					WHEN "h"."OptionCaption" = '$UI_Tasks_CompletionOptions_Decline'
+					 THEN '#appearance(Background: #FA8072)'
+					when "h"."OptionCaption" = '$UI_Tasks_CompletionOptions_Sign'
+					 then '#appearance(Background: #98FB98)'
+					when "h"."OptionCaption" = '$UI_Tasks_CompletionOptions_Cancel'
+					 then '#appearance(Background: #FA8072)'
+					when "h"."OptionCaption" = '$UI_Tasks_CompletionOptions_Reject'
+					 then '#appearance(Background: #FA8072)'
+					when "h"."OptionCaption" = '$UI_Tasks_CompletionOptions_Revoke'
+					 then '#appearance(Background: #FA8072)'
+					when "h"."OptionCaption" = '$UI_Tasks_CompletionOptions_Accept'
+					 then '#appearance(Background: #98FB98)'
+					ELSE ''
+				END
+			ELSE ''
+		END AS "AppearanceColumn"
+FROM (
+	SELECT
+		"h"."RowID",
+		"h"."ParentRowID",
+		"h"."GroupRowID",
+		NULL::uuid			AS "GroupParentRowID",
+		NULL::text			AS "GroupCaption",
+		false				AS "Group",
+		COALESCE("h"."KindCaption", "h"."TypeCaption") as "TypeCaption",
+		"h"."TypeID",
+		CASE
+			WHEN "h"."OptionID" IS NOT NULL THEN
+				'{$Views_TaskHistory_StateCompleted} ' || CASE WHEN LEFT("h"."UserName", 1) = '$' THEN
+					'{' || "h"."UserName" || '}' ELSE "h"."UserName" END
+			WHEN "h"."UserName" IS NOT NULL THEN
+				'{$Views_TaskHistory_StateInProgress} ' || CASE WHEN LEFT("h"."UserName", 1) = '$' THEN
+					'{' || "h"."UserName" || '}' ELSE "h"."UserName" END
+			ELSE
+				'{$Views_TaskHistory_StateCreated} ' || CASE WHEN LEFT("h"."RoleName", 1) = '$' THEN
+					'{' || "h"."RoleName" || '}' ELSE "h"."RoleName" END
+		END AS "StateCaption",
+		COALESCE("h"."Completed", "h"."InProgress", "h"."Created") AS "Date",
+		"h"."AuthorName",
+		"h"."RoleName",
+		"h"."UserName",
+		"h"."Created",
+		"h"."Planned",
+		"h"."InProgress",
+		"h"."Completed",
+		CASE
+			WHEN "h"."Completed" IS NULL
+			THEN 1
+			ELSE 0
+		END AS "CompletedOrder",
+		"h"."OptionCaption",
+		"h"."CompletedByName",
+		"h"."Result",
+		"fc"."Count" AS "FilesCount"
+	FROM "TaskHistory" AS "h"
+	INNER JOIN "Items" AS "i"
+		ON "i"."RowID" = "h"."RowID"
+	LEFT JOIN "FilesCount" AS "fc"
+		ON "fc"."TaskID" = "h"."RowID"
+	where "h"."RowID" in(select distinct on("h"."TypeID", "h"."UserName") "h"."RowID" 
+from (select "h2"."TypeID", "h2"."UserName", "h2"."RowID" from "TaskHistory" as "h2" 
+where "h2"."ID"=#param(CardID) and ("h2"."TypeID"='e4d7f6bf-fea9-4a3b-8a5a-e1a0a40de74c' 
+	or "h2"."TypeID"='968d68b3-a7c5-4b5d-bfa4-bb0f346880b6')
+order by "h2"."Completed" desc) as "h")
+	
+	UNION ALL
+
+	SELECT
+		NULL::uuid			AS "RowID",
+		NULL::uuid			AS "ParentRowID",
+		"g"."RowID"			AS "GroupRowID",
+		"g"."ParentRowID"	AS "GroupParentRowID",
+		"g"."Caption"		AS "GroupCaption",
+		true				AS "Group",
+		NULL::text			AS "TypeCaption",
+		NULL::uuid			AS "TypeID",
+		NULL::text			AS "StateCaption",
+		NULL::timestamp		AS "Date",
+		
+		null::text			AS "AuthorName",
+		null::text			AS "RoleName",
+		null::text			AS "UserName",
+		
+		NULL::timestamp		AS "Created",
+		NULL::timestamp		AS "Planned",
+		NULL::timestamp		AS "InProgress",
+		NULL::timestamp		AS "Completed",
+		
+		NULL::int			AS "CompletedOrder",
+		NULL::text			AS "OptionCaption",
+		NULL::text			AS "CompletedByName",
+		NULL::text			AS "Result",
+		0		 			AS "FilesCount"
+	FROM "TaskHistoryGroups" AS "g"
+	INNER JOIN "Groups" AS "i"
+		ON "i"."RowID" = "g"."RowID"
+		
+	UNION ALL
+
+	SELECT
+		NULL::uuid										AS "RowID",
+		NULL::uuid										AS "ParentRowID",
+		'00000000-0000-0000-0000-000000000000'::uuid	AS "GroupRowID",
+		NULL::uuid										AS "GroupParentRowID",
+		'$Views_TaskHistory_WithoutGroup'				AS "GroupCaption",
+		true											AS "Group",
+		NULL::text										AS "TypeCaption",
+		NULL::uuid										AS "TypeID",
+		NULL::text										AS "StateCaption",
+		NULL::timestamp									AS "Date",
+		
+		null::text										AS "AuthorName",
+		null::text										AS "RoleName",
+		null::text										AS "UserName",
+		
+		NULL::timestamp									AS "Created",
+		NULL::timestamp									AS "Planned",
+		NULL::timestamp									AS "InProgress",
+		NULL::timestamp									AS "Completed",
+		
+		NULL::int										AS "CompletedOrder",
+		NULL::text										AS "OptionCaption",
+		NULL::text										AS "CompletedByName",
+		NULL::text										AS "Result",
+		0	 											AS "FilesCount"
+	FROM (
+		SELECT NULL 
+		FROM "TaskHistory" AS "h"
+		WHERE #if(CardID) { true } { false }
+			AND "h"."GroupRowID" IS NULL
+			AND "h"."ParentRowID" IS NULL
+				#param(CardID, "h"."ID")
+		LIMIT 1) AS "TMP"
+				
+	) AS "h"
+Where "h"."RoleName" != 'SystemTaskHelper'
+ORDER BY "h"."CompletedOrder", "h"."Completed", "h"."Created";
+}

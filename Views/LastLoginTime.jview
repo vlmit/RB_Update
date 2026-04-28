@@ -1,0 +1,72 @@
+{
+  "Alias": "LastLoginTime",
+  "Caption": "NewView{6d3fe60e-9635-42fe-ab2c-eff1038332d3}",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Testing",
+  "ID::uid": "6d3fe60e-9635-42fe-ab2c-eff1038332d3",
+  "JsonMetadataSource::txt": "LastLoginTime JSONMETA",
+  "MsQuerySource::txt": "LastLoginTime MSSQL",
+  "PgQuerySource::txt": "LastLoginTime PGSQL",
+  "Roles": null
+}
+
+[TEXTPART LastLoginTime JSONMETA]
+{
+  "Alias": "LastLoginTime",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "NewView{6d3fe60e-9635-42fe-ab2c-eff1038332d3}",
+  "Columns": [
+    {
+      "Alias": "LoginTime",
+      "Appearance": null,
+      "Caption": "Время входа",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "DateTime Null"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART LastLoginTime MSSQL]
+
+
+[TEXTPART LastLoginTime PGSQL]
+select "Modified" from "ActionHistory" 
+where "ActionID"=10 and "ModifiedByID"='18a0d343-fea7-45ce-8792-33b2c0a88e46'
+order by "Modified" desc
+limit 1
+
+	

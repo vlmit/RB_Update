@@ -1,0 +1,148 @@
+{
+  "Alias": "RecentMultActiveSess",
+  "Caption": "Пользователи с более чем одной активной сессией с активностью за последний час",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Testing",
+  "ID::uid": "90b5fd1c-2a02-4f87-a27f-263aa5f98938",
+  "JsonMetadataSource::txt": "RecentMultActiveSess JSONMETA",
+  "MsQuerySource::txt": "RecentMultActiveSess MSSQL",
+  "PgQuerySource::txt": "RecentMultActiveSess PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "90b5fd1c-2a02-4f87-a27f-263aa5f98938",
+      "RoleId::uid": "1475ba64-fcca-4861-a663-0e88f21bde99",
+      "RoleName": "Администраторы"
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "90b5fd1c-2a02-4f87-a27f-263aa5f98938",
+      "RoleId::uid": "2b428bbf-972f-485a-aed1-b832da28ef81",
+      "RoleName": "Администраторы"
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "90b5fd1c-2a02-4f87-a27f-263aa5f98938",
+      "RoleId::uid": "ab1e956f-15e9-4d7c-aec9-b3bcd0b65d19",
+      "RoleName": "Технолог"
+    }
+  ]
+}
+
+[TEXTPART RecentMultActiveSess JSONMETA]
+{
+  "Alias": "RecentMultActiveSess",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Пользователи с более чем одной активной сессией с активностью за последний час",
+  "Columns": [
+    {
+      "Alias": "UserID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Sessions.UserID"
+    },
+    {
+      "Alias": "UserName",
+      "Appearance": null,
+      "Caption": "Пользователь",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Sessions.UserName"
+    },
+    {
+      "Alias": "cnt",
+      "Appearance": null,
+      "Caption": "Число сессий",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int64 Null"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "UserName",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "User",
+      "Condition": null,
+      "DisplayValueColumn": "UserName",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "MultiSessions"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART RecentMultActiveSess MSSQL]
+
+
+[TEXTPART RecentMultActiveSess PGSQL]
+select
+	"UserID",
+	"UserName",
+	count(*) as "cnt"
+	
+from
+	"Sessions"
+where
+	"IsActive"=true
+ and "LastActivity" > now()-interval '1 hour'
+ 
+group by "UserID", "UserName"
+having count(*)>1
+order by cnt desc, "UserName"

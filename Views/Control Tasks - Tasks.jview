@@ -1,0 +1,261 @@
+{
+  "Alias": "Control Tasks - Tasks",
+  "Caption": "Поручения - Задачи",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "NewTasks",
+  "ID::uid": "0bce7b16-882c-4b16-92ed-e1a6f070b753",
+  "JsonMetadataSource::txt": "Control Tasks - Tasks JSONMETA",
+  "MsQuerySource::txt": "Control Tasks - Tasks MSSQL",
+  "PgQuerySource::txt": "Control Tasks - Tasks PGSQL",
+  "Roles": null
+}
+
+[TEXTPART Control Tasks - Tasks JSONMETA]
+{
+  "Alias": "Control Tasks - Tasks",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Поручения - Задачи",
+  "Columns": [
+    {
+      "Alias": "ID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ID"
+    },
+    {
+      "Alias": "FullNumber",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.FullNumber"
+    },
+    {
+      "Alias": "CategoryName",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.CategoryName"
+    },
+    {
+      "Alias": "ManualStateID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ManualStateID"
+    },
+    {
+      "Alias": "ManualStateName",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ManualStateName"
+    },
+    {
+      "Alias": "ParentID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ParentID"
+    },
+    {
+      "Alias": "ParentDescription",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ParentDescription"
+    },
+    {
+      "Alias": "TypeCaption",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.TypeCaption"
+    },
+    {
+      "Alias": "StateID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.StateID"
+    },
+    {
+      "Alias": "StateName",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskStates.Name"
+    },
+    {
+      "Alias": "Digest",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.Digest"
+    },
+    {
+      "Alias": "RoleName",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.RoleName"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "ManualStateID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "ManualStateID",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ManualStateID"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART Control Tasks - Tasks MSSQL]
+
+
+[TEXTPART Control Tasks - Tasks PGSQL]
+select
+	"dci"."ID" as "ID",
+	"FullNumber",
+	"CategoryName",
+	"ManualStateID",
+	"ManualStateName",
+	"dci"."ParentID" as "ParentID",
+	"ParentDescription",
+	"TypeCaption",
+	"StateID",
+	"ts"."Name" as "StateName",
+	"Digest",
+	"RoleName"
+from
+	"DocumentCommonInfo" as "dci",
+	"Tasks" as "t",
+	"TaskStates" as "ts"
+where
+	"CardTypeID"='01ad498e-5f8e-417a-bd28-942739dbf342'
+	and "dci"."ParentID"="t"."ID"
+	and "t"."StateID"="ts"."ID"
+	--and "dci"."ParentID"='c53782bd-5b3d-4910-8fe5-516d56a3b5c1'
+	#param(ManualStateID, "ManualStateID")
+limit 30

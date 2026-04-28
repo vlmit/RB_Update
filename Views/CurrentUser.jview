@@ -1,0 +1,72 @@
+{
+  "Alias": "CurrentUser",
+  "Caption": "NewView{43e9dc98-57e2-4282-a468-e8819ea27671}",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Testing",
+  "ID::uid": "43e9dc98-57e2-4282-a468-e8819ea27671",
+  "JsonMetadataSource::txt": "CurrentUser JSONMETA",
+  "MsQuerySource::txt": "CurrentUser MSSQL",
+  "PgQuerySource::txt": "CurrentUser PGSQL",
+  "Roles": null
+}
+
+[TEXTPART CurrentUser JSONMETA]
+{
+  "Alias": "CurrentUser",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "NewView{43e9dc98-57e2-4282-a468-e8819ea27671}",
+  "Columns": [
+    {
+      "Alias": "UserName",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART CurrentUser MSSQL]
+
+
+[TEXTPART CurrentUser PGSQL]
+select 
+#if(CurrentUserID.Value==Guid.Parse("18a0d343-fea7-45ce-8792-33b2c0a88e46"))
+
+{ 'match' } 
+{ 'no match' }
+ 

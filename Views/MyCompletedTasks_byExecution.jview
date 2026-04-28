@@ -1,0 +1,778 @@
+{
+  "Alias": "MyCompletedTasks_byExecution",
+  "Caption": "Завершенные задания по поручениям",
+  "Description": "   ",
+  "FormatVersion::int": 1,
+  "GroupName": "System",
+  "ID::uid": "e952f751-60bd-484c-8088-b14219d40f5b",
+  "JsonMetadataSource::txt": "MyCompletedTasks_byExecution JSONMETA",
+  "MsQuerySource::txt": "MyCompletedTasks_byExecution MSSQL",
+  "PgQuerySource::txt": "MyCompletedTasks_byExecution PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "e952f751-60bd-484c-8088-b14219d40f5b",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART MyCompletedTasks_byExecution JSONMETA]
+{
+  "Alias": "MyCompletedTasks_byExecution",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Завершенные задания по поручениям",
+  "Columns": [
+    {
+      "Alias": "CardID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.ID"
+    },
+    {
+      "Alias": "CardName",
+      "Appearance": null,
+      "Caption": "$Views_CompletedTasks_Card",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "CardName",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.FullNumber"
+    },
+    {
+      "Alias": "CardTypeCaption",
+      "Appearance": null,
+      "Caption": "$Views_CompletedTasks_CardType",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocTypeTitle"
+    },
+    {
+      "Alias": "DocDate",
+      "Appearance": null,
+      "Caption": "Дата регистрации",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "DocDate",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocDate"
+    },
+    {
+      "Alias": "Subject",
+      "Appearance": null,
+      "Caption": "$Views_Registers_Subject",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "Subject",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "DepartmentName",
+      "Appearance": null,
+      "Caption": "Ведомство",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "DepartmentName",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentName"
+    },
+    {
+      "Alias": "SignedByName",
+      "Appearance": null,
+      "Caption": "Подписант",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.SignedByName"
+    },
+    {
+      "Alias": "Resolution",
+      "Appearance": null,
+      "Caption": "Резолюция",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "TypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.TypeID"
+    },
+    {
+      "Alias": "TypeCaption",
+      "Appearance": null,
+      "Caption": "$Views_CompletedTasks_TaskType",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.KindCaption"
+    },
+    {
+      "Alias": "OptionID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.OptionID"
+    },
+    {
+      "Alias": "OptionCaption",
+      "Appearance": null,
+      "Caption": "$Views_CompletedTasks_CompletionOption",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.OptionCaption"
+    },
+    {
+      "Alias": "Result",
+      "Appearance": null,
+      "Caption": "$Views_CompletedTasks_Result",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength::int": 150,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.Result"
+    },
+    {
+      "Alias": "RoleID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.RoleID"
+    },
+    {
+      "Alias": "RoleName",
+      "Appearance": null,
+      "Caption": "$Views_CompletedTasks_Role",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.RoleName"
+    },
+    {
+      "Alias": "AuthorID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.AuthorID"
+    },
+    {
+      "Alias": "AuthorName",
+      "Appearance": null,
+      "Caption": "$Views_CompletedTasks_Author",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.AuthorName"
+    },
+    {
+      "Alias": "UserName",
+      "Appearance": null,
+      "Caption": "Исполнители",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "Completed",
+      "Appearance": null,
+      "Caption": "$Views_CompletedTasks_Completed",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "th.Completed",
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.Completed"
+    },
+    {
+      "Alias": "rn",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int64"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "Completed",
+      "SortDirection": "Descending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "Optional",
+  "Parameters": [
+    {
+      "Alias": "FromMeMode",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_CompletedTasks_FromMeMode_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int32"
+    },
+    {
+      "Alias": "CompletionDate",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Дата заверш задачи",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.Completed"
+    },
+    {
+      "Alias": "TypeParam",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality"
+      ],
+      "AutoCompleteInfo": {
+        "ParamAlias": "Caption",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrTypesEffective"
+      },
+      "Caption": "$Views_CompletedTasks_CardType_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrTypesEffective"
+      },
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "TypeForView",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocTypeID"
+    },
+    {
+      "Alias": "TaskType",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Caption",
+        "PopupColumns": null,
+        "RefPrefix": null,
+        "ViewAlias": "TaskTypes"
+      },
+      "Caption": "$Views_CompletedTasks_TaskType_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "TaskTypes"
+      },
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "TaskTypes",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.TypeID"
+    },
+    {
+      "Alias": "Role",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          3
+        ],
+        "RefPrefix": "Role",
+        "ViewAlias": "DurableRoles"
+      },
+      "Caption": "$Views_CompletedTasks_RoleGroup_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "Roles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$RoleUsers.ID"
+    },
+    {
+      "Alias": "Option",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Caption",
+        "PopupColumns": null,
+        "RefPrefix": null,
+        "ViewAlias": "CompletionOptions"
+      },
+      "Caption": "$Views_CompletedTasks_CompletionOption_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "CompletionOptions"
+      },
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "CompletionOptions",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.OptionID"
+    },
+    {
+      "Alias": "Number",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Номер",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "Subject",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Тема",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "ForHeadHistory",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Завершены в течение последних 14 дней",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Not Null"
+    }
+  ],
+  "QuickSearchParam": "Subject",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Card",
+      "Condition": null,
+      "DisplayValueColumn": "CardName",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "Instances"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": "Count",
+  "SelectionMode": "Row",
+  "Subsets": [
+    {
+      "Alias": "Count",
+      "Caption": null,
+      "CaptionColumn": null,
+      "Condition": null,
+      "CountColumn": null,
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": null,
+      "RefParam": null,
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    }
+  ],
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART MyCompletedTasks_byExecution MSSQL]
+DECLARE @NoName			nvarchar(max);
+#if(TypeParam) {
+DECLARE @CardTypeID		uniqueidentifier;
+}
+
+SET @NoName = [dbo].[GetString](N'Views_CompletedTasks_NoName_Sql', #param(locale));
+
+#if(TypeParam) {
+-- индексы в DocumentCommonInfo устроены так, что нам быстрее сначала найти тип карточки по CardType, а потом тип документа
+SET @CardTypeID = #param(TypeParam);
+
+SELECT @CardTypeID = [CardTypeID]
+FROM [KrDocType] WITH (NOLOCK)
+WHERE [ID] = #param(TypeParam);
+}
+
+SELECT
+	[th].[ID]											AS [CardID],
+	COALESCE([dci].[FullNumber], @NoName)				AS [CardName],
+	[dci].[DocTypeTitle]								AS [CardTypeCaption],
+	[dci].[Subject],
+	[th].[TypeID],
+	COALESCE([th].[KindCaption], [th].[TypeCaption])	AS [TypeCaption],
+	[th].[OptionID],
+	[th].[OptionCaption],
+	[th].[Result],
+	[th].[RoleID],
+	[th].[RoleName],
+	[th].[AuthorID],
+	[th].[AuthorName],
+	[th].[Completed],
+	[t].[rn]
+FROM (
+	SELECT
+		[th].[RowID],
+		row_number() OVER (ORDER BY #order_by) AS [rn]
+	FROM [TaskHistory] AS [th] WITH (NOLOCK)
+	#if(TypeParam) {
+	LEFT JOIN [DocumentCommonInfo] AS [dci] WITH (NOLOCK)
+		ON [dci].[ID] = [th].[ID]
+	}
+	WHERE [th].[Completed] IS NOT NULL
+		#param(CompletionDate, [th].[Completed])
+		#param(TaskType, [th].[TypeID])
+		#param(SelUser, [th].[UserID])
+		#param(Option, [th].[OptionID])
+
+		#if(FromMeMode && FromMeMode.Value == 1) {
+		AND [th].[AuthorID] = #param(CurrentUserID)
+		} {
+		AND [th].[UserID] = #param(CurrentUserID)
+		}
+
+		#if(Role) {
+		AND EXISTS (
+			SELECT NULL
+			FROM [RoleUsers] AS [ru] WITH (NOLOCK)
+			WHERE [ru].[UserID] = [th].[UserID] #param(Role, [ru].[ID])
+			)
+		}
+
+		#if(TypeParam) {
+		AND [dci].[CardTypeID] = @CardTypeID
+		AND COALESCE([dci].[DocTypeID], [dci].[CardTypeID]) = #param(TypeParam)
+		}
+	) AS [t]
+INNER JOIN [TaskHistory] AS [th] WITH (NOLOCK)
+	ON [th].[RowID] = [t].[RowID]
+LEFT JOIN [DocumentCommonInfo] AS [dci] WITH (NOLOCK)
+	ON [dci].[ID] = [th].[ID]
+#if(PageOffset) {
+WHERE [t].[rn] >= #param(PageOffset) AND [t].[rn] < (#param(PageOffset) + #param(PageLimit))
+}
+#if(Normal) {
+ORDER BY [t].[rn]
+}
+;
+
+[TEXTPART MyCompletedTasks_byExecution PGSQL]
+--отчет по запросу Гулгенова
+DECLARE
+	"no_name"		text;
+	#if(TypeParam) {
+	"card_type_id"	uuid;
+	}
+BEGIN
+	"no_name" = "GetString"('Views_CompletedTasks_NoName_Sql', #param(locale));
+
+	#if(TypeParam) {
+	-- индексы в DocumentCommonInfo устроены так, что нам быстрее сначала найти тип карточки по CardType, а потом тип документа
+
+	SELECT "CardTypeID"
+	INTO "card_type_id"
+	FROM "KrDocType"
+	WHERE "ID" = #param(TypeParam);
+	
+	IF "card_type_id" IS NULL THEN
+		"card_type_id" = #param(TypeParam);
+	END IF;
+	}
+
+	RETURN QUERY
+	SELECT
+		#if(Normal){
+		"th"."ID"											AS "CardID",
+		COALESCE("dci"."FullNumber", "no_name")				AS "CardName",
+		"dci"."DocTypeTitle"								AS "CardTypeCaption",
+		"dci"."DocDate",
+		"dci"."Subject",
+		"dci"."DepartmentName",
+		"dci"."SignedByName",
+		(select string_agg(distinct (coalesce("ct"."ExpandTextTask","ct"."CommissionTemplateText")), ', ') 
+		from "DocumentCommonInfo" as "ct" where "ct"."ParentID"="dci"."ID" and "ct"."AuthorID"=#param(CurrentUserID)) as "Resolution",
+		"th"."TypeID",
+		COALESCE("th"."KindCaption", "th"."TypeCaption")	AS "TypeCaption",
+		"th"."OptionID",
+		"th"."OptionCaption",
+		"th"."Result",
+		"th"."RoleID",
+		"th"."RoleName",
+		"th"."AuthorID",
+		"th"."AuthorName",
+		(select string_agg( "ctp"."UserName",', ') from "ControlTaskPerformers" as "ctp","ControlTaskDecisions" as "ctd", "DocumentCommonInfo" as "d2"
+		where "d2"."ParentID"="th"."ID" and "d2"."AuthorID"=#param(CurrentUserID) and "d2"."ID"="ctd"."ID" and "ctp"."ParentRowID"="ctd"."RowID") as "Performers",
+		"th"."Completed",
+		0::int8												AS "rn"
+		}
+		#if(Count) {
+			"t".*
+			}
+	FROM (
+		SELECT
+		#if(Normal){
+			"th"."RowID"
+			}
+		#if(Count) {
+				count(*) AS "cnt"
+				}
+		
+		FROM "TaskHistory" AS "th"
+		#if(TypeParam) {
+		LEFT JOIN "DocumentCommonInfo" AS "dci"
+			ON "dci"."ID" = "th"."ID"
+		}
+		WHERE "th"."Completed" IS NOT NULL
+			and "th"."TypeID"='59fc7488-940b-4952-986b-05c9f1a12d35'
+			
+			#param(CompletionDate, "th"."Completed")
+			#if(ForHeadHistory)
+			{
+				and extract(day from current_timestamp - "th"."Completed") <= 14
+			}
+			#param(TaskType, "th"."TypeID")
+			#param(SelUser, "th"."UserID")
+			#param(Option, "th"."OptionID")
+			#if(Number) 
+				{ and exists (select null from "DocumentCommonInfo" as "dci" where "th"."ID" = "dci"."ID" #param(Number, "dci"."FullNumber"))}
+			#if(Subject) 
+			{ and exists (select null from "DocumentCommonInfo" as "dci" where "th"."ID" = "dci"."ID" #param(Subject, "dci"."Subject"))}
+
+			#if(FromMeMode && FromMeMode.Value == 1) {
+			AND "th"."AuthorID" = #param(CurrentUserID)
+			} {
+			AND "th"."UserID" = #param(CurrentUserID)
+			}
+
+			#if(Role) {
+			AND EXISTS (
+				SELECT NULL
+				FROM "RoleUsers" AS "ru"
+				WHERE "ru"."UserID" = "th"."UserID" #param(Role, "ru"."ID")
+				)
+			}
+
+			#if(TypeParam) {
+			AND "dci"."CardTypeID" = "card_type_id"
+			AND COALESCE("dci"."DocTypeID", "dci"."CardTypeID") = #param(TypeParam)
+			}
+		#if(Normal) {
+		ORDER BY #order_by
+		}
+		#if(PageOffset) {
+		OFFSET #param(PageOffset) - 1 LIMIT #param(PageLimit)
+		}
+		) AS "t"
+	#if(Normal) {	
+	INNER JOIN "TaskHistory" AS "th"
+		ON "th"."RowID" = "t"."RowID"
+	LEFT JOIN "DocumentCommonInfo" AS "dci"
+		ON "dci"."ID" = "th"."ID"
+
+	ORDER BY #order_by
+	};
+END;

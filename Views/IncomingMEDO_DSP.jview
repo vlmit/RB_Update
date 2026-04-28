@@ -1,0 +1,499 @@
+{
+  "Alias": "IncomingMEDO_DSP",
+  "Caption": "Входящие МЭДО ДСП",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "CustomDocs",
+  "ID::uid": "27549972-1c57-4ca4-a1b0-2a5dceadb333",
+  "JsonMetadataSource::txt": "IncomingMEDO_DSP JSONMETA",
+  "MsQuerySource::txt": "IncomingMEDO_DSP MSSQL",
+  "PgQuerySource::txt": "IncomingMEDO_DSP PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "27549972-1c57-4ca4-a1b0-2a5dceadb333",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART IncomingMEDO_DSP JSONMETA]
+{
+  "Alias": "IncomingMEDO_DSP",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Входящие МЭДО ДСП",
+  "Columns": [
+    {
+      "Alias": "DocID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ID"
+    },
+    {
+      "Alias": "DocNumber",
+      "Appearance": null,
+      "Caption": "Номер",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.FullNumber",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.FullNumber"
+    },
+    {
+      "Alias": "DocDate",
+      "Appearance": null,
+      "Caption": "Дата регистрации",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.DocDate",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocDate"
+    },
+    {
+      "Alias": "Subject",
+      "Appearance": null,
+      "Caption": "Тема",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.Subject",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "RegistratorName",
+      "Appearance": null,
+      "Caption": "Регистратор",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.RegistratorName",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.RegistratorName"
+    },
+    {
+      "Alias": "StateName",
+      "Appearance": null,
+      "Caption": "Состояние",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrApprovalCommonInfo.StateName"
+    },
+    {
+      "Alias": "Correspondent",
+      "Appearance": null,
+      "Caption": "Корреспондент",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "CreationDate",
+      "Appearance": null,
+      "Caption": "Дата создания",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.CreationDate",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.CreationDate"
+    },
+    {
+      "Alias": "Department",
+      "Appearance": null,
+      "Caption": "Подразделение",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentName"
+    },
+    {
+      "Alias": "OutgoingNumber",
+      "Appearance": null,
+      "Caption": "№ внеш.",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.OutgoingNumber"
+    },
+    {
+      "Alias": "MEDOFolderName",
+      "Appearance": null,
+      "Caption": "Папка МЭДО",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.MEDOFolderName"
+    },
+    {
+      "Alias": "GriffMedoID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.GriffMedoID"
+    },
+    {
+      "Alias": "GrifMedo",
+      "Appearance": null,
+      "Caption": "Гриф МЭДО",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.GriffMedoName"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "CreationDate",
+      "SortDirection": "Descending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit::int": 20,
+  "Paging": "Always",
+  "Parameters": [
+    {
+      "Alias": "FullNumber",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Номер",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.FullNumber"
+    },
+    {
+      "Alias": "DocDate",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Between",
+        "Equality",
+        "GreatOrEquals",
+        "GreatThan",
+        "IsNotNull",
+        "IsNull",
+        "LessOrEquals",
+        "LessThan"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "Дата регистрации",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Date Null"
+    },
+    {
+      "Alias": "Subject",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Тема",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "Correspondent",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": null,
+        "RefPrefix": "Partner",
+        "ViewAlias": "Partners"
+      },
+      "Caption": "Корреспондент",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "Partners",
+      "SourceViews": [
+        {
+          "::single_type": "str"
+        },
+        "Partners"
+      ],
+      "TreatValueAsUtc": false,
+      "Type": "$Correspondents.PartnersID"
+    },
+    {
+      "Alias": "CreationDate",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Between",
+        "GreatOrEquals",
+        "GreatThan",
+        "Equality",
+        "IsNotNull",
+        "IsNull",
+        "LessOrEquals",
+        "LessThan"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "Дата создания",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.CreationDate"
+    },
+    {
+      "Alias": "Department",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          3,
+          5
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "Departments"
+      },
+      "Caption": "Подразделение",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "DepartmentRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentID"
+    },
+    {
+      "Alias": "OutgoingNumber",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "№ внеш.",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.OutgoingNumber"
+    },
+    {
+      "Alias": "MEDOFolder",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Папка МЭДО",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.MEDOFolderName"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Doc",
+      "Condition": null,
+      "DisplayValueColumn": "DocNumber",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "DocumentCommonInfo"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": "Count",
+  "SelectionMode": "Row",
+  "Subsets": [
+    {
+      "Alias": "Count",
+      "Caption": null,
+      "CaptionColumn": null,
+      "Condition": null,
+      "CountColumn": "cnt",
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": null,
+      "RefParam": null,
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    }
+  ],
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART IncomingMEDO_DSP MSSQL]
+
+
+[TEXTPART IncomingMEDO_DSP PGSQL]
+
+select
+	#if(Normal) 
+	{ 
+	"mi"."ID" as "DocID",
+	"mi"."FullNumber" as "DocNumber",
+	"mi"."DocDate" as "DocDate",
+	"mi"."Subject" as "Subject",
+	"mi"."RegistratorName" as "RegistratorName",
+	"kr"."StateName" as "StateName",
+    "cr"."PartnersName" as "Correspondent",
+	"mi"."CreationDate" as "CreationDate",
+	"mi"."DepartmentName" as "DepartmentName",
+	"mi"."OutgoingNumber" as "OutgoingNumber",
+	"mi"."MEDOFolderName" as "MEDOFolderName",
+	"mi"."GriffMedoID" as "GriffMedoID",
+	"mi"."GriffMedoName" as "GrifMedo"
+	}
+	#if(Count) 
+	{ 
+	count(*)
+	} 
+from
+	"DocumentCommonInfo" as "mi", "KrApprovalCommonInfo" AS "kr","Correspondents" as "cr" 
+where 
+	true
+	and "kr"."MainCardID" = "mi"."ID"
+	and "cr"."ID"="mi"."ID"
+	and "mi"."CardTypeID"='50b3b84a-ba01-4a4f-a8b4-fd83fa5b8e72'
+	#param(DocNumber, "mi"."FullNumber")
+	#param(DocDate, "mi"."DocDate")
+	#param(Subject, "mi"."Subject")
+	#param(Correspondent, "cr"."PartnersID")
+	#param(CreationDate, "mi"."CreationDate")
+	#param(Department, "mi"."DepartmentID")
+	#param(OutgoingNumber, "mi"."OutgoingNumber")
+	#param (MEDOFolder, "mi"."MEDOFolderName")
+	and "mi"."GriffMedoName"!='Обычная информация' 
+	
+	
+	
+#if(Normal) 
+{ order by #order_by} 
+#if(PageOffset) {
+ OFFSET #param(PageOffset) - 1 LIMIT #param(PageLimit)
+}
+
+	

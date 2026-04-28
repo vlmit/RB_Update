@@ -1,0 +1,315 @@
+{
+  "Alias": "DepartmentUser",
+  "Caption": "Пользователи подразделения",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "System",
+  "ID::uid": "7d1b9660-048e-4270-9733-527048f5b0e3",
+  "JsonMetadataSource::txt": "DepartmentUser JSONMETA",
+  "MsQuerySource::txt": "DepartmentUser MSSQL",
+  "PgQuerySource::txt": "DepartmentUser PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "7d1b9660-048e-4270-9733-527048f5b0e3",
+      "RoleId::uid": "2b428bbf-972f-485a-aed1-b832da28ef81",
+      "RoleName": "Администраторы"
+    }
+  ]
+}
+
+[TEXTPART DepartmentUser JSONMETA]
+{
+  "Alias": "DepartmentUser",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Пользователи подразделения",
+  "Columns": [
+    {
+      "Alias": "ID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.ID"
+    },
+    {
+      "Alias": "HeadID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.HeadID"
+    },
+    {
+      "Alias": "HeadName",
+      "Appearance": null,
+      "Caption": "Ведомство",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "HeadName",
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.HeadName"
+    },
+    {
+      "Alias": "ParentID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.ParentID"
+    },
+    {
+      "Alias": "ParentName",
+      "Appearance": null,
+      "Caption": "Родительское подразделение",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "ParentName",
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.ParentName"
+    },
+    {
+      "Alias": "Name",
+      "Appearance": null,
+      "Caption": "Название подразделения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "r.Name",
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.Name"
+    },
+    {
+      "Alias": "FullName",
+      "Appearance": null,
+      "Caption": "ФИО",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "FullName",
+      "TreatValueAsUtc": false,
+      "Type": "$PersonalRoles.FullName"
+    },
+    {
+      "Alias": "Login",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$PersonalRoles.Login"
+    },
+    {
+      "Alias": "Position",
+      "Appearance": null,
+      "Caption": "Должность",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$PersonalRoles.Position"
+    },
+    {
+      "Alias": "UserRoles",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "HeadName",
+      "SortDirection": "Ascending"
+    },
+    {
+      "Alias": "ParentName",
+      "SortDirection": "Ascending"
+    },
+    {
+      "Alias": "Name",
+      "SortDirection": "Ascending"
+    },
+    {
+      "Alias": "FullName",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "DeptID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          3,
+          5
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "Departments"
+      },
+      "Caption": "Подразделение",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "DepartmentRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.ID"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": "Count",
+  "SelectionMode": "Row",
+  "Subsets": [
+    {
+      "Alias": "Count",
+      "Caption": null,
+      "CaptionColumn": null,
+      "Condition": null,
+      "CountColumn": "cnt",
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": null,
+      "RefParam": null,
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    }
+  ],
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART DepartmentUser MSSQL]
+
+
+[TEXTPART DepartmentUser PGSQL]
+--версия с рекурсивным проходом подразделений
+with recursive par_nam("ID", "Name") as (
+	select "ID", "Name" from "Roles" where "ParentID" is null
+	union all
+	select "r"."ID","p"."Name" || '/' || "r"."Name"
+	from "Roles" as "r", par_nam as "p" 
+	where "r"."ParentID"="p"."ID" 	
+),
+dep_nam("ID", "ParentID", "HeadID") as (
+	select "ID", "ParentID", "HeadID" from "Roles" --where "ParentID" is null
+	#if(DeptID) { where 
+	("ID"=#param(DeptID) or "ParentID"=#param(DeptID) or "HeadID"=#param(DeptID))
+	}
+	union 
+	select "r"."ID", "r"."ParentID", "r"."HeadID" from "Roles" as "r", dep_nam as "d"
+	where ("r"."ParentID"="d"."ID" or "r"."HeadID"="d"."ID") 
+	
+)
+
+select
+	#if(Normal) {   
+	"r"."ID",
+	"r"."HeadID",
+	"r"."HeadName",
+	"r"."ParentID",
+	(select "Name" from par_nam as "pn" where "pn"."ID"="r"."ParentID"),
+	"r"."Name",
+	"pr"."FullName",
+	"pr"."Login",
+	"pr"."Position",
+	(select string_agg("Name", ', ') from "Roles" as "rr", "RoleUsers" as "ru2" where "rr"."ID"="ru2"."ID" and "ru2"."UserID"="pr"."ID" and "ru2"."TypeID"=0) as "UserRoles"
+	}
+	#if(Count) {
+	Count(*)
+	} 
+from
+	"PersonalRoles" as "pr",
+	"Roles" as "r",
+	"RoleUsers" as "ru"
+where
+	"r"."ID"="ru"."ID"
+	and "pr"."ID"="ru"."UserID"
+	and "r"."Hidden"=false
+	and "pr"."Blocked"=false
+	and "pr"."Login" is not null
+	#if(DeptID) { 
+	and "r"."ID" in (select "ID" from dep_nam )
+	}
+	{and "r"."ID" is null}
+	--#param(DepID, "r"."ID")
+	#param(ParentDepID, "r"."ParentID")
+#if(Normal) { 
+order by #order_by --"r"."HeadName", "r"."ParentName", "r"."Name", "pr"."FullName"
+}
+ 
+

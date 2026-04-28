@@ -1,0 +1,182 @@
+{
+  "Alias": "UsersExpand_Ministers",
+  "Caption": "Министры",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "GlobalUserLists",
+  "ID::uid": "465e7c0b-1e18-427d-b64e-4af65ca66280",
+  "JsonMetadataSource::txt": "UsersExpand_Ministers JSONMETA",
+  "MsQuerySource::txt": "UsersExpand_Ministers MSSQL",
+  "PgQuerySource::txt": "UsersExpand_Ministers PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "465e7c0b-1e18-427d-b64e-4af65ca66280",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART UsersExpand_Ministers JSONMETA]
+{
+  "Alias": "UsersExpand_Ministers",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Министры",
+  "Columns": [
+    {
+      "Alias": "ID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DepartmentRoles.ID"
+    },
+    {
+      "Alias": "DepID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.ID"
+    },
+    {
+      "Alias": "DepName",
+      "Appearance": null,
+      "Caption": "Министерство",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "DepName",
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.Name"
+    },
+    {
+      "Alias": "UserID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DepartmentRoles.HeadUserID"
+    },
+    {
+      "Alias": "UserName",
+      "Appearance": null,
+      "Caption": "Министр",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DepartmentRoles.HeadUserName"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "DepName",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": true,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": "Roles",
+      "CardTypeColumn": null,
+      "ColPrefix": "Dep",
+      "Condition": null,
+      "DisplayValueColumn": null,
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "Roles"
+      ]
+    },
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "User",
+      "Condition": null,
+      "DisplayValueColumn": null,
+      "IsCard": true,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "UsersExpand",
+        "MyPersonalLists"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART UsersExpand_Ministers MSSQL]
+
+
+[TEXTPART UsersExpand_Ministers PGSQL]
+
+SELECT 
+	"dr"."ID",
+	"r"."ID" as "DepID",
+	"r"."Name" as "DepName",
+	"dr"."HeadUserID" as "UserID",
+	COALESCE("dr"."HeadUserName",'') as "UserName"
+	
+FROM
+	"DepartmentRoles" as "dr"
+LEFT JOIN "Roles" as "r" on "r"."ID" = "dr"."ID"
+WHERE
+	"r"."ParentID" is null 
+	and ("r"."Name" like 'Министерство %' or "r"."Name" like 'Министр %')
+	
+order by #order_by

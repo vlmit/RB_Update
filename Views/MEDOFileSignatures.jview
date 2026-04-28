@@ -1,0 +1,265 @@
+{
+  "Alias": "MEDOFileSignatures",
+  "Caption": "МЕДО Подписи",
+  "Description": "  ",
+  "FormatVersion::int": 1,
+  "GroupName": "Gip",
+  "ID::uid": "5fd4df9a-1a76-4a15-adcb-a5557d3f42e7",
+  "JsonMetadataSource::txt": "MEDOFileSignatures JSONMETA",
+  "MsQuerySource::txt": "MEDOFileSignatures MSSQL",
+  "PgQuerySource::txt": "MEDOFileSignatures PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "5fd4df9a-1a76-4a15-adcb-a5557d3f42e7",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART MEDOFileSignatures JSONMETA]
+{
+  "Alias": "MEDOFileSignatures",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "МЕДО Подписи",
+  "Columns": [
+    {
+      "Alias": "FsRowID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "GUID"
+    },
+    {
+      "Alias": "FsUserName",
+      "Appearance": null,
+      "Caption": "Подписант",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "FsSigned",
+      "Appearance": null,
+      "Caption": "Подписан",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "DateTime"
+    },
+    {
+      "Alias": "FsSerialNumber",
+      "Appearance": null,
+      "Caption": "Сертификат",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "FsCardID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "GUID"
+    },
+    {
+      "Alias": "FsFileName",
+      "Appearance": null,
+      "Caption": "Имя файла",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "FsID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "GUID"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "FsSigned",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "CardId",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "ID",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Guid"
+    },
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Подписант",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$FileSignatures.SubjectName"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Fs",
+      "Condition": null,
+      "DisplayValueColumn": "FsUserName",
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "MEDOFileSignatures"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART MEDOFileSignatures MSSQL]
+SELECT 
+ [t].[ID]				AS [FsID]
+,[t].[RowID] 			AS [FsRowID]
+,[t].[SubjectName] 	AS [FsUserName]
+,[t].[Signed] 		AS [FsSigned]
+,[t].[SerialNumber] 	AS [FsSerialNumber]
+,[t].[CardID] 		AS [FsCardID]
+,[t].[Name] 			AS [FsFileName]
+FROM (SELECT 
+ fs.[ID]
+,fs.[RowID]
+,fs.[UserID]
+,fs.[SubjectName] 		
+,fs.[Signed]
+,fs.[SerialNumber]
+,f.[ID]				AS [CardID]
+,f.[Name]
+FROM [FileSignatures] AS [fs]
+left join [Files] as f on f.[RowID]= fs.[ID]
+
+where
+f.[Name] Like (
+select ls.[Value] 
+	from [LocalizationStrings] as ls
+	left join [LocalizationEntries] as le on ls.[EntryID] = le.[ID]
+where le.[Name] = 'GipPrefixDocName'
+) + '%'
+#param(CardId, f.[ID])
+) AS t
+
+[TEXTPART MEDOFileSignatures PGSQL]
+SELECT 
+t."RowID" 			AS "FsRowID"
+,t."SubjectName" 	AS "FsUserName"
+,t."Signed" 		AS "FsSigned"
+,t."SerialNumber" 	AS "FsSerialNumber"
+,t."CardID" 		AS "FsCardID"
+,t."Name" 			AS "FsFileName",
+ t."ID"				AS "FsID"
+FROM (SELECT 
+ fs."ID"
+,fs."RowID"
+,fs."UserID"
+,fs."SubjectName" 		
+,fs."Signed"
+,fs."SerialNumber"
+,f."ID"				AS "CardID"
+,f."Name"
+FROM "FileSignatures" AS "fs"
+left join "Files" as f on f."RowID"= fs."ID"
+
+where
+f."CategoryCaption" = 'Документ'
+#param(CardId, f."ID")
+#param(Name, fs."SubjectName")
+) AS t
+--WHERE (1=1 #param(FileID, t."ID"))

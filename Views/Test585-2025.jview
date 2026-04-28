@@ -1,0 +1,89 @@
+{
+  "Alias": "Test585-2025",
+  "Caption": "NewView{45636e9d-d829-466f-9f98-69b4cd6b5eb0}",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Testing",
+  "ID::uid": "45636e9d-d829-466f-9f98-69b4cd6b5eb0",
+  "JsonMetadataSource::txt": "Test585-2025 JSONMETA",
+  "MsQuerySource::txt": "Test585-2025 MSSQL",
+  "PgQuerySource::txt": "Test585-2025 PGSQL",
+  "Roles": null
+}
+
+[TEXTPART Test585-2025 JSONMETA]
+{
+  "Alias": "Test585-2025",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "NewView{45636e9d-d829-466f-9f98-69b4cd6b5eb0}",
+  "Columns": [
+    {
+      "Alias": "FullNumber",
+      "Appearance": null,
+      "Caption": "FullNumber",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.FullNumber"
+    },
+    {
+      "Alias": "ParentID",
+      "Appearance": null,
+      "Caption": "ParentID",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ParentID"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART Test585-2025 MSSQL]
+
+
+[TEXTPART Test585-2025 PGSQL]
+select "dci"."FullNumber", "dci"."ParentID" from "DocumentCommonInfo" as "dci"
+JOIN "Instances" as "i"
+ON "i"."ID" = "dci"."ID"
+WHERE "i"."TypeID" = '01ad498e-5f8e-417a-bd28-942739dbf342'
+and "dci"."ParentID" IN (select "i"."ID"
+from "Instances" as "i"
+JOIN "Correspondents" as "cr"
+ON "cr"."ID" = "i"."ID"
+where "cr"."PartnersName" like '%Тест.Не использоватьтт%')

@@ -1,0 +1,128 @@
+{
+  "Alias": "DeliveryType",
+  "Caption": "Тип доставки",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "97a90280-5df4-4456-9c8d-ed46a33a0469",
+  "JsonMetadataSource::txt": "DeliveryType JSONMETA",
+  "MsQuerySource::txt": "DeliveryType MSSQL",
+  "PgQuerySource::txt": "DeliveryType PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "97a90280-5df4-4456-9c8d-ed46a33a0469",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART DeliveryType JSONMETA]
+{
+  "Alias": "DeliveryType",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Тип доставки",
+  "Columns": [
+    {
+      "Alias": "TypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.ID"
+    },
+    {
+      "Alias": "TypeName",
+      "Appearance": null,
+      "Caption": "Наименование",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Наименование",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$PartnersTypes.Name"
+    }
+  ],
+  "QuickSearchParam": "Name",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Type",
+      "Condition": null,
+      "DisplayValueColumn": "TypeName",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "DeliveryTypes"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART DeliveryType MSSQL]
+
+
+[TEXTPART DeliveryType PGSQL]
+SELECT
+	"pt"."ID"		AS "TypeID",
+	"pt"."Name"		AS "TypeName"
+FROM "DeliveryType" AS "pt"
+
+WHERE true
+	#param(Name, "pt"."Name")
+ORDER BY "pt"."ID"

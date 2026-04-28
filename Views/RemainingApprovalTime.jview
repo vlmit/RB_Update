@@ -1,0 +1,320 @@
+{
+  "Alias": "RemainingApprovalTime",
+  "Caption": "test",
+  "Description": "  ",
+  "FormatVersion::int": 1,
+  "GroupName": "Testing",
+  "ID::uid": "b823de19-1493-4652-8019-1be77a7df511",
+  "JsonMetadataSource::txt": "RemainingApprovalTime JSONMETA",
+  "MsQuerySource::txt": "RemainingApprovalTime MSSQL",
+  "PgQuerySource::txt": "RemainingApprovalTime PGSQL",
+  "Roles": null
+}
+
+[TEXTPART RemainingApprovalTime JSONMETA]
+{
+  "Alias": "RemainingApprovalTime",
+  "Appearance": "",
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "test",
+  "Columns": [
+    {
+      "Alias": "test",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "DateTime2 Null"
+    },
+    {
+      "Alias": "Planned",
+      "Appearance": null,
+      "Caption": "Оставшееся время согласования / задание",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "CardID",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Templates_Digest",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.ID"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART RemainingApprovalTime MSSQL]
+WITH
+	[Items] AS (
+		SELECT [h].[RowID], [h].[GroupRowID]
+		FROM [TaskHistory] AS [h] WITH (NOLOCK)
+		WHERE #if(CardID) { 1=1 } { 1=0 }
+			#param(CardID, [h].[ID])
+		),
+	[GroupsNonUnique] AS (
+		SELECT [i].[GroupRowID] AS [RowID]
+		FROM [Items] AS [i] WITH (NOLOCK)
+		WHERE [i].[GroupRowID] IS NOT NULL
+
+		UNION ALL
+
+		SELECT [g].[ParentRowID] AS [RowID]
+		FROM [TaskHistoryGroups] AS [g] WITH (NOLOCK)
+		INNER JOIN [GroupsNonUnique] AS [i]
+			ON [i].[RowID] = [g].[RowID]
+		),
+	[Groups] AS (
+		SELECT [g].[RowID]
+		FROM [GroupsNonUnique] AS [g] WITH (NOLOCK)
+		GROUP BY [g].[RowID]
+		),
+	[FilesCount] AS (
+		SELECT 
+			[h].[RowID] 								AS [TaskID],
+			SUM(CASE WHEN [f].[ID] IS NULL 
+				THEN 0 ELSE 1 END) 						AS [Count]
+		FROM [TaskHistory] AS [h] WITH (NOLOCK)
+		LEFT JOIN [Satellites] AS [s] WITH (NOLOCK)
+			ON [s].[TaskID] = [h].[RowID]
+		LEFT JOIN [Files] AS [f]  WITH (NOLOCK)
+			ON [f].[ID] = [s].[ID] 
+		WHERE #if(CardID) { 1=1 } { 1=0 }
+			#param(CardID, "h"."ID")
+		GROUP BY [h].[RowID]
+		)
+		
+#if(Normal) {
+SELECT
+		[h].[RowID],
+		[h].[ParentRowID],
+		ISNULL([h].[GroupRowID], '00000000-0000-0000-0000-000000000000') as [GroupRowID],
+		[h].[GroupParentRowID],
+		[h].[GroupCaption],
+		[h].[Group],
+		[h].[TypeID],
+		[h].[TypeCaption],
+		[h].[StateCaption],
+		[h].[Date],
+		[h].[OptionCaption],
+		[h].[CompletedByName],
+		[h].[Result],
+		[h].[AuthorName],
+		[h].[RoleName],
+		[h].[UserName],
+		[h].[Created],
+		[h].[Planned],
+		[h].[InProgress],
+		[h].[Completed],
+		[h].[FilesCount]
+FROM (
+	SELECT
+		[h].[RowID],
+		[h].[ParentRowID],
+		[h].[GroupRowID],
+		NULL				AS [GroupParentRowID],
+		NULL				AS [GroupCaption],
+		CAST(0 AS bit)		AS [Group],
+		[h].[TypeID],
+		COALESCE([h].[KindCaption], [h].[TypeCaption]) as [TypeCaption],
+		CASE
+			WHEN [h].[OptionID] IS NOT NULL THEN
+				N'{$Views_TaskHistory_StateCompleted} ' + CASE WHEN LEFT([h].[UserName], 1) = N'$' THEN
+					N'{' + [h].[UserName] + N'}' ELSE [h].[UserName] END
+			WHEN [h].[UserName] IS NOT NULL THEN
+				N'{$Views_TaskHistory_StateInProgress} ' + CASE WHEN LEFT([h].[UserName], 1) = N'$' THEN
+					N'{' + [h].[UserName] + N'}' ELSE [h].[UserName] END
+			ELSE
+				N'{$Views_TaskHistory_StateCreated} ' + CASE WHEN LEFT([h].[RoleName], 1) = N'$' THEN
+					N'{' + [h].[RoleName] + N'}' ELSE [h].[RoleName] END
+		END AS [StateCaption],
+		COALESCE([h].[Completed], [h].[InProgress], [h].[Created]) AS [Date],
+		[h].[AuthorName],
+		[h].[RoleName],
+		[h].[UserName],
+		[h].[Created],
+		[h].[Planned],
+		[h].[InProgress],
+		[h].[Completed],
+		CASE
+			WHEN [h].[Completed] IS NULL
+			THEN 1
+			ELSE 0
+		END AS [CompletedOrder],
+		[h].[OptionCaption],
+		[h].[CompletedByName],
+		[h].[Result],
+		[fc].[Count] AS [FilesCount]
+	FROM [TaskHistory] AS [h] WITH (NOLOCK)
+	INNER JOIN [Items] AS [i] WITH (NOLOCK)
+		ON [i].[RowID] = [h].[RowID]
+	LEFT JOIN [FilesCount] AS [fc] 
+		ON [fc].[TaskID] = [h].[RowID]
+
+	UNION ALL
+
+	SELECT
+		NULL				AS [RowID],
+		NULL				AS [ParentRowID],
+		[g].[RowID]			AS [GroupRowID],
+		[g].[ParentRowID]	AS [GroupParentRowID],
+		[g].[Caption]		AS [GroupCaption],
+		CAST(1 AS bit)		AS [Group],
+		NULL				AS [TypeID],
+		NULL				AS [TypeCaption],
+		NULL				AS [StateCaption],
+		NULL				AS [Date],
+		NULL				AS [AuthorName],
+		NULL				AS [RoleName],
+		NULL				AS [UserName],
+		NULL				AS [Created],
+		NULL				AS [Planned],
+		NULL				AS [InProgress],
+		NULL				AS [Completed],
+		NULL				AS [CompletedOrder],
+		NULL				AS [OptionCaption],
+		NULL				AS [CompletedByName],
+		NULL				AS [Result],
+		0		 			AS [FilesCount]
+	FROM [TaskHistoryGroups] AS [g] WITH (NOLOCK)
+	INNER JOIN [Groups] AS [i] WITH (NOLOCK)
+			ON [i].[RowID] = [g].[RowID]
+			
+	UNION ALL
+
+	SELECT TOP 1
+		NULL									AS [RowID],
+		NULL									AS [ParentRowID],
+		CAST('00000000-0000-0000-0000-000000000000' as uniqueidentifier)			AS [GroupRowID],
+		NULL									AS [GroupParentRowID],
+		'$Views_TaskHistory_WithoutGroup'		AS [GroupCaption],
+		CAST(1 AS bit)							AS [Group],
+		NULL									AS [TypeID],
+		NULL									AS [TypeCaption],
+		NULL									AS [StateCaption],
+		NULL									AS [Date],
+		NULL									AS [AuthorName],
+		NULL									AS [RoleName],
+		NULL									AS [UserName],
+		NULL									AS [Created],
+		NULL									AS [Planned],
+		NULL									AS [InProgress],
+		NULL									AS [Completed],
+		NULL									AS [CompletedOrder],
+		NULL									AS [OptionCaption],
+		NULL									AS [CompletedByName],
+		NULL									AS [Result],
+		0		 								AS [FilesCount]
+	FROM [TaskHistory] AS [h] WITH (NOLOCK)
+	WHERE #if(CardID) { 1=1 } { 1=0 }
+		AND [h].[GroupRowID] IS NULL
+		AND [h].[ParentRowID] IS NULL
+			#param(CardID, [h].[ID])
+		
+	) AS [h]
+ORDER BY [h].[CompletedOrder], [h].[Completed], [h].[Created];
+}
+
+[TEXTPART RemainingApprovalTime PGSQL]
+SELECT
+"h"."Planned" as "test",
+CASE	
+	WHEN DATE_PART('month', "h"."Planned" - now())::int = 0 AND "aps"."SubStageStateID" = 1
+	THEN
+		CASE
+			WHEN "h"."Planned" >= now()			
+			THEN CONCAT('Оставшееся время согласования: ', to_char("h"."Planned" - now(), 'DD дн. HH24 ч.'))
+			ELSE CONCAT('Просрочено на: ', to_char(now() - "h"."Planned", 'DD дн. HH24 ч.'))
+		END	
+	/*
+	WHEN DATE_PART('month', "h"."Planned" - now())::int = 0 AND DATE_PART('day', "h"."Planned" - now())::int = 0 AND "aps"."SubStageStateID" = 1
+	THEN
+		CASE
+			WHEN "h"."Planned" >= now()	
+			THEN CONCAT('Оставшееся время согласования: ', to_char("h"."Planned" - now(), 'HH24 ч.  MI мин.'))
+			ELSE CONCAT('Просрочено на: ', to_char(now() - "h"."Planned", 'HH24 ч. MI мин.'))
+		END
+	*/
+	WHEN DATE_PART('month', "h"."Planned" - now())::int != 0 AND "aps"."SubStageStateID" = 1
+	THEN
+		CASE
+			WHEN "h"."Planned" >= now()
+			THEN CONCAT('Оставшееся время согласования: ', to_char("h"."Planned" - now(), 'MM мес. DD дн. HH24 ч.'))			
+			ELSE CONCAT('Просрочено на: ', to_char(now() - "h"."Planned", 'MM мес. DD дн. HH24 ч.'))
+		END
+	ELSE "l"."Value"
+END as "Planned"
+
+FROM "TaskHistory" AS "h"
+
+LEFT JOIN "ApprovalStages" AS "aps"
+		ON "aps"."ID" = "h"."ID"
+
+CROSS JOIN "Localization"("h"."TypeCaption", #param(locale)) as "l"
+
+WHERE #if(CardID) { true } { false }
+	#param(CardID, "h"."ID")	
+	AND "h"."OptionID" IS NULL
+	--AND "h"."TypeCaption" = '$CardTypes_TypesNames_KrApprove'
+	--AND "h"."TypeID" = 'e4d7f6bf-fea9-4a3b-8a5a-e1a0a40de74c'::uuid
+	--AND "aps"."SubStageStateID" = 1
+	--AND "aps"."SubStageStateName" = 'Активен'
+
+ORDER BY "h"."Planned" DESC
+LIMIT 1			
+	
+--test cardID = 57a07491-8cad-4483-829b-bdba443d6754
+--				9d957047-8315-48ca-a5d8-e475e6fc05e4
+--				333db95d-c032-4250-9b1d-380af16e5846

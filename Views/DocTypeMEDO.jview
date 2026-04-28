@@ -1,0 +1,148 @@
+{
+  "Alias": "DocTypeMEDO",
+  "Caption": "Вид документа МЭДО",
+  "Description": " ",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "a0a71e74-c12a-4366-924c-19931690a20b",
+  "JsonMetadataSource::txt": "DocTypeMEDO JSONMETA",
+  "MsQuerySource::txt": "DocTypeMEDO MSSQL",
+  "PgQuerySource::txt": "DocTypeMEDO PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "a0a71e74-c12a-4366-924c-19931690a20b",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART DocTypeMEDO JSONMETA]
+{
+  "Alias": "DocTypeMEDO",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Вид документа МЭДО",
+  "Columns": [
+    {
+      "Alias": "TypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.ID"
+    },
+    {
+      "Alias": "TypeName",
+      "Appearance": null,
+      "Caption": "Наименование",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "\"pt\".\"Name\"",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "TypeIndex",
+      "Appearance": null,
+      "Caption": "Индекс",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "\"pt\".\"Index\"",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "TypeName",
+      "SortDirection": "Descending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Наименование",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$PartnersTypes.Name"
+    }
+  ],
+  "QuickSearchParam": "Name",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Type",
+      "Condition": null,
+      "DisplayValueColumn": "TypeName",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "DocTypesMEDO"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART DocTypeMEDO MSSQL]
+
+
+[TEXTPART DocTypeMEDO PGSQL]
+SELECT
+	"pt"."ID"		AS "TypeID",
+	"pt"."Name"		AS "TypeName",
+	"pt"."Index"	AS "TypeIndex"
+FROM "DocTypeMEDO" AS "pt"
+
+WHERE true
+	#param(Name, "pt"."Name")
+ORDER BY "pt"."Name"

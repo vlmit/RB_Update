@@ -1,0 +1,537 @@
+{
+  "Alias": "Partners_MEDO_bottomview_test",
+  "Caption": "Контрагенты, работающие через шлюз головной организации",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "System",
+  "ID::uid": "fed4334a-a9a8-4e6e-8b0e-f6d069c35da0",
+  "JsonMetadataSource::txt": "Partners_MEDO_bottomview_test JSONMETA",
+  "MsQuerySource::txt": "Partners_MEDO_bottomview_test MSSQL",
+  "PgQuerySource::txt": "Partners_MEDO_bottomview_test PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "fed4334a-a9a8-4e6e-8b0e-f6d069c35da0",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART Partners_MEDO_bottomview_test JSONMETA]
+{
+  "Alias": "Partners_MEDO_bottomview_test",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Контрагенты, работающие через шлюз головной организации",
+  "Columns": [
+    {
+      "Alias": "PartnerID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.ID"
+    },
+    {
+      "Alias": "PartnerName",
+      "Appearance": null,
+      "Caption": "$Views_Partners_Name",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Name",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "PartnerMedoID",
+      "Appearance": null,
+      "Caption": "PartnerMedoID",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Name",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "PartnerMedoAddress",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "\"t\".\"MedoAddress\"",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.MedoAddress"
+    },
+    {
+      "Alias": "FullName",
+      "Appearance": null,
+      "Caption": "$Views_Partners_FullName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.FullName",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.FullName"
+    },
+    {
+      "Alias": "TypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.TypeID"
+    },
+    {
+      "Alias": "TypeName",
+      "Appearance": null,
+      "Caption": "$Views_Partners_Type",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "t.TypeID",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.TypeName"
+    },
+    {
+      "Alias": "INN",
+      "Appearance": null,
+      "Caption": "$Views_Partners_INN",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.INN"
+    },
+    {
+      "Alias": "KPP",
+      "Appearance": null,
+      "Caption": "$Views_Partners_KPP",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.KPP"
+    },
+    {
+      "Alias": "OGRN",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.OGRN"
+    },
+    {
+      "Alias": "Comment",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Comment"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "PartnerName",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": true,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "Always",
+  "Parameters": [
+    {
+      "Alias": "PartnerID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "PartnerID",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.ID"
+    },
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Partners_Name_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "FullName",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Partners_FullName_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.FullName"
+    },
+    {
+      "Alias": "MedoAddress",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue",
+        "IsFalse"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "МЭДО",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Null"
+    },
+    {
+      "Alias": "Type",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": "Type",
+        "ViewAlias": "PartnersTypes"
+      },
+      "Caption": "$Views_Partners_Type_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "PartnersTypes"
+      },
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "PartnersTypes",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.TypeID"
+    },
+    {
+      "Alias": "INN",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Partners_INN_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.INN"
+    },
+    {
+      "Alias": "KPP",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Partners_KPP_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.KPP"
+    },
+    {
+      "Alias": "OGRN",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Partners_OGRN_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.OGRN"
+    },
+    {
+      "Alias": "Comment",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Partners_Comment_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Comment"
+    },
+    {
+      "Alias": "GatewayOwnerID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": "Partner",
+        "ViewAlias": "Partners_MEDO"
+      },
+      "Caption": "Владелец шлюза",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": "Partner",
+        "ViewAlias": "Partners_MEDO"
+      },
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "Partners",
+      "SourceViews": [
+        {
+          "::single_type": "str"
+        },
+        "Partners_MEDO"
+      ],
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.GatewayOwnerID"
+    }
+  ],
+  "QuickSearchParam": "Name",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Partner",
+      "Condition": null,
+      "DisplayValueColumn": "PartnerName",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "Partners"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": "Count",
+  "SelectionMode": "Row",
+  "Subsets": [
+    {
+      "Alias": "Count",
+      "Caption": null,
+      "CaptionColumn": null,
+      "Condition": null,
+      "CountColumn": null,
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": null,
+      "RefParam": null,
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    }
+  ],
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART Partners_MEDO_bottomview_test MSSQL]
+SELECT
+	#if(Normal) {
+	[t].[ID]			AS [PartnerID],
+	[tt].[Name]			AS [PartnerName],
+	[tt].[FullName],
+	[tt].[TypeID],
+	[tt].[TypeName],
+	[tt].[INN],
+	[tt].[KPP],
+	[tt].[OGRN],
+	[tt].[Comment]
+	}
+	#if(Count) {
+	[t].*
+	}
+FROM (
+	SELECT
+		#if(Normal) {
+		[t].[ID],
+		row_number() OVER (ORDER BY #order_by) AS [rn]
+		}
+		#if(Count) {
+		count(*) AS [cnt]
+		}
+	FROM [Partners] AS [t] WITH (NOLOCK)
+	WHERE 1 = 1
+		#param(PartnerID, [t].[ID])
+		#param(Name, [t].[Name])
+		#param(FullName, [t].[FullName])
+		#param(Type, [t].[TypeID])
+		#param(INN, [t].[INN])
+		#param(KPP, [t].[KPP])
+		#param(OGRN, [t].[OGRN])
+		#param(Comment, [t].[Comment])
+	) AS [t]
+#if(Normal) {
+INNER JOIN [Partners] AS [tt] WITH (NOLOCK)
+	ON [tt].[ID] = [t].[ID]
+}
+#if(PageOffset) {
+WHERE [t].[rn] >= #param(PageOffset) AND [t].[rn] < (#param(PageOffset) + #param(PageLimit))
+}
+#if(Normal) {
+ORDER BY [t].[rn]
+}
+
+[TEXTPART Partners_MEDO_bottomview_test PGSQL]
+SELECT
+	#if(Normal) {
+	"t"."ID"			AS "PartnerID",
+	"t"."Name"			AS "PartnerName",
+	"t"."MedoID"		AS "PartnerMedoID",
+	"t"."MedoAddress"   AS "PartnerMedoAddress",
+	"t"."FullName",
+	"t"."TypeID",
+	"t"."TypeName",
+	"t"."INN",
+	"t"."KPP",
+	"t"."OGRN",
+	"t"."Comment"
+	}
+	#if(Count) {
+	count(*) AS "cnt"
+	}
+FROM "Partners" AS "t"
+WHERE 
+	"t"."MedoAddress" is not null
+	#param(PartnerID, "t"."ID")
+	#param(Name, "t"."Name")
+	#param(FullName, "t"."FullName")
+	#param(Type, "t"."TypeID")
+	#param(INN, "t"."INN")
+	#param(KPP, "t"."KPP")
+	#param(OGRN, "t"."OGRN")
+	#param(Comment, "t"."Comment")
+	#param(GatewayOwnerID, "t"."GatewayOwnerID")
+#if(Normal) {
+ORDER BY #order_by
+}
+#if(PageOffset) {
+OFFSET #param(PageOffset) - 1 LIMIT #param(PageLimit)
+}

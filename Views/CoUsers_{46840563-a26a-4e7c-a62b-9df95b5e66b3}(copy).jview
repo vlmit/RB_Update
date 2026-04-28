@@ -1,0 +1,267 @@
+{
+  "Alias": "CoUsers_{46840563-a26a-4e7c-a62b-9df95b5e66b3}(copy)",
+  "Caption": "Соисполнители",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "46840563-a26a-4e7c-a62b-9df95b5e66b3",
+  "JsonMetadataSource::txt": "CoUsers_{46840563-a26a-4e7c-a62b-9df95b5e66b3}(copy) JSONMETA",
+  "MsQuerySource::txt": "CoUsers_{46840563-a26a-4e7c-a62b-9df95b5e66b3}(copy) MSSQL",
+  "PgQuerySource::txt": "CoUsers_{46840563-a26a-4e7c-a62b-9df95b5e66b3}(copy) PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "46840563-a26a-4e7c-a62b-9df95b5e66b3",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART CoUsers_{46840563-a26a-4e7c-a62b-9df95b5e66b3}(copy) JSONMETA]
+{
+  "Alias": "CoUsers_{46840563-a26a-4e7c-a62b-9df95b5e66b3}(copy)",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Соисполнители",
+  "Columns": [
+    {
+      "Alias": "Info",
+      "Appearance": null,
+      "Caption": "Info",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Not Null"
+    },
+    {
+      "Alias": "TypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.ID"
+    },
+    {
+      "Alias": "TypeName",
+      "Appearance": null,
+      "Caption": "Исполнитель",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "Planned",
+      "Appearance": null,
+      "Caption": "Срок",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "Date Null"
+    },
+    {
+      "Alias": "Question",
+      "Appearance": null,
+      "Caption": "Описание",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "GroupRowID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ID"
+    },
+    {
+      "Alias": "GroupParentRowID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.SignedByID"
+    },
+    {
+      "Alias": "Status",
+      "Appearance": null,
+      "Caption": "Статус",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "Result",
+      "Appearance": null,
+      "Caption": "Комментарий",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": [
+    {
+      "Condition": null,
+      "Data": null,
+      "Order::int": 0,
+      "TypeName": "Tessa.Extensions.Default.Client.Views.ViewsContextMenuExtension"
+    }
+  ],
+  "GroupingColumn": "Info",
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "CardID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "CardID",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.AuthorID"
+    },
+    {
+      "Alias": "TaskCardID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "TaskCardID",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.AuthorID"
+    }
+  ],
+  "QuickSearchParam": "Name",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Type",
+      "Condition": null,
+      "DisplayValueColumn": "",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "PersonalRoles"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": "Info",
+  "TreeGroupId": "GroupRowID",
+  "TreeGroupParentId": "GroupParentRowID",
+  "TreeId": "GroupRowID",
+  "TreeParentId": "GroupParentRowID"
+}
+
+[TEXTPART CoUsers_{46840563-a26a-4e7c-a62b-9df95b5e66b3}(copy) MSSQL]
+
+
+[TEXTPART CoUsers_{46840563-a26a-4e7c-a62b-9df95b5e66b3}(copy) PGSQL]
+SELECT
+	concat("dci"."Subject",chr(10),"dci"."CreationDate",'Автор: ',"dci"."AuthorName",
+	'Контролер: ',"dci"."ControllerName",
+	"dci"."TaskDeadline") as "Info", 
+	--		from "ControlTaskDecisions" as "CtD" where "mi"."ID"="CtD"."ID") 		AS "PerformersList", 
+	"pt"."UserID"		AS "TypeID",
+	"pt"."UserName"		AS "TypeName",
+	"CtD"."Planned" 	AS "Planned",
+	"CtD"."Question" 	AS "Question",
+	"dci"."ID"			AS "GroupRowID",
+	"dci"."ParentTaskID"	AS "GroupParentRowID",
+	Case when (select "th"."Completed" from "TaskHistory" as "th" where "pt"."UserID"="th"."UserID" 
+	#param(CardID, "th"."ID") and "th"."TypeCaption"='Исполнение поручения' limit 1) is not null
+		Then 'На исполнении'
+		Else 'Завершен'
+		END 			As "Status",
+	(select "th"."Result" from "TaskHistory" as "th" where "pt"."UserID"="th"."UserID" 
+	#param(CardID, "th"."ID") and "th"."TypeCaption"='Исполнение поручения' limit 1)
+						as "Result"	
+FROM "ControlTaskPerformers" AS "pt"
+Inner join "ControlTaskDecisions" as "CtD" on "CtD"."RowID"= "pt"."ParentRowID"
+Inner join "DocumentCommonInfo" as "dci" on "dci"."ID"= "pt"."ID"
+WHERE true --and "CtD"."ID" = (select "mi"."ID" from "DocumentCommonInfo" as "mi" where "mi"."CardTypeID" =  '01ad498e-5f8e-417a-bd28-942739dbf342' LIMIT 1)
+	#param(TaskCardID, "pt"."ID")
+	and "pt"."UserID"!=#param(CurrentUserID)
+ORDER BY "dci"."CreationDate"

@@ -1,0 +1,66 @@
+{
+  "Alias": "MEDOisActive",
+  "Caption": "Статус МЕДО",
+  "Description": "  ",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "bfe92bbd-48dc-468a-83d6-bcab00511765",
+  "JsonMetadataSource::txt": "MEDOisActive JSONMETA",
+  "MsQuerySource::txt": "MEDOisActive MSSQL",
+  "PgQuerySource::txt": "MEDOisActive PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "bfe92bbd-48dc-468a-83d6-bcab00511765",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART MEDOisActive JSONMETA]
+{
+  "Alias": "MEDOisActive",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Статус МЕДО",
+  "Columns": null,
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART MEDOisActive MSSQL]
+
+
+[TEXTPART MEDOisActive PGSQL]
+SELECT
+	"pt"."ID"		AS "DSPID",
+	"pt"."DSP"		AS "DSPDSP"
+FROM "MEDODSP" AS "pt"
+
+WHERE true
+	#param(Name, "pt"."DSP")
+ORDER BY "pt"."ID"

@@ -1,0 +1,140 @@
+{
+  "Alias": "AllActiveSessions-Licenses",
+  "Caption": "все сессии использующие лицензии",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Testing",
+  "ID::uid": "4e4b3031-b904-4b15-b7b9-111fb640b308",
+  "JsonMetadataSource::txt": "AllActiveSessions-Licenses JSONMETA",
+  "MsQuerySource::txt": "AllActiveSessions-Licenses MSSQL",
+  "PgQuerySource::txt": "AllActiveSessions-Licenses PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "4e4b3031-b904-4b15-b7b9-111fb640b308",
+      "RoleId::uid": "1475ba64-fcca-4861-a663-0e88f21bde99",
+      "RoleName": "Администраторы"
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "4e4b3031-b904-4b15-b7b9-111fb640b308",
+      "RoleId::uid": "2b428bbf-972f-485a-aed1-b832da28ef81",
+      "RoleName": "Администраторы"
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "4e4b3031-b904-4b15-b7b9-111fb640b308",
+      "RoleId::uid": "ab1e956f-15e9-4d7c-aec9-b3bcd0b65d19",
+      "RoleName": "Технолог"
+    }
+  ]
+}
+
+[TEXTPART AllActiveSessions-Licenses JSONMETA]
+{
+  "Alias": "AllActiveSessions-Licenses",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "все сессии использующие лицензии",
+  "Columns": [
+    {
+      "Alias": "UserName",
+      "Appearance": null,
+      "Caption": "Пользователь",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Sessions.UserName"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "UserName",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "Always",
+  "Parameters": null,
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "User",
+      "Condition": null,
+      "DisplayValueColumn": "UserName",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "MultiSessions"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": "Count",
+  "SelectionMode": "Row",
+  "Subsets": [
+    {
+      "Alias": "Count",
+      "Caption": null,
+      "CaptionColumn": null,
+      "Condition": null,
+      "CountColumn": "count",
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": null,
+      "RefParam": null,
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    }
+  ],
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART AllActiveSessions-Licenses MSSQL]
+
+
+[TEXTPART AllActiveSessions-Licenses PGSQL]
+select
+	#if(Normal) { 
+	 
+	"UserName"}
+	#if(Count) { 
+	count(*)  as "cnt"} 
+	
+from
+	"Sessions"
+where
+	"IsActive"=true
+ and "LastActivity" > now()-interval '1 hour'
+ 
+#if(Normal) { 
+group by  "UserName"
+order by  "UserName"}
+
+#if(PageOffset) {
+OFFSET #param(PageOffset) - 1 LIMIT #param(PageLimit)
+}

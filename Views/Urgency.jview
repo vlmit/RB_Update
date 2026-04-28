@@ -1,0 +1,141 @@
+{
+  "Alias": "Urgency",
+  "Caption": "Срочность",
+  "Description": "   ",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "0b86a9cb-8e38-4359-958f-40c7ffeda565",
+  "JsonMetadataSource::txt": "Urgency JSONMETA",
+  "MsQuerySource::txt": "Urgency MSSQL",
+  "PgQuerySource::txt": "Urgency PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "0b86a9cb-8e38-4359-958f-40c7ffeda565",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART Urgency JSONMETA]
+{
+  "Alias": "Urgency",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Срочность",
+  "Columns": [
+    {
+      "Alias": "UrgID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Urgency.ID"
+    },
+    {
+      "Alias": "UrgName",
+      "Appearance": null,
+      "Caption": "Срочность",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Urgency.Name"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "UrgID",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": null,
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Urgency.Name"
+    }
+  ],
+  "QuickSearchParam": "Name",
+  "References": [
+    {
+      "CardType": "RB_Urgency",
+      "CardTypeColumn": null,
+      "ColPrefix": "Urg",
+      "Condition": null,
+      "DisplayValueColumn": null,
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "Urgency"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART Urgency MSSQL]
+
+
+[TEXTPART Urgency PGSQL]
+SELECT
+	"pt"."ID"		AS "UrgID",
+	"pt"."Name"		AS "UrgName"
+FROM "Urgency" AS "pt"
+
+WHERE true and "pt"."Name" != 'Весьма срочно'
+	#param(Name, "pt"."Name")
+ORDER BY 
+   CASE "pt"."Name"
+      WHEN 'Нет' THEN 1
+      WHEN 'Срочно' THEN 2
+      WHEN 'Важно' THEN 3
+      WHEN 'Оперативно' THEN 4
+      WHEN 'Обычный приоритет' THEN 5
+      ELSE 6 --needed only is no IN clause above. eg when = 'b'
+   END

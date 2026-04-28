@@ -1,0 +1,2089 @@
+{
+  "Alias": "ControlTasks_RB_Expand_APIP_backup_14.02",
+  "Caption": "Древо поручений",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "NewTasks",
+  "ID::uid": "c3989820-afb0-444a-9455-bf9470ec0d8a",
+  "JsonMetadataSource::txt": "ControlTasks_RB_Expand_APIP_backup_14.02 JSONMETA",
+  "MsQuerySource::txt": "ControlTasks_RB_Expand_APIP_backup_14.02 MSSQL",
+  "PgQuerySource::txt": "ControlTasks_RB_Expand_APIP_backup_14.02 PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "c3989820-afb0-444a-9455-bf9470ec0d8a",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART ControlTasks_RB_Expand_APIP_backup_14.02 JSONMETA]
+{
+  "Alias": "ControlTasks_RB_Expand_APIP_backup_14.02",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Древо поручений",
+  "Columns": [
+    {
+      "Alias": "DocID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ID"
+    },
+    {
+      "Alias": "CreationDate",
+      "Appearance": null,
+      "Caption": "Создано",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.CreationDate",
+      "TreatValueAsUtc": false,
+      "Type": "Date Not Null"
+    },
+    {
+      "Alias": "DocRegDate",
+      "Appearance": null,
+      "Caption": "Дата док.",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocDate"
+    },
+    {
+      "Alias": "ParentNumber",
+      "Appearance": null,
+      "Caption": "№ Док.",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "CardOutgoingNumber",
+      "Appearance": null,
+      "Caption": "№ (внеш.)",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.OutgoingNumber"
+    },
+    {
+      "Alias": "CardOutgoingDate",
+      "Appearance": null,
+      "Caption": "Дата (внеш.)",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "Date Null"
+    },
+    {
+      "Alias": "DocTypeTitle",
+      "Appearance": null,
+      "Caption": "Группа документов",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "CategoryName",
+      "Appearance": null,
+      "Caption": "Вид документа",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "Correspondents",
+      "Appearance": null,
+      "Caption": "Корреспондент (организация)",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "Department",
+      "Appearance": null,
+      "Caption": "Корреспондент (организация)",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentName"
+    },
+    {
+      "Alias": "ParentSubject",
+      "Appearance": null,
+      "Caption": "Заголовок документа",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "OrderPoint",
+      "Appearance": "",
+      "Caption": "№ пункта",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "CategoryTaskName",
+      "Appearance": "",
+      "Caption": "Вид поручения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "DocSubject",
+      "Appearance": "",
+      "Caption": "Поручение",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.Subject",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "ExpandTextTask",
+      "Appearance": "",
+      "Caption": "Содержание поручения                                                                                                                                                         ",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.Subject",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "TaskDeadline",
+      "Appearance": "#appearance(FontWeight: Semibold)",
+      "Caption": "Срок поручения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.TaskDeadline"
+    },
+    {
+      "Alias": "NumberOfTransfers",
+      "Appearance": "",
+      "Caption": "Переносы",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "Int16 Null"
+    },
+    {
+      "Alias": "ControlStatusID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ControlStatusID"
+    },
+    {
+      "Alias": "ControlStatusName",
+      "Appearance": null,
+      "Caption": "Статус контроля",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "TaskFactControl",
+      "Appearance": "#appearance(FontWeight: Semibold)",
+      "Caption": "Дата снятия с контроля",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.TaskDeadline"
+    },
+    {
+      "Alias": "GroundsDeregistrationName",
+      "Appearance": null,
+      "Caption": "Основание для снятия с контроля",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "OutgoingRefDocs",
+      "Appearance": null,
+      "Caption": "Документы подтверждающие исполнение поручения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$OutgoingRefDocs.DocDescription"
+    },
+    {
+      "Alias": "Notes",
+      "Appearance": null,
+      "Caption": "Комментарий контролера об исполнении                                                                      ",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "AppearanceColumn",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "ControlMark",
+      "Appearance": "#appearance(Foreground: Red, FontSize: 14, FontWeight: Bold)",
+      "Caption": " ",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "TimeToCompletion",
+      "Appearance": "AppearanceColumn",
+      "Caption": "$Views_MyTasks_TimeToCompletion",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "mi.TaskDeadline",
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "SubTypeTitle",
+      "Appearance": null,
+      "Caption": "$Views_Registers_DocType",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "mi.DocTypeTitle",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocTypeTitle"
+    },
+    {
+      "Alias": "DocDescription",
+      "Appearance": null,
+      "Caption": "$Views_Registers_DocDescription",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "AuthorID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.AuthorID"
+    },
+    {
+      "Alias": "AuthorName",
+      "Appearance": "",
+      "Caption": "Автор поручения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.AuthorName",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.AuthorName"
+    },
+    {
+      "Alias": "AuthorComDepartment",
+      "Appearance": null,
+      "Caption": "Ведомство автора поручения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentName"
+    },
+    {
+      "Alias": "RegistratorID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.RegistratorID"
+    },
+    {
+      "Alias": "RegistratorName",
+      "Appearance": null,
+      "Caption": "Контролер",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength::int": 50,
+      "SortBy": "mi.RegistratorName",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.RegistratorName"
+    },
+    {
+      "Alias": "СontrolerComDepartment",
+      "Appearance": null,
+      "Caption": "Ведомство контролера поручения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentName"
+    },
+    {
+      "Alias": "KrState",
+      "Appearance": "",
+      "Caption": "Статус исполнения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrApprovalCommonInfo.StateName"
+    },
+    {
+      "Alias": "DocDate",
+      "Appearance": null,
+      "Caption": "$Views_Registers_DocDate",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.DocDate",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocDate"
+    },
+    {
+      "Alias": "TaskFact",
+      "Appearance": null,
+      "Caption": "Факт. дата исп.",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.TaskFact"
+    },
+    {
+      "Alias": "PerformersList",
+      "Appearance": "",
+      "Caption": "Исполнители",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "PerformersList",
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "ExecutorComDepartment",
+      "Appearance": null,
+      "Caption": "Ведомство отв.  исполнителя",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "ExecutorComDepartment",
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.HeadName"
+    },
+    {
+      "Alias": "SignedByID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.SignedByID"
+    },
+    {
+      "Alias": "SignedByName",
+      "Appearance": null,
+      "Caption": "Ответственный исполнитель",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.SignedByName"
+    },
+    {
+      "Alias": "ParentTaskID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.SignedByID"
+    },
+    {
+      "Alias": "rn",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int64"
+    },
+    {
+      "Alias": "QuantsToFinish",
+      "Appearance": null,
+      "Caption": "",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$CalendarQuants.QuantNumber"
+    },
+    {
+      "Alias": "FilesList",
+      "Appearance": "",
+      "Caption": "Список приложенных файлов",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "CreationDate",
+      "SortDirection": "Descending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": true,
+  "Overrides": [
+    {
+      "Condition": "MSSQL",
+      "Overrides": {
+        "RowCountSubset": "Count"
+      }
+    }
+  ],
+  "PageLimit::int": 15,
+  "Paging": "Always",
+  "Parameters": [
+    {
+      "Alias": "IsAuthor",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue",
+        "IsFalse"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Registers_IsAuthor_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean"
+    },
+    {
+      "Alias": "IsMe",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue",
+        "IsFalse"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "Мое ведомство",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean"
+    },
+    {
+      "Alias": "IsInitiator",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue",
+        "IsFalse"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Registers_IsInitiator_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean"
+    },
+    {
+      "Alias": "IsRegistrator",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue",
+        "IsFalse"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "Я контролер",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean"
+    },
+    {
+      "Alias": "IsResponsible",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue",
+        "IsFalse"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "Я исполнитель",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean"
+    },
+    {
+      "Alias": "Performer",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality",
+        "NonEquality"
+      ],
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          4
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "Users"
+      },
+      "Caption": "Исполнитель",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "PersonalRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.AuthorID"
+    },
+    {
+      "Alias": "DocRegDate",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Дата док.",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocDate"
+    },
+    {
+      "Alias": "ParentNumber",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "№ док",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.FullNumber"
+    },
+    {
+      "Alias": "CardOutgoingNumber",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "№ Внеш.",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.FullNumber"
+    },
+    {
+      "Alias": "Correspondents",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Корреспондент (организация)",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "DocTypeTitle",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Группа документов",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocTypeTitle"
+    },
+    {
+      "Alias": "Number",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Номер Контрольной карточки",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.FullNumber"
+    },
+    {
+      "Alias": "Subject",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Поручение",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "DocDate",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Дата Контрольной карточки",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocDate"
+    },
+    {
+      "Alias": "TaskDeadline",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Плановый срок исполнения",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.TaskDeadline"
+    },
+    {
+      "Alias": "TaskFact",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Фактическая дата исполнения",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.TaskFact"
+    },
+    {
+      "Alias": "SignedBy",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality",
+        "NonEquality"
+      ],
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          4
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "Users"
+      },
+      "Caption": "Ответственный исполнитель",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "PersonalRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.SignedByID"
+    },
+    {
+      "Alias": "Author",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality",
+        "NonEquality"
+      ],
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          4
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "Users"
+      },
+      "Caption": "$Views_Registers_Author_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "PersonalRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.AuthorID"
+    },
+    {
+      "Alias": "Registrator",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality",
+        "NonEquality"
+      ],
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          4
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "Users"
+      },
+      "Caption": "Контролёр",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "PersonalRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.RegistratorID"
+    },
+    {
+      "Alias": "State",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality",
+        "NonEquality",
+        "IsNull",
+        "IsNotNull"
+      ],
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrDocStates"
+      },
+      "Caption": "Статус исполнения",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrDocStates"
+      },
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "KrDocState",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrApprovalCommonInfo.StateID"
+    },
+    {
+      "Alias": "KrState",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality",
+        "NonEquality",
+        "IsNull",
+        "IsNotNull"
+      ],
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrDocStates"
+      },
+      "Caption": "Состояние проверки",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrDocStates"
+      },
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "KrDocState",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrApprovalCommonInfo.StateID"
+    },
+    {
+      "Alias": "ControlState",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality",
+        "NonEquality",
+        "IsNull",
+        "IsNotNull"
+      ],
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "ControlStatusType"
+      },
+      "Caption": "Статус контроля",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "ControlStatusType"
+      },
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "ControlStatusTypes",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ControlStatusID"
+    },
+    {
+      "Alias": "DocType",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrDocTypes"
+      },
+      "Caption": "$Views_Registers_DocType_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrDocTypes"
+      },
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "KrDocType",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocTypeID"
+    },
+    {
+      "Alias": "Department",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          3,
+          5
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "Departments"
+      },
+      "Caption": "$Views_Registers_Department_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "DepartmentRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentID"
+    },
+    {
+      "Alias": "ParentTask",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Родительское поручение",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.SignedByID"
+    },
+    {
+      "Alias": "Parent",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Документ-основание",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Guid Null"
+    },
+    {
+      "Alias": "OutgoingRefDocs",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Связанные документы",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$OutgoingRefDocs.DocDescription"
+    },
+    {
+      "Alias": "DeadlineFiveDays",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Истекает в течение 5 дней",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Not Null"
+    },
+    {
+      "Alias": "DeadlineToday",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Истекают сегодня",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Not Null"
+    },
+    {
+      "Alias": "DeadlinePast",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Просроченные",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Not Null"
+    },
+    {
+      "Alias": "IsProject",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Проект",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Not Null"
+    },
+    {
+      "Alias": "Report",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Введен отчет",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Not Null"
+    }
+  ],
+  "QuickSearchParam": "Number",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Doc",
+      "Condition": null,
+      "DisplayValueColumn": "",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "DocumentCommonInfo",
+        "DocRefsSection"
+      ]
+    },
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Author",
+      "Condition": null,
+      "DisplayValueColumn": "AuthorName",
+      "IsCard": true,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "Roles",
+        "DurableRoles",
+        "PersonalRoles"
+      ]
+    },
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Registrator",
+      "Condition": null,
+      "DisplayValueColumn": "RegistratorName",
+      "IsCard": true,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "Roles",
+        "DurableRoles",
+        "PersonalRoles"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": "Count",
+  "SelectionMode": "Row",
+  "Subsets": [
+    {
+      "Alias": "Count",
+      "Caption": null,
+      "CaptionColumn": null,
+      "Condition": "",
+      "CountColumn": null,
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": null,
+      "RefParam": null,
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    },
+    {
+      "Alias": "ByState",
+      "Caption": "$Views_Registers_ByState_Subset",
+      "CaptionColumn": "StateName",
+      "Condition": null,
+      "CountColumn": "StateCount",
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": "StateID",
+      "RefParam": "State",
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    },
+    {
+      "Alias": "ByDocType",
+      "Caption": "$Views_Registers_ByDocType_Subset",
+      "CaptionColumn": "SubTypeTitle",
+      "Condition": null,
+      "CountColumn": "SubTypeCount",
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": "SubTypeID",
+      "RefParam": "DocType",
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    }
+  ],
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART ControlTasks_RB_Expand_APIP_backup_14.02 MSSQL]
+#var(UseCommonInfo: Normal || ByDocType || Number || Subject || DocDate || DocType || IsAuthor || IsRegistrator || Author || Registrator || Department || TaskFact || SignedBy)--|| PerformersUserName)
+
+DECLARE @Project nvarchar(max);
+SET @Project = [dbo].[GetString](N'Views_Registers_Project_Sql', #param(locale));
+
+SELECT
+	#if(Normal) {
+	[t].[ID]																	AS [DocID],
+	[t].[FullNumber]															AS [DocNumber],
+	[t].[DocTypeTitle]															AS [SubTypeTitle],
+	[t].[Subject]																AS [DocSubject],
+	COALESCE([t].[FullNumber], N'') + N', ' + COALESCE([t].[Subject], N'')		AS [DocDescription], 	-- autocomplete
+	[t].[AuthorID]																AS [AuthorID],
+	[t].[AuthorName]															AS [AuthorName],
+	[t].[RegistratorID]															AS [RegistratorID],
+	[t].[RegistratorName]														AS [RegistratorName],
+	COALESCE([kr].[StateName], @Project)										AS [KrState],
+	[t].[DocDate]																AS [DocDate],
+	CAST([t].[CreationDate] AS date)											AS [CreationDate],
+	[t].[DepartmentName]														AS [Department],
+	[t].[TaskDeadline]															AS [TaskDeadline],
+	[t].[TaskFact]																AS [TaskFact],
+	[t].[TaskBaseNum]															AS [TaskBaseNum],
+	[t].[TaskBaseDocTypeTitle]													AS [TaskBaseDocType],
+	[t].[SignedByID]															AS [SignedByID],
+	[t].[SignedByName]															AS [SignedByName]
+	---[tt].[PerformersName]												AS [STP]
+	}
+	#if(ByDocType) {
+	[t].[SubTypeID],
+	[kdt].[Title]																AS [SubTypeTitle],
+	[t].[SubTypeCount]
+	}
+	#if(ByState | Count) {
+	[t].*
+	}
+
+FROM (
+	SELECT
+		#if(Normal) {
+		[mi].[ID],
+		[mi].[FullNumber],
+		[mi].[DocTypeTitle],
+		[mi].[Subject],
+		[mi].[AuthorID],
+		[mi].[AuthorName],
+		[mi].[RegistratorID],
+		[mi].[RegistratorName],
+		[mi].[DocDate],
+		[mi].[CreationDate],
+		[mi].[DepartmentName],
+		[mi].[TaskDeadline],
+		[mi].[TaskFact],
+		[mi].[TaskBaseNum],
+		[mi].[TaskBaseDocTypeTitle],
+		[mi].[SignedByID],
+		[mi].[SignedByName],
+		[t].[rn]
+		}
+		#if(ByDocType | ByState) {
+		[t].*
+		}
+		#if(Count) {
+		count(*) AS [cnt]
+		}
+	FROM (
+		SELECT
+			#if(Normal || Count) {
+			[mi].[ID]
+			}
+			#if(Normal) {,
+			row_number() OVER (ORDER BY #order_by) AS [rn]
+			}
+			#if(ByDocType) {
+			[mi].[DocTypeID]									AS [SubTypeID],
+			count(*)											AS [SubTypeCount]
+			}
+			--[m].[PerformersName]								AS [STP]
+			#if(ByState) {
+			COALESCE([kr].[StateID], CAST(0 AS smallint))		AS [StateID],
+			COALESCE([kr].[StateName], N'$KrStates_Doc_Draft')	AS [StateName],
+			count(*)											AS [StateCount]
+			}
+			
+		--From [StatusTable] as [m] with (NOLOCK)--[m].[PerformersName]
+		#if(UseCommonInfo) {
+		FROM [DocumentCommonInfo] AS [mi] WITH (NOLOCK)
+		} {
+		/* Алиас [mi] должен быть таким же, как у DocumentCommonInfo */
+		FROM [Instances] AS [mi] WITH (NOLOCK)
+		}
+		#if(ByState || State || IsInitiator) {
+		LEFT JOIN [KrApprovalCommonInfo] AS [kr] WITH (NOLOCK)
+			ON [kr].[MainCardID] = [mi].[ID]
+		}
+		WHERE
+			#if(UseCommonInfo) {
+			[mi].[CardTypeID]
+			} {
+			[mi].[TypeID]
+			}
+			= '4416d155-c839-4a1c-88bf-2b133812f403'		--ControlTask
+			#param(Number, [mi].[FullNumber])
+			#param(Subject, [mi].[Subject])
+			#param(DocDate, [mi].[DocDate])
+			#param(TaskFact, [mi].[TaskFact])
+			#param(State, COALESCE([kr].[StateID], 0))
+			#param(DocType, [mi].[DocTypeID])
+			#param(Author, [mi].[AuthorID])
+			#param(Registrator, [mi].[RegistratorID])
+			#param(Department, [mi].[DepartmentID])
+			#param(TaskDeadline, [mi].[TaskDeadline])
+			#param(TaskBaseNum, [mi].[TaskBaseNum])
+			#param(TaskBaseDocType, [mi].[TaskBaseDocTypeTitle])
+			#param(SignedBy, [mi].[SignedByID])
+			#if(IsAuthor) {
+				#if(IsAuthor.CriteriaName == "IsTrue") {
+			AND [mi].[AuthorID] = #param(CurrentUserID)
+				} {
+			AND ([mi].[AuthorID] IS NULL OR [mi].[AuthorID] <> #param(CurrentUserID))
+				}
+			}
+			#if(IsRegistrator) {
+				#if(IsRegistrator.CriteriaName == "IsTrue") {
+			AND [mi].[RegistratorID] = #param(CurrentUserID)
+				} {
+			AND ([mi].[RegistratorID] IS NULL OR [mi].[RegistratorID] <> #param(CurrentUserID))
+				}
+			}
+			#if(IsInitiator) {
+				#if(IsInitiator.CriteriaName == "IsTrue") {
+			AND [kr].[AuthorID] = #param(CurrentUserID)
+				} {
+			AND ([kr].[AuthorID] IS NULL OR [kr].[AuthorID] <> #param(CurrentUserID))
+				}
+			}
+		#if(ByDocType) {
+		GROUP BY [mi].[DocTypeID]
+		}
+		#if(ByState) {
+		GROUP BY COALESCE([kr].[StateID], CAST(0 AS smallint)), COALESCE([kr].[StateName], N'$KrStates_Doc_Draft')
+		}
+		) AS [t]
+	#if(Normal) {
+	INNER JOIN [DocumentCommonInfo] AS [mi] WITH (NOLOCK)
+		ON [mi].[ID] = [t].[ID]
+	}
+
+	#if(PageOffset) {
+	WHERE [t].[rn] >= #param(PageOffset) AND [t].[rn] < (#param(PageOffset) + #param(PageLimit))
+	}
+	) AS [t]
+	
+
+    	
+#if(Normal) {
+LEFT JOIN [KrApprovalCommonInfo] AS [kr] WITH (NOLOCK)
+	ON [kr].[MainCardID] = [t].[ID]
+ORDER BY [t].[rn]
+}
+
+#if(ByState) {
+CROSS APPLY [Localization]([t].[StateName], #param(locale)) AS [sls] --Локализуем состояние документа
+ORDER BY [sls].[Value]
+}
+#if(ByDocType) {
+INNER JOIN [KrDocType] AS [kdt] WITH (NOLOCK)
+	ON [kdt].[ID] = [t].[SubTypeID]
+CROSS APPLY [Localization]([kdt].[Title], #param(locale)) AS [tls] --Локализуем тип документа
+ORDER BY [tls].[Value]
+}
+
+
+;
+
+[TEXTPART ControlTasks_RB_Expand_APIP_backup_14.02 PGSQL]
+DECLARE
+	"project" text;
+	"red_threshold"				int;
+	"сlientUtcOffset" int = #eval(session.ClientUtcOffset.TotalMinutes);
+	#if(Normal) {
+	"now_timestamp"				timestamptz;
+	}
+BEGIN
+	#var(UseCommonInfo: Normal || ByDocType || Number || Subject || DocDate || DocType || IsAuthor || IsMe || IsRegistrator || IsResponsible || Author || Registrator || Department || TaskFact || SignedBy || ParentTask||Parent ||DeadlineToday ||DeadlineFiveDays
+								||DeadlinePast ||ISProject || State || KrState || ControlState)-- || OutgoingRefDocs)
+
+	#if(Normal) {
+	"red_threshold"			= 320; -- задания, просроченные более чем на две недели (320 квантов), будут одинаково красные
+	"now_timestamp"			= current_timestamp;
+	}
+	
+	
+	"project" = "GetString"('Views_Registers_Project_Sql', #param(locale));
+	
+	RETURN QUERY
+	-- ДОЧЕРНИЕ Поручения
+	WITH RECURSIVE "childs" AS (
+    SELECT "t"."ID", "t"."ParentTaskID"
+    FROM "DocumentCommonInfo" as "t"
+    WHERE 1=1 
+    #if(ParentTask)
+    {
+    and ("t"."ID" = #param(ParentTask) or "t"."ParentTaskID" = #param(ParentTask))
+    } 
+   	 UNION
+     SELECT "t"."ID", "t"."ParentTaskID"
+     FROM "DocumentCommonInfo" as "t"
+     INNER JOIN "childs" as "c"
+      ON "t"."ParentTaskID" = "c"."ID" or "t"."ID" = "c"."ParentTaskID"
+	)
+	SELECT
+		#if(Normal) {
+		"mi"."ID"																	AS "DocID",
+		CAST((select "dci"."CreationDate" from "DocumentCommonInfo" as "dci" where "dci"."ID"= "mi"."ParentID") as date) AS "CreationDate",
+		(select "dci"."DocDate" from "DocumentCommonInfo" as "dci" where "dci"."ID"= "mi"."ParentID") AS "DocRegDate",
+	--	CAST("mi"."CreationDate" AS date)											
+		(select "dci"."FullNumber" from "DocumentCommonInfo" as "dci" where "dci"."ID"= "mi"."ParentID")
+																					AS "ParentNumber",
+		(select COALESCE("dci"."OutgoingNumber", '') from "DocumentCommonInfo" as "dci"	where "dci"."ID"="mi"."ParentID")
+																					AS "CardOutgoingNumber",
+		(select "dci"."OutgoingDate" from "DocumentCommonInfo" as "dci"	where "dci"."ID"="mi"."ParentID")
+																					AS "CardOutgoingDate",
+		(SELECT string_agg("Correspondents"."PartnersName", ', ')
+            FROM "Correspondents"
+            WHERE "Correspondents"."ID" = "mi"."ID"
+            ORDER BY #order_by
+            --ORDER BY "Correspondents"."PartnersName"
+        )                                                                                AS "Correspondents",																			
+		(select "dci"."DocTypeTitle" from "DocumentCommonInfo" as "dci"	where "dci"."ID"="mi"."ParentID")
+																					AS "DocTypeTitle",																			
+		(select "dci"."CategoryName" from "DocumentCommonInfo" as "dci"	where "dci"."ID"="mi"."ParentID")
+																					AS "CategoryName",
+		(select "dci"."PartnerName" from "DocumentCommonInfo" as "dci"	where "dci"."ID"="mi"."ParentID")																			
+																					AS "Department",			
+		(select "dci"."Subject"	from "DocumentCommonInfo" as "dci" where "mi"."ParentID"="dci"."ID")
+																					AS "ParentSubject",
+		"mi"."OrderPoint"															AS "OrderPoint",
+		"mi"."CategoryName"															AS "CategoryTaskName",
+		"mi"."Subject"																AS "DocSubject",
+		"mi"."ExpandTextTask"														AS "ExpandTextTask",
+		"mi"."TaskDeadline"															AS "TaskDeadline",
+		"mi"."NumberOfTransfers"													AS "NumberOfTransfers",
+		"mi"."ControlStatusID"													AS "ControlStatusID",
+		"mi"."ControlStatusName"													AS "ControlStatusName",
+		"mi"."TaskFactControl"														AS "TaskFactControl",
+		"mi"."GroundsDeregistrationName"											AS "GroundsDeregistrationName",
+		(SELECT string_agg("OutgoingRefDocs"."DocDescription", ', ')
+            FROM "OutgoingRefDocs"
+            WHERE "OutgoingRefDocs"."ID" = "mi"."ID"
+            ORDER BY #order_by
+        )                                                                                AS "OutgoingRefDocs",
+		"mi"."Notes"																AS "Notes",
+		CASE
+			WHEN ("mi"."QuantsToFinish" < 0) and "mi"."ManualStateName"!= 'Исполнено' THEN
+				CASE WHEN ("mi"."QuantsToFinish" < (-1 * "red_threshold"))
+					THEN '#appearance(Background: #A0FF0000)'
+					ELSE '#appearance(Background: ' || CAST(abs("mi"."QuantsToFinish") * 160 / "red_threshold" * 256 * 256 * 256 + 255 * 256 * 256 AS text) || ')'		
+				END
+			ELSE 
+				CASE WHEN "mi"."ManualStateName"= 'Исполнено'
+					THEN '#appearance(Background: LightGreen)'
+					ELSE ''		
+				END
+		END 																		AS "AppearanceColumn",
+		CASE
+			WHEN "mi"."ControllerID" is not null THEN
+			'K'	
+			ELSE ''
+		END 																		AS "ControlMark",		
+		CASE
+				WHEN "kr"."StateName"= 'Поручение исполнено' THEN 'Поручение исполнено'
+		ELSE	"mi"."TimeToCompletion"	END											AS "TimeToCompletion",
+		"mi"."DocTypeTitle"															AS "SubTypeTitle",
+
+		COALESCE("mi"."FullNumber", '') || ', ' || COALESCE("mi"."Subject", '')		AS "DocDescription",
+		
+		
+		"mi"."AuthorID"																AS "AuthorID",
+		"mi"."AuthorName"															AS "AuthorName",
+		(select "ro"."HeadName" from "Roles" as "ro"
+		inner join "RoleUsers" as "ru" on "ru"."ID" = "ro"."ID"
+		where "ru"."UserID" = "mi"."AuthorID" 
+		and "ru"."IsDeputy" = false and "ro"."TypeID" = 2 limit 1)					AS "AuthorComDepartment",
+		"mi"."ControllerID"															AS "RegistratorID",
+		"mi"."RegistratorName"														AS "RegistratorName",
+		(select "ro"."HeadName" from "Roles" as "ro"
+		inner join "RoleUsers" as "ru" on "ru"."ID" = "ro"."ID"
+		where "ru"."UserID" = "mi"."RegistratorID" 
+		and "ru"."IsDeputy" = false and "ro"."TypeID" = 2 limit 1)					AS "ControlerComDepartment",
+		COALESCE("mi"."ManualStateName", 'Не начато')								AS "KrState",
+		"mi"."DocDate"																AS "DocDate",
+		
+		
+
+		"mi"."TaskFact"																AS "TaskFact",
+		(SELECT string_agg(concat("CtP"."UserName", "CtD"."SubStateName",
+		''
+		)
+		,
+		chr(10)
+		)
+		from "ControlTaskDecisions" as "CtD"
+		inner join "ControlTaskPerformers" as "CtP" on "CtD"."RowID" = "CtP"."ParentRowID"
+		where "mi"."ID"="CtD"."ID" and "CtD"."IsResponsible" is true) 			AS "PerformersList",
+		
+		(select string_agg("ro"."HeadName", ', ') from "Roles" as "ro"
+		inner join "RoleUsers" as "ru" on "ru"."ID" = "ro"."ID"
+		where "ru"."UserID" IN (select "CtP"."UserID" from "ControlTaskPerformers" as "CtP"
+		inner join "ControlTaskDecisions" as "CtD" on "CtD"."RowID" = "CtP"."ParentRowID"
+		where "mi"."ID"="CtP"."ID" and "CtD"."IsResponsible" is true) 
+		and "ru"."IsDeputy" = false and "ro"."TypeID" = 2)					AS "ExecutorComDepartment",
+	--	(SELECT string_agg(concat("CtD"."UserName",' - ',"CtD"."Planned,' - ',"CtD"."SubStateName"), concat(';',chr(10)))  
+	--		from "ControlTaskDecisions" as "CtD" where "mi"."ID"="CtD"."ID") 		AS "PerformersList", 
+		"mi"."SignedByID"															AS "SignedByID",
+		"mi"."SignedByName"															AS "SignedByName",
+		"mi"."ParentTaskID"															AS "ParentTaskID",
+		0::int8																		AS "rn",
+		
+		"mi"."QuantsToFinish"														AS "QuantsToFinish",
+
+		(select string_agg(concat("f"."Name",' (', "f"."CreatedByName", ')'),chr(10))
+				from "Files" as "f" where "mi"."ID"="f"."ID")
+																					AS "FilesList"
+		
+		}
+		#if(ByDocType) {
+		"mi"."SubTypeID",
+		"kdt"."Title"																AS "SubTypeTitle",
+		"mi"."SubTypeCount"
+		}
+		#if(ByState) {
+		"mi".*
+		}
+		#if(Count) {
+		"mi".*
+		}
+		
+	FROM (
+		SELECT
+			#if(Normal) {
+			"mi"."ID",
+			"mi"."Number",
+			"mi"."FullNumber",
+			"mi"."DocTypeTitle",
+			"mi"."Subject",
+			"mi"."AuthorID",
+			"mi"."AuthorName",
+			"mi"."ControllerID",
+			"mi"."RegistratorID",
+			"mi"."RegistratorName",
+			"mi"."DocDate",
+			"mi"."CreationDate",
+			"mi"."DepartmentName",
+			"mi"."TaskDeadline",
+			"mi"."TaskFact",
+			"mi"."SignedByID",
+			"mi"."SignedByName",
+			"mi"."ParentTaskID",
+			"mi"."ParentID",
+			"mi"."ManualStateName",
+			"mi"."ManualStateID",
+			"mi"."ParentDescription",
+			"mi"."OrderPoint",
+			"mi"."ExpandTextTask",
+			"mi"."CategoryName",
+			"mi"."NumberOfTransfers",
+			"mi"."ControlStatusID",
+			"mi"."ControlStatusName",
+			"mi"."TaskFactControl",
+			"mi"."GroundsDeregistrationName",
+			"mi"."Notes",
+			CASE
+				WHEN 180 = "сlientUtcOffset" THEN
+					"GetTimeIntervalLiteral"("qq"."QuantNumber" - "qq1"."QuantNumber")	
+				ELSE
+					CASE
+						WHEN 180 >= 0 THEN
+							"GetTimeIntervalLiteral"("qq"."QuantNumber" - "qq1"."QuantNumber") || 
+							' (UTC+' || TO_CHAR('1 minute'::interval * 180, 'HH24:MI')  || ')'
+						ELSE
+							"GetTimeIntervalLiteral"("qq"."QuantNumber" - "qq1"."QuantNumber") || 
+							' (UTC-' || TO_CHAR('1 minute'::interval * ABS(180), 'HH24:MI')  || ')'
+						END
+					END													AS "TimeToCompletion",
+			("qq"."QuantNumber" - "qq1"."QuantNumber")					AS "QuantsToFinish"
+			--"f"."Name"													AS "FileName",
+			--"f"."CreatedByName"											AS "FileCreatedByName"
+			}
+			#if(ByDocType | ByState) {
+			"t".*
+			}
+			
+			#if(Count) {
+			"t".*
+			}
+		FROM (
+			SELECT
+				#if(Normal) {
+				"mi"."ID"
+				}
+				#if(Count) {
+				count(*) AS "cnt"
+				}
+				#if(ByDocType) {
+				"mi"."DocTypeID" 									AS "SubTypeID",
+				count(*)											AS "SubTypeCount"
+				}
+				#if(ByState) {
+				COALESCE("kr"."StateID", CAST(0 AS smallint))		AS "StateID",
+				COALESCE("kr"."StateName", '$KrStates_Doc_Draft')	AS "StateName",
+				count(*)											AS "StateCount"
+				}
+			#if(UseCommonInfo) {
+			FROM "DocumentCommonInfo" AS "mi"
+			} {
+			-- Алиас "mi" должен быть таким же, как у DocumentCommonInfo
+			FROM "Instances" AS "mi"
+			
+			}
+			#if(ByState || State || IsInitiator || KrState) {
+			LEFT JOIN "KrApprovalCommonInfo" AS "kr"
+				ON "kr"."MainCardID" = "mi"."ID"
+			}
+			WHERE
+				#if(UseCommonInfo) {
+				"mi"."CardTypeID"
+				} {
+				"mi"."TypeID"
+				}
+				in ('01ad498e-5f8e-417a-bd28-942739dbf342', '0d4db642-7b3e-4988-92e9-2fd3752a488c')		-- Document
+				#param(Number, "mi"."FullNumber")
+				#param(Subject, "mi"."Subject")
+				#param(DocDate, "mi"."DocDate")
+				#param(State, COALESCE("mi"."ManualStateID", 0))
+				#param(KrState, COALESCE("kr"."StateID", 0))
+				#param(ControlState, COALESCE("mi"."ControlStatusID", 0))
+				#param(DocType, "mi"."DocTypeID")
+				#param(Author, "mi"."AuthorID")
+				#param(Registrator, "mi"."RegistratorID")
+				#param(Department, "mi"."DepartmentID")
+				#param(TaskDeadline, "mi"."TaskDeadline")
+				#param(TaskBaseNum, "mi"."TaskBaseNum")
+				#param(TaskBaseDocType, "mi"."TaskBaseDocTypeTitle")
+				#param(SignedBy, "mi"."SignedByID")
+				#param(Parent, "mi"."ParentID")
+				#if(ParentTask)
+				{	
+				AND exists
+		    	(
+		    	SELECT "ID" FROM "childs" as "chi" where "chi"."ID" = "mi"."ID" --and t.id != #param(ParentDepID)
+		    	)
+				}
+				#if(ISProject)
+				{
+				and "mi"."CategoryID" = '0a4f078d-7ff6-4ece-8f75-b6e4d7e0790d'
+				}
+				#if(DeadlineFiveDays)
+				{
+				and extract(day from "mi"."TaskDeadline" - current_timestamp) <= 5 and extract(day from "mi"."TaskDeadline" - current_timestamp) > 0
+				}
+				#if(DeadlineToday)
+				{
+				and extract(day from "mi"."TaskDeadline" - current_timestamp) <= 1 and extract(day from "mi"."TaskDeadline" - current_timestamp) > 0
+				}
+				#if(DeadlinePast)
+				{
+				and extract(day from "mi"."TaskDeadline" - current_timestamp) <= 0
+				}
+				--#param(OutgoingRefDocs, (SELECT string_agg("OutgoingRefDocs"."DocDescription", ', ') from "OutgoingRefDocs" where "mi"."ID"="OutgoingRefDocs"."ID"))
+				#if(IsAuthor) {
+					#if(IsAuthor.CriteriaName == "IsTrue") {
+				and ("mi"."CardTypeID" = '01ad498e-5f8e-417a-bd28-942739dbf342') AND ("mi"."AuthorID" = #param(CurrentUserID) OR "mi"."AuthorID" IN (Select "d"."DeputizedID" from "RoleDeputies" as "d" where "d"."DeputyID" = #param(CurrentUserID) ))
+					} {
+				AND ("mi"."AuthorID" IS NULL OR "mi"."AuthorID" <> #param(CurrentUserID))
+					}
+				}
+				#if(IsMe) {
+				AND (select "ro"."HeadName" from "Roles" as "ro"
+		inner join "RoleUsers" as "ru" on "ru"."ID" = "ro"."ID"
+		where "ru"."UserID" = #param(CurrentUserID)
+		and "ru"."IsDeputy" = false and "ro"."TypeID" = 2) in (select "ro"."HeadName" from "Roles" as "ro"
+		inner join "RoleUsers" as "ru" on "ru"."ID" = "ro"."ID"
+		where "ru"."UserID" IN (select "CtP"."UserID" from "ControlTaskPerformers" as "CtP" where "mi"."ID"="CtP"."ID") 
+		and "ru"."IsDeputy" = false and "ro"."TypeID" = 2)  	
+				}
+				#if(IsRegistrator) {
+					#if(IsRegistrator.CriteriaName == "IsTrue") {
+				and "mi"."CardTypeID" = '0d4db642-7b3e-4988-92e9-2fd3752a488c' AND ("mi"."RegistratorID" = #param(CurrentUserID)  OR "mi"."RegistratorID" IN (Select "d"."DeputizedID" from "RoleDeputies" as "d" where "d"."DeputyID" = #param(CurrentUserID) ))
+					} {
+				AND ("mi"."RegistratorID" IS NULL OR "mi"."RegistratorID" <> #param(CurrentUserID))
+					}
+				}
+				#if(IsInitiator) {
+					#if(IsInitiator.CriteriaName == "IsTrue") {
+				AND "kr"."AuthorID" = #param(CurrentUserID)
+					} {
+				AND ("kr"."AuthorID" IS NULL OR "kr"."AuthorID" <> #param(CurrentUserID))
+					}
+				}
+				#if(IsResponsible) {
+					#if(IsResponsible.CriteriaName == "IsTrue") {
+				AND exists
+		    	(
+		    	SELECT "ID" FROM "ControlTaskPerformers" as "CTP" where "CTP"."ID" = "mi"."ID" and "CTP"."UserID" = #param(CurrentUserID)
+		    	)
+					}
+				}
+				#if(Performer) {
+				AND exists
+		    	(
+		    	SELECT "ID" FROM "ControlTaskPerformers" as "CTP" where "CTP"."ID" = "mi"."ID" #param(Performer,"CTP"."UserID")
+		    	)
+				}
+				#if(Report) {
+				AND exists
+		    	(
+		    	SELECT "ID" FROM "ControlTaskDecisions" as "CTD" where "CTD"."ID" = "mi"."ID" and "CTD"."Report" is not null
+		    	)
+				}
+			#if(Normal) {
+			ORDER BY #order_by
+			}
+			#if(PageOffset) {
+			OFFSET #param(PageOffset) - 1 LIMIT #param(PageLimit)
+			}
+			#if(ByDocType) {
+			GROUP BY "mi"."DocTypeID"
+			}
+			#if(ByState) {
+			GROUP BY COALESCE("kr"."StateID", CAST(0 AS smallint)), COALESCE("kr"."StateName", '$KrStates_Doc_Draft')
+			}
+			) AS "t"
+		#if(Normal) {
+		INNER JOIN "DocumentCommonInfo" AS "mi"
+			ON "mi"."ID" = "t"."ID"
+		
+	--	LEFT JOIN "Files" AS "f"
+--			ON "f"."ID" = "mi"."ID"
+		LEFT JOIN LATERAL (
+			SELECT "q"."QuantNumber"
+			FROM "CalendarQuants" AS "q"
+			WHERE "q"."StartTime" <= ("mi"."TaskDeadline" + interval '18 hours') + 180 * interval '1 minute'
+			ORDER BY "q"."StartTime" DESC
+			LIMIT 1
+			) AS "qq" ON true
+		LEFT JOIN LATERAL (
+			SELECT "q"."QuantNumber"
+			FROM "CalendarQuants" AS "q"
+			WHERE "q"."StartTime" <= "now_timestamp" + 180 * interval '1 minute'
+			ORDER BY "q"."StartTime" DESC
+			LIMIT 1
+			) AS "qq1" ON true
+		}
+		) AS "mi"
+	#if(Normal) {
+	LEFT JOIN "KrApprovalCommonInfo" AS "kr"
+		ON "kr"."MainCardID" = "mi"."ID"
+	ORDER BY #order_by
+	}
+	
+	#if(ByState) {
+	CROSS JOIN "Localization"("mi"."StateName", #param(locale)) AS "sls" --Локализуем состояние документа
+	ORDER BY "sls"."Value"
+	}
+	#if(ByDocType) {
+	INNER JOIN "KrDocType" AS "kdt"
+		ON "kdt"."ID" = "mi"."SubTypeID"
+	CROSS JOIN "Localization"("kdt"."Title", #param(locale)) AS "tls" --Локализуем тип документа
+--	Where true
+
+--	and "GetTimeIntervalLiteral"("mi"."QuantsToFinish") <= 5
+--	and "GetTimeIntervalLiteral"("mi"."QuantsToFinish") > 0
+
+	ORDER BY "tls"."Value"
+	};
+END;

@@ -1,0 +1,128 @@
+{
+  "Alias": "MEDODSP",
+  "Caption": "Формат НПА",
+  "Description": "  ",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "bbf2dd35-3836-4058-ac8e-c1e8956ee1cb",
+  "JsonMetadataSource::txt": "MEDODSP JSONMETA",
+  "MsQuerySource::txt": "MEDODSP MSSQL",
+  "PgQuerySource::txt": "MEDODSP PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "bbf2dd35-3836-4058-ac8e-c1e8956ee1cb",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART MEDODSP JSONMETA]
+{
+  "Alias": "MEDODSP",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Формат НПА",
+  "Columns": [
+    {
+      "Alias": "DSPID",
+      "Appearance": null,
+      "Caption": "ДСП",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$MEDODSP.ID"
+    },
+    {
+      "Alias": "DSPDSP",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$MEDODSP.DSP"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": null,
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$MEDODSP.DSP"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "DSP",
+      "Condition": null,
+      "DisplayValueColumn": null,
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "MEDODSP"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART MEDODSP MSSQL]
+
+
+[TEXTPART MEDODSP PGSQL]
+SELECT
+	"pt"."ID"		AS "DSPID",
+	"pt"."DSP"		AS "DSPDSP"
+FROM "MEDODSP" AS "pt"
+
+WHERE true
+	#param(Name, "pt"."DSP")
+ORDER BY "pt"."ID"

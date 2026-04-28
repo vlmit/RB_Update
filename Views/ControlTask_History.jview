@@ -1,0 +1,211 @@
+{
+  "Alias": "ControlTask_History",
+  "Caption": "История изменений",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "7518a512-d867-4cf3-b81f-4acba3156aab",
+  "JsonMetadataSource::txt": "ControlTask_History JSONMETA",
+  "MsQuerySource::txt": "ControlTask_History MSSQL",
+  "PgQuerySource::txt": "ControlTask_History PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "7518a512-d867-4cf3-b81f-4acba3156aab",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART ControlTask_History JSONMETA]
+{
+  "Alias": "ControlTask_History",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "История изменений",
+  "Columns": [
+    {
+      "Alias": "Modified",
+      "Appearance": null,
+      "Caption": "Дата",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$ActionHistory.Modified"
+    },
+    {
+      "Alias": "Name",
+      "Appearance": null,
+      "Caption": "Действие",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$ActionTypes.Name"
+    },
+    {
+      "Alias": "Request",
+      "Appearance": null,
+      "Caption": "Поручение",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "Request2",
+      "Appearance": null,
+      "Caption": "Содержание поручения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "Reguest3",
+      "Appearance": null,
+      "Caption": "Плановая дата",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "Performer1",
+      "Appearance": null,
+      "Caption": "Исполнитель",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "ModifiedByName",
+      "Appearance": null,
+      "Caption": "Сотрудник",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$ActionHistory.ModifiedByName"
+    },
+    {
+      "Alias": "Request3",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$ActionHistory.Request"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "CardID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Card ID",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ID"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART ControlTask_History MSSQL]
+
+
+[TEXTPART ControlTask_History PGSQL]
+select
+	"Modified",
+	"at"."Name",
+	"Request"::json#>>'{Card,Sections,DocumentCommonInfo,Fields,CommissionTemplateText}' as "Request",
+	"Request"::json#>>'{Card,Sections,DocumentCommonInfo,Fields,ExpandTextTask}' as "Request2",
+	--"Request"::json->>'ExpandTextTask' as "Request2",
+	"Request"::json#>>'{Card,Sections,DocumentCommonInfo,Fields,TaskDeadline::dtm}' as "Request3",
+	(select string_agg(value->>'UserName', ', ') 
+		from (select json_array_elements("Request"::json#>'{Card,Sections,ControlTaskPerformers,Rows}') as value) as s) as "Performer1",
+	"ModifiedByName",
+	"Request" as "Request3"
+from
+	"ActionHistory" as "ah"
+	left join "ActionTypes" as "at"
+		on "ah"."ActionID"="at"."ID"
+where
+	true
+	--"ah"."ID"='a01c1d45-dce2-4dc4-891e-18048afea509'  --кп-403520
+	--"ah"."ID"='8c60c01f-9bd4-4a10-b449-8f2eecc9c015'
+	--"ah"."ID"='89b6a01f-85dd-42b0-b04f-c12cb5257c8e'
+	and ("ActionID"=1 or "ActionID"=3)
+	#param(CardID, "ah"."ID")
+order by "Modified" desc

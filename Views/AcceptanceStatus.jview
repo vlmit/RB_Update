@@ -1,0 +1,133 @@
+{
+  "Alias": "AcceptanceStatus",
+  "Caption": "Статус принятия",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "5f6a9ef5-805b-4075-9f26-779aa81069c5",
+  "JsonMetadataSource::txt": "AcceptanceStatus JSONMETA",
+  "MsQuerySource::txt": "AcceptanceStatus MSSQL",
+  "PgQuerySource::txt": "AcceptanceStatus PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "5f6a9ef5-805b-4075-9f26-779aa81069c5",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART AcceptanceStatus JSONMETA]
+{
+  "Alias": "AcceptanceStatus",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Статус принятия",
+  "Columns": [
+    {
+      "Alias": "ASID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$AcceptanceStatus.ID"
+    },
+    {
+      "Alias": "ASName",
+      "Appearance": null,
+      "Caption": "Название",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$AcceptanceStatus.Name"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "ASID",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Название",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$AcceptanceStatus.Name"
+    }
+  ],
+  "QuickSearchParam": "Name",
+  "References": [
+    {
+      "CardType": "AcceptanceStatus",
+      "CardTypeColumn": null,
+      "ColPrefix": "AS",
+      "Condition": null,
+      "DisplayValueColumn": null,
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "AcceptanceStatus"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART AcceptanceStatus MSSQL]
+
+
+[TEXTPART AcceptanceStatus PGSQL]
+SELECT
+	"pt"."ID"		AS "ASID",
+	"pt"."Name"		AS "ASName"
+FROM "AcceptanceStatus" AS "pt"
+
+WHERE true
+	#param(Name, "pt"."Name")
+ORDER BY "pt"."ID"

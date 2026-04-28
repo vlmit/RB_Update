@@ -1,0 +1,133 @@
+{
+  "Alias": "NDSRate",
+  "Caption": "Ставка ДНС",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "ca95fd72-2ae3-437c-8fff-fa4daaca43c1",
+  "JsonMetadataSource::txt": "NDSRate JSONMETA",
+  "MsQuerySource::txt": "NDSRate MSSQL",
+  "PgQuerySource::txt": "NDSRate PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "ca95fd72-2ae3-437c-8fff-fa4daaca43c1",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART NDSRate JSONMETA]
+{
+  "Alias": "NDSRate",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Ставка ДНС",
+  "Columns": [
+    {
+      "Alias": "NdsID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.ID"
+    },
+    {
+      "Alias": "NdsRate",
+      "Appearance": null,
+      "Caption": "Ставка НДС",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "NdsID",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Rate",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": null,
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    }
+  ],
+  "QuickSearchParam": "Rate",
+  "References": [
+    {
+      "CardType": "RB_NDSRate",
+      "CardTypeColumn": null,
+      "ColPrefix": "NDS",
+      "Condition": null,
+      "DisplayValueColumn": null,
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "NDSRate"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART NDSRate MSSQL]
+
+
+[TEXTPART NDSRate PGSQL]
+SELECT
+	"pt"."ID"		AS "NdsID",
+	"pt"."Rate"		AS "NdsRate"
+FROM "NDSRate" AS "pt"
+
+WHERE true
+	#param(Name, "pt"."Name")
+ORDER BY "pt"."ID"

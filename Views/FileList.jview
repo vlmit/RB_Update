@@ -1,0 +1,203 @@
+{
+  "Alias": "FileList",
+  "Caption": "Список вложений",
+  "Description": "    ",
+  "FormatVersion::int": 1,
+  "GroupName": "CustomFileList",
+  "ID::uid": "47ed07a4-3d5b-44fc-b047-edbb58b507bd",
+  "JsonMetadataSource::txt": "FileList JSONMETA",
+  "MsQuerySource::txt": "FileList MSSQL",
+  "PgQuerySource::txt": "FileList PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "47ed07a4-3d5b-44fc-b047-edbb58b507bd",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART FileList JSONMETA]
+{
+  "Alias": "FileList",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Список вложений",
+  "Columns": [
+    {
+      "Alias": "CardID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Guid Not Null"
+    },
+    {
+      "Alias": "FileName",
+      "Appearance": null,
+      "Caption": "Название файла",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "FileID",
+      "Appearance": null,
+      "Caption": "ID файла",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Name",
+      "TreatValueAsUtc": false,
+      "Type": "Guid Not Null"
+    },
+    {
+      "Alias": "Category",
+      "Appearance": null,
+      "Caption": "Категория",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "CardID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "CardID",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Files.ID"
+    },
+    {
+      "Alias": "CardTaskID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "CardTaskID",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Files.ID"
+    },
+    {
+      "Alias": "FileName",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Имя файла",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "File",
+      "Condition": null,
+      "DisplayValueColumn": "FileName",
+      "IsCard": false,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "Files"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART FileList MSSQL]
+
+
+[TEXTPART FileList PGSQL]
+select
+    "t"."ID" as "CardID",
+    "t"."Name" as "FileName",
+    "t"."RowID" as "FileID",
+    "t"."CategoryCaption" as "Category"
+from "Files" as "t" 
+where 1=1
+	#param(FileName, "t"."Name")
+    #if(CardID)
+    {
+    #param(CardID, "t"."ID")
+    }
+    {
+		    #if(CardTaskID)
+		    {
+		    and "t"."ID" = (select "tsk"."ID" from "TaskHistory" as "tsk" 
+		    			where 1=1 #param(CardTaskID, "tsk"."RowID") limit 1)
+		    and "t"."CategoryCaption" != 'Документ'
+		    }
+		    {
+		    and 1=0
+		    }
+    }

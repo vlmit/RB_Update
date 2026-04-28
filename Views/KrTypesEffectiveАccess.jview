@@ -1,0 +1,320 @@
+{
+  "Alias": "KrTypesEffectiveАccess",
+  "Caption": "Типы по правам доступа",
+  "Description": "По правам доступа    ",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "6f2699f0-1899-454c-9c5f-5b644e246e57",
+  "JsonMetadataSource::txt": "KrTypesEffectiveАccess JSONMETA",
+  "MsQuerySource::txt": "KrTypesEffectiveАccess MSSQL",
+  "PgQuerySource::txt": "KrTypesEffectiveАccess PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "6f2699f0-1899-454c-9c5f-5b644e246e57",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART KrTypesEffectiveАccess JSONMETA]
+{
+  "Alias": "KrTypesEffectiveАccess",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Типы по правам доступа",
+  "Columns": [
+    {
+      "Alias": "TypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Types.ID"
+    },
+    {
+      "Alias": "TypeCaption",
+      "Appearance": null,
+      "Caption": "$Views_KrTypesEffective_Name",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": "t.LocalizedTypeCaption",
+      "TreatValueAsUtc": false,
+      "Type": "$Types.Caption"
+    },
+    {
+      "Alias": "LocalizedTypeCaption",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "TypeIsDocType",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean"
+    },
+    {
+      "Alias": "TypeName",
+      "Appearance": null,
+      "Caption": "$Views_KrTypesEffective_Alias",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.TypeName",
+      "TreatValueAsUtc": false,
+      "Type": "$Types.Name"
+    },
+    {
+      "Alias": "IsDocTypeCaption",
+      "Appearance": null,
+      "Caption": "$Views_KrTypesEffective_Type",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "ParentType",
+      "Appearance": null,
+      "Caption": "$Views_KrTypesEffective_ParentType",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrSettingsCardTypes.CardTypeCaption"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "TypeCaption",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Caption",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_KrTypesEffective_Name_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_KrTypesEffective_Alias_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Types.Name"
+    },
+    {
+      "Alias": "TypeIsDocType",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue",
+        "IsFalse"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_KrTypesEffective_DocType_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean"
+    }
+  ],
+  "QuickSearchParam": "Caption",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Type",
+      "Condition": null,
+      "DisplayValueColumn": "TypeCaption",
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "KrCardTypesАccess"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART KrTypesEffectiveАccess MSSQL]
+SELECT
+	[t].*
+FROM (
+	SELECT
+		[t].[ID]									AS [TypeID],
+		[t].[Caption]								AS [TypeCaption],
+		[lCaption].[Value]							AS [LocalizedTypeCaption],
+		CAST(0 AS bit)								AS [TypeIsDocType],
+		[t].[Name]									AS [TypeName],
+		N'$Views_KrTypesEffective_CardType_Sql'		AS [IsDocTypeCaption],
+		N''											AS [ParentType]
+	FROM [Types] AS [t] WITH (NOLOCK)
+	INNER JOIN [KrSettingsCardTypes] AS [kr]
+		ON [kr].[CardTypeID] = [t].[ID]
+		AND [kr].[UseDocTypes] = 0
+	CROSS APPLY [Localization]([t].[Caption], #param(locale)) AS [lCaption]
+	WHERE 1 = 1
+		#if(TypeIsDocType && TypeIsDocType.CriteriaName == "IsTrue") { AND 1 = 0 }
+		#param(Name, [t].[Name])
+		#param(Caption, [lCaption].[Value])
+
+	UNION ALL
+
+	SELECT
+		[t].[ID]									AS [TypeID],
+		[t].[Title]									AS [TypeCaption],
+		[lTitle].[Value]							AS [LocalizedTypeCaption],
+		CAST(1 AS bit)								AS [TypeIsDocType],
+		[t].[CardTypeName]							AS [TypeName],
+		N'$Views_KrTypesEffective_DocType_Sql'		AS [IsDocTypeCaption],
+		[kr].[CardTypeCaption]						AS [ParentType]
+	FROM [KrDocType] AS [t] WITH (NOLOCK)
+	INNER JOIN [KrSettingsCardTypes] AS [kr] WITH (NOLOCK)
+		ON [kr].[CardTypeID] = [t].[CardTypeID]
+		AND [kr].[UseDocTypes] = 1
+	CROSS APPLY [Localization]([t].[Title], #param(locale)) AS [lTitle]
+	WHERE 1 = 1
+		#if(TypeIsDocType && TypeIsDocType.CriteriaName == "IsFalse") { AND 1 = 0 }
+		#param(Name, [t].[CardTypeName])
+		#param(Caption, [lTitle].[Value])
+	) AS [t]
+ORDER BY #order_by
+
+[TEXTPART KrTypesEffectiveАccess PGSQL]
+SELECT
+	"t".*
+FROM (
+	SELECT
+		"t"."ID"									AS "TypeID",
+		"t"."Title"									AS "TypeCaption",
+		"lTitle"."Value"							AS "LocalizedTypeCaption",
+		true										AS "TypeIsDocType",
+		"t"."CardTypeName"							AS "TypeName",
+		'$Views_KrTypesEffective_DocType_Sql'		AS "IsDocTypeCaption",
+		"kr"."CardTypeCaption"						AS "ParentType"
+	FROM "KrDocType" AS "t"
+	INNER JOIN "KrSettingsCardTypes" AS "kr"
+		ON "kr"."CardTypeID" = "t"."CardTypeID"
+		AND "kr"."UseDocTypes" = true
+	CROSS JOIN "Localization"("t"."Title", #param(locale)) AS "lTitle"
+	WHERE true
+		and "t"."HideCreationButton" = false
+		--and "t"."Title" not like 'Входящ%'
+		and "t"."ID" in 
+			(
+			select "tt"."TypeID" from "KrPermissionTypes" as "tt"
+			inner JOIN "KrPermissionRoles" AS "tr"
+			ON "tr"."ID" = "tt"."ID"
+			inner JOIN "KrPermissions" AS "kp"
+			ON "kp"."ID" = "tt"."ID"
+			where
+			"kp"."IsDisabled" = false and
+			"tt"."ID" != 'f523921c-ce6d-4871-82e9-5297baaddd34' -- правило для всех сотрудников
+			and "tt"."ID" != '721a4879-09f0-46ee-83f7-b65cfdaeb111' -- правило для администраторов
+			and "tt"."ID" != '6ae538ba-fa05-4792-bc54-120cd05ceaf3' -- Правило для подписания ЭП на планшетах
+			and "kp"."CanCreateCard" = true
+			and EXISTS (
+			SELECT NULL
+			FROM "RoleUsers" AS "ru"
+			WHERE "ru"."ID" = "tr"."RoleID"
+				AND "ru"."TypeID" <> 6
+				and "ru"."UserID" = #param(CurrentUserID)
+				
+			)
+			)
+		#if(TypeIsDocType && TypeIsDocType.CriteriaName == "IsFalse") { AND false }
+		#param(Name, "t"."CardTypeName")
+		#param(Caption, "lTitle"."Value")
+	) AS "t"
+ORDER BY #order_by

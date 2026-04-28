@@ -1,0 +1,128 @@
+{
+  "Alias": "MedoRejectionReasons",
+  "Caption": "MedoRejectionReasons",
+  "Description": " ",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "c51c8c03-5ca2-46ba-bf72-2d8b2e4d8841",
+  "JsonMetadataSource::txt": "MedoRejectionReasons JSONMETA",
+  "MsQuerySource::txt": "MedoRejectionReasons MSSQL",
+  "PgQuerySource::txt": "MedoRejectionReasons PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "c51c8c03-5ca2-46ba-bf72-2d8b2e4d8841",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART MedoRejectionReasons JSONMETA]
+{
+  "Alias": "MedoRejectionReasons",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "MedoRejectionReasons",
+  "Columns": [
+    {
+      "Alias": "TypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int16 Null"
+    },
+    {
+      "Alias": "TypeName",
+      "Appearance": null,
+      "Caption": "Наименование",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "",
+      "TreatValueAsUtc": false,
+      "Type": "$MedoRejectionReasons.MEDORejStatus"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Наименование",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$MedoRejectionReasons.MEDORejStatus"
+    }
+  ],
+  "QuickSearchParam": "Name",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Type",
+      "Condition": null,
+      "DisplayValueColumn": "TypeName",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "MedoRejectionsReasons"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART MedoRejectionReasons MSSQL]
+
+
+[TEXTPART MedoRejectionReasons PGSQL]
+SELECT
+	"pt"."ID"					AS "TypeID",
+	"pt"."MEDORejStatus"		AS "TypeName"
+FROM "MedoRejectionReasons" AS "pt"
+
+WHERE true
+	#param(Name, "pt"."MEDORejStatus")
+ORDER BY "pt"."ID"

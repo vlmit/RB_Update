@@ -1,0 +1,171 @@
+{
+  "Alias": "test3_OutgoingWithPdf",
+  "Caption": "Список исходящих от районов с файлами пдф",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "d16c1ac1-5fb8-4d48-b03d-b976c382cdbd",
+  "JsonMetadataSource::txt": "test3_OutgoingWithPdf JSONMETA",
+  "MsQuerySource::txt": "test3_OutgoingWithPdf MSSQL",
+  "PgQuerySource::txt": "test3_OutgoingWithPdf PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "d16c1ac1-5fb8-4d48-b03d-b976c382cdbd",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART test3_OutgoingWithPdf JSONMETA]
+{
+  "Alias": "test3_OutgoingWithPdf",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Список исходящих от районов с файлами пдф",
+  "Columns": [
+    {
+      "Alias": "ID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.ID"
+    },
+    {
+      "Alias": "FullNumber",
+      "Appearance": null,
+      "Caption": "FullNumber",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    },
+    {
+      "Alias": "DepartmentName",
+      "Appearance": null,
+      "Caption": "DepartmentName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    },
+    {
+      "Alias": "RegistratorName",
+      "Appearance": null,
+      "Caption": "RegistratorName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    },
+    {
+      "Alias": "FileList",
+      "Appearance": null,
+      "Caption": "FileList",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    },
+    {
+      "Alias": "RoleList",
+      "Appearance": null,
+      "Caption": "RoleList",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "NdsID",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": "Rate",
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART test3_OutgoingWithPdf MSSQL]
+
+
+[TEXTPART test3_OutgoingWithPdf PGSQL]
+SELECT
+	"dci"."ID"		AS "ID",
+	"dci"."FullNumber" as "FullNumber",
+	"dci"."DepartmentName" as "DepartmentName",
+	"dci"."RegistratorName" as "RegistratorName",
+	(SELECT string_agg("f"."Name",'; ')
+		FROM "Files" as "f" 
+		WHERE "dci"."ID"="f"."ID" and "f"."Name" like '%.pdf%'
+		) as "FileList",
+		
+	(SELECT string_agg("th"."RoleName",'; ')
+		FROM "TaskHistory" AS "th" 
+		where "th"."ID" = "dci"."ID" and "th"."TypeID" = '2257bff2-1bdd-4f9a-aacd-dd93de844ea6' 
+		) as "RoleList"
+		
+FROM "DocumentCommonInfo" AS "dci"
+WHERE true and "dci"."DocTypeID" = '02bd0e1f-d80b-4223-a552-a50f633f17fe' --тип Исходящий
+and exists(select null from "TaskHistory" as "th" where "th"."ID" = "dci"."ID" 
+			and "th"."TypeID" = '2257bff2-1bdd-4f9a-aacd-dd93de844ea6')
+and exists(select null from "Files" as "f" where "f"."ID" = "dci"."ID" 
+			and "f"."Name" like '%.pdf%')
+
+ORDER BY "dci"."CreationDate" desc

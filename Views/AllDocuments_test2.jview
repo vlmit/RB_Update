@@ -1,0 +1,1226 @@
+{
+  "Alias": "AllDocuments_test2",
+  "Caption": "Мои документы",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "CustomDocs",
+  "ID::uid": "e024064a-2727-422e-bbae-a3e6a8081692",
+  "JsonMetadataSource::txt": "AllDocuments_test2 JSONMETA",
+  "MsQuerySource::txt": "AllDocuments_test2 MSSQL",
+  "PgQuerySource::txt": "AllDocuments_test2 PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "e024064a-2727-422e-bbae-a3e6a8081692",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART AllDocuments_test2 JSONMETA]
+{
+  "Alias": "AllDocuments_test2",
+  "Appearance": "Background",
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Мои документы",
+  "Columns": [
+    {
+      "Alias": "DocID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ID"
+    },
+    {
+      "Alias": "DocNumber",
+      "Appearance": null,
+      "Caption": "$Views_Registers_Number",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.Number",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.FullNumber"
+    },
+    {
+      "Alias": "DocDate",
+      "Appearance": null,
+      "Caption": "$Views_Registers_DocDate",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.DocDate",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocDate"
+    },
+    {
+      "Alias": "DocSubject",
+      "Appearance": null,
+      "Caption": "$Views_Registers_Subject",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.Subject",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocTypeTitle"
+    },
+    {
+      "Alias": "DocDescription",
+      "Appearance": null,
+      "Caption": "$Views_Registers_DocDescription",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "AuthorID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.AuthorID"
+    },
+    {
+      "Alias": "AuthorName",
+      "Appearance": null,
+      "Caption": "$Views_Registers_Author",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.AuthorName",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.AuthorName"
+    },
+    {
+      "Alias": "RegistratorID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.RegistratorID"
+    },
+    {
+      "Alias": "RegistratorName",
+      "Appearance": null,
+      "Caption": "$Views_Registers_Registrator",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.RegistratorName",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.RegistratorName"
+    },
+    {
+      "Alias": "KrState",
+      "Appearance": null,
+      "Caption": "$Views_Registers_State",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrApprovalCommonInfo.StateName"
+    },
+    {
+      "Alias": "KrStateModified",
+      "Appearance": null,
+      "Caption": "$Views_Registers_StateModified",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Date"
+    },
+    {
+      "Alias": "PartnerName",
+      "Appearance": null,
+      "Caption": "Корреспондент",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentName"
+    },
+    {
+      "Alias": "CreationDate",
+      "Appearance": null,
+      "Caption": "$Views_Registers_CreationDate",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.CreationDate",
+      "TreatValueAsUtc": false,
+      "Type": "Date"
+    },
+    {
+      "Alias": "Department",
+      "Appearance": null,
+      "Caption": "$Views_Registers_Department",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentName"
+    },
+    {
+      "Alias": "DocTypeTitle",
+      "Appearance": null,
+      "Caption": "Тип документа",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentName"
+    },
+    {
+      "Alias": "ApprovedBy",
+      "Appearance": null,
+      "Caption": "$Views_Registers_ApprovedBy",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrApprovalCommonInfo.ApprovedBy"
+    },
+    {
+      "Alias": "DisapprovedBy",
+      "Appearance": null,
+      "Caption": "$Views_Registers_DisapprovedBy",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrApprovalCommonInfo.DisapprovedBy"
+    },
+    {
+      "Alias": "Background",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "rn",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int64"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "DocDate",
+      "SortDirection": "Descending"
+    }
+  ],
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": true,
+  "Overrides": null,
+  "PageLimit::int": 500,
+  "Paging": "Always",
+  "Parameters": [
+    {
+      "Alias": "IsAuthor",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue",
+        "IsFalse"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Registers_IsAuthor_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean"
+    },
+    {
+      "Alias": "IsInitiator",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue",
+        "IsFalse"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Registers_IsInitiator_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean"
+    },
+    {
+      "Alias": "IsRegistrator",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue",
+        "IsFalse"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Registers_IsRegistrator_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean"
+    },
+    {
+      "Alias": "Number",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Registers_Number_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.FullNumber"
+    },
+    {
+      "Alias": "Subject",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Registers_Subject_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "OutgoingNumber",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "№ (внеш.)",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.OutgoingNumber"
+    },
+    {
+      "Alias": "OutgoingDate",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Дата (внеш.)",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.OutgoingDate"
+    },
+    {
+      "Alias": "DocDate",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "$Views_Registers_DocDate_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Date"
+    },
+    {
+      "Alias": "Author",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality",
+        "NonEquality"
+      ],
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          4
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "Users"
+      },
+      "Caption": "$Views_Registers_Author_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "PersonalRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.AuthorID"
+    },
+    {
+      "Alias": "Registrator",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality",
+        "NonEquality"
+      ],
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          4
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "Users"
+      },
+      "Caption": "$Views_Registers_Registrator_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "PersonalRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.RegistratorID"
+    },
+    {
+      "Alias": "State",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality",
+        "NonEquality",
+        "IsNull",
+        "IsNotNull"
+      ],
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrDocStates"
+      },
+      "Caption": "$Views_Registers_State_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrDocStates"
+      },
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "KrDocState",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrApprovalCommonInfo.StateID"
+    },
+    {
+      "Alias": "Type",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Caption",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrTypesEffective"
+      },
+      "Caption": "$Views_Registers_Type_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrTypesEffective"
+      },
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "KrCardTypesVirtual",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocTypeID"
+    },
+    {
+      "Alias": "Type2",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Caption",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrTypesEffective"
+      },
+      "Caption": "Тип исключение",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "KrTypesEffective"
+      },
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "KrCardTypesVirtual",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocTypeID"
+    },
+    {
+      "Alias": "Department",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          3,
+          5
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "Departments"
+      },
+      "Caption": "$Views_Registers_Department_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "DepartmentRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentID"
+    },
+    {
+      "Alias": "AllTypesSearch",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Поиск по всем текстовым реквизитам",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "ExternalGuid",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Внешний guid",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    }
+  ],
+  "QuickSearchParam": "Number",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Doc",
+      "Condition": null,
+      "DisplayValueColumn": "DocNumber",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "DocumentCommonInfo",
+        "DocRefsSection"
+      ]
+    },
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Author",
+      "Condition": null,
+      "DisplayValueColumn": "AuthorName",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "Roles",
+        "DurableRoles",
+        "PersonalRoles"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": "Count",
+  "SelectionMode": "Row",
+  "Subsets": [
+    {
+      "Alias": "ByType",
+      "Caption": "$Views_Registers_ByType_Subset",
+      "CaptionColumn": "TypeName",
+      "Condition": null,
+      "CountColumn": "TypeCount",
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": "TypeID",
+      "RefParam": "Type",
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    },
+    {
+      "Alias": "ByState",
+      "Caption": "$Views_Registers_ByState_Subset",
+      "CaptionColumn": "StateName",
+      "Condition": null,
+      "CountColumn": "StateCount",
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": "StateID",
+      "RefParam": "State",
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    },
+    {
+      "Alias": "Count",
+      "Caption": null,
+      "CaptionColumn": null,
+      "Condition": null,
+      "CountColumn": null,
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": null,
+      "RefParam": null,
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    }
+  ],
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART AllDocuments_test2 MSSQL]
+#var(UseCommonInfo: Normal || ByType || Number || Subject || DocDate || Author || Registrator || Department || Type || IsAuthor || IsRegistrator)
+
+DECLARE @Project nvarchar(max);
+SET @Project = [dbo].[GetString](N'Views_Registers_Project_Sql', #param(locale));
+
+SELECT
+	#if(Normal) {
+	[mi].[ID]																		AS [DocID],
+	[mi].[FullNumber]																AS [DocNumber],
+	[mi].[Subject]																	AS [DocSubject],
+	COALESCE([mi].[FullNumber], N'') + N', ' + COALESCE([mi].[Subject], N'')		AS [DocDescription], 	-- autocomplete
+	[mi].[AuthorID],
+	[mi].[AuthorName],
+	[mi].[RegistratorID],
+	[mi].[RegistratorName],
+	COALESCE([kr].[StateName], @Project)											AS [KrState],
+	CAST(COALESCE([kr].[StateChangedDateTimeUTC], [mi].[CreationDate]) AS date)		AS [KrStateModified],
+	CAST([mi].[DocDate] AS date)													AS [DocDate],
+	CAST([mi].[CreationDate] AS date)												AS [CreationDate],
+	[mi].[DepartmentName]															AS [Department],
+	[kr].[ApprovedBy],
+	[kr].[DisapprovedBy],
+	N'#appearance(Background: ' + CASE
+		WHEN ([kr].[StateID] = 1 OR [kr].[StateID] = 10) AND [kr].[DisapprovedBy] IS NOT NULL AND [kr].[DisapprovedBy] <> N''	-- Red: active/signing AND has disapprovers
+			THEN N'#70FF0000'
+		WHEN [kr].[StateID] = 2 OR [kr].[StateID] = 6 OR [kr].[StateID] = 8														-- Green: approved/signed/registered
+			THEN N'#7000FF00'
+		WHEN [kr].[StateID] = 4																									-- Yellow: editing
+			THEN N'#70FFFF00'
+		ELSE N'#00000000'																										-- Transparent: other
+	END + N')'																		AS [Background],
+	[t].[rn]
+	}
+
+	#if(Count) {
+	[t].*
+	}
+
+	#if(ByType) {
+	[t].[TypeID],
+	[lName].[Value] AS [TypeName],
+	[t].[TypeCount]
+	}
+
+	#if(ByState) {
+	[t].*
+	}
+FROM (
+	SELECT
+		#if(Normal) {
+		[t].[ID],
+		row_number() OVER (ORDER BY #order_by) AS [rn]
+		}
+
+		#if(Count) {
+		count(*) AS [cnt]
+		}
+
+		#if(ByType) {
+		COALESCE([mi].[DocTypeID], [mi].[CardTypeID])		AS [TypeID],
+		count(*)											AS [TypeCount]
+		}
+
+		#if(ByState) {
+		COALESCE([kr].[StateID], CAST(0 AS smallint))		AS [StateID],
+		COALESCE([kr].[StateName], N'$KrStates_Doc_Draft')	AS [StateName],
+		count(*)											AS [StateCount]
+		}
+	FROM (
+		-- я автор
+		SELECT [ID]
+		FROM [DocumentCommonInfo] AS [mi] WITH (NOLOCK)
+		WHERE [mi].[AuthorID] = #param(CurrentUserID)
+
+		UNION
+		-- я регистратор
+		SELECT [ID]
+		FROM [DocumentCommonInfo] AS [mi] WITH (NOLOCK)
+		WHERE [mi].[RegistratorID] = #param(CurrentUserID)
+
+		UNION
+		-- я инициатор
+		SELECT [MainCardID]
+		FROM [KrApprovalCommonInfo] AS [kr] WITH (NOLOCK)
+		WHERE [kr].[AuthorID] = #param(CurrentUserID)
+		) AS [t]
+
+	#if(UseCommonInfo) {
+	INNER JOIN [DocumentCommonInfo] AS [mi] WITH (NOLOCK)
+		ON [mi].[ID] = [t].[ID]
+	}
+
+	#if(ByState || State || IsInitiator) {
+	LEFT JOIN [KrApprovalCommonInfo] AS [kr] WITH (NOLOCK)
+		ON [kr].[MainCardID] = [t].[ID]
+	}
+
+	WHERE 1 = 1
+		#param(Number, [mi].[FullNumber])
+		#param(Subject, [mi].[Subject])
+		#param(DocDate, [mi].[DocDate])
+		#param(State, COALESCE([kr].[StateID], 0))
+		#param(Author, [mi].[AuthorID])
+		#param(Registrator, [mi].[RegistratorID])
+		#param(Department, [mi].[DepartmentID])
+
+		#if(Type) {
+		AND (1 = 1 #param(Type, [mi].[DocTypeID]) OR 1 = 1 #param(Type, [mi].[CardTypeID]))
+		}
+
+		#if(IsAuthor) {
+			#if(IsAuthor.CriteriaName == "IsTrue") {
+		AND [mi].[AuthorID] = #param(CurrentUserID)
+			} {
+		AND ([mi].[AuthorID] IS NULL OR [mi].[AuthorID] <> #param(CurrentUserID))
+			}
+		}
+
+		#if(IsRegistrator) {
+			#if(IsRegistrator.CriteriaName == "IsTrue") {
+		AND [mi].[RegistratorID] = #param(CurrentUserID)
+			} {
+		AND ([mi].[RegistratorID] IS NULL OR [mi].[RegistratorID] <> #param(CurrentUserID))
+			}
+		}
+
+		#if(IsInitiator) {
+			#if(IsInitiator.CriteriaName == "IsTrue") {
+		AND [kr].[AuthorID] = #param(CurrentUserID)
+			} {
+		AND ([kr].[AuthorID] IS NULL OR [kr].[AuthorID] <> #param(CurrentUserID))
+			}
+		}
+
+	#if(ByType) {
+	GROUP BY COALESCE([mi].[DocTypeID], [mi].[CardTypeID])
+	}
+
+	#if(ByState) {
+	GROUP BY COALESCE([kr].[StateID], CAST(0 AS smallint)), COALESCE([kr].[StateName], N'$KrStates_Doc_Draft')
+	}
+	) AS [t]
+
+#if(Normal) {
+INNER JOIN [DocumentCommonInfo] AS [mi] WITH (NOLOCK)
+	ON [mi].[ID] = [t].[ID]
+INNER JOIN [Types] AS [tt] WITH (NOLOCK)
+	ON [tt].[ID] = [mi].[CardTypeID]
+LEFT JOIN [KrApprovalCommonInfo] AS [kr] WITH (NOLOCK)
+	ON [kr].[MainCardID] = [t].[ID]
+#if(PageOffset) {
+WHERE [t].[rn] >= #param(PageOffset) AND [t].[rn] < (#param(PageOffset) + #param(PageLimit))
+}
+ORDER BY [t].[rn]
+}
+
+#if(ByState) {
+CROSS APPLY [Localization]([t].[StateName], #param(locale)) AS [lStateName]
+ORDER BY [lStateName].[Value]
+}
+
+#if(ByType) {
+LEFT JOIN [KrDocType] AS [kdt] WITH (NOLOCK)
+	ON [kdt].[ID] = [t].[TypeID]
+LEFT JOIN [Types] AS [tt] WITH (NOLOCK)
+	ON [tt].[ID] = [t].[TypeID]
+CROSS APPLY [Localization](COALESCE([kdt].[Title], [tt].[Caption]), #param(locale)) AS [lName]
+ORDER BY [lName].[Value]
+}
+;
+
+[TEXTPART AllDocuments_test2 PGSQL]
+DECLARE
+	"project" text;
+BEGIN
+	#var(UseCommonInfo: Normal || ByType || Number || Subject || OutgoingNumber || OutgoingDate || DocDate || Author || Registrator || Department || Type || IsAuthor || IsRegistrator 
+	|| AllTypesSearch || Type2 || ExternalGuid)
+
+	"project" = "GetString"('Views_Registers_Project_Sql', #param(locale));
+	-- отключение поиска при отсутствии фильтров
+	#if(!ByType && !Number && !Subject && !OutgoingNumber && !OutgoingDate && !DocDate && !Author && !Registrator && !Department && !Type && !IsAuthor && !IsRegistrator 
+	&& !AllTypesSearch && !Type2 && !ExternalGuid) {
+	--RETURN QUERY
+	--SELECT 'Укажите, пожалуйста, фильтры для поиска документов!' from "GriffMedo" as GM limit 1
+	} 
+	{
+	RETURN QUERY
+
+	SELECT 
+		#if(Normal) {
+		"mi"."ID"																		AS "DocID",
+		"mi"."FullNumber"																AS "DocNumber",
+		CAST("mi"."DocDate" AS date)													AS "DocDate",
+		"mi"."Subject"																	AS "DocSubject",
+		COALESCE("mi"."FullNumber", '') || ', ' || COALESCE("mi"."Subject", '')			AS "DocDescription",		-- autocomplete
+		"mi"."AuthorID",
+		"mi"."AuthorName",
+		"mi"."RegistratorID",
+		"mi"."RegistratorName",
+		COALESCE("kr"."StateName", "project")											AS "KrState",
+		CAST(COALESCE("kr"."StateChangedDateTimeUTC", "mi"."CreationDate") AS date)		AS "KrStateModified",
+		"mi"."PartnerName",
+		
+		--TO_CHAR("mi"."DocDate", 'DD.MM.YYYY') 
+		CAST("mi"."CreationDate" AS date)												AS "CreationDate",
+		"mi"."DepartmentName"															AS "Department",
+		"mi"."DocTypeTitle",
+		"kr"."ApprovedBy",
+		"kr"."DisapprovedBy",
+		'#appearance(Background: ' || CASE
+			WHEN ("kr"."StateID" = 1 OR "kr"."StateID" = 10) AND "kr"."DisapprovedBy" IS NOT NULL AND "kr"."DisapprovedBy" <> ''	-- Red: active/signing AND has disapprovers
+				THEN '#70FF0000'
+			WHEN "kr"."StateID" = 2 OR "kr"."StateID" = 6 OR "kr"."StateID" = 8														-- Green: approved/signed/registered
+				THEN '#7000FF00'
+			WHEN "kr"."StateID" = 4																									-- Yellow: editing
+				THEN '#70FFFF00'
+			ELSE '#00000000'																										-- Transparent: other
+		END || ')'																		AS "Background",
+		0::int8																			AS "rn"
+		}
+
+		#if(Count) {
+		"t".*
+		}
+
+		#if(ByType) {
+		"t"."TypeID",
+		"lName"."Value" AS "TypeName",
+		"t"."TypeCount"
+		}
+
+		#if(ByState) {
+		"t".*
+		}
+	FROM (
+		SELECT
+			#if(Normal) {
+			"t"."ID"
+			}
+
+			#if(Count) {
+			count(*) AS "cnt"
+			}
+
+			#if(ByType) {
+			COALESCE("mi"."DocTypeID", "mi"."CardTypeID")		AS "TypeID",
+			count(*)											AS "TypeCount"
+			}
+
+			#if(ByState) {
+			COALESCE("kr"."StateID", CAST(0 AS smallint))		AS "StateID",
+			COALESCE("kr"."StateName", '$KrStates_Doc_Draft')	AS "StateName",
+			count(*)											AS "StateCount"
+			}
+		FROM (
+			-- я автор
+			SELECT "ID"
+			FROM "DocumentCommonInfo" AS "mi"
+			where "mi"."ID" != '1826344c-904c-48d7-b604-e46bbb318175'
+			and "mi"."DocTypeID" in 
+			(
+			select "tt"."TypeID" from "KrPermissionTypes" as "tt"
+			inner JOIN "KrPermissionRoles" AS "tr"
+			ON "tr"."ID" = "tt"."ID"
+			inner JOIN "KrPermissions" AS "kp"
+			ON "kp"."ID" = "tt"."ID"
+			where
+			"kp"."IsDisabled" = false and
+			"tt"."ID" != 'f523921c-ce6d-4871-82e9-5297baaddd34' -- правило для всех сотрудников
+			and "tt"."ID" != '721a4879-09f0-46ee-83f7-b65cfdaeb111' -- правило для администраторов
+			and EXISTS (
+			SELECT NULL
+			FROM "RoleUsers" AS "ru"
+			WHERE "ru"."ID" = "tr"."RoleID"
+				AND "ru"."TypeID" <> 6
+				and "ru"."UserID" = #param(CurrentUserID)
+				
+			)
+			)
+			
+			--WHERE "mi"."AuthorID" = #param(CurrentUserID)
+
+			UNION
+			-- исполнители в истории заданий
+			SELECT "ID"
+			FROM "DocumentCommonInfo" AS "mi"
+			WHERE EXISTS (
+				select "th"."ID" from "TaskHistory" as "th"
+				where "th"."ID" = "mi"."ID" and "th"."RoleID" in 
+				(select "UserID" from "RoleUsers"
+				as "ru" where "ru"."ID" in 
+					(select "pr"."ID" from "Roles" as "pr" where "pr"."HeadID" =
+						(select "pr1"."HeadID" from "Roles" as "pr1"
+						inner join "DepartmentRoles" as "dr" on "dr"."ID"= "pr1"."ID"
+						inner join "RoleUsers" as "ruru" on "ruru"."ID"= "dr"."ID"
+						where "ruru"."UserID" = #param(CurrentUserID) 
+						and "pr1"."Name" is not null 
+						and "ruru"."IsDeputy" = false
+						limit 1
+					 	)
+					)
+				 
+				)
+				
+			)
+ 
+
+		--	UNION
+			-- я инициатор
+		--	SELECT "MainCardID"
+		--	FROM "KrApprovalCommonInfo" AS "kr"
+		--	WHERE "kr"."AuthorID" = #param(CurrentUserID)
+			) AS "t"
+
+		#if(UseCommonInfo) {
+		INNER JOIN "DocumentCommonInfo" AS "mi"
+			ON "mi"."ID" = "t"."ID"
+		}
+
+		#if(ByState || State || IsInitiator) {
+		LEFT JOIN "KrApprovalCommonInfo" AS "kr"
+			ON "kr"."MainCardID" = "t"."ID"
+		}
+		{
+		LEFT JOIN "KrApprovalCommonInfo" AS "kr"
+			ON "kr"."MainCardID" = "t"."ID"
+		}
+
+		WHERE true
+
+			#param(Number, "mi"."FullNumber")
+			#param(Subject, "mi"."Subject")
+			#param(OutgoingNumber, "mi"."OutgoingNumber")
+			#param(OutgoingDate, "mi"."OutgoingDate")
+			#param(DocDate, "mi"."DocDate")
+			#param(State, COALESCE("kr"."StateID", 0))
+			#param(Author, "mi"."AuthorID")
+			#param(Registrator, "mi"."RegistratorID")
+			#param(Department, "mi"."DepartmentID") 
+			#param(ExternalGuid, "mi"."ExternalGuid")
+			#if(AllTypesSearch)
+			{
+			and (  
+			    (true #param(AllTypesSearch, "mi"."FullNumber"))
+				or
+				(true #param(AllTypesSearch, "mi"."Subject"))
+				or
+				(TRUE #param(AllTypesSearch, "mi"."AuthorName"))
+				or
+				(TRUE #param(AllTypesSearch, "mi"."RegistratorName")) 
+		--		or
+		--		(TRUE #param(AllTypesSearch, "GetString"("kr"."StateName", #param(locale)))) -- не работает
+				or
+				(TRUE #param(AllTypesSearch, TO_CHAR(COALESCE("kr"."StateChangedDateTimeUTC", "mi"."CreationDate"), 'DD.MM.YYYY'))) --?
+				or
+				(TRUE #param(AllTypesSearch, TO_CHAR("mi"."DocDate", 'DD.MM.YYYY')))
+				or
+				(TRUE #param(AllTypesSearch, TO_CHAR("mi"."CreationDate", 'DD.MM.YYYY')))
+				or
+				(TRUE #param(AllTypesSearch, "mi"."DepartmentName"))
+				or
+				(TRUE #param(AllTypesSearch, "kr"."ApprovedBy"))
+				or
+				(TRUE #param(AllTypesSearch, "kr"."DisapprovedBy"))
+				)
+			}
+			#if(Type) {
+			AND (true #param(Type, "mi"."DocTypeID") OR true #param(Type, "mi"."CardTypeID"))
+			}
+			#if(Type2) {
+			and "mi"."CardTypeID" != '01ad498e-5f8e-417a-bd28-942739dbf342' -- исключили поручения
+			}
+
+			#if(IsAuthor) {
+				#if(IsAuthor.CriteriaName == "IsTrue") {
+			AND "mi"."AuthorID" = #param(CurrentUserID)
+				} {
+			AND ("mi"."AuthorID" IS NULL OR "mi"."AuthorID" <> #param(CurrentUserID))
+				}
+			}
+
+			#if(IsRegistrator) {
+				#if(IsRegistrator.CriteriaName == "IsTrue") {
+			AND "mi"."RegistratorID" = #param(CurrentUserID)
+				} {
+			AND ("mi"."RegistratorID" IS NULL OR "mi"."RegistratorID" <> #param(CurrentUserID))
+				}
+			}
+
+			#if(IsInitiator) {
+				#if(IsInitiator.CriteriaName == "IsTrue") {
+			AND "kr"."AuthorID" = #param(CurrentUserID)
+				} {
+			AND ("kr"."AuthorID" IS NULL OR "kr"."AuthorID" <> #param(CurrentUserID))
+				}
+			}
+
+		#if(Normal) {
+		ORDER BY #order_by
+		}
+
+		#if(PageOffset) {
+		OFFSET #param(PageOffset) - 1 LIMIT #param(PageLimit)
+		}
+
+		#if(ByType) {
+		GROUP BY COALESCE("mi"."DocTypeID", "mi"."CardTypeID")
+		}
+
+		#if(ByState) {
+		GROUP BY COALESCE("kr"."StateID", CAST(0 AS smallint)), COALESCE("kr"."StateName", '$KrStates_Doc_Draft')
+		}
+		) AS "t"
+
+	#if(Normal) {
+	INNER JOIN "DocumentCommonInfo" AS "mi"
+		ON "mi"."ID" = "t"."ID"
+	INNER JOIN "Types" AS "tt"
+		ON "tt"."ID" = "mi"."CardTypeID"
+	LEFT JOIN "KrApprovalCommonInfo" AS "kr"
+		ON "kr"."MainCardID" = "t"."ID"
+	ORDER BY #order_by
+	}
+
+	#if(ByState) {
+	CROSS JOIN "Localization"("t"."StateName", #param(locale)) AS "lStateName"
+	ORDER BY "lStateName"."Value"
+	}
+
+	#if(ByType) {
+	LEFT JOIN "KrDocType" AS "kdt"
+		ON "kdt"."ID" = "t"."TypeID"
+	LEFT JOIN "Types" AS "tt"
+		ON "tt"."ID" = "t"."TypeID"
+	CROSS JOIN "Localization"(COALESCE("kdt"."Title", "tt"."Caption"), #param(locale)) AS "lName"
+	ORDER BY "lName"."Value"
+	};
+}	
+END;

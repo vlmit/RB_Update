@@ -1,0 +1,239 @@
+{
+  "Alias": "MEDOJournalReports",
+  "Caption": "Журнал докладов МЭДО",
+  "Description": "  ",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "13717b1c-e254-4c15-83cb-8ae721439bce",
+  "JsonMetadataSource::txt": "MEDOJournalReports JSONMETA",
+  "MsQuerySource::txt": "MEDOJournalReports MSSQL",
+  "PgQuerySource::txt": "MEDOJournalReports PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "13717b1c-e254-4c15-83cb-8ae721439bce",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART MEDOJournalReports JSONMETA]
+{
+  "Alias": "MEDOJournalReports",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Журнал докладов МЭДО",
+  "Columns": [
+    {
+      "Alias": "ReportID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$MEDOJournalReports.ID"
+    },
+    {
+      "Alias": "CardID",
+      "Appearance": null,
+      "Caption": "CardID",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$MEDOJournalReports.CardID"
+    },
+    {
+      "Alias": "PartnersID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": "",
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$MEDOJournalReports.PartnersID"
+    },
+    {
+      "Alias": "PartnersName",
+      "Appearance": null,
+      "Caption": "Адресат ",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "pt.PartnersName",
+      "TreatValueAsUtc": false,
+      "Type": "$MEDOJournalReports.PartnersName"
+    },
+    {
+      "Alias": "DateOfReceiving",
+      "Appearance": null,
+      "Caption": "Дата получения ",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "pt.DateOfReceiving",
+      "TreatValueAsUtc": false,
+      "Type": "DateTime Null"
+    },
+    {
+      "Alias": "Comment",
+      "Appearance": null,
+      "Caption": "Комментарий ",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$MEDOJournalReports.Comment"
+    },
+    {
+      "Alias": "Status",
+      "Appearance": null,
+      "Caption": "Статус ",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$MEDOJournalReports.Status"
+    },
+    {
+      "Alias": "RegNum",
+      "Appearance": null,
+      "Caption": "Рег.№ ",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$MEDOJournalReports.RegNum"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "DateOfReceiving",
+      "SortDirection": "Descending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "CardID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$MEDOJournalReports.CardID"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Report",
+      "Condition": null,
+      "DisplayValueColumn": null,
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "MEDOJournalReports"
+      ]
+    },
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Partners",
+      "Condition": null,
+      "DisplayValueColumn": null,
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "Partners"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART MEDOJournalReports MSSQL]
+
+
+[TEXTPART MEDOJournalReports PGSQL]
+SELECT
+	"pt"."ID"					AS "ReportID",
+	"pt"."CardID"				AS "CardID",
+	"pt"."PartnersID"			AS "PartnersID",
+	"pt"."PartnersName"			AS "PartnersName",
+	"pt"."DateOfReceiving"		AS "DateOfReceiving",
+	"pt"."Comment"				AS "Comment",
+	"pt"."Status"				AS "Status",
+	"pt"."RegNum"				AS "RegNum"
+	
+FROM "MEDOJournalReports" AS "pt"
+
+WHERE true
+	#param(CardID, "pt"."CardID")
+order by #order_by

@@ -1,0 +1,242 @@
+{
+  "Alias": "test3_Derigister",
+  "Caption": "Список отмененных регистраций",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "e9c6e92a-4461-4150-9e19-242e931c0d03",
+  "JsonMetadataSource::txt": "test3_Derigister JSONMETA",
+  "MsQuerySource::txt": "test3_Derigister MSSQL",
+  "PgQuerySource::txt": "test3_Derigister PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "e9c6e92a-4461-4150-9e19-242e931c0d03",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART test3_Derigister JSONMETA]
+{
+  "Alias": "test3_Derigister",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Список отмененных регистраций",
+  "Columns": [
+    {
+      "Alias": "NdsID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.ID"
+    },
+    {
+      "Alias": "FullNumber",
+      "Appearance": null,
+      "Caption": "FullNumber",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    },
+    {
+      "Alias": "Subject",
+      "Appearance": null,
+      "Caption": "Subject",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    },
+    {
+      "Alias": "CompletedByName",
+      "Appearance": null,
+      "Caption": "CompletedByName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    },
+    {
+      "Alias": "OptionCaption",
+      "Appearance": null,
+      "Caption": "OptionCaption",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    },
+    {
+      "Alias": "Completed",
+      "Appearance": null,
+      "Caption": "Completed",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.Completed"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "NdsID",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "IsGo",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "IsGo",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Null"
+    },
+    {
+      "Alias": "IsNotGo",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "IsNotGo",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Null"
+    },
+    {
+      "Alias": "IsProj",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "IsTrue"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "IsProj",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Boolean Null"
+    }
+  ],
+  "QuickSearchParam": "Rate",
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART test3_Derigister MSSQL]
+
+
+[TEXTPART test3_Derigister PGSQL]
+SELECT
+	"pt"."ID"		AS "NdsID",
+	"dci"."FullNumber" as "FullNumber",
+	"dci"."Subject" as "Subject",
+	MAX("pt"."CompletedByName")		AS "CompletedByName",
+	"pt"."OptionCaption"		AS "OptionCaption",
+	MAX("pt"."Completed") as "Completed"
+FROM "TaskHistory" AS "pt"
+Inner join "DocumentCommonInfo" as "dci" on "dci"."ID" = "pt"."ID"
+WHERE true
+and "pt"."OptionID" = '66e0a7e1-484a-40a6-b123-06118ce3b160' --отменить регистрацию
+#if(IsGo) 
+{
+and exists(select null from "TaskHistory" as "th2" where "th2"."ID" = "dci"."ID" 
+			and "th2"."TypeID" = '2257bff2-1bdd-4f9a-aacd-dd93de844ea6') 
+} 
+#if(IsNotGo) 
+{
+and not exists(select null from "TaskHistory" as "th2" where "th2"."ID" = "dci"."ID" 
+			and "th2"."TypeID" = '2257bff2-1bdd-4f9a-aacd-dd93de844ea6') 
+}
+#if(IsProj) 
+{
+and ("dci"."FullNumber" is null or "dci"."FullNumber" = '' or "dci"."FullNumber" like '%пр%' or "dci"."FullNumber" like '%ПР%')
+}
+and "dci"."Subject" not in ('Тест', 'ntcn', 'test', 'тест', 'ТЕСТ')
+and "pt"."CompletedByName" != 'Олюнин В.В.'
+
+GROUP BY "pt"."ID","dci"."FullNumber", "dci"."Subject","pt"."OptionCaption"
+ORDER BY "Completed" DESC

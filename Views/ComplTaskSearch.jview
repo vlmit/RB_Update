@@ -1,0 +1,293 @@
+{
+  "Alias": "ComplTaskSearch",
+  "Caption": "Поиск завершенных задач",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Testing",
+  "ID::uid": "fa083a6a-7344-4cfb-aaa0-37f4336a9b17",
+  "JsonMetadataSource::txt": "ComplTaskSearch JSONMETA",
+  "MsQuerySource::txt": "ComplTaskSearch MSSQL",
+  "PgQuerySource::txt": "ComplTaskSearch PGSQL",
+  "Roles": null
+}
+
+[TEXTPART ComplTaskSearch JSONMETA]
+{
+  "Alias": "ComplTaskSearch",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Поиск завершенных задач",
+  "Columns": [
+    {
+      "Alias": "ID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.ID"
+    },
+    {
+      "Alias": "RowID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.RowID"
+    },
+    {
+      "Alias": "ParentRowID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.ParentRowID"
+    },
+    {
+      "Alias": "Created",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "Created",
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.Created"
+    },
+    {
+      "Alias": "AuthorName",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.AuthorName"
+    },
+    {
+      "Alias": "Completed",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "Completed",
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.Completed"
+    },
+    {
+      "Alias": "TypeCaption",
+      "Appearance": null,
+      "Caption": "Тип задания",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.TypeCaption"
+    },
+    {
+      "Alias": "OptionCaption",
+      "Appearance": null,
+      "Caption": "Вариант завершения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.OptionCaption"
+    },
+    {
+      "Alias": "RoleName",
+      "Appearance": null,
+      "Caption": "На кого назначено",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.RoleName"
+    },
+    {
+      "Alias": "UserName",
+      "Appearance": null,
+      "Caption": "Взял или завершил",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.UserName"
+    },
+    {
+      "Alias": "CompletedByName",
+      "Appearance": null,
+      "Caption": "Завершил",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.CompletedByName"
+    },
+    {
+      "Alias": "Result",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.Result"
+    },
+    {
+      "Alias": "ProcessName",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.ProcessName"
+    },
+    {
+      "Alias": "KindCaption",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistory.KindCaption"
+    },
+    {
+      "Alias": "Caption",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength::int": 100,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$TaskHistoryGroups.Caption"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "Created",
+      "SortDirection": "Descending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART ComplTaskSearch MSSQL]
+
+
+[TEXTPART ComplTaskSearch PGSQL]
+select
+	"t"."ID",
+	"t"."RowID",
+	"t"."ParentRowID",
+	"Created",
+	"AuthorName",
+	"Completed",
+	"TypeCaption",
+	"OptionCaption",
+	"RoleName",
+	"UserName",
+	"CompletedByName",
+	"Result",
+	"ProcessName",
+	"KindCaption",
+	"thg"."Caption"
+from
+	"TaskHistory" as "t",
+	"TaskHistoryGroups" as "thg"
+where
+	true
+	--and "t"."ID"='4d76f9a3-59d2-4a38-bb1f-3d8a7095ce98'
+	and "t"."RowID"='bde7ca69-479f-4261-b5a1-545460ac9a09'
+	--and "t"."ParentRowID"='0f6c9bff-eb97-4cae-a66f-3e14c0a5e166'
+	and "t"."GroupRowID"="thg"."RowID"
+order by #order_by

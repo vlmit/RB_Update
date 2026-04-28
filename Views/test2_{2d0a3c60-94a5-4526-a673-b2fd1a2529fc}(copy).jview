@@ -1,0 +1,116 @@
+{
+  "Alias": "test2_{2d0a3c60-94a5-4526-a673-b2fd1a2529fc}(copy)",
+  "Caption": "Сотрудники с уровнем доступа Администратор",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "2d0a3c60-94a5-4526-a673-b2fd1a2529fc",
+  "JsonMetadataSource::txt": "test2_{2d0a3c60-94a5-4526-a673-b2fd1a2529fc}(copy) JSONMETA",
+  "MsQuerySource::txt": "test2_{2d0a3c60-94a5-4526-a673-b2fd1a2529fc}(copy) MSSQL",
+  "PgQuerySource::txt": "test2_{2d0a3c60-94a5-4526-a673-b2fd1a2529fc}(copy) PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "2d0a3c60-94a5-4526-a673-b2fd1a2529fc",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART test2_{2d0a3c60-94a5-4526-a673-b2fd1a2529fc}(copy) JSONMETA]
+{
+  "Alias": "test2_{2d0a3c60-94a5-4526-a673-b2fd1a2529fc}(copy)",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Сотрудники с уровнем доступа Администратор",
+  "Columns": [
+    {
+      "Alias": "NdsID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.ID"
+    },
+    {
+      "Alias": "DeputyName",
+      "Appearance": null,
+      "Caption": "DeputyName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    },
+    {
+      "Alias": "DeputizedName",
+      "Appearance": null,
+      "Caption": "DeputizedName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "NdsID",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": "Rate",
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART test2_{2d0a3c60-94a5-4526-a673-b2fd1a2529fc}(copy) MSSQL]
+
+
+[TEXTPART test2_{2d0a3c60-94a5-4526-a673-b2fd1a2529fc}(copy) PGSQL]
+SELECT
+	"pt"."ID"		AS "NdsID",
+	"pt"."Name"		AS "DeputyName",
+	"pt"."EDSCertificateInfo"		AS "DeputizedName"
+FROM "test2" AS "pt"
+
+WHERE true --and "pt"."AccessLevelID" = 1
+and "pt"."EDSCertificateInfo" is not null
+	#param(Name, "pt"."Name")
+ORDER BY "pt"."ID"

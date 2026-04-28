@@ -1,0 +1,128 @@
+{
+  "Alias": "MEDOActive",
+  "Caption": "Статус МЭДО",
+  "Description": "  ",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "bc040e42-2c73-4dde-87f9-a204f7b180ac",
+  "JsonMetadataSource::txt": "MEDOActive JSONMETA",
+  "MsQuerySource::txt": "MEDOActive MSSQL",
+  "PgQuerySource::txt": "MEDOActive PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "bc040e42-2c73-4dde-87f9-a204f7b180ac",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART MEDOActive JSONMETA]
+{
+  "Alias": "MEDOActive",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Статус МЭДО",
+  "Columns": [
+    {
+      "Alias": "ActiveID",
+      "Appearance": null,
+      "Caption": "Статус",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$MEDOActive.ID"
+    },
+    {
+      "Alias": "ActiveActiveStatus",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$MEDOActive.ActiveStatus"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": null,
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$MEDOActive.ActiveStatus"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Active",
+      "Condition": null,
+      "DisplayValueColumn": null,
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "MEDOActive"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART MEDOActive MSSQL]
+
+
+[TEXTPART MEDOActive PGSQL]
+SELECT
+	"pt"."ID"		AS "ActiveID",
+	"pt"."ActiveStatus"		AS "ActiveActiveStatus"
+FROM "MEDOActive" AS "pt"
+
+WHERE true
+	#param(Name, "pt"."ActiveStatus")
+ORDER BY "pt"."ID"

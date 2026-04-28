@@ -1,0 +1,197 @@
+{
+  "Alias": "FileSignatures",
+  "Caption": "NewView{202dd85c-45f5-4967-a92a-303af094d1a1}",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Testing",
+  "ID::uid": "202dd85c-45f5-4967-a92a-303af094d1a1",
+  "JsonMetadataSource::txt": "FileSignatures JSONMETA",
+  "MsQuerySource::txt": "FileSignatures MSSQL",
+  "PgQuerySource::txt": "FileSignatures PGSQL",
+  "Roles": null
+}
+
+[TEXTPART FileSignatures JSONMETA]
+{
+  "Alias": "FileSignatures",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "NewView{202dd85c-45f5-4967-a92a-303af094d1a1}",
+  "Columns": [
+    {
+      "Alias": "ID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$FileSignatures.ID"
+    },
+    {
+      "Alias": "RowID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$FileSignatures.RowID"
+    },
+    {
+      "Alias": "VersionRowID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$FileSignatures.VersionRowID"
+    },
+    {
+      "Alias": "SerialNumber",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$FileSignatures.SerialNumber"
+    },
+    {
+      "Alias": "IssuerName",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$FileSignatures.IssuerName"
+    },
+    {
+      "Alias": "UserName",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$FileSignatures.UserName"
+    },
+    {
+      "Alias": "Signed",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$FileSignatures.Signed"
+    },
+    {
+      "Alias": "FileName",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Files.Name"
+    },
+    {
+      "Alias": "EventID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$FileSignatures.EventID"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART FileSignatures MSSQL]
+
+
+[TEXTPART FileSignatures PGSQL]
+select
+	fs."ID",
+	fs."RowID",
+	fs."VersionRowID",
+	fs."SerialNumber",
+	fs."IssuerName",
+	fs."UserName",
+	fs."Signed",
+	f."Name",
+	fs."EventID"
+from
+	"FileSignatures" as fs, "Files" as f
+where
+	fs."ID"=f."RowID" 
+	and f."ID"='9c2b0bed-f6f0-42d7-9939-300cb50fe6c4'
+	--f."VersionRowID"='adc4d661-f84d-4956-8efa-9c0ce11cf723'
+	--and fs."SerialNumber"='00F3CE4735A7E3E7F1B0D9334E44FBAFD2'
+	and fs."Signed">'22.02.2024'
+limit 20

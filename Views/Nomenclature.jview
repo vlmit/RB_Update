@@ -1,0 +1,404 @@
+{
+  "Alias": "Nomenclature",
+  "Caption": "Номенклатура дел",
+  "Description": " ",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "ce954f73-84fc-4de2-92c1-184aa1aa6b42",
+  "JsonMetadataSource::txt": "Nomenclature JSONMETA",
+  "MsQuerySource::txt": "Nomenclature MSSQL",
+  "PgQuerySource::txt": "Nomenclature PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "ce954f73-84fc-4de2-92c1-184aa1aa6b42",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART Nomenclature JSONMETA]
+{
+  "Alias": "Nomenclature",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Номенклатура дел",
+  "Columns": [
+    {
+      "Alias": "NomenclatureID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.ID"
+    },
+    {
+      "Alias": "DepartmentName",
+      "Appearance": null,
+      "Caption": "Название отдела",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.DepartmentName",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "NomenclatureIndex",
+      "Appearance": null,
+      "Caption": "№ Дела",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Index",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.FullName"
+    },
+    {
+      "Alias": "NomenclatureName",
+      "Appearance": null,
+      "Caption": "Заголовок номенклатуры",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Name",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "Article",
+      "Appearance": null,
+      "Caption": "Статья",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Article",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "Duration",
+      "Appearance": null,
+      "Caption": "Срок хранения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Duration",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "Year",
+      "Appearance": null,
+      "Caption": "Год",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Year",
+      "TreatValueAsUtc": false,
+      "Type": "$Nomenclature.Year"
+    },
+    {
+      "Alias": "NomenclatureDescription",
+      "Appearance": null,
+      "Caption": "Описание",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "t.Description",
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "NomenclatureIndex",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": true,
+  "Overrides": null,
+  "PageLimit::int": 100,
+  "Paging": "Always",
+  "Parameters": [
+    {
+      "Alias": "NomenclatureID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "NomenclatureID",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.ID"
+    },
+    {
+      "Alias": "DepartmentName",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Название отдела",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "NomenclatureIndex",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "№ Дела",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.Name"
+    },
+    {
+      "Alias": "Header",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Заголовок номенклатуры",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.FullName"
+    },
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Поиск",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.FullName"
+    },
+    {
+      "Alias": "Article",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Статья",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Partners.FullName"
+    },
+    {
+      "Alias": "Duration",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Срок хранения",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Nomenclature.Duration"
+    },
+    {
+      "Alias": "Year",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Год",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int16 Null"
+    },
+    {
+      "Alias": "NomenclatureDescription",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Описание",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Nomenclature.Description"
+    }
+  ],
+  "QuickSearchParam": "Name",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Nomenclature",
+      "Condition": null,
+      "DisplayValueColumn": "NomenclatureDescription",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "Nomenclatures"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": "Count",
+  "SelectionMode": "Row",
+  "Subsets": [
+    {
+      "Alias": "Count",
+      "Caption": null,
+      "CaptionColumn": null,
+      "Condition": null,
+      "CountColumn": null,
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": null,
+      "RefParam": null,
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    }
+  ],
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART Nomenclature MSSQL]
+
+
+[TEXTPART Nomenclature PGSQL]
+SELECT
+	#if(Normal) {
+	"t"."ID"						AS "NomenclatureID",
+	"t"."DepartmentName",
+	"t"."Index"						AS "NomenclatureIndex",
+	"t"."Name" 						AS "NomenclatureName",
+	"t"."Article",
+	"t"."Duration",
+	"t"."Year",
+	"t"."Name"				AS "NomenclatureDescription"
+	}
+	#if(Count) {
+	count(*) AS "cnt"
+	}
+FROM "Nomenclature" AS "t"
+WHERE true 
+and
+("t"."DepartmentName" like '%' || 
+(select "pr"."Name" from "Roles" as "pr"
+inner join "DepartmentRoles" as "ru" on "ru"."ID"= "pr"."ID"
+inner join "RoleUsers" as "ruru" on "ruru"."ID"= "ru"."ID"
+where "ruru"."UserID" = #param(CurrentUserID) 
+and "pr"."Name" is not null 
+and "ruru"."IsDeputy" = false
+and ("pr"."HeadID" = 'ea098516-6c1d-4e2f-a28d-f5251e758bda' or
+	 "pr"."HeadID" = 'fe61bbb1-183f-4ceb-b227-2c4de8c0f318')
+limit 1) || '%'
+or
+"t"."DepartmentName" like '%' || 
+(select "pr"."HeadName" from "Roles" as "pr"
+inner join "DepartmentRoles" as "ru" on "ru"."ID"= "pr"."ID"
+inner join "RoleUsers" as "ruru" on "ruru"."ID"= "ru"."ID"
+where "ruru"."UserID" = #param(CurrentUserID) 
+and "pr"."Name" is not null 
+and "ruru"."IsDeputy" = false
+and "pr"."HeadID" != 'ea098516-6c1d-4e2f-a28d-f5251e758bda'
+and "pr"."HeadID" != 'fe61bbb1-183f-4ceb-b227-2c4de8c0f318'
+limit 1) || '%')
+	#param(NomenclatureID, "t"."ID")
+	#param(DepartmentName, "t"."DepartmentName")
+	#param(NomenclatureIndex, "t"."Index")
+	#param(Header, "t"."Name")
+	--and (TRUE #param(Name, "t"."Name")) or (TRUE #param(Name, "t"."Index"))
+	#param(Article, "t"."Article")
+	#param(Duration, "t"."Duration")
+	#if(Year) {AND (true #param(Year, "t"."Year"))} {AND "t"."Year" = EXTRACT('YEAR' FROM CURRENT_DATE)}
+	#param(NomenclatureDescription, "t"."Index")
+#if(Normal) {
+ORDER BY #order_by
+}
+#if(PageOffset) {
+OFFSET #param(PageOffset) - 1 LIMIT #param(PageLimit)
+}

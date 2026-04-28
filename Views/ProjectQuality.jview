@@ -1,0 +1,146 @@
+{
+  "Alias": "ProjectQuality",
+  "Caption": "Качество подготовки проекта",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "e3f7b7bb-8d6e-4157-b639-1f7493c5666c",
+  "JsonMetadataSource::txt": "ProjectQuality JSONMETA",
+  "MsQuerySource::txt": "ProjectQuality MSSQL",
+  "PgQuerySource::txt": "ProjectQuality PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "e3f7b7bb-8d6e-4157-b639-1f7493c5666c",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART ProjectQuality JSONMETA]
+{
+  "Alias": "ProjectQuality",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Качество подготовки проекта",
+  "Columns": [
+    {
+      "Alias": "RID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$ProjectQuality.ID"
+    },
+    {
+      "Alias": "RName",
+      "Appearance": null,
+      "Caption": "Название",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$ProjectQuality.Name"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "RID",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": [
+    {
+      "Condition": null,
+      "Data": {
+        "CardCreationKind": "ByTypeAlias",
+        "CardOpeningKind": "ModalDialog",
+        "DocTypeIdentifier": null,
+        "IDParam": "ProjectQuality",
+        "TypeAlias": "ProjectQuality"
+      },
+      "Order::int": 0,
+      "TypeName": "Tessa.Extensions.Default.Client.Views.CreateCardExtension"
+    }
+  ],
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "Name",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Название",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$ProjectQuality.Name"
+    }
+  ],
+  "QuickSearchParam": "Name",
+  "References": [
+    {
+      "CardType": "ProjectQuality",
+      "CardTypeColumn": null,
+      "ColPrefix": "R",
+      "Condition": null,
+      "DisplayValueColumn": null,
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "ProjectQuality"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART ProjectQuality MSSQL]
+
+
+[TEXTPART ProjectQuality PGSQL]
+SELECT
+	"pt"."ID"		AS "RID",
+	"pt"."Name"		AS "RName"
+FROM "ProjectQuality" AS "pt"
+
+WHERE true
+	#param(Name, "pt"."Name")
+ORDER BY "pt"."ID"

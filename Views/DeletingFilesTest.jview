@@ -1,0 +1,120 @@
+{
+  "Alias": "DeletingFilesTest",
+  "Caption": "DeletingFilesTest",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Testing",
+  "ID::uid": "7eac5203-e301-4904-96e3-d420cfd6dd07",
+  "JsonMetadataSource::txt": "DeletingFilesTest JSONMETA",
+  "MsQuerySource::txt": "DeletingFilesTest MSSQL",
+  "PgQuerySource::txt": "DeletingFilesTest PGSQL",
+  "Roles": null
+}
+
+[TEXTPART DeletingFilesTest JSONMETA]
+{
+  "Alias": "DeletingFilesTest",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "DeletingFilesTest",
+  "Columns": [
+    {
+      "Alias": "FileID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Guid Null"
+    },
+    {
+      "Alias": "VersionID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Guid Null"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": [
+    {
+      "Alias": "VersionID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "VersionID",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Guid Null"
+    },
+    {
+      "Alias": "FileID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "FileID",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Guid Null"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART DeletingFilesTest MSSQL]
+
+
+[TEXTPART DeletingFilesTest PGSQL]
+SELECT 
+		"fv"."ID" as "FileID", 
+		"fv"."RowID" as "VersionID"
+FROM "FileVersions" as "fv"
+WHERE true
+		#param(VersionID, "fv"."RowID")
+		#param(FileID, "fv"."ID")

@@ -1,0 +1,462 @@
+{
+  "Alias": "Test_ManagerTasks_",
+  "Caption": "Задания руководителя",
+  "Description": "  ",
+  "FormatVersion::int": 1,
+  "GroupName": "Kr Wf",
+  "ID::uid": "db90914b-82a7-44cc-bfd6-bb768c76742c",
+  "JsonMetadataSource::txt": "Test_ManagerTasks_ JSONMETA",
+  "MsQuerySource::txt": "Test_ManagerTasks_ MSSQL",
+  "PgQuerySource::txt": "Test_ManagerTasks_ PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "db90914b-82a7-44cc-bfd6-bb768c76742c",
+      "RoleId::uid": "d7e4bcae-89db-4a71-8a93-cd0dd84d1d6c",
+      "RoleName": "Андронов В.В."
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "db90914b-82a7-44cc-bfd6-bb768c76742c",
+      "RoleId::uid": "010120e2-348d-4c7b-9fb7-d78001481e40",
+      "RoleName": "Белоколодов С.Н."
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "db90914b-82a7-44cc-bfd6-bb768c76742c",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "db90914b-82a7-44cc-bfd6-bb768c76742c",
+      "RoleId::uid": "aa16cfd1-bc75-42d9-b239-05f3b9db7fa6",
+      "RoleName": "Ковалев Н.П."
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "db90914b-82a7-44cc-bfd6-bb768c76742c",
+      "RoleId::uid": "05559a65-e31f-4484-ae6a-eff826109725",
+      "RoleName": "Комарь П.М."
+    },
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "db90914b-82a7-44cc-bfd6-bb768c76742c",
+      "RoleId::uid": "30f097bd-8e95-4814-aea8-ceacff6ae7f7",
+      "RoleName": "Рыжук А.Г."
+    }
+  ]
+}
+
+[TEXTPART Test_ManagerTasks_ JSONMETA]
+{
+  "Alias": "Test_ManagerTasks_",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Задания руководителя",
+  "Columns": [
+    {
+      "Alias": "TypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.TypeID"
+    },
+    {
+      "Alias": "Caption",
+      "Appearance": null,
+      "Caption": "Caption",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Tasks.TypeCaption"
+    },
+    {
+      "Alias": "ActiveImage",
+      "Appearance": null,
+      "Caption": "ActiveImage",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "InactiveImage",
+      "Appearance": null,
+      "Caption": "InactiveImage",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "Count",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int64"
+    },
+    {
+      "Alias": "UnreadCount",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int64"
+    },
+    {
+      "Alias": "Urgently",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "ViewID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "LastDocID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": false,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART Test_ManagerTasks_ MSSQL]
+CREATE TABLE #TaskTypes (
+	[ID]			int not null primary key identity(1,1),
+	[Caption]		nvarchar(128) null,
+	[TypeCaption]	nvarchar(128) not null,
+	[ActiveImage]	nvarchar(128) not null,
+	[InactiveImage]	nvarchar(128) not null);
+
+-- Здесь перечисляются названия типов или видов заданий в порядке их отображения.
+-- Для каждого указывается имя типа задания, файла с изображением, отображаемым при выборе пункта,
+-- и имя файла с изображением, отображаемым для невыбранного пункта.
+-- Укажите в первой колонке null, чтобы не дублировать имя задания из второй колонки.
+INSERT INTO #TaskTypes ([Caption], [TypeCaption], [ActiveImage], [InactiveImage]) VALUES
+(null, 'На исполнение', 'PerformTask.png', 'PerformTask-inactive.png') ,
+(null, 'На рассмотрение', 'InformTask.png', 'InformTask-inactive.png') ,
+('На согласовании', '$CardTypes_TypesNames_KrApprove', 'ApproveTask.png', 'ApproveTask-inactive.png') ,
+('На контроле', '$CardTypes_TypesNames_WfResolutionControl', 'ControlTask.png', 'ControlTask-inactive.png') ,
+(null, 'Срочное поручение', 'UrgentTask.png', 'UrgentTask-inactive.png') ,
+(null, 'Просроченное поручение', 'OverdueTask.png', 'OverdueTask-inactive.png');
+
+
+
+SELECT
+	[t].[TypeID],
+	COALESCE([tt].[Caption], [tt].[TypeCaption]) AS [Caption],
+	[tt].[ActiveImage],
+	[tt].[InactiveImage],
+	COALESCE([t2].[cnt], 0) + COALESCE([t3].[cnt], 0) AS [Count]
+FROM (
+	SELECT [tk].[ID] AS [TypeID], [tt].[ID] AS [Order]
+	FROM #TaskTypes AS [tt]
+	INNER JOIN [TaskKinds] AS [tk] WITH (NOLOCK) ON [tk].[Caption] = [tt].[TypeCaption]
+	UNION ALL
+	SELECT [t].[ID] AS [TypeID], [tt].[ID] AS [Order]
+	FROM #TaskTypes AS [tt]
+	INNER JOIN [Types] AS [t] WITH (NOLOCK) ON [t].[Caption] = [tt].[TypeCaption]
+) AS [t]
+INNER JOIN #TaskTypes AS [tt] ON [tt].[ID] = [t].[Order]
+OUTER APPLY (
+	SELECT COUNT(*) AS [cnt]
+	FROM [Tasks] AS [tsk] WITH (NOLOCK)
+	WHERE [tsk].[TypeID] = [t].[TypeID]
+		AND (
+			[tsk].[UserID] IS NOT NULL AND [tsk].[UserID] = #param(CurrentUserID)
+			OR
+			[tsk].[UserID] IS NULL
+			AND
+			EXISTS (
+				SELECT NULL
+				FROM [RoleUsers] AS [ru] WITH (NOLOCK)
+				WHERE [ru].[ID] = [tsk].[RoleID]
+					AND [ru].[UserID] = #param(CurrentUserID)
+				)
+			OR
+			EXISTS (
+				SELECT NULL
+				FROM [RoleDeputies] AS [rd] WITH (NOLOCK)
+				WHERE [rd].[ID] = [tsk].[RoleID]
+					AND [rd].[IsActive] = 1
+					AND [rd].[DeputyID] = #param(CurrentUserID)
+					AND [rd].[DeputizedID] = [tsk].[UserID]
+				)
+		)
+) AS [t2]
+OUTER APPLY (
+	SELECT COUNT(*) AS [cnt]
+	FROM [TaskCommonInfo] AS [tci] WITH (NOLOCK)
+	INNER JOIN [Tasks] AS [tsk] WITH (NOLOCK) ON [tsk].[RowID] = [tci].[ID]
+	WHERE [tci].[KindID] = [t].[TypeID]
+		AND (
+			[tsk].[UserID] IS NOT NULL AND [tsk].[UserID] = #param(CurrentUserID)
+			OR
+			[tsk].[UserID] IS NULL
+			AND
+			EXISTS (
+				SELECT NULL
+				FROM [RoleUsers] AS [ru] WITH (NOLOCK)
+				WHERE [ru].[ID] = [tsk].[RoleID]
+					AND [ru].[UserID] = #param(CurrentUserID)
+				)
+			OR
+			EXISTS (
+				SELECT NULL
+				FROM [RoleDeputies] AS [rd] WITH (NOLOCK)
+				WHERE [rd].[ID] = [tsk].[RoleID]
+					AND [rd].[IsActive] = 1
+					AND [rd].[DeputyID] = #param(CurrentUserID)
+					AND [rd].[DeputizedID] = [tsk].[UserID]
+				)
+		)
+) t3
+ORDER BY [t].[Order]
+
+[TEXTPART Test_ManagerTasks_ PGSQL]
+DECLARE
+-- проверка принадлежности к роли "Планшеты с помощниками"
+"NoAssistantFlag" boolean = NOT EXISTS(Select NULL from "RoleUsers" as "ru" where "ru"."ID" = '513a59f4-5249-41f3-b890-0cfae6a2f3f5' and "ru"."UserID"= #param(CurrentUserID));
+
+BEGIN
+
+CREATE TEMP TABLE IF NOT EXISTS "task_types" (
+	"ID"			SERIAL UNIQUE PRIMARY KEY,
+	"Caption"		text,
+	"TypeCaption"	text,
+	"ActiveImage"	text,
+	"InactiveImage"	text,
+	"Bool"			text,
+	"ViewID"		text,
+	"LastDocID"		text);
+
+-- Здесь перечисляются названия типов или видов заданий в порядке их отображения.
+-- Для каждого указывается имя файла с изображением, отображаемым при выборе пункта,
+-- и имя файла с изображением, отображаемым для невыбранного пункта.
+INSERT INTO "task_types" ("Caption", "TypeCaption", "ActiveImage", "InactiveImage", "Bool", "ViewID","LastDocID") VALUES
+('Все поступившие', "NoAssistantFlag", 'PerformTask.png', 'PerformTask-inactive.png', 'true', 'MyTasks_AllForMob', '83091e9b-3989-4a75-ade4-9fbdbb57fedf') ,
+('На рассмотрение', 'ALWAYS', 'InformTask.png', 'InformTask-inactive.png', 'false', 'MyTasks_InConsideration', '83091e9b-3989-4a75-ade4-9fbdbb57fedf') ,
+('На согласовании', 'ALWAYS', 'ApproveTask.png', 'ApproveTask-inactive.png', 'true', 'MyTasks_forApproval', '95c7dd8c-e8f7-4b8f-b901-99b4eabca3a7') ,
+('На подпись', 'ALWAYS', 'ControlTask.png', 'ControlTask-inactive.png', 'false', 'MyTasks_forSign', '83091e9b-3989-4a75-ade4-9fbdbb57fedf') ,
+('В работе', "NoAssistantFlag", 'UrgentTask.png', 'UrgentTask-inactive.png', 'false', 'MyTasks_InProgress', '95c7dd8c-e8f7-4b8f-b901-99b4eabca3a7') ,
+('История', 'ALWAYS', 'OverdueTask.png', 'OverdueTask-inactive.png', 'false', 'MyCompletedTasks_forMob', '95c7dd8c-e8f7-4b8f-b901-99b4eabca3a7');
+
+
+
+RETURN QUERY
+SELECT
+	'00000000-0000-0000-0000-000000000000'::uuid as "TypeID", --рудимент
+	"tt"."Caption" AS "Caption",
+	"tt"."ActiveImage",
+	"tt"."InactiveImage",
+	CASE
+		WHEN "tt"."Caption" != 'История'  THEN "t_count"."cnt"
+		WHEN "tt"."Caption"='История' then
+			(select count(*) from "TaskHistory" where "UserID"=#param(CurrentUserID) and "Completed" is not null and extract(day from current_timestamp - "Completed") <= 14)
+		end	
+	as Count,
+	CASE
+			WHEN "tt"."Caption" != 'История'  THEN "t_unread_count"."cnt"
+			when"tt"."Caption"='История' then
+				0::int8 
+			END 			 AS "UnreadCount",
+	CASE
+		WHEN "tt"."Caption" != 'История' AND "t_urgency"."status"= 1 THEN 'true'
+		ELSE 'false'
+		end AS "Urgently"
+	,"tt"."ViewID" AS "ViewID"
+	,"tt"."LastDocID" AS "LastDocID"
+
+FROM "task_types" AS "tt"
+LEFT JOIN LATERAL(select count(*) AS "cnt" from "Tasks" as "tas" where 
+				(
+				"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+				or "tas"."UserID" is null 
+				and 
+				exists (
+					select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+					and "ru"."UserID"=#param(CurrentUserID)
+				)
+				or 
+				exists (
+					select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+					and "rd"."IsActive"=true 
+					and "rd"."DeputyID"=#param(CurrentUserID) 
+					and "rd"."DeputizedID"="tas"."UserID"
+					)
+				)
+				and (
+				"tt"."Caption" = 'Все поступившие'  and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae' and "tas"."StateID"= 0
+				or
+				"tt"."Caption" = 'На рассмотрение'  and "tas"."StateID"=0 and ("tas"."TypeID"='2257bff2-1bdd-4f9a-aacd-dd93de844ea6' or "tas"."TypeID"='5309ce42-c4d2-4e99-a733-697c589311e7')
+				or
+				"tt"."Caption" = 'На согласовании'  and "tas"."TypeID"='e4d7f6bf-fea9-4a3b-8a5a-e1a0a40de74c'
+				or
+				"tt"."Caption" = 'На подпись'  		and	"tas"."TypeID"='968d68b3-a7c5-4b5d-bfa4-bb0f346880b6'
+				or
+				"tt"."Caption" = 'В работе'  		and "tas"."StateID"=1 and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+				)
+			) AS "t_count" ON true
+LEFT JOIN LATERAL(select count(*) AS "cnt" from "Tasks" as "tas" where
+					(select "th"."Created" from "TaskHistory" as "th" where 
+						(
+						"th"."RoleID" = #param(CurrentUserID) or "th"."RoleID" IN (Select "d"."DeputizedID" from "RoleDeputies" as "d"
+												where "d"."IsActive" = true and "d"."DeputyID" = #param(CurrentUserID) )
+												or "th"."RoleID" IN (Select "ru"."ID" from "RoleUsers" as "ru"
+												where "ru"."UserID" = #param(CurrentUserID) and "ru"."TypeID" in (0,4))
+						)
+						and "th"."ID" = "tas"."ID" order by "th"."Created" desc limit 1) <= 
+						  (select "ah"."Modified" from "ActionHistory" as "ah" where  "ah"."ModifiedByID" = #param(CurrentUserID)					 
+						 and "ah"."ID" = "tas"."ID" order by "ah"."Modified" desc limit 1) is not true
+				and (
+				"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+				or "tas"."UserID" is null 
+				and 
+				exists (
+					select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+					and "ru"."UserID"=#param(CurrentUserID)
+				)
+				or 
+				exists (
+					select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+					and "rd"."IsActive"=true 
+					and "rd"."DeputyID"=#param(CurrentUserID) 
+					and "rd"."DeputizedID"="tas"."UserID"
+					)
+				)
+				and (
+				"tt"."Caption" = 'Все поступившие'  and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae' and "tas"."StateID"= 0
+				or
+				"tt"."Caption" = 'На рассмотрение'  and "tas"."StateID"=0 and ("tas"."TypeID"='2257bff2-1bdd-4f9a-aacd-dd93de844ea6' or "tas"."TypeID"='5309ce42-c4d2-4e99-a733-697c589311e7')
+				or
+				"tt"."Caption" = 'На согласовании'  and "tas"."TypeID"='e4d7f6bf-fea9-4a3b-8a5a-e1a0a40de74c'
+				or
+				"tt"."Caption" = 'На подпись'  		and	"tas"."TypeID"='968d68b3-a7c5-4b5d-bfa4-bb0f346880b6'
+				or
+				"tt"."Caption" = 'В работе'  		and "tas"."StateID"=1 and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+				)
+			) AS "t_unread_count" ON true
+LEFT JOIN LATERAL(select 1 AS "status" from "Tasks" as "tas" where
+				(
+				"tas"."UserID" is not null and "tas"."UserID"= #param(CurrentUserID)
+				or "tas"."UserID" is null 
+				and 
+				exists (
+					select null from "RoleUsers" as "ru" where "ru"."ID"="tas"."RoleID" 
+					and "ru"."UserID"=#param(CurrentUserID)
+				)
+				or 
+				exists (
+					select null from "RoleDeputies" as "rd" where "rd"."ID"="tas"."RoleID" 
+					and "rd"."IsActive"=true 
+					and "rd"."DeputyID"=#param(CurrentUserID) 
+					and "rd"."DeputizedID"="tas"."UserID"
+					)
+				)
+				and (
+				"tt"."Caption" = 'Все поступившие'  and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae' and "tas"."StateID"= 0
+				or
+				"tt"."Caption" = 'На рассмотрение'  and "tas"."StateID"=0 and ("tas"."TypeID"='2257bff2-1bdd-4f9a-aacd-dd93de844ea6' or "tas"."TypeID"='5309ce42-c4d2-4e99-a733-697c589311e7')
+				or
+				"tt"."Caption" = 'На согласовании'  and "tas"."TypeID"='e4d7f6bf-fea9-4a3b-8a5a-e1a0a40de74c'
+				or
+				"tt"."Caption" = 'На подпись'  		and	"tas"."TypeID"='968d68b3-a7c5-4b5d-bfa4-bb0f346880b6'
+				or
+				"tt"."Caption" = 'В работе'  		and "tas"."StateID"=1 and "tas"."TypeID"!='929e345c-acdf-41ea-acb6-6bb308de73ae'
+				)
+				and exists(select 1 from "DocumentCommonInfo" as "dci" where "dci"."ID"="tas"."ID" and 
+							"dci"."UrgencyName" in ('Срочно','Важно', 'Оперативно', 'Да'))
+			) AS "t_urgency" ON true
+
+Where "tt"."TypeCaption" != 'false';
+
+END;

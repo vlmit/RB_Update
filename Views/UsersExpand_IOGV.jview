@@ -1,0 +1,189 @@
+{
+  "Alias": "UsersExpand_IOGV",
+  "Caption": "ИОГВ",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "GlobalUserLists",
+  "ID::uid": "8637c077-dcf7-48ee-9b37-2cb0e62245fe",
+  "JsonMetadataSource::txt": "UsersExpand_IOGV JSONMETA",
+  "MsQuerySource::txt": "UsersExpand_IOGV MSSQL",
+  "PgQuerySource::txt": "UsersExpand_IOGV PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "8637c077-dcf7-48ee-9b37-2cb0e62245fe",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART UsersExpand_IOGV JSONMETA]
+{
+  "Alias": "UsersExpand_IOGV",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "ИОГВ",
+  "Columns": [
+    {
+      "Alias": "ID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DepartmentRoles.ID"
+    },
+    {
+      "Alias": "DepID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.ID"
+    },
+    {
+      "Alias": "DepName",
+      "Appearance": null,
+      "Caption": "Министерство",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "DepName",
+      "TreatValueAsUtc": false,
+      "Type": "$Roles.Name"
+    },
+    {
+      "Alias": "UserID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DepartmentRoles.HeadUserID"
+    },
+    {
+      "Alias": "UserName",
+      "Appearance": null,
+      "Caption": "Министр",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DepartmentRoles.HeadUserName"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "DepName",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": true,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": "Roles",
+      "CardTypeColumn": null,
+      "ColPrefix": "Dep",
+      "Condition": null,
+      "DisplayValueColumn": null,
+      "IsCard": false,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "Roles"
+      ]
+    },
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "User",
+      "Condition": null,
+      "DisplayValueColumn": null,
+      "IsCard": true,
+      "OpenOnDoubleClick": false,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "UsersExpand",
+        "MyPersonalLists"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART UsersExpand_IOGV MSSQL]
+
+
+[TEXTPART UsersExpand_IOGV PGSQL]
+
+SELECT 
+	"dr"."ID",
+	"r"."ID" as "DepID",
+	"r"."Name" as "DepName",
+	"dr"."HeadUserID" as "UserID",
+	COALESCE("dr"."HeadUserName",'') as "UserName"
+	
+FROM
+	"DepartmentRoles" as "dr"
+LEFT JOIN "Roles" as "r" on "r"."ID" = "dr"."ID"
+WHERE
+	"r"."ParentID" is null 
+	and ("r"."Name" like 'Министерство %' or "r"."Name" like 'Министр %')
+	or ("r"."ID"='a874875f-8a8b-46b2-8097-87b9b9012846' or "r"."ID"='dcbf4dfb-462d-4f3e-931c-9a037c4ff433'
+	or "r"."ID"='615d3892-250c-46ae-bdf4-79bc56a566f7' or "r"."ID"='a6865751-ab8b-406b-aee6-157a9eb1eb4a'
+	or "r"."ID"='fe96c94a-15bb-4a4a-ab8b-f96f1a0e94c1' or "r"."ID"='a68ab45b-bf05-4354-9376-a6f8cd8048fe'
+	or "r"."ID"='ba62e349-2100-47d0-a004-0dcea30c5d01' or "r"."ID"='923d7e4a-13ca-4e93-ae9e-69e13a65a879'
+	or "r"."ID"='25930928-ff25-4949-8909-05a614643b37' or "r"."ID"='a7a1096d-6e54-4dee-ab92-e555171a1153'
+	or "r"."ID"='a4078e07-75b4-4399-9710-1b52f785ce9d' or "r"."ID"='182060b6-7cb9-4236-a1bf-3088cf84272c'
+	
+	)
+order by #order_by

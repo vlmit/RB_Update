@@ -1,0 +1,604 @@
+{
+  "Alias": "Test585-2025_regreg_simplerequest",
+  "Caption": "Test585-2025_regreg_simplerequest",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "CustomDocs",
+  "ID::uid": "d49439b8-067d-470a-8c62-c35eb8452590",
+  "JsonMetadataSource::txt": "Test585-2025_regreg_simplerequest JSONMETA",
+  "MsQuerySource::txt": "Test585-2025_regreg_simplerequest MSSQL",
+  "PgQuerySource::txt": "Test585-2025_regreg_simplerequest PGSQL",
+  "Roles": null
+}
+
+[TEXTPART Test585-2025_regreg_simplerequest JSONMETA]
+{
+  "Alias": "Test585-2025_regreg_simplerequest",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Test585-2025_regreg_simplerequest",
+  "Columns": [
+    {
+      "Alias": "DocID",
+      "Appearance": null,
+      "Caption": "id",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ID"
+    },
+    {
+      "Alias": "DocNumber",
+      "Appearance": null,
+      "Caption": "internal_task_id",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.Number",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.FullNumber"
+    },
+    {
+      "Alias": "DocDate",
+      "Appearance": null,
+      "Caption": "last_modified",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.DocDate",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocDate"
+    },
+    {
+      "Alias": "DocParent",
+      "Appearance": null,
+      "Caption": "initial_task_doc_num",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "DocParentType",
+      "Appearance": null,
+      "Caption": "initial_task_doc_type",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "DateParent",
+      "Appearance": null,
+      "Caption": "initial_task_doc_date",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Date Null"
+    },
+    {
+      "Alias": "DocSubject",
+      "Appearance": null,
+      "Caption": "$Views_Registers_Subject",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.Subject",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocTypeTitle"
+    },
+    {
+      "Alias": "DocDescription",
+      "Appearance": null,
+      "Caption": "$Views_Registers_DocDescription",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "AuthorID",
+      "Appearance": null,
+      "Caption": "zvdl_id",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.AuthorID"
+    },
+    {
+      "Alias": "AuthorName",
+      "Appearance": null,
+      "Caption": "zvdl_id",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.AuthorName",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.AuthorName"
+    },
+    {
+      "Alias": "regionid",
+      "Appearance": null,
+      "Caption": "region_id",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "DocSignedT",
+      "Appearance": null,
+      "Caption": "initial_task_doc_signer",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength::int": 50,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "RegistratorID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.RegistratorID"
+    },
+    {
+      "Alias": "RegistratorName",
+      "Appearance": null,
+      "Caption": "$Views_Registers_Registrator",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.RegistratorName",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.RegistratorName"
+    },
+    {
+      "Alias": "KrState",
+      "Appearance": null,
+      "Caption": "$Views_Registers_State",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrApprovalCommonInfo.StateName"
+    },
+    {
+      "Alias": "KrStateModified",
+      "Appearance": null,
+      "Caption": "$Views_Registers_StateModified",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": true,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Date"
+    },
+    {
+      "Alias": "PartnerName",
+      "Appearance": null,
+      "Caption": "PartnerName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentName"
+    },
+    {
+      "Alias": "Correspondents",
+      "Appearance": null,
+      "Caption": "Корреспондент",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "Performers",
+      "Appearance": null,
+      "Caption": "Исполнители",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Performers.UserName"
+    },
+    {
+      "Alias": "Recipients",
+      "Appearance": null,
+      "Caption": "Кому переслать",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Recipients.UserName"
+    },
+    {
+      "Alias": "DeliveryTypeID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DeliveryTypeID"
+    },
+    {
+      "Alias": "DeliveryTypeName",
+      "Appearance": null,
+      "Caption": "Тип доставки",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DeliveryTypeName"
+    },
+    {
+      "Alias": "CreationDate",
+      "Appearance": null,
+      "Caption": "$Views_Registers_CreationDate",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "mi.CreationDate",
+      "TreatValueAsUtc": false,
+      "Type": "Date"
+    },
+    {
+      "Alias": "TaskDeadline",
+      "Appearance": null,
+      "Caption": "Плановая дата",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.TaskDeadline"
+    },
+    {
+      "Alias": "TaskFact",
+      "Appearance": null,
+      "Caption": "Факт. дата",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.TaskFact"
+    },
+    {
+      "Alias": "Department",
+      "Appearance": null,
+      "Caption": "$Views_Registers_Department",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentName"
+    },
+    {
+      "Alias": "DocTypeTitle",
+      "Appearance": null,
+      "Caption": "Тип документа",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentName"
+    },
+    {
+      "Alias": "ApprovedBy",
+      "Appearance": null,
+      "Caption": "$Views_Registers_ApprovedBy",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrApprovalCommonInfo.ApprovedBy"
+    },
+    {
+      "Alias": "DisapprovedBy",
+      "Appearance": null,
+      "Caption": "$Views_Registers_DisapprovedBy",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrApprovalCommonInfo.DisapprovedBy"
+    },
+    {
+      "Alias": "Background",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String"
+    },
+    {
+      "Alias": "rn",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Int64"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": null,
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART Test585-2025_regreg_simplerequest MSSQL]
+
+
+[TEXTPART Test585-2025_regreg_simplerequest PGSQL]
+SELECT
+		"mi"."ID"																		AS "DocID",
+		"mi"."FullNumber"																AS "DocNumber",
+		
+		CAST("mi"."DocDate" AS date)													AS "DocDate",
+		
+		(select "dci"."OutgoingNumber"
+		from "DocumentCommonInfo" as "dci"
+		JOIN "Instances" as "i"
+		on "i"."ID" = "dci"."ID"
+		where "i"."ID" = "mi"."ParentID")												AS "DocParent",
+		
+		(select "dci"."DocTypeTitle"
+		from "DocumentCommonInfo" as "dci"
+		JOIN "Instances" as "i"
+		on "i"."ID" = "dci"."ID"
+		where "i"."ID" = "mi"."ParentID")												AS "DocParentType",
+		
+		(select CAST("dci"."DocDate" as date)
+		from "DocumentCommonInfo" as "dci"
+		JOIN "Instances" as "i"
+		on "i"."ID" = "dci"."ID"
+		where "i"."ID" = "mi"."ParentID")												AS "DateParent",
+		
+		"mi"."Subject"																	AS "DocSubject",
+		COALESCE("mi"."FullNumber", '') || ', ' || COALESCE("mi"."Subject", '')			AS "DocDescription",		
+		
+		"mi"."AuthorID"																			AS "AuthorID",
+		
+		"mi"."AuthorName"																			AS "AuthorName",
+		'03'																			AS "regionid",
+		
+		(select "dci"."SignedT"
+		from "DocumentCommonInfo" as "dci"
+		JOIN "Instances" as "i"
+		on "i"."ID" = "dci"."ID"
+		where "i"."ID" = "mi"."ParentID")												AS "DocSignedT",
+		
+		"mi"."RegistratorID",
+		"mi"."RegistratorName",
+		"kr"."StateName"																AS "KrState",
+		CAST(COALESCE("kr"."StateChangedDateTimeUTC", "mi"."CreationDate") AS date)		AS "KrStateModified",
+		"mi"."PartnerName",
+		
+		(select "cr"."PartnersName"
+		from "Correspondents" as "cr"
+		JOIN "Instances" as "i"
+		on "i"."ID" = "cr"."ID"
+		JOIN "DocumentCommonInfo" as "dci"
+		on "dci"."ID" = "i"."ID"
+		where "i"."ID" = "mi"."ParentID")												AS "Correspondents",
+		
+        (SELECT string_agg("Performers"."UserName", ', ')
+            FROM "Performers"
+            WHERE "Performers"."ID" = "mi"."ID"
+            ORDER BY string_agg ASC
+        )                                                                                AS "Performers",
+        (SELECT string_agg("Recipients"."UserName", ', ')
+            FROM "Recipients"
+            WHERE "Recipients"."ID" = "mi"."ID"
+            ORDER BY string_agg ASC
+        )                                                                                AS "Recipients",
+        "mi"."DeliveryTypeID",
+        "mi"."DeliveryTypeName",
+		CAST("mi"."CreationDate" AS date)												AS "CreationDate",
+		"mi"."TaskDeadline"																AS "TaskDeadline",
+		"mi"."TaskFact"																	AS "TaskFact",
+		"mi"."DepartmentName"															AS "Department",
+		"mi"."DocTypeTitle",
+		"kr"."ApprovedBy",
+		"kr"."DisapprovedBy",
+		'#appearance(Background: ' || CASE
+			WHEN ("kr"."StateID" = 1 OR "kr"."StateID" = 10) AND "kr"."DisapprovedBy" IS NOT NULL AND "kr"."DisapprovedBy" <> ''	
+				THEN '#70FF0000'
+			WHEN "kr"."StateID" = 2 OR "kr"."StateID" = 6 OR "kr"."StateID" = 8														
+				THEN '#7000FF00'
+			WHEN "kr"."StateID" = 4																									
+				THEN '#70FFFF00'
+			ELSE '#00000000'																										
+		END || ')'																		AS "Background",
+		0::int8																			AS "rn"
+		
+		
+	FROM (
+		SELECT
+			
+			"t"."ID"
+			
+		FROM (
+			SELECT "ID"
+			FROM "DocumentCommonInfo" AS "mi"
+			where "mi"."ID" != '1826344c-904c-48d7-b604-e46bbb318175'
+			) AS "t"
+			
+		INNER JOIN "DocumentCommonInfo" AS "mi"
+			ON "mi"."ID" = "t"."ID"
+		
+		LEFT JOIN "KrApprovalCommonInfo" AS "kr"
+			ON "kr"."MainCardID" = "t"."ID"
+		
+		
+				LEFT JOIN "DocumentCommonInfo" as "dci"
+				ON "dci"."ID" = "t"."ID"
+				LEFT JOIN "Instances" AS "i"
+			ON "i"."ID" = "t"."ID"
+		WHERE true
+		AND (( "mi"."AuthorID" = '3d728b5d-7ac3-4beb-8bd1-879f2de55624' ))
+			
+		ORDER BY "mi"."DocDate" desc 
+		) AS "t"
+INNER JOIN "DocumentCommonInfo" AS "mi"
+	ON "mi"."ID" = "t"."ID"
+INNER JOIN "Types" AS "tt"
+	ON "tt"."ID" = "mi"."CardTypeID"
+LEFT JOIN "KrApprovalCommonInfo" AS "kr"
+	ON "kr"."MainCardID" = "t"."ID"
+ORDER BY "mi"."DocDate" desc 
+LIMIT 100;

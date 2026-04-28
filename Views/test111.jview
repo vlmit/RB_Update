@@ -1,0 +1,136 @@
+{
+  "Alias": "test111",
+  "Caption": "test",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "2fce00cf-bea0-4bef-8fb2-710bc9f12a5b",
+  "JsonMetadataSource::txt": "test111 JSONMETA",
+  "MsQuerySource::txt": "test111 MSSQL",
+  "PgQuerySource::txt": "test111 PGSQL",
+  "Roles": null
+}
+
+[TEXTPART test111 JSONMETA]
+{
+  "Alias": "test111",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "test",
+  "Columns": [
+    {
+      "Alias": "DocID",
+      "Appearance": null,
+      "Caption": "ID",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "Guid Null"
+    },
+    {
+      "Alias": "DocFullNumber",
+      "Appearance": null,
+      "Caption": "FullNumber",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "CreationDate",
+      "Appearance": null,
+      "Caption": "CreationDate",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "DateTime Null"
+    },
+    {
+      "Alias": "ParentDescription",
+      "Appearance": null,
+      "Caption": "ParentDescription",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Doc",
+      "Condition": null,
+      "DisplayValueColumn": "DocFullNumber",
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "DocumentCommonInfo",
+        "DocRefsSection"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART test111 MSSQL]
+
+
+[TEXTPART test111 PGSQL]
+select "dci"."ID" as "DocID",
+"dci"."FullNumber" as "DocFullNumber",
+"dci"."CreationDate",
+"dci"."ParentDescription"
+
+from "DocumentCommonInfo" as "dci"
+where "dci"."CardTypeID" = '01ad498e-5f8e-417a-bd28-942739dbf342'
+and "dci"."CategoryID" = '30f938ba-3db0-42e7-8dba-0f0d492e5726'
+and "dci"."RegistratorID" = '1d701dbe-717e-4a7d-878c-084e2e9f8a14' -- мельников создатель
+--and "dci"."AuthorID" = 'f641cbb0-996a-4c34-aadb-2e3d3f733146'
+order by "dci"."CreationDate" desc

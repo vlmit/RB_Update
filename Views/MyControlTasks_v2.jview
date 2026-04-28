@@ -1,0 +1,464 @@
+{
+  "Alias": "MyControlTasks_v2",
+  "Caption": "Поручения мне и мои за 7 дней",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Testing",
+  "ID::uid": "8444111b-afc9-4676-a294-9f6824058274",
+  "JsonMetadataSource::txt": "MyControlTasks_v2 JSONMETA",
+  "MsQuerySource::txt": "MyControlTasks_v2 MSSQL",
+  "PgQuerySource::txt": "MyControlTasks_v2 PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "8444111b-afc9-4676-a294-9f6824058274",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART MyControlTasks_v2 JSONMETA]
+{
+  "Alias": "MyControlTasks_v2",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Поручения мне и мои за 7 дней",
+  "Columns": [
+    {
+      "Alias": "DocID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.ParentID"
+    },
+    {
+      "Alias": "FullNumber",
+      "Appearance": null,
+      "Caption": "№",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "FullNumber",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.FullNumber"
+    },
+    {
+      "Alias": "DocDate",
+      "Appearance": null,
+      "Caption": "Дата регистрации",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "DocDate",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DocDate"
+    },
+    {
+      "Alias": "Subject",
+      "Appearance": null,
+      "Caption": "Тема",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "Subject",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.Subject"
+    },
+    {
+      "Alias": "DepartmentName",
+      "Appearance": null,
+      "Caption": "Ведомство",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": "DepartmentName",
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.DepartmentName"
+    },
+    {
+      "Alias": "SignedByName",
+      "Appearance": null,
+      "Caption": "Подписант",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.SignedByName"
+    },
+    {
+      "Alias": "Resolution",
+      "Appearance": null,
+      "Caption": "Резолюция",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "TaskDate",
+      "Appearance": null,
+      "Caption": "Дата создания поручения мне",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "AuthorName",
+      "Appearance": null,
+      "Caption": "Автор поручения мне",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.AuthorName"
+    },
+    {
+      "Alias": "MyTaskDate",
+      "Appearance": null,
+      "Caption": "Дата создания моего поручения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "MyTaskState",
+      "Appearance": null,
+      "Caption": "Состояние моего поручения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    },
+    {
+      "Alias": "MyTaskPerformers",
+      "Appearance": null,
+      "Caption": "Исполнители моего поручения",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Null"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "DocDate",
+      "SortDirection": "Descending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "Optional",
+  "Parameters": [
+    {
+      "Alias": "MyTaskDate",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "GreatThan",
+        "GreatOrEquals",
+        "LessOrEquals",
+        "LessThan",
+        "Equality",
+        "Between"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "Дата создания поручения",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "Date Not Null"
+    },
+    {
+      "Alias": "MyTaskAuthorID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": "User",
+        "ViewAlias": "Users"
+      },
+      "Caption": "Автор поручения мне",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": "User",
+        "ViewAlias": "Users"
+      },
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "PersonalRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.AuthorID"
+    },
+    {
+      "Alias": "TaskPerformerID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": "User",
+        "ViewAlias": "Users"
+      },
+      "Caption": "Исполнитель моего поручения",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": "User",
+        "ViewAlias": "Users"
+      },
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "PersonalRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.AuthorID"
+    },
+    {
+      "Alias": "ManualStateID",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": "State",
+        "ViewAlias": "KrDocStates"
+      },
+      "Caption": "Состояние поручения",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": {
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1
+        ],
+        "RefPrefix": "State",
+        "ViewAlias": "KrDocStates"
+      },
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "KrDocState",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$KrDocState.ID"
+    }
+  ],
+  "QuickSearchParam": null,
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "Doc",
+      "Condition": null,
+      "DisplayValueColumn": null,
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "MyControlTasks"
+      ]
+    }
+  ],
+  "RowCounterVisible": false,
+  "RowCountSubset": "Count",
+  "SelectionMode": "Row",
+  "Subsets": [
+    {
+      "Alias": "Count",
+      "Caption": null,
+      "CaptionColumn": null,
+      "Condition": null,
+      "CountColumn": "cnt",
+      "HideZeroCount": false,
+      "Kind": "List",
+      "RefColumn": null,
+      "RefParam": null,
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    }
+  ],
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART MyControlTasks_v2 MSSQL]
+
+
+[TEXTPART MyControlTasks_v2 PGSQL]
+with control_tasks as (
+	select
+			"dci"."ParentID", 
+			"dci"."DocDate", 
+			"dci"."AuthorID", 
+			"ctp"."UserID", 
+			"ctp"."UserName",
+			coalesce("dci"."ExpandTextTask", "dci"."CommissionTemplateText") as "Resolution",
+			"dci"."ManualStateID",
+			"dci"."ManualStateName"
+		from 
+			"DocumentCommonInfo" as "dci"
+			left join "ControlTaskDecisions" as "ctd"
+				on "dci"."ID"="ctd"."ID"
+			left join "ControlTaskPerformers" as "ctp"
+				on "ctp"."ParentRowID"="ctd"."RowID"
+		where
+			"dci"."CardTypeID"='01ad498e-5f8e-417a-bd28-942739dbf342' --control task card type
+			and ("dci"."AuthorID"=#param(CurrentUserID) or "ctp"."UserID"=#param(CurrentUserID))
+			#if(MyTaskDate) 
+			{ #param(MyTaskDate, "dci"."DocDate") } 
+			#if(!MyTaskDate) 
+			{and "dci"."DocDate">=current_timestamp-interval'7 days'}
+)
+
+select 
+	#if(Normal) {
+	"ID" as "DocID",
+	"FullNumber" as "DocFullNumber",
+	"DocDate",
+	"Subject",
+	"DepartmentName",
+	"SignedByName",
+	(select string_agg(ct."Resolution",', ') 
+		from control_tasks as ct 
+		where ct."ParentID"="d"."ID" and ct."UserID"=#param(CurrentUserID)) as "Resolution",
+	(select string_agg(distinct "DocDate"::varchar(15),', ') 
+		from control_tasks as ct 
+		where ct."ParentID"="d"."ID" and ct."UserID"=#param(CurrentUserID) ) as "TaskDate",
+	(select string_agg(distinct "ct"."AuthorName",', ') 
+		from "DocumentCommonInfo" as "ct", "ControlTaskDecisions" as "ctd", "ControlTaskPerformers" as "ctp"
+		where "ct"."ParentID"="d"."ID" and "ct"."ID"="ctd"."ID" and "ctp"."ParentRowID"="ctd"."RowID" 
+		and "ctp"."UserID"=#param(CurrentUserID) ) as "AuthorName",
+	(select string_agg(distinct "DocDate"::varchar(15), ', ')
+		from control_tasks as ct
+		where ct."ParentID"="d"."ID" and ct."AuthorID"=#param(CurrentUserID)) as "MyTaskDate",
+	(select string_agg(distinct "ManualStateName",', ') 
+		from control_tasks as ct
+		where ct."ParentID"="d"."ID" and ct."AuthorID"=#param(CurrentUserID)) as "MyTaskState",
+	(select string_agg(distinct ct."UserName",', ') 
+		from control_tasks as ct
+		where ct."ParentID"="d"."ID" and ct."AuthorID"=#param(CurrentUserID)) as "MyTaskPerformers"
+	}
+	#if(Count) { count(*)  as "cnt"} 
+from
+	"DocumentCommonInfo" as "d"
+	
+where
+	"d"."ID" in (select "ParentID" 
+				from control_tasks 
+				where true 
+				#param(MyTaskAuthorID, "AuthorID")
+				#param(TaskPerformerID, "UserID")
+				#param(ManualStateID, "ManualStateID")
+				group by "ParentID")
+
+#if(Normal) { 
+order by #order_by
+}
+		

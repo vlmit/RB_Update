@@ -1,0 +1,131 @@
+{
+  "Alias": "test3_{d6204354-6c87-4883-ad37-6cc2ab56e24b}(copy)",
+  "Caption": "Список отмененных проектов поручений",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Custom",
+  "ID::uid": "d6204354-6c87-4883-ad37-6cc2ab56e24b",
+  "JsonMetadataSource::txt": "test3_{d6204354-6c87-4883-ad37-6cc2ab56e24b}(copy) JSONMETA",
+  "MsQuerySource::txt": "test3_{d6204354-6c87-4883-ad37-6cc2ab56e24b}(copy) MSSQL",
+  "PgQuerySource::txt": "test3_{d6204354-6c87-4883-ad37-6cc2ab56e24b}(copy) PGSQL",
+  "Roles": [
+    {
+      "DeltaKind": "Added",
+      "ObjectId::uid": "d6204354-6c87-4883-ad37-6cc2ab56e24b",
+      "RoleId::uid": "7ff52dc0-ff6a-4c9d-ba25-b562c370004d",
+      "RoleName": "Все сотрудники"
+    }
+  ]
+}
+
+[TEXTPART test3_{d6204354-6c87-4883-ad37-6cc2ab56e24b}(copy) JSONMETA]
+{
+  "Alias": "test3_{d6204354-6c87-4883-ad37-6cc2ab56e24b}(copy)",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Список отмененных проектов поручений",
+  "Columns": [
+    {
+      "Alias": "NdsID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.ID"
+    },
+    {
+      "Alias": "Name",
+      "Appearance": null,
+      "Caption": "Name",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    },
+    {
+      "Alias": "CreatedByName",
+      "Appearance": null,
+      "Caption": "CreatedByName",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$NDSRate.Rate"
+    },
+    {
+      "Alias": "Created",
+      "Appearance": null,
+      "Caption": "Created",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$Files.Created"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": [
+    {
+      "Alias": "NdsID",
+      "SortDirection": "Ascending"
+    }
+  ],
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": null,
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit": null,
+  "Paging": "No",
+  "Parameters": null,
+  "QuickSearchParam": "Rate",
+  "References": null,
+  "RowCounterVisible": false,
+  "RowCountSubset": null,
+  "SelectionMode": "Row",
+  "Subsets": null,
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART test3_{d6204354-6c87-4883-ad37-6cc2ab56e24b}(copy) MSSQL]
+
+
+[TEXTPART test3_{d6204354-6c87-4883-ad37-6cc2ab56e24b}(copy) PGSQL]
+SELECT
+	"pt"."ID"		AS "NdsID",
+	"pt"."Name" 		as "Name",
+	"pt"."CreatedByName"		AS "CreatedByName",
+	"pt"."Created"		AS "Created"
+	
+FROM "Files" AS "pt"
+Where --"pt"."CreatedByID" = '4f554fdf-f9d7-485c-a037-54b464354692'
+"pt"."Name" = 'image27220.pdf'
+
+ORDER BY "pt"."Created" desc

@@ -1,0 +1,261 @@
+{
+  "Alias": "AllSampleTexts",
+  "Caption": "Все типовые тексты",
+  "Description": "",
+  "FormatVersion::int": 1,
+  "GroupName": "Junicsoft",
+  "ID::uid": "e3c1f93b-41ec-4bc0-8b66-e95fe7b65d17",
+  "JsonMetadataSource::txt": "AllSampleTexts JSONMETA",
+  "MsQuerySource::txt": "AllSampleTexts MSSQL",
+  "PgQuerySource::txt": "AllSampleTexts PGSQL",
+  "Roles": null
+}
+
+[TEXTPART AllSampleTexts JSONMETA]
+{
+  "Alias": "AllSampleTexts",
+  "Appearance": null,
+  "Appearances": null,
+  "AutoWidthRowLimit": null,
+  "Caption": "Все типовые тексты",
+  "Columns": [
+    {
+      "Alias": "STID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$SampleText.ID"
+    },
+    {
+      "Alias": "STText",
+      "Appearance": null,
+      "Caption": "Текст",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength::int": 255,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$SampleText.Text"
+    },
+    {
+      "Alias": "STAuthorID",
+      "Appearance": null,
+      "Caption": null,
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": true,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$SampleText.AuthorID"
+    },
+    {
+      "Alias": "STAuthorName",
+      "Appearance": null,
+      "Caption": "Автор",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "$SampleText.AuthorName"
+    },
+    {
+      "Alias": "STStatus",
+      "Appearance": null,
+      "Caption": "Статус",
+      "Condition": null,
+      "DisableGrouping": false,
+      "HasTag": false,
+      "Hidden": false,
+      "Localizable": false,
+      "MaxLength": null,
+      "SortBy": null,
+      "TreatValueAsUtc": false,
+      "Type": "String(Max) Not Null"
+    }
+  ],
+  "ConnectionAlias": null,
+  "DefaultSortColumns": null,
+  "EnableAutoWidth": true,
+  "ExportDataPageLimit": null,
+  "Extensions": [
+    {
+      "Condition": null,
+      "Data": {
+        "CardCreationKind": "ByTypeAlias",
+        "CardOpeningKind": "ApplicationTab",
+        "DocTypeIdentifier": null,
+        "IDParam": null,
+        "TypeAlias": "SampleText"
+      },
+      "Order::int": 0,
+      "TypeName": "Tessa.Extensions.Default.Client.Views.CreateCardExtension"
+    }
+  ],
+  "GroupingColumn": null,
+  "MultiSelect": false,
+  "Overrides": null,
+  "PageLimit::int": 1000,
+  "Paging": "Always",
+  "Parameters": [
+    {
+      "Alias": "Text",
+      "AllowedOperands": null,
+      "AutoCompleteInfo": null,
+      "Caption": "Текст",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": null,
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$SampleText.Text"
+    },
+    {
+      "Alias": "AuthorOld",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality"
+      ],
+      "AutoCompleteInfo": null,
+      "Caption": "Автор",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": true,
+      "HideAutoCompleteButton": false,
+      "Multiple": false,
+      "RefSection": "OnlyUsersExpand",
+      "SourceViews": [
+        {
+          "::single_type": "str"
+        },
+        "UsersExpand"
+      ],
+      "TreatValueAsUtc": false,
+      "Type": "$SampleText.AuthorID"
+    },
+    {
+      "Alias": "Author",
+      "AllowedOperands": [
+        {
+          "::single_type": "str"
+        },
+        "Equality",
+        "NonEquality"
+      ],
+      "AutoCompleteInfo": {
+        "ParamAlias": "Name",
+        "PopupColumns": [
+          {
+            "::single_type": "int"
+          },
+          1,
+          4
+        ],
+        "RefPrefix": null,
+        "ViewAlias": "Users"
+      },
+      "Caption": "$Views_Registers_Author_Param",
+      "Condition": null,
+      "DisallowedOperands": null,
+      "DropDownInfo": null,
+      "Hidden": false,
+      "HideAutoCompleteButton": false,
+      "Multiple": true,
+      "RefSection": "PersonalRoles",
+      "SourceViews": null,
+      "TreatValueAsUtc": false,
+      "Type": "$DocumentCommonInfo.AuthorID"
+    }
+  ],
+  "QuickSearchParam": "Text",
+  "References": [
+    {
+      "CardType": null,
+      "CardTypeColumn": null,
+      "ColPrefix": "ST",
+      "Condition": null,
+      "DisplayValueColumn": null,
+      "IsCard": true,
+      "OpenOnDoubleClick": true,
+      "RefSection": [
+        {
+          "::single_type": "str"
+        },
+        "SampleText"
+      ]
+    }
+  ],
+  "RowCounterVisible": true,
+  "RowCountSubset": "Count",
+  "SelectionMode": "Row",
+  "Subsets": [
+    {
+      "Alias": "Count",
+      "Caption": null,
+      "CaptionColumn": null,
+      "Condition": null,
+      "CountColumn": "cnt",
+      "HideZeroCount": true,
+      "Kind": "List",
+      "RefColumn": null,
+      "RefParam": null,
+      "TreeHasChildrenColumn": null,
+      "TreeRefParam": null
+    }
+  ],
+  "TreatAsSingleQuery": false,
+  "TreeGroup": null,
+  "TreeGroupDisplayValue": null,
+  "TreeGroupId": null,
+  "TreeGroupParentId": null,
+  "TreeId": null,
+  "TreeParentId": null
+}
+
+[TEXTPART AllSampleTexts MSSQL]
+
+
+[TEXTPART AllSampleTexts PGSQL]
+SELECT
+#if(Normal) {
+	st."ID" as "STID",
+    st."Text" as "STText",
+    st."AuthorID" as "STAuthorID",
+    st."AuthorName" as "STAuthorName",
+    CASE 
+    WHEN "Status" = false 
+    	THEN 'Активен'
+    	ELSE 'Не активен'
+    END AS "STStatus"
+    }
+#if(Count) { 
+	COUNT(*) as cnt
+}
+
+FROM "SampleText" as st
+WHERE 1=1
+#param(Text, st."Text")
+#param(Author, st."AuthorID")
