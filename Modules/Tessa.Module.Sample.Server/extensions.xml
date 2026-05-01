@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<extensions xmlns="http://syntellect.ru/tessa/include">
+
+  <include file="Tessa.Module.Sample.Server.dll" serverOnly="true" />
+  <include file="Tessa.Module.Sample.Shared.dll" />
+
+</extensions>

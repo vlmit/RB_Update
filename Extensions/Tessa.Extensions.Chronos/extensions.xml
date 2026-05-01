@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<extensions xmlns="http://syntellect.ru/tessa/include">
+
+  <scan path="../../extensions" />
+  
+  <include file="Tessa.Extensions.Chronos.dll" serverOnly="true" />
+  <include file="Tessa.Extensions.PostgreSql.Server.dll" serverOnly="true" />
+
+</extensions>

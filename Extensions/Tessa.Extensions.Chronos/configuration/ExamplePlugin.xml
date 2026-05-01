@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<plugin xmlns="http://syntellect.ru/chronos"
+        launchImmediately="false"
+        disallowConcurrency="true"
+        disabled="true">
+
+  <!-- Плагин по умолчанию отключён. Чтобы включить его, укажите disabled="false" -->
+
+  <!-- Плагин запускается раз в 5 минут -->
+  <trigger repeatSeconds="300" />
+
+</plugin>

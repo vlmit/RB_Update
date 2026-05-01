@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<plugin xmlns="http://syntellect.ru/chronos"
+        launchImmediately="false"
+        disallowConcurrency="false"
+        disabled="false">
+  <!-- Plugin starts every 1-st day of month at 7:00 am -->
+  <trigger cron="0 0 7 1 1/1 ? *" />
+</plugin>

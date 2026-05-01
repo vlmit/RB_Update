@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<extensions xmlns="http://syntellect.ru/tessa/include">
+
+  <include file="Tessa.Extensions.Default.Shared.dll" />
+  <include file="Tessa.Extensions.Default.Server.dll" serverOnly="true" />
+
+  <include file="Tessa.Extensions.Shared.dll" />
+  <include file="Tessa.Extensions.Server.dll" serverOnly="true" />
+
+  <include file="Tessa.Extensions.Default.Server.Web.dll" serverOnly="true" />
+  <include file="Tessa.Extensions.Server.Web.dll" serverOnly="true" />
+
+  <include file="Tessa.Extensions.PostgreSql.Server.dll" serverOnly="true" />
+
+</extensions>

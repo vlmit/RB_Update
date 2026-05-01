@@ -1,0 +1,59 @@
+{
+  "ConnectionStrings": {
+    "default": "Server=.\\SQLEXPRESS; Database=tessa_test; Integrated Security=false; User ID=sa; Password=Master1234; Pooling=true; Max Pool Size=1024; Trust Server Certificate=true",
+    "temp_ms": "Server=.\\SQLEXPRESS; Database=tessa_test; Integrated Security=false; User ID=sa; Password=Master1234; Pooling=true; Max Pool Size=1024; Trust Server Certificate=true",
+    "temp_pg": [
+      "Host=localhost; Database=tessa_test; Integrated Security=false; User ID=postgres; Password=Master1234; Pooling=true; Timeout=0",
+      "Npgsql"
+    ],
+    "gc": "Filename=C:\\Tessa-Test\\gclocal.db;Connection=shared"
+  },
+
+  "DataProviders": {
+    "Npgsql": "Npgsql.NpgsqlFactory, Npgsql"
+  },
+
+  ".if": [
+    "linux",
+    {
+      "Settings": {
+        "PlatformDependencies": "Tessa.Platform.LinuxTessaPlatformDependencies, Tessa.Linux"
+      }
+    }
+  ],
+
+  ".include": [
+    "app-*.json"
+  ],
+
+  "Settings": {
+    // Test options
+    "FileStoragePath": "C:\\Tessa-Test\\Files",
+    "FileUseSimpleNamingScheme": false,
+    "FixtureDate": null,
+    "FixtureSeed": 0,
+    "GCKeepAliveInterval": "06:00:00",
+    "UseTestScope": true,
+
+    // Basic options
+    "ServerCode": "tessa",
+    "LicenseFile": "@*.tlic",
+    "Redis": "",
+    "ProbingPath": "extensions",
+    "ServerDependencies": "Tessa.Server.TessaServerDependencies, Tessa.Server",
+
+    // Security options
+    "Configuration.Sealed": false,
+    "Configuration.StrictSecurity": false,
+    "CheckPlatformVersion": true,
+    "SessionExpirationTimeSpan": "7.00:00:00",
+    "CipherKeyRotationInterval": "10.00:00:00",
+    "ViewAccessCacheTimeSpan": "0.01:00:00",
+
+    // Misc
+    "ExtensionTracingMode": "Off",
+    "RoleTimeoutTimeSpan": "0.00:30:00",
+    "RolesLockTimeoutSeconds": 300,
+    "LimitMaxThreads": true
+  }
+}

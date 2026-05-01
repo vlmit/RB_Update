@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<plugins xmlns="http://syntellect.ru/chronos/include">
+  <include file="Tessa.Chronos.dll" />
+  <include file="Tessa.Chronos.DocumentsLoad.dll" />
+  <include file="Tessa.Extensions.Default.Chronos.dll" />
+</plugins>

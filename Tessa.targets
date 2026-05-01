@@ -1,0 +1,16 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <Authors>Syntellect</Authors>
+    <Company>Syntellect</Company>
+    <Product>Document automation system TESSA</Product>
+    <Copyright>Copyright © Syntellect 2023</Copyright>
+    <LangVersion>9</LangVersion>
+    <NoWarn>$(NoWarn);NETSDK1138</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="*.DotSettings" />
+  </ItemGroup>
+
+</Project>

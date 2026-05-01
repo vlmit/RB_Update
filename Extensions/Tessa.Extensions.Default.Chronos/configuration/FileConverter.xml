@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<plugin xmlns="http://syntellect.ru/chronos"
+        launchImmediately="false"
+        disallowConcurrency="true"
+        disabled="false">
+  <!-- Plugin needs to start one time, but it starts every 60 seconds in order to restore after crash, if it occurs -->
+  <trigger repeatSeconds="60" />
+</plugin>
