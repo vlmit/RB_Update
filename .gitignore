@@ -35,6 +35,8 @@ Extensions/Tessa.Extensions.Server.Web/bin/*
 Extensions/Tessa.Extensions.Shared/bin/*
 Modules/*
 Tests/*
+WebClient SDK/dts/*
+WebClient SDK/wwwroot/extensions/*
 /Source/logs
 /Source/web/dts/*
 /Source/web/node_modules/*
