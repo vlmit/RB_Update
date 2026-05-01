@@ -4,6 +4,10 @@ import { ITreeItem, isTreeItemVisibleInPath } from 'tessa/ui/views/workplaces/tr
 import { IStorage } from 'tessa/platform/storage';
 import { tryGetFromSettings } from 'tessa/ui';
 import { IWorkplaceViewModel, IWorkplaceViewComponent } from 'tessa/ui/views';
+import { ITessaViewResult, RequestParameterBuilder, TessaViewRequest, ViewService } from 'tessa/views';
+//import { isNotNullCriteriaOperator } from 'tessa/views/metadata';
+import { ValidationResult } from 'tessa/platform/validation';
+import { isTrueCriteriaOperator } from 'tessa/views/metadata';
 
 export class AutomaticNodeRefreshExtension extends TreeItemExtension {
 
@@ -22,7 +26,21 @@ export class AutomaticNodeRefreshExtension extends TreeItemExtension {
     return 'Tessa.Extensions.Default.Client.Workplaces.AutomaticNodeRefreshExtension';
   }
 
-  public initialized(model: ITreeItem) {
+  public async initialized(model: ITreeItem) {
+
+    if (model.text === '$Workplaces_User_MyTasks') {
+      const count = await AutomaticNodeRefreshExtension.viewRequestCommand('MyTasks');
+      if (count > 0) {
+        model.text = 'Мои задания' + ' ' + count;
+      }
+    }
+    else if(model.text === 'В работе') {
+      const count = await AutomaticNodeRefreshExtension.viewInWorkTasks('MyTasks');
+      if (count > 0) {
+        model.text = model.text + ' ' + count;
+      }
+    }
+
     this._treeItem = model;
     this._settings = new AutomaticNodeRefreshSettings(this.settingsStorage);
     this.subscribeToEvents(model);
@@ -42,6 +60,68 @@ export class AutomaticNodeRefreshExtension extends TreeItemExtension {
       // вкладка с рабочим местом активна на момент запуска приложения
       this.startTimer();
     }
+  }
+
+  private static async viewRequestCommand(viewName: string): Promise<number> {
+    // пытаемся найти представление "Контрагенты"
+    const partnersView = ViewService.instance.getByName(viewName);
+    if (!partnersView) {
+      console.log('1');
+      return 0;
+    }
+
+    console.log(partnersView);
+
+    const request = new TessaViewRequest(partnersView.metadata);
+
+    
+
+    let result: ITessaViewResult;
+    try {
+      // в getData будут добавлены параметры currentUserId и locale
+      result = await partnersView.getData(request);
+    } catch (err) {
+      //await showNotEmpty(ValidationResult.fromError(err));
+      console.log(ValidationResult.fromError(err));
+      return 0;
+    }
+
+    console.log(result.rows.length);
+
+    return result.rows.length
+  }
+
+  private static async viewInWorkTasks(viewName: string): Promise<number> {
+    // пытаемся найти представление "Контрагенты"
+    const partnersView = ViewService.instance.getByName(viewName);
+    if (!partnersView) {
+      console.log('1');
+      return 0;
+    }
+
+    console.log(partnersView);
+
+    const request = new TessaViewRequest(partnersView.metadata);
+
+    const nameParam = new RequestParameterBuilder()
+    .withMetadata(partnersView.metadata.parameters.get('InWork')!)
+    .addCriteria(isTrueCriteriaOperator())
+    .asRequestParameter();
+  request.values.push(nameParam);
+
+    let result: ITessaViewResult;
+    try {
+      // в getData будут добавлены параметры currentUserId и locale
+      result = await partnersView.getData(request);
+    } catch (err) {
+      //await showNotEmpty(ValidationResult.fromError(err));
+      console.log(ValidationResult.fromError(err));
+      return 0;
+    }
+
+    console.log(result.rows.length);
+
+    return result.rows.length
   }
 
   private subscribeToEvents(treeItem: ITreeItem) {

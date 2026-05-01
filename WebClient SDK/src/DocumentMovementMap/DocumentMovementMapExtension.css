@@ -1,0 +1,266 @@
+.document-movement-map .status.status_in-progress {
+    background-color: #c8c523;
+}
+
+.document-movement-map .cycle-checkpoint {
+    color: #212529;
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 15px 0 15px;
+    position: relative;
+}
+
+.document-movement-map .cycle-checkpoint .point {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8f8d8f;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.document-movement-map .cycle-checkpoint .cycle-checkpoint__line {
+    position: relative;
+}
+
+.document-movement-map .cycle-checkpoint .cycle-checkpoint__line::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #8f8d8f;
+    height: 100%;
+    left: -15px;
+    top: 28px;
+}
+
+.document-movement-map .point__line::before {
+    content: '';
+    transform: rotate(90deg);
+    position: absolute;
+    width: 1px;
+    background-color: #8f8d8f;
+    height: 10px;
+    left: 32px;
+    top: 9px;
+}
+
+.document-movement-map .cycle-checkpoint .point.point_active {
+    background-color: #4a9ed6;
+    color: #FFFFFF;
+}
+
+.document-movement-map .cycle-checkpoint .point.point_active::before {
+    z-index: -1;
+    background-color: #4a9ed6;
+    opacity: .7;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    content: ' ';
+    position: absolute;
+}
+
+.document-movement-map .cycle-checkpoint .point.point_active .point__line::before {
+    background-color: #4a9ed6;;
+}
+
+.document-movement-map {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+}
+
+.document-movement-map button {
+    background-color: unset;
+    border: 0;
+    cursor: pointer;
+}
+
+.document-movement-map__content {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: minmax(0, auto)  minmax(0, 1fr);
+}
+
+.document-movement-map__header {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.cycle.cycle_active {
+    box-shadow: 0 0 8px 3px rgba(9, 188, 241, 0.43);
+    border-radius: 5px;
+}
+
+.cycle__header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #8f8d8f solid;
+    margin: 10px;
+    padding-bottom: 5px;
+}
+
+.cycle__header .item__type {
+    align-self: flex-end;
+    background-color: #FFC704FF;
+    padding: 4px 30px;
+    min-width: 150px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.cycle__header .item__title {
+    font-size: 18px;
+}
+
+.cycle__header .item__text {
+    font-size: 14px;
+    color: #8f8d8f;
+}
+
+.cycle__grid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    align-items: flex-start;
+}
+
+@media screen and (min-width: 1950px) {
+    .cycle__grid {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .cycle__grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+.task-card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.document-movement-map .task-select {
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.document-movement-map .task-card__status {
+    background-color: #01833F;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.task-card__execution-time {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+
+.task-card__body {
+    box-shadow: 0 2px 3px 2px rgba(34, 60, 80, 0.23);
+}
+
+.task-card__body .body__description {
+    padding: 15px 10px;
+    font-size: 14px;
+    background-color: #F7F3F7;
+}
+
+.description__supervisor {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.document-movement-map .comment__icon {
+    position: absolute;
+    display: block;
+    width: 10px;
+    cursor: pointer;
+    transform: rotate(90deg);
+    font-weight: 700;
+}
+
+.document-movement-map .comment__icon.icon_expanded {
+    transform: rotate(270deg);
+}
+
+.task-card__body .body__comment {
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    background-color: #3D3E3D;
+    color: #FFFFFF;
+    font-size: 14px;
+    align-items: flex-start;
+    transition: height 0.5s ease;
+}
+
+.body__comment .comment__text {
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 20px;
+}
+
+.document-movement-map .body__comment.comment_expanded {
+    height: 100px;
+    overflow: auto;
+}
+
+.document-movement-map .body__comment.comment_expanded::-webkit-scrollbar {
+    width: 8px;
+}
+
+.document-movement-map .body__comment.comment_expanded::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.document-movement-map .body__comment.comment_expanded::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid #d6dee1;
+}
+
+.document-movement-map .body__comment.comment_expanded::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
+
+.document-movement-map .body__comment.comment_expanded .comment__text {
+    white-space: unset;
+}
+
+.document-movement-map .title {
+    color: #8f8d8f;
+}
+
+.document-movement-map .label {
+    margin-bottom: 2px;
+}
+
+.document-movement-map .label, .document-movement-map .text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

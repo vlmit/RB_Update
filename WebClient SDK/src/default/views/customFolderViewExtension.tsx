@@ -6,6 +6,10 @@ import { TreeItemExtension } from 'tessa/ui/views/extensions';
 import { ITreeItem, FolderTreeItem } from 'tessa/ui/views/workplaces/tree';
 import { IContentProvider, ViewComponentRegistry, IViewContext } from 'tessa/ui/views';
 import { LocalizationManager } from 'tessa/localization';
+// import { ITessaViewResult, RequestParameterBuilder, TessaViewRequest, ViewService, convertRowsToMap } from 'tessa/views';
+// import { isNotNullCriteriaOperator } from 'tessa/views/metadata';
+// import { showMessage, showNotEmpty } from 'tessa/ui';
+// import { ValidationResult } from 'tessa/platform/validation';
 
 export class CustomFolderViewExtension extends TreeItemExtension {
 
@@ -14,6 +18,8 @@ export class CustomFolderViewExtension extends TreeItemExtension {
   }
 
   public initialize(model: ITreeItem) {
+    
+
     model.switchExpandOnSingleClick = false;
     if (model instanceof FolderTreeItem) {
       model.hasContent = true;
@@ -21,7 +27,56 @@ export class CustomFolderViewExtension extends TreeItemExtension {
     model.contentProviderFactory = () => new CustomFolderContentProvider(model);
   }
 
+  // private static async viewRequestCommand(): Promise<void> {
+  //   // пытаемся найти представление "Контрагенты"
+  //   const partnersView = ViewService.instance.getByName('Partners');
+  //   if (!partnersView) {
+  //     return;
+  //   }
+
+  //   const request = new TessaViewRequest(partnersView.metadata);
+
+  //   // добавляем параметр фильтрации по имени контрагента (для примера, что имя не равно null)
+  //   const nameParam = new RequestParameterBuilder()
+  //     .withMetadata(partnersView.metadata.parameters.get('Name')!)
+  //     .addCriteria(isNotNullCriteriaOperator())
+  //     .asRequestParameter();
+  //   request.values.push(nameParam);
+
+  //   let result: ITessaViewResult;
+  //   try {
+  //     // в getData будут добавлены параметры currentUserId и locale
+  //     result = await partnersView.getData(request);
+  //   } catch (err) {
+  //     await showNotEmpty(ValidationResult.fromError(err));
+  //     return;
+  //   }
+
+  //   // конвертируем строки в Map<string, any>[] для удобства
+  //   const rows = convertRowsToMap(result.columns, result.rows);
+
+  //   const text: string[] = [];
+  //   rows.forEach(row => {
+  //     const rowText: string[] = [];
+  //     row.forEach((v, k) => {
+  //       rowText.push(`${k}: ${v}`);
+  //     });
+  //     text.push(rowText.join(';'));
+  //   });
+
+  //   await showMessage(text.join('\n'));
+  // }
+
+
+
 }
+
+
+
+
+
+
+
 
 export class CustomFolderInitializeExtension extends ApplicationExtension {
 
