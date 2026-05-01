@@ -1,0 +1,30 @@
+import { KrPermissionSectionSettings } from './krPermissionSectionSettings';
+import { KrPermissionFileSettings } from './krPermissionFileSettings';
+import { KrPermissionVisibilitySettings } from './krPermissionVisibilitySettings';
+import { StorageObject, IStorage, ArrayStorage } from 'tessa/platform/storage';
+export declare class KrPermissionExtendedCardSettings extends StorageObject {
+    constructor(storage: IStorage);
+    static readonly sectionSettingsKey: string;
+    static readonly taskSettingsKey: string;
+    static readonly taskSettingsTypesKey: string;
+    static readonly visibilitySettingsKey: string;
+    static readonly fileSettingsKey: string;
+    get sectionSettings(): ArrayStorage<KrPermissionSectionSettings>;
+    set sectionSettings(value: ArrayStorage<KrPermissionSectionSettings>);
+    get taskSettings(): ArrayStorage<ArrayStorage<KrPermissionSectionSettings>>;
+    set taskSettings(value: ArrayStorage<ArrayStorage<KrPermissionSectionSettings>>);
+    get taskSettingsTypes(): any[];
+    set taskSettingsTypes(value: any[]);
+    get visibilitySettings(): any[];
+    set visibilitySettings(value: any[]);
+    get fileSettings(): ArrayStorage<KrPermissionFileSettings>;
+    set fileSettings(value: ArrayStorage<KrPermissionFileSettings>);
+    private static readonly _cardSettingsFactory;
+    private static readonly _taskSettingsFactory;
+    private static readonly _fileSettingsFactory;
+    getCardSettings(): KrPermissionSectionSettings[];
+    getTaskSettings(): Map<guid, KrPermissionSectionSettings[]> | null;
+    getVisibilitySettings(): KrPermissionVisibilitySettings[];
+    getFileSettings(): KrPermissionFileSettings[];
+    setCardAccess(isAllowed: boolean, sectionId: guid, fields: guid[]): void;
+}

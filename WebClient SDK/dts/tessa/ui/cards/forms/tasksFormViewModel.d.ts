@@ -1,0 +1,53 @@
+import { IFormViewModel, IBlockViewModel, ICardModel, IFormState } from '../interfaces';
+import { CardTypeFormSealed } from 'tessa/cards/types';
+import { SupportUnloadingViewModel } from 'tessa/ui/cards/supportUnloadingViewModel';
+import { IValidationResultBuilder } from 'tessa/platform/validation';
+import { EventHandler } from 'tessa/platform';
+import { TabSelectedContext, TabSelectedEventArgs } from '../tabSelectedEventArgs';
+export declare class TasksFormViewModel extends SupportUnloadingViewModel implements IFormViewModel {
+    constructor(model: ICardModel);
+    protected _initialized: boolean;
+    protected _blocks: ReadonlyArray<IBlockViewModel>;
+    protected _tabCaption: string | null;
+    protected _blockMargin: string | null;
+    protected _headerClass: string;
+    protected _contentClass: string;
+    protected _className: string;
+    protected _isCollapsed: boolean;
+    readonly cardModel: ICardModel;
+    readonly componentId: guid;
+    readonly cardTypeForm: CardTypeFormSealed;
+    get blocks(): ReadonlyArray<IBlockViewModel>;
+    get name(): string | null;
+    get isEmpty(): boolean;
+    get tabCaption(): string | null;
+    set tabCaption(value: string | null);
+    get blockMargin(): string | null;
+    set blockMargin(value: string | null);
+    get headerClass(): string;
+    get contentClass(): string;
+    get className(): string;
+    set className(value: string);
+    get hasFileControl(): boolean;
+    get filePreviewIsDisabled(): boolean;
+    get isCollapsed(): boolean;
+    set isCollapsed(value: boolean);
+    initialize(): void;
+    protected initializeCore(): void;
+    getIsTabMode(): boolean;
+    getState(): IFormState;
+    setState(state: IFormState): boolean;
+    close(): boolean;
+    onUnloading(validationResult: IValidationResultBuilder): void;
+    readonly closed: EventHandler<() => void>;
+    tabSelected: EventHandler<(args: TabSelectedEventArgs) => void>;
+    tabDeselected: EventHandler<(args: TabSelectedEventArgs) => void>;
+    notifyTabSelected(context: TabSelectedContext): Promise<void>;
+    notifyTabDeselected(context: TabSelectedContext): Promise<void>;
+}
+export declare class TasksFormViewModelState implements IFormState {
+    constructor(form: TasksFormViewModel);
+    readonly isForceTabMode: boolean;
+    readonly isCollapsed: boolean;
+    apply(form: TasksFormViewModel): boolean;
+}

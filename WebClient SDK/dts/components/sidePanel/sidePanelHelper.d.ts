@@ -1,0 +1,12 @@
+import { ElementSide } from 'common/utility';
+export declare const OPENED_STATE = "OPENED_STATE";
+export declare const CLOSED_STATE = "CLOSED_STATE";
+export declare const CHANGING_STATE = "CHANGING_STATE";
+export declare const TOP_SCROLLER = "TOP_SCROLLER";
+export declare const BOTTOM_SCROLLER = "BOTTOM_SCROLLER";
+export declare function openPanel(side: ElementSide, panelRef: HTMLElement): void;
+export declare function closePanel(side: ElementSide, panelRef: HTMLElement): void;
+export declare function setTranslate(amount: number, side: ElementSide, panelWidth: number, panelRef: HTMLElement): void;
+export declare function enableAnimation(panelRef: HTMLElement): void;
+export declare function disableAnimation(panelRef: HTMLElement): void;
+export declare function getAnotherSide(side: ElementSide): ElementSide;

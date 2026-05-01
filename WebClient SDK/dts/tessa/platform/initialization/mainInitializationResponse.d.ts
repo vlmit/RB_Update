@@ -1,0 +1,38 @@
+import { IStorage } from 'tessa/platform/storage';
+import { ICloneable } from 'tessa/platform';
+import { ValidationInfoStorageObject, ValidationStorageResultBuilder } from 'tessa/platform/validation';
+import { Dbms } from 'tessa/platform/dbms';
+import { Card } from 'tessa/cards';
+export declare class MainInitializationResponse extends ValidationInfoStorageObject implements ICloneable<MainInitializationResponse> {
+    constructor(storage?: IStorage);
+    static readonly dbmsKey: string;
+    static readonly personalRoleSatelliteKey: string;
+    static readonly validationResultKey: string;
+    static readonly configurationCacheIsActualKey: string;
+    static readonly supportedPdfFormatsKey: string;
+    static readonly webSettingsKey: string;
+    static readonly additionalMetaKey: string;
+    static readonly cipherInfoKey: string;
+    static readonly defaultColors: string;
+    get dbms(): Dbms;
+    set dbms(value: Dbms);
+    get personalRoleSatellite(): Card;
+    set personalRoleSatellite(value: Card);
+    get validationResult(): ValidationStorageResultBuilder;
+    set validationResult(value: ValidationStorageResultBuilder);
+    get configurationCacheIsActual(): boolean;
+    set configurationCacheIsActual(value: boolean);
+    get supportedPdfFormats(): string[];
+    set supportedPdfFormats(value: string[]);
+    get webSettings(): IStorage;
+    set webSettings(value: IStorage);
+    get additionalMeta(): IStorage;
+    get cipherInfo(): IStorage;
+    get defaultColors(): IStorage;
+    tryGetPersonalRoleSatellite(): Card | null | undefined;
+    tryGetValidationResult(): ValidationStorageResultBuilder | null | undefined;
+    tryGetSupportedPdfFormats(): string[] | null | undefined;
+    tryGetWebSettings(): IStorage | null | undefined;
+    tryGetCipherInfo(): IStorage | null | undefined;
+    clone(): MainInitializationResponse;
+}

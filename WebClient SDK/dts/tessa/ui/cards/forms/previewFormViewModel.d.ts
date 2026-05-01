@@ -1,0 +1,70 @@
+import { IFormViewModel, IBlockViewModel, ICardModel, IFormState } from '../interfaces';
+import { CardTypeFormSealed } from 'tessa/cards/types';
+import { SupportUnloadingViewModel } from 'tessa/ui/cards/supportUnloadingViewModel';
+import { IValidationResultBuilder } from 'tessa/platform/validation';
+import { PreviewManager } from 'tessa/ui/cards/previewManager';
+import { EventHandler } from 'tessa/platform';
+import { CardFilePreviewPosition } from 'tessa/cards';
+import { TabSelectedContext, TabSelectedEventArgs } from '../tabSelectedEventArgs';
+export declare class PreviewFormViewModel extends SupportUnloadingViewModel implements IFormViewModel {
+    private static _sideAtom;
+    private static _widthAtom;
+    constructor(model: ICardModel);
+    protected _initialized: boolean;
+    protected _blocks: ReadonlyArray<IBlockViewModel>;
+    protected _tabCaption: string | null;
+    protected _blockMargin: string | null;
+    protected _isForceTabMode: boolean;
+    protected _contentClass: string;
+    protected _className: string;
+    protected _isCollapsed: boolean;
+    readonly cardModel: ICardModel;
+    readonly previewManager: PreviewManager;
+    readonly componentId: guid;
+    readonly cardTypeForm: CardTypeFormSealed;
+    get blocks(): ReadonlyArray<IBlockViewModel>;
+    get name(): string | null;
+    get isEmpty(): boolean;
+    get tabCaption(): string | null;
+    set tabCaption(value: string | null);
+    get blockMargin(): string | null;
+    set blockMargin(value: string | null);
+    get isForceTabMode(): boolean;
+    set isForceTabMode(value: boolean);
+    get headerClass(): string;
+    get contentClass(): string;
+    get className(): string;
+    set className(value: string);
+    get isEnabled(): boolean;
+    set isEnabled(value: boolean);
+    get hasFileControl(): boolean;
+    get filePreviewIsDisabled(): boolean;
+    get isCollapsed(): boolean;
+    set isCollapsed(value: boolean);
+    initialize(): void;
+    protected initializeCore(): void;
+    getIsTabMode(): boolean;
+    getState(): IFormState;
+    setState(state: IFormState): boolean;
+    close(): boolean;
+    static setFilePreviewPosition(value?: CardFilePreviewPosition): void;
+    static get filePreviewPosition(): CardFilePreviewPosition;
+    static setFilePreviewWidth(value: number): void;
+    static get filePreviewWidth(): number;
+    onUnloading(validationResult: IValidationResultBuilder): void;
+    readonly closed: EventHandler<() => void>;
+    tabSelected: EventHandler<(args: TabSelectedEventArgs) => void>;
+    tabDeselected: EventHandler<(args: TabSelectedEventArgs) => void>;
+    notifyTabSelected(context: TabSelectedContext): Promise<void>;
+    notifyTabDeselected(context: TabSelectedContext): Promise<void>;
+}
+export declare class PreviewFormViewModelState implements IFormState {
+    constructor(form: PreviewFormViewModel);
+    readonly isForceTabMode: boolean;
+    readonly isCollapsed: boolean;
+    apply(form: PreviewFormViewModel): boolean;
+}
+export interface PreviewFormViewModelSettings {
+    previewSide?: CardFilePreviewPosition;
+    previewWidth?: number;
+}

@@ -1,0 +1,68 @@
+import { AutoCompleteValueEventArgs } from './autoCompleteCommon';
+import { AutoCompleteTableDataSource } from './autoCompleteTableDataSource';
+import { IAutoCompleteItem } from './autoCompleteItem';
+import { IAutoCompletePopupItem } from './autoCompletePopupItem';
+import { ControlViewModelBase } from '../controlViewModelBase';
+import { ICardModel, ControlKeyDownEventArgs } from '../../interfaces';
+import { CardTypeTableControl } from 'tessa/cards/types';
+import { CardMetadataColumnSealed } from 'tessa/cards/metadata';
+import { ValidationResultBuilder } from 'tessa/platform/validation';
+import { EventHandler } from 'tessa/platform/eventHandler';
+import { IStorage } from 'tessa/platform/storage';
+import { Command } from 'tessa/platform';
+import { ISelectFromViewContext } from 'tessa/ui/views/selectFromViewContext';
+/**
+ * Модель представления для контрола "Список".
+ */
+export declare class AutoCompleteTableViewModel extends ControlViewModelBase {
+    constructor(control: CardTypeTableControl, model: ICardModel);
+    private _cardModel;
+    private _referenceSection;
+    private _referenceColumn;
+    private _refSection;
+    private _view;
+    private _viewMapping;
+    private _popupItems;
+    private _itemsKeepAliveDisposer;
+    private _selectedItem;
+    private _hasSelectionAction;
+    private _hideSelectorButton;
+    private _isClearFieldVisible;
+    private _hasLineBreak;
+    private _itemsSource;
+    private _manualInput;
+    isAllowOpenRefs: boolean;
+    get hideSelectorButton(): boolean;
+    set hideSelectorButton(value: boolean);
+    get isClearFieldVisible(): boolean;
+    set isClearFieldVisible(value: boolean);
+    get hasLineBreak(): boolean;
+    get itemsSource(): AutoCompleteTableDataSource;
+    get items(): ReadonlyArray<IAutoCompleteItem>;
+    get popupItems(): ReadonlyArray<IAutoCompletePopupItem> | null;
+    get popupDisplayIndexes(): ReadonlyArray<number> | null;
+    alwaysShowInDialog: boolean;
+    get error(): string | null;
+    get hasEmptyValue(): boolean;
+    get selectedItem(): IAutoCompleteItem | null;
+    set selectedItem(value: IAutoCompleteItem | null);
+    get hasSelectionAction(): boolean;
+    set hasSelectionAction(value: boolean);
+    get manualInput(): boolean;
+    get refSection(): string | null;
+    get referenceColumn(): CardMetadataColumnSealed;
+    protected initializeCore(): void;
+    setItem(item: IAutoCompletePopupItem | null): void;
+    setItemFromViews: () => Promise<void>;
+    selectFromView: (context: ISelectFromViewContext) => Promise<void>;
+    deleteItem(item: IAutoCompleteItem): void;
+    findItems(filter: string | null, withSearchDelay?: boolean): Promise<ReadonlyArray<IAutoCompletePopupItem>>;
+    getRefInfo(item: IAutoCompleteItem): IStorage;
+    openRefAction: (index: number) => void;
+    readonly changeFieldCommand: Command;
+    readonly openCardCommand: Command<[number]>;
+    readonly valueSet: EventHandler<(args: AutoCompleteValueEventArgs<AutoCompleteTableViewModel>) => void>;
+    readonly valueDeleted: EventHandler<(args: AutoCompleteValueEventArgs<AutoCompleteTableViewModel>) => void>;
+    readonly keyDown: EventHandler<(args: ControlKeyDownEventArgs) => void>;
+    onUnloading(validationResult: ValidationResultBuilder): void;
+}

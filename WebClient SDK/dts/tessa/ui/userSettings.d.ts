@@ -1,0 +1,52 @@
+import { IStorage } from 'tessa/platform/storage';
+export interface IUserSettings {
+    data: IStorage;
+    taskColor?: string;
+    topicItemColor?: string;
+    authorColor?: string;
+    authorDeputyColor?: string;
+    performerColor?: string;
+    performerDeputyColor?: string;
+    foregroundColors?: string[];
+    backgroundColors?: string[];
+    blockColors?: string[];
+    customForegroundColors?: string[];
+    customBackgroundColors?: string[];
+    customBlockColors?: string[];
+}
+export declare class UserSettings implements IUserSettings {
+    _data: IStorage<any>;
+    _taskColor?: string;
+    _topicItemColor?: string | undefined;
+    _authorColor?: string | undefined;
+    _authorDeputyColor?: string | undefined;
+    _performerColor?: string | undefined;
+    _performerDeputyColor?: string | undefined;
+    _foregroundColors?: string[];
+    _backgroundColors?: string[];
+    _blockColors?: string[];
+    _customForegroundColors?: string[];
+    _customBackgroundColors?: string[];
+    _customBlockColors?: string[];
+    get data(): IStorage;
+    set data(value: IStorage);
+    get taskColor(): string | undefined;
+    set taskColor(value: string | undefined);
+    get topicItemColor(): string | undefined;
+    set topicItemColor(value: string | undefined);
+    get authorColor(): string | undefined;
+    set authorColor(value: string | undefined);
+    get authorDeputyColor(): string | undefined;
+    set authorDeputyColor(value: string | undefined);
+    get performerColor(): string | undefined;
+    set performerColor(value: string | undefined);
+    get performerDeputyColor(): string | undefined;
+    set performerDeputyColor(value: string | undefined);
+    get customForegroundColors(): string[] | undefined;
+    set customForegroundColors(value: string[] | undefined);
+    get customBackgroundColors(): string[] | undefined;
+    set customBackgroundColors(value: string[] | undefined);
+    get customBlockColors(): string[] | undefined;
+    set customBlockColors(value: string[] | undefined);
+    private clearFields;
+}

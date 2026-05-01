@@ -1,0 +1,34 @@
+import { IStorage } from 'tessa/platform/storage';
+import { ICloneable } from 'tessa/platform';
+import { ValidationInfoStorageObject, ValidationStorageResultBuilder } from 'tessa/platform/validation';
+import { Dbms } from 'tessa/platform/dbms';
+export declare class CardInitializationResponse extends ValidationInfoStorageObject implements ICloneable<CardInitializationResponse> {
+    constructor(storage?: IStorage);
+    static readonly dbmsKey: string;
+    static readonly validationResultKey: string;
+    static readonly configurationCacheIsActualKey: string;
+    static readonly cardTypesKey: string;
+    static readonly damagedCardTypeIdListKey: string;
+    static readonly enumerationsKey: string;
+    static readonly sectionsKey: string;
+    get dbms(): Dbms;
+    set dbms(value: Dbms);
+    get validationResult(): ValidationStorageResultBuilder;
+    set validationResult(value: ValidationStorageResultBuilder);
+    get configurationCacheIsActual(): boolean;
+    set configurationCacheIsActual(value: boolean);
+    get cardTypes(): IStorage[];
+    set cardTypes(value: IStorage[]);
+    get damagedCardTypeIdList(): guid[];
+    set damagedCardTypeIdList(value: guid[]);
+    get enumerations(): IStorage[];
+    set enumerations(value: IStorage[]);
+    get sections(): IStorage[];
+    set sections(value: IStorage[]);
+    tryGetCardTypes(): IStorage[] | null | undefined;
+    tryGetValidationResult(): ValidationStorageResultBuilder | null | undefined;
+    tryGetDamagedCardTypeIdList(): guid[] | null | undefined;
+    tryGetEnumerations(): IStorage[] | null | undefined;
+    tryGetSections(): IStorage[] | null | undefined;
+    clone(): CardInitializationResponse;
+}

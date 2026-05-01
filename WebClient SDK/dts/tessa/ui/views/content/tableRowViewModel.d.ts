@@ -1,0 +1,81 @@
+/// <reference types="react" />
+import type { TableGridViewModelBase } from './tableGridViewModelBase';
+import type { ITableCellViewModel } from './tableCellViewModel';
+import type { IViewComponentBase } from '../viewComponentBase';
+import type { MenuAction } from 'tessa/ui/menuAction';
+export interface ITableRowViewModel {
+    readonly data: ReadonlyMap<string, any>;
+    readonly grid: TableGridViewModelBase<IViewComponentBase>;
+    readonly isGroup: boolean;
+    readonly id: guid;
+    readonly cells: ReadonlyArray<ITableCellViewModel>;
+    readonly isDeleted: boolean;
+    readonly isSelected: boolean;
+    readonly isLastSelected: boolean;
+    isToggled: boolean;
+    blockId: string | null;
+    parentRowId: string | null;
+    style: React.CSSProperties;
+    toolTip: string;
+    visibility: boolean;
+    onClick: (e: React.MouseEvent | React.KeyboardEvent) => void;
+    onDoubleClick: (e: React.MouseEvent | React.KeyboardEvent) => void;
+    onMouseDown: (e: React.MouseEvent) => void;
+    initialize(cells: ReadonlyMap<string, ITableCellViewModel>): any;
+    dispose(): any;
+    getByIndex(index: number): ITableCellViewModel | null;
+    getByName(name: string): ITableCellViewModel | null;
+    selectRow(isSelected?: boolean): any;
+    doubleClickAction(cell?: ITableCellViewModel | null): any;
+    getContextMenu(): ReadonlyArray<MenuAction>;
+    toggle(): any;
+}
+export interface ITableRowViewModelCreateOptions {
+    data: ReadonlyMap<string, any>;
+    grid: TableGridViewModelBase<IViewComponentBase>;
+    appearance?: string | null;
+    getContextMenu?: ((row: ITableRowViewModel) => ReadonlyArray<MenuAction>) | null;
+    treeId?: string | null;
+    treeParentRowId?: string | null;
+    isGroup?: boolean;
+    isToggle?: boolean;
+}
+export declare class TableRowViewModel implements ITableRowViewModel {
+    constructor(args: ITableRowViewModelCreateOptions);
+    protected _cells: Array<ITableCellViewModel>;
+    protected _cellsByColumnName: Map<string, ITableCellViewModel>;
+    protected _isToggled: boolean;
+    protected _style: React.CSSProperties;
+    protected _getContextMenu: ((row: ITableRowViewModel) => ReadonlyArray<MenuAction>) | null;
+    protected _toolTip: string;
+    protected _visibility: boolean;
+    readonly data: ReadonlyMap<string, any>;
+    readonly grid: TableGridViewModelBase<IViewComponentBase>;
+    readonly id: guid;
+    get cells(): ReadonlyArray<ITableCellViewModel>;
+    get isSelected(): boolean;
+    get isLastSelected(): boolean;
+    get isDeleted(): boolean;
+    get isToggled(): boolean;
+    set isToggled(value: boolean);
+    blockId: string | null;
+    parentRowId: string | null;
+    get style(): React.CSSProperties;
+    set style(value: React.CSSProperties);
+    readonly isGroup: boolean;
+    get toolTip(): string;
+    set toolTip(value: string);
+    get visibility(): boolean;
+    set visibility(value: boolean);
+    onClick: (_e: React.MouseEvent | React.KeyboardEvent) => void;
+    onDoubleClick: (_e: React.MouseEvent | React.KeyboardEvent) => void;
+    onMouseDown: (_e: React.MouseEvent) => void;
+    initialize(cells: ReadonlyMap<string, ITableCellViewModel>): void;
+    dispose(): void;
+    getByIndex(index: number): ITableCellViewModel | null;
+    getByName(name: string): ITableCellViewModel | null;
+    selectRow(isSelected?: boolean): void;
+    doubleClickAction: (cell?: ITableCellViewModel | null) => void;
+    getContextMenu(): ReadonlyArray<MenuAction>;
+    toggle(): void;
+}
