@@ -1,0 +1,149 @@
+{
+  "Content": {
+    "Metadata": {
+      "Alias": "Тест",
+      "CompositionId::uid": "7e66d566-3d2b-4e18-8376-3e2e1183dea7",
+      "EmptyFoldersVisible": false,
+      "ExpandedIconName": "",
+      "Extensions": null,
+      "FormatVersion::int": 1,
+      "IconName": "",
+      "Items": [
+        {
+          "Alias": "TasksMyDepartment_(copy)",
+          "Caption": "Текущие задания по ведомству v2",
+          "CompositionId::uid": "84f482c9-4ec2-4732-867e-32fa027860f5",
+          "DataSourceMetadata": {
+            "Alias": "TasksMyDepartment_(copy)",
+            "ID": null,
+            "SourceType": "ViewSource",
+            "TypeName": "JsonDataSourceMetadata"
+          },
+          "EnableAutoWidth": false,
+          "ExpandedIconName": "Thin85",
+          "ExpandingMode": "Collapsed",
+          "Extensions": null,
+          "IconName": "Thin85",
+          "IsNode": true,
+          "Items": [
+            {
+              "CompositionId::uid": "7b3be789-a2d7-4ef8-a84b-c7866e607fe1",
+              "Items": [
+                {
+                  "CompositionId::uid": "7b3be789-a2d7-00f8-a800-07866e607fe1",
+                  "Items": [
+                    {
+                      "Alias": "TasksMyDepartment_(copy)",
+                      "CompositionId::uid": "84f482c9-4ec2-4732-867e-32fa027860f5",
+                      "ParentCompositionId::uid": "7b3be789-a2d7-00f8-a800-07866e607fe1",
+                      "TypeName": "JsonWorkplaceLayoutViewMetadata"
+                    }
+                  ],
+                  "ParentCompositionId::uid": "7b3be789-a2d7-4ef8-a84b-c7866e607fe1",
+                  "TypeName": "JsonWorkplaceContentMetadata"
+                }
+              ],
+              "ParentCompositionId::uid": "84f482c9-4ec2-4732-867e-32fa027860f5",
+              "SecondChildSize": "NaN",
+              "SplitPosition": "NaN",
+              "SplitState": "UnSplit",
+              "TabCaption": null,
+              "TypeName": "JsonWorkplaceLayoutMetadata"
+            }
+          ],
+          "MultiSelect": 0,
+          "NodeClientVisibility": "Always",
+          "Parameters": null,
+          "ParametersByState": null,
+          "ParentCompositionId::uid": "7e66d566-3d2b-4e18-8376-3e2e1183dea7",
+          "RowCounterVisible": "InViewDefined",
+          "ScopeName": "",
+          "SelectionMode": "Row",
+          "ShowMode": "NormalMode",
+          "TypeName": "JsonDataNodeMetadata"
+        },
+        {
+          "Alias": "Новая папка",
+          "CompositionId::uid": "9ee64984-5491-4fc9-8e2f-226d809248af",
+          "ExpandedIconName": "Thin109",
+          "ExpandingMode": "Collapsed",
+          "Extensions": null,
+          "IconName": "Thin101",
+          "Items": [
+            {
+              "Alias": "Cars",
+              "Caption": "Автомобили",
+              "CompositionId::uid": "72fc2326-b5ec-4785-b07d-95d9abfa6ad7",
+              "DataSourceMetadata": {
+                "Alias": "Cars",
+                "ID": null,
+                "SourceType": "ViewSource",
+                "TypeName": "JsonDataSourceMetadata"
+              },
+              "EnableAutoWidth": false,
+              "ExpandedIconName": "Thin85",
+              "ExpandingMode": "Collapsed",
+              "Extensions": null,
+              "IconName": "Thin85",
+              "IsNode": true,
+              "Items": [
+                {
+                  "CompositionId::uid": "692b74f7-8672-4240-925b-165abbb791ce",
+                  "Items": [
+                    {
+                      "CompositionId::uid": "692b74f7-8672-0040-9200-065abbb791ce",
+                      "Items": [
+                        {
+                          "Alias": "Cars",
+                          "CompositionId::uid": "72fc2326-b5ec-4785-b07d-95d9abfa6ad7",
+                          "ParentCompositionId::uid": "692b74f7-8672-0040-9200-065abbb791ce",
+                          "TypeName": "JsonWorkplaceLayoutViewMetadata"
+                        }
+                      ],
+                      "ParentCompositionId::uid": "692b74f7-8672-4240-925b-165abbb791ce",
+                      "TypeName": "JsonWorkplaceContentMetadata"
+                    }
+                  ],
+                  "ParentCompositionId::uid": "72fc2326-b5ec-4785-b07d-95d9abfa6ad7",
+                  "SecondChildSize": "NaN",
+                  "SplitPosition": "NaN",
+                  "SplitState": "UnSplit",
+                  "TabCaption": null,
+                  "TypeName": "JsonWorkplaceLayoutMetadata"
+                }
+              ],
+              "MultiSelect": 0,
+              "NodeClientVisibility": "Always",
+              "Parameters": null,
+              "ParametersByState": null,
+              "ParentCompositionId::uid": "9ee64984-5491-4fc9-8e2f-226d809248af",
+              "RowCounterVisible": "InViewDefined",
+              "ScopeName": "",
+              "SelectionMode": "Row",
+              "ShowMode": "Always",
+              "TypeName": "JsonDataNodeMetadata"
+            }
+          ],
+          "NodeClientVisibility": "Always",
+          "ParentCompositionId::uid": "7e66d566-3d2b-4e18-8376-3e2e1183dea7",
+          "ShowMode": "Always",
+          "TypeName": "JsonFolderNodeMetadata"
+        }
+      ],
+      "LeftSideWidth::dbl": 285.0,
+      "NodeClientVisibility": "Always",
+      "OrderPos::int": 12,
+      "OwnerId::uid": "00000000-0000-0000-0000-000000000000",
+      "TreeVisibility": true,
+      "Version::int": 1
+    },
+    "Roles": [
+      {
+        "DeltaKind": "Added",
+        "ObjectId::uid": "7e66d566-3d2b-4e18-8376-3e2e1183dea7",
+        "RoleId::uid": "34a1595e-5d8e-4bc6-8d59-ea7c4224a532",
+        "RoleName": "Тест Т.Т. 3"
+      }
+    ]
+  }
+}
