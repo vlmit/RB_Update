@@ -56,7 +56,6 @@
   "Extensions": [],
   "Flags::int": 16,
   "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
-  "FormSettings": null,
   "Forms": [
     {
       "Blocks": [
@@ -192,6 +191,7 @@
       "TabOrder::int": 0
     }
   ],
+  "FormSettings": null,
   "Group": null,
   "ID::uid": "0fa7aaeb-dc36-4647-a29e-2eb87153984d",
   "InstanceType::int": 3,

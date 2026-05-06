@@ -8,7 +8,7 @@
         "ColumnsCount::int": 2,
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
-        "IsHidden": false,
+        "IsHidden": true,
         "LeftCaptions": false,
         "StretchVertically": false,
         "VerticalInterval::int": 5
@@ -43,9 +43,11 @@
             }
           ],
           "ControlSettings": {
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": false,
             "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
             "LineBreakSetting": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
@@ -153,6 +155,7 @@
             "MaxRows::int": 6,
             "MinRows::int": 2,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -399,7 +402,7 @@
                       },
                       "ControlType::int": 0,
                       "DisplayFormat": null,
-                      "Flags::int": 0,
+                      "Flags::int": 2,
                       "Name": null,
                       "Order::int": 3,
                       "PhysicalColumnIDList": [

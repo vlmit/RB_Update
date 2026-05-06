@@ -5,7 +5,7 @@
       "BlockSettings": {
         "AlwaysMultipleColumn": false,
         "CollapsedByDefault": false,
-        "ColumnsCount::int": 2,
+        "ColumnsCount::int": 3,
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
@@ -27,6 +27,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -69,9 +70,11 @@
           "ComplexColumnID::uid": "727257d6-d00e-4f9c-8bc7-755d4594112d",
           "ControlSettings": {
             "ComboBoxMode": false,
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": false,
             "IsAllowOpenRefs": false,
+            "IsClearFieldVisible": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
             "MaxResultsCount::int": 15,
@@ -113,6 +116,52 @@
         },
         {
           "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "Группа документов (EOS)",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 2147483647,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": "TitleControl",
+          "Order::int": 2,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "7372fec8-80b6-40b9-b31b-238be3b8ef9f"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "78bfc212-cad5-4d1d-8b91-a9c58562b9d5",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
             "ControlSpan": true,
             "HideCaption": false
           },
@@ -123,6 +172,7 @@
             "MaxRows::int": 5,
             "MinRows::int": 2,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -142,7 +192,7 @@
           "DisplayFormat": null,
           "Flags::int": 0,
           "Name": "DescriptionControl",
-          "Order::int": 2,
+          "Order::int": 3,
           "PhysicalColumnIDList": [
             {
               "::types": [
@@ -181,7 +231,7 @@
           "DisplayFormat": null,
           "Flags::int": 0,
           "Name": "HideCreationButton",
-          "Order::int": 3,
+          "Order::int": 4,
           "PhysicalColumnIDList": [
             {
               "::types": [
@@ -268,7 +318,7 @@
       "BlockSettings": {
         "AlwaysMultipleColumn": false,
         "CollapsedByDefault": false,
-        "ColumnsCount::int": 1,
+        "ColumnsCount::int": 2,
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
@@ -320,6 +370,49 @@
         {
           "BlockSettings": {
             "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "Дата начала работы автосогласования",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "DateFormat": true,
+            "DateNullable": true,
+            "IgnoreTimezone": false,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TimeEnabled": false
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": "AutoApproveStartingDate",
+          "Order::int": 1,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "41c5987f-cbfb-4c66-9f23-959d5bfba43e"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "78bfc212-cad5-4d1d-8b91-a9c58562b9d5",
+          "ToolTip": "Указывается дата создания карточки документа",
+          "Type::uid": "c08b81f3-ed18-005a-bae6-a61679812709"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": true,
             "HideCaption": true
           },
           "Caption": "$CardTypes_Controls_HideRouteTab",
@@ -342,7 +435,7 @@
           "DisplayFormat": null,
           "Flags::int": 0,
           "Name": "HideRouteTab",
-          "Order::int": 1,
+          "Order::int": 2,
           "PhysicalColumnIDList": [
             {
               "::types": [
@@ -358,7 +451,7 @@
         },
         {
           "BlockSettings": {
-            "ControlSpan": false,
+            "ControlSpan": true,
             "HideCaption": true
           },
           "Caption": "$CardTypes_Controls_UseRoutesInWorkflowEngine",
@@ -381,7 +474,7 @@
           "DisplayFormat": null,
           "Flags::int": 0,
           "Name": "UseRoutesInWorkflowEngine",
-          "Order::int": 2,
+          "Order::int": 3,
           "PhysicalColumnIDList": [
             {
               "::types": [
@@ -1386,6 +1479,8 @@
             "uid",
             "uid",
             "uid",
+            "uid",
+            "uid",
             "uid"
           ]
         },
@@ -1414,7 +1509,9 @@
         "24a066ec-ffbe-4a8b-a462-1b158d558af0",
         "0c5cc612-43da-4977-aeaf-efe6dd4a48da",
         "f32886a5-61ba-42e0-aded-d6fa8da4b594",
-        "3eeb3539-2f1b-4851-bc3f-135674fecc49"
+        "3eeb3539-2f1b-4851-bc3f-135674fecc49",
+        "7372fec8-80b6-40b9-b31b-238be3b8ef9f",
+        "41c5987f-cbfb-4c66-9f23-959d5bfba43e"
       ],
       "SectionID::uid": "78bfc212-cad5-4d1d-8b91-a9c58562b9d5"
     }

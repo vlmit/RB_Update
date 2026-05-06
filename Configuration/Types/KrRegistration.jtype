@@ -13,7 +13,7 @@
   ],
   "DigestFormat": null,
   "Extensions": [],
-  "Flags::int": 512,
+  "Flags::int": 32,
   "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
   "Forms": [],
   "FormSettings": {

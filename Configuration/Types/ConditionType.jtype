@@ -152,117 +152,117 @@
                       "SectionID::uid": "7e0c2c3b-e8f3-4f96-9aa6-eb1c2100d74f",
                       "ToolTip": null,
                       "Type::uid": "208e364e-94fe-0d64-bc27-6b4dc12d039c"
-                        }
-                      ],
-                      "FormSettings": {
+                    }
+                  ],
+                  "FormSettings": {
+                    "HideCaption": true
+                  },
+                  "Name": "Block1",
+                  "Order::int": 0
+                },
+                {
+                  "BlockClass": "Tessa.UI.Cards.Blocks.HorizontalBlockType",
+                  "BlockSettings": {
+                    "CollapsedByDefault": false,
+                    "DoNotCollapseWithTopBlock": false,
+                    "DoNotOptimizeBlock": false,
+                    "HorizontalInterval::int": 5,
+                    "IsHidden": false,
+                    "LeftCaptions": false,
+                    "RightToLeft": false,
+                    "StretchVertically": false,
+                    "VerticalInterval::int": 5
+                  },
+                  "Caption": "Block2",
+                  "Controls": [
+                    {
+                      "BlockSettings": {
+                        "ControlSpan": false,
                         "HideCaption": true
                       },
-                      "Name": "Block1",
-                      "Order::int": 0
-                    },
-                    {
-                      "BlockClass": "Tessa.UI.Cards.Blocks.HorizontalBlockType",
-                      "BlockSettings": {
-                        "CollapsedByDefault": false,
-                        "DoNotCollapseWithTopBlock": false,
-                        "DoNotOptimizeBlock": false,
-                        "HorizontalInterval::int": 5,
-                        "IsHidden": false,
-                        "LeftCaptions": false,
-                        "RightToLeft": false,
-                        "StretchVertically": false,
-                        "VerticalInterval::int": 5
-                      },
-                      "Caption": "Block2",
-                      "Controls": [
-                        {
-                          "BlockSettings": {
-                            "ControlSpan": false,
-                            "HideCaption": true
-                          },
-                          "Caption": "$CardTypes_Controls_RepairConditions",
-                          "ControlSettings": {
-                            "HelpMode::int": 0,
-                            "HelpValue": "",
-                            "MinButtonWidth": null,
-                            "Text": "$CardTypes_Controls_RepairConditions",
-                            "TextColor": "#FF000000",
-                            "TextStyle": {
-                              "SelectedFontFamily": "Segoe UI",
-                              "SelectedFontSize::dbl": 12.0,
-                              "SelectedFontStretch": "Normal",
-                              "SelectedFontStyle": "Normal",
-                              "SelectedFontWeight": "Normal",
-                              "SelectedTextBaseline": false,
-                              "SelectedTextOverLine": false,
-                              "SelectedTextStrikethrough": false,
-                              "SelectedTextUnderline": false
-                            },
-                            "UseAllSpace": false
-                          },
-                          "ControlType::int": 3,
-                          "Flags::int": 0,
-                          "Name": "RepairConditionsButton",
-                          "Order::int": 0,
-                          "RequiredText": null,
-                          "ToolTip": null,
-                          "Type::uid": "16caaf03-c4f1-0803-b548-0c230cc19db5"
+                      "Caption": "$CardTypes_Controls_RepairConditions",
+                      "ControlSettings": {
+                        "HelpMode::int": 0,
+                        "HelpValue": "",
+                        "MinButtonWidth": null,
+                        "Text": "$CardTypes_Controls_RepairConditions",
+                        "TextColor": "#FF000000",
+                        "TextStyle": {
+                          "SelectedFontFamily": "Segoe UI",
+                          "SelectedFontSize::dbl": 12.0,
+                          "SelectedFontStretch": "Normal",
+                          "SelectedFontStyle": "Normal",
+                          "SelectedFontWeight": "Normal",
+                          "SelectedTextBaseline": false,
+                          "SelectedTextOverLine": false,
+                          "SelectedTextStrikethrough": false,
+                          "SelectedTextUnderline": false
                         },
-                        {
-                          "BlockSettings": {
-                            "ControlSpan": false,
-                            "HideCaption": true
-                          },
-                          "Caption": "$CardTypes_Controls_RepairAllConditions",
-                          "ControlSettings": {
-                            "HelpMode::int": 0,
-                            "HelpValue": "",
-                            "MinButtonWidth": null,
-                            "Text": "$CardTypes_Controls_RepairAllConditions",
-                            "TextColor": "#FF000000",
-                            "TextStyle": {
-                              "SelectedFontFamily": "Segoe UI",
-                              "SelectedFontSize::dbl": 12.0,
-                              "SelectedFontStretch": "Normal",
-                              "SelectedFontStyle": "Normal",
-                              "SelectedFontWeight": "Normal",
-                              "SelectedTextBaseline": false,
-                              "SelectedTextOverLine": false,
-                              "SelectedTextStrikethrough": false,
-                              "SelectedTextUnderline": false
-                            },
-                            "UseAllSpace": false
-                          },
-                          "ControlType::int": 3,
-                          "Flags::int": 0,
-                          "Name": "RepairAllConditionsButton",
-                          "Order::int": 1,
-                          "RequiredText": null,
-                          "ToolTip": null,
-                          "Type::uid": "16caaf03-c4f1-0803-b548-0c230cc19db5"
-                        }
-                      ],
-                      "FormSettings": {
-                        "HideCaption": true
+                        "UseAllSpace": false
                       },
-                      "Name": "Block2",
-                      "Order::int": 1
+                      "ControlType::int": 3,
+                      "Flags::int": 0,
+                      "Name": "RepairConditionsButton",
+                      "Order::int": 0,
+                      "RequiredText": null,
+                      "ToolTip": null,
+                      "Type::uid": "16caaf03-c4f1-0803-b548-0c230cc19db5"
                     },
                     {
-                      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
                       "BlockSettings": {
-                        "AlwaysMultipleColumn": false,
-                        "CollapsedByDefault": false,
-                        "ColumnsCount::int": 1,
-                        "DoNotCollapseWithTopBlock": false,
-                        "HorizontalInterval::int": 5,
-                        "IsHidden": false,
-                        "LeftCaptions": false,
-                        "StretchVertically": false,
-                        "VerticalInterval::int": 5
+                        "ControlSpan": false,
+                        "HideCaption": true
                       },
-                      "Caption": "Block3",
-                      "Controls": [
+                      "Caption": "$CardTypes_Controls_RepairAllConditions",
+                      "ControlSettings": {
+                        "HelpMode::int": 0,
+                        "HelpValue": "",
+                        "MinButtonWidth": null,
+                        "Text": "$CardTypes_Controls_RepairAllConditions",
+                        "TextColor": "#FF000000",
+                        "TextStyle": {
+                          "SelectedFontFamily": "Segoe UI",
+                          "SelectedFontSize::dbl": 12.0,
+                          "SelectedFontStretch": "Normal",
+                          "SelectedFontStyle": "Normal",
+                          "SelectedFontWeight": "Normal",
+                          "SelectedTextBaseline": false,
+                          "SelectedTextOverLine": false,
+                          "SelectedTextStrikethrough": false,
+                          "SelectedTextUnderline": false
+                        },
+                        "UseAllSpace": false
+                      },
+                      "ControlType::int": 3,
+                      "Flags::int": 0,
+                      "Name": "RepairAllConditionsButton",
+                      "Order::int": 1,
+                      "RequiredText": null,
+                      "ToolTip": null,
+                      "Type::uid": "16caaf03-c4f1-0803-b548-0c230cc19db5"
+                    }
+                  ],
+                  "FormSettings": {
+                    "HideCaption": true
+                  },
+                  "Name": "Block2",
+                  "Order::int": 1
+                },
+                {
+                  "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+                  "BlockSettings": {
+                    "AlwaysMultipleColumn": false,
+                    "CollapsedByDefault": false,
+                    "ColumnsCount::int": 1,
+                    "DoNotCollapseWithTopBlock": false,
+                    "HorizontalInterval::int": 5,
+                    "IsHidden": false,
+                    "LeftCaptions": false,
+                    "StretchVertically": false,
+                    "VerticalInterval::int": 5
+                  },
+                  "Caption": "Block3",
+                  "Controls": [
                     {
                       "BlockSettings": {
                         "ControlSpan": true,
@@ -442,8 +442,8 @@
                         "HelpMode::int": 0,
                         "HelpValue": null,
                         "MaxLength::int": 2147483647,
-                            "MaxRows::int": 9,
-                            "MinRows::int": 9,
+                        "MaxRows::int": 9,
+                        "MinRows::int": 9,
                         "ShowExpandButton": true,
                         "TextColor": "#FF000000",
                         "TextMode::int": 0,
@@ -984,6 +984,7 @@
   "Extensions": [],
   "Flags::int": 257,
   "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
   "FormSettings": {
     "FilePreviewIsDisabled": false,
     "HelpMode::int": 0,
@@ -991,7 +992,6 @@
     "HorizontalInterval::int": 10,
     "Interval::int": 10
   },
-  "Forms": [],
   "Group": "Settings",
   "ID::uid": "ca37649d-9585-4c83-8ef4-fdf91c4c42ee",
   "InstanceType::int": 0,

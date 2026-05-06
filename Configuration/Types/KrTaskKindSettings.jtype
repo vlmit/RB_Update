@@ -17,16 +17,40 @@
       "Controls": [
         {
           "BlockSettings": {
+            "CaptionStyle": {
+              "TextColor": "#FF505050",
+              "TextStyle": {
+                "SelectedFontFamily": "Segoe UI",
+                "SelectedFontSize::dbl": 12.0,
+                "SelectedFontStretch": "Normal",
+                "SelectedFontStyle": "Normal",
+                "SelectedFontWeight": "Normal",
+                "SelectedTextBaseline": false,
+                "SelectedTextOverLine": false,
+                "SelectedTextStrikethrough": false,
+                "SelectedTextUnderline": false
+              }
+            },
+            "ColumnSpan::int": 1,
             "ControlSpan": true,
-            "HideCaption": false
+            "EmptyColumnsToTheLeft::int": 0,
+            "HideCaption": false,
+            "HorizontalAlignment::int": 3,
+            "Margin": "0,0,0,0",
+            "MaxWidth::dbl": 0.0,
+            "MinWidth::dbl": 0.0,
+            "StartAtNewLine": false,
+            "VerticalAlignment::int": 3
           },
           "Caption": "$CardTypes_Controls_Kind",
           "ComplexColumnID::uid": "858edc9c-50ff-41b6-8c0d-7e4818f93200",
           "ControlSettings": {
             "ComboBoxMode": true,
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": false,
             "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
             "MaxResultsCount::int": 15,
@@ -63,7 +87,7 @@
         }
       ],
       "FormSettings": {
-        "HideCaption": false
+        "HideCaption": true
       },
       "Name": "TaskKindBlock",
       "Order::int": 0

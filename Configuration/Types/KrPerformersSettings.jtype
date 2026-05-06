@@ -9,6 +9,8 @@
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
         "VerticalInterval::int": 5
       },
       "Caption": "PerformersBlock",
@@ -22,9 +24,11 @@
           "ComplexColumnID::uid": "696d6497-fce8-494e-9262-0e74d9712d93",
           "ControlSettings": {
             "ComboBoxMode": false,
+            "DisableLocalization": false,
             "ExtendendLocalization": true,
             "HideSelectorButton": false,
-            "IsAllowOpenRefs": true,
+            "IsAllowOpenRefs": false,
+            "IsClearFieldVisible": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
             "MaxResultsCount::int": 15,
@@ -87,9 +91,11 @@
             }
           ],
           "ControlSettings": {
+            "DisableLocalization": false,
             "ExtendendLocalization": true,
             "HideSelectorButton": false,
             "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
             "LineBreakSetting": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
@@ -148,6 +154,8 @@
   "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
   "Forms": [],
   "FormSettings": {
+    "FilePreviewIsDisabled": false,
+    "HorizontalInterval::int": 10,
     "Interval::int": 10
   },
   "Group": "KrProcess",

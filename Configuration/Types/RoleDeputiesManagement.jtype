@@ -9,6 +9,8 @@
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
         "VerticalInterval::int": 20
       },
       "Caption": "$CardTypes_Blocks_Controls_DeputiesManagement",
@@ -41,9 +43,11 @@
             }
           ],
           "ControlSettings": {
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": false,
             "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
             "LineBreakSetting": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
@@ -53,7 +57,7 @@
             "PopupColumnLengths": "",
             "PopupColumnsIndexes": "1, 4",
             "PopupScreenLengthPercent::int": 100,
-            "RefSection": null,
+            "RefSection": "UsersExpand",
             "SearchDelay": null,
             "TextColor": "#FF000000",
             "TextStyle": {
@@ -67,9 +71,9 @@
               "SelectedTextStrikethrough": false,
               "SelectedTextUnderline": false
             },
-            "ViewAlias": "Users",
+            "ViewAlias": "UsersExpand",
             "ViewMap": null,
-            "ViewReferencePrefix": null
+            "ViewReferencePrefix": "User"
           },
           "ControlType::int": 1,
           "Flags::int": 0,
@@ -232,8 +236,13 @@
             }
           ],
           "ControlSettings": {
+            "AlwaysShowBottomToolbar": false,
+            "AutoSizeRowLimit::int": 25,
+            "CanSort": true,
             "IsMultiselectable": true,
-            "OrderColumnID": null
+            "MaxHeight::int": 800,
+            "OrderColumnID": null,
+            "ScrollWithMouse": false
           },
           "ControlType::int": 1,
           "Flags::int": 0,
@@ -248,6 +257,8 @@
                   "DoNotCollapseWithTopBlock": false,
                   "HorizontalInterval::int": 5,
                   "IsHidden": false,
+                  "LeftCaptions": false,
+                  "StretchVertically": false,
                   "VerticalInterval::int": 5
                 },
                 "Caption": "$CardTypes_Blocks_RoleDeputiesManagement_Deputies",
@@ -280,9 +291,11 @@
                       }
                     ],
                     "ControlSettings": {
+                      "DisableLocalization": false,
                       "ExtendendLocalization": false,
                       "HideSelectorButton": false,
                       "IsAllowOpenRefs": true,
+                      "IsClearFieldVisible": false,
                       "LineBreakSetting": false,
                       "ManualInput": false,
                       "ManualInputColumnID": null,
@@ -355,9 +368,11 @@
                       }
                     ],
                     "ControlSettings": {
+                      "DisableLocalization": false,
                       "ExtendendLocalization": false,
                       "HideSelectorButton": false,
                       "IsAllowOpenRefs": true,
+                      "IsClearFieldVisible": false,
                       "LineBreakSetting": false,
                       "ManualInput": false,
                       "ManualInputColumnID": null,
@@ -418,6 +433,8 @@
                   "DoNotCollapseWithTopBlock": false,
                   "HorizontalInterval::int": 5,
                   "IsHidden": false,
+                  "LeftCaptions": false,
+                  "StretchVertically": false,
                   "VerticalInterval::int": 5
                 },
                 "Caption": "$CardTypes_Blocks_RoleDeputiesManagement_DeputyInterval",
@@ -596,6 +613,7 @@
             ],
             "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
             "FormSettings": {
+              "HorizontalInterval::int": 10,
               "Interval::int": 10
             }
           },
@@ -622,6 +640,8 @@
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
         "VerticalInterval::int": 5
       },
       "Caption": "$CardTypes_Blocks_Controls_DeputizedManagement",
@@ -777,8 +797,13 @@
             }
           ],
           "ControlSettings": {
+            "AlwaysShowBottomToolbar": false,
+            "AutoSizeRowLimit::int": 25,
+            "CanSort": true,
             "IsMultiselectable": true,
-            "OrderColumnID": null
+            "MaxHeight::int": 800,
+            "OrderColumnID": null,
+            "ScrollWithMouse": false
           },
           "ControlType::int": 1,
           "Flags::int": 1,
@@ -788,9 +813,13 @@
                 "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
                 "BlockSettings": {
                   "AlwaysMultipleColumn": false,
+                  "CollapsedByDefault": false,
                   "ColumnsCount::int": 1,
+                  "DoNotCollapseWithTopBlock": false,
                   "HorizontalInterval::int": 5,
                   "IsHidden": false,
+                  "LeftCaptions": false,
+                  "StretchVertically": false,
                   "VerticalInterval::int": 5
                 },
                 "Caption": "$CardTypes_Blocks_RoleDeputiesManagement_Deputies",
@@ -804,13 +833,29 @@
                     "ComplexColumnID::uid": "29063885-2127-42c0-86d5-50a94773078c",
                     "ControlSettings": {
                       "ComboBoxMode": false,
+                      "DisableLocalization": false,
+                      "ExtendendLocalization": false,
                       "HideSelectorButton": true,
                       "IsAllowOpenRefs": true,
+                      "IsClearFieldVisible": false,
                       "ManualInput": false,
                       "ManualInputColumnID": null,
                       "MaxResultsCount::int": 15,
                       "ParameterAlias": "",
                       "RefSection": null,
+                      "SearchDelay": null,
+                      "TextColor": "#FF000000",
+                      "TextStyle": {
+                        "SelectedFontFamily": "Segoe UI",
+                        "SelectedFontSize::dbl": 12.0,
+                        "SelectedFontStretch": "Normal",
+                        "SelectedFontStyle": "Normal",
+                        "SelectedFontWeight": "Normal",
+                        "SelectedTextBaseline": false,
+                        "SelectedTextOverLine": false,
+                        "SelectedTextStrikethrough": false,
+                        "SelectedTextUnderline": false
+                      },
                       "ViewAlias": "",
                       "ViewAliasComboBox": "",
                       "ViewMap": null,
@@ -855,8 +900,12 @@
                       }
                     ],
                     "ControlSettings": {
+                      "DisableLocalization": false,
+                      "ExtendendLocalization": false,
                       "HideSelectorButton": true,
                       "IsAllowOpenRefs": true,
+                      "IsClearFieldVisible": false,
+                      "LineBreakSetting": false,
                       "ManualInput": false,
                       "ManualInputColumnID": null,
                       "MaxResultsCount::int": 15,
@@ -866,6 +915,19 @@
                       "PopupColumnsIndexes": "1, 2",
                       "PopupScreenLengthPercent::int": 100,
                       "RefSection": "",
+                      "SearchDelay": null,
+                      "TextColor": "#FF000000",
+                      "TextStyle": {
+                        "SelectedFontFamily": "Segoe UI",
+                        "SelectedFontSize::dbl": 12.0,
+                        "SelectedFontStretch": "Normal",
+                        "SelectedFontStyle": "Normal",
+                        "SelectedFontWeight": "Normal",
+                        "SelectedTextBaseline": false,
+                        "SelectedTextOverLine": false,
+                        "SelectedTextStrikethrough": false,
+                        "SelectedTextUnderline": false
+                      },
                       "ViewAlias": "",
                       "ViewMap": null,
                       "ViewReferencePrefix": null
@@ -891,9 +953,13 @@
                 "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
                 "BlockSettings": {
                   "AlwaysMultipleColumn": false,
+                  "CollapsedByDefault": false,
                   "ColumnsCount::int": 4,
+                  "DoNotCollapseWithTopBlock": false,
                   "HorizontalInterval::int": 5,
                   "IsHidden": false,
+                  "LeftCaptions": false,
+                  "StretchVertically": false,
                   "VerticalInterval::int": 5
                 },
                 "Caption": "$CardTypes_Blocks_RoleDeputiesManagement_DeputyInterval",
@@ -905,7 +971,20 @@
                     },
                     "Caption": "$CardTypes_Columns_Controls_Available",
                     "ComplexColumnID": null,
-                    "ControlSettings": null,
+                    "ControlSettings": {
+                      "TextColor": "#FF000000",
+                      "TextStyle": {
+                        "SelectedFontFamily": "Segoe UI",
+                        "SelectedFontSize::dbl": 12.0,
+                        "SelectedFontStretch": "Normal",
+                        "SelectedFontStyle": "Normal",
+                        "SelectedFontWeight": "Normal",
+                        "SelectedTextBaseline": false,
+                        "SelectedTextOverLine": false,
+                        "SelectedTextStrikethrough": false,
+                        "SelectedTextUnderline": false
+                      }
+                    },
                     "ControlType::int": 0,
                     "DisplayFormat": null,
                     "Flags::int": 1,
@@ -931,7 +1010,20 @@
                     },
                     "Caption": "$CardTypes_Columns_Controls_IsPermanent",
                     "ComplexColumnID": null,
-                    "ControlSettings": null,
+                    "ControlSettings": {
+                      "TextColor": "#FF000000",
+                      "TextStyle": {
+                        "SelectedFontFamily": "Segoe UI",
+                        "SelectedFontSize::dbl": 12.0,
+                        "SelectedFontStretch": "Normal",
+                        "SelectedFontStyle": "Normal",
+                        "SelectedFontWeight": "Normal",
+                        "SelectedTextBaseline": false,
+                        "SelectedTextOverLine": false,
+                        "SelectedTextStrikethrough": false,
+                        "SelectedTextUnderline": false
+                      }
+                    },
                     "ControlType::int": 0,
                     "DisplayFormat": null,
                     "Flags::int": 1,
@@ -961,6 +1053,18 @@
                       "DateFormat": true,
                       "DateNullable": true,
                       "IgnoreTimezone": false,
+                      "TextColor": "#FF000000",
+                      "TextStyle": {
+                        "SelectedFontFamily": "Segoe UI",
+                        "SelectedFontSize::dbl": 12.0,
+                        "SelectedFontStretch": "Normal",
+                        "SelectedFontStyle": "Normal",
+                        "SelectedFontWeight": "Normal",
+                        "SelectedTextBaseline": false,
+                        "SelectedTextOverLine": false,
+                        "SelectedTextStrikethrough": false,
+                        "SelectedTextUnderline": false
+                      },
                       "TimeEnabled": false
                     },
                     "ControlType::int": 0,
@@ -992,6 +1096,18 @@
                       "DateFormat": true,
                       "DateNullable": true,
                       "IgnoreTimezone": false,
+                      "TextColor": "#FF000000",
+                      "TextStyle": {
+                        "SelectedFontFamily": "Segoe UI",
+                        "SelectedFontSize::dbl": 12.0,
+                        "SelectedFontStretch": "Normal",
+                        "SelectedFontStyle": "Normal",
+                        "SelectedFontWeight": "Normal",
+                        "SelectedTextBaseline": false,
+                        "SelectedTextOverLine": false,
+                        "SelectedTextStrikethrough": false,
+                        "SelectedTextUnderline": false
+                      },
                       "TimeEnabled": false
                     },
                     "ControlType::int": 0,
@@ -1022,6 +1138,7 @@
             ],
             "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
             "FormSettings": {
+              "HorizontalInterval::int": 10,
               "Interval::int": 10
             }
           },
@@ -1058,6 +1175,8 @@
   "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
   "Forms": [],
   "FormSettings": {
+    "FilePreviewIsDisabled": false,
+    "HorizontalInterval::int": 10,
     "Interval::int": 5
   },
   "Group": "Roles",

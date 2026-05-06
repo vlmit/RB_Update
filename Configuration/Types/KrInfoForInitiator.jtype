@@ -4,11 +4,13 @@
       "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
       "BlockSettings": {
         "AlwaysMultipleColumn": false,
-        "CollapsedByDefault": false,
+        "CollapsedByDefault": true,
         "ColumnsCount::int": 1,
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
         "VerticalInterval::int": 5
       },
       "Caption": "$CardTypes_Blocks_ApprovalProcessInfo",
@@ -16,7 +18,7 @@
         {
           "BlockSettings": {
             "ControlSpan": true,
-            "HideCaption": false
+            "HideCaption": true
           },
           "Caption": "$CardTypes_Controls_CurrentProcessParticipants",
           "Columns": [
@@ -26,7 +28,7 @@
               "Caption": "$CardTypes_Columns_Role",
               "ComplexColumnID": null,
               "DisplayFormat": null,
-              "Flags::int": 0,
+              "Flags::int": 1,
               "HeaderAlignment::int": 2,
               "MaxLength": null,
               "Order::int": 0,
@@ -52,7 +54,7 @@
               "Caption": "$CardTypes_Columns_Performer",
               "ComplexColumnID": null,
               "DisplayFormat": null,
-              "Flags::int": 4,
+              "Flags::int": 5,
               "HeaderAlignment::int": 2,
               "MaxLength": null,
               "Order::int": 1,
@@ -78,7 +80,7 @@
               "Caption": "$CardTypes_Columns_Since",
               "ComplexColumnID": null,
               "DisplayFormat": "{0:dd/MM/yyyy HH:mm}",
-              "Flags::int": 0,
+              "Flags::int": 1,
               "HeaderAlignment::int": 2,
               "MaxLength": null,
               "Order::int": 2,
@@ -100,8 +102,13 @@
             }
           ],
           "ControlSettings": {
+            "AlwaysShowBottomToolbar": false,
+            "AutoSizeRowLimit::int": 25,
+            "CanSort": true,
             "IsMultiselectable": true,
-            "OrderColumnID": null
+            "MaxHeight::int": 0,
+            "OrderColumnID": null,
+            "ScrollWithMouse": false
           },
           "ControlType::int": 1,
           "Flags::int": 1,
@@ -109,6 +116,7 @@
             "Blocks": [],
             "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
             "FormSettings": {
+              "HorizontalInterval::int": 10,
               "Interval::int": 10
             }
           },
@@ -136,6 +144,7 @@
   "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
   "Forms": [],
   "FormSettings": {
+    "HorizontalInterval::int": 10,
     "Interval::int": 10
   },
   "Group": "KrProcess",

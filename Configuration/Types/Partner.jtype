@@ -5,18 +5,42 @@
       "BlockSettings": {
         "AlwaysMultipleColumn": false,
         "CollapsedByDefault": false,
-        "ColumnsCount::int": 3,
+        "ColumnsCount::int": 2,
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
         "VerticalInterval::int": 5
       },
       "Caption": "$CardTypes_Blocks_MainInformation",
       "Controls": [
         {
           "BlockSettings": {
+            "CaptionStyle": {
+              "TextColor": "#FF505050",
+              "TextStyle": {
+                "SelectedFontFamily": "Segoe UI",
+                "SelectedFontSize::dbl": 12.0,
+                "SelectedFontStretch": "Normal",
+                "SelectedFontStyle": "Normal",
+                "SelectedFontWeight": "Normal",
+                "SelectedTextBaseline": false,
+                "SelectedTextOverLine": false,
+                "SelectedTextStrikethrough": false,
+                "SelectedTextUnderline": false
+              }
+            },
+            "ColumnSpan::int": 1,
             "ControlSpan": false,
-            "HideCaption": false
+            "EmptyColumnsToTheLeft::int": 0,
+            "HideCaption": false,
+            "HorizontalAlignment::int": 3,
+            "Margin": "0,0,0,0",
+            "MaxWidth::dbl": 0.0,
+            "MinWidth::dbl": 0.0,
+            "StartAtNewLine": false,
+            "VerticalAlignment::int": 3
           },
           "Caption": "$CardTypes_Controls_ShortName",
           "ComplexColumnID": null,
@@ -25,6 +49,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -63,13 +88,63 @@
             "ControlSpan": false,
             "HideCaption": false
           },
+          "Caption": "Категория контрагента",
+          "ComplexColumnID::uid": "543a441f-3b02-426a-a4e4-ca06994804c9",
+          "ControlSettings": {
+            "ComboBoxMode": true,
+            "DisableLocalization": false,
+            "ExtendendLocalization": false,
+            "HideSelectorButton": false,
+            "IsAllowOpenRefs": false,
+            "IsClearFieldVisible": false,
+            "ManualInput": false,
+            "ManualInputColumnID": null,
+            "MaxResultsCount::int": 15,
+            "ParameterAlias": "Name",
+            "RefSection": "PartnerCategory",
+            "SearchDelay": null,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "ViewAlias": "PartnerCategory",
+            "ViewAliasComboBox": "PartnerCategory",
+            "ViewMap": null,
+            "ViewReferencePrefix": "Type"
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 1,
+          "PhysicalColumnIDList": [],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "208e364e-94fe-0d64-bc27-6b4dc12d039c"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
           "Caption": "$CardTypes_Controls_PartnerType",
           "ComplexColumnID::uid": "cde1cde5-de0f-4556-b077-7dd2b8800eb9",
           "ControlSettings": {
             "ComboBoxMode": true,
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": true,
             "IsAllowOpenRefs": false,
+            "IsClearFieldVisible": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
             "MaxResultsCount::int": 15,
@@ -97,7 +172,7 @@
           "DisplayFormat": null,
           "Flags::int": 0,
           "Name": null,
-          "Order::int": 1,
+          "Order::int": 2,
           "PhysicalColumnIDList": [],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
@@ -113,9 +188,11 @@
           "ComplexColumnID::uid": "ece42d34-97cb-4a99-b10c-4e16fcdf86e3",
           "ControlSettings": {
             "ComboBoxMode": true,
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": true,
             "IsAllowOpenRefs": false,
+            "IsClearFieldVisible": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
             "MaxResultsCount::int": 15,
@@ -143,7 +220,7 @@
           "DisplayFormat": null,
           "Flags::int": 0,
           "Name": null,
-          "Order::int": 2,
+          "Order::int": 3,
           "PhysicalColumnIDList": [],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
@@ -162,51 +239,7 @@
             "MaxRows::int": 3,
             "MinRows::int": 1,
             "ShowExpandButton": true,
-            "TextColor": "#FF000000",
-            "TextMode::int": 0,
-            "TextStyle": {
-              "SelectedFontFamily": "Segoe UI",
-              "SelectedFontSize::dbl": 12.0,
-              "SelectedFontStretch": "Normal",
-              "SelectedFontStyle": "Normal",
-              "SelectedFontWeight": "Normal",
-              "SelectedTextBaseline": false,
-              "SelectedTextOverLine": false,
-              "SelectedTextStrikethrough": false,
-              "SelectedTextUnderline": false
-            },
-            "TextWrap": true
-          },
-          "ControlType::int": 0,
-          "DisplayFormat": null,
-          "Flags::int": 0,
-          "Name": null,
-          "Order::int": 3,
-          "PhysicalColumnIDList": [
-            {
-              "::types": [
-                "uid"
-              ]
-            },
-            "0e8dd598-19ba-4fa1-9e38-78eb6f9ba074"
-          ],
-          "RequiredText": null,
-          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
-          "ToolTip": null,
-          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
-        },
-        {
-          "BlockSettings": {
-            "ControlSpan": true,
-            "HideCaption": false
-          },
-          "Caption": "$CardTypes_Controls_PartnerHead",
-          "ComplexColumnID": null,
-          "ControlSettings": {
-            "MaxLength::int": 256,
-            "MaxRows::int": 1,
-            "MinRows::int": 1,
-            "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -233,7 +266,7 @@
                 "uid"
               ]
             },
-            "309ff2b8-0f56-44f8-ae70-81144bc61605"
+            "0e8dd598-19ba-4fa1-9e38-78eb6f9ba074"
           ],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
@@ -245,13 +278,14 @@
             "ControlSpan": true,
             "HideCaption": false
           },
-          "Caption": "$CardTypes_Controls_PartnerChiefAccountant",
+          "Caption": "$CardTypes_Controls_PartnerHead",
           "ComplexColumnID": null,
           "ControlSettings": {
             "MaxLength::int": 256,
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -278,7 +312,7 @@
                 "uid"
               ]
             },
-            "692f7173-ebdb-4c1c-9478-2bc05d477571"
+            "309ff2b8-0f56-44f8-ae70-81144bc61605"
           ],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
@@ -290,13 +324,14 @@
             "ControlSpan": true,
             "HideCaption": false
           },
-          "Caption": "$CardTypes_Controls_PartnerContactPerson",
+          "Caption": "$CardTypes_Controls_PartnerChiefAccountant",
           "ComplexColumnID": null,
           "ControlSettings": {
             "MaxLength::int": 256,
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -323,7 +358,7 @@
                 "uid"
               ]
             },
-            "a49729a6-d025-4eea-b2cd-6f52a035afaf"
+            "692f7173-ebdb-4c1c-9478-2bc05d477571"
           ],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
@@ -332,16 +367,17 @@
         },
         {
           "BlockSettings": {
-            "ControlSpan": false,
+            "ControlSpan": true,
             "HideCaption": false
           },
-          "Caption": "$CardTypes_Controls_Phone",
+          "Caption": "$CardTypes_Controls_PartnerContactPerson",
           "ComplexColumnID": null,
           "ControlSettings": {
-            "MaxLength::int": 128,
+            "MaxLength::int": 256,
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -368,7 +404,7 @@
                 "uid"
               ]
             },
-            "4e84d9a1-89a9-407f-9e44-8d2ef606fa3a"
+            "a49729a6-d025-4eea-b2cd-6f52a035afaf"
           ],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
@@ -380,13 +416,14 @@
             "ControlSpan": false,
             "HideCaption": false
           },
-          "Caption": "Email",
+          "Caption": "$CardTypes_Controls_Phone",
           "ComplexColumnID": null,
           "ControlSettings": {
-            "MaxLength::int": 256,
+            "MaxLength::int": 128,
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -413,7 +450,7 @@
                 "uid"
               ]
             },
-            "2a531740-ca7a-4af2-89b1-65e4a98f7aa5"
+            "4e84d9a1-89a9-407f-9e44-8d2ef606fa3a"
           ],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
@@ -422,16 +459,17 @@
         },
         {
           "BlockSettings": {
-            "ControlSpan": true,
+            "ControlSpan": false,
             "HideCaption": false
           },
-          "Caption": "$CardTypes_Controls_Address",
+          "Caption": "Email",
           "ComplexColumnID": null,
           "ControlSettings": {
-            "MaxLength::int": 2147483647,
-            "MaxRows::int": 5,
-            "MinRows::int": 2,
+            "MaxLength::int": 256,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -458,7 +496,7 @@
                 "uid"
               ]
             },
-            "8eac7508-96eb-466f-8242-8522683a82d4"
+            "2a531740-ca7a-4af2-89b1-65e4a98f7aa5"
           ],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
@@ -467,16 +505,17 @@
         },
         {
           "BlockSettings": {
-            "ControlSpan": true,
+            "ControlSpan": false,
             "HideCaption": false
           },
-          "Caption": "$CardTypes_Controls_ContactAddress",
+          "Caption": "Город",
           "ComplexColumnID": null,
           "ControlSettings": {
             "MaxLength::int": 2147483647,
-            "MaxRows::int": 5,
-            "MinRows::int": 2,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -503,7 +542,7 @@
                 "uid"
               ]
             },
-            "810379cc-09a3-4a28-8ed7-fdc4ce6e8aaa"
+            "5f76fb3c-5691-45a5-b8ad-5c9baf14ae61"
           ],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
@@ -515,13 +554,14 @@
             "ControlSpan": false,
             "HideCaption": false
           },
-          "Caption": "$CardTypes_Controls_INN",
+          "Caption": "Республика, область или край",
           "ComplexColumnID": null,
           "ControlSettings": {
-            "MaxLength::int": 256,
+            "MaxLength::int": 2147483647,
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -548,7 +588,7 @@
                 "uid"
               ]
             },
-            "8578c2e0-f294-442b-b9a4-c30bb43f9698"
+            "42210164-03ca-4254-8941-e4de2798652d"
           ],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
@@ -560,13 +600,14 @@
             "ControlSpan": false,
             "HideCaption": false
           },
-          "Caption": "$CardTypes_Controls_KPP",
+          "Caption": "Страна, регион",
           "ComplexColumnID": null,
           "ControlSettings": {
-            "MaxLength::int": 256,
+            "MaxLength::int": 2147483647,
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -593,7 +634,7 @@
                 "uid"
               ]
             },
-            "5034c793-9ab3-4fde-b045-8f2d5cf3286a"
+            "73f4b18a-57fe-4a10-a5fd-78c60b4f397c"
           ],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
@@ -605,13 +646,14 @@
             "ControlSpan": false,
             "HideCaption": false
           },
-          "Caption": "$CardTypes_Controls_OGRN",
+          "Caption": "Индекс",
           "ComplexColumnID": null,
           "ControlSettings": {
-            "MaxLength::int": 256,
+            "MaxLength::int": 2147483647,
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -638,7 +680,7 @@
                 "uid"
               ]
             },
-            "b31abd5e-60c1-406e-822f-39410146db69"
+            "83f21b4d-1c02-47f8-b21c-1c58fa0e538e"
           ],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
@@ -650,27 +692,13 @@
             "ControlSpan": false,
             "HideCaption": false
           },
-          "Caption": "$CardTypes_Controls_OKPO",
+          "Caption": "Веб-страница",
           "ComplexColumnID": null,
           "ControlSettings": {
-            "MaxLength::int": 256,
-            "MaxRows::int": 1,
-            "MinRows::int": 1,
-            "ShowExpandButton": true,
-            "TextColor": "#FF000000",
-            "TextMode::int": 0,
-            "TextStyle": {
-              "SelectedFontFamily": "Segoe UI",
-              "SelectedFontSize::dbl": 12.0,
-              "SelectedFontStretch": "Normal",
-              "SelectedFontStyle": "Normal",
-              "SelectedFontWeight": "Normal",
-              "SelectedTextBaseline": false,
-              "SelectedTextOverLine": false,
-              "SelectedTextStrikethrough": false,
-              "SelectedTextUnderline": false
-            },
-            "TextWrap": true
+            "DisableAttachingFile": false,
+            "MaxHeight::dbl": 100.0,
+            "MinHeight::dbl": 50.0,
+            "SpellCheck": false
           },
           "ControlType::int": 0,
           "DisplayFormat": null,
@@ -683,27 +711,24 @@
                 "uid"
               ]
             },
-            "200f7ae5-6b1b-4fa5-8bb7-e5622c24d8c8"
+            "b1ab3fa2-29c4-4b71-bbc5-905d5ae84f71"
           ],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
           "ToolTip": null,
-          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+          "Type::uid": "7a25c32c-79f8-4554-a502-fff3ffddaab4"
         },
         {
           "BlockSettings": {
             "ControlSpan": false,
             "HideCaption": false
           },
-          "Caption": "$CardTypes_Controls_OKVED",
+          "Caption": "Вес при сортировке",
           "ComplexColumnID": null,
           "ControlSettings": {
-            "MaxLength::int": 256,
-            "MaxRows::int": 1,
-            "MinRows::int": 1,
-            "ShowExpandButton": true,
+            "MaxValue": 9223372036854775807,
+            "MinValue": -9223372036854775808,
             "TextColor": "#FF000000",
-            "TextMode::int": 0,
             "TextStyle": {
               "SelectedFontFamily": "Segoe UI",
               "SelectedFontSize::dbl": 12.0,
@@ -714,8 +739,7 @@
               "SelectedTextOverLine": false,
               "SelectedTextStrikethrough": false,
               "SelectedTextUnderline": false
-            },
-            "TextWrap": true
+            }
           },
           "ControlType::int": 0,
           "DisplayFormat": null,
@@ -728,25 +752,26 @@
                 "uid"
               ]
             },
-            "04d21288-97b0-440c-bdc6-d10a1b1de326"
+            "ada99c8c-a206-4404-bc93-8bbfe5842b6c"
           ],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
           "ToolTip": null,
-          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+          "Type::uid": "01c2bb84-6b71-034e-859e-b6e2b64ff2f3"
         },
         {
           "BlockSettings": {
             "ControlSpan": true,
             "HideCaption": false
           },
-          "Caption": "$CardTypes_Controls_Comment",
+          "Caption": "$CardTypes_Controls_Address",
           "ComplexColumnID": null,
           "ControlSettings": {
             "MaxLength::int": 2147483647,
             "MaxRows::int": 5,
-            "MinRows::int": 5,
+            "MinRows::int": 2,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -773,12 +798,710 @@
                 "uid"
               ]
             },
+            "8eac7508-96eb-466f-8242-8522683a82d4"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": true,
+            "HideCaption": false
+          },
+          "Caption": "$CardTypes_Controls_ContactAddress",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 2147483647,
+            "MaxRows::int": 5,
+            "MinRows::int": 2,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 17,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "810379cc-09a3-4a28-8ed7-fdc4ce6e8aaa"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "$CardTypes_Controls_INN",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 256,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 18,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "8578c2e0-f294-442b-b9a4-c30bb43f9698"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "$CardTypes_Controls_KPP",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 256,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 19,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "5034c793-9ab3-4fde-b045-8f2d5cf3286a"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "$CardTypes_Controls_OGRN",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 256,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 20,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "b31abd5e-60c1-406e-822f-39410146db69"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "$CardTypes_Controls_OKPO",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 256,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 21,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "200f7ae5-6b1b-4fa5-8bb7-e5622c24d8c8"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "$CardTypes_Controls_OKVED",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 256,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 22,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "04d21288-97b0-440c-bdc6-d10a1b1de326"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": true,
+            "HideCaption": false
+          },
+          "Caption": "$CardTypes_Controls_Comment",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 2147483647,
+            "MaxRows::int": 5,
+            "MinRows::int": 5,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 23,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
             "4109eb88-c386-4e80-89df-a4f059f822f0"
           ],
           "RequiredText": null,
           "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
           "ToolTip": null,
           "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "Внешний ID (EOS)",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 256,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 24,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "f2be1f97-4211-48db-83df-8f208e5a84d3"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "Идентификатор МЭДО",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 2147483647,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 25,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "745788ea-1a23-472c-9eb0-c48d2dfea546"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "Адрес МЭДО",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 2147483647,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 26,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "e8deda18-75f7-4b6f-8ead-bd8ed17a7460"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "Формат МЭДО",
+          "ComplexColumnID::uid": "366fd5e8-568e-49d7-b7e6-6875428b2505",
+          "ControlSettings": {
+            "ComboBoxMode": true,
+            "DisableLocalization": false,
+            "ExtendendLocalization": false,
+            "HideSelectorButton": true,
+            "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
+            "ManualInput": false,
+            "ManualInputColumnID": null,
+            "MaxResultsCount::int": 15,
+            "ParameterAlias": "Name",
+            "RefSection": null,
+            "SearchDelay": null,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "ViewAlias": "MEDOFormat",
+            "ViewAliasComboBox": "MEDOFormat",
+            "ViewMap": null,
+            "ViewReferencePrefix": "Format"
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 27,
+          "PhysicalColumnIDList": [],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "208e364e-94fe-0d64-bc27-6b4dc12d039c"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "Работа с ДСП",
+          "ComplexColumnID::uid": "d0e8b108-f66b-40a1-b011-45bece8a4c53",
+          "ControlSettings": {
+            "ComboBoxMode": true,
+            "DisableLocalization": false,
+            "ExtendendLocalization": false,
+            "HideSelectorButton": true,
+            "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
+            "ManualInput": false,
+            "ManualInputColumnID": null,
+            "MaxResultsCount::int": 15,
+            "ParameterAlias": "Name",
+            "RefSection": null,
+            "SearchDelay": null,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "ViewAlias": "MEDODSP",
+            "ViewAliasComboBox": "MEDODSP",
+            "ViewMap": null,
+            "ViewReferencePrefix": "DSP"
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 28,
+          "PhysicalColumnIDList": [],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "208e364e-94fe-0d64-bc27-6b4dc12d039c"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "Статус МЭДО",
+          "ComplexColumnID::uid": "65b63848-e168-497e-ac68-1455c278ef15",
+          "ControlSettings": {
+            "ComboBoxMode": true,
+            "DisableLocalization": false,
+            "ExtendendLocalization": false,
+            "HideSelectorButton": true,
+            "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
+            "ManualInput": false,
+            "ManualInputColumnID": null,
+            "MaxResultsCount::int": 15,
+            "ParameterAlias": "Name",
+            "RefSection": null,
+            "SearchDelay": null,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "ViewAlias": "MEDOActive",
+            "ViewAliasComboBox": "MEDOActive",
+            "ViewMap": null,
+            "ViewReferencePrefix": "Active"
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 29,
+          "PhysicalColumnIDList": [],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "208e364e-94fe-0d64-bc27-6b4dc12d039c"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "Собственный идентификатор МЭДО (для неучастников)",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 2147483647,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 2,
+          "Name": null,
+          "Order::int": 30,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "2bfcb0d8-46fa-46ad-9236-92f188a007d1"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "Владелец шлюза",
+          "ComplexColumnID::uid": "0f3ca02c-f1bb-4ccc-9ad5-a128a042f500",
+          "ControlSettings": {
+            "ComboBoxMode": false,
+            "DisableLocalization": false,
+            "ExtendendLocalization": false,
+            "HideSelectorButton": false,
+            "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
+            "ManualInput": false,
+            "ManualInputColumnID": null,
+            "MaxResultsCount::int": 15,
+            "ParameterAlias": "Name",
+            "RefSection": null,
+            "SearchDelay": null,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "ViewAlias": "Partners_MEDO",
+            "ViewAliasComboBox": "",
+            "ViewMap": null,
+            "ViewReferencePrefix": null
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 31,
+          "PhysicalColumnIDList": [],
+          "RequiredText": null,
+          "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a",
+          "ToolTip": null,
+          "Type::uid": "208e364e-94fe-0d64-bc27-6b4dc12d039c"
         }
       ],
       "FormSettings": {
@@ -796,6 +1519,8 @@
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
         "VerticalInterval::int": 5
       },
       "Caption": "$CardTypes_Blocks_BankDetails",
@@ -812,6 +1537,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -857,6 +1583,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -902,6 +1629,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -947,6 +1675,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -996,6 +1725,8 @@
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
         "VerticalInterval::int": 5
       },
       "Caption": "$CardTypes_Blocks_Controls_Files",
@@ -1044,6 +1775,7 @@
       "ExtensionSettings": {
         "ColumnID::uid": "0ffa1a47-5e34-47e2-b00b-92fb928f1148",
         "DescendingOrder": false,
+        "Localize": false,
         "SectionID::uid": "c57f5563-6673-4ca0-83a1-2896dbd090e1"
       },
       "TypeID::uid": "10834416-179d-4fc5-89e7-82f58795167f"
@@ -1460,6 +2192,8 @@
     }
   ],
   "FormSettings": {
+    "FilePreviewIsDisabled": false,
+    "HorizontalInterval::int": 10,
     "Interval::int": 10
   },
   "Group": "Dictionaries",
@@ -1471,6 +2205,23 @@
       "ColumnIDList": [
         {
           "::types": [
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
             "uid",
             "uid",
             "uid",
@@ -1514,7 +2265,24 @@
         "9c48e71b-3c87-4810-8793-30fb0b09bf7b",
         "fb6cff99-c792-4d72-8fda-dca98d725b0c",
         "cde1cde5-de0f-4556-b077-7dd2b8800eb9",
-        "ece42d34-97cb-4a99-b10c-4e16fcdf86e3"
+        "ece42d34-97cb-4a99-b10c-4e16fcdf86e3",
+        "5f76fb3c-5691-45a5-b8ad-5c9baf14ae61",
+        "42210164-03ca-4254-8941-e4de2798652d",
+        "83f21b4d-1c02-47f8-b21c-1c58fa0e538e",
+        "73f4b18a-57fe-4a10-a5fd-78c60b4f397c",
+        "b1ab3fa2-29c4-4b71-bbc5-905d5ae84f71",
+        "543a441f-3b02-426a-a4e4-ca06994804c9",
+        "f2be1f97-4211-48db-83df-8f208e5a84d3",
+        "745788ea-1a23-472c-9eb0-c48d2dfea546",
+        "e8deda18-75f7-4b6f-8ead-bd8ed17a7460",
+        "366fd5e8-568e-49d7-b7e6-6875428b2505",
+        "d0e8b108-f66b-40a1-b011-45bece8a4c53",
+        "9e54a763-5e21-406d-92e0-8ec2a8374829",
+        "a4a82a13-46b8-4da6-84aa-0257fcebd6f1",
+        "2bfcb0d8-46fa-46ad-9236-92f188a007d1",
+        "0f3ca02c-f1bb-4ccc-9ad5-a128a042f500",
+        "ada99c8c-a206-4404-bc93-8bbfe5842b6c",
+        "65b63848-e168-497e-ac68-1455c278ef15"
       ],
       "SectionID::uid": "5d47ef13-b6f4-47ef-9815-3b3d0e6d475a"
     },
@@ -1566,6 +2334,7 @@
       "ValidatorSettings": {
         "ColumnID::uid": "f1c960e0-951e-4837-8474-bb61d98f40f0",
         "ErrorMessage": "$KrMessages_PartnerNameIsNotUnique",
+        "OrderColumnID": null,
         "ParentColumnID": null,
         "ParentSectionID": null,
         "RemoveDuplicates": false,

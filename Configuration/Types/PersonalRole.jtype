@@ -28,6 +28,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -73,6 +74,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -118,6 +120,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -163,6 +166,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -208,6 +212,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -253,6 +258,7 @@
             "MaxRows::int": 6,
             "MinRows::int": 2,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -310,7 +316,7 @@
           "ControlType::int": 0,
           "DisplayFormat": null,
           "Flags::int": 0,
-          "Name": null,
+          "Name": "RoleHidden",
           "Order::int": 6,
           "PhysicalColumnIDList": [
             {
@@ -390,9 +396,11 @@
             }
           ],
           "ControlSettings": {
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": false,
             "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
             "LineBreakSetting": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
@@ -400,7 +408,7 @@
             "OrderColumnID": null,
             "ParameterAlias": "Name",
             "PopupColumnLengths": "",
-            "PopupColumnsIndexes": "1, 3, 5",
+            "PopupColumnsIndexes": "1, 5, 7",
             "PopupScreenLengthPercent::int": 100,
             "RefSection": "DepartmentRoles",
             "SearchDelay": null,
@@ -472,9 +480,11 @@
             }
           ],
           "ControlSettings": {
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": false,
             "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
             "LineBreakSetting": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
@@ -561,9 +571,11 @@
             }
           ],
           "ControlSettings": {
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": true,
             "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
             "LineBreakSetting": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
@@ -644,9 +656,11 @@
           "ComplexColumnID::uid": "668b47c4-f8a7-48d3-a9c7-03b3d0eb9bba",
           "ControlSettings": {
             "ComboBoxMode": true,
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": true,
             "IsAllowOpenRefs": false,
+            "IsClearFieldVisible": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
             "MaxResultsCount::int": 15,
@@ -709,9 +723,11 @@
           "ComplexColumnID::uid": "fe3406b3-0aba-4d1d-a917-751af37fa17c",
           "ControlSettings": {
             "ComboBoxMode": true,
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": true,
             "IsAllowOpenRefs": false,
+            "IsClearFieldVisible": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
             "MaxResultsCount::int": 15,
@@ -800,6 +816,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -895,6 +912,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 2,
             "TextStyle": {
@@ -954,6 +972,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 2,
             "TextStyle": {
@@ -1013,6 +1032,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -1069,9 +1089,11 @@
           "ComplexColumnID::uid": "a97a0420-e82e-4908-aa18-fa44be513dd7",
           "ControlSettings": {
             "ComboBoxMode": true,
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": true,
             "IsAllowOpenRefs": false,
+            "IsClearFieldVisible": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
             "MaxResultsCount::int": 15,
@@ -1142,9 +1164,11 @@
           "ComplexColumnID::uid": "d0405a56-a74b-4cf2-88c6-710d6d9c7c90",
           "ControlSettings": {
             "ComboBoxMode": true,
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": true,
             "IsAllowOpenRefs": false,
+            "IsClearFieldVisible": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
             "MaxResultsCount::int": 15,
@@ -1215,9 +1239,11 @@
           "ComplexColumnID::uid": "988e92e6-5188-4061-b105-44915e0f53f7",
           "ControlSettings": {
             "ComboBoxMode": false,
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": false,
             "IsAllowOpenRefs": false,
+            "IsClearFieldVisible": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
             "MaxResultsCount::int": 15,
@@ -1308,6 +1334,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -1353,6 +1380,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -1391,13 +1419,14 @@
             "ControlSpan": false,
             "HideCaption": false
           },
-          "Caption": "$CardTypes_Controls_Phone",
+          "Caption": "Рабочий телефон",
           "ComplexColumnID": null,
           "ControlSettings": {
             "MaxLength::int": 2147483647,
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -1443,6 +1472,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -1460,7 +1490,7 @@
           },
           "ControlType::int": 0,
           "DisplayFormat": null,
-          "Flags::int": 0,
+          "Flags::int": 2,
           "Name": null,
           "Order::int": 12,
           "PhysicalColumnIDList": [
@@ -1488,6 +1518,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -1505,7 +1536,7 @@
           },
           "ControlType::int": 0,
           "DisplayFormat": null,
-          "Flags::int": 0,
+          "Flags::int": 2,
           "Name": null,
           "Order::int": 13,
           "PhysicalColumnIDList": [
@@ -1533,6 +1564,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -1578,6 +1610,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -1595,7 +1628,7 @@
           },
           "ControlType::int": 0,
           "DisplayFormat": null,
-          "Flags::int": 0,
+          "Flags::int": 2,
           "Name": null,
           "Order::int": 15,
           "PhysicalColumnIDList": [
@@ -1638,7 +1671,7 @@
           },
           "ControlType::int": 0,
           "DisplayFormat": null,
-          "Flags::int": 0,
+          "Flags::int": 2,
           "Name": null,
           "Order::int": 16,
           "PhysicalColumnIDList": [
@@ -2185,9 +2218,11 @@
             }
           ],
           "ControlSettings": {
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": true,
             "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
             "LineBreakSetting": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
@@ -2400,6 +2435,7 @@
             }
           ],
           "ControlSettings": {
+            "AlwaysShowBottomToolbar": false,
             "AutoSizeRowLimit::int": 25,
             "CanSort": true,
             "IsMultiselectable": true,
@@ -2820,6 +2856,7 @@
             "uid",
             "uid",
             "uid",
+            "uid",
             "uid"
           ]
         },
@@ -2847,7 +2884,8 @@
         "8089d6be-77fb-4a84-93a4-fc74aefce9d6",
         "954e6a89-3bb4-44f5-a796-03e36cf450a2",
         "d0405a56-a74b-4cf2-88c6-710d6d9c7c90",
-        "4aaece20-d957-4973-8912-2d854bec4c6c"
+        "4aaece20-d957-4973-8912-2d854bec4c6c",
+        "d35c4500-1566-49aa-ad00-9dc9364ccfab"
       ],
       "SectionID::uid": "6c977939-bbfc-456f-a133-f1c2244e3cc3"
     },

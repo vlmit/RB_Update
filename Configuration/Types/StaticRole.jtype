@@ -28,6 +28,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -70,9 +71,11 @@
           "ComplexColumnID::uid": "a6f5c001-a096-49dc-9cc7-985d9d35149e",
           "ControlSettings": {
             "ComboBoxMode": false,
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": false,
             "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
             "MaxResultsCount::int": 15,
@@ -121,6 +124,59 @@
         },
         {
           "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "Ведомство",
+          "ComplexColumnID::uid": "7cc2ba65-c921-4acc-b93a-93d188db777f",
+          "ControlSettings": {
+            "ComboBoxMode": false,
+            "DisableLocalization": false,
+            "ExtendendLocalization": false,
+            "HideSelectorButton": false,
+            "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
+            "ManualInput": false,
+            "ManualInputColumnID": null,
+            "MaxResultsCount::int": 15,
+            "ParameterAlias": "Name",
+            "PopupColumnLengths": "",
+            "PopupColumnLengthsComboBox": "",
+            "PopupColumnsIndexes": "1, 5, 7",
+            "PopupColumnsIndexesComboBox": "",
+            "PopupScreenLengthPercent::int": 100,
+            "RefSection": "DepartmentRoles",
+            "SearchDelay": null,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "ViewAlias": "Departments",
+            "ViewAliasComboBox": "",
+            "ViewMap": null,
+            "ViewReferencePrefix": ""
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 2,
+          "PhysicalColumnIDList": [],
+          "RequiredText": null,
+          "SectionID::uid": "81f6010b-9641-4aa5-8897-b8e8603fbf4b",
+          "ToolTip": null,
+          "Type::uid": "208e364e-94fe-0d64-bc27-6b4dc12d039c"
+        },
+        {
+          "BlockSettings": {
             "ControlSpan": true,
             "HideCaption": false
           },
@@ -131,6 +187,7 @@
             "MaxRows::int": 6,
             "MinRows::int": 2,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -150,7 +207,7 @@
           "DisplayFormat": null,
           "Flags::int": 0,
           "Name": null,
-          "Order::int": 2,
+          "Order::int": 3,
           "PhysicalColumnIDList": [
             {
               "::types": [
@@ -173,9 +230,11 @@
           "ComplexColumnID::uid": "988e92e6-5188-4061-b105-44915e0f53f7",
           "ControlSettings": {
             "ComboBoxMode": false,
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": false,
             "IsAllowOpenRefs": false,
+            "IsClearFieldVisible": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
             "MaxResultsCount::int": 15,
@@ -208,7 +267,7 @@
           "DisplayFormat": "{3} ({1})",
           "Flags::int": 0,
           "Name": "TimeZone",
-          "Order::int": 3,
+          "Order::int": 4,
           "PhysicalColumnIDList": [],
           "RequiredText": null,
           "SectionID::uid": "81f6010b-9641-4aa5-8897-b8e8603fbf4b",
@@ -240,7 +299,7 @@
           "DisplayFormat": null,
           "Flags::int": 0,
           "Name": "InheritTimeZone",
-          "Order::int": 4,
+          "Order::int": 5,
           "PhysicalColumnIDList": [
             {
               "::types": [
@@ -279,7 +338,7 @@
           "DisplayFormat": null,
           "Flags::int": 0,
           "Name": null,
-          "Order::int": 5,
+          "Order::int": 6,
           "PhysicalColumnIDList": [
             {
               "::types": [
@@ -1273,6 +1332,7 @@
             "uid",
             "uid",
             "uid",
+            "uid",
             "uid"
           ]
         },
@@ -1289,7 +1349,8 @@
         "988e92e6-5188-4061-b105-44915e0f53f7",
         "363d8307-9f5b-4307-a235-1a6e21d9c6c1",
         "1813800b-d336-44a5-825a-fb637f2b9265",
-        "53bb3083-0dbf-4fd4-b317-405d501375da"
+        "53bb3083-0dbf-4fd4-b317-405d501375da",
+        "7cc2ba65-c921-4acc-b93a-93d188db777f"
       ],
       "SectionID::uid": "81f6010b-9641-4aa5-8897-b8e8603fbf4b"
     },

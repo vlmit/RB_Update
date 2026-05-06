@@ -432,6 +432,8 @@
                   "DoNotCollapseWithTopBlock": false,
                   "HorizontalInterval::int": 5,
                   "IsHidden": false,
+                  "LeftCaptions": false,
+                  "StretchVertically": false,
                   "VerticalInterval::int": 5
                 },
                 "Caption": "$CardTypes_Columns_Blocks_Share",
@@ -448,6 +450,7 @@
                       "MaxRows::int": 1,
                       "MinRows::int": 1,
                       "ShowExpandButton": true,
+                      "SpellCheck": false,
                       "TextColor": "#FF000000",
                       "TextMode::int": 0,
                       "TextStyle": {
@@ -490,9 +493,11 @@
                     "ComplexColumnID::uid": "1a68d52c-f1ba-4cc2-9ba4-a8452405bae9",
                     "ControlSettings": {
                       "ComboBoxMode": false,
+                      "DisableLocalization": false,
                       "ExtendendLocalization": false,
                       "HideSelectorButton": false,
                       "IsAllowOpenRefs": true,
+                      "IsClearFieldVisible": false,
                       "ManualInput": false,
                       "ManualInputColumnID": null,
                       "MaxResultsCount::int": 15,
@@ -591,6 +596,8 @@
                   "DoNotCollapseWithTopBlock": false,
                   "HorizontalInterval::int": 5,
                   "IsHidden": false,
+                  "LeftCaptions": false,
+                  "StretchVertically": false,
                   "VerticalInterval::int": 5
                 },
                 "Caption": "$CardTypes_Columns_Blocks_Controls_Buyers",
@@ -1327,6 +1334,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -1411,6 +1419,7 @@
             "MaxRows::int": 10,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -1456,6 +1465,7 @@
             "MaxRows::int": 10,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -1501,6 +1511,7 @@
             "MaxRows::int": 10,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -1546,6 +1557,7 @@
             "MaxRows::int": 1,
             "MinRows::int": 1,
             "ShowExpandButton": true,
+            "SpellCheck": false,
             "TextColor": "#FF000000",
             "TextMode::int": 0,
             "TextStyle": {
@@ -1585,6 +1597,214 @@
       },
       "Name": "AdditionalInfo",
       "Order::int": 1
+    },
+    {
+      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+      "BlockSettings": {
+        "AlwaysMultipleColumn": false,
+        "CollapsedByDefault": false,
+        "ColumnsCount::int": 2,
+        "DoNotCollapseWithTopBlock": false,
+        "HorizontalInterval::int": 5,
+        "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
+        "VerticalInterval::int": 5
+      },
+      "Caption": "$CardTypes_Blocks_DepartmentSignedByRecipientsPerformers",
+      "Controls": [
+        {
+          "BlockSettings": {
+            "ControlSpan": true,
+            "HideCaption": false
+          },
+          "Caption": "Исполнители",
+          "Columns": [
+            {
+              "AggregationFormat": null,
+              "Alignment::int": 0,
+              "Caption": "Reference",
+              "ComplexColumnID::uid": "01f82ec8-178a-426f-ae47-75aa0fcef5c6",
+              "DisplayFormat": null,
+              "Flags::int": 0,
+              "HeaderAlignment::int": 2,
+              "MaxLength": null,
+              "Order::int": 0,
+              "OwnedComplexColumnID": null,
+              "OwnedOrderColumnID": null,
+              "OwnedPhysicalColumnIDList": [],
+              "OwnedSectionID": null,
+              "PhysicalColumnIDList": [],
+              "SelectableControlName": null,
+              "Separator": null,
+              "ToolTipLineLength::int": 100
+            }
+          ],
+          "ControlSettings": {
+            "DisableLocalization": false,
+            "ExtendendLocalization": false,
+            "HideSelectorButton": false,
+            "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
+            "LineBreakSetting": false,
+            "ManualInput": false,
+            "ManualInputColumnID": null,
+            "MaxResultsCount::int": 15,
+            "OrderColumnID": null,
+            "ParameterAlias": "Name",
+            "PopupColumnLengths": "",
+            "PopupColumnsIndexes": "1, 4",
+            "PopupScreenLengthPercent::int": 100,
+            "RefSection": null,
+            "SearchDelay": null,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "ViewAlias": "Users",
+            "ViewMap": null,
+            "ViewReferencePrefix": null
+          },
+          "ControlType::int": 1,
+          "Flags::int": 0,
+          "Form": null,
+          "Name": null,
+          "Order::int": 0,
+          "RequiredText": null,
+          "SectionID::uid": "d0f5547b-b2f5-4a08-8cd9-b34138d35125",
+          "ToolTip": null,
+          "Type::uid": "5d95340a-0f22-0d14-b9d2-a5471f607261"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": true,
+            "HideCaption": false
+          },
+          "Caption": "Кому переслать",
+          "Columns": [
+            {
+              "AggregationFormat": null,
+              "Alignment::int": 0,
+              "Caption": "Reference",
+              "ComplexColumnID::uid": "c2ccd7e2-84b9-44f7-817f-c233ce673900",
+              "DisplayFormat": null,
+              "Flags::int": 0,
+              "HeaderAlignment::int": 2,
+              "MaxLength": null,
+              "Order::int": 0,
+              "OwnedComplexColumnID": null,
+              "OwnedOrderColumnID": null,
+              "OwnedPhysicalColumnIDList": [],
+              "OwnedSectionID": null,
+              "PhysicalColumnIDList": [],
+              "SelectableControlName": null,
+              "Separator": null,
+              "ToolTipLineLength::int": 100
+            }
+          ],
+          "ControlSettings": {
+            "DisableLocalization": false,
+            "ExtendendLocalization": false,
+            "HideSelectorButton": false,
+            "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
+            "LineBreakSetting": false,
+            "ManualInput": false,
+            "ManualInputColumnID": null,
+            "MaxResultsCount::int": 15,
+            "OrderColumnID": null,
+            "ParameterAlias": "Name",
+            "PopupColumnLengths": "",
+            "PopupColumnsIndexes": "1, 4",
+            "PopupScreenLengthPercent::int": 100,
+            "RefSection": null,
+            "SearchDelay": null,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "ViewAlias": "Users",
+            "ViewMap": null,
+            "ViewReferencePrefix": null
+          },
+          "ControlType::int": 1,
+          "Flags::int": 0,
+          "Form": null,
+          "Name": null,
+          "Order::int": 1,
+          "RequiredText": null,
+          "SectionID::uid": "386509d9-4130-467f-9a52-0004aa15247e",
+          "ToolTip": null,
+          "Type::uid": "5d95340a-0f22-0d14-b9d2-a5471f607261"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": true,
+            "HideCaption": true
+          },
+          "Caption": "Название",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 440,
+            "MaxRows::int": 6,
+            "MinRows::int": 2,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 2,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "2246998b-e4f7-45f1-8a96-211848466450"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "a161e289-2f99-4699-9e95-6e3336be8527",
+          "ToolTip": "$CardTypes_Controls_SubjectRequired_ToolTip",
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        }
+      ],
+      "FormSettings": {
+        "HideCaption": true
+      },
+      "Name": "DepartmentSignedByRecipientsPerformersBlock",
+      "Order::int": 2
     },
     {
       "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
@@ -1800,7 +2020,7 @@
         "HideCaption": false
       },
       "Name": "Files",
-      "Order::int": 2
+      "Order::int": 3
     }
   ],
   "Caption": "$CardTypes_TypesNames_Car",
@@ -2645,9 +2865,9 @@
       "ExtensionSettings": {
         "CategoriesViewAlias": "FileCategoriesFiltered",
         "CategoriesViewMapping": null,
-        "DefaultGroup": null,
+        "DefaultGroup": "Copy",
         "FilesViewAlias": "CompareFilesView2",
-        "IsCategoriesEnabled": false,
+        "IsCategoriesEnabled": true,
         "IsIgnoreExistingCategories": false,
         "IsManualCategoriesCreationDisabled": false,
         "IsNullCategoryCreationDisabled": false,
@@ -2709,7 +2929,7 @@
       "TypeID::uid": "621e7a1b-7980-441c-9a57-b67e847ee773"
     }
   ],
-  "Flags::int": 11,
+  "Flags::int": 27,
   "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
   "Forms": [
     {
@@ -2907,13 +3127,15 @@
               "Caption": "$CardTypes_Blocks_Controls_Tabs_FileCopies",
               "ControlSettings": {
                 "CardIdParamAlias": "",
+                "CollapseGroups": false,
                 "DisableColumnAutoWidth": false,
                 "FirstRowSelection": false,
                 "Height::dbl": 0.0,
                 "MasterViewControlAlias": "",
+                "MinRowHeight::dbl": 0.0,
                 "ScrollWithMouse": true,
                 "ViewAlias": "",
-                "ViewMap": null
+                "ViewMap": []
               },
               "ControlType::int": 3,
               "Flags::int": 0,
@@ -2988,10 +3210,12 @@
               "Caption": "Control1",
               "ControlSettings": {
                 "CardIdParamAlias": "",
+                "CollapseGroups": false,
                 "DisableColumnAutoWidth": false,
                 "FirstRowSelection": false,
                 "Height::dbl": 350.0,
                 "MasterViewControlAlias": "",
+                "MinRowHeight::dbl": 0.0,
                 "ScrollWithMouse": true,
                 "ViewAlias": "",
                 "ViewMap": null
@@ -3040,10 +3264,12 @@
               "Caption": "Control2",
               "ControlSettings": {
                 "CardIdParamAlias": "",
+                "CollapseGroups": true,
                 "DisableColumnAutoWidth": false,
                 "FirstRowSelection": false,
-                "Height::dbl": 350.0,
+                "Height::dbl": 0.0,
                 "MasterViewControlAlias": "",
+                "MinRowHeight::dbl": 0.0,
                 "ScrollWithMouse": true,
                 "ViewAlias": "",
                 "ViewMap": null
@@ -3060,11 +3286,11 @@
           "FormSettings": {
             "Column::int": 1,
             "ColumnSpan::int": 1,
-            "HideCaption": true,
+            "HideCaption": false,
             "HorizontalAlignment::int": 3,
             "Row::int": 0,
             "RowSpan::int": 1,
-            "VerticalAlignment::int": 3
+            "VerticalAlignment::int": 0
           },
           "Name": "Block1",
           "Order::int": 1
@@ -3152,11 +3378,11 @@
           "FormSettings": {
             "Column::int": 1,
             "ColumnSpan::int": 1,
-            "HideCaption": true,
+            "HideCaption": false,
             "HorizontalAlignment::int": 3,
             "Row::int": 1,
             "RowSpan::int": 1,
-            "VerticalAlignment::int": 3
+            "VerticalAlignment::int": 0
           },
           "Name": "Block2",
           "Order::int": 3
@@ -3181,11 +3407,11 @@
           {
             "::types": [
               "unk",
-              "dbl"
+              "unk"
             ]
           },
           null,
-          1.0
+          null
         ]
       },
       "Name": "Files",
@@ -3346,10 +3572,12 @@
               "Caption": "$CardTypes_Controls_ShareList",
               "ControlSettings": {
                 "CardIdParamAlias": "",
+                "CollapseGroups": false,
                 "DisableColumnAutoWidth": false,
                 "FirstRowSelection": true,
                 "Height::dbl": 0.0,
                 "MasterViewControlAlias": "",
+                "MinRowHeight::dbl": 0.0,
                 "ScrollWithMouse": false,
                 "ViewAlias": "",
                 "ViewMap": null
@@ -3370,10 +3598,12 @@
               "Caption": "$CardTypes_Columns_Blocks_Controls_Buyers",
               "ControlSettings": {
                 "CardIdParamAlias": "",
+                "CollapseGroups": false,
                 "DisableColumnAutoWidth": false,
                 "FirstRowSelection": true,
                 "Height::dbl": 0.0,
                 "MasterViewControlAlias": "ShareListView",
+                "MinRowHeight::dbl": 0.0,
                 "ScrollWithMouse": false,
                 "ViewAlias": "",
                 "ViewMap": null
@@ -3394,10 +3624,12 @@
               "Caption": "$CardTypes_Controls_BuyerOperations",
               "ControlSettings": {
                 "CardIdParamAlias": "",
+                "CollapseGroups": false,
                 "DisableColumnAutoWidth": false,
                 "FirstRowSelection": true,
                 "Height::dbl": 0.0,
                 "MasterViewControlAlias": "BuyersView",
+                "MinRowHeight::dbl": 0.0,
                 "ScrollWithMouse": false,
                 "ViewAlias": "",
                 "ViewMap": null
@@ -3508,6 +3740,407 @@
       "Name": "TaskHistory",
       "TabCaption": "$CardTypes_Tab_TaskHistory",
       "TabOrder::int": 5
+    },
+    {
+      "Blocks": [
+        {
+          "BlockClass": "Tessa.UI.Cards.Blocks.HorizontalBlockType",
+          "BlockSettings": {
+            "CollapsedByDefault": false,
+            "DoNotCollapseWithTopBlock": false,
+            "DoNotOptimizeBlock": false,
+            "HorizontalInterval::int": 5,
+            "IsHidden": false,
+            "LeftCaptions": false,
+            "RightToLeft": false,
+            "StretchVertically": false,
+            "VerticalInterval::int": 5
+          },
+          "Caption": "Block3",
+          "Controls": [
+            {
+              "BlockSettings": {
+                "HideCaption": true
+              },
+              "Caption": "Control1",
+              "ControlSettings": {
+                "EnableScrolling": false
+              },
+              "ControlType::int": 2,
+              "Flags::int": 0,
+              "Forms": [
+                {
+                  "Blocks": [
+                    {
+                      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+                      "BlockSettings": {
+                        "AlwaysMultipleColumn": false,
+                        "CollapsedByDefault": false,
+                        "ColumnsCount::int": 1,
+                        "DoNotCollapseWithTopBlock": false,
+                        "HorizontalInterval::int": 5,
+                        "IsHidden": false,
+                        "LeftCaptions": false,
+                        "StretchVertically": true,
+                        "VerticalInterval::int": 5
+                      },
+                      "Caption": "Файлы1",
+                      "Controls": [
+                        {
+                          "BlockSettings": {
+                            "CaptionStyle": {
+                              "TextColor": "#FF505050",
+                              "TextStyle": {
+                                "SelectedFontFamily": "Segoe UI",
+                                "SelectedFontSize::dbl": 12.0,
+                                "SelectedFontStretch": "Normal",
+                                "SelectedFontStyle": "Normal",
+                                "SelectedFontWeight": "Normal",
+                                "SelectedTextBaseline": false,
+                                "SelectedTextOverLine": false,
+                                "SelectedTextStrikethrough": false,
+                                "SelectedTextUnderline": false
+                              }
+                            },
+                            "ColumnSpan::int": 1,
+                            "ControlSpan": true,
+                            "EmptyColumnsToTheLeft::int": 0,
+                            "HideCaption": true,
+                            "HorizontalAlignment::int": 3,
+                            "Margin": "0,0,0,0",
+                            "MaxWidth::dbl": 0.0,
+                            "MinWidth::dbl": 0.0,
+                            "StartAtNewLine": false,
+                            "VerticalAlignment::int": 3
+                          },
+                          "Caption": "Control1",
+                          "ControlSettings": {
+                            "CardIdParamAlias": "",
+                            "CollapseGroups": false,
+                            "DisableColumnAutoWidth": false,
+                            "FirstRowSelection": false,
+                            "Height::dbl": 350.0,
+                            "MasterViewControlAlias": "",
+                            "MinRowHeight::dbl": 0.0,
+                            "ScrollWithMouse": true,
+                            "ViewAlias": "",
+                            "ViewMap": null
+                          },
+                          "ControlType::int": 3,
+                          "Flags::int": 0,
+                          "Name": "CompareFilesView1",
+                          "Order::int": 0,
+                          "RequiredText": null,
+                          "ToolTip": null,
+                          "Type::uid": "e9a5084d-c76e-4096-ab2d-84f313710812"
+                        }
+                      ],
+                      "FormSettings": {
+                        "Column::int": 0,
+                        "ColumnSpan::int": 1,
+                        "HideCaption": true,
+                        "HorizontalAlignment::int": 3,
+                        "Row::int": 0,
+                        "RowSpan::int": 1,
+                        "VerticalAlignment::int": 3
+                      },
+                      "Name": "Block1",
+                      "Order::int": 0
+                    },
+                    {
+                      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+                      "BlockSettings": {
+                        "AlwaysMultipleColumn": false,
+                        "CollapsedByDefault": false,
+                        "ColumnsCount::int": 1,
+                        "DoNotCollapseWithTopBlock": false,
+                        "HorizontalInterval::int": 5,
+                        "IsHidden": false,
+                        "LeftCaptions": false,
+                        "StretchVertically": true,
+                        "VerticalInterval::int": 5
+                      },
+                      "Caption": "Превью1",
+                      "Controls": [
+                        {
+                          "BlockSettings": {
+                            "ControlSpan": true,
+                            "HideCaption": true
+                          },
+                          "Caption": "Preview1",
+                          "ControlSettings": {
+                            "MaxHeight": null,
+                            "MinHeight": null
+                          },
+                          "ControlType::int": 3,
+                          "Flags::int": 0,
+                          "Name": "Preview1",
+                          "Order::int": 0,
+                          "RequiredText": null,
+                          "ToolTip": null,
+                          "Type::uid": "ad08df26-fb96-4712-83ac-df2bc316840d"
+                        }
+                      ],
+                      "FormSettings": {
+                        "Column::int": 0,
+                        "ColumnSpan::int": 1,
+                        "HideCaption": true,
+                        "HorizontalAlignment::int": 3,
+                        "Row::int": 1,
+                        "RowSpan::int": 1,
+                        "VerticalAlignment::int": 3
+                      },
+                      "Name": "Block2",
+                      "Order::int": 1
+                    }
+                  ],
+                  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+                  "FormSettings": {
+                    "Columns": [
+                      {
+                        "::types": [
+                          "dbl"
+                        ]
+                      },
+                      1.0
+                    ],
+                    "HorizontalInterval::int": 10,
+                    "Interval::int": 10,
+                    "Rows": [
+                      {
+                        "::types": [
+                          "unk",
+                          "unk"
+                        ]
+                      },
+                      null,
+                      null
+                    ]
+                  },
+                  "TabCaption": "Вкладка",
+                  "TabOrder::int": 0
+                }
+              ],
+              "Name": null,
+              "Order::int": 0,
+              "ToolTip": null,
+              "Type::uid": "5f24f4f0-954b-4996-af69-1ce23cd692d2"
+            }
+          ],
+          "FormSettings": {
+            "Column::int": 0,
+            "ColumnSpan::int": 1,
+            "HideCaption": false,
+            "HorizontalAlignment::int": 3,
+            "Row::int": 0,
+            "RowSpan::int": 1,
+            "VerticalAlignment::int": 3
+          },
+          "Name": "Block3",
+          "Order::int": 0
+        },
+        {
+          "BlockClass": "Tessa.UI.Cards.Blocks.HorizontalBlockType",
+          "BlockSettings": {
+            "CollapsedByDefault": false,
+            "DoNotCollapseWithTopBlock": false,
+            "DoNotOptimizeBlock": false,
+            "HorizontalInterval::int": 5,
+            "IsHidden": false,
+            "LeftCaptions": false,
+            "RightToLeft": false,
+            "StretchVertically": false,
+            "VerticalInterval::int": 5
+          },
+          "Caption": "Block3",
+          "Controls": [
+            {
+              "BlockSettings": {
+                "HideCaption": true
+              },
+              "Caption": "Control1",
+              "ControlSettings": {
+                "EnableScrolling": false
+              },
+              "ControlType::int": 2,
+              "Flags::int": 0,
+              "Forms": [
+                {
+                  "Blocks": [
+                    {
+                      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+                      "BlockSettings": {
+                        "AlwaysMultipleColumn": false,
+                        "CollapsedByDefault": false,
+                        "ColumnsCount::int": 1,
+                        "DoNotCollapseWithTopBlock": false,
+                        "HorizontalInterval::int": 5,
+                        "IsHidden": false,
+                        "LeftCaptions": false,
+                        "StretchVertically": true,
+                        "VerticalInterval::int": 5
+                      },
+                      "Caption": "Файлы2",
+                      "Controls": [
+                        {
+                          "BlockSettings": {
+                            "ControlSpan": true,
+                            "HideCaption": true
+                          },
+                          "Caption": "Control2",
+                          "ControlSettings": {
+                            "CardIdParamAlias": "",
+                            "CollapseGroups": true,
+                            "DisableColumnAutoWidth": false,
+                            "FirstRowSelection": false,
+                            "Height::dbl": 0.0,
+                            "MasterViewControlAlias": "",
+                            "MinRowHeight::dbl": 0.0,
+                            "ScrollWithMouse": true,
+                            "ViewAlias": "",
+                            "ViewMap": null
+                          },
+                          "ControlType::int": 3,
+                          "Flags::int": 0,
+                          "Name": "CompareFilesView2",
+                          "Order::int": 0,
+                          "RequiredText": null,
+                          "ToolTip": null,
+                          "Type::uid": "e9a5084d-c76e-4096-ab2d-84f313710812"
+                        }
+                      ],
+                      "FormSettings": {
+                        "Column::int": 0,
+                        "ColumnSpan::int": 1,
+                        "HideCaption": false,
+                        "HorizontalAlignment::int": 3,
+                        "Row::int": 0,
+                        "RowSpan::int": 1,
+                        "VerticalAlignment::int": 0
+                      },
+                      "Name": "Block1",
+                      "Order::int": 0
+                    },
+                    {
+                      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+                      "BlockSettings": {
+                        "AlwaysMultipleColumn": false,
+                        "CollapsedByDefault": false,
+                        "ColumnsCount::int": 1,
+                        "DoNotCollapseWithTopBlock": false,
+                        "HorizontalInterval::int": 5,
+                        "IsHidden": false,
+                        "LeftCaptions": false,
+                        "StretchVertically": true,
+                        "VerticalInterval::int": 5
+                      },
+                      "Caption": "Превью2",
+                      "Controls": [
+                        {
+                          "BlockSettings": {
+                            "ControlSpan": true,
+                            "HideCaption": true
+                          },
+                          "Caption": "Preview2",
+                          "ControlSettings": {
+                            "MaxHeight": null,
+                            "MinHeight": null
+                          },
+                          "ControlType::int": 3,
+                          "Flags::int": 0,
+                          "Name": "Preview2",
+                          "Order::int": 0,
+                          "RequiredText": null,
+                          "ToolTip": null,
+                          "Type::uid": "ad08df26-fb96-4712-83ac-df2bc316840d"
+                        }
+                      ],
+                      "FormSettings": {
+                        "Column::int": 0,
+                        "ColumnSpan::int": 1,
+                        "HideCaption": false,
+                        "HorizontalAlignment::int": 3,
+                        "Row::int": 1,
+                        "RowSpan::int": 1,
+                        "VerticalAlignment::int": 0
+                      },
+                      "Name": "Block2",
+                      "Order::int": 1
+                    }
+                  ],
+                  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+                  "FormSettings": {
+                    "Columns": [
+                      {
+                        "::types": [
+                          "dbl"
+                        ]
+                      },
+                      1.0
+                    ],
+                    "HorizontalInterval::int": 10,
+                    "Interval::int": 10,
+                    "Rows": [
+                      {
+                        "::types": [
+                          "unk",
+                          "unk"
+                        ]
+                      },
+                      null,
+                      null
+                    ]
+                  },
+                  "TabCaption": "Вкладка",
+                  "TabOrder::int": 0
+                }
+              ],
+              "Name": null,
+              "Order::int": 0,
+              "ToolTip": null,
+              "Type::uid": "5f24f4f0-954b-4996-af69-1ce23cd692d2"
+            }
+          ],
+          "FormSettings": {
+            "Column::int": 1,
+            "ColumnSpan::int": 1,
+            "HideCaption": false,
+            "HorizontalAlignment::int": 3,
+            "Row::int": 0,
+            "RowSpan::int": 1,
+            "VerticalAlignment::int": 3
+          },
+          "Name": "Block3",
+          "Order::int": 1
+        }
+      ],
+      "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+      "FormSettings": {
+        "Columns": [
+          {
+            "::types": [
+              "dbl",
+              "dbl"
+            ]
+          },
+          1.0,
+          1.0
+        ],
+        "FilePreviewIsDisabled": false,
+        "HorizontalInterval::int": 10,
+        "Interval::int": 10,
+        "Rows": [
+          {
+            "::types": [
+              "unk"
+            ]
+          },
+          null
+        ]
+      },
+      "Name": "Files 1",
+      "TabCaption": "Тест",
+      "TabOrder::int": 6
     }
   ],
   "FormSettings": {
@@ -3545,6 +4178,17 @@
         "8854b3ea-4c6b-4da9-843a-e42272118d33"
       ],
       "SectionID::uid": "30295c44-c633-4474-9e30-4492e75e7e75"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "c2ccd7e2-84b9-44f7-817f-c233ce673900"
+      ],
+      "SectionID::uid": "386509d9-4130-467f-9a52-0004aa15247e"
     },
     {
       "ColumnIDList": [
@@ -3651,6 +4295,17 @@
         "7ba43d77-4412-43a1-9800-b49504ade57f"
       ],
       "SectionID::uid": "a2db2754-b0ca-4d38-988d-0de6d58057cb"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "01f82ec8-178a-426f-ae47-75aa0fcef5c6"
+      ],
+      "SectionID::uid": "d0f5547b-b2f5-4a08-8cd9-b34138d35125"
     },
     {
       "ColumnIDList": [

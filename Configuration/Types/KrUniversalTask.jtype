@@ -5,7 +5,7 @@
   "CompletionOptions": [],
   "DigestFormat": null,
   "Extensions": [],
-  "Flags::int": 512,
+  "Flags::int": 0,
   "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
   "Forms": [
     {

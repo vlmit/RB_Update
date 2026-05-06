@@ -9,6 +9,8 @@
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
         "VerticalInterval::int": 5
       },
       "Caption": "$CardTypes_Blocks_MainInformation",
@@ -21,6 +23,7 @@
           "Caption": "$CardTypes_Controls_Number",
           "ControlSettings": {
             "FullNumberColumnID::uid": "eeb023b5-f473-4a8b-bef2-88e07b0d0688",
+            "FullNumberMaxLength": null,
             "NumberColumnID::uid": "434a798f-bd1f-4c5c-b291-80490cd0dccf",
             "NumberType": "Primary",
             "SectionID::uid": "a161e289-2f99-4699-9e95-6e3336be8527",
@@ -40,7 +43,7 @@
           },
           "ControlType::int": 3,
           "Flags::int": 0,
-          "Name": null,
+          "Name": "test",
           "Order::int": 0,
           "RequiredText": null,
           "ToolTip": null,
@@ -55,9 +58,11 @@
           "ComplexColumnID::uid": "d713fa35-af02-4520-bc91-47f5a04e44fa",
           "ControlSettings": {
             "ComboBoxMode": false,
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": true,
             "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
             "MaxResultsCount::int": 15,
@@ -103,9 +108,11 @@
           "ComplexColumnID::uid": "3089d333-8647-49e7-b2ef-d4f8958da086",
           "ControlSettings": {
             "ComboBoxMode": false,
+            "DisableLocalization": false,
             "ExtendendLocalization": false,
             "HideSelectorButton": true,
             "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
             "ManualInput": false,
             "ManualInputColumnID": null,
             "MaxResultsCount::int": 15,
@@ -203,6 +210,8 @@
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
         "VerticalInterval::int": 5
       },
       "Caption": "KrBlockForDocStatus",
@@ -222,6 +231,8 @@
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
         "VerticalInterval::int": 5
       },
       "Caption": "$CardTypes_Blocks_Controls_Subject",
@@ -418,6 +429,8 @@
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
         "VerticalInterval::int": 5
       },
       "Caption": "$CardTypes_Blocks_AuthorAndDate",
@@ -531,6 +544,8 @@
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
         "VerticalInterval::int": 5
       },
       "Caption": "$CardTypes_Blocks_DepartmentSignedByRecipientsPerformers",
@@ -698,6 +713,8 @@
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
         "VerticalInterval::int": 5
       },
       "Caption": "$CardTypes_Blocks_Controls_References",
@@ -852,6 +869,8 @@
         "DoNotCollapseWithTopBlock": false,
         "HorizontalInterval::int": 5,
         "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
         "VerticalInterval::int": 5
       },
       "Caption": "$CardTypes_Blocks_Controls_Files",
@@ -900,6 +919,8 @@
   "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
   "Forms": [],
   "FormSettings": {
+    "FilePreviewIsDisabled": false,
+    "HorizontalInterval::int": 10,
     "Interval::int": 10
   },
   "Group": "Documents",

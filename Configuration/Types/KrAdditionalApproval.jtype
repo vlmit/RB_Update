@@ -153,6 +153,7 @@
             }
           ],
           "ControlSettings": {
+            "AlwaysShowBottomToolbar": false,
             "AutoSizeRowLimit::int": 25,
             "CanSort": true,
             "IsMultiselectable": true,
@@ -484,6 +485,7 @@
             }
           ],
           "ControlSettings": {
+            "AlwaysShowBottomToolbar": false,
             "AutoSizeRowLimit::int": 25,
             "CanSort": true,
             "IsMultiselectable": true,
@@ -990,6 +992,7 @@
             }
           ],
           "ControlSettings": {
+            "AlwaysShowBottomToolbar": false,
             "AutoSizeRowLimit::int": 25,
             "CanSort": true,
             "IsMultiselectable": true,
@@ -1025,9 +1028,11 @@
                     "ComplexColumnID::uid": "f4ca99e6-362c-46fa-b673-f07576d06746",
                     "ControlSettings": {
                       "ComboBoxMode": false,
+                      "DisableLocalization": false,
                       "ExtendendLocalization": false,
                       "HideSelectorButton": true,
                       "IsAllowOpenRefs": true,
+                      "IsClearFieldVisible": false,
                       "ManualInput": false,
                       "ManualInputColumnID": null,
                       "MaxResultsCount::int": 15,
@@ -1071,9 +1076,11 @@
                     "ComplexColumnID::uid": "2d86f63b-fd3f-4217-a669-d39d96b82dda",
                     "ControlSettings": {
                       "ComboBoxMode": false,
+                      "DisableLocalization": false,
                       "ExtendendLocalization": false,
                       "HideSelectorButton": true,
                       "IsAllowOpenRefs": true,
+                      "IsClearFieldVisible": false,
                       "ManualInput": false,
                       "ManualInputColumnID": null,
                       "MaxResultsCount::int": 15,
@@ -1117,9 +1124,11 @@
                     "ComplexColumnID::uid": "5d1b67b2-010b-4457-bb1f-5e5ccc9c3bdd",
                     "ControlSettings": {
                       "ComboBoxMode": false,
+                      "DisableLocalization": false,
                       "ExtendendLocalization": false,
                       "HideSelectorButton": true,
                       "IsAllowOpenRefs": false,
+                      "IsClearFieldVisible": false,
                       "ManualInput": false,
                       "ManualInputColumnID": null,
                       "MaxResultsCount::int": 15,
@@ -1338,6 +1347,7 @@
                       "MaxRows::int": 5,
                       "MinRows::int": 2,
                       "ShowExpandButton": true,
+                      "SpellCheck": false,
                       "TextColor": "#FF000000",
                       "TextMode::int": 0,
                       "TextStyle": {
@@ -1383,6 +1393,7 @@
                       "MaxRows::int": 5,
                       "MinRows::int": 2,
                       "ShowExpandButton": true,
+                      "SpellCheck": false,
                       "TextColor": "#FF000000",
                       "TextMode::int": 0,
                       "TextStyle": {
@@ -1480,7 +1491,7 @@
       "Validators": []
     },
     {
-      "Flags::int": 3,
+      "Flags::int": 11,
       "FormName": "RequestComment",
       "Order::int": 0,
       "TypeID::uid": "fffb3209-2b67-09f0-bd25-ba4ec94ca5e8",
@@ -1515,7 +1526,7 @@
   ],
   "DigestFormat": null,
   "Extensions": [],
-  "Flags::int": 512,
+  "Flags::int": 32,
   "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
   "Forms": [
     {
@@ -1659,6 +1670,7 @@
                 }
               ],
               "ControlSettings": {
+                "AlwaysShowBottomToolbar": false,
                 "AutoSizeRowLimit::int": 25,
                 "CanSort": true,
                 "IsMultiselectable": true,
@@ -1990,6 +2002,7 @@
                 }
               ],
               "ControlSettings": {
+                "AlwaysShowBottomToolbar": false,
                 "AutoSizeRowLimit::int": 25,
                 "CanSort": true,
                 "IsMultiselectable": true,
@@ -2495,6 +2508,7 @@
                 }
               ],
               "ControlSettings": {
+                "AlwaysShowBottomToolbar": false,
                 "AutoSizeRowLimit::int": 25,
                 "CanSort": true,
                 "IsMultiselectable": true,
@@ -2992,9 +3006,11 @@
                 }
               ],
               "ControlSettings": {
+                "DisableLocalization": false,
                 "ExtendendLocalization": false,
                 "HideSelectorButton": false,
                 "IsAllowOpenRefs": true,
+                "IsClearFieldVisible": false,
                 "LineBreakSetting": false,
                 "ManualInput": false,
                 "ManualInputColumnID": null,
@@ -3002,7 +3018,7 @@
                 "OrderColumnID": null,
                 "ParameterAlias": "Name",
                 "PopupColumnsIndexes": "1, 4",
-                "RefSection": null,
+                "RefSection": "UsersExpand",
                 "SearchDelay": null,
                 "TextColor": "#FF000000",
                 "TextStyle": {
@@ -3016,9 +3032,9 @@
                   "SelectedTextStrikethrough": false,
                   "SelectedTextUnderline": false
                 },
-                "ViewAlias": "Users",
+                "ViewAlias": "UsersExpand",
                 "ViewMap": null,
-                "ViewReferencePrefix": null
+                "ViewReferencePrefix": "User"
               },
               "ControlType::int": 1,
               "Flags::int": 4,
@@ -3042,6 +3058,7 @@
                 "MaxRows::int": 3,
                 "MinRows::int": 2,
                 "ShowExpandButton": true,
+                "SpellCheck": false,
                 "TextColor": "#FF000000",
                 "TextMode::int": 0,
                 "TextStyle": {
@@ -3247,6 +3264,7 @@
                 }
               ],
               "ControlSettings": {
+                "AlwaysShowBottomToolbar": false,
                 "AutoSizeRowLimit::int": 25,
                 "CanSort": true,
                 "IsMultiselectable": true,
@@ -7688,6 +7706,7 @@
                 }
               ],
               "ControlSettings": {
+                "AlwaysShowBottomToolbar": false,
                 "AutoSizeRowLimit::int": 25,
                 "CanSort": true,
                 "IsMultiselectable": true,
@@ -8019,6 +8038,7 @@
                 }
               ],
               "ControlSettings": {
+                "AlwaysShowBottomToolbar": false,
                 "AutoSizeRowLimit::int": 25,
                 "CanSort": true,
                 "IsMultiselectable": true,
@@ -8524,6 +8544,7 @@
                 }
               ],
               "ControlSettings": {
+                "AlwaysShowBottomToolbar": false,
                 "AutoSizeRowLimit::int": 25,
                 "CanSort": true,
                 "IsMultiselectable": true,
@@ -8996,6 +9017,130 @@
             {
               "BlockSettings": {
                 "ControlSpan": true,
+                "HideCaption": true
+              },
+              "Caption": "Таблица исполнителей",
+              "Columns": [
+                {
+                  "AggregationFormat": null,
+                  "Alignment::int": 0,
+                  "Caption": "Согласующие",
+                  "ComplexColumnID::uid": "7d4b7325-4847-45ea-b802-5012999ae45c",
+                  "DisplayFormat": null,
+                  "Flags::int": 0,
+                  "HeaderAlignment::int": 0,
+                  "MaxLength": null,
+                  "Order::int": 0,
+                  "OwnedComplexColumnID": null,
+                  "OwnedOrderColumnID": null,
+                  "OwnedPhysicalColumnIDList": [],
+                  "OwnedSectionID": null,
+                  "PhysicalColumnIDList": [],
+                  "SelectableControlName": null,
+                  "Separator": null,
+                  "ToolTipLineLength::int": 100
+                }
+              ],
+              "ControlSettings": {
+                "AlwaysShowBottomToolbar": false,
+                "AutoSizeRowLimit::int": 25,
+                "CanSort": true,
+                "IsMultiselectable": true,
+                "MaxHeight::int": 800,
+                "OrderColumnID::uid": "38ca4071-a22d-4ecb-a2cc-4f270c884399",
+                "ScrollWithMouse": false
+              },
+              "ControlType::int": 1,
+              "Flags::int": 2,
+              "Form": {
+                "Blocks": [
+                  {
+                    "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+                    "BlockSettings": {
+                      "AlwaysMultipleColumn": false,
+                      "CollapsedByDefault": false,
+                      "ColumnsCount::int": 1,
+                      "DoNotCollapseWithTopBlock": false,
+                      "HorizontalInterval::int": 5,
+                      "IsHidden": false,
+                      "LeftCaptions": false,
+                      "StretchVertically": false,
+                      "VerticalInterval::int": 5
+                    },
+                    "Caption": "Укажите исполнителя",
+                    "Controls": [
+                      {
+                        "BlockSettings": {
+                          "ControlSpan": false,
+                          "HideCaption": false
+                        },
+                        "Caption": "Согласующий",
+                        "ComplexColumnID::uid": "7d4b7325-4847-45ea-b802-5012999ae45c",
+                        "ControlSettings": {
+                          "ComboBoxMode": false,
+                          "DisableLocalization": false,
+                          "ExtendendLocalization": false,
+                          "HideSelectorButton": true,
+                          "IsAllowOpenRefs": false,
+                          "IsClearFieldVisible": true,
+                          "ManualInput": false,
+                          "ManualInputColumnID": null,
+                          "MaxResultsCount::int": 15,
+                          "ParameterAlias": "Name",
+                          "RefSection": "UsersExpand",
+                          "SearchDelay": null,
+                          "TextColor": "#FF000000",
+                          "TextStyle": {
+                            "SelectedFontFamily": "Segoe UI",
+                            "SelectedFontSize::dbl": 12.0,
+                            "SelectedFontStretch": "Normal",
+                            "SelectedFontStyle": "Normal",
+                            "SelectedFontWeight": "Normal",
+                            "SelectedTextBaseline": false,
+                            "SelectedTextOverLine": false,
+                            "SelectedTextStrikethrough": false,
+                            "SelectedTextUnderline": false
+                          },
+                          "ViewAlias": "UsersExpand",
+                          "ViewAliasComboBox": "UsersExpand",
+                          "ViewMap": null,
+                          "ViewReferencePrefix": "User"
+                        },
+                        "ControlType::int": 0,
+                        "DisplayFormat": null,
+                        "Flags::int": 5,
+                        "Name": "PerformerValue",
+                        "Order::int": 0,
+                        "PhysicalColumnIDList": [],
+                        "RequiredText": null,
+                        "SectionID::uid": "72544086-2776-418a-a867-516ef7aad325",
+                        "ToolTip": null,
+                        "Type::uid": "208e364e-94fe-0d64-bc27-6b4dc12d039c"
+                      }
+                    ],
+                    "FormSettings": {
+                      "HideCaption": false
+                    },
+                    "Name": "Block1",
+                    "Order::int": 0
+                  }
+                ],
+                "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+                "FormSettings": {
+                  "HorizontalInterval::int": 10,
+                  "Interval::int": 10
+                }
+              },
+              "Name": null,
+              "Order::int": 0,
+              "RequiredText": null,
+              "SectionID::uid": "72544086-2776-418a-a867-516ef7aad325",
+              "ToolTip": null,
+              "Type::uid": "b6038b72-342a-0c8d-ae2e-f2f3d122baa9"
+            },
+            {
+              "BlockSettings": {
+                "ControlSpan": true,
                 "HideCaption": false
               },
               "Caption": "$CardTypes_Controls_Performers",
@@ -9021,16 +9166,18 @@
                 }
               ],
               "ControlSettings": {
+                "DisableLocalization": false,
                 "ExtendendLocalization": false,
                 "HideSelectorButton": false,
                 "IsAllowOpenRefs": true,
+                "IsClearFieldVisible": false,
                 "LineBreakSetting": false,
                 "ManualInput": false,
                 "ManualInputColumnID": null,
                 "MaxResultsCount::int": 15,
                 "OrderColumnID::uid": "38ca4071-a22d-4ecb-a2cc-4f270c884399",
                 "ParameterAlias": "Name",
-                "RefSection": "Roles",
+                "RefSection": "UsersExpand",
                 "SearchDelay": null,
                 "TextColor": "#FF000000",
                 "TextStyle": {
@@ -9044,19 +9191,50 @@
                   "SelectedTextStrikethrough": false,
                   "SelectedTextUnderline": false
                 },
-                "ViewAlias": "Roles",
+                "ViewAlias": "UsersExpand",
                 "ViewMap": null,
-                "ViewReferencePrefix": null
+                "ViewReferencePrefix": "User"
               },
               "ControlType::int": 1,
               "Flags::int": 4,
               "Form": null,
-              "Name": null,
-              "Order::int": 0,
+              "Name": "ApprovalTable",
+              "Order::int": 1,
               "RequiredText": null,
               "SectionID::uid": "72544086-2776-418a-a867-516ef7aad325",
               "ToolTip": null,
               "Type::uid": "5d95340a-0f22-0d14-b9d2-a5471f607261"
+            },
+            {
+              "BlockSettings": {
+                "ControlSpan": false,
+                "HideCaption": true
+              },
+              "Caption": "Добавить согласующего",
+              "ControlSettings": {
+                "MinButtonWidth": null,
+                "Text": "Добавить согласующего",
+                "TextColor": "#FF000000",
+                "TextStyle": {
+                  "SelectedFontFamily": "Segoe UI",
+                  "SelectedFontSize::dbl": 12.0,
+                  "SelectedFontStretch": "Normal",
+                  "SelectedFontStyle": "Normal",
+                  "SelectedFontWeight": "Normal",
+                  "SelectedTextBaseline": false,
+                  "SelectedTextOverLine": false,
+                  "SelectedTextStrikethrough": false,
+                  "SelectedTextUnderline": false
+                },
+                "UseAllSpace": false
+              },
+              "ControlType::int": 3,
+              "Flags::int": 1,
+              "Name": "BtnAddAdditionalApprovals",
+              "Order::int": 2,
+              "RequiredText": null,
+              "ToolTip": null,
+              "Type::uid": "16caaf03-c4f1-0803-b548-0c230cc19db5"
             },
             {
               "BlockSettings": {
@@ -9085,7 +9263,7 @@
               "DisplayFormat": null,
               "Flags::int": 4,
               "Name": null,
-              "Order::int": 1,
+              "Order::int": 3,
               "PhysicalColumnIDList": [
                 {
                   "::types": [
@@ -9114,6 +9292,7 @@
                 "MaxRows::int": 6,
                 "MinRows::int": 2,
                 "ShowExpandButton": true,
+                "SpellCheck": false,
                 "TextColor": "#FF000000",
                 "TextMode::int": 0,
                 "TextStyle": {
@@ -9133,7 +9312,7 @@
               "DisplayFormat": null,
               "Flags::int": 4,
               "Name": null,
-              "Order::int": 2,
+              "Order::int": 4,
               "PhysicalColumnIDList": [
                 {
                   "::types": [
