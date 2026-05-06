@@ -1,0 +1,105 @@
+﻿{
+  "Blocks": [
+    {
+      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+      "BlockSettings": {
+        "AlwaysMultipleColumn": false,
+        "CollapsedByDefault": false,
+        "ColumnsCount::int": 1,
+        "DoNotCollapseWithTopBlock": false,
+        "HorizontalInterval::int": 5,
+        "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
+        "VerticalInterval::int": 5
+      },
+      "Caption": "Block1",
+      "Controls": [
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": true
+          },
+          "Caption": "Control1",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 2147483647,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 0,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "ed6d020b-023d-43af-abf4-c2ef98acf362"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "66508867-2104-4c64-b739-12f969f6dfe8",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        }
+      ],
+      "FormSettings": {
+        "HideCaption": true
+      },
+      "Name": "Block1",
+      "Order::int": 0
+    }
+  ],
+  "Caption": "Порядок принятия",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 0,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "FilePreviewIsDisabled": false,
+    "HorizontalInterval::int": 10,
+    "Interval::int": 10
+  },
+  "Group": "Dictionaries",
+  "ID::uid": "66dd8801-b1ab-438d-a2ee-18c5c1efaf1d",
+  "InstanceType::int": 0,
+  "Name": "AcceptanceProcedure",
+  "SchemeItems": [
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "ed6d020b-023d-43af-abf4-c2ef98acf362"
+      ],
+      "SectionID::uid": "66508867-2104-4c64-b739-12f969f6dfe8"
+    }
+  ],
+  "TabCaption": "$CardTypes_Tabs_Card",
+  "TabOrder::int": 0,
+  "Validators": []
+}

@@ -1,0 +1,153 @@
+﻿{
+  "Blocks": [
+    {
+      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+      "BlockSettings": {
+        "AlwaysMultipleColumn": false,
+        "CollapsedByDefault": false,
+        "ColumnsCount::int": 1,
+        "DoNotCollapseWithTopBlock": false,
+        "HorizontalInterval::int": 5,
+        "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
+        "VerticalInterval::int": 5
+      },
+      "Caption": "Block1",
+      "Controls": [
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "Причина отказа в регистрации",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 2147483647,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 0,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "0c12a991-c4c5-4139-a37b-3e31ed6a5b34"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "2b80b126-863e-4079-80c4-2e12a6d79a82",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "Пояснение по применению",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 2147483647,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 1,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "4767f63f-7a81-4619-9d70-290c631aac6e"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "2b80b126-863e-4079-80c4-2e12a6d79a82",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        }
+      ],
+      "FormSettings": {
+        "HideCaption": false
+      },
+      "Name": "Block1",
+      "Order::int": 0
+    }
+  ],
+  "Caption": "Причины отказа в регистрации",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 256,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "FilePreviewIsDisabled": false,
+    "HorizontalInterval::int": 10,
+    "Interval::int": 10
+  },
+  "Group": "Dictionaries",
+  "ID::uid": "b9528a5b-5f23-4d8e-bbce-a29b918fc004",
+  "InstanceType::int": 0,
+  "Name": "RefusalReason",
+  "SchemeItems": [
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid",
+            "uid"
+          ]
+        },
+        "0c12a991-c4c5-4139-a37b-3e31ed6a5b34",
+        "4767f63f-7a81-4619-9d70-290c631aac6e"
+      ],
+      "SectionID::uid": "2b80b126-863e-4079-80c4-2e12a6d79a82"
+    }
+  ],
+  "TabCaption": "$CardTypes_Tabs_Card",
+  "TabOrder::int": 0,
+  "Validators": []
+}

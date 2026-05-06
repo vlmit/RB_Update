@@ -1,0 +1,262 @@
+﻿{
+  "Blocks": [
+    {
+      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+      "BlockSettings": {
+        "AlwaysMultipleColumn": false,
+        "CollapsedByDefault": false,
+        "ColumnsCount::int": 3,
+        "DoNotCollapseWithTopBlock": false,
+        "HorizontalInterval::int": 5,
+        "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
+        "VerticalInterval::int": 5
+      },
+      "Caption": "Block1",
+      "Controls": [
+        {
+          "BlockSettings": {
+            "CaptionStyle": {
+              "TextColor": "#FF505050",
+              "TextStyle": {
+                "SelectedFontFamily": "Segoe UI",
+                "SelectedFontSize::dbl": 12.0,
+                "SelectedFontStretch": "Normal",
+                "SelectedFontStyle": "Normal",
+                "SelectedFontWeight": "Normal",
+                "SelectedTextBaseline": false,
+                "SelectedTextOverLine": false,
+                "SelectedTextStrikethrough": false,
+                "SelectedTextUnderline": false
+              }
+            },
+            "ColumnSpan::int": 1,
+            "ControlSpan": false,
+            "EmptyColumnsToTheLeft::int": 0,
+            "HideCaption": false,
+            "HorizontalAlignment::int": 3,
+            "Margin": "0,0,0,0",
+            "MaxWidth::dbl": 0.0,
+            "MinWidth::dbl": 0.0,
+            "StartAtNewLine": true,
+            "VerticalAlignment::int": 3
+          },
+          "Caption": "Автор",
+          "ComplexColumnID::uid": "b43427c7-2549-4242-b8f5-7da6be40028a",
+          "ControlSettings": {
+            "ComboBoxMode": false,
+            "DisableLocalization": false,
+            "ExtendendLocalization": false,
+            "HideSelectorButton": false,
+            "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
+            "ManualInput": false,
+            "ManualInputColumnID": null,
+            "MaxResultsCount::int": 15,
+            "ParameterAlias": "Name",
+            "RefSection": "OnlyUsersExpand",
+            "SearchDelay": null,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "ViewAlias": "UsersExpand",
+            "ViewAliasComboBox": "UsersExpand",
+            "ViewMap": null,
+            "ViewReferencePrefix": "User"
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 0,
+          "PhysicalColumnIDList": [],
+          "RequiredText": null,
+          "SectionID::uid": "67febfaf-f5f5-4b3d-9363-8a5053c38d79",
+          "ToolTip": null,
+          "Type::uid": "208e364e-94fe-0d64-bc27-6b4dc12d039c"
+        },
+        {
+          "BlockSettings": {
+            "CaptionStyle": {
+              "TextColor": "#FF505050",
+              "TextStyle": {
+                "SelectedFontFamily": "Segoe UI",
+                "SelectedFontSize::dbl": 12.0,
+                "SelectedFontStretch": "Normal",
+                "SelectedFontStyle": "Normal",
+                "SelectedFontWeight": "Normal",
+                "SelectedTextBaseline": false,
+                "SelectedTextOverLine": false,
+                "SelectedTextStrikethrough": false,
+                "SelectedTextUnderline": false
+              }
+            },
+            "ColumnSpan::int": 1,
+            "ControlSpan": false,
+            "EmptyColumnsToTheLeft::int": 0,
+            "HideCaption": false,
+            "HorizontalAlignment::int": 3,
+            "Margin": "0,0,0,0",
+            "MaxWidth::dbl": 0.0,
+            "MinWidth::dbl": 0.0,
+            "StartAtNewLine": true,
+            "VerticalAlignment::int": 3
+          },
+          "Caption": "Текст",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 2147483647,
+            "MaxRows::int": 4,
+            "MinRows::int": 3,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 1,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "3686b71d-5441-4cbc-a2c8-c19eebb66f3f"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "67febfaf-f5f5-4b3d-9363-8a5053c38d79",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        },
+        {
+          "BlockSettings": {
+            "CaptionStyle": {
+              "TextColor": "#FF505050",
+              "TextStyle": {
+                "SelectedFontFamily": "Segoe UI",
+                "SelectedFontSize::dbl": 12.0,
+                "SelectedFontStretch": "Normal",
+                "SelectedFontStyle": "Normal",
+                "SelectedFontWeight": "Normal",
+                "SelectedTextBaseline": false,
+                "SelectedTextOverLine": false,
+                "SelectedTextStrikethrough": false,
+                "SelectedTextUnderline": false
+              }
+            },
+            "ColumnSpan::int": 1,
+            "ControlSpan": false,
+            "EmptyColumnsToTheLeft::int": 0,
+            "HideCaption": true,
+            "HorizontalAlignment::int": 3,
+            "Margin": "0,0,0,0",
+            "MaxWidth::dbl": 0.0,
+            "MinWidth::dbl": 0.0,
+            "StartAtNewLine": true,
+            "VerticalAlignment::int": 3
+          },
+          "Caption": "Не активна",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            }
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 2,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "e98579a8-fbf7-4a45-adc6-c2afca788307"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "67febfaf-f5f5-4b3d-9363-8a5053c38d79",
+          "ToolTip": null,
+          "Type::uid": "79633881-a684-010a-b1ea-027d714bda5d"
+        }
+      ],
+      "FormSettings": {
+        "HideCaption": true
+      },
+      "Name": "Block1",
+      "Order::int": 0
+    }
+  ],
+  "Caption": "Типовой текст поручения",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 3,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "FilePreviewIsDisabled": false,
+    "HorizontalInterval::int": 10,
+    "Interval::int": 10
+  },
+  "Group": "Тексты поручений",
+  "ID::uid": "6be1a548-86d2-4937-853f-1a9c98828f03",
+  "InstanceType::int": 0,
+  "Name": "SampleText",
+  "SchemeItems": [
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid",
+            "uid",
+            "uid"
+          ]
+        },
+        "3686b71d-5441-4cbc-a2c8-c19eebb66f3f",
+        "b43427c7-2549-4242-b8f5-7da6be40028a",
+        "e98579a8-fbf7-4a45-adc6-c2afca788307"
+      ],
+      "SectionID::uid": "67febfaf-f5f5-4b3d-9363-8a5053c38d79"
+    }
+  ],
+  "TabCaption": "$CardTypes_Tabs_Card",
+  "TabOrder::int": 0,
+  "Validators": []
+}

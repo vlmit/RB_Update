@@ -1,0 +1,127 @@
+﻿{
+  "Blocks": [
+    {
+      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+      "BlockSettings": {
+        "AlwaysMultipleColumn": false,
+        "CollapsedByDefault": false,
+        "ColumnsCount::int": 1,
+        "DoNotCollapseWithTopBlock": false,
+        "HorizontalInterval::int": 5,
+        "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
+        "VerticalInterval::int": 5
+      },
+      "Caption": "Block1",
+      "Controls": [
+        {
+          "BlockSettings": {
+            "CaptionStyle": {
+              "TextColor": "#FF505050",
+              "TextStyle": {
+                "SelectedFontFamily": "Segoe UI",
+                "SelectedFontSize::dbl": 12.0,
+                "SelectedFontStretch": "Normal",
+                "SelectedFontStyle": "Normal",
+                "SelectedFontWeight": "Normal",
+                "SelectedTextBaseline": false,
+                "SelectedTextOverLine": false,
+                "SelectedTextStrikethrough": false,
+                "SelectedTextUnderline": false
+              }
+            },
+            "ColumnSpan::int": 1,
+            "ControlSpan": false,
+            "EmptyColumnsToTheLeft::int": 0,
+            "HideCaption": true,
+            "HorizontalAlignment::int": 3,
+            "Margin": "0,0,0,0",
+            "MaxWidth::dbl": 0.0,
+            "MinWidth::dbl": 0.0,
+            "StartAtNewLine": false,
+            "VerticalAlignment::int": 3
+          },
+          "Caption": "Control1",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 2147483647,
+            "MaxRows::int": 1,
+            "MinRows::int": 1,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 20.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 0,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "f347ca7d-4757-4ebd-a421-b58d0490dd77"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "f1204c6c-37ff-4943-9ecb-accb2aa0f80e",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        }
+      ],
+      "FormSettings": {
+        "HideCaption": true
+      },
+      "Name": "Block1",
+      "Order::int": 0
+    }
+  ],
+  "Caption": "Диалог",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 3,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "FilePreviewIsDisabled": true,
+    "HorizontalInterval::int": 1,
+    "Interval::int": 1
+  },
+  "Group": "Dictionaries",
+  "ID::uid": "8634c860-1ccd-44c7-bbfd-0009c37066c4",
+  "InstanceType::int": 0,
+  "Name": "Dialog",
+  "SchemeItems": [
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "f347ca7d-4757-4ebd-a421-b58d0490dd77"
+      ],
+      "SectionID::uid": "f1204c6c-37ff-4943-9ecb-accb2aa0f80e"
+    }
+  ],
+  "TabCaption": "$CardTypes_Tabs_Card",
+  "TabOrder::int": 0,
+  "Validators": []
+}

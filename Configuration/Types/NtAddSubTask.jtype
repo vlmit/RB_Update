@@ -1,0 +1,348 @@
+﻿{
+  "Blocks": [
+    {
+      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+      "BlockSettings": {
+        "AlwaysMultipleColumn": false,
+        "CollapsedByDefault": false,
+        "ColumnsCount::int": 1,
+        "DoNotCollapseWithTopBlock": false,
+        "HorizontalInterval::int": 5,
+        "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
+        "VerticalInterval::int": 5
+      },
+      "Caption": "$CardTypes_Blocks_TaskInformation",
+      "Controls": [
+        {
+          "BlockSettings": {
+            "CaptionStyle": {
+              "TextColor": "#FF505050",
+              "TextStyle": {
+                "SelectedFontFamily": "Segoe UI",
+                "SelectedFontSize::dbl": 12.0,
+                "SelectedFontStretch": "Normal",
+                "SelectedFontStyle": "Normal",
+                "SelectedFontWeight": "Normal",
+                "SelectedTextBaseline": false,
+                "SelectedTextOverLine": false,
+                "SelectedTextStrikethrough": false,
+                "SelectedTextUnderline": false
+              }
+            },
+            "ColumnSpan::int": 1,
+            "ControlSpan": false,
+            "EmptyColumnsToTheLeft::int": 0,
+            "HideCaption": true,
+            "HorizontalAlignment::int": 3,
+            "Margin": "0,0,0,0",
+            "MaxWidth::dbl": 0.0,
+            "MinWidth::dbl": 0.0,
+            "StartAtNewLine": false,
+            "VerticalAlignment::int": 3
+          },
+          "Caption": "$CardTypes_Blocks_TaskInformation",
+          "ControlSettings": null,
+          "ControlType::int": 3,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 0,
+          "RequiredText": null,
+          "ToolTip": null,
+          "Type::uid": "ece1bbd8-6054-0f33-a635-acf28f663531"
+        }
+      ],
+      "FormSettings": {
+        "HideCaption": true
+      },
+      "Name": "Block1",
+      "Order::int": 0
+    },
+    {
+      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+      "BlockSettings": {
+        "AlwaysMultipleColumn": false,
+        "CollapsedByDefault": false,
+        "ColumnsCount::int": 1,
+        "DoNotCollapseWithTopBlock": false,
+        "HorizontalInterval::int": 5,
+        "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
+        "VerticalInterval::int": 5
+      },
+      "Caption": "Заполняется пользователем",
+      "Controls": [
+        {
+          "BlockSettings": {
+            "CaptionStyle": {
+              "TextColor": "#FF505050",
+              "TextStyle": {
+                "SelectedFontFamily": "Segoe UI",
+                "SelectedFontSize::dbl": 12.0,
+                "SelectedFontStretch": "Normal",
+                "SelectedFontStyle": "Normal",
+                "SelectedFontWeight": "Normal",
+                "SelectedTextBaseline": false,
+                "SelectedTextOverLine": false,
+                "SelectedTextStrikethrough": false,
+                "SelectedTextUnderline": false
+              }
+            },
+            "ColumnSpan::int": 1,
+            "ControlSpan": false,
+            "EmptyColumnsToTheLeft::int": 0,
+            "HideCaption": false,
+            "HorizontalAlignment::int": 3,
+            "Margin": "0,0,0,0",
+            "MaxWidth::dbl": 0.0,
+            "MinWidth::dbl": 0.0,
+            "StartAtNewLine": false,
+            "VerticalAlignment::int": 3
+          },
+          "Caption": "Укажите поручение для переназначения",
+          "ComplexColumnID::uid": "9b726dc8-60d7-45d1-922a-b9b04cd1eacd",
+          "ControlSettings": {
+            "ComboBoxMode": false,
+            "DisableLocalization": false,
+            "ExtendendLocalization": false,
+            "HideSelectorButton": false,
+            "IsAllowOpenRefs": true,
+            "IsClearFieldVisible": false,
+            "ManualInput": false,
+            "ManualInputColumnID": null,
+            "MaxResultsCount::int": 15,
+            "ParameterAlias": "Subject",
+            "PopupColumnLengths": "",
+            "PopupColumnLengthsComboBox": "",
+            "PopupColumnsIndexes": "2",
+            "PopupColumnsIndexesComboBox": "",
+            "PopupScreenLengthPercent::int": 100,
+            "RefSection": "DocReassign",
+            "SearchDelay": null,
+            "TextColor": "#FF000000",
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "ViewAlias": "ControlTasks_RB_List",
+            "ViewAliasComboBox": "ControlTasks_RB_List",
+            "ViewMap": [
+              {
+                "CardColumn::uid": "29d174b6-a43b-007d-4000-06addeef0730",
+                "CardSection::uid": "d0bf8c2a-f807-45a7-b4d9-51831a8973f4",
+                "ColumnType::int": 0,
+                "ConstantValue": false,
+                "ConstantValueType::int": 4,
+                "SkipNullParams": false,
+                "ViewMasterLinkName": "",
+                "ViewMasterLinkType::int": 0,
+                "ViewParamName": "Parent",
+                "ViewParamSetName": ""
+              }
+            ],
+            "ViewReferencePrefix": "Doc"
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": "[{1}]",
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 0,
+          "PhysicalColumnIDList": [],
+          "RequiredText": null,
+          "SectionID::uid": "d0bf8c2a-f807-45a7-b4d9-51831a8973f4",
+          "ToolTip": null,
+          "Type::uid": "208e364e-94fe-0d64-bc27-6b4dc12d039c"
+        }
+      ],
+      "FormSettings": {
+        "HideCaption": true
+      },
+      "Name": "Block1",
+      "Order::int": 1
+    }
+  ],
+  "Caption": "Переназначить поручение",
+  "CardTypeSections": [],
+  "CompletionOptions": [
+    {
+      "Flags::int": 0,
+      "FormName": null,
+      "Order::int": 0,
+      "TypeID::uid": "fc5b83f1-f9fd-48b0-bdb7-9848fbbdde5d",
+      "Validators": []
+    },
+    {
+      "Flags::int": 0,
+      "FormName": null,
+      "Order::int": 0,
+      "TypeID::uid": "2582b66f-375a-0d59-ae86-a149309c5785",
+      "Validators": []
+    }
+  ],
+  "DigestFormat": null,
+  "Extensions": [
+    {
+      "ExtensionSettings": {
+        "CardDialogName": null,
+        "IsOpenCardInDialog": true,
+        "ViewControlAlias": "CoUsers",
+        "ViewReferencePrefix": "Type"
+      },
+      "TypeID::uid": "9df93a75-f788-4b06-bd17-881a0458d046"
+    }
+  ],
+  "Flags::int": 32,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "HorizontalInterval::int": 10,
+    "Interval::int": 10
+  },
+  "Group": "Custom",
+  "ID::uid": "2258bc67-2dd6-4419-a8d0-74afd5c15101",
+  "InstanceType::int": 2,
+  "Name": "NtAddSubTask",
+  "SchemeItems": [
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid",
+            "uid"
+          ]
+        },
+        "225b3890-5782-4afc-80a5-4824798cda15",
+        "3e920b6a-94aa-4691-9014-207d7ed01b27"
+      ],
+      "SectionID::uid": "005962e7-65f1-4763-a0ef-b76751d26de3"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "41331b48-2667-40e4-93fe-d5adfbb3247b"
+      ],
+      "SectionID::uid": "22a3da4b-ac30-4a40-a069-3d6ee66079a0"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "05aa8ff9-010c-499d-b59f-358c6b84485b"
+      ],
+      "SectionID::uid": "344fa4e8-cdfc-4cb0-8634-9155c49fd21a"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "0ed53c15-b1d2-4ee7-8cbb-a0cce3d2b0e4"
+      ],
+      "SectionID::uid": "42c4f5aa-d0e8-4d26-abb8-a898e736fe35"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid"
+          ]
+        },
+        "b0479bb5-5725-4ed5-80fb-94c28ced9a2b",
+        "9534ffe0-1275-4ce7-a9f9-e23702a5cdc7",
+        "d87b9391-4b13-4ee4-9c91-87100477d45c",
+        "136da94d-d1d7-4c49-9fc4-5648fce32c3e",
+        "9fdaecf3-bb82-4500-9c37-bf1dd09e50cb",
+        "5693d398-1a60-4beb-86cc-648abbec7a56"
+      ],
+      "SectionID::uid": "470ddc9e-4715-4efa-bd25-cbb9f4033162"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "08dfcb43-dbe5-4c99-812b-75a0b491ab10"
+      ],
+      "SectionID::uid": "51936147-e0ff-4e19-a7d1-0ea7d462ceec"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid",
+            "uid",
+            "uid"
+          ]
+        },
+        "01ae8590-892a-4f78-97dd-f94b1620bc46",
+        "9b34b837-9b24-4afa-985d-ff4d77532230",
+        "450c7701-449f-41ca-971a-495256971b75"
+      ],
+      "SectionID::uid": "b75dc3d2-10c8-4ca9-a63c-2a8f54db5c42"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid",
+            "uid"
+          ]
+        },
+        "9b726dc8-60d7-45d1-922a-b9b04cd1eacd",
+        "29d174b6-a43b-417d-9fb0-a6addeef0730"
+      ],
+      "SectionID::uid": "d0bf8c2a-f807-45a7-b4d9-51831a8973f4"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid"
+          ]
+        },
+        "2c8eaf8a-21b2-443c-ba5d-042f7d35f584",
+        "27a24263-917c-488c-9eb8-30b999d6375d",
+        "7685401b-8e05-4af6-bdb4-0a97516c8968",
+        "b1d8947e-1af5-4180-b9f7-4f9912121781",
+        "560ff9ae-e3e9-4bf9-b1a8-d12c462c0a68",
+        "9ff30481-4558-4f7b-b15d-5f4a9bf73fdc",
+        "e093ee47-429f-4d1b-ac7e-5d5eb5504195"
+      ],
+      "SectionID::uid": "e490c196-41b3-489b-8425-ee36a0119f64"
+    }
+  ],
+  "TabCaption": null,
+  "TabOrder::int": 0,
+  "Validators": []
+}

@@ -1,0 +1,105 @@
+﻿{
+  "Blocks": [
+    {
+      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+      "BlockSettings": {
+        "AlwaysMultipleColumn": false,
+        "CollapsedByDefault": false,
+        "ColumnsCount::int": 1,
+        "DoNotCollapseWithTopBlock": false,
+        "HorizontalInterval::int": 5,
+        "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
+        "VerticalInterval::int": 5
+      },
+      "Caption": "Шаблон текста поручения",
+      "Controls": [
+        {
+          "BlockSettings": {
+            "ControlSpan": false,
+            "HideCaption": false
+          },
+          "Caption": "Шаблон текста поручения",
+          "ComplexColumnID": null,
+          "ControlSettings": {
+            "MaxLength::int": 2147483647,
+            "MaxRows::int": 6,
+            "MinRows::int": 2,
+            "ShowExpandButton": true,
+            "SpellCheck": false,
+            "TextColor": "#FF000000",
+            "TextMode::int": 0,
+            "TextStyle": {
+              "SelectedFontFamily": "Segoe UI",
+              "SelectedFontSize::dbl": 12.0,
+              "SelectedFontStretch": "Normal",
+              "SelectedFontStyle": "Normal",
+              "SelectedFontWeight": "Normal",
+              "SelectedTextBaseline": false,
+              "SelectedTextOverLine": false,
+              "SelectedTextStrikethrough": false,
+              "SelectedTextUnderline": false
+            },
+            "TextWrap": true
+          },
+          "ControlType::int": 0,
+          "DisplayFormat": null,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 0,
+          "PhysicalColumnIDList": [
+            {
+              "::types": [
+                "uid"
+              ]
+            },
+            "261dc8e1-46f9-4863-9adc-6f42ed8e1c94"
+          ],
+          "RequiredText": null,
+          "SectionID::uid": "4a5d1567-6e66-4057-83b3-c9eeb3248f42",
+          "ToolTip": null,
+          "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+        }
+      ],
+      "FormSettings": {
+        "HideCaption": true
+      },
+      "Name": "Block1",
+      "Order::int": 0
+    }
+  ],
+  "Caption": "Шаблон поручения",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 256,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "FilePreviewIsDisabled": false,
+    "HorizontalInterval::int": 10,
+    "Interval::int": 10
+  },
+  "Group": "Dictionaries",
+  "ID::uid": "8a05ca44-8ea3-4c0e-9f25-60cc79fa3252",
+  "InstanceType::int": 0,
+  "Name": "RB_TaskTextTemplate",
+  "SchemeItems": [
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "261dc8e1-46f9-4863-9adc-6f42ed8e1c94"
+      ],
+      "SectionID::uid": "4a5d1567-6e66-4057-83b3-c9eeb3248f42"
+    }
+  ],
+  "TabCaption": "Шаблон поручения",
+  "TabOrder::int": 0,
+  "Validators": []
+}

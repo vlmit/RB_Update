@@ -1,0 +1,60 @@
+﻿{
+  "Blocks": [
+    {
+      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+      "BlockSettings": {
+        "AlwaysMultipleColumn": false,
+        "CollapsedByDefault": false,
+        "ColumnsCount::int": 1,
+        "DoNotCollapseWithTopBlock": false,
+        "HorizontalInterval::int": 5,
+        "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
+        "VerticalInterval::int": 5
+      },
+      "Caption": "Block1",
+      "Controls": [],
+      "FormSettings": {
+        "HideCaption": false
+      },
+      "Name": "Block1",
+      "Order::int": 0
+    }
+  ],
+  "Caption": "Штамп",
+  "CardTypeSections": [],
+  "CompletionOptions": [
+    {
+      "Flags::int": 0,
+      "FormName": null,
+      "Order::int": 0,
+      "TypeID::uid": "5b108223-92db-49b9-8085-336758ccabaa",
+      "Validators": []
+    },
+    {
+      "Flags::int": 0,
+      "FormName": null,
+      "Order::int": 0,
+      "TypeID::uid": "2582b66f-375a-0d59-ae86-a149309c5785",
+      "Validators": []
+    }
+  ],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 0,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "HorizontalInterval::int": 10,
+    "Interval::int": 10
+  },
+  "Group": "GipFileStamp",
+  "ID::uid": "c7490d80-555a-44a2-b518-a6ed589214d3",
+  "InstanceType::int": 2,
+  "Name": "GipSignStamp",
+  "SchemeItems": [],
+  "TabCaption": null,
+  "TabOrder::int": 0,
+  "Validators": []
+}

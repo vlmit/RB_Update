@@ -1,0 +1,352 @@
+﻿{
+  "Blocks": [
+    {
+      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+      "BlockSettings": {
+        "AlwaysMultipleColumn": false,
+        "CollapsedByDefault": false,
+        "ColumnsCount::int": 1,
+        "DoNotCollapseWithTopBlock": false,
+        "HorizontalInterval::int": 5,
+        "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
+        "VerticalInterval::int": 5
+      },
+      "Caption": "$CardTypes_Blocks_TaskInformation",
+      "Controls": [
+        {
+          "BlockSettings": {
+            "CaptionStyle": {
+              "TextColor": "#FF505050",
+              "TextStyle": {
+                "SelectedFontFamily": "Segoe UI",
+                "SelectedFontSize::dbl": 12.0,
+                "SelectedFontStretch": "Normal",
+                "SelectedFontStyle": "Normal",
+                "SelectedFontWeight": "Normal",
+                "SelectedTextBaseline": false,
+                "SelectedTextOverLine": false,
+                "SelectedTextStrikethrough": false,
+                "SelectedTextUnderline": false
+              }
+            },
+            "ColumnSpan::int": 1,
+            "ControlSpan": false,
+            "EmptyColumnsToTheLeft::int": 0,
+            "HideCaption": true,
+            "HorizontalAlignment::int": 3,
+            "Margin": "0,0,0,0",
+            "MaxWidth::dbl": 0.0,
+            "MinWidth::dbl": 0.0,
+            "StartAtNewLine": false,
+            "VerticalAlignment::int": 3
+          },
+          "Caption": "$CardTypes_Blocks_TaskInformation",
+          "ControlSettings": null,
+          "ControlType::int": 3,
+          "Flags::int": 0,
+          "Name": null,
+          "Order::int": 0,
+          "RequiredText": null,
+          "ToolTip": null,
+          "Type::uid": "ece1bbd8-6054-0f33-a635-acf28f663531"
+        }
+      ],
+      "FormSettings": {
+        "HideCaption": true
+      },
+      "Name": "Block1",
+      "Order::int": 0
+    }
+  ],
+  "Caption": "Утверждение проекта поручения",
+  "CardTypeSections": [],
+  "CompletionOptions": [
+    {
+      "Flags::int": 0,
+      "FormName": null,
+      "Order::int": 0,
+      "TypeID::uid": "84570323-531a-4479-bd27-04ad7899d0e2",
+      "Validators": []
+    },
+    {
+      "Flags::int": 0,
+      "FormName": "Завершить",
+      "Order::int": 0,
+      "TypeID::uid": "4de44ffd-c2ca-4fad-835b-631222b076e1",
+      "Validators": []
+    },
+    {
+      "Flags::int": 0,
+      "FormName": null,
+      "Order::int": 0,
+      "TypeID::uid": "b34381a7-3a42-4a9c-a74b-d8e096019eb8",
+      "Validators": []
+    }
+  ],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 32,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [
+    {
+      "Blocks": [
+        {
+          "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+          "BlockSettings": {
+            "AlwaysMultipleColumn": false,
+            "CollapsedByDefault": false,
+            "ColumnsCount::int": 1,
+            "DoNotCollapseWithTopBlock": false,
+            "HorizontalInterval::int": 5,
+            "IsHidden": false,
+            "LeftCaptions": false,
+            "StretchVertically": false,
+            "VerticalInterval::int": 5
+          },
+          "Caption": "$CardTypes_Blocks_TaskInformation",
+          "Controls": [
+            {
+              "BlockSettings": {
+                "ControlSpan": false,
+                "HideCaption": true
+              },
+              "Caption": "$CardTypes_Blocks_TaskInformation",
+              "ControlSettings": null,
+              "ControlType::int": 3,
+              "Flags::int": 0,
+              "Name": null,
+              "Order::int": 0,
+              "RequiredText": null,
+              "ToolTip": null,
+              "Type::uid": "ece1bbd8-6054-0f33-a635-acf28f663531"
+            }
+          ],
+          "FormSettings": {
+            "HideCaption": true
+          },
+          "Name": "Block1",
+          "Order::int": 0
+        },
+        {
+          "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+          "BlockSettings": {
+            "AlwaysMultipleColumn": false,
+            "CollapsedByDefault": false,
+            "ColumnsCount::int": 1,
+            "DoNotCollapseWithTopBlock": false,
+            "HorizontalInterval::int": 5,
+            "IsHidden": false,
+            "LeftCaptions": false,
+            "StretchVertically": false,
+            "VerticalInterval::int": 5
+          },
+          "Caption": "$CardTypes_Blocks_FillingByUser",
+          "Controls": [
+            {
+              "BlockSettings": {
+                "CaptionStyle": {
+                  "TextColor": "#FF505050",
+                  "TextStyle": {
+                    "SelectedFontFamily": "Segoe UI",
+                    "SelectedFontSize::dbl": 12.0,
+                    "SelectedFontStretch": "Normal",
+                    "SelectedFontStyle": "Normal",
+                    "SelectedFontWeight": "Normal",
+                    "SelectedTextBaseline": false,
+                    "SelectedTextOverLine": false,
+                    "SelectedTextStrikethrough": false,
+                    "SelectedTextUnderline": false
+                  }
+                },
+                "ColumnSpan::int": 1,
+                "ControlSpan": false,
+                "EmptyColumnsToTheLeft::int": 0,
+                "HideCaption": false,
+                "HorizontalAlignment::int": 3,
+                "Margin": "0,0,0,0",
+                "MaxWidth::dbl": 0.0,
+                "MinWidth::dbl": 0.0,
+                "StartAtNewLine": false,
+                "VerticalAlignment::int": 3
+              },
+              "Caption": "$CardTypes_Blocks_Controls_Comment",
+              "ComplexColumnID": null,
+              "ControlSettings": {
+                "MaxLength::int": 2147483647,
+                "MaxRows::int": 5,
+                "MinRows::int": 2,
+                "ShowExpandButton": true,
+                "SpellCheck": false,
+                "TextColor": "#FF000000",
+                "TextMode::int": 0,
+                "TextStyle": {
+                  "SelectedFontFamily": "Segoe UI",
+                  "SelectedFontSize::dbl": 12.0,
+                  "SelectedFontStretch": "Normal",
+                  "SelectedFontStyle": "Normal",
+                  "SelectedFontWeight": "Normal",
+                  "SelectedTextBaseline": false,
+                  "SelectedTextOverLine": false,
+                  "SelectedTextStrikethrough": false,
+                  "SelectedTextUnderline": false
+                },
+                "TextWrap": true
+              },
+              "ControlType::int": 0,
+              "DisplayFormat": null,
+              "Flags::int": 0,
+              "Name": null,
+              "Order::int": 0,
+              "PhysicalColumnIDList": [
+                {
+                  "::types": [
+                    "uid"
+                  ]
+                },
+                "08dfcb43-dbe5-4c99-812b-75a0b491ab10"
+              ],
+              "RequiredText": null,
+              "SectionID::uid": "51936147-e0ff-4e19-a7d1-0ea7d462ceec",
+              "ToolTip": null,
+              "Type::uid": "1962c931-9c23-0eb9-903c-26bac9ef3571"
+            }
+          ],
+          "FormSettings": {
+            "HideCaption": true
+          },
+          "Name": "CommentBlock",
+          "Order::int": 1
+        }
+      ],
+      "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+      "FormSettings": {
+        "HorizontalInterval::int": 10,
+        "Interval::int": 10
+      },
+      "Name": "Завершить",
+      "TabCaption": null,
+      "TabOrder::int": 1
+    }
+  ],
+  "FormSettings": {
+    "HorizontalInterval::int": 10,
+    "Interval::int": 10
+  },
+  "Group": "Custom",
+  "ID::uid": "6417679c-f90b-4779-9872-33cfbe7fda1c",
+  "InstanceType::int": 2,
+  "Name": "NtProjectApproval",
+  "SchemeItems": [
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid",
+            "uid"
+          ]
+        },
+        "225b3890-5782-4afc-80a5-4824798cda15",
+        "3e920b6a-94aa-4691-9014-207d7ed01b27"
+      ],
+      "SectionID::uid": "005962e7-65f1-4763-a0ef-b76751d26de3"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "41331b48-2667-40e4-93fe-d5adfbb3247b"
+      ],
+      "SectionID::uid": "22a3da4b-ac30-4a40-a069-3d6ee66079a0"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "05aa8ff9-010c-499d-b59f-358c6b84485b"
+      ],
+      "SectionID::uid": "344fa4e8-cdfc-4cb0-8634-9155c49fd21a"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "0ed53c15-b1d2-4ee7-8cbb-a0cce3d2b0e4"
+      ],
+      "SectionID::uid": "42c4f5aa-d0e8-4d26-abb8-a898e736fe35"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "08dfcb43-dbe5-4c99-812b-75a0b491ab10"
+      ],
+      "SectionID::uid": "51936147-e0ff-4e19-a7d1-0ea7d462ceec"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid",
+            "uid",
+            "uid"
+          ]
+        },
+        "01ae8590-892a-4f78-97dd-f94b1620bc46",
+        "9b34b837-9b24-4afa-985d-ff4d77532230",
+        "450c7701-449f-41ca-971a-495256971b75"
+      ],
+      "SectionID::uid": "b75dc3d2-10c8-4ca9-a63c-2a8f54db5c42"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid"
+          ]
+        },
+        "b1603f0a-b6b5-42ea-8e8f-b3271324b02e"
+      ],
+      "SectionID::uid": "d0bf8c2a-f807-45a7-b4d9-51831a8973f4"
+    },
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid",
+            "uid"
+          ]
+        },
+        "2c8eaf8a-21b2-443c-ba5d-042f7d35f584",
+        "27a24263-917c-488c-9eb8-30b999d6375d",
+        "7685401b-8e05-4af6-bdb4-0a97516c8968",
+        "b1d8947e-1af5-4180-b9f7-4f9912121781",
+        "560ff9ae-e3e9-4bf9-b1a8-d12c462c0a68",
+        "9ff30481-4558-4f7b-b15d-5f4a9bf73fdc",
+        "e093ee47-429f-4d1b-ac7e-5d5eb5504195"
+      ],
+      "SectionID::uid": "e490c196-41b3-489b-8425-ee36a0119f64"
+    }
+  ],
+  "TabCaption": null,
+  "TabOrder::int": 0,
+  "Validators": []
+}

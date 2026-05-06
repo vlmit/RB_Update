@@ -1,0 +1,147 @@
+﻿{
+  "Blocks": [
+    {
+      "BlockClass": "Tessa.UI.Cards.Blocks.ColumnBlockType",
+      "BlockSettings": {
+        "AlwaysMultipleColumn": false,
+        "CollapsedByDefault": false,
+        "ColumnsCount::int": 1,
+        "DoNotCollapseWithTopBlock": false,
+        "HorizontalInterval::int": 5,
+        "IsHidden": false,
+        "LeftCaptions": false,
+        "StretchVertically": false,
+        "VerticalInterval::int": 5
+      },
+      "Caption": "Block1",
+      "Controls": [
+        {
+          "BlockSettings": {
+            "ControlSpan": true,
+            "HideCaption": true
+          },
+          "Caption": "Control1",
+          "Columns": [
+            {
+              "AggregationFormat": null,
+              "Alignment::int": 0,
+              "Caption": "CurrentUserID",
+              "ComplexColumnID": null,
+              "DisplayFormat": null,
+              "Flags::int": 0,
+              "HeaderAlignment::int": 0,
+              "MaxLength": null,
+              "Order::int": 0,
+              "OwnedComplexColumnID": null,
+              "OwnedOrderColumnID": null,
+              "OwnedPhysicalColumnIDList": [],
+              "OwnedSectionID": null,
+              "PhysicalColumnIDList": [
+                {
+                  "::types": [
+                    "uid"
+                  ]
+                },
+                "2f0f778b-262f-4b21-807d-f737a37dac26"
+              ],
+              "SelectableControlName": null,
+              "Separator": null,
+              "ToolTipLineLength::int": 100
+            },
+            {
+              "AggregationFormat": null,
+              "Alignment::int": 0,
+              "Caption": "StatusMob",
+              "ComplexColumnID": null,
+              "DisplayFormat": null,
+              "Flags::int": 0,
+              "HeaderAlignment::int": 0,
+              "MaxLength": null,
+              "Order::int": 1,
+              "OwnedComplexColumnID": null,
+              "OwnedOrderColumnID": null,
+              "OwnedPhysicalColumnIDList": [],
+              "OwnedSectionID": null,
+              "PhysicalColumnIDList": [
+                {
+                  "::types": [
+                    "uid"
+                  ]
+                },
+                "531319e2-1cf2-4ffe-af9c-83083c4efc10"
+              ],
+              "SelectableControlName": null,
+              "Separator": null,
+              "ToolTipLineLength::int": 100
+            }
+          ],
+          "ControlSettings": {
+            "AlwaysShowBottomToolbar": false,
+            "AutoSizeRowLimit::int": 25,
+            "CanSort": true,
+            "IsMultiselectable": true,
+            "MaxHeight::int": 800,
+            "OrderColumnID": null,
+            "ScrollWithMouse": false
+          },
+          "ControlType::int": 1,
+          "Flags::int": 0,
+          "Form": {
+            "Blocks": [],
+            "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+            "FormSettings": {
+              "HorizontalInterval::int": 10,
+              "Interval::int": 10
+            }
+          },
+          "Name": null,
+          "Order::int": 0,
+          "RequiredText": null,
+          "SectionID::uid": "c7af5a3f-1c43-4f6c-95c6-512205df9cda",
+          "ToolTip": null,
+          "Type::uid": "b6038b72-342a-0c8d-ae2e-f2f3d122baa9"
+        }
+      ],
+      "FormSettings": {
+        "HideCaption": true
+      },
+      "Name": "Block1",
+      "Order::int": 0
+    }
+  ],
+  "Caption": "MobileLogStatusTab",
+  "CardTypeSections": [],
+  "CompletionOptions": [],
+  "DigestFormat": null,
+  "Extensions": [],
+  "Flags::int": 146,
+  "FormClass": "Tessa.UI.Cards.Forms.DefaultFormType",
+  "Forms": [],
+  "FormSettings": {
+    "FilePreviewIsDisabled": false,
+    "HorizontalInterval::int": 10,
+    "Interval::int": 10
+  },
+  "Group": "Settings",
+  "ID::uid": "4bd4b312-fd74-427f-ace0-50f2673c5e76",
+  "InstanceType::int": 0,
+  "Name": "MobileLogStatusTab",
+  "SchemeItems": [
+    {
+      "ColumnIDList": [
+        {
+          "::types": [
+            "uid",
+            "uid"
+          ]
+        },
+        "2f0f778b-262f-4b21-807d-f737a37dac26",
+        "531319e2-1cf2-4ffe-af9c-83083c4efc10"
+      ],
+      "SectionID::uid": "c7af5a3f-1c43-4f6c-95c6-512205df9cda"
+    }
+  ],
+  "TabCaption": "$CardTypes_Tabs_Card",
+  "TabOrder::int": 0,
+  "Validators": []
+}
